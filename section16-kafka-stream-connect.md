@@ -9,18 +9,18 @@ This will reduce effort in building the Kafka Producer:
 1. Get a Docker account which can be created for free via https://www.docker.com/
 2. Install Docker Desktop via https://docs.docker.com/desktop/
 3. Open Docker, search for apache/kafka latest image by using the **Search** bar then click **Pull**
-    <img src="screenshots/sc_docker_pull.png" width="800">
+    <img src="screenshots/sc_docker_pull.png" height="400">
 4. Go to **Images**, **Run** the Docker Image, accept defaults
-    <img src="screenshots/sc_docker_run.png" width="800">
+    <img src="screenshots/sc_docker_run.png" height="400">
 6. Go to Containers and see the newly created container with a randomized name; in the example below, it is vigilant_bartik and agitated_ardinghelli
-    <img src="screenshots/sc_docker_image.png" width="800">
+    <img src="screenshots/sc_docker_image.png" height="400">
 7. This will be the image you will use for Part X. Alternatively you can execute all of the steps in Part X in your local machine
 
 ### Part 1: Creating a data source
 1. Go to All > search for **Data Sources**
-    <img src="screenshots/sc_data_source_start.png" width="800">
+    <img src="screenshots/sc_data_source_start.png" height="400">
 2. Click **New**
-    <img src="screenshots/sc_data_source_new.png" width="800">
+    <img src="screenshots/sc_data_source_new.png" height="400">
 3. Fill in the details for:
 - a. Name, put in a descriptive name like **CMDB Data Array [Your Initials]**
 - b. Import set table label, this will populate the **Import set table name**
@@ -28,9 +28,9 @@ This will reduce effort in building the Kafka Producer:
 - d. Format, select **JSON**
 - e. Put in **Path for each row** the characters **//**
 - f. Tick **Data in single column**
-    <img src="screenshots/sc_data_source_create.png" width="800">
+    <img src="screenshots/sc_data_source_create.png" height="400">
 - g. Right click on the header and click **Save**
-    <img src="screenshots/sc_data_source_save.png" width="800">
+    <img src="screenshots/sc_data_source_save.png" height="400">
 
 5. Create a JSON file which has the structure of the data source. You can use the text below and save the file as **cmdb complex data array.json**
 ```
@@ -61,7 +61,7 @@ This will reduce effort in building the Kafka Producer:
 }]
 ```
 6. Upload the JSON file you just created
-    <img src="screenshots/sc_data_source_json.png" width="800">
+    <img src="screenshots/sc_data_source_json.png" height="400">
 7. Right click on the header and click Save
     <img src="screenshots/sc_data_source_save.png" width="800">
 8. Under Related Links click on Test Load 20 Records
