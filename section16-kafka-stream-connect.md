@@ -1,26 +1,36 @@
 # Section 16: Kafka Stream Connect Lab Guide
 
-### Pre-requisites Part 1 - Mandatory:
+### Pre-requisites - Mandatory:
 1. This lab is for ServiceNow internal only
 2. Ensure you are able to HOP to hermes1 via this URL: http://hihop.service-now.com/hop.do?sysparm_instance=hermes1&mode=readwrite
 
-### Pre-requisites Part 1 - Recommended:
+### Pre-requisites - Recommended:
 This will reduce effort in building the Kafka Producer:
 1. Get a Docker account which can be created for free via https://www.docker.com/
 2. Install Docker Desktop via https://docs.docker.com/desktop/
 3. Open Docker, search for apache/kafka latest image by using the **Search** bar then click **Pull**
-    <img src="screenshots/sc_docker_pull.png" height="400">
+   <img src="screenshots/sc_docker_pull.png" height="400">
+
 4. Go to **Images**, **Run** the Docker Image, accept defaults
-    <img src="screenshots/sc_docker_run.png" height="400">
-6. Go to Containers and see the newly created container with a randomized name; in the example below, it is vigilant_bartik and agitated_ardinghelli
-    <img src="screenshots/sc_docker_image.png" height="400">
-7. This will be the image you will use for Part X. Alternatively you can execute all of the steps in Part X in your local machine
+
+   <img src="screenshots/sc_docker_run.png" height="400">
+
+5. Go to Containers and see the newly created container with a randomized name; in the example below, it is vigilant_bartik and agitated_ardinghelli
+
+   <img src="screenshots/sc_docker_image.png" height="400">
+
+6. This will be the image you will use for Part X. Alternatively you can execute all of the steps in Part X in your local machine
+
 
 ### Part 1: Creating a data source
 1. Go to All > search for **Data Sources**
-    <img src="screenshots/sc_data_source_start.png" height="400">
+
+<img src="screenshots/sc_data_source_start.png" height="400">
+
 2. Click **New**
-    <img src="screenshots/sc_data_source_new.png" height="400">
+
+<img src="screenshots/sc_data_source_new.png" height="400">
+
 3. Fill in the details for:
 - a. Name, put in a descriptive name like **CMDB Data Array [Your Initials]**
 - b. Import set table label, this will populate the **Import set table name**
@@ -28,11 +38,14 @@ This will reduce effort in building the Kafka Producer:
 - d. Format, select **JSON**
 - e. Put in **Path for each row** the characters **//**
 - f. Tick **Data in single column**
-    <img src="screenshots/sc_data_source_create.png" height="400">
-- g. Right click on the header and click **Save**
-    <img src="screenshots/sc_data_source_save.png" height="400">
 
-5. Create a JSON file which has the structure of the data source. You can use the text below and save the file as **cmdb complex data array.json**
+  <img src="screenshots/sc_data_source_create.png" height="400">
+
+- g. Right click on the header and click **Save**
+
+  <img src="screenshots/sc_data_source_save.png" height="400">
+
+4. Create a JSON file which has the structure of the data source. You can use the text below and save the file as **cmdb complex data array.json**
 ```
 [{
     "table_name": "cmdb_ci_win_server",
@@ -60,21 +73,34 @@ This will reduce effort in building the Kafka Producer:
     }              
 }]
 ```
-6. Upload the JSON file you just created
+5. Upload the JSON file you just created
+- a. Select the clip icon
+- b. Click **Choose file** and upload the file from your machine
     <img src="screenshots/sc_data_source_json.png" height="400">
-7. Right click on the header and click Save
-    <img src="screenshots/sc_data_source_save.png" width="800">
-8. Under Related Links click on Test Load 20 Records
-    <img src="screenshots/sc_data_source_start.png" width="800">
-9. Click **back**
+
+6. Right click on the header and click Save
+
+    <img src="screenshots/sc_data_source_save.png" height="400">
+
+7. Under Related Links click on Test Load 20 Records
+
+    <img src="screenshots/sc_data_source_start.png" height="400">
+
+8. Click **back**
 
 ### Part 2: Creating the transformation (ETL)
 1. Go to All > search for IntegrationHub ETL
-    <img src="screenshots/sc_ihub.png" width="800">
+
+   <img src="screenshots/sc_ihub.png" height="400">
+   
 2. In IntegrationHub ETL home screen, click Create new
-    <img src="screenshots/sc_ihub_create.png" width="800">
+
+    <img src="screenshots/sc_ihub_create.png" height="400">
+    
 3. Under Specify Basic Details, click on Import Source Data and Provide Basic Details
-    <img src="screenshots/sc_ihub_specify_basic.png" width="800">
+
+   <img src="screenshots/sc_ihub_specify_basic.png" height="400">
+   
 4. Fill in the screen Provide Basic Information for the ETL Transform Map
 - a. CMDB Application, select CMDB Import
 - b. Name, put in a descriptive name like CMDB Complex Nested <Your Initials>
@@ -82,15 +108,17 @@ This will reduce effort in building the Kafka Producer:
 - d. Sample Import Set should populate automatically; if it does not, click on the magnifying glass and click the first item
 - e. Preview Size Override, set to 100
 - f. Click Save then Mark as Complete
-    <img src="screenshots/sc_ihub_specify_basic.png" width="800">
+  
+    <img src="screenshots/sc_ihub_provide_basic.png" height="400">
+    
 5. Under Prepare Source Data for Mapping, click on Preview and Prepare Data
 6. Fill in the screen Provide Basic Information for the ETL Transform Map
 - a. Verify that when clicking on object in the first node of the tree on the left that your fields are similar to the screen here. Sequence is not important.
 - b. Verify that when click on in data in the third node on the tree to the left that your fields are similar to the screen here. This is a wide table so checking the first few fields is sufficient. Sequence is not important.
 - c. Click Mark as Complete
-3. Under Map to CMDB and Add Relationships, click Select CMDB Classes to Map Source Data
+7. Under Map to CMDB and Add Relationships, click Select CMDB Classes to Map Source Data
 - a. Click in Add Conditional Class
-4. A new dialog will pop-up
+8. A new dialog will pop-up
 - a. Collection, select object
 - b. Under If field, select object.table_name is cmdb_ci_linux_server
 - c. Under Then Class field, select Linux Server
@@ -99,27 +127,27 @@ This will reduce effort in building the Kafka Producer:
 - f. Under Then Class field, select Windows Server
 - g. Click Save
 - h. Click Mark as Complete
-5. Set up mapping for Linux Server 1
+9. Set up mapping for Linux Server 1
 - a. Source Native Key > Source Column, click on mapping button, type and select hostname
 - b. Name > Source Column, click on mapping button, type data.name, click on data then click on name
 - c. Product instance identifier > Source Column, click on mapping button, type data.name, click on data then click on name
 - d. Serial number > Source Column, click on mapping button, type data.site_code, click on data then click on site_code
 - e. Click back
-6. Set up mapping for Windows Server 1
+10. Set up mapping for Windows Server 1
 - a. Source Native Key > Source Column, click on mapping button, type and select hostname
 - b. Name > Source Column, click on mapping button, type data.name, click on data then click on name
 - c. Product instance identifier > Source Column, click on mapping button, type data.name, click on data then click on name
 - d. Serial number > Source Column, click on mapping button, type data.site_code, click on data then click on site_code
 - e. Click back
-7. Click Mark as Complete to finish Select CMDB Classes to Map Source Data
-8. Click Add Relationships
+11. Click Mark as Complete to finish Select CMDB Classes to Map Source Data
+12. Click Add Relationships
 - a. Leave this blank this is jus to show the option to add Class Relationships if needed
 - b. Click back
-4. Under Preview Sample Integration Results and Schedule Import, Test and Rollback Integration Results
+13. Under Preview Sample Integration Results and Schedule Import, Test and Rollback Integration Results
 - a. Click Run Integration
 - b. You should see  the results similar to below
 - c. Click back then click Perform Rollback
-5. Set up of ETL Transform Map is complete, click back
+14. Set up of ETL Transform Map is complete, click back
 
 ### Part 3: Setting up the consumer in Stream Connect
 
