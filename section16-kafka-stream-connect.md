@@ -73,47 +73,47 @@ This will reduce effort in building the Kafka Producer:
 2. In IntegrationHub ETL home screen, click Create new
 3. Under Specify Basic Details, click on Import Source Data and Provide Basic Details
 4. Fill in the screen Provide Basic Information for the ETL Transform Map
-a. CMDB Application, select CMDB Import
-b. Name, put in a descriptive name like CMDB Complex Nested <Your Initials>
-c. Data Source, select the data source you created in Part 1
-d. Sample Import Set should populate automatically; if it does not, click on the magnifying glass and click the first item
-e. Preview Size Override, set to 100
-f. Click Save then Mark as Complete
+- a. CMDB Application, select CMDB Import
+- b. Name, put in a descriptive name like CMDB Complex Nested <Your Initials>
+- c. Data Source, select the data source you created in Part 1
+- d. Sample Import Set should populate automatically; if it does not, click on the magnifying glass and click the first item
+- e. Preview Size Override, set to 100
+- f. Click Save then Mark as Complete
 2. Under Prepare Source Data for Mapping, click on Preview and Prepare Data
-a. Verify that when clicking on object in the first node of the tree on the left that your fields are similar to the screen here. Sequence is not important.
-b. Verify that when click on in data in the third node on the tree to the left that your fields are similar to the screen here. This is a wide table so checking the first few fields is sufficient. Sequence is not important.
-c. Click Mark as Complete
+- a. Verify that when clicking on object in the first node of the tree on the left that your fields are similar to the screen here. Sequence is not important.
+- b. Verify that when click on in data in the third node on the tree to the left that your fields are similar to the screen here. This is a wide table so checking the first few fields is sufficient. Sequence is not important.
+- c. Click Mark as Complete
 3. Under Map to CMDB and Add Relationships, click Select CMDB Classes to Map Source Data
-a. Click in Add Conditional Class
+- a. Click in Add Conditional Class
 4. A new dialog will pop-up
-a. Collection, select object
-b. Under If field, select object.table_name is cmdb_ci_linux_server
-c. Under Then Class field, select Linux Server
-d. Click New Criteria
-e. Under If field, select object.table_name is cmdb_ci_win_server
-f. Under Then Class field, select Windows Server
-g. Click Save
-h. Click Mark as Complete
+- a. Collection, select object
+- b. Under If field, select object.table_name is cmdb_ci_linux_server
+- c. Under Then Class field, select Linux Server
+- d. Click New Criteria
+- e. Under If field, select object.table_name is cmdb_ci_win_server
+- f. Under Then Class field, select Windows Server
+- g. Click Save
+- h. Click Mark as Complete
 5. Set up mapping for Linux Server 1
-a. Source Native Key > Source Column, click on mapping button, type and select hostname
-b. Name > Source Column, click on mapping button, type data.name, click on data then click on name
-c. Product instance identifier > Source Column, click on mapping button, type data.name, click on data then click on name
-d. Serial number > Source Column, click on mapping button, type data.site_code, click on data then click on site_code
-e. Click back
+- a. Source Native Key > Source Column, click on mapping button, type and select hostname
+- b. Name > Source Column, click on mapping button, type data.name, click on data then click on name
+- c. Product instance identifier > Source Column, click on mapping button, type data.name, click on data then click on name
+- d. Serial number > Source Column, click on mapping button, type data.site_code, click on data then click on site_code
+- e. Click back
 6. Set up mapping for Windows Server 1
-a. Source Native Key > Source Column, click on mapping button, type and select hostname
-b. Name > Source Column, click on mapping button, type data.name, click on data then click on name
-c. Product instance identifier > Source Column, click on mapping button, type data.name, click on data then click on name
-d. Serial number > Source Column, click on mapping button, type data.site_code, click on data then click on site_code
-e. Click back
+- a. Source Native Key > Source Column, click on mapping button, type and select hostname
+- b. Name > Source Column, click on mapping button, type data.name, click on data then click on name
+- c. Product instance identifier > Source Column, click on mapping button, type data.name, click on data then click on name
+- d. Serial number > Source Column, click on mapping button, type data.site_code, click on data then click on site_code
+- e. Click back
 7. Click Mark as Complete to finish Select CMDB Classes to Map Source Data
 8. Click Add Relationships
-a. Leave this blank this is jus to show the option to add Class Relationships if needed
-b. Click back
+- a. Leave this blank this is jus to show the option to add Class Relationships if needed
+- b. Click back
 4. Under Preview Sample Integration Results and Schedule Import, Test and Rollback Integration Results
-a. Click Run Integration
-b. You should see  the results similar to below
-c. Click back then click Perform Rollback
+- a. Click Run Integration
+- b. You should see  the results similar to below
+- c. Click back then click Perform Rollback
 5. Set up of ETL Transform Map is complete, click back
 
 ### Part 3: Setting up the consumer in Stream Connect
