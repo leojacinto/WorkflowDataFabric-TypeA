@@ -70,8 +70,11 @@ This will reduce effort in building the Kafka Producer:
 
 ### Part 2: Creating the transformation (ETL)
 1. Go to All > search for IntegrationHub ETL
+    <img src="screenshots/sc_ihub.png" width="800">
 2. In IntegrationHub ETL home screen, click Create new
+    <img src="screenshots/sc_ihub_create.png" width="800">
 3. Under Specify Basic Details, click on Import Source Data and Provide Basic Details
+    <img src="screenshots/sc_ihub_specify_basic.png" width="800">
 4. Fill in the screen Provide Basic Information for the ETL Transform Map
 - a. CMDB Application, select CMDB Import
 - b. Name, put in a descriptive name like CMDB Complex Nested <Your Initials>
@@ -79,7 +82,9 @@ This will reduce effort in building the Kafka Producer:
 - d. Sample Import Set should populate automatically; if it does not, click on the magnifying glass and click the first item
 - e. Preview Size Override, set to 100
 - f. Click Save then Mark as Complete
-2. Under Prepare Source Data for Mapping, click on Preview and Prepare Data
+    <img src="screenshots/sc_ihub_specify_basic.png" width="800">
+5. Under Prepare Source Data for Mapping, click on Preview and Prepare Data
+6. Fill in the screen Provide Basic Information for the ETL Transform Map
 - a. Verify that when clicking on object in the first node of the tree on the left that your fields are similar to the screen here. Sequence is not important.
 - b. Verify that when click on in data in the third node on the tree to the left that your fields are similar to the screen here. This is a wide table so checking the first few fields is sufficient. Sequence is not important.
 - c. Click Mark as Complete
