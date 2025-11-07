@@ -1,4 +1,4 @@
-# Section 15: Zero Copy Connectors Lab Guide
+# Section 16: Kafka Stream Connect Lab Guide
 
 ### Pre-requisites Part 1 - Mandatory:
 1. This lab is for ServiceNow internal only
@@ -8,10 +8,12 @@
 This will reduce effort in building the Kafka Producer:
 1. Get a Docker account which can be created for free via https://www.docker.com/
 2. Install Docker Desktop via https://docs.docker.com/desktop/
-3. Pull the apache/kafka latest image (add screenshot)
-4. Go to Images, run the Docker Image, accept defaults (add screenshot)
-5. Go to Containers and see the newly created container with a randomized name (add screenshot)
-6. This will be the image you will use for Part X. Alternatively you can execute all of the steps in Part X in your local machine
+3. Open Docker, search for apache/kafka latest image by using the **Search** bar then click **Pull**
+    <img src="screenshots/sc_docker_pull.png" width="800">
+4. Go to **Images**, **Run** the Docker Image, accept defaults
+    <img src="screenshots/sc_docker_run.png" width="800">
+6. Go to Containers and see the newly created container with a randomized name (add screenshot)
+7. This will be the image you will use for Part X. Alternatively you can execute all of the steps in Part X in your local machine
 
 ### Part 1: Creating a data source
 1. Go to All > search for Data Sources
