@@ -353,5 +353,12 @@ ssl.truststore.type=PKCS12
 16. Go to the **Exec** portion of the docker image
 
 <img src="screenshots/sc_producer_exec.png" height="300">
-    
 
+17. Execute the commands below to copy the certificates downloaded form the ServiceNow instance. Take careful note of the filenames as the filenames of the downloaded certificates may vary
+```
+cp /opt/kafka/config/servicenow_certs/keystore.p12 /opt/kafka/config/kafka.server.keystore.p12
+
+cp /opt/kafka/config/servicenow_certs/truststore.p12 /opt/kafka/config/kafka.server.truststore.p12
+```
+
+18. The Kafka Producer is now ready to securely connect with the ServiceNow instance.
