@@ -1,10 +1,10 @@
 # Section 16: Kafka Stream Connect Lab Guide
 
-### Pre-requisites - Mandatory:
+### Pre-requisites: Mandatory
 1. This lab is for ServiceNow internal only
 2. Ensure you are able to HOP to hermes1 via this URL: http://hihop.service-now.com/hop.do?sysparm_instance=hermes1&mode=readwrite
 
-### Pre-requisites - Recommended:
+### Pre-requisites: Recommended
 This will reduce effort in building the Kafka Producer:
 1. Get a Docker account which can be created for free via https://www.docker.com/
 2. Install Docker Desktop via https://docs.docker.com/desktop/
@@ -19,8 +19,9 @@ This will reduce effort in building the Kafka Producer:
 
    <img src="screenshots/sc_docker_image.png" height="400">
 
-6. This will be the image you will use for Part X. Alternatively you can execute all of the steps in Part X in your local machine
+6. This will be the image you will use for **Part 5: Sending messages from Kafka Producer**. Alternatively you can execute all of the steps in **Part 4: Setting up a Kafka Producer** in your local machine by setting up Apache Kafka in your local machine.
 
+---
 
 ### Part 1: Creating a data source
 1. Go to All > search for **Data Sources**
@@ -86,6 +87,8 @@ This will reduce effort in building the Kafka Producer:
 7. Under Related Links click on **Test Load 20 Records**
 
     <img src="screenshots/sc_data_source_test_load.png" height="200">
+
+---
 
 ### Part 2: Creating the transformation (ETL)
 1. Go to **All** > search for **IntegrationHub ETL**
@@ -210,6 +213,8 @@ This will reduce effort in building the Kafka Producer:
 14. Set up of ETL Transform Map is complete, click back
    <img src="screenshots/sc_ihub_complete.png" height="300">
 
+---
+
 ### Part 3: Setting up the consumer in Stream Connect
 1. Go to All > search for **Stream Connect Home**
 
@@ -219,9 +224,32 @@ This will reduce effort in building the Kafka Producer:
 
 <img src="screenshots/sc_sc_create_consumer.png" height="300">
 
-3. Select ETL Consumer
+3. Select **ETL Consumer**
 
  <img src="screenshots/sc_sc_etl_consumer.png" height="300">
 
-4.
+4. Provide the details of the RTE consumer
+- a. **Name**, put a descriptive name
+- b. **Robust import set transformer**, select the Integration Hub ETL you created in Part 2
 
+ <img src="screenshots/sc_sc_rte_consumer.png" height="300">
+
+5. Right click on the header and click **Save**
+
+  <img src="screenshots/sc_data_source_save.png" height="400">
+
+6. At the bottom part of the **Kafka RTE Consumer** screen within the **Kafka Streams** box , click **New**
+
+  <img src="screenshots/sc_sc_new_kafka_stream.png" height="400">
+
+7. Provide the details of the Kafka Stream
+- a. **Name**, put a descriptive name
+- b. **Topic**, select wdftosn
+
+ <img src="screenshots/sc_sc_rte_consumer.png" height="300">
+
+8. Right click on the header and click **Save**
+
+  <img src="screenshots/sc_data_source_save.png" height="400">
+
+9. 
