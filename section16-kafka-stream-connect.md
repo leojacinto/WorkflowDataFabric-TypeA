@@ -184,15 +184,27 @@ This will reduce effort in building the Kafka Producer:
     <img src="screenshots/sc_ihub_map_data_add.png" height="300">
    
 13. Click Add Relationships
-- a. Leave this blank this is jus to show the option to add Class Relationships if needed
+- a. Leave this blank; this is just to show the option to add Class Relationships if needed
 - b. Click back
 
    <img src="screenshots/sc_ihub_map_data_add_complete.png" height="300">
 
 13. Under Preview Sample Integration Results and Schedule Import, Test and Rollback Integration Results
+
+
+14. Run an integration test
 - a. Click Run Integration
+
+   <img src="screenshots/sc_ihub_run_integration.png" height="300">
+
 - b. You should see  the results similar to below
+
+   <img src="screenshots/sc_ihub_run_integration.png" height="300">
+
 - c. Click back then click Perform Rollback
+
+   <img src="screenshots/sc_ihub_rollback_integration.png" height="300">
+   
 14. Set up of ETL Transform Map is complete, click back
 
 ### Part 3: Setting up the consumer in Stream Connect
