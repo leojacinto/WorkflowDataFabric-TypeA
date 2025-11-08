@@ -76,6 +76,7 @@ This will reduce effort in building the Kafka Producer:
 5. Upload the JSON file you just created
 - a. Select the clip icon
 - b. Click **Choose file** and upload the file from your machine
+
     <img src="screenshots/sc_data_source_json.png" height="200">
 
 6. Right click on the header and click Save
