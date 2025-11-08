@@ -283,7 +283,7 @@ Kafka can also be set up in your local machine using **Step 1: Get Kafka** with 
 
 <img src="screenshots/sc_producer_pki.png" height="300">
 
-2.Set up the certificate password and ACL
+2. Set up the certificate password and ACL
 -a. Provide a password with a minimum of 8 characters. For the example used in this lab, it will be **streamconnect**
 -b. Click **Configure Acl**
 
