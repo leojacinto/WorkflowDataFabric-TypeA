@@ -394,7 +394,7 @@ In the text above, take note of the following portion below which you should rep
 
 <img src="screenshots/sc_producer_message_sent.png" height="400">
 
-5. Go back to the ServiceNow instance > All > type **cmdb_ci_win_server**
+5. Go back to the ServiceNow instance > All > type **cmdb_ci_win_server.list** and hit **Enter ↵**
 
 <img src="screenshots/sc_producer_servers.png" height="300">
 
