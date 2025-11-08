@@ -1,7 +1,7 @@
 # Section 16: Kafka Stream Connect Lab Guide
 
 ### Pre-requisites: Mandatory
-1. This lab is for ServiceNow internal only
+1. This lab is for ServiceNow internal only. You will nto be able to access the ServiceNow instance in this exercise without a ServiceNow internal account.
 2. Ensure you are able to HOP to hermes1 via this URL: http://hihop.service-now.com/hop.do?sysparm_instance=hermes1&mode=readwrite
 
 ### Pre-requisites: Recommended
