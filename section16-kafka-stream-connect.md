@@ -1,10 +1,34 @@
-# Section 16: Kafka Stream Connect Lab Guide
+# Section 16: Stream Connect for Apache Kafka Lab Guide
 
-### Pre-requisites: Mandatory
+### Business motivation
+Real-time visibility and agility are critical for making informed business decisions and delivering exceptional service experiences. Traditional integration methods that rely on scheduled jobs or polling introduce delays, data inconsistencies, and operational inefficiencies.
+
+Stream Connect for Apache Kafka transforms how ServiceNow interacts with external systems by enabling event-driven data exchange. With Stream Connect, your ServiceNow platform can publish and subscribe to data streams, ensuring that key business events such as incident updates, configuration item (CI) changes, or operational alerts are communicated instantly across systems.
+
+This capability empowers organizations to:
+- Accelerate decision-making with up-to-the-minute data.
+- Reduce integration overhead by eliminating batch processing and manual synchronization.
+- Enhance operational resilience through real-time monitoring and automated responses.
+- Enable scalable digital transformation by integrating seamlessly with modern event-streaming platforms like Apache Kafka.
+
+### Persona context
+In this lab, you’ll step into the role of an Integration Architect or Integration Developer responsible for designing high-performance, event-driven integrations. Your task: configure Stream Connect for Apache Kafka in ServiceNow to ingest CMDB data from Kafka producers, bridging your organization’s ServiceNow environment with its broader data ecosystem.
+
+### Outcome
+By completing this lab, participants will gain practical experience implementing real-time, scalable integrations that support modern enterprise use cases, enabling faster insights, proactive operations, and a more connected digital business.
+
+Let’s get Streameeey! 🚀
+
+ <img src="screenshots/sc_persona.png" height="400">
+
+---
+
+### Access pre-requisites: Mandatory
 1. This lab is for ServiceNow internal only. You will nto be able to access the ServiceNow instance in this exercise without a ServiceNow internal account
 2. Ensure you are able to HOP to hermes1 via this URL: http://hihop.service-now.com/hop.do?sysparm_instance=hermes1&mode=readwrite
 
-### Pre-requisites: Recommended
+### Set-up pre-requisites
+#### Recommended Docker option
 This will reduce effort in building the Kafka Producer:
 1. Get a Docker account which can be created for free via https://www.docker.com/
 2. Install Docker Desktop via https://docs.docker.com/desktop/
@@ -21,7 +45,7 @@ This will reduce effort in building the Kafka Producer:
 
 6. This will be the image you will use for **Part 5: Sending messages from Kafka Producer**. Alternatively you can execute all of the steps in **Part 4: Setting up a Kafka Producer** in your local machine by setting up Apache Kafka in your local machine
 
-### Pre-requisites: Local machine option
+### Alternative local machine option
 Kafka can also be set up in your local machine using in this page https://kafka.apache.org/quickstart > **Step 1: Get Kafka** with JVM 17+ installed in your machine
 
 ---
@@ -411,3 +435,8 @@ In the text above, take note of the following portion below which you should rep
 <img src="screenshots/sc_producer_cleanup.png" height="400">
 
 8. Congratulations on building your Kafka Stream Connect integration with ServiceNow!
+---
+**Part 6: Additional Resources**
+- [Stream Connect for Apache Kafka Data Sheet](https://www.servicenow.com/au/standard/resource-center/data-sheet/ds-stream-connect-for-apache-kafka.html)
+- [Stream Connect for Apache Kafka Overview](https://learning.servicenow.com/lxp/en?id=learning_course_prev&course_id=0a25082c473ae950123f3975d36d43d6)
+- [Stream Connect Quick Start Guide](https://www.servicenow.com/docs/bundle/zurich-integrate-applications/page/administer/integrationhub/concept/stream-connect-quick-start.html)
