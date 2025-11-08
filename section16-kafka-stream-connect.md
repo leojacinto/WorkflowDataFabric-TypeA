@@ -21,6 +21,9 @@ This will reduce effort in building the Kafka Producer:
 
 6. This will be the image you will use for **Part 5: Sending messages from Kafka Producer**. Alternatively you can execute all of the steps in **Part 4: Setting up a Kafka Producer** in your local machine by setting up Apache Kafka in your local machine.
 
+### Pre-requisites: Local machine option
+Kafka can also be set up in your local machine using **Step 1: Get Kafka** with JVM 17+ installed in your machine: https://kafka.apache.org/quickstart
+
 ---
 
 ### Part 1: Creating a data source
@@ -272,4 +275,83 @@ This will reduce effort in building the Kafka Producer:
 13. This will show statistics of the consumer; optionally clicking on **Manage RTE** will show the configurations created from steps 4 to 11
 
   <img src="screenshots/sc_sc_active_consumer_stats.png" height="400">
+
+---
+
+**Part 4: Setting up a Kafka Producer**
+1. Go to All > search for **Instance PKI Certificate Generator**
+
+<img src="screenshots/sc_producer_pki.png" height="300">
+
+2.Set up the certificate password and ACL
+-a. Provide a password with a minimum of 8 characters. For the example used in this lab, it will be **streamconnect**
+-b. Click **Configure Acl**
+
+<img src="screenshots/sc_producer_password_acl.png" height="300">
+
+3. In the **Namespaces** section by clicking the radio button of the same name, select all of the namespaces to avoid any authorization issues. In a real environment, it is necessary to identify the correct namespace
+
+<img src="screenshots/sc_producer_select_namespace.png" height="300">
+
+4. Once the namespaces are selected, it should look similar to the screen below
+
+<img src="screenshots/sc_producer_namespaces_selected.png" height="300">
+
+5. In the **Defined Topics** section by clicking the radio button of the same name, select **wdftosn**
+   
+<img src="screenshots/sc_producer_select_topic.png" height="300">
+
+6. Once the topic selected, it should look similar to the screen below. Click **Save**
+
+<img src="screenshots/sc_producer_topic_selected.png" height="300">
+
+7. Generate the certificate
+
+<img src="screenshots/sc_producer_generate_certificate.png" height="300">
+
+8. After a few seconds, the certificates are ready to download. Click on **Download Keystore** and **Download Trustore** to obtain the respective files
+
+<img src="screenshots/sc_producer_download_certificate.png" height="300">
+
+9. Put the downloaded files into a folder called **servicenow_certs**. Doing this will avoid permission issues in the next steps.
+
+10. The next steps can be done in docker desktop or in  your own machine. Steps 11 to ___ shows how it can be done in docker and the docker specific steps can be omitted if this is done in your local machine.
+
+11. Open docker desktop, go to Containers, ensure the the image created in part **Pre-requisites: Recommended** has been started indicated by a green dot beside it. If not, click on the **Start** button (play icon). In this example, the image name is awesome_cerf. You will have a randomized image name
+
+<img src="screenshots/sc_producer_start_container.png" height="300">
+
+12. Go to **Files** > in the file browser navigate to the path opt > kafka > config > **producer.properties** > click **Open file editor**
+
+<img src="screenshots/sc_producer_properties.png" height="300">
+
+13. Paste the text below in the **producer.properties** file. Notice the path of the file in the screenshot as well as the placement of the text in the screenshot below in case of any doubt. Note that the certificates generated in the earlier steps are not uploaded to the docker image yet at this stage
+
+```
+bootstrap.servers=hermes1.service-now.com:4000,hermes1.service-now.com:4001,hermes1.service-now.com:4002,hermes1.service-now.com:4003
+
+security.protocol=SSL
+ssl.keystore.location=/opt/kafka/config/kafka.server.keystore.p12
+ssl.keystore.password=streamconnect
+ssl.keystore.type=PKCS12
+
+ssl.truststore.location=/opt/kafka/config/kafka.server.truststore.p12
+ssl.truststore.password=streamconnect
+ssl.truststore.type=PKCS12
+```
+
+<img src="screenshots/sc_producer_properties_content.png" height="300">
+
+14. Staying in the **Files** section of your container, navigate to opt > kafka > config, right click on _any_ file then click "Import"
+
+<img src="screenshots/sc_producer_import_cert.png" height="300">
+
+15. Navigate to the servicenow_certs created in step 9 which contains the certificates from the ServiceNow instance then select the folder (**DO NOT** double-click)
+
+<img src="screenshots/sc_producer_import_cert_upload.png" height="300">
+
+16. Go to the **Exec** portion of the docker image
+
+<img src="screenshots/sc_producer_exec.png" height="300">
+    
 
