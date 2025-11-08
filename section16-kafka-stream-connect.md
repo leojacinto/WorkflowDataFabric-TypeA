@@ -404,7 +404,7 @@ In the text above, take note of the following portion below which you should rep
   
 <img src="screenshots/sc_producer_servers_validate.png" height="400">
 
-7. If everything is successful, go back to the docker image. Press **Command + C** in Mac or **Ctrl + C** in Windows to cancel your message sending session.
+7. If everything is successful, go back to the docker image. Press **Command + C** in Mac or **Ctrl + C** in Windows to cancel your message sending session
 - a. If everything is working normally, this will result in the prompt displaying **^C/ $** and a blinking cursor like below
 - b. Stop the image. If needed, it can be deleted (bin icon), and if you have no further use for docker desktop, you can remove it from your machine
 
