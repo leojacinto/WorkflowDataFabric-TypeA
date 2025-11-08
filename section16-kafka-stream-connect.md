@@ -326,7 +326,11 @@ Kafka can also be set up in your local machine using **Step 1: Get Kafka** with 
 
 <img src="screenshots/sc_producer_properties.png" height="400">
 
-13. Paste the text below in the **producer.properties** file. Notice the path of the file in the screenshot as well as the placement of the text in the screenshot below in case of any doubt. Note that the certificates generated in the earlier steps are not uploaded to the docker image yet at this stage
+13. Paste the text below in the **producer.properties** file. Notice the path of the file in the screenshot as well as the placement of the text in the screenshot below in case of any doubt. 
+
+**Note** that the certificates generated in the earlier steps are not uploaded to the docker image yet at this stage
+
+**Note** that the password below should be adjusted to the password that you used in **step 4**!
 
 ```
 bootstrap.servers=hermes1.service-now.com:4000,hermes1.service-now.com:4001,hermes1.service-now.com:4002,hermes1.service-now.com:4003
@@ -363,3 +367,49 @@ cp /opt/kafka/config/servicenow_certs/truststore.p12 /opt/kafka/config/kafka.ser
 ```
 
 18. The Kafka Producer is now ready to securely connect with the ServiceNow instance.
+
+---
+**Part 5: Sending messages from Kafka Producer**
+1. Continue working in the **Exec** portion of the docker image and connect to ServiceNow Stream Connect with the command below.
+```
+/opt/kafka/bin/kafka-console-producer.sh \
+  --topic snc.hermes1.sn_streamconnect.wdftosn \
+  --producer.config /opt/kafka/config/producer.properties \
+  --bootstrap-server hermes1.service-now.com:4000,hermes1.service-now.com:4001,hermes1.service-now.com:4002,hermes1.service-now.com:4003
+```
+2. If everything is working correctly, a line with the character **>** and a blinking cursor will appear
+
+<img src="screenshots/sc_producer_connect.png" height="400">
+
+3. Send a message to be processed by Stream Connect with the docker image as the Kafka producer. See the sample message below and modify the body with your intials and the date to make the message unique. The template is as below. This will execute a task that sends messages to Stream Connect through your Kafka Producer. In a productive environment, these can be generated from automated sources. The intent of this example is to manually trigger sending of a Kafka message from the Producer in the docker image 
+```
+{"table_name":"cmdb_ci_win_server","site_code":"k1smwmw1","hostname":"ktitesthostname","action":"ADD","sys_class_name":"cmdb_ci_win_server","data":{"name":"[Your Initials] [Date] K2 Complex Server","site_code":"smwmw1","class2":"Media","entity_type":"media","entity_subtype":"","media_type":"","location_a":"wynnarma","location_z":"wynnarma","last_unit":"00036","first_unit":"00001","mco":"mco","number_wires":"2","facility_detail":"lg-lgss","sec":"swt0001","media_designation":"rd010102"}}
+```
+In the text above, take note of the following portion below which you should replace with your details and date so you can check successful sending of your Kafka message
+```
+"name":"[Your Initials] [Date] K2 Complex Server"
+```
+
+4. If the sending of message is successful, a line with the character **>** and a blinking cursor will appear
+
+<img src="screenshots/sc_producer_message_sent.png" height="400">
+
+5. Go back to the ServiceNow instance > All > type **cmdb_ci_win_server**
+
+<img src="screenshots/sc_producer_servers.png" height="300">
+
+6. This should show the details of the Windows server created in step 3
+- a. Add the field **Updated** using **Update Personalized List** (gear icon)
+- b. Sort the **Updated** field as descending (down arrow)
+- c. Look for the Windows server created in step 3
+  
+<img src="screenshots/sc_producer_servers_validate.png" height="400">
+
+7. If everything is successful, go back to the docker image
+- a. Press **Command + C** in Mac or **Ctrl + C** in Windows to cancel your message sending session.
+- b. If everything is working normally, this will result in the prompt displaying **^C/ $** and a blinking cursor like below
+- c. Stop the image. If needed, it can be deleted (bin icon), and if you have no further use for docker desktop, you can remove it from your machine
+
+<img src="screenshots/sc_producer_servers_cleanup.png" height="400">
+
+8. Congratulations on building your Kafka Stream Connect integration with ServiceNow!
