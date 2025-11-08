@@ -76,7 +76,7 @@ This will reduce effort in building the Kafka Producer:
 5. Upload the JSON file you just created
 - a. Select the clip icon
 - b. Click **Choose file** and upload the file from your machine
-    <img src="screenshots/sc_data_source_json.png" height="400">
+    <img src="screenshots/sc_data_source_json.png" height="200">
 
 6. Right click on the header and click Save
 
@@ -124,7 +124,7 @@ This will reduce effort in building the Kafka Producer:
 
 7. Under Map to CMDB and Add Relationships, click Select CMDB Classes to Map Source Data
 
-    <img src="screenshots/sc_ihub_map_data_select.png" height="300">
+    <img src="screenshots/sc_ihub_map_data_select.png" height="250">
 
 8. Click in Add Conditional Class
 
@@ -148,7 +148,7 @@ This will reduce effort in building the Kafka Producer:
 10. Fill up the details for Linux Server 1
 - a. **Source Native Key** > **Source Column**, click on mapping button, type and select **hostname**
 
-    <img src="screenshots/sc_ihub_linux_host.png" height="400">
+    <img src="screenshots/sc_ihub_linux_host.png" height="350">
 
 - b. **Name** > **Source Column**, click on mapping button, type **data.name**, click on data then click on **name**
 
@@ -195,13 +195,13 @@ This will reduce effort in building the Kafka Producer:
 14. Run an integration test
 - a. Click Run Integration
 
-   <img src="screenshots/sc_ihub_run_integration.png" height="300">
+   <img src="screenshots/sc_ihub_run_integration.png" height="200">
 
-- b. You should see  the results similar to below
+- b. You should see the results similar to below
 
-   <img src="screenshots/sc_ihub_run_integration.png" height="300">
+   <img src="screenshots/sc_ihub_integration_result.png" height="300">
 
-- c. Click back then click Perform Rollback
+- c. Click back then click **Perform Rollback**
 
    <img src="screenshots/sc_ihub_rollback_integration.png" height="300">
    
