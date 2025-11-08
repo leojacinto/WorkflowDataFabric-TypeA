@@ -85,7 +85,7 @@ This will reduce effort in building the Kafka Producer:
 
 7. Under Related Links click on **Test Load 20 Records**
 
-    <img src="screenshots/sc_test_load.png" height="200">
+    <img src="screenshots/sc_data_source_test_load.png" height="200">
 
 ### Part 2: Creating the transformation (ETL)
 1. Go to All > search for IntegrationHub ETL
@@ -149,7 +149,7 @@ This will reduce effort in building the Kafka Producer:
 10. Fill up the details for Linux Server 1
 - a. **Source Native Key** > **Source Column**, click on mapping button, type and select **hostname**
 
-    <img src="screenshots/sc_ihub_linux_host.png" height="350">
+    <img src="screenshots/sc_ihub_linux_host.png" height="300">
 
 - b. **Name** > **Source Column**, click on mapping button, type **data.name**, click on data then click on **name**
 
