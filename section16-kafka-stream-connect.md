@@ -134,23 +134,41 @@ This will reduce effort in building the Kafka Producer:
 - a. Collection, select object
 - b. Under If field, select object.table_name is cmdb_ci_linux_server
 - c. Under Then Class field, select Linux Server
-- d. Click New Criteria
+- d. Click New Criteria (not in screenshot)
 - e. Under If field, select object.table_name is cmdb_ci_win_server
 - f. Under Then Class field, select Windows Server
 - g. Click Save
-- h. Click Mark as Complete
+
+    <img src="screenshots/sc_ihub_add_class.png" height="400">
+
 9. Set up mapping for Linux Server 1
-- a. Source Native Key > Source Column, click on mapping button, type and select hostname
-- b. Name > Source Column, click on mapping button, type data.name, click on data then click on name
-- c. Product instance identifier > Source Column, click on mapping button, type data.name, click on data then click on name
-- d. Serial number > Source Column, click on mapping button, type data.site_code, click on data then click on site_code
-- e. Click back
+
+    <img src="screenshots/sc_ihub_select_linux_mapping.png" height="400">
+    
+10. Fill up the details for Linux Server 1
+- a. **Source Native Key** > **Source Column**, click on mapping button, type and select **hostname**
+
+    <img src="screenshots/sc_ihub_select_linux_host.png" height="400">
+
+- b. **Name** > **Source Column**, click on mapping button, type **data.name**, click on data then click on **name**
+
+   <img src="screenshots/sc_ihub_select_linux_name.png" height="400">
+
+- c. Using the same approach from the PREVIOUS screenshot, go to **Product instance identifier** > **Source Column**, click on mapping button, type **data.name**, click on data then click on **name**
+
+- d. Using the same approach from the PREVIOUS screenshot, go to **Serial number** > **Source Column**, click on mapping button, type **data.site_code**, click on data then click on **site_code**
+  
+- e. The final output should be similar to below. Click back
+
+   <img src="screenshots/sc_ihub_select_linux_final.png" height="400">
+  
 10. Set up mapping for Windows Server 1
 - a. Source Native Key > Source Column, click on mapping button, type and select hostname
 - b. Name > Source Column, click on mapping button, type data.name, click on data then click on name
 - c. Product instance identifier > Source Column, click on mapping button, type data.name, click on data then click on name
 - d. Serial number > Source Column, click on mapping button, type data.site_code, click on data then click on site_code
-- e. Click back
+- e. Click Mark as Complete
+- f. Click back
 11. Click Mark as Complete to finish Select CMDB Classes to Map Source Data
 12. Click Add Relationships
 - a. Leave this blank this is jus to show the option to add Class Relationships if needed
