@@ -46,7 +46,7 @@ This will reduce effort in building the Kafka Producer:
 
   <img src="screenshots/sc_data_source_save.png" height="400">
 
-4. Create a JSON file which has the structure of the data source. You can use the text below and save the file as **cmdb complex data array.json**
+4. Create a JSON file which has the structure of the data source. Use the text below and save the file as **cmdb complex data array.json**
 ```
 [{
     "table_name": "cmdb_ci_win_server",
@@ -106,7 +106,7 @@ This will reduce effort in building the Kafka Producer:
 4. Fill in the screen **Provide Basic Information for the ETL Transform Map**
 - a. **CMDB Application**, select **CMDB Import**
 - b. **Name**, put in a descriptive name like **CMDB Complex Nested <Your Initials>**
-- c. **Data Source**, select the data source you created in Part 1
+- c. **Data Source**, select the data source created in Part 1
 - d. **Sample Import Set** should populate automatically; if it does not, click on the magnifying glass and click the first item
 - e. **Preview Size Override**, set to **100**
 - f. Click **Save** then **Mark as Complete**
@@ -118,10 +118,10 @@ This will reduce effort in building the Kafka Producer:
     <img src="screenshots/sc_ihub_prepare.png" height="200">
 
 6. Fill in the screen **Provide Basic Information for the ETL Transform Map**
-- a. Verify that when clicking on object in the first node of the tree on the left that your fields are similar to the screen here. Sequence is not important.
+- a. Verify that when clicking on object in the first node of the tree on the left that the fields are similar to the screen here. Sequence is not important.
     <img src="screenshots/sc_ihub_preview_object.png" height="400">
 
-- b. Verify that when click on in data in the third node on the tree to the left that your fields are similar to the screen here. This is a wide table so checking the first few fields is sufficient. Sequence is not important.
+- b. Verify that when click on in data in the third node on the tree to the left that the fields are similar to the screen here. This is a wide table so checking the first few fields is sufficient. Sequence is not important.
 - c. Click **Mark as Complete**
 
     <img src="screenshots/sc_ihub_preview_data.png" height="400">
@@ -202,7 +202,7 @@ This will reduce effort in building the Kafka Producer:
 
    <img src="screenshots/sc_ihub_run_integration.png" height="200">
 
-- b. You should see the results similar to below
+- b. The results should be similar to below
 
    <img src="screenshots/sc_ihub_integration_result.png" height="400">
 
@@ -230,7 +230,7 @@ This will reduce effort in building the Kafka Producer:
 
 4. Provide the details of the RTE consumer
 - a. **Name**, put a descriptive name
-- b. **Robust import set transformer**, select the Integration Hub ETL you created in Part 2
+- b. **Robust import set transformer**, select the Integration Hub ETL created in Part 2
 
  <img src="screenshots/sc_sc_rte_consumer.png" height="300">
 
@@ -245,11 +245,31 @@ This will reduce effort in building the Kafka Producer:
 7. Provide the details of the Kafka Stream
 - a. **Name**, put a descriptive name
 - b. **Topic**, select wdftosn
-
+- c. Click **Activate**
+  
  <img src="screenshots/sc_sc_rte_consumer.png" height="300">
 
 8. Right click on the header and click **Save**
 
   <img src="screenshots/sc_data_source_save.png" height="400">
 
-9. 
+9. If everything is configured correctly, the bottom of the Kafka Streams screen Subscriptions box will show an active stream with details similar to below
+
+  <img src="screenshots/sc_data_active_stream.png" height="400">
+
+10. In the header, press back
+
+  <img src="screenshots/sc_sc_kafka_stream_back.png" height="400">
+
+11. In the **Kafka RTE Consumer** screen, the Kafka Stream created will show as active. Press back
+
+  <img src="screenshots/sc_sc_active_rte.png" height="400">
+
+12. In the **Stream Connect** screen > **Consumers** section, the ETL created will show as active. Click on the consumer name
+
+  <img src="screenshots/sc_sc_active_consumer.png" height="400">
+
+13. This will show statistics of the consumer; optionally clicking on **Manage RTE** will show the configurations created from steps 4 to 11
+
+  <img src="screenshots/sc_sc_active_consumer_stats.png" height="400">
+
