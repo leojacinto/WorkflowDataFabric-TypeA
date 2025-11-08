@@ -255,7 +255,7 @@ This will reduce effort in building the Kafka Producer:
 
 9. If everything is configured correctly, the bottom of the Kafka Streams screen Subscriptions box will show an active stream with details similar to below
 
-  <img src="screenshots/sc_data_active_stream.png" height="400">
+  <img src="screenshots/sc_sc_active_stream.png" height="400">
 
 10. In the header, press back
 
