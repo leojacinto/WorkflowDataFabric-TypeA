@@ -25,7 +25,7 @@ This will reduce effort in building the Kafka Producer:
 ### Part 1: Creating a data source
 1. Go to All > search for **Data Sources**
 
-<img src="screenshots/sc_data_source_start.png" height="400">
+<img src="screenshots/sc_data_source_start.png" height="300">
 
 2. Click **New**
 
@@ -82,16 +82,14 @@ This will reduce effort in building the Kafka Producer:
 
     <img src="screenshots/sc_data_source_save.png" height="400">
 
-7. Under Related Links click on Test Load 20 Records
+7. Under Related Links click on **Test Load 20 Records**
 
-    <img src="screenshots/sc_data_source_start.png" height="400">
-
-8. Click **back**
+    <img src="screenshots/sc_test_load.png" height="200">
 
 ### Part 2: Creating the transformation (ETL)
 1. Go to All > search for IntegrationHub ETL
 
-   <img src="screenshots/sc_ihub.png" height="400">
+   <img src="screenshots/sc_ihub.png" height="300">
    
 2. In IntegrationHub ETL home screen, click Create new
 
@@ -99,7 +97,7 @@ This will reduce effort in building the Kafka Producer:
     
 3. Under Specify Basic Details, click on Import Source Data and Provide Basic Details
 
-   <img src="screenshots/sc_ihub_specify_basic.png" height="400">
+   <img src="screenshots/sc_ihub_specify_basic.png" height="300">
    
 4. Fill in the screen Provide Basic Information for the ETL Transform Map
 - a. CMDB Application, select CMDB Import
@@ -112,13 +110,27 @@ This will reduce effort in building the Kafka Producer:
     <img src="screenshots/sc_ihub_provide_basic.png" height="400">
     
 5. Under Prepare Source Data for Mapping, click on Preview and Prepare Data
+
+    <img src="screenshots/sc_ihub_prepare.png" height="300">
+
 6. Fill in the screen Provide Basic Information for the ETL Transform Map
 - a. Verify that when clicking on object in the first node of the tree on the left that your fields are similar to the screen here. Sequence is not important.
+    <img src="screenshots/sc_ihub_preview_object.png" height="400">
+
 - b. Verify that when click on in data in the third node on the tree to the left that your fields are similar to the screen here. This is a wide table so checking the first few fields is sufficient. Sequence is not important.
 - c. Click Mark as Complete
+
+    <img src="screenshots/sc_ihub_preview_data.png" height="400">
+
 7. Under Map to CMDB and Add Relationships, click Select CMDB Classes to Map Source Data
-- a. Click in Add Conditional Class
-8. A new dialog will pop-up
+
+    <img src="screenshots/sc_ihub_map_data_select.png" height="400">
+
+8. Click in Add Conditional Class
+
+    <img src="screenshots/sc_ihub_select_class.png" height="400">
+
+10. A new dialog will pop-up
 - a. Collection, select object
 - b. Under If field, select object.table_name is cmdb_ci_linux_server
 - c. Under Then Class field, select Linux Server
