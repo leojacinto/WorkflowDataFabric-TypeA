@@ -131,7 +131,7 @@ This will reduce effort in building the Kafka Producer:
 
     <img src="screenshots/sc_ihub_select_class.png" height="400">
 
-10. A new dialog will pop-up
+9. A new dialog will pop-up
 - a. **Collection**, select **object**
 - b. Under **If** field, select **object.table_name** is **cmdb_ci_linux_server**
 - c. Under **Then** **Class** field, select **Linux Server**
@@ -142,11 +142,11 @@ This will reduce effort in building the Kafka Producer:
 
     <img src="screenshots/sc_ihub_add_class.png" height="400">
 
-9. **Set up Mapping** for Linux Server 1
+10. **Set up Mapping** for Linux Server 1
 
     <img src="screenshots/sc_ihub_select_linux_mapping.png" height="200">
     
-10. Fill up the details for Linux Server 1
+11. Fill up the details for Linux Server 1
 - a. **Source Native Key** > **Source Column**, click on mapping button, type and select **hostname**
 
     <img src="screenshots/sc_ihub_linux_host.png" height="250">
@@ -163,11 +163,11 @@ This will reduce effort in building the Kafka Producer:
 
    <img src="screenshots/sc_ihub_linux_final.png" height="500">
   
-10. **Set up Mapping** for Windows Server 1
+12. **Set up Mapping** for Windows Server 1
     
     <img src="screenshots/sc_ihub_select_windows_mapping.png" height="200">
     
-12. Do similar steps done for Linux Server 1 for Windows Server 1
+13. Do similar steps done for Linux Server 1 for Windows Server 1
 - a. **Source Native Key** > **Source Column**, click on mapping button, type and select **hostname**
 - b. **Name** > **Source Column**, click on mapping button, type **data.name**, click on **data** then click on **name**
 - c. **Product instance identifier** > **Source Column**, click on mapping button, type **data.name**, click on **data** then click on **name**
@@ -176,31 +176,32 @@ This will reduce effort in building the Kafka Producer:
 
    <img src="screenshots/sc_ihub_windows_final.png" height="500">
   
-11. Click **Mark as Complete** to finish Select CMDB Classes to Map Source Data
+14. Click **Mark as Complete** to finish Select CMDB Classes to Map Source Data
 
    <img src="screenshots/sc_ihub_map_data_complete.png" height="500">
 
-13. Under **Map to CMDB and Add Relationships**, click **Add Relationships**
+15. Under **Map to CMDB and Add Relationships**, click **Add Relationships**
 
     <img src="screenshots/sc_ihub_map_data_add.png" height="300">
    
-13. Click **Add Relationships**
+16. Click **Add Relationships**
 - a. Leave this blank; this is just to show the option to add Class Relationships if needed
 - b. Click back
 
    <img src="screenshots/sc_ihub_map_data_add_complete.png" height="300">
 
-13. Under **Preview Sample Integration Results and Schedule Import**, click **Test and Rollback Integration Results**
+17. Under **Preview Sample Integration Results and Schedule Import**, click **Test and Rollback Integration Results**
 
+   <img src="screenshots/sc_ihub_preview_sample.png" height="300">
 
-14. Run an integration test
+18. Run an integration test
 - a. Click **Run Integration**
 
    <img src="screenshots/sc_ihub_run_integration.png" height="200">
 
 - b. You should see the results similar to below
 
-   <img src="screenshots/sc_ihub_integration_result.png" height="300">
+   <img src="screenshots/sc_ihub_integration_result.png" height="400">
 
 - c. Click back then click **Perform Rollback**
 
@@ -210,7 +211,17 @@ This will reduce effort in building the Kafka Producer:
    <img src="screenshots/sc_ihub_complete.png" height="300">
 
 ### Part 3: Setting up the consumer in Stream Connect
+1. Go to All > search for **Stream Connect Home**
 
+<img src="screenshots/sc_sc_home.png" height="300">
+   
+2. Go to **Consumers** then click **Create**
 
+<img src="screenshots/sc_sc_create_consumer.png" height="300">
 
+3. Select ETL Consumer
+
+ <img src="screenshots/sc_sc_etl_consumer.png" height="300">
+
+4.
 
