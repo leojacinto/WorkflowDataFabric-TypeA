@@ -149,7 +149,7 @@ This will reduce effort in building the Kafka Producer:
 10. Fill up the details for Linux Server 1
 - a. **Source Native Key** > **Source Column**, click on mapping button, type and select **hostname**
 
-    <img src="screenshots/sc_ihub_linux_host.png" height="300">
+    <img src="screenshots/sc_ihub_linux_host.png" height="250">
 
 - b. **Name** > **Source Column**, click on mapping button, type **data.name**, click on data then click on **name**
 
