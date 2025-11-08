@@ -355,7 +355,7 @@ ssl.truststore.type=PKCS12
 
 <img src="screenshots/sc_producer_exec.png" height="400">
 
-17. Execute the commands below to copy the certificates downloaded form the ServiceNow instance. Take careful note of the filenames as the filenames of the downloaded certificates may vary
+17. Execute the commands below to copy the certificates downloaded form the ServiceNow instance. Take careful note of the filenames as the filenames of the downloaded certificates from the ServiceNow instance may vary
 ```
 cp /opt/kafka/config/servicenow_certs/keystore.p12 /opt/kafka/config/kafka.server.keystore.p12
 
