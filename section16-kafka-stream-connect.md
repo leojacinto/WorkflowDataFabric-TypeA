@@ -206,6 +206,7 @@ This will reduce effort in building the Kafka Producer:
    <img src="screenshots/sc_ihub_rollback_integration.png" height="300">
    
 14. Set up of ETL Transform Map is complete, click back
+   <img src="screenshots/sc_ihub_complete.png" height="300">
 
 ### Part 3: Setting up the consumer in Stream Connect
 
