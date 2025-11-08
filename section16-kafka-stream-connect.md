@@ -97,7 +97,7 @@ This will reduce effort in building the Kafka Producer:
     
 3. Under Specify Basic Details, click on Import Source Data and Provide Basic Details
 
-   <img src="screenshots/sc_ihub_specify_basic.png" height="300">
+   <img src="screenshots/sc_ihub_specify_basic.png" height="200">
    
 4. Fill in the screen Provide Basic Information for the ETL Transform Map
 - a. CMDB Application, select CMDB Import
@@ -111,7 +111,7 @@ This will reduce effort in building the Kafka Producer:
     
 5. Under Prepare Source Data for Mapping, click on Preview and Prepare Data
 
-    <img src="screenshots/sc_ihub_prepare.png" height="300">
+    <img src="screenshots/sc_ihub_prepare.png" height="200">
 
 6. Fill in the screen Provide Basic Information for the ETL Transform Map
 - a. Verify that when clicking on object in the first node of the tree on the left that your fields are similar to the screen here. Sequence is not important.
@@ -124,7 +124,7 @@ This will reduce effort in building the Kafka Producer:
 
 7. Under Map to CMDB and Add Relationships, click Select CMDB Classes to Map Source Data
 
-    <img src="screenshots/sc_ihub_map_data_select.png" height="400">
+    <img src="screenshots/sc_ihub_map_data_select.png" height="200">
 
 8. Click in Add Conditional Class
 
@@ -143,7 +143,7 @@ This will reduce effort in building the Kafka Producer:
 
 9. Set up mapping for Linux Server 1
 
-    <img src="screenshots/sc_ihub_select_linux_mapping.png" height="400">
+    <img src="screenshots/sc_ihub_select_linux_mapping.png" height="200">
     
 10. Fill up the details for Linux Server 1
 - a. **Source Native Key** > **Source Column**, click on mapping button, type and select **hostname**
@@ -160,11 +160,11 @@ This will reduce effort in building the Kafka Producer:
   
 - e. The final output should be similar to below. Click back
 
-   <img src="screenshots/sc_ihub_select_linux_final.png" height="400">
+   <img src="screenshots/sc_ihub_select_linux_final.png" height="500">
   
 10. Set up mapping for Windows Server 1
     
-    <img src="screenshots/sc_ihub_select_windows_mapping.png" height="400">
+    <img src="screenshots/sc_ihub_select_windows_mapping.png" height="200">
     
 12. Do similar steps done for Linux Server 1 for Windows Server 1
 - a. Source Native Key > Source Column, click on mapping button, type and select hostname
@@ -173,7 +173,7 @@ This will reduce effort in building the Kafka Producer:
 - d. Serial number > Source Column, click on mapping button, type data.site_code, click on data then click on site_code
 - e. The final output should be similar to below. Click back
 
-   <img src="screenshots/sc_ihub_select_windows_final.png" height="400">
+   <img src="screenshots/sc_ihub_select_windows_final.png" height="500">
   
 11. Click Mark as Complete to finish Select CMDB Classes to Map Source Data
 12. Click Add Relationships
