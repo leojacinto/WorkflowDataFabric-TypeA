@@ -409,6 +409,6 @@ In the text above, take note of the following portion below which you should rep
 - a. If everything is working normally, this will result in the prompt displaying **^C/ $** and a blinking cursor like below
 - b. Stop the image. If needed, it can be deleted (bin icon), and if you have no further use for docker desktop, you can remove it from your machine
 
-<img src="screenshots/sc_producer_servers_cleanup.png" height="400">
+<img src="screenshots/sc_producer_cleanup.png" height="400">
 
 8. Congratulations on building your Kafka Stream Connect integration with ServiceNow!
