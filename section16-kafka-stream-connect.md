@@ -287,31 +287,31 @@ Kafka can also be set up in your local machine using **Step 1: Get Kafka** with 
 -a. Provide a password with a minimum of 8 characters. For the example used in this lab, it will be **streamconnect**
 -b. Click **Configure Acl**
 
-<img src="screenshots/sc_producer_password_acl.png" height="300">
+<img src="screenshots/sc_producer_password_acl.png" height="400">
 
 3. In the **Namespaces** section by clicking the radio button of the same name, select all of the namespaces to avoid any authorization issues. In a real environment, it is necessary to identify the correct namespace
 
-<img src="screenshots/sc_producer_select_namespace.png" height="300">
+<img src="screenshots/sc_producer_select_namespace.png" height="400">
 
 4. Once the namespaces are selected, it should look similar to the screen below
 
-<img src="screenshots/sc_producer_namespaces_selected.png" height="300">
+<img src="screenshots/sc_producer_namespaces_selected.png" height="400">
 
 5. In the **Defined Topics** section by clicking the radio button of the same name, select **wdftosn**
    
-<img src="screenshots/sc_producer_select_topic.png" height="300">
+<img src="screenshots/sc_producer_select_topic.png" height="400">
 
 6. Once the topic selected, it should look similar to the screen below. Click **Save**
 
-<img src="screenshots/sc_producer_topic_selected.png" height="300">
+<img src="screenshots/sc_producer_topic_selected.png" height="400">
 
 7. Generate the certificate
 
-<img src="screenshots/sc_producer_generate_certificate.png" height="300">
+<img src="screenshots/sc_producer_generate_certificate.png" height="400">
 
 8. After a few seconds, the certificates are ready to download. Click on **Download Keystore** and **Download Trustore** to obtain the respective files
 
-<img src="screenshots/sc_producer_download_certificate.png" height="300">
+<img src="screenshots/sc_producer_download_certificate.png" height="400">
 
 9. Put the downloaded files into a folder called **servicenow_certs**. Doing this will avoid permission issues in the next steps.
 
@@ -319,11 +319,11 @@ Kafka can also be set up in your local machine using **Step 1: Get Kafka** with 
 
 11. Open docker desktop, go to Containers, ensure the the image created in part **Pre-requisites: Recommended** has been started indicated by a green dot beside it. If not, click on the **Start** button (play icon). In this example, the image name is awesome_cerf. You will have a randomized image name
 
-<img src="screenshots/sc_producer_start_container.png" height="300">
+<img src="screenshots/sc_producer_start_container.png" height="400">
 
 12. Go to **Files** > in the file browser navigate to the path opt > kafka > config > **producer.properties** > click **Open file editor**
 
-<img src="screenshots/sc_producer_properties.png" height="300">
+<img src="screenshots/sc_producer_properties.png" height="400">
 
 13. Paste the text below in the **producer.properties** file. Notice the path of the file in the screenshot as well as the placement of the text in the screenshot below in case of any doubt. Note that the certificates generated in the earlier steps are not uploaded to the docker image yet at this stage
 
@@ -340,19 +340,19 @@ ssl.truststore.password=streamconnect
 ssl.truststore.type=PKCS12
 ```
 
-<img src="screenshots/sc_producer_properties_content.png" height="300">
+<img src="screenshots/sc_producer_properties_content.png" height="800">
 
 14. Staying in the **Files** section of your container, navigate to opt > kafka > config, right click on _any_ file then click "Import"
 
-<img src="screenshots/sc_producer_import_cert.png" height="300">
+<img src="screenshots/sc_producer_import_cert.png" height="400">
 
 15. Navigate to the servicenow_certs created in step 9 which contains the certificates from the ServiceNow instance then select the folder (**DO NOT** double-click)
 
-<img src="screenshots/sc_producer_import_cert_upload.png" height="300">
+<img src="screenshots/sc_producer_import_cert_upload.png" height="400">
 
 16. Go to the **Exec** portion of the docker image
 
-<img src="screenshots/sc_producer_exec.png" height="300">
+<img src="screenshots/sc_producer_exec.png" height="400">
 
 17. Execute the commands below to copy the certificates downloaded form the ServiceNow instance. Take careful note of the filenames as the filenames of the downloaded certificates may vary
 ```
