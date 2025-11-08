@@ -284,10 +284,11 @@ Kafka can also be set up in your local machine using **Step 1: Get Kafka** with 
 <img src="screenshots/sc_producer_pki.png" height="300">
 
 2.Set up the certificate password and ACL
+
 -a. Provide a password with a minimum of 8 characters. For the example used in this lab, it will be **streamconnect**
 -b. Click **Configure Acl**
 
-<img src="screenshots/sc_producer_password_acl.png" height="400">
+   <img src="screenshots/sc_producer_password_acl.png" height="400">
 
 3. In the **Namespaces** section by clicking the radio button of the same name, select all of the namespaces to avoid any authorization issues. In a real environment, it is necessary to identify the correct namespace
 
@@ -315,7 +316,7 @@ Kafka can also be set up in your local machine using **Step 1: Get Kafka** with 
 
 9. Put the downloaded files into a folder called **servicenow_certs**. Doing this will avoid permission issues in the next steps.
 
-10. The next steps can be done in docker desktop or in  your own machine. Steps 11 to ___ shows how it can be done in docker and the docker specific steps can be omitted if this is done in your local machine.
+10. The next steps can be done in docker desktop or in  your own machine. Steps 11 to 17 shows how it can be done in docker and the docker-specific steps can be omitted if this is done in your local machine.
 
 11. Open docker desktop, go to Containers, ensure the the image created in part **Pre-requisites: Recommended** has been started indicated by a green dot beside it. If not, click on the **Start** button (play icon). In this example, the image name is awesome_cerf. You will have a randomized image name
 
