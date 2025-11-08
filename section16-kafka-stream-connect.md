@@ -163,12 +163,18 @@ This will reduce effort in building the Kafka Producer:
    <img src="screenshots/sc_ihub_select_linux_final.png" height="400">
   
 10. Set up mapping for Windows Server 1
+    
+    <img src="screenshots/sc_ihub_select_windows_mapping.png" height="400">
+    
+12. Do similar steps done for Linux Server 1 for Windows Server 1
 - a. Source Native Key > Source Column, click on mapping button, type and select hostname
 - b. Name > Source Column, click on mapping button, type data.name, click on data then click on name
 - c. Product instance identifier > Source Column, click on mapping button, type data.name, click on data then click on name
 - d. Serial number > Source Column, click on mapping button, type data.site_code, click on data then click on site_code
-- e. Click Mark as Complete
-- f. Click back
+- e. The final output should be similar to below. Click back
+
+   <img src="screenshots/sc_ihub_select_windows_final.png" height="400">
+  
 11. Click Mark as Complete to finish Select CMDB Classes to Map Source Data
 12. Click Add Relationships
 - a. Leave this blank this is jus to show the option to add Class Relationships if needed
