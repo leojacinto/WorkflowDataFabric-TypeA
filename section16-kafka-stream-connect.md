@@ -1,7 +1,7 @@
 # Section 16: Kafka Stream Connect Lab Guide
 
 ### Pre-requisites: Mandatory
-1. This lab is for ServiceNow internal only. You will nto be able to access the ServiceNow instance in this exercise without a ServiceNow internal account.
+1. This lab is for ServiceNow internal only. You will nto be able to access the ServiceNow instance in this exercise without a ServiceNow internal account
 2. Ensure you are able to HOP to hermes1 via this URL: http://hihop.service-now.com/hop.do?sysparm_instance=hermes1&mode=readwrite
 
 ### Pre-requisites: Recommended
@@ -19,7 +19,7 @@ This will reduce effort in building the Kafka Producer:
 
    <img src="screenshots/sc_docker_image.png" height="400">
 
-6. This will be the image you will use for **Part 5: Sending messages from Kafka Producer**. Alternatively you can execute all of the steps in **Part 4: Setting up a Kafka Producer** in your local machine by setting up Apache Kafka in your local machine.
+6. This will be the image you will use for **Part 5: Sending messages from Kafka Producer**. Alternatively you can execute all of the steps in **Part 4: Setting up a Kafka Producer** in your local machine by setting up Apache Kafka in your local machine
 
 ### Pre-requisites: Local machine option
 Kafka can also be set up in your local machine using in this page https://kafka.apache.org/quickstart > **Step 1: Get Kafka** with JVM 17+ installed in your machine
