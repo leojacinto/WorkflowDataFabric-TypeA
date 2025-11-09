@@ -45,7 +45,7 @@ This will reduce effort in building the Kafka Producer:
 
 6. This will be the image you will use for **Part 5: Sending messages from Kafka Producer**. Alternatively you can execute all of the steps in **Part 4: Setting up a Kafka Producer** in your local machine by setting up Apache Kafka in your local machine
 
-### Alternative local machine option
+#### Alternative local machine option
 Kafka can also be set up in your local machine using in this page https://kafka.apache.org/quickstart > **Step 1: Get Kafka** with JVM 17+ installed in your machine
 
 ---
