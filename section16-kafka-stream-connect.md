@@ -3,7 +3,7 @@
 ### Business motivation
 Real-time visibility and agility are critical for making informed business decisions and delivering exceptional service experiences. Traditional integration methods that rely on scheduled jobs or polling introduce delays, data inconsistencies, and operational inefficiencies.
 
-Stream Connect for Apache Kafka transforms how ServiceNow interacts with external systems by enabling event-driven data exchange. With Stream Connect, your ServiceNow platform can publish and subscribe to data streams, ensuring that key business events such as incident updates, configuration item (CI) changes, or operational alerts are communicated instantly across systems.
+Stream Connect for Apache Kafka transforms how ServiceNow interacts with external systems by enabling event-driven data exchange. With Stream Connect, ServiceNow can publish and subscribe to data streams, ensuring that key business events such as incident updates, configuration item (CI) changes, or operational alerts are communicated instantly across systems.
 
 This capability empowers organizations to:
 - Accelerate decision-making with up-to-the-minute data.
