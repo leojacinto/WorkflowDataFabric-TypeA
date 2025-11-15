@@ -406,11 +406,11 @@ cp /opt/kafka/config/servicenow_certs/truststore.p12 /opt/kafka/config/kafka.ser
 
 3. Send a message to be processed by Stream Connect with the docker image as the Kafka producer. See the sample message below and modify the body with your intials and the date to make the message unique. The template is as below. This will execute a task that sends messages to Stream Connect through your Kafka Producer. In a productive environment, these can be generated from automated sources. The intent of this example is to manually trigger sending of a Kafka message from the Producer in the docker image 
 ```
-{"table_name":"cmdb_ci_win_server","site_code":"k1smwmw1","hostname":"ktitesthostname","action":"ADD","sys_class_name":"cmdb_ci_win_server","data":{"name":"[Your Initials] [Date] K2 Complex Server","site_code":"smwmw1","class2":"Media","entity_type":"media","entity_subtype":"","media_type":"","location_a":"wynnarma","location_z":"wynnarma","last_unit":"00036","first_unit":"00001","mco":"mco","number_wires":"2","facility_detail":"lg-lgss","sec":"swt0001","media_designation":"rd010102"}}
+{"table_name":"cmdb_ci_win_server","site_code":"k1smwmw1","hostname":"ktitesthostname","action":"ADD","sys_class_name":"cmdb_ci_win_server","data":{"name":"[Your Initials] [Date] K2 Complex Server","site_code":"[Your Initials and/or Random Word]","class2":"Media","entity_type":"media","entity_subtype":"","media_type":"","location_a":"wynnarma","location_z":"wynnarma","last_unit":"00036","first_unit":"00001","mco":"mco","number_wires":"2","facility_detail":"lg-lgss","sec":"swt0001","media_designation":"rd010102"}}
 ```
-In the text above, take note of the following portion below which you should replace with your details and date so you can check successful sending of your Kafka message
+In the text above, take note of the portions below which you should replace with your details and date so you can check successful sending of your Kafka message
 ```
-"name":"[Your Initials] [Date] K2 Complex Server"
+"name":"[Your Initials] [Date] K2 Complex Server","site_code":"[Your Initials and/or Random Word]"
 ```
 
 4. If the sending of message is successful, a line with the character **>** and a blinking cursor will appear
