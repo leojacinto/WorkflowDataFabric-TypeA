@@ -1,4 +1,4 @@
-# Section 16: Stream Connect for Apache Kafka Lab Guide
+# Stream Connect for Apache Kafka Lab Guide
 
 ### Business motivation
 Real-time visibility and agility are critical for making informed business decisions and delivering exceptional service experiences. Traditional integration methods that rely on scheduled jobs or polling introduce delays, data inconsistencies, and operational inefficiencies.
