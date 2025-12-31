@@ -1,11 +1,6 @@
 # Data and Flow Diagrams
 
-## Dislcaimer
-As a disclaimer, this lab requires you to have ServiceNow internal and external data services available to make the integrations meaningful. If you wish to have this lab, its ServiceNow components, and its external service dependencies available for you, an image available for customers will be available externally soon. If you have the components available for you to execute this in your environment, or simply want to get an idea how to execute the steps if you have a similar set-up, read on!
-
-This project is created by Leo Francia, a ServiceNow Data Architect, and is in no way a ServiceNow official manual. Leo Francia is an active member of the ServiceNow community and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talke about himself in the third person, but please let him be.
-
-## Components
+### Components
 Let us first start by breaking down the different components of the lab. In a tightly integrated ServiceNow landscape that spans various internal ServiceNow components and external data sources, the diagram below would be a good represenation. These internal and external components will be used by Flows and AI Agents to provide the automations needed to solve our business problem of managing financial budgets. While the components will look overwhelming, the reality is customer landscapes require this level of complexity to manage different types of data across multiple functions. The key thing to note is  end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**. 
 
 ### External System Prerequisites
