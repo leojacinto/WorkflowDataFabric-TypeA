@@ -24,6 +24,7 @@ By completing this lab, you'll build a production-grade financial intelligence p
 * **Lens** and **Document Intelligence** for invoice data capture individually or batch, respectively
 * **MCP Server** enabling Claude Code or Desktop to analyze ServiceNow financial data
 * **ServiceNow Enterprise Graph** for natural language queries across systems (not yet released!)
+
 You'll master the architectural patterns for transforming siloed enterprise data into unified, intelligent decision-making platforms.
 **Let's build something intelligent**. 🚀💡
 
