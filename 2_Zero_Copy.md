@@ -4,6 +4,9 @@
 This lab will walk you through integration of data coming from Cloud Data Warehouses and ERP using Zero Copy Connectors (ZCC) for SQL and ERP respectively.
 ### Data Flow
 The data flow below shows how ServiceNow will consume Cloud Data Warehouse Data Assets and ERP OData Endpoints via ZCC for SQL and ERP respectively. The data taken from the external sources will be used by an agent which is triggered periodcially and will create Finance Cases for Cost Centers which are going overbudget. While majority of the workflow is handled deterministically, AI Agents will provide additional context by searching and comparing expenses and cost center histories to enrich the workflow data that will be used by the personnel in charge of the cost centers.
+
+**Note**: future versions of this lab will include ServiceNow Enterprise Graph which will provide a universal query functionality that brings together the various internal and external data sources. As of Jan-2026, said feature is not globally available and is hence not yet included in this lab.
+
 ```mermaid
 graph LR
     subgraph "User Interaction Layer"
@@ -36,11 +39,6 @@ graph LR
             FinVar[(Finance<br/>Variance Table)]
         end
 
-        subgraph "Global Graph"
-            GGraph[Global Graph<br/>Schema]
-            NLQuery[Natural Language<br/>Query Interface]
-        end
-
         subgraph "AI & Automation"
             Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
             RAG[RAG - Retrieval<br/>Augmented Generation]
@@ -58,14 +56,6 @@ graph LR
 
     SharePoint -->|Executive Guidance| ExtContent
 
-    %% Global Graph Connections
-    ZCCC --> GGraph
-    ZCCH --> GGraph
-    ZCExp --> GGraph
-    ExpenseTable --> GGraph
-    FinCase --> GGraph
-    GGraph --> NLQuery
-
     %% Agent 1 Workflow - Zero Copy Source
     ZCCC -->|Query Over-Budget| Agent1
     ZCCH -->|Historical Data| Agent1
@@ -82,7 +72,6 @@ graph LR
     %% User Interaction Connections
     Employee -->|Ask Questions<br/>View/Update Cases| EC
     EC -->|Search & Query| FinCase
-    EC -->|Natural Language| NLQuery
 
     %% Styling
     classDef external fill:#e1f5ff,stroke:#01579b,stroke-width:2px
