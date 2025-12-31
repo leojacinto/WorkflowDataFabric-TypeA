@@ -17,7 +17,7 @@ graph LR
         ExpenseAPI[Expense Event<br/>API]
     end
 
-    subgraph "Lab Prerequisites - Mock Services"
+    subgraph "Lab Prerequisites - Services"
         MockExpense[Mock Expense<br/>Event Service]
     end
 
