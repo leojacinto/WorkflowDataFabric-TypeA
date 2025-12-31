@@ -1,6 +1,7 @@
-# Fundamentals
+# Lab Exercise: Fundamentals
+This lab will walk you through creation of the scoped tables needed to interact with the external system integrations.
 ### Data Flow
-
+The data flow below shows how ServiceNow will consume REST API endpoints via Integration Hub Spokes then further processed by a Flow so the entries will be written in the scoped table.
 ```mermaid
 graph LR
     subgraph "ServiceNow Workflow Data Fabric"
@@ -18,7 +19,7 @@ graph LR
     end
 
     subgraph "Lab Prerequisites - Services"
-        MockExpense[Mock Expense<br/>Event Service]
+        MockExpense[Expense Event<br/>Service]
     end
 
     %% Data Flow Connections
