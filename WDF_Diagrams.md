@@ -1,7 +1,7 @@
 # Data and Flow Diagrams
 ### Main
-'''mermaid
-graph LR;
+```mermaid
+graph LR
     subgraph "User Interaction Layer"
         Employee((Employee/<br/>Finance Manager))
         EC[Employee Center or<br/>Workspace with Now Assist]
@@ -137,4 +137,4 @@ graph LR;
     class ExpenseTable,FinCase,FinVar native
     class Agent1,Agent2,RAG,NASK,FlowAction,MCPS,MCPC,GGraph,NLQuery,Lens,DocIntel ai
     class Employee,EC,ControlTower,ClaudeDesktop user
-'''
+```
