@@ -25,7 +25,7 @@ You'll solve three critical problems:
 By completing this lab, you'll build a production-grade financial intelligence platform demonstrating:
 * **Zero Copy integration** with ERP and cloud warehouses (no data duplication)
 * **AI agents** that autonomously detect issues, analyze trends, and create contextual cases
-* **External Content Connectors** bringing executive memos into agent decisions
+* **External Content Connector** bringing executive memos into agent decisions
 * **Integration Hub** for real-time expense event processing
 * **Lens** and **Document Intelligence** for invoice data capture individually or batch, respectively
 * **MCP Server** enabling Claude Code or Desktop to analyze ServiceNow financial data
@@ -33,5 +33,17 @@ By completing this lab, you'll build a production-grade financial intelligence p
 
 You'll master the architectural patterns for transforming siloed enterprise data into unified, intelligent decision-making platforms.
 **Let's build something intelligent**. 🚀💡
+
+### Table of Contents
+Workflow Data Fabric Diagrams
+1. [Workflow Data Fabric Diagrams](https://github.com/leojacinto/WorkflowDataFabric/blob/main/WDF_Diagrams.md)
+   a. [Components](https://github.com/leojacinto/WorkflowDataFabric/blob/main/WDF_Diagrams.md#components)
+   b. [Overall Data Flow](https://github.com/leojacinto/WorkflowDataFabric/blob/main/WDF_Diagrams.md#components)
+2. [Lab Exercise: Fundamentals](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Fundamentals.md)
+3. [Lab Exercise: Zero Copy](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Zero_Copy.md)
+5. [Lab Exercise: Integration Hub](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Integration_Hub.md)
+6. [Lab Exercise: External Content Connector](https://github.com/leojacinto/WorkflowDataFabric/blob/main/External_Content_Connector.md)
+8. [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](https://github.com/leojacinto/WorkflowDataFabric/blob/main/MCP_and_AI_Control_Tower.md)
+9. [Lab Exercise: ServiceNow Lens and Document Intelligence](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Lens_and_DocIntel.md)
 
  <img src="screenshots/sc_persona_wdf.png" height="400">
