@@ -66,12 +66,6 @@ graph LR
         end
     end
 
-    subgraph "Lab Prerequisites - Services"
-        PrereqERP[ERP<br/>OData Service]
-        PrereqExpense[Expense<br/>Event Service]
-        PrereqCDW[Cloud Data<br/>Warehouse]
-    end
-
     %% Styling
     classDef external fill:#e1f5ff,stroke:#01579b,stroke-width:2px
     classDef integration fill:#fff3e0,stroke:#e65100,stroke-width:2px
@@ -86,7 +80,6 @@ graph LR
     class ExpenseTable,FinCase,FinVar native
     class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
     class Employee,EC,ControlTower,ClaudeDesktop user
-    class PrereqERP,PrereqExpense,PrereqCDW external
 ```
 
 ### Overall Data Flows
