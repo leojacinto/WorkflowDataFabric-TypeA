@@ -1,7 +1,7 @@
 # Data and Flow Diagrams
 ### Main
 '''mermaid
-graph LR
+graph LR;
     subgraph "User Interaction Layer"
         Employee((Employee/<br/>Finance Manager))
         EC[Employee Center or<br/>Workspace with Now Assist]
