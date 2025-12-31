@@ -8,6 +8,10 @@ This project is created by Leo Francia, a ServiceNow Data Architect, and is in n
 ## Components
 Let us first start by breaking down the different components of the lab. In a tightly integrated ServiceNow landscape that spans various internal ServiceNow components and external data sources, the diagram below would be a good represenation.
 
+### External System Prerequisites
+Baseline configuration for the external systems listed in this lab are done prior to the steps listed. As mentioned in the disclaimer, environments which will have the prereqiusite external systems will be available externally for customers soon and for time being, you can use this lab as a guide on how the components will interact. 
+
+* **ERP**: For this lab, this is an SAP system with OData endpoints. The OData integration is already configured in this execrcise and the objective is get the needed endpoint by selecting it from the OData catalog. If you wish to learn more on how to create the configuration in your own environment, check this [Zero Copy Connector for ERP guide from Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800).
 
 ```mermaid
 graph LR
@@ -18,7 +22,7 @@ graph LR
         ControlTower[AI Control<br/>Tower]
     end
 
-    subgraph "External Systems"
+    subgraph "External System Prerequisites"
         ERP[(ERP System<br/>OData Endpoint)]
         ExpenseAPI[Expense Event<br/>API]
         SharePoint[SharePoint<br/>Executive Memos]
