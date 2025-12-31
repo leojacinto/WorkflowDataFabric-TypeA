@@ -130,7 +130,14 @@ graph LR
 ## Overall Data Flow
 Do not let the graph below intimidate you 😉. This will be broken down further and the intent of showing the whole data flow is to provide an overview of the inner workings within ServiceNow while, as mentioned earlier, the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**. 
 
-You can skip the review of the diagram below if you prefer and head straight into the lab exercises if you so desire.
+You can skip the review of the diagram below if you prefer and head straight into the lab exercises if you so desire with the data flow and their respective labs broken down below.
+
+* [Lab Exercise: Fundamentals](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Fundamentals.md)
+* [Lab Exercise: Zero Copy](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Zero_Copy.md)
+* [Lab Exercise: Integration Hub](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Integration_Hub.md)
+* [Lab Exercise: External Content Connector](https://github.com/leojacinto/WorkflowDataFabric/blob/main/External_Content_Connector.md)
+* [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](https://github.com/leojacinto/WorkflowDataFabric/blob/main/MCP_and_AI_Control_Tower.md)
+* [Lab Exercise: ServiceNow Lens and Document Intelligence](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Lens_and_DocIntel.md)
 
 ```mermaid
 graph LR
