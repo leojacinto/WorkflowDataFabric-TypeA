@@ -1,5 +1,88 @@
 # Data and Flow Diagrams
-### Main
+
+### Components
+
+```mermaid
+graph LR
+    subgraph "User Interaction Layer"
+        Employee((Employee/<br/>Finance Manager))
+        EC[Employee Center or<br/>Workspace with Now Assist]
+        ClaudeDesktop[Claude Desktop<br/>+ MCP]
+        ControlTower[AI Control<br/>Tower]
+    end
+
+    subgraph "External Systems"
+        ERP[(ERP System<br/>OData Endpoint)]
+        ExpenseAPI[Expense Event<br/>API]
+        SharePoint[SharePoint<br/>Executive Memos]
+        CDW[(Cloud Data<br/>Warehouse)]
+    end
+
+    subgraph "ServiceNow Workflow Data Fabric"
+        subgraph "Data Integration Layer"
+            ZeroCopySQL[Zero Copy SQL<br/>Connection]
+            ZeroCopyERP[Zero Copy ERP<br/>Connection]
+            IntHub[Integration Hub<br/>Spoke/Flow]
+            ExtContent[External Content<br/>Connector]
+        end
+
+        subgraph "Zero Copy Tables - Read Only"
+            ZCCC[(Cost Centre)]
+            ZCCH[(Cost Centre History)]
+            ZCExp[(Expenses)]
+        end
+
+        subgraph "ServiceNow Native Tables"
+            ExpenseTable[(Expense Event<br/>Line Items<br/>Scoped Table)]
+            FinCase[(Finance Case<br/>Table)]
+            FinVar[(Finance Variance<br/>Table)]
+        end
+
+        subgraph "Global Graph"
+            GGraph[Global Graph<br/>Schema]
+            NLQuery[Natural Language<br/>Query Interface]
+        end
+
+        subgraph "AI & Automation"
+            Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
+            Agent2[Agent: Proactive<br/>Budget Alert<br/>Integration Hub Source]
+            RAG[RAG - Retrieval<br/>Augmented Generation]
+            NASK[NASK - Now Assist<br/>Skill Kit]
+            FlowAction[Flow Action]
+            MCP[MCP Server]
+            MCPC[MCP Client]
+        end
+
+        subgraph "AI Experiences"
+            Lens["ServiceNow</br>Lens"]
+            DocIntel["Document</br>Intelligence"]
+        end
+    end
+
+    subgraph "Lab Prerequisites - Mock Services"
+        MockERP[Mock ERP<br/>OData Service]
+        MockExpense[Mock Expense<br/>Event Service]
+        MockCDW[Mock Cloud Data<br/>Warehouse]
+    end
+
+    %% Styling
+    classDef external fill:#e1f5ff,stroke:#01579b,stroke-width:2px
+    classDef integration fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef zeroCopy fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef native fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
+    classDef ai fill:#fff9c4,stroke:#f57f17,stroke-width:2px
+    classDef user fill:#e3f2fd,stroke:#1565c0,stroke-width:3px
+
+    class ERP,ExpenseAPI,SharePoint,CDW external
+    class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent integration
+    class ZCCC,ZCCH,ZCExp zeroCopy
+    class ExpenseTable,FinCase,FinVar native
+    class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
+    class Employee,EC,ControlTower,ClaudeDesktop user
+    class MockERP,MockExpense,MockCDW external
+```
+
+### Overall Data Flows
 ```mermaid
 graph LR
     subgraph "User Interaction Layer"
