@@ -35,12 +35,12 @@ You'll master the architectural patterns for transforming siloed enterprise data
 **Let's build something intelligent**. 🚀💡
 
 ### Table of Contents
-* [Workflow Data Fabric Diagrams](https://github.com/leojacinto/WorkflowDataFabric/blob/main/WDF_Diagrams.md)
-* [Lab Exercise: Fundamentals](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Fundamentals.md)
-* [Lab Exercise: Zero Copy](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Zero_Copy.md)
-* [Lab Exercise: Integration Hub](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Integration_Hub.md)
-* [Lab Exercise: External Content Connector](https://github.com/leojacinto/WorkflowDataFabric/blob/main/External_Content_Connector.md)
-* [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](https://github.com/leojacinto/WorkflowDataFabric/blob/main/MCP_and_AI_Control_Tower.md)
-* [Lab Exercise: ServiceNow Lens and Document Intelligence](https://github.com/leojacinto/WorkflowDataFabric/blob/main/Lens_and_DocIntel.md)
+* [Workflow Data Fabric Diagrams](https://github.com/leojacinto/WorkflowDataFabric/blob/main/0_WDF_Diagrams.md)
+* [Lab Exercise: Fundamentals](https://github.com/leojacinto/WorkflowDataFabric/blob/main/1_Fundamentals.md)
+* [Lab Exercise: Zero Copy](https://github.com/leojacinto/WorkflowDataFabric/blob/main/2_Zero_Copy.md)
+* [Lab Exercise: Integration Hub](https://github.com/leojacinto/WorkflowDataFabric/blob/main/3_Integration_Hub.md)
+* [Lab Exercise: External Content Connector](https://github.com/leojacinto/WorkflowDataFabric/blob/main/4_External_Content_Connector.md)
+* [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](https://github.com/leojacinto/WorkflowDataFabric/blob/main/5_Lens_and_DocIntel.md)
+* [Lab Exercise: ServiceNow Lens and Document Intelligence](https://github.com/leojacinto/WorkflowDataFabric/blob/main/6_MCP_and_AI_Control_Tower.md)
 
  <img src="screenshots/sc_persona_wdf.png" height="400">
