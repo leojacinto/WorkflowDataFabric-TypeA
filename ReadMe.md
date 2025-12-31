@@ -3,7 +3,7 @@
 ### Dislcaimer
 This lab requires you to have ServiceNow internal and external data services available to make the integration scenarios meaningful. If you wish to have this lab, its ServiceNow components, and its external service dependencies available for you, **a complete image with prerequisites and integrations will be externaly available for customers  soon**. If you have the components available for you to execute this in your environment, or simply want to get an idea how to execute the steps if you have a similar set-up, read on!
 
-This lab is created by [Leo Francia](https://www.linkedin.com/in/leojmfrancia/), a Data Architect at ServiceNow, and is in no way a ServiceNow official manual. Leo Francia is an active member of the [ServiceNow community](https://www.servicenow.com/community/workflow-data-fabric/ct-p/workflow-data-fabric) and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talke about himself in the third person, but please let him be.
+This lab is created by [Leo Francia](https://www.linkedin.com/in/leojmfrancia/), a Data Architect at ServiceNow, and is in no way a ServiceNow official manual. Leo is an active member of the [ServiceNow community](https://www.servicenow.com/community/workflow-data-fabric/ct-p/workflow-data-fabric) and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talke about himself in the third person, but please let him be.
 
 ### Business Motivation
 Finance teams discover budget overruns weeks too late. Expense analysis requires manually piecing together data from ERP systems, data warehouses, and SharePoint. By the time finance reacts, small variances become major problems.
