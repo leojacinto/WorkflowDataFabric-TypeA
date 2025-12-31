@@ -1,6 +1,13 @@
 # Data and Flow Diagrams
 
-### Components
+## Dislcaimer
+As a disclaimer, this lab requires you to have ServiceNow internal and external data services available to make the integrations meaningful. If you wish to have this lab, its ServiceNow components, and its external service dependencies available for you, an image available for customers will be available externally soon. If you have the components available for you to execute this in your environment, or simply want to get an idea how to execute the steps if you have a similar set-up, read on!
+
+This project is created by Leo Francia, a ServiceNow Data Architect, and is in no way a ServiceNow official manual. Leo Francia is an active member of the ServiceNow community and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talke about himself in the third person, but please let him be.
+
+## Components
+Let us first start by breaking down the different components of the lab. In a tightly integrated ServiceNow landscape that spans various internal ServiceNow components and external data sources, the diagram below would be a good represenation.
+
 
 ```mermaid
 graph LR
@@ -59,10 +66,10 @@ graph LR
         end
     end
 
-    subgraph "Lab Prerequisites - Mock Services"
-        MockERP[Mock ERP<br/>OData Service]
-        MockExpense[Mock Expense<br/>Event Service]
-        MockCDW[Mock Cloud Data<br/>Warehouse]
+    subgraph "Lab Prerequisites - Services"
+        PrereqERP[ERP<br/>OData Service]
+        PrereqExpense[Expense<br/>Event Service]
+        PrereqCDW[Cloud Data<br/>Warehouse]
     end
 
     %% Styling
@@ -79,7 +86,7 @@ graph LR
     class ExpenseTable,FinCase,FinVar native
     class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
     class Employee,EC,ControlTower,ClaudeDesktop user
-    class MockERP,MockExpense,MockCDW external
+    class PrereqERP,PrereqExpense,PrereqCDW external
 ```
 
 ### Overall Data Flows
