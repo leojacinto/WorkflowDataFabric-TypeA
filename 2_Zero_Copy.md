@@ -49,16 +49,9 @@ graph LR
         end
     end
 
-    subgraph "Lab Prerequisites - Mock Services"
-        MockERP[Mock ERP<br/>OData Service]
-        MockCDW[Mock Cloud Data<br/>Warehouse]
-    end
-
     %% Data Flow Connections
     ERP -->|OData Feed| ZeroCopyERP
     CDW -->|Data Fabric table| ZeroCopySQL
-    MockERP -.->|Lab Simulation| ZeroCopyERP
-    MockCDW -.->|Lab Simulation| ZeroCopySQL
     ZeroCopyERP --> ZCCC
     ZeroCopySQL --> ZCCH
     ZeroCopySQL --> ZCExp
