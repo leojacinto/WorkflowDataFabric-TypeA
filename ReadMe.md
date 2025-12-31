@@ -17,14 +17,14 @@ You'll solve three critical problems:
 
 ### Outcome
 By completing this lab, you'll build a production-grade financial intelligence platform demonstrating:
-Zero Copy integration with ERP and cloud warehouses (no data duplication)
-Global Graph for natural language queries across systems
-AI agents that autonomously detect issues, analyze trends, and create contextual cases
-External Content Connectors bringing executive memos into agent decisions
-Integration Hub for real-time expense event processing
-Lens and Document Intelligence for invoice data capture individually or batch, respectively
-MCP Server enabling Claude Desktop to analyze ServiceNow financial data
+* **Zero Copy integration** with ERP and cloud warehouses (no data duplication)
+* **AI agents** that autonomously detect issues, analyze trends, and create contextual cases
+* **External Content Connectors** bringing executive memos into agent decisions
+* **Integration Hub** for real-time expense event processing
+* **Lens** and **Document Intelligence** for invoice data capture individually or batch, respectively
+* **MCP Server** enabling Claude Code or Desktop to analyze ServiceNow financial data
+* **ServiceNow Enterprise Graph** for natural language queries across systems (not yet released!)
 You'll master the architectural patterns for transforming siloed enterprise data into unified, intelligent decision-making platforms.
-Let's build something intelligent. 🚀💡
+**Let's build something intelligent**. 🚀💡
 
  <img src="screenshots/sc_persona_wdf.png" height="400">
