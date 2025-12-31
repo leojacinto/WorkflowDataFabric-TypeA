@@ -26,3 +26,5 @@ Lens and Document Intelligence for invoice data capture individually or batch, r
 MCP Server enabling Claude Desktop to analyze ServiceNow financial data
 You'll master the architectural patterns for transforming siloed enterprise data into unified, intelligent decision-making platforms.
 Let's build something intelligent. 🚀💡
+
+ <img src="screenshots/sc_persona_wdf.png" height="400">
