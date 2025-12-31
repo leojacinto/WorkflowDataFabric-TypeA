@@ -51,8 +51,8 @@ graph LR
             FinVar[(Finance Variance<br/>Table)]
         end
 
-        subgraph "Global Graph"
-            GGraph[Global Graph<br/>Schema]
+        subgraph "ServiceNow Enterprise Graph"
+            GGraph[ServiceNow Enterprise<br/>Graph Schema]
             NLQuery[Natural Language<br/>Query Interface]
         end
 
@@ -135,7 +135,7 @@ graph LR
         end
 
         subgraph "ServiceNow Enterprise Graph"
-            GGraph[ServicNow Enterprise<br/> Graph Schema]
+            GGraph[ServiceNow Enterprise<br/>Graph Schema]
             NLQuery[Natural Language<br/>Query Interface]
         end
 
