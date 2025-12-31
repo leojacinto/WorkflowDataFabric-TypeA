@@ -10,7 +10,7 @@ Let us first start by breaking down the different components of the lab. In a ti
 
 
 ```mermaid
-graph TB
+graph LR
     subgraph "User Interaction Layer"
         Employee((Employee/<br/>Finance Manager))
         EC[Employee Center or<br/>Workspace with Now Assist]
