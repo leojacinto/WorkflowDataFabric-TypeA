@@ -193,10 +193,6 @@ graph LR
             FinVar[(Finance<br/>Variance Table)]
         end
 
-        subgraph "ServiceNow Enterprise Graph"
-            GGraph[ServiceNow Enterprise<br/>Graph Schema]
-            NLQuery[Natural Language<br/>Query Interface]
-        end
 
         subgraph AI[AI & Automation]
             Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
@@ -229,14 +225,6 @@ graph LR
     EC -->|Individual UI-based| Lens -->|Write| ExpenseTable
     EC -->|Individual UI-based| DocIntel -->|Write| ExpenseTable
     SharePoint -->|Executive Guidance| ExtContent
-
-    %% ServiceNow Enterprise Connections
-    ZCCC --> GGraph
-    ZCCH --> GGraph
-    ZCExp --> GGraph
-    ExpenseTable --> GGraph
-    FinCase --> GGraph
-    GGraph --> NLQuery
 
     %% Agent 1 Workflow - Zero Copy Source
     ZCCC -->|Query Over-Budget| Agent1
