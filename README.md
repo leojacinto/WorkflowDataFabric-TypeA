@@ -2,11 +2,49 @@
 
 <figure><img src=".gitbook/assets/sc_persona_wdf.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Disclaimer
+### Before we start - a note from the author and some disclaimers
 
-This lab requires you to have ServiceNow internal and external data services available to make the integration scenarios meaningful. If you wish to have this lab, its ServiceNow components, and its external service dependencies available for you, **a complete image with prerequisites and integrations will be externaly available for customers soon**. If you have the components available for you to execute this in your environment, or simply want to get an idea how to execute the steps if you have a similar set-up, read on! This is designed to also provide a conceptual architecture of how ServiceNow alongside external systems can deliver end to end automation with Flows and/or AI Agents while allowing the user to access systems and AI however they prefer.
+This lab demonstrates end-to-end integration scenarios that require both ServiceNow platform capabilities and external system connectivity.&#x20;
 
-This lab is created by [Leo Francia](https://www.linkedin.com/in/leojmfrancia/), a Data Architect at ServiceNow, and is in no way a ServiceNow official manual. Leo is an active member of the [ServiceNow community](https://www.servicenow.com/community/workflow-data-fabric/ct-p/workflow-data-fabric) and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talke about himself in the third person, but please let him be.
+#### ServiceNow dependencies
+
+Before attempting these exercises, ensure you have access to the following:
+
+| Component Needed                                  | Required version, Zurich Patch 4 recommended |
+| ------------------------------------------------- | -------------------------------------------- |
+| Zero Copy Connector for SQL                       | 2.0.0                                        |
+| Zero Copy Connector for ERP                       | 8.0.14                                       |
+| External Content Connectors for SharePoint Online | 4.1.7                                        |
+| Workflow Studio                                   | 28.1.4                                       |
+| Now Assist Skill Kit                              | 6.0.7                                        |
+| MCP Server                                        | 1.0.0                                        |
+| MCP Client                                        | 1.0.7                                        |
+| Lens                                              | 2.0.0                                        |
+| Document Intelligence                             | 7.1.5                                        |
+| AI Control Tower                                  | 1.0.1                                        |
+| ServiceNow Enterprise Graph                       | N/A, Not Released                            |
+
+#### External system dependencies
+
+∙ Cloud data warehouse with SQL endpoint (e.g., Snowflake, Databricks, BigQuery)\
+∙ Document repository (e.g., SharePoint, Google Drive) for External Content Connector scenarios\
+∙ Claude Desktop with MCP configuration (for MCP Server lab)\
+∙ Sample ERP dataset or equivalent financial data source
+
+#### What if I don’t have all of this?
+
+Each lab is designed to be conceptually valuable even without a fully configured environment. You can:\
+∙ Follow along to understand the architectural patterns and configuration steps\
+∙ Adapt the exercises to your own data sources and systems\
+∙ Use the provided screenshots and sample outputs as reference
+
+#### Guided Lab Sessions
+
+Fully provisioned environments with all dependencies pre-configured are available through ServiceNow-led workshops and enablement sessions. Contact your ServiceNow representative or reach out to the author for availability.
+
+#### About the author
+
+This lab is created by [Leo Francia](https://www.linkedin.com/in/leojmfrancia/), a Data Architect at ServiceNow, and is in no way a ServiceNow official manual. Leo is an active member of the [ServiceNow community](https://www.servicenow.com/community/workflow-data-fabric/ct-p/workflow-data-fabric) and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talk about himself in the third person, but please let him be.
 
 ### Business motivation
 
@@ -41,10 +79,14 @@ You'll master the architectural patterns for transforming siloed enterprise data
 
 ### Table of contents
 
-* [Workflow Data Fabric Diagrams](0_WDF_Diagrams.md)
-* [Lab Exercise: Fundamentals](1_Fundamentals.md)
-* [Lab Exercise: Zero Copy](2_Zero_Copy.md)
-* [Lab Exercise: Integration Hub](3_Integration_Hub.md)
-* [Lab Exercise: External Content Connector](4_External_Content_Connector.md)
-* [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](5_Lens_and_DocIntel.md)
-* [Lab Exercise: ServiceNow Lens and Document Intelligence](6_MCP_and_AI_Control_Tower.md)
+This lab is divided into 6 exercises with the suggested sequence below. However, the lab environment which deploys these exercises will allow you to complete individual labs in any sequence you prefer.
+
+| Topic                                                                                             | Difficulty   | Suggested duration |
+| ------------------------------------------------------------------------------------------------- | ------------ | ------------------ |
+| [Workflow Data Fabric Diagrams](0_WDF_Diagrams.md)                                                | N/A          | N/A                |
+| [Lab Exercise: Fundamentals](1_Fundamentals.md)                                                   | Basic        | 20 minutes         |
+| [Lab Exercise: Zero Copy](2_Zero_Copy.md)                                                         | Intermediate | 1 hour             |
+| [Lab Exercise: Integration Hub](3_Integration_Hub.md)                                             | Intermediate | 30 minutes         |
+| [Lab Exercise: External Content Connector](4_External_Content_Connector.md)                       | Basic        | 20 minutes         |
+| [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](5_Lens_and_DocIntel.md) | Intermediate | 1 hour             |
+| [Lab Exercise: ServiceNow Lens and Document Intelligence](6_MCP_and_AI_Control_Tower.md)          | Intermediate | 30 minutes         |
