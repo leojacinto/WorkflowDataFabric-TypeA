@@ -259,7 +259,6 @@ graph LR
     %% User Interaction Connections
     Employee -->|Ask Questions<br/>View/Update Cases| EC
     EC -->|Search & Query| FinCase
-    EC -->|Natural Language| NLQuery
     Employee -->|Access| ControlTower -->|Govern| AI
     Employee -->|Analytics| ClaudeDesktop
 
