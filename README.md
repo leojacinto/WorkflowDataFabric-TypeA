@@ -47,4 +47,4 @@ You'll master the architectural patterns for transforming siloed enterprise data
 * [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](5_Lens_and_DocIntel.md)
 * [Lab Exercise: ServiceNow Lens and Document Intelligence](6_MCP_and_AI_Control_Tower.md)
 
-![](.gitbook/assets/sc_persona_wdf.png)
+<img src=".gitbook/assets/sc_persona_wdf.png" alt="" data-size="original">
