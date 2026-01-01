@@ -1,4 +1,4 @@
-# Stream Connect for Apache Kafka Lab Guide
+# Bonus Exercise: Stream Connect for Apache Kafka Lab Guide
 
 ### Business motivation
 Real-time visibility and agility are critical for making informed business decisions and delivering exceptional service experiences. Traditional integration methods that rely on scheduled jobs or polling introduce delays, data inconsistencies, and operational inefficiencies.
@@ -11,7 +11,9 @@ This capability empowers organizations to:
 - Enhance operational resilience through real-time monitoring and automated responses.
 - Enable scalable digital transformation by integrating seamlessly with modern event-streaming platforms like Apache Kafka.
 
-### Persona context
+### Story so far and persona context
+You have already created workflows that integrate with REST API sources. The organization now wants you to get asset data from the various cost centers running in the organization and register them to your CMDB.
+
 In this lab, you’ll step into the role of an Integration Architect or Integration Developer responsible for designing high-performance, event-driven integrations. Your task: configure Stream Connect for Apache Kafka in ServiceNow to ingest CMDB data from Kafka producers, bridging your organization’s ServiceNow environment with its broader data ecosystem.
 
 ### Outcome
