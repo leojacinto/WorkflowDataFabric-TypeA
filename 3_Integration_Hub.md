@@ -4,7 +4,7 @@
 
 This lab will walk you through configuration of Spoke actions and Flows to
 
-### Data Flow
+### Data flow
 
 The data flow below shows how ServiceNow will consume REST API endpoints via Integration Hub Spokes then further processed by a Flow so the entries will be written in the scoped table.
 

@@ -6,7 +6,7 @@
 
 This lab will walk you through configuration of External Content Connectors as a source of unstructured document data to supplement automations needed in Finance case creation.
 
-### Data Flow
+### Data flow
 
 The data flow below shows how ServiceNow will infomration from indexed documents from a document repository such as SharePoint to provide additional context and information to assist with Flows and Automations.
 
