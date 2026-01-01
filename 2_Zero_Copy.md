@@ -16,7 +16,6 @@ graph LR
 
     subgraph "External Systems"
         ERP[(ERP System<br/>OData Endpoint)]
-        SharePoint[SharePoint<br/>Executive Memos]
         CDW[(Cloud Data<br/>Warehouse)]
     end
 
@@ -24,7 +23,6 @@ graph LR
         subgraph "Data Integration Layer"
             ZeroCopySQL[Zero Copy SQL<br/>Connection]
             ZeroCopyERP[Zero Copy ERP<br/>Connection]
-            ExtContent[External Content<br/>Connector]
         end
 
         subgraph "Zero Copy Tables - Read Only"
@@ -54,15 +52,12 @@ graph LR
     ZeroCopySQL --> ZCCH
     ZeroCopySQL --> ZCExp
 
-    SharePoint -->|Executive Guidance| ExtContent
-
     %% Agent 1 Workflow - Zero Copy Source
     ZCCC -->|Query Over-Budget| Agent1
     ZCCH -->|Historical Data| Agent1
     ZCExp -->|Expense Details| Agent1
     ExpenseTable -->|Search Similar Cases| Agent1
     ZCExp -->|Search Similar Cases| Agent1
-    ExtContent -->|Executive Context| Agent1
     Agent1 -->|Create Case| FinCase
     Agent1 <-->|Trend Analysis| RAG
     Agent1 <-->|Knowledge Retrieval| NASK
