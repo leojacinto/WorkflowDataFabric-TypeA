@@ -22,7 +22,6 @@ Before attempting these exercises, ensure you have access to the following:
 | Lens                                              | 2.0.0                                        |
 | Document Intelligence                             | 7.1.5                                        |
 | AI Control Tower                                  | 1.0.1                                        |
-| ServiceNow Enterprise Graph                       | N/A, Not Released                            |
 
 #### External system dependencies
 
