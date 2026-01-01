@@ -1,7 +1,7 @@
 # Lab Exercise: Integration Hub
 [Take me back to ReadMe](https://github.com/leojacinto/WorkflowDataFabric/blob/main/ReadMe.md)
 
-This lab will walk you through configuration of Spoke actions
+This lab will walk you through configuration of Spoke actions and Flows to 
 ### Data Flow
 The data flow below shows how ServiceNow will consume REST API endpoints via Integration Hub Spokes then further processed by a Flow so the entries will be written in the scoped table.
 ```mermaid
