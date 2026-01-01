@@ -1,10 +1,13 @@
 # Data and Flow Diagrams
 
 ## Components
-Let us first start by breaking down the different components of the lab. In a tightly integrated ServiceNow landscape that spans various internal ServiceNow components and external data sources, the diagram below would be a good represenation. These internal and external components will be used by Flows and AI Agents to provide the automations needed to solve our business problem of managing financial budgets. While the components will look overwhelming, the reality is customer landscapes require this level of complexity to manage different types of data across multiple functions. The key thing to note is the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**. 
+
+Let us first start by breaking down the different components of the lab. In a tightly integrated ServiceNow landscape that spans various internal ServiceNow components and external data sources, the diagram below would be a good represenation. These internal and external components will be used by Flows and AI Agents to provide the automations needed to solve our business problem of managing financial budgets. While the components will look overwhelming, the reality is customer landscapes require this level of complexity to manage different types of data across multiple functions. The key thing to note is the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
 
 ### External System Prerequisites
-Baseline configuration for the external systems listed in this lab are done prior to the steps listed. As mentioned in the disclaimer, environments which will have the prereqiusite external systems will be available externally for customers soon and for time being, you can use this lab as a guide on how the components will interact. 
+
+Baseline configuration for the external systems listed in this lab are done prior to the steps listed. As mentioned in the disclaimer, environments which will have the prereqiusite external systems will be available externally for customers soon and for time being, you can use this lab as a guide on how the components will interact.
+
 ```mermaid
 graph LR
     subgraph "External System Prerequisites"
@@ -29,12 +32,16 @@ graph LR
     class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
     class Employee,EC,ControlTower,ClaudeDesktop user
 ```
-* **ERP**: This lab will use an SAP system with OData endpoints. The OData authentication and integration is already configured in this execrcise and the objective is get the needed endpoint by selecting it from the OData catalog. If you wish to learn more on how to create the configuration in your own environment, check this [Zero Copy Connector for ERP guide from Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800). You can also take this ServiceNow University course on [Introduction to Zero Copy Connector for ERP Data Products and Process Extensions](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-zero-copy-connector-for-erp-data-products-and?id=learning_course_prev&course_id=72e3387d937bea54fb94b4886cba1095).
-* **Cloud Data Warehouse**: Snowflake will be the cloud data warehouse used in this lab. If you have a Databricks or Redshift environment, the principles and steps here will also apply. The Snowflake key-pair authentication and integration is already configured in this execrcise and the objective is get the needed data asset by selecting it from Workflow Data Fabric Hub. If you wish to learn more on how to create the configuration in your own environment, check this ServiceNow University course on [Zero Copy Connector Basics](https://learning.servicenow.com/lxp/en/automation-engine/zero-copy-connector-basics?id=learning_course_prev&course_id=c505959493283e903cc0322d6cba1025).
-* **Document Storage**: SharePoint will be used as the document storage which will be the target of External Content Connectors or XCC. Unstructured data will be stored in SharePoint which will be indexed by ServiceNow as additional source of data for Flows and AI Agents in this lab exercise. If you wish to learn more on how to create the configuration in your own environment, check this ServiceNow University course on [Introduction to AI Search and External Content Connectors](https://learning.servicenow.com/lxp/en/now-platform/introduction-to-ai-search-and-external-content-connectors?id=learning_course_prev&course_id=62283c7c93d46e50f2d9bc686cba107b).
+
+* **ERP**: This lab will use an SAP system with OData endpoints. The OData authentication and integration is already configured in this execrcise and the objective is get the needed endpoint by selecting it from the OData catalog. If you wish to learn more on how to create the configuration in your own environment, check this [Zero Copy Connector for ERP guide from Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800). You can also take this ServiceNow University course on [Introduction to Zero Copy Connector for ERP Data Products and Process Extensions](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-zero-copy-connector-for-erp-data-products-and?id=learning_course_prev\&course_id=72e3387d937bea54fb94b4886cba1095).
+* **Cloud Data Warehouse**: Snowflake will be the cloud data warehouse used in this lab. If you have a Databricks or Redshift environment, the principles and steps here will also apply. The Snowflake key-pair authentication and integration is already configured in this execrcise and the objective is get the needed data asset by selecting it from Workflow Data Fabric Hub. If you wish to learn more on how to create the configuration in your own environment, check this ServiceNow University course on [Zero Copy Connector Basics](https://learning.servicenow.com/lxp/en/automation-engine/zero-copy-connector-basics?id=learning_course_prev\&course_id=c505959493283e903cc0322d6cba1025).
+* **Document Storage**: SharePoint will be used as the document storage which will be the target of External Content Connectors or XCC. Unstructured data will be stored in SharePoint which will be indexed by ServiceNow as additional source of data for Flows and AI Agents in this lab exercise. If you wish to learn more on how to create the configuration in your own environment, check this ServiceNow University course on [Introduction to AI Search and External Content Connectors](https://learning.servicenow.com/lxp/en/now-platform/introduction-to-ai-search-and-external-content-connectors?id=learning_course_prev\&course_id=62283c7c93d46e50f2d9bc686cba107b).
 * **Expense Event API**: This component can be created as a mock endpoint using services such as [beeceptor.com](beeceptor.com). The specification for the API will be provided in this lab so you can simulate it in your own environment.
+
 ### User Interaction Layer
-The end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**. These three interfaces will be end test scenario for the lab excercises.
+
+The end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**. These three interfaces will be end test scenario for the lab exercises.
+
 ```mermaid
 graph LR
     subgraph "User Interaction Layer"
@@ -59,8 +66,11 @@ graph LR
     class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
     class Employee,EC,ControlTower,ClaudeDesktop user
 ```
+
 ### ServiceNow Workflow Data Fabric
+
 The next diagram shows tha various ServiceNow components that interact with the external systems while working in the back-end to provide the data and automation needed by users.
+
 ```mermaid
 graph LR
     subgraph "ServiceNow Workflow Data Fabric"
@@ -119,23 +129,29 @@ graph LR
     class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
     class Employee,EC,ControlTower,ClaudeDesktop user
 ```
+
 #### Data Integration Layer and Zero Copy Tables
+
 These data integrations match the external sources mentioned earlier.
+
 * **Zero Copy Connector for SQL**: also known as ZCC for SQL will connect to the Snowflake data assets for the lab, specifically the Cost Center History, Expenses, and Summary.
 * **Zero Copy Connector for ERP**: also known as ZCC for ERP will get the cost center master data from SAP.
 * **Integration Hub**: will access the REST API data, for the lab it will be a periodic trigger.
 * **External Content Connector**: will access the indexed documents in SharePoint to enrich decision making and automations for our finance workflow.
+
 ## Overall Data Flow
-Do not let the graph intimidate you 😉. This will be broken down further and the intent of showing the whole data flow is to provide an overview of the inner workings within ServiceNow while, as mentioned earlier, the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**. 
+
+Do not let the graph intimidate you 😉. This will be broken down further and the intent of showing the whole data flow is to provide an overview of the inner workings within ServiceNow while, as mentioned earlier, the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
 
 You can skip the review of the diagram below if you prefer and head straight into the lab exercises if you so desire with the data flow and their respective labs broken down below.
 
-* [Lab Exercise: Fundamentals](https://github.com/leojacinto/WorkflowDataFabric/blob/main/1_Fundamentals.md)
-* [Lab Exercise: Zero Copy](https://github.com/leojacinto/WorkflowDataFabric/blob/main/2_Zero_Copy.md)
-* [Lab Exercise: Integration Hub](https://github.com/leojacinto/WorkflowDataFabric/blob/main/3_Integration_Hub.md)
-* [Lab Exercise: External Content Connector](https://github.com/leojacinto/WorkflowDataFabric/blob/main/4_External_Content_Connector.md)
-* [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](https://github.com/leojacinto/WorkflowDataFabric/blob/main/5_Lens_and_DocIntel.md)
-* [Lab Exercise: ServiceNow Lens and Document Intelligence](https://github.com/leojacinto/WorkflowDataFabric/blob/main/6_MCP_and_AI_Control_Tower.md)
+* [Lab Exercise: Fundamentals](1_Fundamentals.md)
+* [Lab Exercise: Zero Copy](2_Zero_Copy.md)
+* [Lab Exercise: Integration Hub](3_Integration_Hub.md)
+* [Lab Exercise: External Content Connector](4_External_Content_Connector.md)
+* [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](5_Lens_and_DocIntel.md)
+* [Lab Exercise: ServiceNow Lens and Document Intelligence](6_MCP_and_AI_Control_Tower.md)
+
 ```mermaid
 graph LR
     subgraph "User Interaction Layer"
