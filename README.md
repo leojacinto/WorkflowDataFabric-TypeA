@@ -8,7 +8,7 @@ This lab demonstrates end-to-end integration scenarios that require both Service
 
 #### ServiceNow dependencies
 
-Before attempting these exercises, ensure you have access to the following:
+Before attempting these exercises, ensure you have access and license entitlements to the following:
 
 | Component Needed                                  | Required version, Zurich Patch 4 recommended |
 | ------------------------------------------------- | -------------------------------------------- |
