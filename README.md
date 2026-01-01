@@ -1,6 +1,8 @@
 # Workflow Data Fabric Lab: Financial Intelligence at Scale
 
-### Dislcaimer
+<figure><img src=".gitbook/assets/sc_persona_wdf.png" alt="" width="563"><figcaption></figcaption></figure>
+
+### Disclaimer
 
 This lab requires you to have ServiceNow internal and external data services available to make the integration scenarios meaningful. If you wish to have this lab, its ServiceNow components, and its external service dependencies available for you, **a complete image with prerequisites and integrations will be externaly available for customers soon**. If you have the components available for you to execute this in your environment, or simply want to get an idea how to execute the steps if you have a similar set-up, read on! This is designed to also provide a conceptual architecture of how ServiceNow alongside external systems can deliver end to end automation with Flows and/or AI Agents while allowing the user to access systems and AI however they prefer.
 
@@ -46,5 +48,3 @@ You'll master the architectural patterns for transforming siloed enterprise data
 * [Lab Exercise: External Content Connector](4_External_Content_Connector.md)
 * [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](5_Lens_and_DocIntel.md)
 * [Lab Exercise: ServiceNow Lens and Document Intelligence](6_MCP_and_AI_Control_Tower.md)
-
-<img src=".gitbook/assets/sc_persona_wdf.png" alt="" data-size="original">
