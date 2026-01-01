@@ -10,7 +10,7 @@ This lab demonstrates end-to-end integration scenarios that require both Service
 
 Before attempting these exercises, ensure you have access and license entitlements to the following:
 
-| Component Needed                                  | Required version, Zurich Patch 4 recommended |
+| Component needed                                  | Required version, Zurich Patch 4 recommended |
 | ------------------------------------------------- | -------------------------------------------- |
 | Zero Copy Connector for SQL                       | 2.0.0                                        |
 | Zero Copy Connector for ERP                       | 8.0.14                                       |
