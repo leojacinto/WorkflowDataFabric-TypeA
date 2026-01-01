@@ -1,6 +1,6 @@
 # Lab Exercise: External Content Connector
 
-$\color{red}{\text{Lab Exercise creation in progress!\}}$
+<mark style="color:red;">**Lab Exercise creation in progress!**</mark>
 
 [Take me back to ReadMe](./)
 

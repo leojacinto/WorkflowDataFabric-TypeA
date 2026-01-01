@@ -1,5 +1,7 @@
 # Bonus Exercise: Stream Connect for Apache Kafka Lab Guide
 
+<figure><img src=".gitbook/assets/sc_persona.png" alt="" width="563"><figcaption></figcaption></figure>
+
 ### Business motivation
 
 Real-time visibility and agility are critical for making informed business decisions and delivering exceptional service experiences. Traditional integration methods that rely on scheduled jobs or polling introduce delays, data inconsistencies, and operational inefficiencies.
@@ -25,8 +27,6 @@ By completing this lab, participants will gain practical experience implementing
 
 Let’s get Streameeey! 🚀
 
-![](.gitbook/assets/sc_persona.png)
-
 ***
 
 ### Access pre-requisites: Mandatory
@@ -42,13 +42,19 @@ This will reduce effort in building the Kafka Producer:
 
 1. Get a Docker account which can be created for free via https://www.docker.com/
 2. Install Docker Desktop via https://docs.docker.com/desktop/
-3. Open Docker, search for apache/kafka latest image by using the **Search** bar then click **Pull** ![](.gitbook/assets/sc_docker_pull.png)
+3.  Open Docker, search for apache/kafka latest image by using the **Search** bar then click **Pull**&#x20;
+
+    <figure><img src=".gitbook/assets/sc_docker_pull.png" alt=""><figcaption></figcaption></figure>
 4.  Go to **Images**, **Run** the Docker Image, accept defaults
 
-    ![](.gitbook/assets/sc_docker_run.png)
+
+
+    <figure><img src=".gitbook/assets/sc_docker_run.png" alt=""><figcaption></figcaption></figure>
 5.  Go to Containers and see the newly created container with a randomized name; in the example below, it is vigilant\_bartik and agitated\_ardinghelli
 
-    ![](.gitbook/assets/sc_docker_image.png)
+
+
+    <figure><img src=".gitbook/assets/sc_docker_image.png" alt=""><figcaption></figcaption></figure>
 6. This will be the image you will use for **Part 5: Sending messages from Kafka Producer**. Alternatively you can execute all of the steps in **Part 4: Setting up a Kafka Producer** in your local machine by setting up Apache Kafka in your local machine
 
 #### Alternative local machine option
@@ -61,11 +67,11 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 1. Go to All > search for **Data Sources**
 
-![](.gitbook/assets/sc_data_source_start.png)
+<figure><img src=".gitbook/assets/sc_data_source_start.png" alt="" width="291"><figcaption></figcaption></figure>
 
 2. Click **New**
 
-![](.gitbook/assets/sc_data_source_new.png)
+<figure><img src=".gitbook/assets/sc_data_source_new.png" alt=""><figcaption></figcaption></figure>
 
 3. Fill in the details for:
 
@@ -76,10 +82,14 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * e. Put in **Path for each row** the characters **//**
 *   f. Tick **Data in single column**
 
-    ![](.gitbook/assets/sc_data_source_create.png)
+
+
+    <figure><img src=".gitbook/assets/sc_data_source_create.png" alt="" width="554"><figcaption></figcaption></figure>
 *   g. Right click on the header and click **Save**
 
-    ![](.gitbook/assets/sc_data_source_save.png)
+
+
+    <figure><img src=".gitbook/assets/sc_data_source_save.png" alt=""><figcaption></figcaption></figure>
 
 4. Create a JSON file which has the structure of the data source. Use the text below and save the file as **cmdb complex data array.json**
 
@@ -116,14 +126,20 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * a. Select the clip icon
 *   b. Click **Choose file** and upload the file from your machine
 
-    ![](.gitbook/assets/sc_data_source_json.png)
+
+
+    <figure><img src=".gitbook/assets/sc_data_source_json.png" alt="" width="512"><figcaption></figcaption></figure>
 
 6.  Right click on the header and click **Save**
 
-    ![](.gitbook/assets/sc_data_source_save.png)
+
+
+    <figure><img src=".gitbook/assets/sc_data_source_save.png" alt=""><figcaption></figcaption></figure>
 7.  Under Related Links click on **Test Load 20 Records**
 
-    ![](.gitbook/assets/sc_data_source_test_load.png)
+
+
+    <figure><img src=".gitbook/assets/sc_data_source_test_load.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -131,11 +147,17 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 1.  Go to **All** > search for **IntegrationHub ETL**
 
-    ![](.gitbook/assets/sc_ihub.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub.png" alt="" width="296"><figcaption></figcaption></figure>
 2.  In IntegrationHub ETL home screen, click **Create new**
 
-    ![](.gitbook/assets/sc_ihub_create.png)
-3. Under **Specify Basic Details**, click on \*\*Import Source Data and Provide Basic Details \*\* ![](.gitbook/assets/sc_ihub_specify_basic.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_create.png" alt="" width="255"><figcaption></figcaption></figure>
+3.  Under **Specify Basic Details**, click on \*\*Import Source Data and Provide Basic Details \*\*&#x20;
+
+    <figure><img src=".gitbook/assets/sc_ihub_specify_basic.png" alt="" width="347"><figcaption></figcaption></figure>
 4. Fill in the screen **Provide Basic Information for the ETL Transform Map**
 
 * a. **CMDB Application**, select **CMDB Import**
@@ -145,25 +167,37 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * e. **Preview Size Override**, set to **100**
 *   f. Click **Save** then **Mark as Complete**
 
-    ![](.gitbook/assets/sc_ihub_provide_basic.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_provide_basic.png" alt="" width="563"><figcaption></figcaption></figure>
 
 5.  **Under Prepare Source Data for Mapping**, click on **Preview and Prepare Data**
 
-    ![](.gitbook/assets/sc_ihub_prepare.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_prepare.png" alt="" width="563"><figcaption></figcaption></figure>
 6. Fill in the screen **Provide Basic Information for the ETL Transform Map**
 
-* a. Verify that when clicking on object in the first node of the tree on the left that the fields are similar to the screen here. Sequence is not important. ![](.gitbook/assets/sc_ihub_preview_object.png)
+*   a. Verify that when clicking on object in the first node of the tree on the left that the fields are similar to the screen here. Sequence is not important.&#x20;
+
+    <figure><img src=".gitbook/assets/sc_ihub_preview_object.png" alt=""><figcaption></figcaption></figure>
 * b. Verify that when click on in data in the third node on the tree to the left that the fields are similar to the screen here. This is a wide table so checking the first few fields is sufficient. Sequence is not important.
 *   c. Click **Mark as Complete**
 
-    ![](.gitbook/assets/sc_ihub_preview_data.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_preview_data.png" alt=""><figcaption></figcaption></figure>
 
 7.  Under **Map to CMDB and Add Relationships**, click **Select CMDB Classes to Map Source Data**
 
-    ![](.gitbook/assets/sc_ihub_map_data_select.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_map_data_select.png" alt="" width="563"><figcaption></figcaption></figure>
 8.  Click in **Add Conditional Class**
 
-    ![](.gitbook/assets/sc_ihub_select_class.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_select_class.png" alt="" width="254"><figcaption></figcaption></figure>
 9. A new dialog will pop-up
 
 * a. **Collection**, select **object**
@@ -174,28 +208,40 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * f. Under **Then** **Class** field, select **Windows Server**
 *   g. Click **Save**
 
-    ![](.gitbook/assets/sc_ihub_add_class.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_add_class.png" alt=""><figcaption></figcaption></figure>
 
 10. **Set up Mapping** for Linux Server 1
 
-    ![](.gitbook/assets/sc_ihub_select_linux_mapping.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_select_linux_mapping.png" alt="" width="563"><figcaption></figcaption></figure>
 11. Fill up the details for Linux Server 1
 
 *   a. **Source Native Key** > **Source Column**, click on mapping button, type and select **hostname**
 
-    ![](.gitbook/assets/sc_ihub_linux_host.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_linux_host.png" alt="" width="563"><figcaption></figcaption></figure>
 *   b. **Name** > **Source Column**, click on mapping button, type **data.name**, click on **data** then click on **name**
 
-    ![](.gitbook/assets/sc_ihub_linux_name.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_linux_name.png" alt=""><figcaption></figcaption></figure>
 * c. Using the same approach from the PREVIOUS screenshot, go to **Product instance identifier** > **Source Column**, click on mapping button, type **data.name**, click on **data** then click on **name**
 * d. Using the same approach from the PREVIOUS screenshot, go to **Serial number** > **Source Column**, click on mapping button, type **data.site\_code**, click on data then click on **site\_code**
 *   e. The final output should be similar to below. Click back
 
-    ![](.gitbook/assets/sc_ihub_linux_final.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_linux_final.png" alt="" width="530"><figcaption></figcaption></figure>
 
 12. **Set up Mapping** for Windows Server 1
 
-    ![](.gitbook/assets/sc_ihub_select_windows_mapping.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_select_windows_mapping.png" alt="" width="563"><figcaption></figcaption></figure>
 13. Do similar steps done for Linux Server 1 for Windows Server 1
 
 * a. **Source Native Key** > **Source Column**, click on mapping button, type and select **hostname**
@@ -204,39 +250,53 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * d. **Serial number** > **Source Column**, click on mapping button, type **data.site\_code**, click on **data** then click on **site\_code**
 *   e. The final output should be similar to below. Click back
 
-    ![](.gitbook/assets/sc_ihub_windows_final.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_windows_final.png" alt="" width="557"><figcaption></figcaption></figure>
 
 14. Click **Mark as Complete** to finish Select CMDB Classes to Map Source Data
 
-![](.gitbook/assets/sc_ihub_map_data_complete.png)
+<figure><img src=".gitbook/assets/sc_ihub_map_data_complete.png" alt="" width="563"><figcaption></figcaption></figure>
 
 15. Under **Map to CMDB and Add Relationships**, click **Add Relationships**
 
-    ![](.gitbook/assets/sc_ihub_map_data_add.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_map_data_add.png" alt="" width="563"><figcaption></figcaption></figure>
 16. Click **Add Relationships**
 
 * a. Leave this blank; this is just to show the option to add Class Relationships if needed
 *   b. Click back
 
-    ![](.gitbook/assets/sc_ihub_map_data_add_complete.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_map_data_add_complete.png" alt="" width="563"><figcaption></figcaption></figure>
 
 17. Under **Preview Sample Integration Results and Schedule Import**, click **Test and Rollback Integration Results**
 
-![](.gitbook/assets/sc_ihub_preview_sample.png)
+<figure><img src=".gitbook/assets/sc_ihub_preview_sample.png" alt="" width="563"><figcaption></figcaption></figure>
 
 18. Run an integration test
 
 *   a. Click **Run Integration**
 
-    ![](.gitbook/assets/sc_ihub_run_integration.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_run_integration.png" alt="" width="563"><figcaption></figcaption></figure>
 *   b. The results should be similar to below
 
-    ![](.gitbook/assets/sc_ihub_integration_result.png)
+
+
+    <figure><img src=".gitbook/assets/sc_ihub_integration_result.png" alt="" width="563"><figcaption></figcaption></figure>
 *   c. Click back then click **Perform Rollback**
 
-    ![](.gitbook/assets/sc_ihub_rollback_integration.png)
 
-14. Set up of ETL Transform Map is complete, click back ![](.gitbook/assets/sc_ihub_complete.png)
+
+    <figure><img src=".gitbook/assets/sc_ihub_rollback_integration.png" alt="" width="541"><figcaption></figcaption></figure>
+
+14. Set up of ETL Transform Map is complete, click back&#x20;
+
+    <figure><img src=".gitbook/assets/sc_ihub_complete.png" alt="" width="328"><figcaption></figcaption></figure>
 
 ***
 
@@ -244,30 +304,30 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 1. Go to All > search for **Stream Connect Home**
 
-![](.gitbook/assets/sc_sc_home.png)
+<figure><img src=".gitbook/assets/sc_sc_home.png" alt=""><figcaption></figcaption></figure>
 
 2. Go to **Consumers** then click **Create**
 
-![](.gitbook/assets/sc_sc_create_consumer.png)
+<figure><img src=".gitbook/assets/sc_sc_create_consumer.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Select **ETL Consumer**
 
-![](.gitbook/assets/sc_sc_etl_consumer.png)
+<figure><img src=".gitbook/assets/sc_sc_etl_consumer.png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Provide the details of the RTE consumer
 
 * a. **Name**, put a descriptive name
 * b. **Robust import set transformer**, select the Integration Hub ETL created in Part 2
 
-![](.gitbook/assets/sc_sc_rte_consumer.png)
+<figure><img src=".gitbook/assets/sc_sc_rte_consumer.png" alt="" width="356"><figcaption></figcaption></figure>
 
 5. Right click on the header and click **Save**
 
-![](.gitbook/assets/sc_data_source_save.png)
+<figure><img src=".gitbook/assets/sc_data_source_save.png" alt=""><figcaption></figcaption></figure>
 
 6. At the bottom part of the **Kafka RTE Consumer** screen within the **Kafka Streams** box , click **New**
 
-![](.gitbook/assets/sc_sc_new_kafka_stream.png)
+<figure><img src=".gitbook/assets/sc_sc_new_kafka_stream.png" alt="" width="475"><figcaption></figcaption></figure>
 
 7. Provide the details of the Kafka Stream
 
@@ -275,31 +335,31 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * b. **Topic**, select wdftosn
 * c. Click **Activate**
 
-![](.gitbook/assets/sc_sc_rte_consumer.png)
+<figure><img src=".gitbook/assets/sc_sc_rte_consumer.png" alt="" width="356"><figcaption></figcaption></figure>
 
 8. Right click on the header and click **Save**
 
-![](.gitbook/assets/sc_data_source_save.png)
+<figure><img src=".gitbook/assets/sc_data_source_save.png" alt=""><figcaption></figcaption></figure>
 
 9. If everything is configured correctly, the bottom of the Kafka Streams screen Subscriptions box will show an active stream with details similar to below
 
-![](.gitbook/assets/sc_sc_active_stream.png)
+<figure><img src=".gitbook/assets/sc_sc_active_stream.png" alt=""><figcaption></figcaption></figure>
 
 10. In the header, press back
 
-![](.gitbook/assets/sc_sc_kafka_stream_back.png)
+<figure><img src=".gitbook/assets/sc_sc_kafka_stream_back.png" alt=""><figcaption></figcaption></figure>
 
 11. In the **Kafka RTE Consumer** screen, the Kafka Stream created will show as active. Press back
 
-![](.gitbook/assets/sc_sc_active_rte.png)
+<figure><img src=".gitbook/assets/sc_sc_active_rte.png" alt=""><figcaption></figcaption></figure>
 
 12. In the **Stream Connect** screen > **Consumers** section, the ETL created will show as active. Click on the consumer name
 
-![](.gitbook/assets/sc_sc_active_consumer.png)
+<figure><img src=".gitbook/assets/sc_sc_active_consumer.png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. This will show statistics of the consumer; optionally clicking on **Manage RTE** will show the configurations created from steps 4 to 11
 
-![](.gitbook/assets/sc_sc_active_consumer_stats.png)
+<figure><img src=".gitbook/assets/sc_sc_active_consumer_stats.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -307,48 +367,48 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 1. Go to All > search for **Instance PKI Certificate Generator**
 
-![](.gitbook/assets/sc_producer_pki.png)
+<figure><img src=".gitbook/assets/sc_producer_pki.png" alt=""><figcaption></figcaption></figure>
 
 2. Set up the certificate password and ACL
 
 * a. Provide a password with a minimum of 8 characters. For the example used in this lab, it will be **streamconnect**
 * b. Click **Configure Acl**
 
-![](.gitbook/assets/sc_producer_password_acl.png)
+<figure><img src=".gitbook/assets/sc_producer_password_acl.png" alt="" width="240"><figcaption></figcaption></figure>
 
 3. In the **Namespaces** section by clicking the radio button of the same name, select all of the namespaces to avoid any authorization issues. In a real environment, it is necessary to identify the correct namespace
 
-![](.gitbook/assets/sc_producer_select_namespace.png)
+<figure><img src=".gitbook/assets/sc_producer_select_namespace.png" alt=""><figcaption></figcaption></figure>
 
 4. Once the namespaces are selected, it should look similar to the screen below
 
-![](.gitbook/assets/sc_producer_namespaces_selected.png)
+<figure><img src=".gitbook/assets/sc_producer_namespaces_selected.png" alt=""><figcaption></figcaption></figure>
 
 5. In the **Defined Topics** section by clicking the radio button of the same name, select **wdftosn**
 
-![](.gitbook/assets/sc_producer_select_topic.png)
+<figure><img src=".gitbook/assets/sc_producer_select_topic.png" alt=""><figcaption></figcaption></figure>
 
 6. Once the topic selected, it should look similar to the screen below. Click **Save**
 
-![](.gitbook/assets/sc_producer_topic_selected.png)
+<figure><img src=".gitbook/assets/sc_producer_topic_selected.png" alt=""><figcaption></figcaption></figure>
 
 7. Generate the certificate
 
-![](.gitbook/assets/sc_producer_generate_certificate.png)
+<figure><img src=".gitbook/assets/sc_producer_generate_certificate.png" alt=""><figcaption></figcaption></figure>
 
 8. After a few seconds, the certificates are ready to download. Click on **Download Keystore** and **Download Trustore** to obtain the respective files
 
-![](.gitbook/assets/sc_producer_download_certificate.png)
+<figure><img src=".gitbook/assets/sc_producer_download_certificate.png" alt="" width="492"><figcaption></figcaption></figure>
 
 9. Put the downloaded files into a folder called **servicenow\_certs**. Doing this will avoid permission issues in the next steps.
 10. The next steps can be done in docker desktop or in your own machine. Steps 11 to 17 shows how it can be done in docker and the docker-specific steps can be omitted if this is done in your local machine.
 11. Open docker desktop, go to Containers, ensure the the image created in part **Pre-requisites: Recommended** has been started indicated by a green dot beside it. If not, click on the **Start** button (play icon). In this example, the image name is awesome\_cerf. You will have a randomized image name
 
-![](.gitbook/assets/sc_producer_start_container.png)
+<figure><img src=".gitbook/assets/sc_producer_start_container.png" alt=""><figcaption></figcaption></figure>
 
 12. Go to **Files** > in the file browser navigate to the path opt > kafka > config > **producer.properties** > click **Open file editor**
 
-![](.gitbook/assets/sc_producer_properties.png)
+<figure><img src=".gitbook/assets/sc_producer_properties.png" alt=""><figcaption></figcaption></figure>
 
 13. Paste the text below in the **producer.properties** file. Notice the path of the file in the screenshot as well as the placement of the text in the screenshot below in case of any doubt.
 
@@ -369,19 +429,19 @@ ssl.truststore.password=streamconnect
 ssl.truststore.type=PKCS12
 ```
 
-![](.gitbook/assets/sc_producer_properties_content.png)
+<figure><img src=".gitbook/assets/sc_producer_properties_content.png" alt=""><figcaption></figcaption></figure>
 
 14. Staying in the **Files** section of your container, navigate to opt > kafka > config, right click on _any_ file then click "Import"
 
-![](.gitbook/assets/sc_producer_import_cert.png)
+<figure><img src=".gitbook/assets/sc_producer_import_cert.png" alt="" width="329"><figcaption></figcaption></figure>
 
 15. Navigate to the servicenow\_certs created in step 9 which contains the certificates from the ServiceNow instance then select the folder (**DO NOT** double-click)
 
-![](.gitbook/assets/sc_producer_import_cert_upload.png)
+<figure><img src=".gitbook/assets/sc_producer_import_cert_upload.png" alt=""><figcaption></figcaption></figure>
 
 16. Go to the **Exec** portion of the docker image
 
-![](.gitbook/assets/sc_producer_exec.png)
+<figure><img src=".gitbook/assets/sc_producer_exec.png" alt=""><figcaption></figcaption></figure>
 
 17. Execute the commands below to copy the certificates downloaded form the ServiceNow instance. Take careful note of the filenames as the filenames of the downloaded certificates from the ServiceNow instance may vary
 
@@ -408,7 +468,7 @@ cp /opt/kafka/config/servicenow_certs/truststore.p12 /opt/kafka/config/kafka.ser
 
 2. If everything is working correctly, a line with the character **>** and a blinking cursor will appear
 
-![](.gitbook/assets/sc_producer_connect.png)
+<figure><img src=".gitbook/assets/sc_producer_connect.png" alt=""><figcaption></figcaption></figure>
 
 3. Send a message to be processed by Stream Connect with the docker image as the Kafka producer. See the sample message below and modify the body with your intials and the date to make the message unique. The template is as below. This will execute a task that sends messages to Stream Connect through your Kafka Producer. In a productive environment, these can be generated from automated sources. The intent of this example is to manually trigger sending of a Kafka message from the Producer in the docker image
 
@@ -424,11 +484,11 @@ In the text above, take note of the portions below which you should replace with
 
 4. If the sending of message is successful, a line with the character **>** and a blinking cursor will appear
 
-![](.gitbook/assets/sc_producer_message_sent.png)
+<figure><img src=".gitbook/assets/sc_producer_message_sent.png" alt=""><figcaption></figcaption></figure>
 
 5. Go back to the ServiceNow instance > All > type **cmdb\_ci\_win\_server.list** and hit **Enter ↵**
 
-![](.gitbook/assets/sc_producer_servers.png)
+<figure><img src=".gitbook/assets/sc_producer_servers.png" alt=""><figcaption></figcaption></figure>
 
 6. This should show the details of the Windows server created in step 3
 
@@ -436,14 +496,14 @@ In the text above, take note of the portions below which you should replace with
 * b. Sort the **Updated** field as descending (down arrow)
 * c. Look for the Windows server created in step 3
 
-![](.gitbook/assets/sc_producer_servers_validate.png)
+<figure><img src=".gitbook/assets/sc_producer_servers_validate.png" alt=""><figcaption></figcaption></figure>
 
 7. If everything is successful, go back to the docker image. Press **Command + C** in Mac or **Ctrl + C** in Windows to cancel your message sending session
 
 * a. If everything is working normally, this will result in the prompt displaying **^C/ $** and a blinking cursor like below
 * b. Stop the image. If needed, it can be deleted (bin icon), and if you have no further use for docker desktop, you can remove it from your machine
 
-![](.gitbook/assets/sc_producer_cleanup.png)
+<figure><img src=".gitbook/assets/sc_producer_cleanup.png" alt=""><figcaption></figcaption></figure>
 
 8. Congratulations on building your Kafka Stream Connect integration with ServiceNow!
 

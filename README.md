@@ -8,7 +8,7 @@ This lab requires you to have ServiceNow internal and external data services ava
 
 This lab is created by [Leo Francia](https://www.linkedin.com/in/leojmfrancia/), a Data Architect at ServiceNow, and is in no way a ServiceNow official manual. Leo is an active member of the [ServiceNow community](https://www.servicenow.com/community/workflow-data-fabric/ct-p/workflow-data-fabric) and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talke about himself in the third person, but please let him be.
 
-### Business Motivation
+### Business motivation
 
 Finance teams discover budget overruns weeks too late. Expense analysis requires manually piecing together data from ERP systems, data warehouses, and SharePoint. By the time finance reacts, small variances become major problems. **ServiceNow Workflow Data Fabric transforms reactive financial management into proactive intelligence**. By unifying data across systems through Zero Copy for SQL and ERP, Global Graph, and AI agents, organizations can:
 
@@ -17,7 +17,7 @@ Finance teams discover budget overruns weeks too late. Expense analysis requires
 * **Enable self-service insights** through natural language queries in Employee Center
 * **Scale financial operations** with AI agents, not headcount
 
-### Persona Context
+### Persona context
 
 You're a **Data Architect** serving the Finance department. Finance Managers need immediate visibility into budget performance. Cost Center Owners need to understand why they're over budget; with context, not just numbers. **Your mission**: Build an intelligent financial data fabric that connects ServiceNow to external systems, deploys AI agents to detect and analyze budget issues automatically, surfaces executive guidance, and enables self-service analytics through Employee Center and Claude Desktop. You'll solve three critical problems:
 
@@ -39,7 +39,7 @@ By completing this lab, you'll build a production-grade financial intelligence p
 
 You'll master the architectural patterns for transforming siloed enterprise data into unified, intelligent decision-making platforms. **Let's build something intelligent**. 🚀💡
 
-### Table of Contents
+### Table of contents
 
 * [Workflow Data Fabric Diagrams](0_WDF_Diagrams.md)
 * [Lab Exercise: Fundamentals](1_Fundamentals.md)
