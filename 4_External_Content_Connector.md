@@ -1,6 +1,8 @@
 # Lab Exercise: External Content Connector
+$\color{red}{\text{Lab Exercise creation in progress!}}$
+
 [Take me back to ReadMe](https://github.com/leojacinto/WorkflowDataFabric/blob/main/ReadMe.md)
-<span style="color: red;">Lab Exercise coming soon!</span>
+
 This lab will walk you through configuration of External Content Connectors as a source of unstructured document data to supplement automations needed in Finance case creation.
 ### Data Flow
 The data flow below shows how ServiceNow will infomration from indexed documents from a document repository such as SharePoint to provide additional context and information to assist with Flows and Automations.
