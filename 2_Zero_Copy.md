@@ -92,7 +92,7 @@ graph LR
 
 #### Zero Copy for SQL
 
-1. Test
+1. Test entry
 <img src=".gitbook/assets/sc_zcc_snowflake.png" alt="" width="400">
 2. a
 <img src=".gitbook/assets/sc_zcc_wdf_hub.png" alt="" width="400">
