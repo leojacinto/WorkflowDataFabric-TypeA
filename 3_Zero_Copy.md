@@ -104,15 +104,15 @@ graph LR
 6. a
 <img src=".gitbook/assets/sc_zcc_cost_center_model.png" alt="">
 7. a
-<img src=".gitbook/assets/sc_zcc_manage_model.png" alt="">
+<img src=".gitbook/assets/sc_zcc_cc_manage_model.png" alt="">
 8. a
-<img src=".gitbook/assets/sc_zcc_read_ops.png" alt="">
+<img src=".gitbook/assets/sc_zcc_cc_read_ops.png" alt="">
 9. a
-<img src=".gitbook/assets/sc_zcc_read_bapi.png" alt="">
+<img src=".gitbook/assets/sc_zcc_cc_read_bapi.png" alt="">
 10. a
-<img src=".gitbook/assets/sc_zcc_bapi_inputs.png" alt="">
+<img src=".gitbook/assets/sc_zcc_cc_bapi_inputs.png" alt="">
 11. a
-<img src=".gitbook/assets/sc_zcc_bapi_outputs.png" alt="">
+<img src=".gitbook/assets/sc_zcc_cc_bapi_outputs.png" alt="">
 12. a
 <img src=".gitbook/assets/sc_zcc_extraction_table.png" alt="">
 13. a
