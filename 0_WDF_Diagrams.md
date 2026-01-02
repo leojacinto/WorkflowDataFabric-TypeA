@@ -143,7 +143,7 @@ These data integrations match the external sources mentioned earlier.
 
 Do not let the chart intimidate you 😉. This will be broken down further and the intent of showing the whole data flow is to provide an overview of the inner workings within ServiceNow while, as mentioned earlier, the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
 
-You can skip the review of the diagram below if you prefer and head straight into the lab exercises if you so desire with the data flow and their respective labs broken down below.
+You can skip the review of the diagram below if you prefer and head straight into the lab exercises, each of which having its individual data flow.
 
 * [Lab Exercise: Fundamentals](1_Fundamentals.md)
 * [Lab Exercise: Integration Hub](3_Integration_Hub.md)
