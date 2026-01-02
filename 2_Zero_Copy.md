@@ -92,43 +92,62 @@ graph LR
 
 #### Zero Copy for SQL
 
-1. Test entry
-<img src=".gitbook/assets/sc_zcc_snowflake.png" alt="" width="400">
-2. a
-<img src=".gitbook/assets/sc_zcc_wdf_hub.png" alt="" width="400">
-3. a
-<img src=".gitbook/assets/sc_zcc_wdf_hub_landing.png" alt="" width="400">
-4. a
-<img src=".gitbook/assets/sc_zcc_snowflake_connection.png" alt="" width="400">
-5. a
-<img src=".gitbook/assets/sc_zcc_data_asset.png" alt="" width="400">
-6. a
-<img src=".gitbook/assets/sc_zcc_df_table.png" alt="" width="400">
-7. a
-<img src=".gitbook/assets/sc_zcc_columns.png" alt="" width="400">
-8. a
-<img src=".gitbook/assets/sc_zcc_select_columns.png" alt="" width="400">
-9. a
-<img src=".gitbook/assets/sc_zcc_cc_reference.png" alt="" width="400">
-10. a
-<img src=".gitbook/assets/sc_zcc_reference_table.png" alt="" width="400">
-11. a
-<img src=".gitbook/assets/sc_zcc_reference_key.png" alt="" width="400">
-12. a
-<img src=".gitbook/assets/sc_zcc_reference_label.png" alt="" width="400">
-13. a
-<img src=".gitbook/assets/sc_zcc_finalize_df.png" alt="" width="400">
-14. a
-<img src=".gitbook/assets/sc_zcc_confirm_pk.png" alt="" width="400">
-15. a
-<img src=".gitbook/assets/sc_zcc_df_completed.png" alt="" width="400">
-16. a
-<img src=".gitbook/assets/sc_zcc_view_df.png" alt="" width="400">
-17. a
-<img src=".gitbook/assets/sc_zcc_show_df.png" alt="" width="400">
-18. a
-<img src=".gitbook/assets/sc_zcc_df_reference.png" alt="" width="400">
-19. a
-<img src=".gitbook/assets/sc_zcc_sap_cc_ref.png" alt="" width="400">
+1.  Test entry&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_snowflake.png" alt=""><figcaption></figcaption></figure>
+2.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_wdf_hub.png" alt="" width="368"><figcaption></figcaption></figure>
+3.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_wdf_hub_landing.png" alt=""><figcaption></figcaption></figure>
+4.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_snowflake_connection.png" alt=""><figcaption></figcaption></figure>
+5.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_data_asset.png" alt="" width="563"><figcaption></figcaption></figure>
+6.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_df_table.png" alt="" width="563"><figcaption></figcaption></figure>
+7.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_columns.png" alt=""><figcaption></figcaption></figure>
+8.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_select_columns.png" alt=""><figcaption></figcaption></figure>
+9.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_cc_reference.png" alt=""><figcaption></figcaption></figure>
+10. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_reference_table.png" alt=""><figcaption></figcaption></figure>
+11. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_reference_key.png" alt=""><figcaption></figcaption></figure>
+12. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_reference_label.png" alt=""><figcaption></figcaption></figure>
+13. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_finalize_df.png" alt=""><figcaption></figcaption></figure>
+14. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_confirm_pk.png" alt=""><figcaption></figcaption></figure>
+15. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_df_completed.png" alt=""><figcaption></figcaption></figure>
+16. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_view_df.png" alt=""><figcaption></figcaption></figure>
+17. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_show_df.png" alt=""><figcaption></figcaption></figure>
+18. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_df_reference.png" alt=""><figcaption></figcaption></figure>
+19. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_sap_cc_ref.png" alt=""><figcaption></figcaption></figure>
 
 [Take me back to ReadMe](./)
