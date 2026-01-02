@@ -146,8 +146,8 @@ Do not let the chart intimidate you 😉. This will be broken down further and t
 You can skip the review of the diagram below if you prefer, and head straight into the lab exercises, each of which having its individual (and much more broken down 😉) data flow.
 
 * [Lab Exercise: Fundamentals](1_Fundamentals.md)
-* [Lab Exercise: Integration Hub](lab-exercise-integration-hub.md)
-* [Lab Exercise: Zero Copy Connectors](lab-exercise-zero-copy-connectors.md)
+* [Lab Exercise: Integration Hub](2_Integration_Hub.md)
+* [Lab Exercise: Zero Copy Connectors](3_Zero_Copy.md)
 * [Lab Exercise: External Content Connector](4_External_Content_Connector.md)
 * [Lab Exercise: ServiceNow Lens and Document Intelligence](5_Lens_and_DocIntel.md)
 * [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](6_MCP_and_AI_Control_Tower.md)
