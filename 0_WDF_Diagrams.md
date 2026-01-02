@@ -11,7 +11,7 @@ Baseline configuration for the external systems listed in this lab are done prio
 ```mermaid
 graph LR
     subgraph "External System Prerequisites"
-        ERP[(ERP System<br/>OData Endpoint)]
+        ERP[(ERP System<br/>Data)]
         ExpenseAPI[Expense Event<br/>API]
         SharePoint[SharePoint<br/>Executive Memos]
         CDW[(Cloud Data<br/>Warehouse)]
@@ -33,7 +33,7 @@ graph LR
     class Employee,EC,ControlTower,ClaudeDesktop user
 ```
 
-* **ERP**: This lab will use an SAP system with OData endpoints. The OData authentication and integration is already configured in this execrcise and the objective is get the needed endpoint by selecting it from the OData catalog. If you wish to learn more on how to create the configuration in your own environment, check this [Zero Copy Connector for ERP guide from Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800). You can also take this ServiceNow University course on [Introduction to Zero Copy Connector for ERP Data Products and Process Extensions](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-zero-copy-connector-for-erp-data-products-and?id=learning_course_prev\&course_id=72e3387d937bea54fb94b4886cba1095).
+* **ERP**: This lab will use an SAP system with either BAPI/RFC or OData endpoints. The authentication and integration is already configured in this exercise and the objective is get the needed data by selecting the ERP data model and extraction table. If you wish to learn more on how to create the configuration in your own environment, check this [Zero Copy Connector for ERP guide from Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800). You can also take this ServiceNow University course on [Introduction to Zero Copy Connector for ERP Data Products and Process Extensions](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-zero-copy-connector-for-erp-data-products-and?id=learning_course_prev\&course_id=72e3387d937bea54fb94b4886cba1095).
 * **Cloud Data Warehouse**: Snowflake will be the cloud data warehouse used in this lab. If you have a Databricks or Redshift environment, the principles and steps here will also apply. The Snowflake key-pair authentication and integration is already configured in this execrcise and the objective is get the needed data asset by selecting it from Workflow Data Fabric Hub. If you wish to learn more on how to create the configuration in your own environment, check this ServiceNow University course on [Zero Copy Connector Basics](https://learning.servicenow.com/lxp/en/automation-engine/zero-copy-connector-basics?id=learning_course_prev\&course_id=c505959493283e903cc0322d6cba1025).
 * **Document Storage**: SharePoint will be used as the document storage which will be the target of External Content Connectors or XCC. Unstructured data will be stored in SharePoint which will be indexed by ServiceNow as additional source of data for Flows and AI Agents in this lab exercise. If you wish to learn more on how to create the configuration in your own environment, check this ServiceNow University course on [Introduction to AI Search and External Content Connectors](https://learning.servicenow.com/lxp/en/now-platform/introduction-to-ai-search-and-external-content-connectors?id=learning_course_prev\&course_id=62283c7c93d46e50f2d9bc686cba107b).
 * **Expense Event API**: This component can be created as a mock endpoint using services such as [beeceptor.com](beeceptor.com). The specification for the API will be provided in this lab so you can simulate it in your own environment.
@@ -152,7 +152,7 @@ You can skip the review of the diagram below if you prefer and head straight int
 * [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](5_Lens_and_DocIntel.md)
 * [Lab Exercise: ServiceNow Lens and Document Intelligence](6_MCP_and_AI_Control_Tower.md)
 
-```mermaid
+```mermaid fullWidth="true"
 graph LR
     subgraph "User Interaction Layer"
         Employee((Employee/<br/>Finance Manager))
@@ -162,7 +162,7 @@ graph LR
     end
 
     subgraph "External Systems"
-        ERP[(ERP System<br/>OData Endpoint)]
+        ERP[(ERP System<br/>Data)]
         ExpenseAPI[Expense Event<br/>API]
         SharePoint[SharePoint<br/>Executive Memos]
         CDW[(Cloud Data<br/>Warehouse)]
@@ -205,22 +205,14 @@ graph LR
         end
     end
 
-    subgraph "Lab Prerequisites - Mock Services"
-        MockERP[Mock ERP<br/>OData Service]
-        MockExpense[Mock Expense<br/>Event Service]
-        MockCDW[Mock Cloud Data<br/>Warehouse]
-    end
-
     %% Data Flow Connections
     ERP -->|OData Feed| ZeroCopyERP
     CDW -->|Data Fabric table| ZeroCopySQL
-    MockERP -.->|Lab Simulation| ZeroCopyERP
-    MockCDW -.->|Lab Simulation| ZeroCopySQL
+
     ZeroCopyERP --> ZCCC
     ZeroCopySQL --> ZCCH
     ZeroCopySQL --> ZCExp
     ExpenseAPI -->|Real-time Events| IntHub
-    MockExpense -.->|Lab Simulation| IntHub
     IntHub -->|Write| ExpenseTable
     EC -->|Individual UI-based| Lens -->|Write| ExpenseTable
     EC -->|Individual UI-based| DocIntel -->|Write| ExpenseTable
