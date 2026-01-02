@@ -90,6 +90,38 @@ graph LR
 
 ### Steps
 
+#### Zero Copy for ERP
+1. a
+<img src=".gitbook/assets/sc_zcc_erp.png" alt="">
+2. a
+<img src=".gitbook/assets/sc_zcc_erp_home.png" alt="">
+3. a
+<img src=".gitbook/assets/sc_zcc_select_model.png" alt="">
+4. a
+<img src=".gitbook/assets/sc_zcc_dp_cost_center.png" alt="">
+5. a
+<img src=".gitbook/assets/sc_zcc_dp_clone_details.png" alt="">
+6. a
+<img src=".gitbook/assets/sc_zcc_cost_center_model.png" alt="">
+7. a
+<img src=".gitbook/assets/sc_zcc_manage_model.png" alt="">
+8. a
+<img src=".gitbook/assets/sc_zcc_read_ops.png" alt="">
+9. a
+<img src=".gitbook/assets/sc_zcc_read_bapi.png" alt="">
+10. a
+<img src=".gitbook/assets/sc_zcc_bapi_inputs.png" alt="">
+11. a
+<img src=".gitbook/assets/sc_zcc_bapi_outputs.png" alt="">
+12. a
+<img src=".gitbook/assets/sc_zcc_extraction_table.png" alt="">
+13. a
+<img src=".gitbook/assets/sc_zcc_cc_extraction_table.png" alt="">
+14. a
+<img src=".gitbook/assets/sc_zcc_cc_target_table.png" alt="">
+15. a
+<img src=".gitbook/assets/sc_zcc_cc_traget_table_list.png" alt="">
+
 #### Zero Copy for SQL
 
 1.  For reference purposes only, the table which will be used as source for Zero Copy for SQL coming from Snowflake is shown below. No action needs to be done for this step.
