@@ -38,6 +38,9 @@ graph LR
 
         subgraph "AI & Automation"
             Agent2[Agent: Proactive<br/>Budget Alert<br/>Integration Hub Source]
+            RAG[RAG - Retrieval<br/>Augmented Generation]
+            NASK[NASK - Now Assist<br/>Skill Kit]
+            FlowAction[Flow Action]
         end
     end
 
@@ -59,6 +62,9 @@ graph LR
     ExtContent -->|Executive Context| Agent2
     Agent2 -->|Create Alert Case| FinCase
     Agent2 -->|Record Variance| FinVar
+    Agent2 <-->|Trend Analysis| RAG
+    Agent2 <-->|Knowledge Retrieval| NASK
+    Agent2 <-->|Flows/Subflows/Actions| FlowAction
 
     %% User Interaction Connections
     Employee -->|Ask Questions<br/>View/Update Cases| EC
@@ -76,7 +82,7 @@ graph LR
     class IntHub,ExtContent integration
     class ZCCC zeroCopy
     class ExpenseTable,FinCase,FinVar native
-    class Agent2,NLQuery ai
+    class Agent2,NLQuery,RAG,NASK,FlowAction ai
     class MockExpense external
     class Employee,EC user
 ```
