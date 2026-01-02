@@ -91,43 +91,59 @@ graph LR
 ### Steps
 
 #### Zero Copy for ERP
-1. a
-<img src=".gitbook/assets/sc_zcc_erp.png" alt="">
-2. a
-<img src=".gitbook/assets/sc_zcc_erp_home.png" alt="">
-3. a
-<img src=".gitbook/assets/sc_zcc_select_model.png" alt="">
-4. a
-<img src=".gitbook/assets/sc_zcc_dp_cost_center.png" alt="">
-5. a
-<img src=".gitbook/assets/sc_zcc_dp_clone_details.png" alt="">
-6. a
-<img src=".gitbook/assets/sc_zcc_cost_center_model.png" alt="">
-7. a
-<img src=".gitbook/assets/sc_zcc_cc_manage_model.png" alt="">
-8. a
-<img src=".gitbook/assets/sc_zcc_cc_read_ops.png" alt="">
-9. a
-<img src=".gitbook/assets/sc_zcc_cc_read_bapi.png" alt="">
-10. a
-<img src=".gitbook/assets/sc_zcc_cc_bapi_inputs.png" alt="">
-11. a
-<img src=".gitbook/assets/sc_zcc_cc_bapi_outputs.png" alt="">
-12. a
-<img src=".gitbook/assets/sc_zcc_extraction_table.png" alt="">
-13. a
-<img src=".gitbook/assets/sc_zcc_cc_extraction_table.png" alt="">
-14. a
-<img src=".gitbook/assets/sc_zcc_cc_target_table.png" alt="">
-15. a
-<img src=".gitbook/assets/sc_zcc_cc_target_table_list.png" alt="">
+
+1.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_erp.png" alt="" width="344"><figcaption></figcaption></figure>
+2.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_erp_home.png" alt=""><figcaption></figcaption></figure>
+3.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_select_model.png" alt=""><figcaption></figcaption></figure>
+4.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_dp_cost_center.png" alt=""><figcaption></figcaption></figure>
+5.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_dp_clone_details.png" alt="" width="375"><figcaption></figcaption></figure>
+6.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_cost_center_model.png" alt=""><figcaption></figcaption></figure>
+7.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_cc_manage_model.png" alt=""><figcaption></figcaption></figure>
+8.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_cc_read_ops.png" alt=""><figcaption></figcaption></figure>
+9.  a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_cc_read_bapi.png" alt=""><figcaption></figcaption></figure>
+10. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_cc_bapi_inputs.png" alt=""><figcaption></figcaption></figure>
+11. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_cc_bapi_outputs.png" alt=""><figcaption></figcaption></figure>
+12. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_extraction_table.png" alt=""><figcaption></figcaption></figure>
+13. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_cc_extraction_table.png" alt=""><figcaption></figcaption></figure>
+14. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_cc_target_table.png" alt="" width="563"><figcaption></figcaption></figure>
+15. a&#x20;
+
+    <figure><img src=".gitbook/assets/sc_zcc_cc_target_table_list.png" alt=""><figcaption></figcaption></figure>
 
 #### Zero Copy for SQL
 
 1.  For reference purposes only, the table which will be used as source for Zero Copy for SQL coming from Snowflake is shown below. No action needs to be done for this step.
 
     <figure><img src=".gitbook/assets/sc_zcc_snowflake.png" alt=""><figcaption></figcaption></figure>
-2.  In the ServiceNow navigation, go to All > a.) type **Workflow Data Fabric Hub** > go to **Workflow Data Fabric Hub**&#x20;
+2.  In the ServiceNow navigation, go to All > a.) type **Workflow Data Fabric Hub** > go to **Workflow Data Fabric Hub**
 
     <figure><img src=".gitbook/assets/sc_zcc_wdf_hub.png" alt="" width="368"><figcaption></figcaption></figure>
 3.  In the landing page, go to **Established connections** > **Alectri Finance**. <mark style="color:red;">**Note:**</mark> this established connection is configured specifically for instances used in ServiceNow-led labs.
@@ -142,11 +158,11 @@ graph LR
 6.  Provide the information needed for a.) the label e.g. **Cost Center Budget Summary** and the b.) **Name** which will automatically provided. <mark style="color:red;">**Note:**</mark> keep the name length not more than 35 characters such as what is listed below, e.g. **x\_snc\_forecast\_v\_0\_df\_cc\_summary**. Click c.) **Continue** once done.
 
     <figure><img src=".gitbook/assets/sc_zcc_df_table.png" alt="" width="563"><figcaption></figcaption></figure>
-7. In the screen that immediate follows, click on the tick box beside **Name** and this will include all the fields from the Snowflake data asset to the data fabric table being configured.&#x20;
+7. In the screen that immediate follows, click on the tick box beside **Name** and this will include all the fields from the Snowflake data asset to the data fabric table being configured.
 
 <figure><img src=".gitbook/assets/sc_zcc_select_columns.png" alt=""><figcaption></figcaption></figure>
 
-8. Look for **Cost center** column > change the data type from **String** to a.) **Reference** and click b.) **Reference** to set the table from which **Cost center** column will refer to.&#x20;
+8. Look for **Cost center** column > change the data type from **String** to a.) **Reference** and click b.) **Reference** to set the table from which **Cost center** column will refer to.
 
 <figure><img src=".gitbook/assets/sc_zcc_cc_reference.png" alt=""><figcaption></figcaption></figure>
 
@@ -158,15 +174,15 @@ graph LR
 
 <figure><img src=".gitbook/assets/sc_zcc_reference_key.png" alt="" width="375"><figcaption></figcaption></figure>
 
-11. Once completed, click **Set Reference**.&#x20;
+11. Once completed, click **Set Reference**.
 
 <figure><img src=".gitbook/assets/sc_zcc_reference_label.png" alt="" width="375"><figcaption></figcaption></figure>
 
-12. Finally, set GL account as the **Primary** key as shown in the a.) toggle below. Click b.) **Finish** once done.&#x20;
+12. Finally, set GL account as the **Primary** key as shown in the a.) toggle below. Click b.) **Finish** once done.
 
 <figure><img src=".gitbook/assets/sc_zcc_finalize_df.png" alt=""><figcaption></figcaption></figure>
 
-13. A pop-up dlalog indicating that a primary key has been defined. Click **Confirm**.&#x20;
+13. A pop-up dlalog indicating that a primary key has been defined. Click **Confirm**.
 
 <figure><img src=".gitbook/assets/sc_zcc_confirm_pk.png" alt="" width="375"><figcaption></figcaption></figure>
 
