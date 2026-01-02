@@ -7,6 +7,6 @@
 * [Lab Exercise: Integration Hub](3_Integration_Hub.md)
 * [Lab Exercise: External Content Connector](4_External_Content_Connector.md)
 * [Lab Exercise: ServiceNow Lens and Document Intelligence](5_Lens_and_DocIntel.md)
-* [Lab Exercise: MCP and AI Control Tower](6_MCP_and_AI_Control_Tower.md)
+* [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](6_MCP_and_AI_Control_Tower.md)
 * [Bonus Exercise: Stream Connect for Apache Kafka Lab Guide](99_Kafka_Stream_Connect.md)
 * [screenshots](screenshots/readme.md)

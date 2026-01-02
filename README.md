@@ -80,12 +80,12 @@ You'll master the architectural patterns for transforming siloed enterprise data
 
 This lab is divided into 6 exercises with the suggested sequence below. However, the lab environment which deploys these exercises will allow you to complete individual labs in any sequence you prefer.
 
-| Topic                                                                                                         | Difficulty   | Suggested duration |
-| ------------------------------------------------------------------------------------------------------------- | ------------ | ------------------ |
-| [Workflow Data Fabric Diagrams](0_WDF_Diagrams.md)                                                            | N/A          | N/A                |
-| [Lab Exercise: Fundamentals](1_Fundamentals.md)                                                               | Basic        | 20 minutes         |
-| [Lab Exercise: Integration Hub](3_Integration_Hub.md)                                                         | Intermediate | 30 minutes         |
-| [Lab Exercise: Zero Copy Connctors](2_Zero_Copy.md)                                                           | Intermediate | 1 hour             |
-| [Lab Exercise: External Content Connector](4_External_Content_Connector.md)                                   | Basic        | 20 minutes         |
-| [Lab Exercise: ServiceNow Lens and Document Intelligence](/broken/pages/vxu37YyR06OasJNiqzce)                 | Intermediate | 30 minutes         |
-| [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](/broken/pages/vxu37YyR06OasJNiqzce) | Intermediate | 1 hour             |
+| Topic                                                                                                    | Difficulty   | Suggested duration |
+| -------------------------------------------------------------------------------------------------------- | ------------ | ------------------ |
+| [Workflow Data Fabric Diagrams](0_WDF_Diagrams.md)                                                       | N/A          | N/A                |
+| [Lab Exercise: Fundamentals](1_Fundamentals.md)                                                          | Basic        | 20 minutes         |
+| [Lab Exercise: Integration Hub](3_Integration_Hub.md)                                                    | Intermediate | 30 minutes         |
+| [Lab Exercise: Zero Copy Connctors](2_Zero_Copy.md)                                                      | Intermediate | 1 hour             |
+| [Lab Exercise: External Content Connector](4_External_Content_Connector.md)                              | Basic        | 20 minutes         |
+| [Lab Exercise: ServiceNow Lens and Document Intelligence](5_Lens_and_DocIntel.md)                        | Intermediate | 30 minutes         |
+| [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](6_MCP_and_AI_Control_Tower.md) | Intermediate | 1 hour             |
