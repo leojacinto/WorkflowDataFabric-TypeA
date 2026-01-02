@@ -4,7 +4,7 @@
 
 [Take me back to ReadMe](./)
 
-This lab will walk you through configuration of ServiceNow Lens and Document Intelligence as  sources of unstructured document data for interactive and batch capture of expense information from documents.
+This lab will walk you through the configuration and usage of ServiceNow Lens and Document Intelligence as  sources of unstructured document data for interactive and batch capture of expense information from documents.
 
 ### Data flow
 

@@ -4,52 +4,83 @@
 
 [Take me back to ReadMe](./)
 
-This lab will walk you through configuration of External Content Connectors as a source of unstructured document data to supplement automations needed in Finance case creation.
+This lab will walk you through the configuration and usage of MCP capabilities to interact with ServiceNow either as a client or as a server, allowing end users to interact with the platform as they see fit. As a final step in the series, you will also get a view of how ServiceNow is able to govern AI assets across your landscape using AI Control Tower.
 
 ### Data flow
 
-The data flow below shows how ServiceNow will infomration from indexed documents from a document repository such as SharePoint to provide additional context and information to assist with Flows and Automations.
+The data flow below shows how ServiceNow provides MCP client and server capabilities as well governance of AI assets.
 
 ```mermaid
 graph LR
     subgraph "User Interaction Layer"
         Employee((Employee/<br/>Finance Manager))
-        EC[Employee Center or<br/> Workspace with Now Assist]
+        ClaudeDesktop[Claude Desktop<br/>+ MCP]
+        ControlTower[AI Control<br/>Tower]
     end
 
     subgraph "External Systems"
-        SharePoint[SharePoint<br/>Executive Memos]
+        CDW[(Cloud Data<br/>Warehouse)]
     end
 
     subgraph "ServiceNow Workflow Data Fabric"
-        subgraph "Data Integration Layer"
-            ExtContent[External Content<br/>Connector]
-        end
-
         subgraph "ServiceNow Native Tables"
             FinCase[(Finance Case<br/>Table)]
+            FinVar[(Financial Variance<br/>Table)]
+        end
+        subgraph "Data Integration Layer"
+            ZeroCopySQL[Zero Copy SQL<br/>Connection]
+        end
+
+        subgraph "Zero Copy Tables - Read Only"
+            ZCCH[(Cost Centre History)]
+            ZCCO[(Search other<br/>tables in CDW)]
+        end
+
+        subgraph AI[AI & Automation]
+            Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
+            MCPS[MCP Server]
+            MCPC[MCP Client]
         end
     end
 
+    subgraph "Lab Prerequisites - Mock Services"
+        MockCDW[Mock Cloud Data<br/>Warehouse]
+    end
+
     %% Data Flow Connections
-    SharePoint -->|Executive Guidance| ExtContent
+    CDW -->|Data Fabric table| ZeroCopySQL
+    MockCDW -.->|Lab Simulation| ZeroCopySQL
+    ZeroCopySQL --> |Search|ZCCH
+    ZeroCopySQL --> |Validate|ZCCO
+
+    %% MCP Server Connection
+    FinVar -->|Query Data| MCPS
+    FinCase -->|Query Data| MCPS
+    MCPS <-->|API Communication| ClaudeDesktop
+
+    %% MCP Client Connection
+    Agent1 -->|Query Data| MCPC
+    MCPC -->|Query Data| CDW
 
     %% User Interaction Connections
-    Employee -->|Ask Questions<br/>View/Update Cases| EC
-    EC -->|Search & Query| FinCase
-    EC -->|Natural Language| ExtContent
+    Employee -->|Access| ControlTower -->|Govern| AI
+    Employee -->|Analytics| ClaudeDesktop
 
     %% Styling
     classDef external fill:#e1f5ff,stroke:#01579b,stroke-width:2px
     classDef integration fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef zeroCopy fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
     classDef native fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
     classDef ai fill:#fff9c4,stroke:#f57f17,stroke-width:2px
     classDef user fill:#e3f2fd,stroke:#1565c0,stroke-width:3px
 
-    class SharePoint external
-    class ExtContent integration
-    class FinCase native
-    class Employee,EC user
+    class ERP,ExpenseAPI,SharePoint,CDW,MockERP,MockExpense,MockCDW external
+    class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent integration
+    class ZCCC,ZCCH,ZCCO,ZCExp zeroCopy
+    class ExpenseTable,FinCase,FinVar native
+    class Agent1,Agent2,Agent3,RAG,NASK,FlowAction,MCPS,MCPC,Lens,DocIntel ai
+    class Employee,EC,ControlTower,ClaudeDesktop user
+
 ```
 
 [Take me back to ReadMe](./)

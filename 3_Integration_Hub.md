@@ -2,7 +2,7 @@
 
 [Take me back to ReadMe](./)
 
-This lab will walk you through configuration of Spoke actions and Flows to get expense data from an external source periodically or ad hoc and trigger an agent which will evaluate the expense data and create a Finance case if the involved cost center will be over budget.
+This lab will walk you through the configuration and usage of Spoke actions and Flows to get expense data from an external source periodically or ad hoc and trigger an agent which will evaluate the expense data and create a Finance case if the involved cost center will be over budget.
 
 ### Data flow
 
