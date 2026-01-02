@@ -130,32 +130,30 @@ graph LR
 
 <figure><img src=".gitbook/assets/sc_zcc_reference_label.png" alt="" width="375"><figcaption></figcaption></figure>
 
-12. Finally, set GL account as the **Primary** key as shown in the toggle below.&#x20;
+12. Finally, set GL account as the **Primary** key as shown in the a.) toggle below. Click b.) **Finish** once done.&#x20;
 
 <figure><img src=".gitbook/assets/sc_zcc_finalize_df.png" alt=""><figcaption></figcaption></figure>
 
-13. a&#x20;
+13. A pop-up dlalog indicating that a primary key has been defined. Click **Confirm**.&#x20;
 
 <figure><img src=".gitbook/assets/sc_zcc_confirm_pk.png" alt="" width="375"><figcaption></figcaption></figure>
 
-14. a&#x20;
+14. This will lead you to a screen showing the data assets created.
 
 <figure><img src=".gitbook/assets/sc_zcc_df_completed.png" alt="" width="563"><figcaption></figcaption></figure>
 
-15. a&#x20;
+15. In the saem screen, click on the a.) three vertical dots then b.) **Open list**.
 
 <figure><img src=".gitbook/assets/sc_zcc_view_df.png" alt="" width="563"><figcaption></figcaption></figure>
 
-16. a&#x20;
-
-<figure><img src=".gitbook/assets/sc_zcc_show_df.png" alt=""><figcaption></figcaption></figure>
-
-17. a&#x20;
+16. This will lead you to the data fabric table. Click on one the company codes such as **SCM-UK-WH**.
 
 <figure><img src=".gitbook/assets/sc_zcc_df_reference.png" alt=""><figcaption></figcaption></figure>
 
-18. a&#x20;
+17. This will lead you the record in the **SAP Cost Center** table (**sn\_erp\_integration\_cost\_center**) which you have configured in the ZCC for ERP section.
 
 <figure><img src=".gitbook/assets/sc_zcc_sap_cc_ref.png" alt=""><figcaption></figcaption></figure>
+
+18. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for SQL.
 
 [Take me back to ReadMe](./)
