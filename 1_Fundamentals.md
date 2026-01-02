@@ -4,7 +4,7 @@
 
 This lab will walk you through creation of the scoped tables needed to interact with the external system integrations.
 
-### Data flow
+## Data flow
 
 The data flow below shows how ServiceNow will consume REST API endpoints via Integration Hub Spokes then further processed by a Flow so the entries will be written in the scoped table.
 
@@ -38,11 +38,11 @@ graph LR
     class MockExpense external
 ```
 
-### Lab story so far
+## Lab story so far
 
 While you have the power of CMDB at your fingertips, there are processes which require specific steps and data formats. You will need to create a scoped table which will store information from an expense event API.
 
-### Steps
+## Steps
 
 1. Go to the top right portion of your navigation and click on the a.) globe icon then the b.) list icon to change the scope.
 
@@ -82,14 +82,14 @@ While you have the power of CMDB at your fingertips, there are processes which r
 
     <figure><img src=".gitbook/assets/sc_fund_all_fields.png" alt=""><figcaption></figcaption></figure>
 
-### Conclusion
+## Conclusion
 
 Congratulations! You have create the destination table within ServiceNow for the external REST API sources.
 
-### Next step
+## Next step
 
-Let us continue building the data foundations for the use case. Next up is creation of the Data Fabric tables which will be used by AI Agents. Click [here to proceed with configuring the Data Fabric tables using ServiceNow's Zero Copy cpability](2_Zero_Copy.md).
+Let us continue building the data foundations for the use case. Next up is creation of the Data Fabric tables which will be used by AI Agents. Click [here to proceed with configuring the Data Fabric tables using ServiceNow's Zero Copy cpability](/broken/pages/qvtWnBJJ7yRVnf7LkGP6).
 
-Alternatively, you can focus purely on REST API conectivity by proceeding with the [Integration Hub configuation](3_Integration_Hub.md).
+Alternatively, you can focus purely on REST API conectivity by proceeding with the [Integration Hub configuation](/broken/pages/Mxtr8y5z9iSBqS1mCbau).
 
 [Take me back to ReadMe](./)

@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/sc_persona.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Business motivation
+## Business motivation
 
 Real-time visibility and agility are critical for making informed business decisions and delivering exceptional service experiences. Traditional integration methods that rely on scheduled jobs or polling introduce delays, data inconsistencies, and operational inefficiencies.
 
@@ -15,13 +15,13 @@ This capability empowers organizations to:
 * Enhance operational resilience through real-time monitoring and automated responses.
 * Enable scalable digital transformation by integrating seamlessly with modern event-streaming platforms like Apache Kafka.
 
-### Story so far and persona context
+## Story so far and persona context
 
 You have already created workflows that integrate with REST API sources. The organization now wants you to get asset data from the various cost centers running in the organization and register them to your CMDB.
 
 In this lab, you’ll step into the role of an Integration Architect or Integration Developer responsible for designing high-performance, event-driven integrations. Your task: configure Stream Connect for Apache Kafka in ServiceNow to ingest CMDB data from Kafka producers, bridging your organization’s ServiceNow environment with its broader data ecosystem.
 
-### Outcome
+## Outcome
 
 By completing this lab, participants will gain practical experience implementing real-time, scalable integrations that support modern enterprise use cases, enabling faster insights, proactive operations, and a more connected digital business.
 
@@ -29,14 +29,14 @@ Let’s get Streameeey! 🚀
 
 ***
 
-### Access pre-requisites: Mandatory
+## Access pre-requisites: Mandatory
 
 1. This lab is for ServiceNow internal only. You will nto be able to access the ServiceNow instance in this exercise without a ServiceNow internal account
 2. Ensure you are able to HOP to hermes1 via this URL: http://hihop.service-now.com/hop.do?sysparm\_instance=hermes1\&mode=readwrite
 
-### Set-up pre-requisites
+## Set-up pre-requisites
 
-#### Recommended Docker option
+### Recommended Docker option
 
 This will reduce effort in building the Kafka Producer:
 
@@ -57,13 +57,13 @@ This will reduce effort in building the Kafka Producer:
     <figure><img src=".gitbook/assets/sc_docker_image.png" alt=""><figcaption></figcaption></figure>
 6. This will be the image you will use for **Part 5: Sending messages from Kafka Producer**. Alternatively you can execute all of the steps in **Part 4: Setting up a Kafka Producer** in your local machine by setting up Apache Kafka in your local machine
 
-#### Alternative local machine option
+### Alternative local machine option
 
 Kafka can also be set up in your local machine using in this page https://kafka.apache.org/quickstart > **Step 1: Get Kafka** with JVM 17+ installed in your machine
 
 ***
 
-### Part 1: Creating a data source
+## Part 1: Creating a data source
 
 1. Go to All > search for **Data Sources**
 
@@ -143,7 +143,7 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 ***
 
-### Part 2: Creating the transformation (ETL)
+## Part 2: Creating the transformation (ETL)
 
 1.  Go to **All** > search for **IntegrationHub ETL**
 
@@ -300,7 +300,7 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 ***
 
-### Part 3: Setting up the consumer in Stream Connect
+## Part 3: Setting up the consumer in Stream Connect
 
 1. Go to All > search for **Stream Connect Home**
 
@@ -363,7 +363,7 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 ***
 
-**Part 4: Setting up a Kafka Producer**
+## **Part 4: Setting up a Kafka Producer**
 
 1. Go to All > search for **Instance PKI Certificate Generator**
 
@@ -455,7 +455,7 @@ cp /opt/kafka/config/servicenow_certs/truststore.p12 /opt/kafka/config/kafka.ser
 
 ***
 
-**Part 5: Sending messages from Kafka Producer**
+## **Part 5: Sending messages from Kafka Producer**
 
 1. Continue working in the **Exec** portion of the docker image and connect to ServiceNow Stream Connect with the command below.
 
@@ -509,7 +509,7 @@ In the text above, take note of the portions below which you should replace with
 
 ***
 
-**Part 6: Additional Resources**
+## **Part 6: Additional Resources**
 
 * [Stream Connect for Apache Kafka Data Sheet](https://www.servicenow.com/au/standard/resource-center/data-sheet/ds-stream-connect-for-apache-kafka.html)
 * [Stream Connect for Apache Kafka Overview](https://learning.servicenow.com/lxp/en?id=learning_course_prev\&course_id=0a25082c473ae950123f3975d36d43d6)

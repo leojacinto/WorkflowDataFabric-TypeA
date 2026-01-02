@@ -2,11 +2,11 @@
 
 <figure><img src=".gitbook/assets/sc_persona_wdf.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Before we start - a note from the author and some disclaimers
+## Before we start - a note from the author and some disclaimers
 
 This lab demonstrates end-to-end integration scenarios that require both ServiceNow platform capabilities and external system connectivity.&#x20;
 
-#### ServiceNow dependencies
+### ServiceNow dependencies
 
 Before attempting these exercises, ensure you have access and license entitlements to the following:
 
@@ -23,29 +23,29 @@ Before attempting these exercises, ensure you have access and license entitlemen
 | Document Intelligence                             | 7.1.5                                        |
 | AI Control Tower                                  | 1.0.1                                        |
 
-#### External system dependencies
+### External system dependencies
 
 ∙ Cloud data warehouse with SQL endpoint (e.g., Snowflake, Databricks, BigQuery)\
 ∙ Document repository (e.g., SharePoint, Google Drive) for External Content Connector scenarios\
 ∙ Claude Desktop with MCP configuration (for MCP Server lab)\
 ∙ Sample ERP dataset or equivalent financial data source
 
-#### What if I don’t have all of this?
+### What if I don’t have all of this?
 
 Each lab is designed to be conceptually valuable even without a fully configured environment. You can:\
 ∙ Follow along to understand the architectural patterns and configuration steps\
 ∙ Adapt the exercises to your own data sources and systems\
 ∙ Use the provided screenshots and sample outputs as reference
 
-#### Guided Lab Sessions
+### Guided Lab Sessions
 
 Fully provisioned environments with all dependencies pre-configured are available through ServiceNow-led workshops and enablement sessions. Contact your ServiceNow representative or reach out to the author for availability.
 
-#### About the author
+### About the author
 
 This lab is created by [Leo Francia](https://www.linkedin.com/in/leojmfrancia/), a Data Architect at ServiceNow, and is in no way a ServiceNow official manual. Leo is an active member of the [ServiceNow community](https://www.servicenow.com/community/workflow-data-fabric/ct-p/workflow-data-fabric) and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talk about himself in the third person, but please let him be.
 
-### Business motivation
+## Business motivation
 
 Finance teams discover budget overruns weeks too late. Expense analysis requires manually piecing together data from ERP systems, data warehouses, and SharePoint. By the time finance reacts, small variances become major problems. **ServiceNow Workflow Data Fabric transforms reactive financial management into proactive intelligence**. By unifying data across systems through Zero Copy for SQL and ERP, Global Graph, and AI agents, organizations can:
 
@@ -54,7 +54,7 @@ Finance teams discover budget overruns weeks too late. Expense analysis requires
 * **Enable self-service insights** through natural language queries in Employee Center
 * **Scale financial operations** with AI agents, not headcount
 
-### Persona context
+## Persona context
 
 You're a **Data Architect** serving the Finance department. Finance Managers need immediate visibility into budget performance. Cost Center Owners need to understand why they're over budget; with context, not just numbers. **Your mission**: Build an intelligent financial data fabric that connects ServiceNow to external systems, deploys AI agents to detect and analyze budget issues automatically, surfaces executive guidance, and enables self-service analytics through Employee Center and Claude Desktop. You'll solve three critical problems:
 
@@ -62,7 +62,7 @@ You're a **Data Architect** serving the Finance department. Finance Managers nee
 2. "Investigation means manually searching expenses, reports, and memos: can you unify this?"
 3. "We answer the same questions daily: can employees self-serve?"
 
-### Outcome
+## Outcome
 
 By completing this lab, you'll build a production-grade financial intelligence platform demonstrating:
 
@@ -76,8 +76,8 @@ By completing this lab, you'll build a production-grade financial intelligence p
 
 You'll master the architectural patterns for transforming siloed enterprise data into unified, intelligent decision-making platforms. **Let's build something intelligent**. 🚀💡
 
-### Table of contents
+## Table of contents
 
 This lab is divided into 6 exercises with the suggested sequence below. The ServiceNow-led lab environments which contains these exercises will allow you to complete individual labs in any sequence you prefer.&#x20;
 
-<table><thead><tr><th width="203.09375">Topic</th><th width="180.48828125">Difficulty</th><th>AI Agents involved<select><option value="YGjZnAor8Y2O" label="Yes" color="blue"></option><option value="BAU85HNUmKkw" label="No" color="blue"></option></select></th><th>Suggested duration</th></tr></thead><tbody><tr><td><a href="0_WDF_Diagrams.md">Workflow Data Fabric Diagrams</a></td><td>N/A</td><td><span data-option="BAU85HNUmKkw">No</span></td><td>N/A</td></tr><tr><td><a href="1_Fundamentals.md">Lab Exercise: Fundamentals</a></td><td>Basic</td><td><span data-option="BAU85HNUmKkw">No</span></td><td>20 minutes</td></tr><tr><td><a href="lab-exercise-integration-hub.md">Lab Exercise: Integration Hub</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>30 minutes</td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md">Lab Exercise: Zero Copy Connectors</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>1 hour</td></tr><tr><td><a href="4_External_Content_Connector.md">Lab Exercise: External Content Connector</a></td><td>Basic</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>20 minutes</td></tr><tr><td><a href="5_Lens_and_DocIntel.md">Lab Exercise: ServiceNow Lens and Document Intelligence</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>30 minutes</td></tr><tr><td><a href="6_MCP_and_AI_Control_Tower.md">Lab Exercise: Model Context Protocol Server/Client and AI Control Tower</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>1 hour</td></tr></tbody></table>
+<table><thead><tr><th width="203.09375">Topic</th><th width="180.48828125">Difficulty</th><th>AI Agents involved<select><option value="YGjZnAor8Y2O" label="Yes" color="blue"></option><option value="BAU85HNUmKkw" label="No" color="blue"></option></select></th><th>Suggested duration</th></tr></thead><tbody><tr><td><a href="0_WDF_Diagrams.md">Workflow Data Fabric Diagrams</a></td><td>N/A</td><td><span data-option="BAU85HNUmKkw">No</span></td><td>N/A</td></tr><tr><td><a href="1_Fundamentals.md">Lab Exercise: Fundamentals</a></td><td>Basic</td><td><span data-option="BAU85HNUmKkw">No</span></td><td>20 minutes</td></tr><tr><td><a href="/broken/pages/zMO3aBx5seTPhClFFuAS">Lab Exercise: Integration Hub</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>30 minutes</td></tr><tr><td><a href="/broken/pages/dwWUwHQ5rJgii3KoIWav">Lab Exercise: Zero Copy Connectors</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>1 hour</td></tr><tr><td><a href="4_External_Content_Connector.md">Lab Exercise: External Content Connector</a></td><td>Basic</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>20 minutes</td></tr><tr><td><a href="5_Lens_and_DocIntel.md">Lab Exercise: ServiceNow Lens and Document Intelligence</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>30 minutes</td></tr><tr><td><a href="6_MCP_and_AI_Control_Tower.md">Lab Exercise: Model Context Protocol Server/Client and AI Control Tower</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>1 hour</td></tr></tbody></table>

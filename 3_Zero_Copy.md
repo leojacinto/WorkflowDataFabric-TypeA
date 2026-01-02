@@ -4,7 +4,7 @@
 
 This lab will walk you through integration of data coming from Cloud Data Warehouses and ERP using Zero Copy Connectors (ZCC) for SQL and ERP respectively.
 
-### Data flow
+## Data flow
 
 The data flow below shows how ServiceNow will consume Cloud Data Warehouse Data Assets and ERP OData Endpoints via ZCC for SQL and ERP respectively. The data taken from the external sources will be used by an agent which is triggered periodcially and will create Finance Cases for Cost Centers which are going overbudget. While majority of the workflow is handled deterministically, AI Agents will provide additional context by searching and comparing expenses and cost center histories to enrich the workflow data that will be used by the personnel in charge of the cost centers.
 
@@ -88,9 +88,9 @@ graph LR
     class Employee,EC user
 ```
 
-### Steps
+## Steps
 
-#### Zero Copy for ERP
+### Zero Copy for ERP
 
 1.  a&#x20;
 
@@ -138,7 +138,7 @@ graph LR
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_target_table_list.png" alt=""><figcaption></figcaption></figure>
 
-#### Zero Copy for SQL
+### Zero Copy for SQL
 
 1.  For reference purposes only, the table which will be used as source for Zero Copy for SQL coming from Snowflake is shown below. No action needs to be done for this step.
 
