@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/sc_persona_wdf.png" alt="" width="563"><figcaption></figcaption></figure>
 
-## Before we start - a note from the author and some disclaimers
+## A note from the author and some disclaimers
 
 This lab demonstrates end-to-end integration scenarios that require both ServiceNow platform capabilities and external system connectivity.&#x20;
 
