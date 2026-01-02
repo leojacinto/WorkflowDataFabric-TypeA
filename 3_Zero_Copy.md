@@ -120,7 +120,7 @@ graph LR
 14. a
 <img src=".gitbook/assets/sc_zcc_cc_target_table.png" alt="">
 15. a
-<img src=".gitbook/assets/sc_zcc_cc_traget_table_list.png" alt="">
+<img src=".gitbook/assets/sc_zcc_cc_target_table_list.png" alt="">
 
 #### Zero Copy for SQL
 
