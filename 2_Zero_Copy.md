@@ -114,23 +114,23 @@ graph LR
 
 <figure><img src=".gitbook/assets/sc_zcc_select_columns.png" alt=""><figcaption></figcaption></figure>
 
-8. a&#x20;
+8. Look for **Cost center** column > change the data type from **String** to a.) **Reference** and click b.) **Reference** to set the table from which **Cost center** column will refer to.&#x20;
 
 <figure><img src=".gitbook/assets/sc_zcc_cc_reference.png" alt=""><figcaption></figcaption></figure>
 
-9. a&#x20;
+9. In the modal pop-up that appears, select the table **sn\_erp\_integration\_cost\_center** which you have set-up in the ZCC for ERP lab exercise.
 
 <figure><img src=".gitbook/assets/sc_zcc_reference_table.png" alt="" width="375"><figcaption></figcaption></figure>
 
-10. a&#x20;
+10. In the same modal pop-up, select **Cost Center**.
 
 <figure><img src=".gitbook/assets/sc_zcc_reference_key.png" alt="" width="375"><figcaption></figcaption></figure>
 
-11. a&#x20;
+11. Once completed, click **Set Reference**.&#x20;
 
 <figure><img src=".gitbook/assets/sc_zcc_reference_label.png" alt="" width="375"><figcaption></figcaption></figure>
 
-12. a&#x20;
+12. Finally, set GL account as the **Primary** key as shown in the toggle below.&#x20;
 
 <figure><img src=".gitbook/assets/sc_zcc_finalize_df.png" alt=""><figcaption></figcaption></figure>
 
