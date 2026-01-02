@@ -92,62 +92,70 @@ graph LR
 
 #### Zero Copy for SQL
 
-1.  Test entry&#x20;
+1.  For reference purposes only, the table which will be used as source for Zero Copy for SQL coming from Snowflake is shown below. No action needs to be done for this step.
 
     <figure><img src=".gitbook/assets/sc_zcc_snowflake.png" alt=""><figcaption></figcaption></figure>
-2.  a&#x20;
+2.  In the ServiceNow navigation, go to All > a.) type **Workflow Data Fabric Hub** > go to **Workflow Data Fabric Hub**&#x20;
 
     <figure><img src=".gitbook/assets/sc_zcc_wdf_hub.png" alt="" width="368"><figcaption></figcaption></figure>
-3.  a&#x20;
+3.  In the landing page, go to **Established connections** > **Alectri Finance**. <mark style="color:red;">**Note:**</mark> this established connection is configured specifically for instances used in ServiceNow-led labs.
 
     <figure><img src=".gitbook/assets/sc_zcc_wdf_hub_landing.png" alt=""><figcaption></figcaption></figure>
-4.  a&#x20;
+4.  In the **Connection details** tab of the screen that immediately follows, the established connection is configured as shown in the screenshot below. No action needs to be done for this step.
 
     <figure><img src=".gitbook/assets/sc_zcc_snowflake_connection.png" alt=""><figcaption></figcaption></figure>
-5.  a&#x20;
+5.  Go to a.) Data assets > b.) click **Create data fabric table**.
 
     <figure><img src=".gitbook/assets/sc_zcc_data_asset.png" alt="" width="563"><figcaption></figcaption></figure>
-6.  a&#x20;
+6.  Provide the information needed for a.) the label e.g. **Cost Center Budget Summary** and the b.) **Name** which will automatically provided. <mark style="color:red;">**Note:**</mark> keep the name length not more than 35 characters such as what is listed below, e.g. **x\_snc\_forecast\_v\_0\_df\_cc\_summary**. Click c.) **Continue** once done.
 
     <figure><img src=".gitbook/assets/sc_zcc_df_table.png" alt="" width="563"><figcaption></figcaption></figure>
-7.  a&#x20;
+7. In the screen that immediate follows, click on the tick box beside **Name** and this will include all the fields from the Snowflake data asset to the data fabric table being configured.&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_columns.png" alt=""><figcaption></figcaption></figure>
-8.  a&#x20;
+<figure><img src=".gitbook/assets/sc_zcc_select_columns.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src=".gitbook/assets/sc_zcc_select_columns.png" alt=""><figcaption></figcaption></figure>
-9.  a&#x20;
+8. a&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_cc_reference.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_cc_reference.png" alt=""><figcaption></figcaption></figure>
+
+9. a&#x20;
+
+<figure><img src=".gitbook/assets/sc_zcc_reference_table.png" alt="" width="375"><figcaption></figcaption></figure>
+
 10. a&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_reference_table.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_reference_key.png" alt="" width="375"><figcaption></figcaption></figure>
+
 11. a&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_reference_key.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_reference_label.png" alt="" width="375"><figcaption></figcaption></figure>
+
 12. a&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_reference_label.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_finalize_df.png" alt=""><figcaption></figcaption></figure>
+
 13. a&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_finalize_df.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_confirm_pk.png" alt="" width="375"><figcaption></figcaption></figure>
+
 14. a&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_confirm_pk.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_df_completed.png" alt="" width="563"><figcaption></figcaption></figure>
+
 15. a&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_df_completed.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_view_df.png" alt="" width="563"><figcaption></figcaption></figure>
+
 16. a&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_view_df.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_show_df.png" alt=""><figcaption></figcaption></figure>
+
 17. a&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_show_df.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_df_reference.png" alt=""><figcaption></figcaption></figure>
+
 18. a&#x20;
 
-    <figure><img src=".gitbook/assets/sc_zcc_df_reference.png" alt=""><figcaption></figcaption></figure>
-19. a&#x20;
-
-    <figure><img src=".gitbook/assets/sc_zcc_sap_cc_ref.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_sap_cc_ref.png" alt=""><figcaption></figcaption></figure>
 
 [Take me back to ReadMe](./)
