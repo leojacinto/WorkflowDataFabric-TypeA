@@ -98,7 +98,6 @@ graph LR
             Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
             Agent2[Agent: Proactive<br/>Budget Alert<br/>Integration Hub Source]
             RAG[RAG - Retrieval<br/>Augmented Generation]
-            NASK[NASK - Now Assist<br/>Skill Kit]
             FlowAction[Flow Action]
             MCP[MCP Server]
             MCPC[MCP Client]
@@ -209,7 +208,6 @@ graph LR
             Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
             Agent2[Agent: Proactive<br/>Budget Alert<br/>Integration Hub Source]
             RAG[RAG - Retrieval<br/>Augmented Generation]
-            NASK[NASK - Now Assist<br/>Skill Kit]
             FlowAction[Flow Action]
             MCPS[MCP Server]
             MCPC[MCP Client]
@@ -238,7 +236,6 @@ graph LR
     ExtContent -->|Executive Context| Agent1
     Agent1 -->|Create Case| FinCase
     Agent1 <-->|Trend Analysis| RAG
-    Agent1 <-->|Knowledge Retrieval| NASK
     Agent1 <-->|Flows/Subflows/Actions| FlowAction
 
     %% Agent 2 Workflow - Integration Hub Source

@@ -206,4 +206,6 @@ graph LR
 
 18. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for SQL.
 
+### AI Agent in action
+
 [Take me back to ReadMe](./)
