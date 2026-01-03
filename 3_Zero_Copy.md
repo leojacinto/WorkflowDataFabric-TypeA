@@ -92,16 +92,16 @@ graph LR
 
 ### Zero Copy for ERP
 
-1.  a&#x20;
+1.  Navigate to All > a.) type **Zero Copy Connector for ERP Home** > b.) click **Zero Copy Connector for ERP Home**.&#x20;
 
     <figure><img src=".gitbook/assets/sc_zcc_erp.png" alt="" width="344"><figcaption></figcaption></figure>
-2.  a&#x20;
+2.  The **Zero Copy Connector for ERP Home** is a workspace which has the layout as below.&#x20;
 
     <figure><img src=".gitbook/assets/sc_zcc_erp_home.png" alt=""><figcaption></figcaption></figure>
-3.  a&#x20;
+3.  Click on a.) **Models (database icon)** > b.) click on **more (vertical three dots)** > c.) type **DP: Cost Center** >  d.) click **Apply**.
 
     <figure><img src=".gitbook/assets/sc_zcc_select_model.png" alt=""><figcaption></figcaption></figure>
-4.  a&#x20;
+4.  Click on **DP: Cost Center**.&#x20;
 
     <figure><img src=".gitbook/assets/sc_zcc_dp_cost_center.png" alt=""><figcaption></figcaption></figure>
 5.  a&#x20;
