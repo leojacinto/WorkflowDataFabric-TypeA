@@ -98,7 +98,7 @@ graph LR
 2.  The **Zero Copy Connector for ERP Home** is a workspace which has the layout as below.
 
     <figure><img src=".gitbook/assets/sc_zcc_erp_home.png" alt=""><figcaption></figcaption></figure>
-3.  Click on a.) **Models (database icon)** > b.) click on **more (vertical three dots)** > c.) type **DP: Cost Center** > d.) click **Apply**.
+3.  Click on a.) **Models (database icon)** > b.) click **Model Name** > **more (vertical three dots)** > c.) type **DP: Cost Center** > d.) click **Apply**.
 
     <figure><img src=".gitbook/assets/sc_zcc_select_model.png" alt=""><figcaption></figcaption></figure>
 4.  Click on **DP: Cost Center**.
@@ -128,18 +128,19 @@ graph LR
 12. Click on **Choose outputs**. You do not need to do anything in this screen. The intent is to provide an overview of what can be configured as the output for your selection or extraction. Both **Specify inputs** and **Choose outputs** sections can be intimidating for non-SAP practitioners which led to the creation of the **Data Product** which we cloned in **Step 5**. Find out more about [**ERP Data Products here**](https://store.servicenow.com/store/app/9a0ad9f41b19e650396216db234bcba9).
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_bapi_outputs.png" alt=""><figcaption></figcaption></figure>
-13. a
+13. Go to a.) **Extraction tables (Sankey diagram icon)** and click b.) **Name** > **more (vertical three dots)** > c. type **SAP Cost Center** and d.) click **Apply**.
 
     <figure><img src=".gitbook/assets/sc_zcc_extraction_table.png" alt=""><figcaption></figcaption></figure>
-14. a
+14. Click on **SAP Cost Center**.
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_extraction_table.png" alt=""><figcaption></figcaption></figure>
-15. a
+15. There is a notification stating that <mark style="color:green;">**a.)**</mark> the object is in the **Zero Copy Connector for ERP application**, this is expected. Note that the <mark style="color:green;">**b.)**</mark> ERP model is different from what you have created earlier where it is called **SAP Material Transfer Cost Center**, this is expected. These discrepancies are due to the fact that we are not connected to a live SAP system for this exercise due to various constraints, however all the tools and configurations you have used are representative of integrating with SAP. Finally, <mark style="color:green;">**c.)**</mark> click on the **Target table link** which is **/sn\_erp\_integration\_cost\_center\_list.do**.
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_target_table.png" alt="" width="563"><figcaption></figcaption></figure>
-16. a
+16. This will lead you to the extraction table which contains Cost Center Master Data from SAP. This exercise uses an extraction scenario where data from SAP is stored in ServiceNow. Online read is also possible with more details found on the blog post [Zero Copy Connector for ERP guide by Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800).
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_target_table_list.png" alt=""><figcaption></figcaption></figure>
+17. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for ERP.
 
 ### Zero Copy for SQL
 
