@@ -256,7 +256,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
-6\. Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. No action is required in this screen.
+6\. Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No action is required in this screen.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_1.png" alt=""><figcaption></figcaption></figure>
 
@@ -264,11 +264,11 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_2.png" alt=""><figcaption></figcaption></figure>
 
-8\. d
+8\. Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_3.png" alt=""><figcaption></figcaption></figure>
 
-9\. d
+9\. Next, click on Define trigger, which is kept blank. You can add the triggers for the AI Agent here but for the exercise, the AI Agent will be triggered manually to be able to show the detail chat responses and debugging.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_4.png" alt=""><figcaption></figcaption></figure>
 
