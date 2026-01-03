@@ -92,51 +92,57 @@ graph LR
 
 ### Zero Copy for ERP
 
-1.  Navigate to All > a.) type **Zero Copy Connector for ERP Home** > b.) click **Zero Copy Connector for ERP Home**.&#x20;
+1.  Navigate to All > a.) type **Zero Copy Connector for ERP Home** > b.) click **Zero Copy Connector for ERP Home**.
 
     <figure><img src=".gitbook/assets/sc_zcc_erp.png" alt="" width="344"><figcaption></figcaption></figure>
-2.  The **Zero Copy Connector for ERP Home** is a workspace which has the layout as below.&#x20;
+2.  The **Zero Copy Connector for ERP Home** is a workspace which has the layout as below.
 
     <figure><img src=".gitbook/assets/sc_zcc_erp_home.png" alt=""><figcaption></figcaption></figure>
-3.  Click on a.) **Models (database icon)** > b.) click on **more (vertical three dots)** > c.) type **DP: Cost Center** >  d.) click **Apply**.
+3.  Click on a.) **Models (database icon)** > b.) click on **more (vertical three dots)** > c.) type **DP: Cost Center** > d.) click **Apply**.
 
     <figure><img src=".gitbook/assets/sc_zcc_select_model.png" alt=""><figcaption></figcaption></figure>
-4.  Click on **DP: Cost Center**.&#x20;
+4.  Click on **DP: Cost Center**.
 
     <figure><img src=".gitbook/assets/sc_zcc_dp_cost_center.png" alt=""><figcaption></figcaption></figure>
-5.a
-<figure><img src=".gitbook/assets/sc_zcc_dp_clone.png" alt="" width="375"><figcaption></figcaption></figure>
-6.  a&#x20;
+5. Note the a.) popup that indicates that you are opening an **ERP Data Product** which is delivered as templates that customers can use to ramp-up creation of ERP models. Click b.) **Clone** to create a copy of this model
+
+<div data-full-width="false"><figure><img src=".gitbook/assets/sc_zcc_dp_clone.png" alt=""><figcaption></figcaption></figure></div>
+
+6\. s
+
 <figure><img src=".gitbook/assets/sc_zcc_dp_clone_details.png" alt="" width="375"><figcaption></figcaption></figure>
 
-7.  a&#x20;
+7.  a
 
     <figure><img src=".gitbook/assets/sc_zcc_cost_center_model.png" alt=""><figcaption></figcaption></figure>
-8.  a&#x20;
+8.  a
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_manage_model.png" alt=""><figcaption></figcaption></figure>
-9.  a&#x20;
+9.  a
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_read_ops.png" alt=""><figcaption></figcaption></figure>
-10.  a&#x20;
+10. a
 
-    <figure><img src=".gitbook/assets/sc_zcc_cc_read_bapi.png" alt=""><figcaption></figcaption></figure>
-11. a&#x20;
+```
+<figure><img src=".gitbook/assets/sc_zcc_cc_read_bapi.png" alt=""><figcaption></figcaption></figure>
+```
+
+11. a
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_bapi_inputs.png" alt=""><figcaption></figcaption></figure>
-12. a&#x20;
+12. a
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_bapi_outputs.png" alt=""><figcaption></figcaption></figure>
-13. a&#x20;
+13. a
 
     <figure><img src=".gitbook/assets/sc_zcc_extraction_table.png" alt=""><figcaption></figcaption></figure>
-14. a&#x20;
+14. a
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_extraction_table.png" alt=""><figcaption></figcaption></figure>
-15. a&#x20;
+15. a
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_target_table.png" alt="" width="563"><figcaption></figcaption></figure>
-16. a&#x20;
+16. a
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_target_table_list.png" alt=""><figcaption></figcaption></figure>
 
