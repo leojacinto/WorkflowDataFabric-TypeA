@@ -37,7 +37,6 @@ graph LR
         subgraph "ServiceNow Native Tables"
             ExpenseTable[(Expense Event<br/>Line Items<br/>Scoped Table)]
             FinCase[(Finance Case<br/>Table)]
-            FinVar[(Finance<br/>Variance Table)]
         end
 
         subgraph "AI & Automation"
@@ -65,7 +64,6 @@ graph LR
     Agent1 <-->|Trend Analysis| RAG
     Agent1 <-->|Knowledge Retrieval| NASK
     Agent1 <-->|Flows/Subflows/Actions| FlowAction
-    Agent1 -->|Record Variance| FinVar
 
     %% User Interaction Connections
     Employee -->|Ask Questions<br/>View/Update Cases| EC
