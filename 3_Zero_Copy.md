@@ -104,13 +104,13 @@ graph LR
 4.  Click on **DP: Cost Center**.
 
     <figure><img src=".gitbook/assets/sc_zcc_dp_cost_center.png" alt=""><figcaption></figcaption></figure>
-5. Note the a.) popup that indicates that you are opening an **ERP Data Product** which is delivered as templates that customers can use to ramp-up creation of ERP models. Click b.) **Clone** to create a copy of this model
+5. Note the a.) popup that indicates that you are opening an **ERP Data Product** which is delivered as templates that customers can use to ramp-up creation of ERP models. Click b.) **Clone** to create a copy of this model.
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/sc_zcc_dp_clone.png" alt=""><figcaption></figcaption></figure></div>
+    <figure><img src=".gitbook/assets/sc_zcc_dp_clone.png" alt=""><figcaption></figcaption></figure>
 
-6\. s
+6. s
 
-<figure><img src=".gitbook/assets/sc_zcc_dp_clone_details.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_zcc_dp_clone_details.png" alt="" width="375"><figcaption></figcaption></figure>
 
 7.  a
 
@@ -123,10 +123,7 @@ graph LR
     <figure><img src=".gitbook/assets/sc_zcc_cc_read_ops.png" alt=""><figcaption></figcaption></figure>
 10. a
 
-```
-<figure><img src=".gitbook/assets/sc_zcc_cc_read_bapi.png" alt=""><figcaption></figcaption></figure>
-```
-
+    <figure><img src=".gitbook/assets/sc_zcc_cc_read_bapi.png" alt=""><figcaption></figcaption></figure>
 11. a
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_bapi_inputs.png" alt=""><figcaption></figcaption></figure>
