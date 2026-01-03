@@ -104,30 +104,28 @@ graph LR
 4.  Click on **DP: Cost Center**.
 
     <figure><img src=".gitbook/assets/sc_zcc_dp_cost_center.png" alt=""><figcaption></figcaption></figure>
-5. Note the a.) popup that indicates that you are opening an **ERP Data Product** which is delivered as templates that customers can use to ramp-up creation of ERP models. Click b.) **Clone** to create a copy of this model.
+5.  Note the a.) popup that indicates that you are opening an **ERP Data Product** which is delivered as templates that customers can use to ramp-up creation of ERP models. Click b.) **Clone** to create a copy of this model.
 
     <figure><img src=".gitbook/assets/sc_zcc_dp_clone.png" alt=""><figcaption></figcaption></figure>
-
-6. s
+6.  Provide the label for the cloned model as a.) **SAP Cost Center** and take not of the Target application which should be b.) **Forecast Variance**. Click c.) **Clone this model** once done.
 
     <figure><img src=".gitbook/assets/sc_zcc_dp_clone_details.png" alt="" width="375"><figcaption></figcaption></figure>
-
-7.  a
+7.  After cloning the model, you will be redirected to the **Models** section. Click **SAP Cost Center** which you have just created as a clone in the previous step.
 
     <figure><img src=".gitbook/assets/sc_zcc_cost_center_model.png" alt=""><figcaption></figcaption></figure>
-8.  a
+8.  Click **Manage model**.
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_manage_model.png" alt=""><figcaption></figcaption></figure>
-9.  a
+9.  Click **Read**.
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_read_ops.png" alt=""><figcaption></figcaption></figure>
-10. a
+10. Notice that there is a BAPI already configured based on the **DP: Cost Center** model you have cloned earlier. The entity **BAPI\_CONSTCENTER\_GETDETAIL1** is already configured here so you do not have to do anything. As mentioned earlier, there are other ways to obtain master data from SAP (whether it is Cost Center, Materials, etc.) such as RFC table reads or OData endpoints.
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_read_bapi.png" alt=""><figcaption></figcaption></figure>
-11. a
+11. Click on **Specify Inputs**. You do not need to do anything in this screen. The intent is to provide an overview of what can be configured as fields for selections when extracting or displaying information from the ERP system. If the table, BAPI, or OData endpoint supports it, this screen can be kept blank which is an equivalent of selecting all entries.
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_bapi_inputs.png" alt=""><figcaption></figcaption></figure>
-12. a
+12. Click on **Choose outputs**. You do not need to do anything in this screen. The intent is to provide an overview of what can be configured as the output for your selection or extraction. Both **Specify inputs** and **Choose outputs** sections can be intimidating for non-SAP practitioners which led to the creation of the **Data Product** which we cloned in **Step 5**. Find out more about [**ERP Data Products here**](https://store.servicenow.com/store/app/9a0ad9f41b19e650396216db234bcba9).
 
     <figure><img src=".gitbook/assets/sc_zcc_cc_bapi_outputs.png" alt=""><figcaption></figcaption></figure>
 13. a
