@@ -82,8 +82,9 @@ graph LR
         end
 
         subgraph "Zero Copy Tables - Read Only"
-            ZCCC[(Cost Centre)]
-            ZCCH[(Cost Centre History)]
+            ZCCC[(Cost Center)]
+            ZCCH[(Cost Center</br>History)]
+            ZCCS[(Cost Center</br>Summary)]
             ZCExp[(Expenses)]
         end
 
@@ -93,10 +94,6 @@ graph LR
             FinVar[(Finance Variance<br/>Table)]
         end
 
-        subgraph "ServiceNow Enterprise Graph"
-            GGraph[ServiceNow Enterprise<br/>Graph Schema]
-            NLQuery[Natural Language<br/>Query Interface]
-        end
 
         subgraph "AI & Automation"
             Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
@@ -124,7 +121,7 @@ graph LR
 
     class ERP,ExpenseAPI,SharePoint,CDW external
     class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent integration
-    class ZCCC,ZCCH,ZCExp zeroCopy
+    class ZCCC,ZCCH,ZCCS,ZCExp zeroCopy
     class ExpenseTable,FinCase,FinVar native
     class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
     class Employee,EC,ControlTower,ClaudeDesktop user
@@ -138,6 +135,19 @@ These data integrations match the external sources mentioned earlier.
 * **Zero Copy Connector for ERP**: also known as ZCC for ERP will get the cost center master data from SAP.
 * **Integration Hub**: will access the REST API data, for the lab it will be a periodic trigger.
 * **External Content Connector**: will access the indexed documents in SharePoint to enrich decision making and automations for our finance workflow.
+
+#### Zero Copy Tables
+
+These are pointers to the respective tables coming from either the Cloud Data Warehouse (Snowflake) or ERP (SAP).
+
+* **Cost Center**: master data taken from the ERP system, known as CSKS from SAP but can also be obtained with through BAPI or OData endpoints. Master data does not change frequently in ERP systems so either persistence or zero copy approaches are viable for ServiceNow use cases.
+* **Cost Center History**: monthly data taken from the Cloud Data Warehouse with information whether cost centers have historically gone over/under budget or on target. ERP systems normally do not store this type of history or aggregation and is hence stored in a business or data warehouse.
+* **Cost Center Summary**: aggregated Cost Center History data for the year stored in the Cloud Data Warehouse for reporting purposes.&#x20;
+* **Expense History**: this can come from an expense management system, ERP system, or Cloud Data Warehouse. For this lab, we are obtaining this from the Cloud Data Warehouse.
+
+#### ServiceNow Native Tables
+
+These are local tables and are not persisted in any other systems.
 
 ## Overall data flow
 
@@ -182,8 +192,8 @@ graph LR
         end
 
         subgraph "Zero Copy Tables - Read Only"
-            ZCCC[(Cost Centre)]
-            ZCCH[(Cost Centre History)]
+            ZCCC[(Cost Center)]
+            ZCCH[(Cost Center</br>History)]
             ZCExp[(Expenses)]
         end
 
