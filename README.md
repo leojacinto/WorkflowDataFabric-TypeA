@@ -54,6 +54,8 @@ Finance teams discover budget overruns weeks too late. Expense analysis requires
 * **Enable self-service insights** through natural language queries in Employee Center
 * **Scale financial operations** with AI agents, not headcount
 
+Integrations powered by Workflow Data Fabric allow AI Agents to automate critical proceses using accurate and consistent data.
+
 ## Persona context
 
 You're a **Data Architect** serving the Finance department. Finance Managers need immediate visibility into budget performance. Cost Center Owners need to understand why they're over budget; with context, not just numbers. **Your mission**: Build an intelligent financial data fabric that connects ServiceNow to external systems, deploys AI agents to detect and analyze budget issues automatically, surfaces executive guidance, and enables self-service analytics through Employee Center and Claude Desktop. You'll solve three critical problems:

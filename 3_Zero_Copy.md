@@ -256,48 +256,66 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
-6\. Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No action is required in this screen.
+6\. Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_1.png" alt=""><figcaption></figcaption></figure>
 
-7\. In the same screen, scroll down to see additional configurations. No action is required in this screen.
+7\. In the same screen, scroll down to see additional configurations. No further action is required in this section.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_2.png" alt=""><figcaption></figcaption></figure>
 
-8\. Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**.
+8\. Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**. No further action is required in this section but feel free to explore the configurations of each of the tools.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_3.png" alt=""><figcaption></figcaption></figure>
 
-9\. Next, click on Define trigger, which is kept blank. You can add the triggers for the AI Agent here but for the exercise, the AI Agent will be triggered manually to be able to show the detail chat responses and debugging.
+9\. Next, click on **Define trigger**, which is kept blank. You can add the triggers for the AI Agent here but for the exercise, the AI Agent will be triggered manually to be able to show the detail chat responses and debugging. No further action is required in this section.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_4.png" alt=""><figcaption></figcaption></figure>
 
-10\. d
+10\. Finally, click on <mark style="color:green;">**a.)**</mark> **Toggle display**. This configures the availability of the AI Agent. I this case, it is enabled and can be accessed using **Now Assist panel** as well as via **Virtual Agents**. No action is required on this section aside from <mark style="color:green;">**b.)**</mark> clicking **Save and test** to proceed with testing.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_5.png" alt=""><figcaption></figcaption></figure>
 
-11\. d
+11\. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type Help me process EXP-2025-IT-002-1007-01 and <mark style="color:green;">**b.)**</mark> click **Start test**.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_test.png" alt="" width="375"><figcaption></figcaption></figure>
 
-12\. d
+12\. Wait for the test to complete which is indicated by an <mark style="color:green;">**End**</mark> with a check mark. Once that is completed, you can explore the following sections. These automations help assess and review cost centers which are exceeding budget proactively instead of waiting at the end of reporting cycles.
+
+<mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** to see the tools used.
+
+<mark style="color:green;">**b.)**</mark> Note the **cost\_center** and **vendor** extracted from the expense event.
+
+<mark style="color:green;">**c.)**</mark> You can access the result of the **Retrieval-augmented Generation (RAG) search** and click on the links if you wish. This step helps you check relevant entries for the cost center associated with the expense event so you can do further investigation if needed.
+
+<mark style="color:green;">**d.)**</mark> You can also access the **RAG search** results for the vendors associated with the expense event.
+
+<mark style="color:green;">**e.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_test_results.png" alt="" width="563"><figcaption></figcaption></figure>
 
-13\. d
+13\. The right panel of the same screen shows the **AI agent decision logs** for debugging purposes.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_test_debug.png" alt=""><figcaption></figcaption></figure>
 
-14\. d
+14\. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
 <figure><img src=".gitbook/assets/sc_zcc_fow.png" alt="" width="319"><figcaption></figcaption></figure>
 
-15\. d
+15\. For this exercise, we are not impersonating a persona so you remain as the System user.
 
 <figure><img src=".gitbook/assets/sc_zcc_fow_home.png" alt="" width="563"><figcaption></figcaption></figure>
 
-16\. d
+16\. Go to <mark style="background-color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > then the Finance case just created by the AI Agent.
 
 <figure><img src=".gitbook/assets/sc_zcc_fow_navigation.png" alt=""><figcaption></figcaption></figure>
+
+## Conclusion
+
+Congratulations! You have created the Workflow Data Fabric integrations that powered the Financial Forecast Variance Agent.
+
+## Next step
+
+Let us continue building the data foundations for AI Agents to use. The next suggested exercise is the creation of the External Content Connector to SharePoint.&#x20;
 
 [Take me back to ReadMe](./)

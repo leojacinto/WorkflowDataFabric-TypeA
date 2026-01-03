@@ -84,7 +84,7 @@ While you have the power of CMDB at your fingertips, there are processes which r
 
 ## Conclusion
 
-Congratulations! You have create the destination table within ServiceNow for the external REST API sources.
+Congratulations! You have created the destination table within ServiceNow for the external REST API sources.
 
 ## Next step
 
