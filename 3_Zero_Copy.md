@@ -248,7 +248,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_studio.png" alt="" width="334"><figcaption></figcaption></figure>
 
-4\. This will go to the list of workflows and agents. Go to **AI agents**  tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** and hit **Return/Enter ↵**.
+4\. This will go to the list of workflows and agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** and hit **Return/Enter ↵**.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_studio_manage.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -286,18 +286,18 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 13\. d
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_test_debug.png" alt="" width="319"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_agent_test_debug.png" alt=""><figcaption></figcaption></figure>
 
 14\. d
 
-<figure><img src=".gitbook/assets/sc_zcc_fow.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_fow.png" alt="" width="319"><figcaption></figcaption></figure>
 
 15\. d
 
-<figure><img src=".gitbook/assets/sc_zcc_fow_home.png" alt=""><figcaption></figcaption></figure>
-16. d
+<figure><img src=".gitbook/assets/sc_zcc_fow_home.png" alt="" width="563"><figcaption></figcaption></figure>
+
+16\. d
 
 <figure><img src=".gitbook/assets/sc_zcc_fow_navigation.png" alt=""><figcaption></figcaption></figure>
-
 
 [Take me back to ReadMe](./)
