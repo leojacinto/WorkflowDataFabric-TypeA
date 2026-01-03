@@ -91,7 +91,6 @@ graph LR
         subgraph "ServiceNow Native Tables"
             ExpenseTable[(Expense Event<br/>Line Items<br/>Scoped Table)]
             FinCase[(Finance Case<br/>Table)]
-            FinVar[(Finance Variance<br/>Table)]
         end
 
 
@@ -149,6 +148,9 @@ These are pointers to the respective tables coming from either the Cloud Data Wa
 
 These are local tables and are not persisted in any other systems.
 
+* **Expense Event Table:** is a scoped table will obtain expense events via Rest API from expense sources such as cloud infrastructure services or even document capture via ServiceNow Lens and Document Intelligence.
+* **Finance Case Table**: is a standard table in ServiceNow Finance case management (**sn\_spend\_sdc\_service\_request**) where the Flows and Agents will perform updates based on the expense events ingested either in the background or interactively.
+
 ## Overall data flow
 
 Do not let the chart intimidate you 😉. This will be broken down further and the intent of showing the whole data flow is to provide an overview of the inner workings within ServiceNow while, as mentioned earlier, the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
@@ -200,8 +202,7 @@ graph LR
         subgraph "ServiceNow Native Tables"
             ExpenseTable[(Expense Event<br/>Line Items<br/>Scoped Table)]
             FinCase[(Finance Case<br/>Table)]
-            FinVar[(Finance<br/>Variance Table)]
-        end
+          end
 
 
         subgraph AI[AI & Automation]
@@ -239,7 +240,6 @@ graph LR
     Agent1 <-->|Trend Analysis| RAG
     Agent1 <-->|Knowledge Retrieval| NASK
     Agent1 <-->|Flows/Subflows/Actions| FlowAction
-    Agent1 -->|Record Variance| FinVar
 
     %% Agent 2 Workflow - Integration Hub Source
     ExpenseTable -->|Incoming Event| Agent2
@@ -247,10 +247,8 @@ graph LR
     Agent2 -->|Search Similar Cases| FinCase
     ExtContent -->|Executive Context| Agent2
     Agent2 -->|Create Alert Case| FinCase
-    Agent2 -->|Record Variance| FinVar
-
+    
     %% MCP Server Connection
-    FinVar -->|Query Data| MCPS
     FinCase -->|Query Data| MCPS
     MCPS <-->|API Communication| ClaudeDesktop
 
