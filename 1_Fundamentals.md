@@ -10,7 +10,7 @@ The data flow below shows how ServiceNow will consume REST API endpoints via Int
 
 ```mermaid
 graph LR
-    subgraph "ServiceNow Workflow Data Fabric"
+    subgraph "ServiceNow Workflow Data Fabric and related components"
         subgraph "Data Integration Layer"
             IntHub[Integration Hub<br/>Spoke/Flow]
         end

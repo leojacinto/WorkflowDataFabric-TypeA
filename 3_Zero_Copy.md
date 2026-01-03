@@ -22,7 +22,7 @@ graph LR
         CDW[(Cloud Data<br/>Warehouse)]
     end
 
-    subgraph "ServiceNow Workflow Data Fabric"
+    subgraph "ServiceNow Workflow Data Fabric and related components"
         subgraph "Data Integration Layer"
             ZeroCopySQL[Zero Copy SQL<br/>Connection]
             ZeroCopyERP[Zero Copy ERP<br/>Connection]

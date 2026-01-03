@@ -20,7 +20,7 @@ graph LR
         SharePoint[SharePoint<br/>Executive Memos]
     end
 
-    subgraph "ServiceNow Workflow Data Fabric"
+    subgraph "ServiceNow Workflow Data Fabric and related components"
         subgraph "Data Integration Layer"
             IntHub[Integration Hub<br/>Spoke/Flow]
             ExtContent[External Content<br/>Connector]

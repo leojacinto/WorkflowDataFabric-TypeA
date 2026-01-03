@@ -24,7 +24,7 @@ graph LR
         DocIntel["Document</br>Intelligence"]
     end
 
-    subgraph "ServiceNow Workflow Data Fabric"
+    subgraph "ServiceNow Workflow Data Fabric and related components"
 
         subgraph "ServiceNow Native Tables"
             ExpenseTable[(Expense Event<br/>Line Items<br/>Scoped Table)]

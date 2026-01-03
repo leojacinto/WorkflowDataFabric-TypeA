@@ -22,7 +22,7 @@ graph LR
         CDW[(Cloud Data<br/>Warehouse)]
     end
 
-    subgraph "ServiceNow Workflow Data Fabric"
+    subgraph "ServiceNow Workflow Data Fabric and related components"
         subgraph "ServiceNow Native Tables"
             FinCase[(Finance Case<br/>Table)]
             FinVar[(Financial Variance<br/>Table)]
