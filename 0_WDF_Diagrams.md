@@ -69,11 +69,11 @@ graph LR
 
 ### ServiceNow Workflow Data Fabric
 
-The next diagram shows tha various ServiceNow components that interact with the external systems while working in the back-end to provide the data and automation needed by users.
+The next diagram shows the various ServiceNow components that interact with the external systems while working in the back-end to provide the data and automation needed by users.
 
 ```mermaid
 graph LR
-    subgraph "ServiceNow Workflow Data Fabric"
+    subgraph "ServiceNow Workflow Data Fabric and related components"
         subgraph "Data Integration Layer"
             ZeroCopySQL[Zero Copy SQL<br/>Connection]
             ZeroCopyERP[Zero Copy ERP<br/>Connection]
@@ -185,7 +185,7 @@ graph LR
         DocIntel["Document</br>Intelligence"]
     end
 
-    subgraph "ServiceNow Workflow Data Fabric"
+    subgraph "ServiceNow Workflow Data Fabric and related components"
         subgraph "Data Integration Layer"
             ZeroCopySQL[Zero Copy SQL<br/>Connection]
             ZeroCopyERP[Zero Copy ERP<br/>Connection]
