@@ -44,7 +44,7 @@ While you have the power of CMDB at your fingertips, there are processes which r
 
 ## Steps
 
-1. Go to the top right portion of your navigation and click on the a.) globe icon then the b.) list icon to change the scope.
+1. Go to the top right portion of your navigation and click on the <mark style="color:green;">**a.)**</mark> globe icon then the <mark style="color:green;">**b.)**</mark> list icon to change the scope.
 
 <figure><img src=".gitbook/assets/sc_fund_scope_change.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -54,19 +54,19 @@ While you have the power of CMDB at your fingertips, there are processes which r
 3.  Go to section **Start from Scratch** and click **Create**&#x20;
 
     <figure><img src=".gitbook/assets/sc_fund_create_scope.png" alt=""><figcaption></figcaption></figure>
-4.  Provide the scope details with a.) name and the b.) scope. Click c.) Create. Note that the scope is a technical name and is automatically populated but you have the option to change it. In this example, the scope is **x\_snc\_forecast\_var**. Throughout the exercise, you will notice in screenshots that the scope name used is **x\_snc\_forecast\_v\_0**.&#x20;
+4.  Provide the scope details with <mark style="color:green;">**a.)**</mark> name and the <mark style="color:green;">**b.)**</mark> scope. Click <mark style="color:green;">**c.)**</mark> Create. Note that the scope is a technical name and is automatically populated but you have the option to change it. In this example, the scope is **x\_snc\_forecast\_var**. Throughout the exercise, you will notice in screenshots that the scope name used is **x\_snc\_forecast\_v\_0**.&#x20;
 
     <figure><img src=".gitbook/assets/sc_fund_scope_details.png" alt="" width="563"><figcaption></figcaption></figure>
-5.  Verify that you are in the correct scope after you have created it. Being in the correct scope as you proceed with the lab will avoid scope access and object management isues.&#x20;
+5.  Verify that you are in the correct scope after you have created it. Being in the correct scope as you proceed with the lab will avoid scope access and object management issues. Do this by a.) clicking on the <mark style="color:green;">**a.)**</mark> scope (globe icon) and ensuring that has the value of the <mark style="color:green;">**b.)**</mark> Forecast Variance label you created.
 
     <figure><img src=".gitbook/assets/sc_fund_validate_scope.png" alt="" width="375"><figcaption></figcaption></figure>
-6.  Now that you are in the right scope, you are ready to create the scoped table. Navigate to All > a.) type **System Definition** > b.) search for **Tables**&#x20;
+6.  Now that you are in the right scope, you are ready to create the scoped table. Navigate to All > <mark style="color:green;">**a.)**</mark> type **System Definition** > <mark style="color:green;">**b.)**</mark> search for **Tables**&#x20;
 
     <figure><img src=".gitbook/assets/sc_fund_sysdef.png" alt="" width="375"><figcaption></figcaption></figure>
 7.  Go to the top right section of the navigation and click **New**.&#x20;
 
     <figure><img src=".gitbook/assets/sc_fund_new_table.png" alt="" width="563"><figcaption></figcaption></figure>
-8.  Provide the a.) **Label** as **Expense Transaction Event**. The b.) **Name** which is a technical identifier will automatically be populated and can be modified to suit your requirement. Finally, untick c.) **Create module**.&#x20;
+8.  Provide the <mark style="color:green;">**a.)**</mark> **Label** as **Expense Transaction Event**. The <mark style="color:green;">**b.)**</mark> **Name** which is a technical identifier will automatically be populated and can be modified to suit your requirement. Finally, untick <mark style="color:green;">**c.)**</mark> **Create module**.&#x20;
 
     <figure><img src=".gitbook/assets/sc_fund_new_table_details.png" alt=""><figcaption></figcaption></figure>
 9.  Right click on the header and click **Save**.&#x20;
@@ -75,7 +75,7 @@ While you have the power of CMDB at your fingertips, there are processes which r
 10. Staying in the same screen, an option to create fields for the table will be available. In the tab **Columns** click on **New**.&#x20;
 
     <figure><img src=".gitbook/assets/sc_fund_new_field.png" alt=""><figcaption></figcaption></figure>
-11. Let us use one column as an example. Provide the a.) **Type**, in this case **String**. Provide the b.) **Column label**, in this example, **Cost Center** which will automatically populate the c.) **Column name**. Since this is the string, provide the d.) **Max length** of **40**. Finally, right click on then header and e.) **Save**.&#x20;
+11. Let us use one column as an example. Provide the <mark style="color:green;">**a.)**</mark> **Type**, in this case **String**. Provide the <mark style="color:green;">**b.)**</mark> **Column label**, in this example, **Cost Center** which will automatically populate the <mark style="color:green;">**c.)**</mark> **Column name**. Since this is the string, provide the <mark style="color:green;">**d.)**</mark> **Max length** of **40**. Finally, right click on then header and <mark style="color:green;">**e.)**</mark> **Save**.&#x20;
 
     <figure><img src=".gitbook/assets/sc_fund_field_details.png" alt="" width="563"><figcaption></figcaption></figure>
 12. Do the same steps for all of the 16 other fields below. Note that the **Column label**, **Column name**, **Type**, **Max length** vary across some columns. For now, keep **Display** as **false** across all fields.&#x20;
