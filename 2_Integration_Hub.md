@@ -2,9 +2,9 @@
 
 [Take me back to main page](./)
 
-This lab will walk you through the configuration and usage of Spoke actions and Flows to get expense data from an external source periodically or ad hoc and trigger an agent which will evaluate the expense data and create a Finance case if the involved cost center will be over budget.
+This lab will walk you through the configuration and usage of **Actions** and **Flows** to get expense data from an external source periodically or ad hoc and trigger an agent which will evaluate the expense data and create a Finance case if the involved cost center will be over budget.
 
-There are dedicated Integration Hub and Flow Designer labs so the focus of this exercise is to walk through the configurations in AI Agent Studio and Flow Designer. There is a final exercise at the very end for you to create a Spoke action to provide an understanding on how the AI Agents are triggered.
+There are dedicated Integration Hub and Flow Designer labs so the focus of this exercise is to walk through the configurations in AI Agent Studio and Flow Designer. There is a final exercise at the very end for you to create an **Action** to provide an understanding on how the AI Agents are triggered.
 
 ## Data flow
 
@@ -76,9 +76,9 @@ graph LR
 
 ## Steps
 
-### Spoke Action configuration
+### Action configuration
 
-The scoped Spoke Action is the key feature for the trigger that obtains expense data via REST API. If you wish to learn more on how Flows and AI Agents can get high more granular and higher throughput of data through streaming, have a look at the bonus exercise on [Stream Connect for Apache Kafka](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/99_kafka_stream_connect).
+The scoped **Action** is a key feature for the trigger that obtains expense data via REST API. If you wish to learn more on how Flows and AI Agents can get high more granular and higher throughput of data through streaming, have a look at the bonus exercise on [Stream Connect for Apache Kafka](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/99_kafka_stream_connect).
 
 1. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **ServiceNow Studio** then <mark style="color:green;">**b.)**</mark> click **App Engine > ServiceNow Studio**. This will open a new tab.
 
@@ -88,15 +88,15 @@ The scoped Spoke Action is the key feature for the trigger that obtains expense 
 
 <figure><img src=".gitbook/assets/sc_ihub_studio_forecast_variance.png" alt="" width="334"><figcaption></figcaption></figure>
 
-3. In this current version of the lab, we will just walk you through the components. A more detailed exercise of building a scoped Spoke Action will be provided in the next updates. <mark style="color:green;">**a.)**</mark> **Go to Automation** > **Actions** > **Get Expense Event**. It will open the Action and from there <mark style="color:green;">**b.)**</mark> **click on Get Expense Event**.
+3. In this current version of the lab, we will just walk you through the components. A more detailed exercise of building a scoped Action will be provided in the next updates. <mark style="color:green;">**a.)**</mark> **Go to Automation** > **Actions** > **Get Expense Event**. It will open the Action and from there <mark style="color:green;">**b.)**</mark> **click on Get Expense Event**. The <mark style="color:green;">**c.)**</mark> **Base URL** here is coming from a dummy service that creates the expense event and the <mark style="color:green;">**d.)**</mark> **Imported Specifications** are also generated from the same dummy Service. No further action is needed in this section.
 
 <figure><img src=".gitbook/assets/sc_ihub_studio_action_1.png" alt=""><figcaption></figcaption></figure>
 
-4. s
+4. Got to <mark style="color:green;">**a.)**</mark> Outputs where <mark style="color:green;">**b.)**</mark> output is automatically generated based on the Imported Specifications. As mentioned in the previous step
 
 <figure><img src=".gitbook/assets/sc_ihub_studio_action_2.png" alt=""><figcaption></figcaption></figure>
 
-5. s
+5. You now have familiarity of the **Action** used by the **Subflow** needed to trigger the **AI Agent**, which is described in the next section.
 
 ### Walkthrough of Custom Forecast Variance AI Agent
 
@@ -160,7 +160,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_flow_search.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. This will lead to the subflow below. This is not a Flow designer lab so we will not cover the build of this in detail. The key thing to note is that it makes use of the **Spoke Action** also called **Get Expense Event** to update the **Transaction Event Record** table which is critical for our automation.
+3. This will lead to the subflow below. This is not a Flow designer lab so we will not cover the build of this in detail. The key thing to note is that it makes use of the **Action** also called **Get Expense Event** to update the **Transaction Event Record** table which is critical for our automation.
 
 <figure><img src=".gitbook/assets/sc_ihub_get_expense_event.png" alt="" width="563"><figcaption></figcaption></figure>
 
