@@ -80,49 +80,31 @@ graph LR
 
 This is a walk through of how the an AI Agent with equipped with both deterministic and probabilistic can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
 
-1. Go to All > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**.
-
-<figure><img src=".gitbook/assets/sc_ihub_expense_event.png" alt="" width="336"><figcaption></figcaption></figure>
-
-2\. This will lead to the screen below. Note that this is the table created in [Lab Exercise: Fundamentals](1_Fundamentals.md) and populated with the data from [Lab Exercise: Integration Hub](2_Integration_Hub.md).
-
-<figure><img src=".gitbook/assets/sc_ihub_expense_event_list.png" alt=""><figcaption></figcaption></figure>
-
-3\. After reviewing the table, navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
+1. Go to All > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**. Ensure that it is empty.
+2. If it is not empty, <mark style="color:green;">**a.)**</mark> click on the items > <mark style="color:green;">**b.)**</mark> click Action on selected rows... > <mark style="color:green;">**c.)**</mark> Delete > <mark style="color:green;">**d.)**</mark> Confirm delete. The flow does not have robust exception handling for this lab so this manual step is required to ensure that the scripts will run properly.
+3. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
 <figure><img src=".gitbook/assets/sc_ihub_agent_studio.png" alt="" width="334"><figcaption></figcaption></figure>
 
-4\. This will go to the list of workflows and agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** and hit **Return/Enter ↵**.
+4\. This will go to the list of workflows and agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** **Integration Hub Trigger** and hit **Return/Enter ↵**.
 
 <figure><img src=".gitbook/assets/sc_ihub_agent_studio_manage.png" alt="" width="563"><figcaption></figcaption></figure>
 
-5\. Click on **Forecast Variance**.
+5\. Click on **Forecast Variance Integration Hub Trigger**.
 
 <figure><img src=".gitbook/assets/sc_ihub_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
 6\. Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
 
-<figure><img src=".gitbook/assets/sc_ihub_agent_details_1.png" alt=""><figcaption></figcaption></figure>
-
 7\. In the same screen, scroll down to see additional configurations. No further action is required in this section.
-
-<figure><img src=".gitbook/assets/sc_ihub_agent_details_2.png" alt=""><figcaption></figcaption></figure>
 
 8\. Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**. No further action is required in this section but feel free to explore the configurations of each of the tools.
 
-<figure><img src=".gitbook/assets/sc_ihub_agent_details_3.png" alt=""><figcaption></figcaption></figure>
-
 9\. Next, click on **Define trigger**, which is kept blank. You can add the triggers for the AI Agent here but for the exercise, the AI Agent will be triggered manually to be able to show the detail chat responses and debugging. No further action is required in this section.
-
-<figure><img src=".gitbook/assets/sc_ihub_agent_details_4.png" alt=""><figcaption></figcaption></figure>
 
 10\. Finally, click on <mark style="color:green;">**a.)**</mark> **Toggle display**. This configures the availability of the AI Agent. I this case, it is enabled and can be accessed using **Now Assist panel** as well as via **Virtual Agents**. No action is required on this section aside from <mark style="color:green;">**b.)**</mark> clicking **Save and test** to proceed with testing.
 
-<figure><img src=".gitbook/assets/sc_ihub_agent_details_5.png" alt=""><figcaption></figcaption></figure>
-
 11\. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
-
-<figure><img src=".gitbook/assets/sc_ihub_agent_test.png" alt="" width="375"><figcaption></figcaption></figure>
 
 12\. Wait for the test to complete which is indicated by an <mark style="color:green;">**End**</mark> with a check mark. Once that is completed, you can explore the following sections. These automations help assess and review cost centers which are exceeding budget proactively instead of waiting at the end of reporting cycles.
 
@@ -160,8 +142,6 @@ Congratulations! You have created the Workflow Data Fabric integrations that pow
 
 ## Next step
 
-Let us continue building the data foundations for AI Agents to use. The next suggested exercise is the creation of the External Content Connector to SharePoint.&#x20;
-
-
+Let us continue building the data foundations for AI Agents to use. The next suggested exercise is the creation of the External Content Connector to SharePoint.
 
 [Take me back to ReadMe](./)
