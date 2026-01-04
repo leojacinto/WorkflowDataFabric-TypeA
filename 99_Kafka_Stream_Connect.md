@@ -31,8 +31,9 @@ Let’s get Streameeey! 🚀
 
 ## Access pre-requisites: Mandatory
 
-1. This lab is for ServiceNow internal only. You will nto be able to access the ServiceNow instance in this exercise without a ServiceNow internal account
-2. Ensure you are able to HOP to hermes1 via this URL: http://hihop.service-now.com/hop.do?sysparm\_instance=hermes1\&mode=readwrite
+1. This lab is for ServiceNow internal only. You will not be able to access the ServiceNow instance in this exercise without a ServiceNow internal account.
+2. Ensure you are able to HOP to hermes1 via this URL: [http://hihop.service-now.com/hop.do?sysparm\_instance=hermes1\&mode=readwrite](http://hihop.service-now.com/hop.do?sysparm_instance=hermes1\&mode=readwrite)
+3. This lab would still be useful for non-internal ServiceNow employees as this provides the framework and technical steps to configure Stream Connect for Apache Kafka for a Consumer scenario.
 
 ## Set-up pre-requisites
 
