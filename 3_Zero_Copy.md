@@ -276,7 +276,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_5.png" alt=""><figcaption></figcaption></figure>
 
-11\. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type Help me process EXP-2025-IT-002-1007-01 and <mark style="color:green;">**b.)**</mark> click **Start test**.
+11\. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_test.png" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -17,13 +17,11 @@ graph LR
 
     subgraph "External Systems"
         ExpenseAPI[Expense Event<br/>API]
-        SharePoint[SharePoint<br/>Executive Memos]
     end
 
     subgraph "ServiceNow Workflow Data Fabric and related components"
         subgraph "Data Integration Layer"
             IntHub[Integration Hub<br/>Spoke/Flow]
-            ExtContent[External Content<br/>Connector]
         end
 
         subgraph "Zero Copy Tables - Read Only"
@@ -42,22 +40,13 @@ graph LR
         end
     end
 
-    subgraph "Lab Prerequisites - Mock Services"
-        MockExpense[Mock Expense<br/>Event Service]
-    end
-
     %% Data Flow Connections
     ExpenseAPI -->|Real-time Events| IntHub
-    MockExpense -.->|Lab Simulation| IntHub
     IntHub -->|Write| ExpenseTable
-
-    SharePoint -->|Executive Guidance| ExtContent
 
     %% Agent 2 Workflow - Integration Hub Source
     ExpenseTable -->|Incoming Event| Agent2
     ZCCC -->|Current Budget| Agent2
-    Agent2 -->|Search Similar Cases| FinCase
-    ExtContent -->|Executive Context| Agent2
     Agent2 -->|Create Alert Case| FinCase
     Agent2 <-->|Trend Analysis| RAG
     Agent2 <-->|Flows/Subflows/Actions| FlowAction
