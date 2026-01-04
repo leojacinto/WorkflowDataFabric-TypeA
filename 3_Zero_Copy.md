@@ -312,7 +312,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 ## Conclusion
 
-Congratulations! You have created the Workflow Data Fabric integrations that powered the Financial Forecast Variance Agent.
+Congratulations! You have created the **Workflow Data Fabric** integrations that powers the **Financial Forecast Variance Agent** allowing proactive creation of cases based on multiple data sources in a complex landscape to allow proactive management of budgets.&#x20;
 
 ## Next step
 

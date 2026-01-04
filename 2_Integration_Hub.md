@@ -196,10 +196,10 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 ## Conclusion
 
-Congratulations! You have created the Workflow Data Fabric integrations that powered the Financial Forecast Variance Agent.
+Congratulations! You have created the **Workflow Data Fabric** integrations that powers the **Financial Forecast Variance Agent** allowing proactive creation of cases based on multiple data sources in a complex landscape to allow proactive management of budgets. Moreover, the AI Agent is triggered as soon as there are changes in the **Expense Transaction Event** table.
 
 ## Next step
 
-Let us continue building the data foundations for AI Agents to use. The next suggested exercise is the creation of the External Content Connector to SharePoint.
+Let us continue building the data foundations for AI Agents to use. The next suggested exercise is to go deep dive in the data integrations used by the same agent in this exercise - Zero Copy.
 
 [Take me back to main page](./)
