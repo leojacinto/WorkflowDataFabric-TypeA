@@ -118,45 +118,53 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_trigger_2.png" alt="" width="563"><figcaption></figcaption></figure>
 
-12. Finally, click on <mark style="color:green;">**a.)**</mark> **Toggle display**. This configures the availability of the AI Agent. I this case, it is enabled and can be accessed using **Now Assist panel** as well as via **Virtual Agents**. No action is required on this section.
+12. Finally, click on <mark style="color:green;">**a.)**</mark> **Toggle display**. This configures the availability of the AI Agent. I this case, it is enabled and can be accessed using **Now Assist panel** as well as via **Virtual Agents**. No action is required on this section. <mark style="color:green;">**Keep this browser window open! You will need again it later**</mark>.
 
 <figure><img src=".gitbook/assets/sc_ihub_agent_details_5.png" alt=""><figcaption></figcaption></figure>
 
 ### Runtime of Flow, Actions, and AI Agents
 
-1. dd
+1. In a **new browser window**, go to All > <mark style="color:green;">**a.)**</mark> type **Flow Designer** and go to <mark style="color:green;">**b.)**</mark> **Process Automation** > **Flow Designer**. This will open the app in a new tab.
 
-<figure><img src=".gitbook/assets/sc_ihub_flow_designer.png" alt="" width="319"><figcaption></figcaption></figure>
-2. d
+<figure><img src=".gitbook/assets/sc_ihub_flow_designer.png" alt="" width="337"><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/sc_ihub_flow_search.png" alt="" width="319"><figcaption></figcaption></figure>
-3. d
+2. In the new **Flow Designer** tab that just opened, <mark style="color:green;">**a.)**</mark> click Subflows > <mark style="color:green;">**b.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type Get Expense Event then <mark style="color:green;">**d.)**</mark> click **Apply**.
 
-<figure><img src=".gitbook/assets/sc_ihub_get_expense_event.png" alt="" width="319"><figcaption></figcaption></figure>
-4. d
+<figure><img src=".gitbook/assets/sc_ihub_flow_search.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/sc_ihub_test_flow.png" alt="" width="319"><figcaption></figcaption></figure>
-5. d
+3. This will lead to the Subflow below. This is not a Flow designer lab so we will not cover the build of this in detail. The key thing to note is that it makes use of the **Spoke Action** also called **Get Expense Event** to update the **Transaction Event Record** table which is critical for our automation.&#x20;
 
-<figure><img src=".gitbook/assets/sc_ihub_test_link.png" alt="" width="319"><figcaption></figcaption></figure>
-6. d
+<figure><img src=".gitbook/assets/sc_ihub_get_expense_event.png" alt="" width="563"><figcaption></figcaption></figure>
+
+4\. On the top right corner of the same Subflow screen, click **Test**.
+
+<figure><img src=".gitbook/assets/sc_ihub_test_flow.png" alt="" width="355"><figcaption></figcaption></figure>
+
+5\. d
+
+<figure><img src=".gitbook/assets/sc_ihub_test_link.png" alt="" width="563"><figcaption></figcaption></figure>
+
+6\. d
 
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_badge.png" alt="" width="319"><figcaption></figcaption></figure>
-7. d
+
+7\. d
 
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt="" width="319"><figcaption></figcaption></figure>
-8. d
+
+8\. d
 
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt="" width="319"><figcaption></figcaption></figure>
-9. d
+
+9\. d
 
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt="" width="319"><figcaption></figcaption></figure>
-10. d
+
+10\. d
 
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_response.png" alt="" width="319"><figcaption></figcaption></figure>
-11. d
-12. d
-13. 
+
+11\. d 12. d 13.
 
 8. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
 
