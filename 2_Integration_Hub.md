@@ -47,7 +47,7 @@ graph LR
     %% Agent 2 Workflow - Integration Hub Source
     ExpenseTable -->|Incoming Event| Agent2
     ZCCC -->|Current Budget| Agent2
-    Agent2 -->|Create Alert Case| FinCase
+    Agent2 -->|Create Case| FinCase
     Agent2 <-->|Trend Analysis| RAG
     Agent2 <-->|Flows/Subflows/Actions| FlowAction
 

@@ -256,9 +256,8 @@ graph LR
     %% Agent 2 Workflow - Integration Hub Source
     ExpenseTable -->|Incoming Event| Agent2
     ZCCC -->|Current Budget| Agent2
-    Agent2 -->|Search Similar Cases| FinCase
     ExtContent -->|Executive Context| Agent2
-    Agent2 -->|Create Alert Case| FinCase
+    Agent2 -->|Create Case| FinCase
     
     %% MCP Server Connection
     FinCase -->|Query Data| MCPS
