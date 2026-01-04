@@ -128,23 +128,23 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_flow_designer.png" alt="" width="337"><figcaption></figcaption></figure>
 
-2. In the new **Flow Designer** tab that just opened, <mark style="color:green;">**a.)**</mark> click Subflows > <mark style="color:green;">**b.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type Get Expense Event then <mark style="color:green;">**d.)**</mark> click **Apply**.
+2. In the new **Flow Designer** tab that just opened, <mark style="color:green;">**a.)**</mark> click **Subflows** > <mark style="color:green;">**b.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type Get Expense Event then <mark style="color:green;">**d.)**</mark> click **Apply**.
 
 <figure><img src=".gitbook/assets/sc_ihub_flow_search.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. This will lead to the Subflow below. This is not a Flow designer lab so we will not cover the build of this in detail. The key thing to note is that it makes use of the **Spoke Action** also called **Get Expense Event** to update the **Transaction Event Record** table which is critical for our automation.&#x20;
+3. This will lead to the subflow below. This is not a Flow designer lab so we will not cover the build of this in detail. The key thing to note is that it makes use of the **Spoke Action** also called **Get Expense Event** to update the **Transaction Event Record** table which is critical for our automation.
 
 <figure><img src=".gitbook/assets/sc_ihub_get_expense_event.png" alt="" width="563"><figcaption></figcaption></figure>
 
-4\. On the top right corner of the same Subflow screen, click **Test**.
+4. On the top right corner of the same Subflow screen, click **Test**.
 
 <figure><img src=".gitbook/assets/sc_ihub_test_flow.png" alt="" width="355"><figcaption></figcaption></figure>
 
-5\. d
+5. A pop-up will appear. Click **Run Test**.
 
 <figure><img src=".gitbook/assets/sc_ihub_test_run.png" alt="" width="563"><figcaption></figcaption></figure>
 
-6\. d
+6. After a few seconds, a link which states **Your test has finished running. View the subflow execution details.** - click on it.
 
 <figure><img src=".gitbook/assets/sc_ihub_test_link.png" alt="" width="563"><figcaption></figcaption></figure>
 
