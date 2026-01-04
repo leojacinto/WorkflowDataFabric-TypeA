@@ -78,7 +78,7 @@ Each lab is designed to be conceptually valuable even without a fully configured
 
 ### Guided lab sessions and object dependencies
 
-Fully provisioned environments with all dependencies pre-configured are available through ServiceNow-led workshops and enablement sessions. Please note that this lab uses the latest ServiceNow components as well as custom AI Agents and scoped objects, so provisioning for larger groups requires lead time. Contact your ServiceNow representative or reach out to the author for availability.
+Fully provisioned environments with all dependencies pre-configured are available through ServiceNow-led workshops and enablement sessions. Please note that this lab uses the latest ServiceNow components as well as custom AI Agents and scoped objects, so provisioning requires lead time. Contact your ServiceNow representative or reach out to the author for availability.
 
 ### About the author
 
