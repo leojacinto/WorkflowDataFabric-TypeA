@@ -81,8 +81,10 @@ graph LR
 This is a walk through of how the an AI Agent with equipped with both deterministic and probabilistic can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
 
 1. Go to All > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**. Ensure that it is empty.
+<figure><img src=".gitbook/assets/sc_ihub_agent_studio.png" alt="" width="334"><figcaption></figcaption></figure>
 
 2\. If it is not empty, <mark style="color:green;">**a.)**</mark> click on the items > <mark style="color:green;">**b.)**</mark> click Action on selected rows... > <mark style="color:green;">\*\*c.)\*\*</mark> Delete > <mark style="color:green;">\*\*d.)\*\*</mark> Confirm delete. The flow does not have robust exception handling for this lab so this manual step is required to ensure that the scripts will run properly.
+<figure><img src=".gitbook/assets/sc_ihub_agent_studio.png" alt="" width="334"><figcaption></figcaption></figure>
 
 3\. Navigate to All > <mark style="color:green;">\*\*a.)\*\*</mark> type \*\*AI Agent Studio\*\* > <mark style="color:green;">\*\*b.)\*\*</mark> click on \*\*Create and Manage\*\*.
 
