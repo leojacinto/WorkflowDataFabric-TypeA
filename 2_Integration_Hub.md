@@ -176,7 +176,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <mark style="color:green;">**e.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed. In this case it is FINC0010020.
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_test_results.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_ihub_agent_test_results.png" alt="" width="563"><figcaption></figcaption></figure>
 
 13\. The right panel of the same screen shows the **AI agent decision logs** for debugging purposes.
 
@@ -188,7 +188,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 15\. For this exercise, we are not impersonating a persona so you remain as the System user.
 
-<figure><img src=".gitbook/assets/sc_zcc_fow_home.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_ihub_fow_home.png" alt="" width="563"><figcaption></figcaption></figure>
 
 16\. Go to <mark style="background-color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > then the Finance case just created by the AI Agent.
 
