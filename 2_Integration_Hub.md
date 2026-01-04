@@ -148,33 +148,33 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_test_link.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/sc_ihub_test_results.png" alt="" width="563"><figcaption></figcaption></figure>
+7. If everything is working as expected, all the steps would be either <mark style="color:green;">**Completed**</mark> or <mark style="color:green;">**Evaluated - True**</mark>.
 
+<figure><img src=".gitbook/assets/sc_ihub_test_results.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/sc_ihub_now_assist_badge.png" alt="" width="319"><figcaption></figcaption></figure>
+8. Go back to the earlier browser window with **AI Agent Studio**. You will notice that there is a new **Now Assist badge**. This is the AI Agent at work in the back end because the **Get Expense Event** subflow has triggered a change in the **Expense Transaction Event** table. Click on the **Now Assist icon** with the updated badge count..
 
-7\. d
+<figure><img src=".gitbook/assets/sc_ihub_now_assist_badge.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt="" width="319"><figcaption></figcaption></figure>
+7\. This will open the Now Assist chat. In some cases, it might ask for a confirmation such as the one shown here. This is not related to Supervised or Autonomous settings.
 
-8\. d
+<figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt=""><figcaption></figcaption></figure>
+
+8\. Type **Yes** so the agent can proceed with the next steps.
 
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_response.png" alt="" width="319"><figcaption></figcaption></figure>
 
+9. In the back-end the following is happning.
 
-8. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
-
-12\. Wait for the test to complete which is indicated by an <mark style="color:green;">**End**</mark> with a check mark. Once that is completed, you can explore the following sections. These automations help assess and review cost centers which are exceeding budget proactively instead of waiting at the end of reporting cycles.
-
-<mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** to see the tools used.
+<mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** show tools used.
 
 <mark style="color:green;">**b.)**</mark> Note the **cost\_center** and **vendor** extracted from the expense event.
 
-<mark style="color:green;">**c.)**</mark> You can access the result of the **Retrieval-augmented Generation (RAG) search** and click on the links if you wish. This step helps you check relevant entries for the cost center associated with the expense event so you can do further investigation if needed.
+<mark style="color:green;">**c.)**</mark> The clickable results from the **Retrieval-augmented Generation (RAG) search** are shown. This step helps you check relevant entries for the cost center associated with the expense event so you can do further investigation if needed.
 
 <mark style="color:green;">**d.)**</mark> You can also access the **RAG search** results for the vendors associated with the expense event.
 
-<mark style="color:green;">**e.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed.
+<mark style="color:green;">**e.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed. In this case it is FINC0010020.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_test_results.png" alt="" width="563"><figcaption></figcaption></figure>
 
