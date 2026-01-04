@@ -142,9 +142,11 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 5\. d
 
-<figure><img src=".gitbook/assets/sc_ihub_test_link.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_ihub_test_run.png" alt="" width="563"><figcaption></figcaption></figure>
 
 6\. d
+
+<figure><img src=".gitbook/assets/sc_ihub_test_link.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_badge.png" alt="" width="319"><figcaption></figcaption></figure>
 
