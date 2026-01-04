@@ -29,14 +29,12 @@ graph LR
         subgraph "ServiceNow Native Tables"
             ExpenseTable[(Expense Event<br/>Line Items<br/>Scoped Table)]
             FinCase[(Finance Case<br/>Table)]
-            FinVar[(Financial Variance<br/>Table)]
         end
 
         subgraph "AI & Automation"
             Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
             Agent2[Agent: Proactive<br/>Budget Alert<br/>Integration Hub Source]
             RAG[RAG - Retrieval<br/>Augmented Generation]
-            NASK[NASK - Now Assist<br/>Skill Kit]
             FlowAction[Flow Action]
         end
     end
@@ -50,15 +48,11 @@ graph LR
     ExpenseTable -->|Search Similar Cases| Agent1
     Agent1 -->|Create Case| FinCase
     Agent1 <-->|Trend Analysis| RAG
-    Agent1 <-->|Knowledge Retrieval| NASK
     Agent1 <-->|Flows/Subflows/Actions| FlowAction
-    Agent1 -->|Record Variance| FinVar
 
     %% Agent 2 Workflow - Integration Hub Source
     ExpenseTable -->|Incoming Event| Agent2
-    Agent2 -->|Search Similar Cases| FinCase
-    Agent2 -->|Create Alert Case| FinCase
-    Agent2 -->|Record Variance| FinVar
+    Agent2 -->|Create Case| FinCase
 
     %% User Interaction Connections
     Employee -->|Ask Questions<br/>View/Update Cases| EC
