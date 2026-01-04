@@ -84,9 +84,9 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_expense_event.png" alt="" width="334"><figcaption></figcaption></figure>
 
-2. If it is not empty, <mark style="color:green;">**a.)**</mark> click on the items > <mark style="color:green;">**b.)**</mark> click Action on selected rows... > <mark style="color:green;">**c.)**</mark> Delete > <mark style="color:green;">**d.)**</mark> Confirm delete. The flow does not have robust exception handling for this lab so this manual step is required to ensure that the scripts will run properly.
+2. If it is not empty, <mark style="color:green;">**a.)**</mark> click on all the items by clicking the **top-rightmost check box** > <mark style="color:green;">**b.)**</mark> click **Action on selected rows...** > <mark style="color:green;">**c.)**</mark> click **Delete** > <mark style="color:green;">**d.)**</mark> click **Delete** again. The flow does not have robust exception handling for this lab so this manual step is required to ensure that the scripts will run properly.
 
-<figure><img src=".gitbook/assets/sc_ihub_expense_event_delete.png" alt="" width="334"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_ihub_expense_event_delete.png" alt=""><figcaption></figcaption></figure>
 
 3. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
