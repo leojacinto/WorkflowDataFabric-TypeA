@@ -1,5 +1,7 @@
 # Bonus Exercise: Stream Connect for Apache Kafka Lab Guide
 
+[Take me back to main page](./)
+
 <figure><img src=".gitbook/assets/sc_persona.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Business motivation
@@ -515,3 +517,5 @@ In the text above, take note of the portions below which you should replace with
 * [Stream Connect for Apache Kafka Data Sheet](https://www.servicenow.com/au/standard/resource-center/data-sheet/ds-stream-connect-for-apache-kafka.html)
 * [Stream Connect for Apache Kafka Overview](https://learning.servicenow.com/lxp/en?id=learning_course_prev\&course_id=0a25082c473ae950123f3975d36d43d6)
 * [Stream Connect Quick Start Guide](https://www.servicenow.com/docs/bundle/zurich-integrate-applications/page/administer/integrationhub/concept/stream-connect-quick-start.html)
+
+[Take me back to main page](./)
