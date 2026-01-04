@@ -76,7 +76,7 @@ graph LR
 
 ## Steps
 
-### Actions, Flows, and Custom Forecast Variance AI Agent in action
+### Walkthrough of Custom Forecast Variance AI Agent
 
 This is a walk through of how the an AI Agent with equipped with both deterministic and probabilistic can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
 
@@ -114,15 +114,24 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_trigger_1.png" alt="" width="563"><figcaption></figcaption></figure>
 
-11\. Also notice the configuration for **Conditions** which allows further qualificiation of when the trigger will be activate. The M**ethod for defining sys user** and **Sys\_user** fields are also critical to ensure correct levels of authorizations are used in the trigger.
+11. Also notice the configuration for **Conditions** which allows further qualificiation of when the trigger will be activate. The M**ethod for defining sys user** and **Sys\_user** fields are also critical to ensure correct levels of authorizations are used in the trigger.
 
 <figure><img src=".gitbook/assets/sc_ihub_trigger_2.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Finally, click on <mark style="color:green;">**a.)**</mark> **Toggle display**. This configures the availability of the AI Agent. I this case, it is enabled and can be accessed using **Now Assist panel** as well as via **Virtual Agents**. No action is required on this section aside from <mark style="color:green;">**b.)**</mark> clicking **Save and test** to proceed with testing.
+12. Finally, click on <mark style="color:green;">**a.)**</mark> **Toggle display**. This configures the availability of the AI Agent. I this case, it is enabled and can be accessed using **Now Assist panel** as well as via **Virtual Agents**. No action is required on this section.
 
 <figure><img src=".gitbook/assets/sc_ihub_agent_details_5.png" alt=""><figcaption></figcaption></figure>
 
-11\. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
+### Runtime of Flow, Actions, and AI Agents
+
+1. dd
+2. d
+3. d
+4. d
+5. d
+6. d
+7. d
+8. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
 
 12\. Wait for the test to complete which is indicated by an <mark style="color:green;">**End**</mark> with a check mark. Once that is completed, you can explore the following sections. These automations help assess and review cost centers which are exceeding budget proactively instead of waiting at the end of reporting cycles.
 
