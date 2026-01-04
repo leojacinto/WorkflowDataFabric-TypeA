@@ -90,11 +90,11 @@ The scoped Spoke Action is the key feature for the trigger that obtains expense 
 
 3. s
 
-<figure><img src=".gitbook/assets/sc_ihub_studio_action_1" alt="" width="334"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_ihub_studio_action_1.png" alt=""><figcaption></figcaption></figure>
 
 4. s
 
-<figure><img src=".gitbook/assets/sc_ihub_studio_action_2" alt="" width="334"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_ihub_studio_action_2.png" alt=""><figcaption></figcaption></figure>
 
 5. s
 
