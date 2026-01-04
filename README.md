@@ -11,7 +11,7 @@ Finance teams discover budget overruns weeks too late. Expense analysis requires
 * **Enable self-service insights** through natural language queries in Employee Center
 * **Scale financial operations** with AI agents, not headcount
 
-Integrations powered by Workflow Data Fabric allow AI Agents to automate critical proceses using accurate and consistent data.
+Your automations and AI Agents are just as good as your underlying data. Integrations powered by Workflow Data Fabric allow AI Agents to automate critical processes using accurate and consistent data.
 
 ## Persona context
 
