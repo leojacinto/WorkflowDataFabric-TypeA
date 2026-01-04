@@ -110,12 +110,13 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_agent_details_4.png" alt=""><figcaption></figcaption></figure>
 
-10. Noti
+10. Notice the details such as the **Select trigger** > **Created** and **Table** > **Expense Transaction Event**. These are set so the AI Agent will be triggered as soon as entries are created in the **Expense Transaction Event** which gets expense data from an external source via REST API.
 
-<figure><img src=".gitbook/assets/sc_ihub_trigger_1.png" alt=""><figcaption></figcaption></figure>
-11. sdsd
+<figure><img src=".gitbook/assets/sc_ihub_trigger_1.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/sc_ihub_trigger_2.png" alt=""><figcaption></figcaption></figure>
+11\. Also notice the configuration for **Conditions** which allows further qualificiation of when the trigger will be activate. The M**ethod for defining sys user** and **Sys\_user** fields are also critical to ensure correct levels of authorizations are used in the trigger.
+
+<figure><img src=".gitbook/assets/sc_ihub_trigger_2.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Finally, click on <mark style="color:green;">**a.)**</mark> **Toggle display**. This configures the availability of the AI Agent. I this case, it is enabled and can be accessed using **Now Assist panel** as well as via **Virtual Agents**. No action is required on this section aside from <mark style="color:green;">**b.)**</mark> clicking **Save and test** to proceed with testing.
 
