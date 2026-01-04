@@ -156,15 +156,15 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_badge.png" alt=""><figcaption></figcaption></figure>
 
-7\. This will open the Now Assist chat. In some cases, it might ask for a confirmation such as the one shown here. This is not related to Supervised or Autonomous settings.
+9. This will open the Now Assist chat. In some cases, it might ask for a confirmation such as the one shown here. This is not related to Supervised or Autonomous settings.
 
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt=""><figcaption></figcaption></figure>
 
-8\. Type **Yes** so the agent can proceed with the next steps.
+10. Type **Yes** so the agent can proceed with the next steps.
 
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_response.png" alt="" width="319"><figcaption></figcaption></figure>
 
-9. In the back-end the following is happning.
+11. In the back-end the following is happening.
 
 <mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** show tools used.
 
@@ -178,19 +178,19 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_agent_test_results.png" alt="" width="563"><figcaption></figcaption></figure>
 
-13\. The right panel of the same screen shows the **AI agent decision logs** for debugging purposes.
+12. The right panel of the same screen shows the **AI agent decision logs** for debugging purposes.
 
 <figure><img src=".gitbook/assets/sc_ihub_agent_test_debug.png" alt=""><figcaption></figcaption></figure>
 
-14\. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
+13. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
 <figure><img src=".gitbook/assets/sc_ihub_fow.png" alt="" width="319"><figcaption></figcaption></figure>
 
-15\. For this exercise, we are not impersonating a persona so you remain as the System user.
+14. For this exercise, we are not impersonating a persona so you remain as the System user.
 
 <figure><img src=".gitbook/assets/sc_ihub_fow_home.png" alt="" width="563"><figcaption></figcaption></figure>
 
-16\. Go to <mark style="background-color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > then the Finance case just created by the AI Agent.
+15. Go to <mark style="background-color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > then the Finance case just created by the AI Agent.
 
 <figure><img src=".gitbook/assets/sc_ihub_fow_navigation.png" alt=""><figcaption></figcaption></figure>
 
