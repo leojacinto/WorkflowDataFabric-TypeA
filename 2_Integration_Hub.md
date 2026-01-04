@@ -81,15 +81,22 @@ graph LR
 The scoped Spoke Action is the key feature for the trigger that obtains expense data via REST API. If you wish to learn more on how Flows and AI Agents can get high more granular and higher throughput of data through streaming, have a look at the bonus exercise on [Stream Connect for Apache Kafka](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/99_kafka_stream_connect).&#x20;
 
 1. s
+
+<figure><img src=".gitbook/assets/sc_ihub_studio.png" alt="" width="334"><figcaption></figcaption></figure>
+
 2. s
+
+<figure><img src=".gitbook/assets/sc_ihub_studio_forecast_variance.png" alt="" width="334"><figcaption></figcaption></figure>
+
 3. s
+
+<figure><img src=".gitbook/assets/sc_ihub_studio_action_1" alt="" width="334"><figcaption></figcaption></figure>
+
 4. s
+
+<figure><img src=".gitbook/assets/sc_ihub_studio_action_2" alt="" width="334"><figcaption></figcaption></figure>
+
 5. s
-6. s
-7. s
-8. s
-9. s
-10. s
 
 ### Walkthrough of Custom Forecast Variance AI Agent
 
