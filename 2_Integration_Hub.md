@@ -148,6 +148,9 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_test_link.png" alt="" width="563"><figcaption></figcaption></figure>
 
+<figure><img src=".gitbook/assets/sc_ihub_test_results.png" alt="" width="563"><figcaption></figcaption></figure>
+
+
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_badge.png" alt="" width="319"><figcaption></figcaption></figure>
 
 7\. d
@@ -156,17 +159,8 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 8\. d
 
-<figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt="" width="319"><figcaption></figcaption></figure>
-
-9\. d
-
-<figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt="" width="319"><figcaption></figcaption></figure>
-
-10\. d
-
 <figure><img src=".gitbook/assets/sc_ihub_now_assist_response.png" alt="" width="319"><figcaption></figcaption></figure>
 
-11\. d 12. d 13.
 
 8. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
 
