@@ -150,6 +150,21 @@ These are local tables and are not persisted in any other systems.
 * **Expense Event Table:** is a scoped table will obtain expense events via Rest API from expense sources such as cloud infrastructure services or even document capture via ServiceNow Lens and Document Intelligence.
 * **Finance Case Table**: is a standard table in ServiceNow Finance case management (**sn\_spend\_sdc\_service\_request**) where the Flows and Agents will perform updates based on the expense events ingested either in the background or interactively.
 
+#### AI & Automation
+
+* Agent: Over-Budget Case Creator Zero Copy Source
+* Agent: Proactive Budget Alert Integration Hub Source
+* RAG - Retrieval Augmented Generation
+* Flow Actions
+* MCP Server and Client
+
+#### AI Experiences
+
+While not part of Workflow Data Fabric, these provide additional data sources for the Flows and AI Agents to use.
+
+* ServiceNow Lens
+* Document Intelligence
+
 ## Overall data flow
 
 Do not let the chart intimidate you 😉. This will be broken down further and the intent of showing the whole data flow is to provide an overview of the inner workings within ServiceNow while, as mentioned earlier, the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
