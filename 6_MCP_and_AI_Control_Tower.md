@@ -2,7 +2,7 @@
 
 <mark style="color:red;">**Lab Exercise creation in progress!**</mark>
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)
 
 This lab will walk you through the configuration and usage of MCP capabilities to interact with ServiceNow either as a client or as a server, allowing end users to interact with the platform as they see fit. As a final step in the series, you will also get a view of how ServiceNow is able to govern AI assets across your landscape using AI Control Tower.
 
@@ -83,4 +83,4 @@ graph LR
 
 ```
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)

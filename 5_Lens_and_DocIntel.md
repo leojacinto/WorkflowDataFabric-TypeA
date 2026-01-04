@@ -2,7 +2,7 @@
 
 <mark style="color:red;">**Lab Exercise creation in progress!**</mark>
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)
 
 This lab will walk you through the configuration and usage of ServiceNow Lens and Document Intelligence as sources of unstructured document data for interactive and batch capture of expense information from documents.
 
@@ -74,4 +74,4 @@ graph LR
     class Employee,EC user
 ```
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)

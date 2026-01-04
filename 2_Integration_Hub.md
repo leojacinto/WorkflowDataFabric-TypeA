@@ -1,6 +1,6 @@
 # Lab Exercise: Integration Hub
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)
 
 This lab will walk you through the configuration and usage of Spoke actions and Flows to get expense data from an external source periodically or ad hoc and trigger an agent which will evaluate the expense data and create a Finance case if the involved cost center will be over budget.
 
@@ -208,4 +208,4 @@ Congratulations! You have created the Workflow Data Fabric integrations that pow
 
 Let us continue building the data foundations for AI Agents to use. The next suggested exercise is the creation of the External Content Connector to SharePoint.
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)

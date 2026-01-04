@@ -1,6 +1,6 @@
 # Lab Exercise: Zero Copy Connectors
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)
 
 This lab will walk you through integration of data coming from Cloud Data Warehouses and ERP using Zero Copy Connectors (ZCC) for SQL and ERP respectively.
 
@@ -318,4 +318,4 @@ Congratulations! You have created the Workflow Data Fabric integrations that pow
 
 Let us continue building the data foundations for AI Agents to use. The next suggested exercise is the creation of the External Content Connector to SharePoint.&#x20;
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)

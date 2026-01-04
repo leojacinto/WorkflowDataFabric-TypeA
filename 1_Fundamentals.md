@@ -1,6 +1,6 @@
 # Lab Exercise: Fundamentals
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)
 
 This lab will walk you through creation of the scoped tables needed to interact with the external system integrations.
 
@@ -92,4 +92,4 @@ Let us continue building the data foundations for the use case. Next up is creat
 
 Alternatively, you can focus purely on REST API conectivity by proceeding with the [Integration Hub configuation](/broken/pages/Mxtr8y5z9iSBqS1mCbau).
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)

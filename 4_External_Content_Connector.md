@@ -2,7 +2,7 @@
 
 <mark style="color:red;">**Lab Exercise creation in progress!**</mark>
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)
 
 This lab will walk you through the configuration and usage of External Content Connectors as a source of unstructured document data to supplement automations needed in Finance case creation.
 
@@ -52,4 +52,4 @@ graph LR
     class Employee,EC user
 ```
 
-[Take me back to ReadMe](./)
+[Take me back to main page](./)
