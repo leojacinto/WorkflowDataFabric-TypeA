@@ -290,7 +290,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <mark style="color:green;">**d.)**</mark> You can also access the **RAG search** results for the vendors associated with the expense event.
 
-<mark style="color:green;">**e.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed.
+<mark style="color:green;">**e.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed. In this case it is FINC0010012.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_test_results.png" alt="" width="563"><figcaption></figcaption></figure>
 
