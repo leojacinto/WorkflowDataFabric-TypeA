@@ -125,12 +125,39 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 ### Runtime of Flow, Actions, and AI Agents
 
 1. dd
+
+<figure><img src=".gitbook/assets/sc_ihub_flow_designer.png" alt="" width="319"><figcaption></figcaption></figure>
 2. d
+
+<figure><img src=".gitbook/assets/sc_ihub_flow_search.png" alt="" width="319"><figcaption></figcaption></figure>
 3. d
+
+<figure><img src=".gitbook/assets/sc_ihub_get_expense_event.png" alt="" width="319"><figcaption></figcaption></figure>
 4. d
+
+<figure><img src=".gitbook/assets/sc_ihub_test_flow.png" alt="" width="319"><figcaption></figcaption></figure>
 5. d
+
+<figure><img src=".gitbook/assets/sc_ihub_test_link.png" alt="" width="319"><figcaption></figcaption></figure>
 6. d
+
+<figure><img src=".gitbook/assets/sc_ihub_now_assist_badge.png" alt="" width="319"><figcaption></figcaption></figure>
 7. d
+
+<figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt="" width="319"><figcaption></figcaption></figure>
+8. d
+
+<figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt="" width="319"><figcaption></figcaption></figure>
+9. d
+
+<figure><img src=".gitbook/assets/sc_ihub_now_assist_expand.png" alt="" width="319"><figcaption></figcaption></figure>
+10. d
+
+<figure><img src=".gitbook/assets/sc_ihub_now_assist_response.png" alt="" width="319"><figcaption></figcaption></figure>
+11. d
+12. d
+13. 
+
 8. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
 
 12\. Wait for the test to complete which is indicated by an <mark style="color:green;">**End**</mark> with a check mark. Once that is completed, you can explore the following sections. These automations help assess and review cost centers which are exceeding budget proactively instead of waiting at the end of reporting cycles.
