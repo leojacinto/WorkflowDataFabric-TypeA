@@ -76,6 +76,21 @@ graph LR
 
 ## Steps
 
+### Spoke Action configuration
+
+The scoped Spoke Action is the key feature for the trigger that obtains expense data via REST API. If you wish to learn more on how Flows and AI Agents can get high more granular and higher throughput of data through streaming, have a look at the bonus exercise on [Stream Connect for Apache Kafka](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/99_kafka_stream_connect).&#x20;
+
+1. s
+2. s
+3. s
+4. s
+5. s
+6. s
+7. s
+8. s
+9. s
+10. s
+
 ### Walkthrough of Custom Forecast Variance AI Agent
 
 This is a walk through of how the an AI Agent with equipped with both deterministic and probabilistic can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
