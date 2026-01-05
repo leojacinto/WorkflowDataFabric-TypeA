@@ -164,8 +164,8 @@ These are local tables and are not persisted in any other systems.
 
 While not part of Workflow Data Fabric, these provide additional data sources for the Flows and AI Agents to use.
 
-* ServiceNow Lens
-* Document Intelligence
+* **ServiceNow Lens:** an AI-powered feature that uses generative AI ([Vision LLM](https://www.google.com/search?q=Vision+LLM\&oq=servicenow+lens\&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgwIARAjGCcYgAQYigUyBggCECMYJzIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxODA4ajBqN6gCALACAA\&sourceid=chrome\&ie=UTF-8\&mstk=AUtExfCXlwM7eN6OXpQftS11lZYSx-TGuDOPDi0F2dxwLoEfox0_btuhGLAhu3U7epUtTJcPg0JbQeeR-0HTL2OJ4X-d8ohtKjrBNP0bxVIrV0fZ30Ot9VZLEnR0JJe8WITD0oLOYZ_jQ1n28PU0Az9SsehRH9-sJ3qqhwktpONcQOZ4gHM\&csui=3\&ved=2ahUKEwjdi5LmzvSRAxWbmq8BHddEGK0QgK4QegQIARAC)) to scan, extract, and understand data from on-screen sources like screenshots, emails, or log files, even outside ServiceNow. This can be useful to get Expense Transaction Events coming from receipts which are scanned interactively (i.e. through ServiceNow app or in a browser window).
+* **Document Intelligence:** an AI-powered solution that uses machine learning, natural language processing (NLP), and computer vision to automatically extract, classify, and process data from various digital and scanned documents, useful for processing Expense Transaction Events coming from multiple documents.
 
 ## Overall data flow
 
