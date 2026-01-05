@@ -250,7 +250,6 @@ graph LR
     ZCExp -->|Expense Details| Agent1
     ExpenseTable -->|Search Similar Cases| Agent1
     ZCExp -->|Search Similar Cases| Agent1
-    ExtContent -->|Executive Context| Agent1
     Agent1 -->|Create Case| FinCase
     Agent1 <-->|Trend Analysis| RAG
     Agent1 <-->|Flows/Subflows/Actions| FlowAction
@@ -258,7 +257,6 @@ graph LR
     %% Agent 2 Workflow - Integration Hub Source
     ExpenseTable -->|Incoming Event| Agent2
     ZCCC -->|Current Budget| Agent2
-    ExtContent -->|Executive Context| Agent2
     Agent2 -->|Create Case| FinCase
     
     %% MCP Server Connection
@@ -272,6 +270,7 @@ graph LR
     %% User Interaction Connections
     Employee -->|Ask Questions<br/>View/Update Cases| EC
     EC -->|Search & Query| FinCase
+    EC -->|Natural Language| ExtContent
     Employee -->|Access| ControlTower -->|Govern| AI
     Employee -->|Analytics| ClaudeDesktop
 
