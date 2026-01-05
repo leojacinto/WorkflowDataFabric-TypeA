@@ -154,9 +154,9 @@ These are local tables and are not persisted in any other systems.
 
 #### AI & Automation
 
-* Flow and Action
-* MCP Server and Client
-* RAG - Retrieval Augmented Generation
+* **Flow and Action:** a scoped Flow and a scoped Action are used to get expense data from a REST API source.
+* **MCP Server and Client:** MCP or Model Context Protocol is an open standard that lets AI models (LLMs) securely connect to and use external data, tools, and services, acting like a universal adapter to give real-world context beyond their training data for better decision-making and task execution. This will allow Now Assist from ServiceNow act as a data source for clients such as Claude Desktop or act as a client when connecting to MCP-based services (e.g. Snowflake or Notion) feeding data into Flows or Agents.
+* **RAG - Retrieval Augmented Generation:** Now Assist uses AI Search to retrieve relevant information from your knowledge bases, documentation, and records before generating a response. Rather than relying solely on what the LLM was trained on, it grounds answers in your actual ServiceNow local and integrated data. Think of it as having someone who does the research first, then answers, except it happens in seconds.
 * **Agent: Proactive Budget Alert Integration Hub Source:** contains RAG and Flows to assess cost center budget history, transactions, and status to create the appropriate Finance Case so budgets can be handled proactively. This is triggered by the Flow and Action that gets Expense Transaction Events from an external REST API source.
 * **Agent: Over-Budget Case Creator Zero Copy Source**: similar to **Agent: Proactive Budget Alert Integration Hub Source** but does not have a trigger. This agent is created separately to create a lab exercise that focuses on Zero Copy but is similar to **Agent: Proactive Budget Alert Integration Hub Source** with the only difference being the trigger configuration.
 
