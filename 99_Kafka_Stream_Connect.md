@@ -29,6 +29,10 @@ By completing this lab, participants will gain practical experience implementing
 
 Let’s get Streameeey! 🚀
 
+## Acknowledgement
+
+The use case which is the basis of this lab is created by [Kamal Shewakramani](https://www.linkedin.com/in/kamal-shewakramani/).
+
 ***
 
 ## Access pre-requisites: Mandatory
