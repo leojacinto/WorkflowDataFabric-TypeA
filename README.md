@@ -64,17 +64,18 @@ Before attempting these exercises, ensure you have access and license entitlemen
 
 ### External system dependencies
 
-∙ Cloud data warehouse with SQL endpoint (e.g., Snowflake, Databricks, BigQuery)\
-∙ Document repository (e.g., SharePoint, Google Drive) for External Content Connector scenarios\
-∙ Claude Desktop with MCP configuration (for MCP Server lab)\
-∙ Sample ERP dataset or equivalent financial data source
+* Cloud data warehouse with SQL endpoint (e.g., Snowflake, Databricks, BigQuery)
+* Document repository (e.g., SharePoint, Google Drive) for External Content Connector scenarios
+* Claude Desktop with MCP configuration (for MCP Server lab)
+* Sample ERP dataset or equivalent financial data source
 
 ### What if I don’t have all of this?
 
-Each lab is designed to be conceptually valuable even without a fully configured environment. You can:\
-∙ Follow along to understand the architectural patterns and configuration steps\
-∙ Adapt the exercises to your own data sources and systems\
-∙ Use the provided screenshots and sample outputs as reference
+Each lab is designed to be conceptually valuable even without a fully configured environment. You can:
+
+* Follow along to understand the architectural patterns and configuration steps
+* Adapt the exercises to your own data sources and systems
+* Use the provided screenshots and sample outputs as reference
 
 ### Guided lab sessions and object dependencies
 
