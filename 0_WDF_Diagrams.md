@@ -100,7 +100,7 @@ graph LR
             Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
             Agent2[Agent: Proactive<br/>Budget Alert<br/>Integration Hub Source]
             RAG[RAG - Retrieval<br/>Augmented Generation]
-            FlowAction[Flow Action]
+            FlowAction[Flow and Action]
             MCP[MCP Server]
             MCPC[MCP Client]
         end
@@ -154,11 +154,11 @@ These are local tables and are not persisted in any other systems.
 
 #### AI & Automation
 
-* Agent: Over-Budget Case Creator Zero Copy Source
-* Agent: Proactive Budget Alert Integration Hub Source
-* RAG - Retrieval Augmented Generation
-* Flow Actions
+* Flow and Action
 * MCP Server and Client
+* RAG - Retrieval Augmented Generation
+* Agent: Proactive Budget Alert Integration Hub Source: contains RAG and Flows to assess cost center budget history, transactions, and status to create the appropriate Finance Case so budgets can be handled proactively. This is triggered by
+* **Agent: Over-Budget Case Creator Zero Copy Source**: contains RAG
 
 #### AI Experiences
 
@@ -225,7 +225,7 @@ graph LR
             Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
             Agent2[Agent: Proactive<br/>Budget Alert<br/>Integration Hub Source]
             RAG[RAG - Retrieval<br/>Augmented Generation]
-            FlowAction[Flow Action]
+            FlowAction[Flow and Action]
             MCPS[MCP Server]
             MCPC[MCP Client]
         end
