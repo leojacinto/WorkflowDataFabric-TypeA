@@ -19,7 +19,7 @@ This capability empowers organizations to:
 
 ## Story so far and persona context
 
-You have already created workflows that integrate with REST API sources. The organization now wants you to get asset data from the various cost centers running in the organization and register them to your CMDB.
+You have already created an [Action](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub#action-configuration), a [Flow](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub#runtime-of-flow-actions-and-ai-agents), [Zero Copy Integrations](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy), and [AI Agents](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy#custom-forecast-variance-ai-agent-in-action) for your [Finance team's proactive budget handling](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom). The organization now wants you to get asset data from the various cost centers running in the organization and register them to your CMDB.
 
 In this lab, you’ll step into the role of an Integration Architect or Integration Developer responsible for designing high-performance, event-driven integrations. Your task: configure Stream Connect for Apache Kafka in ServiceNow to ingest CMDB data from Kafka producers, bridging your organization’s ServiceNow environment with its broader data ecosystem.
 
