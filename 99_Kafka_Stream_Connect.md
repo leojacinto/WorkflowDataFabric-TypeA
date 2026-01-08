@@ -1,4 +1,4 @@
-# Bonus Exercise: Stream Connect for Apache Kafka Lab Guide
+# Bonus Exercise: Stream Connect for Apache Kafka Lab
 
 [Take me back to main page](./)
 
@@ -39,6 +39,7 @@ The use case which is the basis of this lab is created by [Kamal Shewakramani](h
 
 1. The steps in this lab makes use of hermes1, a ServiceNow instance accessible only to ServiceNow internal employees. If you are a ServiceNow employee, you are able to HOP to hermes1 via this URL: [http://hihop.service-now.com/hop.do?sysparm\_instance=hermes1\&mode=readwrite](http://hihop.service-now.com/hop.do?sysparm_instance=hermes1\&mode=readwrite)
 2. This lab would still be useful for non-internal ServiceNow employees as this provides the framework and technical steps to configure Stream Connect for Apache Kafka for a Consumer scenario.
+3. Fully provisioned environments with all dependencies pre-configured are available through ServiceNow-led workshops and enablement sessions. Please note that this lab uses the latest ServiceNow components and license for Stream Connect, so provisioning requires lead time. Contact your ServiceNow representative or reach out to the author for availability.
 
 ## Set-up pre-requisites
 
