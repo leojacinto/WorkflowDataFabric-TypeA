@@ -23,6 +23,8 @@ You have already created an [Action](https://servicenow-lf.gitbook.io/the-workfl
 
 In this lab, you’ll step into the role of an Integration Architect or Integration Developer responsible for designing high-performance, event-driven integrations. Your task: configure Stream Connect for Apache Kafka in ServiceNow to ingest CMDB data from Kafka producers, bridging your organization’s ServiceNow environment with its broader data ecosystem.
 
+To have a better idea of the desired outcome, have a look at this demo video of how Stream Connect for Apache Kafka is able to populate CMDB data in real time: [https://www.youtube.com/watch?v=y8N1j\_qbr\_E](https://www.youtube.com/watch?v=y8N1j_qbr_E).
+
 ## Outcome
 
 By completing this lab, participants will gain practical experience implementing real-time, scalable integrations that support modern enterprise use cases, enabling faster insights, proactive operations, and a more connected digital business.
