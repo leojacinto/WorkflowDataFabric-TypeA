@@ -27,14 +27,6 @@ graph LR
             FinCase[(Finance Case<br/>Table)]
             FinVar[(Financial Variance<br/>Table)]
         end
-        subgraph "Data Integration Layer"
-            ZeroCopySQL[Zero Copy SQL<br/>Connection]
-        end
-
-        subgraph "Zero Copy Tables - Read Only"
-            ZCCH[(Cost Centre History)]
-            ZCCO[(Search other<br/>tables in CDW)]
-        end
 
         subgraph AI[AI & Automation]
             Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
@@ -42,16 +34,6 @@ graph LR
             MCPC[MCP Client]
         end
     end
-
-    subgraph "Lab Prerequisites - Mock Services"
-        MockCDW[Mock Cloud Data<br/>Warehouse]
-    end
-
-    %% Data Flow Connections
-    CDW -->|Data Fabric table| ZeroCopySQL
-    MockCDW -.->|Lab Simulation| ZeroCopySQL
-    ZeroCopySQL --> |Search|ZCCH
-    ZeroCopySQL --> |Validate|ZCCO
 
     %% MCP Server Connection
     FinVar -->|Query Data| MCPS
