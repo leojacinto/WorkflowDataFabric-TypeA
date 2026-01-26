@@ -1,6 +1,6 @@
 # Lab Exercise: External Content Connector
 
-<mark style="color:red;">**Lab Exercise creation in progress!**</mark>
+<mark style="color:red;">**Lab Exercise creation in progress! Content Coming February 2025.**</mark>
 
 [Take me back to main page](./)
 
