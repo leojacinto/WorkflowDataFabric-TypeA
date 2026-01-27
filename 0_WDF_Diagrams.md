@@ -4,7 +4,7 @@
 
 ## Components
 
-Let us first start by breaking down the different components of the lab. In a tightly integrated ServiceNow landscape that spans various internal ServiceNow components and external data sources, the diagram below would be a good represenation. These internal and external components will be used by Flows and AI Agents to provide the automations needed to solve our business problem of managing financial budgets. While the components will look overwhelming, the reality is customer landscapes require this level of complexity to manage different types of data across multiple functions. The key thing to note is the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
+Let us first start by breaking down the different components of the lab. In a tightly integrated ServiceNow landscape that spans various internal ServiceNow components and external data sources, the diagram below would be a good represenation. These internal and external components will be used by Flows and AI Agents to provide the automations needed to solve our business problem of managing financial budgets. While the components will look overwhelming, the reality is customer landscapes require this level of complexity to manage different types of data across multiple functions. The key thing to note is the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop).
 
 ### External system prerequisites
 
@@ -32,7 +32,7 @@ graph LR
     class ZCCC,ZCCH,ZCExp zeroCopy
     class ExpenseTable,FinCase,FinVar native
     class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
-    class Employee,EC,ControlTower,ClaudeDesktop user
+    class Employee,EC,ClaudeDesktop user
 ```
 
 * **ERP**: This lab will use an SAP system with either BAPI/RFC or OData endpoints. The authentication and integration is already configured in this exercise and the objective is get the needed data by selecting the ERP data model and extraction table. If you wish to learn more on how to create the configuration in your own environment, check this [Zero Copy Connector for ERP guide by Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800). You can also take this ServiceNow University course on [Introduction to Zero Copy Connector for ERP Data Products and Process Extensions](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-zero-copy-connector-for-erp-data-products-and?id=learning_course_prev\&course_id=72e3387d937bea54fb94b4886cba1095).
@@ -66,7 +66,7 @@ graph LR
     class ZCCC,ZCCH,ZCExp zeroCopy
     class ExpenseTable,FinCase,FinVar native
     class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
-    class Employee,EC,ControlTower,ClaudeDesktop user
+    class Employee,EC,ClaudeDesktop user
 ```
 
 ### ServiceNow Workflow Data Fabric
@@ -186,7 +186,6 @@ graph LR
         Employee((Employee/<br/>Finance Manager))
         EC[Employee Center or<br/>Workspace with Now Assist]
         ClaudeDesktop[Claude Desktop<br/>+ MCP]
-        ControlTower[AI Control<br/>Tower]
     end
 
     subgraph "External Systems"
@@ -271,7 +270,6 @@ graph LR
     Employee -->|Ask Questions<br/>View/Update Cases| EC
     EC -->|Search & Query| FinCase
     EC -->|Natural Language| ExtContent
-    Employee -->|Access| ControlTower -->|Govern| AI
     Employee -->|Analytics| ClaudeDesktop
 
     %% Styling
@@ -287,7 +285,7 @@ graph LR
     class ZCCC,ZCCH,ZCExp zeroCopy
     class ExpenseTable,FinCase,FinVar native
     class Agent1,Agent2,RAG,NASK,FlowAction,MCPS,MCPC,GGraph,NLQuery,Lens,DocIntel ai
-    class Employee,EC,ControlTower,ClaudeDesktop user
+    class Employee,EC,ClaudeDesktop user
 ```
 
 [Take me back to main page](./)
