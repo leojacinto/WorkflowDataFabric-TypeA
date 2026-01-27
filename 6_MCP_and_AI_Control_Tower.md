@@ -65,7 +65,9 @@ graph LR
 
 ### Connecting to an MCP Server (Snowflake)
 
-This provides the steps needed to connect ServiceNow to an MCP ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)) Server. ServiceNow can serve as an MCP Client to connect to any solution that has MCP support.
+This provides the steps needed to connect ServiceNow to an MCP ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)) Server tool configured in Snowflake. ServiceNow can serve as an MCP Client to connect to any solution that has MCP support.&#x20;
+
+This exercise does not cover the creation of the MCP Service from Snowflake as that requires administrator rights and CDW expertise which may not be widely available to various personas.
 
 1. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
@@ -99,7 +101,7 @@ This provides the steps needed to connect ServiceNow to an MCP ([Model Context P
 
 <figure><img src=".gitbook/assets/sc_mcp_save.png" alt="" width="178"><figcaption></figcaption></figure>
 
-9. Navigate to <mark style="color:green;">**a.)**</mark> **Add tools and information** > <mark style="color:green;">**b.)**</mark> **Add tool** > <mark style="color:green;">**b.)**</mark> > **MCP server tool**.
+9. Navigate to <mark style="color:green;">**a.)**</mark> **Add tools and information** > <mark style="color:green;">**b.)**</mark> **Add tool** > <mark style="color:green;">**c.)**</mark> > **MCP server tool**.
 
 <figure><img src=".gitbook/assets/sc_mcp_add_tools.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -179,7 +181,7 @@ Congratulations! You have created the **MCP Server** integrations that allows Se
 
 ## Next step
 
-You can explore a bonuse use case that makes use of Stream Connect for Apache Kafka for integrations that require more throughput and data volume.
+You can explore a bonus use case that makes use of Stream Connect for Apache Kafka for integrations that require more throughput and data volume.
 
 
 
