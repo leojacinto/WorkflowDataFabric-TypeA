@@ -6,7 +6,7 @@ This lab will walk you through the configuration and usage of MCP capabilities t
 
 ## Data flow
 
-The data flow below shows how ServiceNow provides MCP client and server capabilities as well governance of AI assets.
+The data flow below shows how ServiceNow provides MCP client and server capabilities.
 
 ```mermaid
 graph LR
