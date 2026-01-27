@@ -135,19 +135,7 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 
 
-15. Still in the same pop-up screen provide the following details. Screenshot on how the settings should look like immediately follows. You only need to modify three settings and leave the rest as they are.
-
-<mark style="color:green;">**a.)**</mark> **Name**: **Get Details in Snowflake MCP**
-
-<mark style="color:green;">**b.)**</mark> **Tool description**: **query: Get the details via Snowflake MCP using the cost center taken from "Extract Cost Center" step columns: \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"] limit: 1**
-
-<mark style="color:green;">**c.)**</mark> **Execution mode**: **Autonomous**&#x20;
-
-<mark style="color:green;">**d.)**</mark>**&#x20;Save**
-
-
-
-16. Configure the availability of the AI Agent as this setting might have been reset when it was copied from the original **Forecast Variance AI Agent**. Follow the steps below and refer to the screenshot that immediately follows.
+15. Configure the availability of the AI Agent as this setting might have been reset when it was copied from the original **Forecast Variance AI Agent**. Follow the steps below and refer to the screenshot that immediately follows.
 
 <mark style="color:green;">**a.)**</mark> Go to **Toggle display**
 
@@ -161,19 +149,19 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 <figure><img src=".gitbook/assets/sc_mcp_agent_display.png" alt=""><figcaption></figcaption></figure>
 
-17. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
+16. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
 
 <figure><img src=".gitbook/assets/sc_mcp_start_test.png" alt="" width="375"><figcaption></figcaption></figure>
 
-18. The test will run for a few seconds and will show you that it is running the tool **Get Details in Snowflake MCP**. This is the additional tool you created earlier.
+17. The test will run for a few seconds and will show you that it is running the tool **Get Details in Snowflake MCP**. This is the additional tool you created earlier.
 
 <figure><img src=".gitbook/assets/sc_mcp_test_run_1.png" alt=""><figcaption></figcaption></figure>
 
-19. Finally, you will notice that the **Get Details in Snowflake MCP**&#x20;
+18. Finally, you will notice that the **Get Details in Snowflake MCP** has obtained the closest matching the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.&#x20;
 
 <figure><img src=".gitbook/assets/sc_mcp_test_run_2.png" alt=""><figcaption></figcaption></figure>
 
-20. **Challenge:** once you are done with this lab, see if you can remove the tool Extract Cost Center and replace it completely with the data from **Get Details via Snowflake MCP** as seen in step 7. No hints this time. 😉
+19. **Challenge:** once you are done with this lab, see if you can remove the tool **Extract Cost Center** and replace it completely with the data from **Get Details via Snowflake MCP** as seen in step 7. No hints this time. 😉
 
 ## Conclusion
 
