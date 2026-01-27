@@ -118,7 +118,7 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 
 <figure><img src=".gitbook/assets/sc_xcc_response (1).png" alt=""><figcaption></figcaption></figure>
 
-16. You will be directed to the file which has the content explaining why cost center MKTG-FR-PR went overbudget.&#x20;
+16. You will be directed to the file which has the content explaining why cost center **MKTG-FR-PR** went over-budget. You might be required to provide login/credentials, so if you are executing this lab in a ServiceNow managed environment, credentials to access this document will be provided separately in the lab session for security purposes.
 
 <figure><img src=".gitbook/assets/sc_xcc_overbudget.png" alt=""><figcaption></figcaption></figure>
 
