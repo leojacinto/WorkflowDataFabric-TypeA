@@ -84,11 +84,25 @@ graph LR
 2.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
 
     <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-
 3.  Search for <mark style="color:green;">**a.)**</mark>  **System Administrator then** hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.&#x20;
 
     <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+4.  In the **Roles** tab, click **Edit**.
+
+    <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
+5.
+
+    <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+
+6.
+
+    <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+
+7. <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in.
 
 ### Action configuration
 
