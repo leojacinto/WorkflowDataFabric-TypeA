@@ -86,9 +86,9 @@ graph LR
     <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
-3.  Search for <mark style="color:green;">**a.)**</mark>  **System Administrator then** hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.
+3.  Search for <mark style="color:green;">**a.)**</mark>  **System Administrator then** hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.&#x20;
 
-    <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Action configuration
 
@@ -138,10 +138,10 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 6.  Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
 
-    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 7.  Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**. No further action is required in this section but feel free to explore the configurations of each of the tools.
 
-    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 8. Under Define security controls, clck Define user access.&#x20;
 9. Next, click on **Define trigger**, which is a key part of this exercise. Click on **Create New Expense Transaction Event** to get a view of how the trigger is configured
 
