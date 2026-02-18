@@ -63,6 +63,14 @@ graph LR
 
 ## Steps
 
+### Note on the header of screenshots
+
+You may see either an Alectri logo or ServiceNow logo in the screenshots. You can ignore this while we consolidate the screenshots to come consistently from one system.
+
+<figure><img src=".gitbook/assets/image (20).png" alt="" width="136"><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (21).png" alt="" width="151"><figcaption></figcaption></figure>
+
 ### Connecting to an MCP Server (Snowflake)
 
 This provides the steps needed to connect ServiceNow to an MCP ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)) Server tool configured in Snowflake. ServiceNow can serve as an MCP Client to connect to any solution that has MCP support.&#x20;
