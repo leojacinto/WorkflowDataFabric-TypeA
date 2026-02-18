@@ -71,6 +71,105 @@ You may see either an Alectri logo or ServiceNow logo in the screenshots. You ca
 
 <figure><img src=".gitbook/assets/image (21).png" alt="" width="151"><figcaption></figcaption></figure>
 
+### MCP Server Preparations (Lab Admin only!)
+
+1. Run the following in Snowflake for each server with the appropriate integration name. These can be done in advance as the server names will be&#x20;
+
+```sql
+CREATE SECURITY INTEGRATION SN_MCP_0001
+  TYPE = OAUTH
+  OAUTH_CLIENT = CUSTOM
+  OAUTH_CLIENT_TYPE = 'CONFIDENTIAL'
+  OAUTH_REDIRECT_URI = 'https://lef-feb-7744-0001.lab.service-now.com/oauth_redirect.do'
+  OAUTH_ISSUE_REFRESH_TOKENS = TRUE
+  OAUTH_ENFORCE_PKCE = FALSE
+  ENABLED = TRUE;
+```
+
+2. Get the credentials for each users. These will need to be given to the users prior to the activity.
+
+```sql
+SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
+```
+
+### MCP Client Preparations
+
+1.
+
+    <figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+2.
+
+    <figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
+
+3.
+
+    <figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+
+
+4.
+
+<figure><img src=".gitbook/assets/image (40).png" alt="" width="563"><figcaption></figcaption></figure>
+
+5.
+
+    <figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+6.
+
+    <figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+7.
+
+    <figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+8.
+
+    <figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+9.
+
+    <figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+10.
+
+    <figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+11.
+
+    <figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+12.
+
+    <figure><img src=".gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+13.
+
+    <figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+
+
+14.
+15.
+
+    <figure><img src=".gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+16.
+
+    <figure><img src=".gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+17.
+
+    <figure><img src=".gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+18.
+
+    <figure><img src=".gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+19.
+
+    <figure><img src=".gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+20.
+
+    <figure><img src=".gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+21.
+
+    <figure><img src=".gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+22.
+
+    <figure><img src=".gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+23.
+24. a
+25. a
+26. a
+
 ### Connecting to an MCP Server (Snowflake)
 
 This provides the steps needed to connect ServiceNow to an MCP ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)) Server tool configured in Snowflake. ServiceNow can serve as an MCP Client to connect to any solution that has MCP support.&#x20;
