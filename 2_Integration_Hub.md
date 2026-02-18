@@ -76,50 +76,75 @@ graph LR
 
 ## Steps
 
-### Preparation
+### AI Search Configuration
 
-1. This preparation section incdlues setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).&#x20;
+1. This configuration section includes setting up of AI Search which is a critical tool for the AI Agents.  You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).&#x20;
+2.  Using an private/incognito browser window, log into your instance as:
+
+    1. User: **aislab.admin**
+    2. Password: **aislab.admin**
+
+    <figure><img src=".gitbook/assets/image.png" alt="" width="362"><figcaption></figcaption></figure>
+3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
+
+    <figure><img src=".gitbook/assets/image (1).png" alt="" width="337"><figcaption></figcaption></figure>
+4.  Click on Repair Machine Learning Settings.
+
+    <figure><img src=".gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+5.  You will get a message that the machine learning settings are being reset.&#x20;
+
+    <figure><img src=".gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+6.  After a 2-3 minutes, you will get a notification that the machine learning settings are reset. This will do indexing of tables in the background which will be needed for the search functionality to be used by the AI Agents later.
+
+    <figure><img src=".gitbook/assets/image (5).png" alt="" width="279"><figcaption></figcaption></figure>
+7. Exit your aislab.admin session and go back to your main session where you have logged in as **admin** user with the password provided to you.
+
+### Platform Configuration
+
+1. Back as **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).&#x20;
 2.  Ensure you are in the correct scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials.&#x20;
 
     <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
 
-    <figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
-4.  Search for <mark style="color:green;">**a.)**</mark>  **System Administrator then** hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.&#x20;
+    <figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+4.  Search for <mark style="color:green;">**a.)**</mark>  **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.&#x20;
 
     <figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 5.  In the **Roles** tab, click **Edit**.
 
-    <figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
-6.
+6.  Search for <mark style="color:green;">**a.)**</mark>  **System Administrator then** hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.&#x20;
 
-    <figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 7.
 
-    <figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 8.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in.
 
-    <figure><img src=".gitbook/assets/image (2).png" alt="" width="254"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1).png" alt="" width="254"><figcaption></figcaption></figure>
 9.  Once logged back in navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Assistant Designer** then <mark style="color:green;">**b.)**</mark> click **Conversational Interfaces > Assistant Designer**. This will open a new tab.
 
-    <figure><img src=".gitbook/assets/image (3).png" alt="" width="337"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1).png" alt="" width="337"><figcaption></figcaption></figure>
 10. Go to **Now Assist Panel - Platform (default)** > **Edit**.
 
-    <figure><img src=".gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (4) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 11. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
-    <figure><img src=".gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 12. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Unified Navigation app shell** is selected. If it is not added, you may need to select it from **Add ServiceNow platform** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
 
-    <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 13. Click on the **Assistant Designer** logo at the top left. You may need to refresh your page to make sure it has picked up the latest status of **Now Assist Panel - Platform (default)**.
@@ -182,16 +207,16 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 6.  Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
 
-    <figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 7.  Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**. No further action is required in this section but feel free to explore the configurations of each of the tools.
 
-    <figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 8.  Under **Define security controls** > <mark style="color:green;">**a.)**</mark> click **Define data access** > <mark style="color:green;">**b.)**</mark> select **Dynamic user** from the drop down then > <mark style="color:green;">**c.)**</mark> add **admin** user as the approved role. For this exercise we are using permissive authorisations but this is where you can tighten authorisations for your agents allowing mechanisms such as inheriting the authorisations of logged in user (Dynamic identity type) or a predefined set of access (AI User identity type).
 
-    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 9.  Next, click on **Define trigger**, which is a key part of this exercise. Click on **Create New Expense Transaction Event** to get a view of how the trigger is configured. You do not have to change anything in this page.
 
-    <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 10. Notice the details such as the **Select trigger** > **Created** and **Table** > **Expense Transaction Event**. These are set so the AI Agent will be triggered as soon as entries are created in the **Expense Transaction Event** which gets expense data from an external source via REST API.
 
 <figure><img src=".gitbook/assets/sc_ihub_trigger_1.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -202,7 +227,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 12. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**a.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistnat. Make sure your configuration is set as below. <mark style="color:green;">**Keep this browser window open! You will need again it later**</mark>.
 
-    <figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Runtime of Flow, Actions, and AI Agents
 
