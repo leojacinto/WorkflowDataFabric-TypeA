@@ -88,6 +88,10 @@ graph LR
 
 ## Steps
 
+### Note on the header
+
+You may see
+
 ### AI Search Configuration
 
 1. This configuration section includes setting up of AI Search which is a critical tool for the AI Agents.  You can skip this if you have done it for [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub).&#x20;
@@ -256,30 +260,24 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 
 <figure><img src=".gitbook/assets/sc_zcc_wdf_hub.png" alt="" width="368"><figcaption></figcaption></figure>
 
-3. In the landing page, go to **Established connections** > **Alectri Finance**. <mark style="color:red;">**Note:**</mark> this established connection is configured specifically for instances used in ServiceNow-led labs.
+3.  In the landing page, go to **Established connections** > **Snowflake Connection (S)**. <mark style="color:red;">**Note:**</mark> this established connection is configured specifically for instances used in ServiceNow-led labs.
 
-<figure><img src=".gitbook/assets/sc_zcc_wdf_hub_landing.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (11).png" alt="" width="563"><figcaption></figcaption></figure>
+4.  In the **Connection details** tab of the screen that immediately follows, the established connection is configured as shown in the screenshot below. No action needs to be done for this step. You might also get a notification stating **This connection is read-only in the 'Forecast Variance' application scope...** which can be ignored.
 
-4. In the **Connection details** tab of the screen that immediately follows, the established connection is configured as shown in the screenshot below. No action needs to be done for this step.
+    <figure><img src=".gitbook/assets/image (12).png" alt="" width="563"><figcaption></figcaption></figure>
+5.  Go to <mark style="color:green;">**a.)**</mark> Data assets > <mark style="color:green;">**b.)**</mark> beside **u\_lab\_cc\_summary** click **Create data fabric table**.
 
-<figure><img src=".gitbook/assets/sc_zcc_snowflake_connection.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (13).png" alt="" width="563"><figcaption></figcaption></figure>
+6.  Provide the information needed for <mark style="color:green;">**a.)**</mark> the **Label** e.g. **cc\_summ\_\<your initials>** and the <mark style="color:green;">**b.)**</mark> **Name** which will automatically provided. <mark style="color:red;">**Note:**</mark> keep the name length not more than 35 characters such as what is listed below, e.g. **x\_snc\_forecast\_v\_0\_df\_cc\_summ\_lfr**. Click <mark style="color:green;">**c.)**</mark> **Continue** once done.
 
-5. Go to <mark style="color:green;">**a.)**</mark> Data assets > <mark style="color:green;">**b.)**</mark> click **Create data fabric table**.
+    <figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+7.  In the screen that immediate follows, click on the tick box beside **Name** and this will include all the fields from the Snowflake data asset to the data fabric table being configured.
 
-<figure><img src=".gitbook/assets/sc_zcc_data_asset.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+8.  Look for **Cost center** column > change the data type from **String** to <mark style="color:green;">**a.)**</mark> **Reference** and click <mark style="color:green;">**b.)**</mark> **Reference** to set the table from which **Cost center** column will refer to.
 
-6. Provide the information needed for <mark style="color:green;">**a.)**</mark> the label e.g. **Cost Center Budget Summary** and the <mark style="color:green;">**b.)**</mark> **Name** which will automatically provided. <mark style="color:red;">**Note:**</mark> keep the name length not more than 35 characters such as what is listed below, e.g. **x\_snc\_forecast\_v\_0\_df\_cc\_summary**. Click <mark style="color:green;">**c.)**</mark> **Continue** once done.
-
-<figure><img src=".gitbook/assets/sc_zcc_df_table.png" alt="" width="563"><figcaption></figcaption></figure>
-
-7. In the screen that immediate follows, click on the tick box beside **Name** and this will include all the fields from the Snowflake data asset to the data fabric table being configured.
-
-<figure><img src=".gitbook/assets/sc_zcc_select_columns.png" alt=""><figcaption></figcaption></figure>
-
-8. Look for **Cost center** column > change the data type from **String** to <mark style="color:green;">**a.)**</mark> **Reference** and click <mark style="color:green;">**b.)**</mark> **Reference** to set the table from which **Cost center** column will refer to.
-
-<figure><img src=".gitbook/assets/sc_zcc_cc_reference.png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 9. In the modal pop-up that appears, select the table **sn\_erp\_integration\_cost\_center** which you have set-up in the ZCC for ERP lab exercise.
 
 <figure><img src=".gitbook/assets/sc_zcc_reference_table.png" alt="" width="375"><figcaption></figcaption></figure>
@@ -294,29 +292,18 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 
 12. Finally, set GL account as the **Primary** key as shown in the <mark style="color:green;">**a.)**</mark> toggle below. Click <mark style="color:green;">**b.)**</mark> **Finish** once done.
 
-<figure><img src=".gitbook/assets/sc_zcc_finalize_df.png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 13. A pop-up dialog indicating that a primary key has been defined. Click **Confirm**.
 
 <figure><img src=".gitbook/assets/sc_zcc_confirm_pk.png" alt="" width="375"><figcaption></figcaption></figure>
 
-14. This will lead you to a screen showing the data assets created.
+14. This will lead you to a screen showing the data assets created. In the same screen, click on the <mark style="color:green;">**a.)**</mark> three vertical dots then <mark style="color:green;">**b.)**</mark> **Open list**.
 
-<figure><img src=".gitbook/assets/sc_zcc_df_completed.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+15. This will lead you to the data fabric table.&#x20;
 
-15. In the same screen, click on the <mark style="color:green;">**a.)**</mark> three vertical dots then <mark style="color:green;">**b.)**</mark> **Open list**.
-
-<figure><img src=".gitbook/assets/sc_zcc_view_df.png" alt="" width="563"><figcaption></figcaption></figure>
-
-16. This will lead you to the data fabric table. Click on one the company codes such as **SCM-UK-WH**.
-
-<figure><img src=".gitbook/assets/sc_zcc_df_reference.png" alt=""><figcaption></figcaption></figure>
-
-17. This will lead you the record in the **SAP Cost Center** table (**sn\_erp\_integration\_cost\_center**) which you have configured in the ZCC for ERP section.
-
-<figure><img src=".gitbook/assets/sc_zcc_sap_cc_ref.png" alt=""><figcaption></figcaption></figure>
-
-18. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for SQL.
+    <figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+16. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for SQL.
 
 ### Custom Forecast Variance AI Agent in action
 
