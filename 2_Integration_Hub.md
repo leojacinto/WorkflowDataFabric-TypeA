@@ -298,7 +298,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 13. For this exercise, we are not impersonating a persona so you remain as the System user.
 
     <figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
-14. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending > <mark style="color:green;">**b.)**</mark> then the Finance case  created by the AI Agent, FINC0010020 in the example above.
+14. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case  created by the AI Agent, FINC0010020 in the example above.
 
 <figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 

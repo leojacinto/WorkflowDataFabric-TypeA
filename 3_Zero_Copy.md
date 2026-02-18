@@ -377,15 +377,13 @@ This is a walk through of how the an AI Agent with equipped with both determinis
     <figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 14. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
-<figure><img src=".gitbook/assets/sc_zcc_fow.png" alt="" width="319"><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 15. For this exercise, we are not impersonating a persona so you remain as the System user.
 
-<figure><img src=".gitbook/assets/sc_zcc_fow_home.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+16. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case  created by the AI Agent, FINC0010020 in the example above.
 
-16. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > then the Finance case just created by the AI Agent.
-
-<figure><img src=".gitbook/assets/sc_zcc_fow_navigation.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusion
 
