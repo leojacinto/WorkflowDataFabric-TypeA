@@ -104,10 +104,10 @@ You may see either an Alectri logo or ServiceNow logo in the screenshots. You ca
     1. User: **aislab.admin**
     2. Password: **aislab.admin**
 
-    <figure><img src=".gitbook/assets/image.png" alt="" width="362"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1).png" alt="" width="362"><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
 
-    <figure><img src=".gitbook/assets/image (1).png" alt="" width="337"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="337"><figcaption></figcaption></figure>
 4.  Click on Repair Machine Learning Settings.
 
     <figure><img src=".gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
@@ -368,7 +368,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <mark style="color:green;">**d.)**</mark> You can also access the **RAG search** results for the vendors associated with the expense event.
 
-<mark style="color:green;">**e.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed. In this case it is FINC0010001.
+<mark style="color:green;">**e.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed. In this case it is FINC0010003.
 
 <figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
@@ -381,9 +381,9 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 15. For this exercise, we are not impersonating a persona so you remain as the System user.
 
     <figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
-16. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case  created by the AI Agent, FINC0010020 in the example above.
+16. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case  created by the AI Agent, FINC0010003 in the example above.
 
-    <figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusion
 
