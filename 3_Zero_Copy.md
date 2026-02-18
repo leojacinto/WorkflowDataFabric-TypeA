@@ -88,9 +88,13 @@ graph LR
 
 ## Steps
 
-### Note on the header
+### Note on the header of screenshots
 
-You may see
+You may see either an Alectri logo or ServiceNow logo in the screenshots. You can ignore this while we consolidate the screenshots to come consistently from one system.
+
+<figure><img src=".gitbook/assets/image (20).png" alt="" width="136"><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (21).png" alt="" width="151"><figcaption></figcaption></figure>
 
 ### AI Search Configuration
 
@@ -177,6 +181,13 @@ You may see
 16. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Employee Center** is selected. If it is not added, you may need to select it from **Add portal** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
 
 <figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+17. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** then <mark style="color:green;">**b.)**</mark> click **Now Assist Admin > Experiences**.
+
+    <figure><img src=".gitbook/assets/image (27).png" alt="" width="298"><figcaption></figcaption></figure>
+18. Go to> <mark style="color:green;">**a.)**</mark> **Now Assist panel** then <mark style="color:green;">**b.)**</mark> click **Turn on**.
+
+    <figure><img src=".gitbook/assets/image (28).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Zero Copy for ERP
 
@@ -317,42 +328,36 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_zcc_expense_event_list.png" alt=""><figcaption></figcaption></figure>
 
-3. After reviewing the table, navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
+3.  After reviewing the table, navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_studio.png" alt="" width="334"><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (22).png" alt="" width="336"><figcaption></figcaption></figure>
 4. This will go to the list of workflows and agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** and hit **Return/Enter ↵**.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_studio_manage.png" alt="" width="563"><figcaption></figcaption></figure>
 
-5. Click on **Forecast Variance**.
+5. You might get multiple results so only get the one which says **Forecast Variance** only.&#x20;
 
 <figure><img src=".gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
-6. Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
+6.  Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_details_1.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure>
+7.  Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**. No further action is required in this section but feel free to explore the configurations of each of the tools.
 
-7. In the same screen, scroll down to see additional configurations. No further action is required in this section.
+    <figure><img src=".gitbook/assets/image (24).png" alt="" width="563"><figcaption></figcaption></figure>
+8.  Under **Define security controls** > <mark style="color:green;">**a.)**</mark> click **Define data access** > <mark style="color:green;">**b.)**</mark> select **Dynamic user** from the drop down then > <mark style="color:green;">**c.)**</mark> add **admin** user as the approved role. For this exercise we are using permissive authorisations but this is where you can tighten authorisations for your agents allowing mechanisms such as inheriting the authorisations of logged in user (Dynamic identity type) or a predefined set of access (AI User identity type).
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_details_2.png" alt=""><figcaption></figcaption></figure>
-
-8. Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**. No further action is required in this section but feel free to explore the configurations of each of the tools.
-
-<figure><img src=".gitbook/assets/sc_zcc_agent_details_3.png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 9. Next, click on **Define trigger**, which is kept blank. You can add the triggers for the AI Agent here but for the exercise, the AI Agent will be triggered manually to be able to show the detail chat responses and debugging. No further action is required in this section.
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_details_4.png" alt=""><figcaption></figcaption></figure>
 
-10. Finally, click on <mark style="color:green;">**a.)**</mark> **Toggle display**. This configures the availability of the AI Agent. I this case, it is enabled and can be accessed using **Now Assist panel** as well as via **Virtual Agents**. No action is required on this section aside from <mark style="color:green;">**b.)**</mark> clicking **Save and test** to proceed with testing.
+10. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**.
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_details_5.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+11. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
 
-11. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
-
-<figure><img src=".gitbook/assets/sc_zcc_agent_test.png" alt="" width="375"><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure>
 12. Wait for the test to complete which is indicated by an <mark style="color:green;">**End**</mark> with a check mark. Once that is completed, you can explore the following sections. These automations help assess and review cost centers which are exceeding budget proactively instead of waiting at the end of reporting cycles.
 
 <mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** to see the tools used.
@@ -363,14 +368,13 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <mark style="color:green;">**d.)**</mark> You can also access the **RAG search** results for the vendors associated with the expense event.
 
-<mark style="color:green;">**e.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed. In this case it is FINC0010012.
+<mark style="color:green;">**e.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed. In this case it is FINC0010001.
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_test_results.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 13. The right panel of the same screen shows the **AI agent decision logs** for debugging purposes.
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_test_debug.png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 14. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
 <figure><img src=".gitbook/assets/sc_zcc_fow.png" alt="" width="319"><figcaption></figcaption></figure>
