@@ -27,11 +27,8 @@ By completing this lab, you'll build a production-grade financial intelligence p
 
 * **Zero Copy integration** with ERP and cloud warehouses (no data duplication)
 * **AI agents** that autonomously detect issues, analyze trends, and create contextual cases
-* **External Content Connector** bringing executive memos into agent decisions
 * **Integration Hub** for real-time expense event processing
-* **Lens** and **Document Intelligence** for invoice data capture individually or batch, respectively
 * **MCP Server** enabling Claude Code or Desktop to analyze ServiceNow financial data
-* **ServiceNow Enterprise Graph** for natural language queries across systems (not yet released!)
 
 You'll master the architectural patterns for transforming siloed enterprise data into unified, intelligent decision-making platforms. **Let's build something intelligent**. 🚀💡
 
@@ -39,7 +36,7 @@ You'll master the architectural patterns for transforming siloed enterprise data
 
 This lab is divided into 6 exercises with the suggested sequence below. The ServiceNow-led lab environments which contains these exercises will allow you to complete individual labs in any sequence you prefer. The exercises focus on walk through and basic configuration of Workflow Data Fabric integrations and there are pre-made custom agents that make use of the integrations to demonstrate what is possible. You will not need to configure agents in this exercise but steps are provided on how you can explore how the agents were configured.
 
-<table><thead><tr><th width="203.09375">Topic</th><th width="180.48828125">Difficulty</th><th>AI Agents involved<select><option value="YGjZnAor8Y2O" label="Yes" color="blue"></option><option value="BAU85HNUmKkw" label="No" color="blue"></option></select></th><th>Suggested duration</th></tr></thead><tbody><tr><td><a href="0_WDF_Diagrams.md">Workflow Data Fabric Diagrams</a></td><td>N/A</td><td><span data-option="BAU85HNUmKkw">No</span></td><td>N/A</td></tr><tr><td><a href="1_Fundamentals.md">Lab Exercise: Fundamentals</a></td><td>Basic</td><td><span data-option="BAU85HNUmKkw">No</span></td><td>20 minutes</td></tr><tr><td><a href="2_Integration_Hub.md">Lab Exercise: Integration Hub</a></td><td>Basic</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>30 minutes</td></tr><tr><td><a href="3_Zero_Copy.md">Lab Exercise: Zero Copy Connectors</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>1 hour</td></tr><tr><td><a href="4_External_Content_Connector.md">Lab Exercise: External Content Connector</a></td><td>Basic</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>20 minutes</td></tr><tr><td><a href="5_Lens_and_DocIntel.md">Lab Exercise: ServiceNow Lens and Document Intelligence</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>30 minutes</td></tr><tr><td><a href="6_MCP_and_AI_Control_Tower.md">Lab Exercise: Model Context Protocol Server/Client and AI Control Tower</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>1 hour</td></tr></tbody></table>
+<table><thead><tr><th width="203.09375">Topic</th><th width="180.48828125">Difficulty</th><th>AI Agents involved<select><option value="YGjZnAor8Y2O" label="Yes" color="blue"></option><option value="BAU85HNUmKkw" label="No" color="blue"></option></select></th><th>Suggested duration</th></tr></thead><tbody><tr><td><a href="0_WDF_Diagrams.md">Workflow Data Fabric Diagrams</a></td><td>N/A</td><td><span data-option="BAU85HNUmKkw">No</span></td><td>N/A</td></tr><tr><td><a href="1_Fundamentals.md">Lab Exercise: Fundamentals</a></td><td>Basic</td><td><span data-option="BAU85HNUmKkw">No</span></td><td>20 minutes</td></tr><tr><td><a href="2_Integration_Hub.md">Lab Exercise: Integration Hub</a></td><td>Basic</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>30 minutes</td></tr><tr><td><a href="3_Zero_Copy.md">Lab Exercise: Zero Copy Connectors</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>1 hour</td></tr><tr><td><a href="6_MCP_and_AI_Control_Tower.md">Lab Exercise: Model Context Protocol Server/Client and AI Control Tower</a></td><td>Intermediate</td><td><span data-option="YGjZnAor8Y2O">Yes</span></td><td>1 hour</td></tr></tbody></table>
 
 ## A note from the author and some disclaimers
 
@@ -49,21 +46,18 @@ This lab demonstrates end-to-end integration scenarios that require both Service
 
 Before attempting these exercises, ensure you have access and license entitlements to the following:
 
-| Component needed                                  | Required version, Zurich Patch 4 recommended |
-| ------------------------------------------------- | -------------------------------------------- |
-| Zero Copy Connector for SQL                       | 2.0.0                                        |
-| Zero Copy Connector for ERP                       | 8.0.14                                       |
-| External Content Connectors for SharePoint Online | 4.1.7                                        |
-| Workflow Studio                                   | 28.1.4                                       |
-| Now Assist Skill Kit                              | 6.0.7                                        |
-| MCP Server                                        | 1.0.0                                        |
-| MCP Client                                        | 1.0.7                                        |
-| AI Control Tower                                  | 1.0.1                                        |
+| Component needed            | Required version, Zurich Patch 4 recommended |
+| --------------------------- | -------------------------------------------- |
+| Zero Copy Connector for SQL | 2.0.0                                        |
+| Zero Copy Connector for ERP | 8.0.14                                       |
+| Workflow Studio             | 28.1.4                                       |
+| Now Assist Skill Kit        | 6.0.7                                        |
+| MCP Server                  | 1.0.0                                        |
+| MCP Client                  | 1.0.7                                        |
 
 ### External system dependencies
 
 * Cloud data warehouse with SQL endpoint (e.g., Snowflake, Databricks, BigQuery)
-* Document repository (e.g., SharePoint, Google Drive) for External Content Connector scenarios
 * Claude Desktop with MCP configuration (for MCP Server lab)
 * Sample ERP dataset or equivalent financial data source
 
