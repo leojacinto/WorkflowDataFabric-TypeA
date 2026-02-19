@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Lab Exercise: External Content Connector
 
 [Take me back to main page](./)
@@ -54,7 +58,7 @@ graph LR
 
 ### Crawl and Usage of External Content Connectors
 
-This provides the steps  to execute a crawl of documents to file repositories XCC (External Content Connectors) are set up for. This also provides the steps in a real life scenario on how XCC can help end users with their daily tasks.
+This provides the steps to execute a crawl of documents to file repositories XCC (External Content Connectors) are set up for. This also provides the steps in a real life scenario on how XCC can help end users with their daily tasks.
 
 This does not include steps in setting up XCC to connect to a SharePoint account as that requires SharePoint administrator rights which are not widely available to various personas.
 
@@ -66,7 +70,7 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 
 <figure><img src=".gitbook/assets/sc_xcc_home_screen.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. Navigate to  <mark style="color:green;">**a.)**</mark> **Crawl History** > <mark style="color:green;">**b.)**</mark> click on **Crawl Content**.
+3. Navigate to <mark style="color:green;">**a.)**</mark> **Crawl History** > <mark style="color:green;">**b.)**</mark> click on **Crawl Content**.
 
 <figure><img src=".gitbook/assets/sc_xcc_crawl_content.png" alt=""><figcaption></figcaption></figure>
 
