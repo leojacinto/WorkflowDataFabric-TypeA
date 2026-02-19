@@ -88,75 +88,75 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 
 1.
 
-    ![](.gitbook/assets/image%20%2838%29.png)
+    <figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 2.
 
-    ![](.gitbook/assets/image%20%2839%29.png)
+    <figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 
 3.
 
-    ![](.gitbook/assets/image%20%2842%29.png)
+    <figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 
 4.
 
-![](.gitbook/assets/image%20%2840%29.png)
+<figure><img src=".gitbook/assets/image (40).png" alt="" width="563"><figcaption></figcaption></figure>
 
 5.
 
-    ![](.gitbook/assets/image%20%2843%29.png)
+    <figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 6.
 
-    ![](.gitbook/assets/image%20%2844%29.png)
+    <figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 7.
 
-    ![](.gitbook/assets/image%20%2845%29.png)
+    <figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 8.
 
-    ![](.gitbook/assets/image%20%2846%29.png)
+    <figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 9.
 
-    ![](.gitbook/assets/image%20%2847%29.png)
+    <figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 10.
 
-    ![](.gitbook/assets/image%20%2848%29.png)
+    <figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 11.
 
-    ![](.gitbook/assets/image%20%2850%29.png)
+    <figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 12.
 
-    ![](.gitbook/assets/image%20%2854%29.png)
+    <figure><img src=".gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 13.
 
-    ![](.gitbook/assets/image%20%2851%29.png)
+    <figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 
 14.
 15.
 
-    ![](.gitbook/assets/image%20%2853%29.png)
+    <figure><img src=".gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 16.
 
-    ![](.gitbook/assets/image%20%2852%29.png)
+    <figure><img src=".gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 17.
 
-    ![](.gitbook/assets/image%20%2855%29.png)
+    <figure><img src=".gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 18.
 
-    ![](.gitbook/assets/image%20%2859%29.png)
+    <figure><img src=".gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 19.
 
-    ![](.gitbook/assets/image%20%2858%29.png)
+    <figure><img src=".gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 20.
 
-    ![](.gitbook/assets/image%20%2860%29.png)
+    <figure><img src=".gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 21.
 
-    ![](.gitbook/assets/image%20%2861%29.png)
+    <figure><img src=".gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 22.
 
-    ![](.gitbook/assets/image%20%2862%29.png)
+    <figure><img src=".gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 23.
 24. a
 25. a
@@ -170,47 +170,47 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 1. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
-![](.gitbook/assets/image%20%2869%29.png)
+<figure><img src=".gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 2. This will go to the list of workflows and agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** and hit **Return/Enter ↵**.
 
-![](.gitbook/assets/sc_zcc_agent_studio_manage.png)
+<figure><img src=".gitbook/assets/sc_zcc_agent_studio_manage.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Click on **Forecast Variance**.
 
-![](.gitbook/assets/sc_zcc_forecast_variance_agent.png)
+<figure><img src=".gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
 4. Click on <mark style="color:$success;">**a.)**</mark> **more (vertical three dots)** > <mark style="color:$success;">**b.) Duplicate**</mark>&#x20;
 
-![](.gitbook/assets/sc_mcp_forecast_variance.png)
+<figure><img src=".gitbook/assets/sc_mcp_forecast_variance.png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. You will get a prompt to confirm whether you want to duplicate the agent. Click **Duplicate**.
 
-![](.gitbook/assets/sc_mcp_duplicate_agent.png)
+<figure><img src=".gitbook/assets/sc_mcp_duplicate_agent.png" alt="" width="375"><figcaption></figcaption></figure>
 
 6. In the new Agent screen, go to the **AI agent name** and rename it to **Forecast Variance Snowflake MCP**.
 
-![](.gitbook/assets/sc_mcp_rename_agent.png)
+<figure><img src=".gitbook/assets/sc_mcp_rename_agent.png" alt="" width="563"><figcaption></figcaption></figure>
 
 7. In the section **Define the role and Required steps** under sub-section **List of steps**, go to step 2 after the paragraph which starts with **Get cost center obtained in...** then add **Also run the MCP tool "Get Details via Snowflake MCP" as a secondary check. Only return one entry (limit = 1). Columns should be \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]**. It should look like the screenshot below.
 
-![](.gitbook/assets/sc_mcp_define_agent_steps.png)
+<figure><img src=".gitbook/assets/sc_mcp_define_agent_steps.png" alt="" width="375"><figcaption></figcaption></figure>
 
 8. Click **Save and Continue**.
 
-![](.gitbook/assets/sc_mcp_save.png)
+<figure><img src=".gitbook/assets/sc_mcp_save.png" alt="" width="178"><figcaption></figcaption></figure>
 
 9. Navigate to <mark style="color:green;">**a.)**</mark> **Add tools and information** > <mark style="color:green;">**b.)**</mark> **Add tool** > <mark style="color:green;">**c.)**</mark> > **MCP server tool**.
 
-![](.gitbook/assets/sc_mcp_add_tools.png)
+<figure><img src=".gitbook/assets/sc_mcp_add_tools.png" alt="" width="563"><figcaption></figcaption></figure>
 
 10. In the pop-up that appears, <mark style="color:green;">**a.)**</mark> click on the **dropdown** > <mark style="color:green;">**b.)**</mark> select **Snowflake MCP**.
 
-![](.gitbook/assets/sc_mcp_add_server.png)
+<figure><img src=".gitbook/assets/sc_mcp_add_server.png" alt="" width="563"><figcaption></figcaption></figure>
 
 11. In the same pop-up screen, select the tool **variance-baseline-search**.
 
-![](.gitbook/assets/sc_mcp_select_tool.png)
+<figure><img src=".gitbook/assets/sc_mcp_select_tool.png" alt="" width="366"><figcaption></figcaption></figure>
 
 12. Still in the same pop-up screen provide the following details. Screenshot on how the settings should look like immediately follows. You only need to modify three settings and leave the rest as they are.
 
@@ -222,15 +222,15 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 <mark style="color:green;">**d.)**</mark>**&#x20;Save**
 
-![](.gitbook/assets/sc_mcp_tool_settings%20%281%29.png)
+<figure><img src=".gitbook/assets/sc_mcp_tool_settings (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. The pop-up will exit and you should get a section on **Model Context Protocol tools** which should look like below.
 
-![](.gitbook/assets/sc_mcp_tool_final.png)
+<figure><img src=".gitbook/assets/sc_mcp_tool_final.png" alt=""><figcaption></figcaption></figure>
 
 14. Click **Save and Continue**.
 
-![](.gitbook/assets/sc_mcp_save.png)
+<figure><img src=".gitbook/assets/sc_mcp_save.png" alt="" width="178"><figcaption></figcaption></figure>
 
 
 
@@ -246,19 +246,19 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 <mark style="color:green;">**e.)**</mark> Click **Save and Test**
 
-![](.gitbook/assets/sc_mcp_agent_display.png)
+<figure><img src=".gitbook/assets/sc_mcp_agent_display.png" alt=""><figcaption></figcaption></figure>
 
 16. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
 
-![](.gitbook/assets/sc_mcp_start_test.png)
+<figure><img src=".gitbook/assets/sc_mcp_start_test.png" alt="" width="375"><figcaption></figcaption></figure>
 
 17. The test will run for a few seconds and will show you that it is running the tool **Get Details in Snowflake MCP**. This is the additional tool you created earlier.
 
-![](.gitbook/assets/sc_mcp_test_run_1.png)
+<figure><img src=".gitbook/assets/sc_mcp_test_run_1.png" alt=""><figcaption></figcaption></figure>
 
 18. Finally, you will notice that the **Get Details in Snowflake MCP** has obtained the closest matching the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.&#x20;
 
-![](.gitbook/assets/sc_mcp_test_run_2.png)
+<figure><img src=".gitbook/assets/sc_mcp_test_run_2.png" alt=""><figcaption></figcaption></figure>
 
 19. **Challenge:** once you are done with this lab, see if you can remove the tool **Extract Cost Center** and replace it completely with the data from **Get Details via Snowflake MCP** as seen in step 7. No hints this time. 😉
 
