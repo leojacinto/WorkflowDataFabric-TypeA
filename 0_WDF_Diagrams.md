@@ -15,7 +15,7 @@ graph LR
     subgraph "External System Prerequisites"
         ERP[(ERP System<br/>Data)]
         ExpenseAPI[Expense Event<br/>API]
-        SharePoint[SharePoint<br/>Executive Memos]
+ 
         CDW[(Cloud Data<br/>Warehouse)]
     end
 
@@ -50,7 +50,6 @@ graph LR
         Employee((Employee/<br/>Finance Manager))
         EC[Employee Center or<br/>Workspace with Now Assist]
         ClaudeDesktop[Claude Desktop<br/>+ MCP]
-        ControlTower[AI Control<br/>Tower]
     end
 
     %% Styling
@@ -80,7 +79,7 @@ graph LR
             ZeroCopySQL[Zero Copy SQL<br/>Connection]
             ZeroCopyERP[Zero Copy ERP<br/>Connection]
             IntHub[Integration Hub<br/>Spoke/Flow]
-            ExtContent[External Content<br/>Connector]
+
         end
 
         subgraph "Zero Copy Tables - Read Only"
@@ -105,10 +104,6 @@ graph LR
             MCPC[MCP Client]
         end
 
-        subgraph "AI Experiences"
-            Lens["ServiceNow</br>Lens"]
-            DocIntel["Document</br>Intelligence"]
-        end
     end
 
     %% Styling
@@ -142,7 +137,7 @@ These are pointers to the respective tables coming from either the Cloud Data Wa
 
 * **Cost Center**: master data taken from the ERP system, known as CSKS from SAP but can also be obtained with through BAPI or OData endpoints. Master data does not change frequently in ERP systems so either persistence or zero copy approaches are viable for ServiceNow use cases.
 * **Cost Center History**: monthly data taken from the Cloud Data Warehouse with information whether cost centers have historically gone over/under budget or on target. ERP systems normally do not store this type of history or aggregation and is hence stored in a business or data warehouse.
-* **Cost Center Summary**: aggregated Cost Center History data for the year stored in the Cloud Data Warehouse for reporting purposes.&#x20;
+* **Cost Center Summary**: aggregated Cost Center History data for the year stored in the Cloud Data Warehouse for reporting purposes.
 * **Expense History**: this can come from an expense management system, ERP system, or Cloud Data Warehouse. For this lab, we are obtaining this from the Cloud Data Warehouse.
 
 #### ServiceNow Native Tables
@@ -176,8 +171,6 @@ You can skip the review of the diagram below if you prefer, and head straight in
 * [Lab Exercise: Fundamentals](1_Fundamentals.md)
 * [Lab Exercise: Integration Hub](2_Integration_Hub.md)
 * [Lab Exercise: Zero Copy Connectors](3_Zero_Copy.md)
-* [Lab Exercise: External Content Connector](4_External_Content_Connector.md)
-* [Lab Exercise: ServiceNow Lens and Document Intelligence](5_Lens_and_DocIntel.md)
 * [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](6_MCP_and_AI_Control_Tower.md)
 
 ```mermaid fullWidth="true"
@@ -239,9 +232,6 @@ graph LR
     ZeroCopySQL --> ZCExp
     ExpenseAPI -->|Real-time Events| IntHub
     IntHub -->|Write| ExpenseTable
-    EC -->|Individual UI-based| Lens -->|Write| ExpenseTable
-    EC -->|Individual UI-based| DocIntel -->|Write| ExpenseTable
-    SharePoint -->|Executive Guidance| ExtContent
 
     %% Agent 1 Workflow - Zero Copy Source
     ZCCC -->|Query Over-Budget| Agent1
@@ -269,7 +259,6 @@ graph LR
     %% User Interaction Connections
     Employee -->|Ask Questions<br/>View/Update Cases| EC
     EC -->|Search & Query| FinCase
-    EC -->|Natural Language| ExtContent
     Employee -->|Analytics| ClaudeDesktop
 
     %% Styling
