@@ -1,6 +1,6 @@
 # Workflow Data Fabric Lab: Financial Intelligence at Scale
 
-<figure><img src=".gitbook/assets/sc_persona_wdf.png" alt="" width="563"><figcaption></figcaption></figure>
+![](.gitbook/assets/sc_persona_wdf.png)
 
 ## Business motivation
 
