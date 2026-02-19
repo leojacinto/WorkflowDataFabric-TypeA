@@ -84,21 +84,21 @@ graph LR
     1. User: **aislab.admin**
     2. Password: **aislab.admin**
 
-    ![](<.gitbook/assets/image (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
 
-    ![](<.gitbook/assets/image (1) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (1) (1) (1).png" alt="" width="337"><figcaption></figcaption></figure>
 4.  Click on Repair Machine Learning Settings.
 
-    ![](<.gitbook/assets/image (2) (1).png>)
+    <figure><img src=".gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 5.  You will get a message that the machine learning settings are being reset.&#x20;
 
-    ![](<.gitbook/assets/image (3) (1).png>)
+    <figure><img src=".gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 6.  After a 2-3 minutes, you will get a notification that the machine learning settings are reset. This will do indexing of tables in the background which will be needed for the search functionality to be used by the AI Agents later.
 
-    ![](<.gitbook/assets/image (5) (1).png>)
+    <figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="279"><figcaption></figcaption></figure>
 7. Exit your aislab.admin session and go back to your main session where you have logged in as **admin** user with the password provided to you.
 
 ### Platform Configuration
@@ -106,61 +106,61 @@ graph LR
 1. Back as **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).&#x20;
 2.  Ensure you are in the correct scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials.&#x20;
 
-    ![](<.gitbook/assets/sc_fund_exercise_scope.png>)
+    <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
 
-    ![](<.gitbook/assets/image (2) (1) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4.  Search for <mark style="color:green;">**a.)**</mark>  **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.&#x20;
 
-    ![](<.gitbook/assets/image (10) (1).png>)
+    <figure><img src=".gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 5.  In the **Roles** tab, click **Edit**.
 
-    ![](<.gitbook/assets/image (3) (1) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 6.  Search for <mark style="color:green;">**a.)**</mark>  **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**.&#x20;
 
-    ![](<.gitbook/assets/image (4) (1) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 7.  You will get <mark style="color:green;">**a.)**</mark>  messages such as **Adding Role agent\_role\_config\_viewer to admin**, there will be 4 of such messages > <mark style="color:green;">**b.)**</mark> right-click on the top panel and click **Save**.
 
-    ![](<.gitbook/assets/image (5) (1) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 8.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in.
 
-    ![](<.gitbook/assets/image (2) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="" width="254"><figcaption></figcaption></figure>
 9.  Once logged back in navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Assistant Designer** then <mark style="color:green;">**b.)**</mark> click **Conversational Interfaces > Assistant Designer**. This will open a new tab.
 
-    ![](<.gitbook/assets/image (3) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="" width="337"><figcaption></figcaption></figure>
 10. Go to **Now Assist Panel - Platform (default)** > **Edit**.
 
-    ![](<.gitbook/assets/image (4) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (4) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 11. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
-    ![](<.gitbook/assets/image (5) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 12. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Unified Navigation app shell** is selected. If it is not added, you may need to select it from **Add ServiceNow platform** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
 
-    ![](<.gitbook/assets/image (6) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 13. Click on the **Assistant Designer** logo at the top left. You may need to refresh your page to make sure it has picked up the latest status of **Now Assist Panel - Platform (default)**.
 
-    ![](<.gitbook/assets/image (7) (1).png>)
+    <figure><img src=".gitbook/assets/image (7) (1).png" alt="" width="240"><figcaption></figcaption></figure>
 14. Go to **Now Assist in Virtual Agent (default)** > **Edit**. Note that this is another configuration tile!&#x20;
 
-    ![](<.gitbook/assets/image (8) (1).png>)
+    <figure><img src=".gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 15. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
-    ![](<.gitbook/assets/image (5) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 16. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Employee Center** is selected. If it is not added, you may need to select it from **Add portal** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
 
-![](<.gitbook/assets/image (9) (1).png>)
+<figure><img src=".gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Action configuration
 
@@ -168,30 +168,30 @@ The scoped **Action** is a key feature for the trigger that obtains expense data
 
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Connection & Credential Aliases** then <mark style="color:green;">**b.)**</mark> click **Connections & Credentials > Connection & Credential Aliases**.&#x20;
 
-    ![](<.gitbook/assets/image (63).png>)
+    <figure><img src=".gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 2.  Search for <mark style="color:green;">**a.)**</mark>**&#x20;Get Expense Even**t then <mark style="color:green;">**b.)**</mark> click on **Get Expense Event**.&#x20;
 
-    ![](<.gitbook/assets/image (64).png>)
+    <figure><img src=".gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 3.  In the next screen, navigate to **Connections** > **New**.
 
-    ![](<.gitbook/assets/image (65).png>)
+    <figure><img src=".gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 4.  Provide <mark style="color:green;">**a.)**</mark> **Name** as **Get Expense Event**, <mark style="color:green;">**b.)**</mark>**&#x20;Connection URL** as [**https://expense-event.free.beeceptor.com**](https://expense-event.free.beeceptor.com) then <mark style="color:green;">**c.)**</mark> click **Submit**.
 
-    ![](<.gitbook/assets/image (66).png>)
+    <figure><img src=".gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 5.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **ServiceNow Studio** then <mark style="color:green;">**b.)**</mark> click **App Engine > ServiceNow Studio**. This will open a new tab.
 
-    ![](<.gitbook/assets/image (67).png>)
+    <figure><img src=".gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 6. In the **ServiceNow Studio** tab that pops up under **Apps**, <mark style="color:green;">**a.)**</mark> type Forecast Variance and <mark style="color:green;">**b.)**</mark> click on **Forecast Variance**. Note that you may need to search for a different a App name if you used a different label for your scope.
 
-![](<.gitbook/assets/sc_ihub_studio_forecast_variance.png>)
+<figure><img src=".gitbook/assets/sc_ihub_studio_forecast_variance.png" alt="" width="334"><figcaption></figcaption></figure>
 
 3. In this current version of the lab, we will just walk you through the components. A more detailed exercise of building a scoped Action will be provided in the next updates. <mark style="color:green;">**a.)**</mark> **Go to Automation** > **Actions** > **Get Expense Event**. It will open the Action and from there <mark style="color:green;">**b.)**</mark> **click on Get Expense Event**. The <mark style="color:green;">**c.)**</mark> **Base URL** here is coming from a dummy service that creates the expense event and the <mark style="color:green;">**d.)**</mark> **Imported Specifications** are also generated from the same dummy Service. No further action is needed in this section.
 
-![](<.gitbook/assets/sc_ihub_studio_action_1.png>)
+<figure><img src=".gitbook/assets/sc_ihub_studio_action_1.png" alt=""><figcaption></figcaption></figure>
 
 4. Got to <mark style="color:green;">**a.)**</mark> Outputs where <mark style="color:green;">**b.)**</mark> output is automatically generated based on the Imported Specifications. As mentioned in the previous step
 
-![](<.gitbook/assets/sc_ihub_studio_action_2.png>)
+<figure><img src=".gitbook/assets/sc_ihub_studio_action_2.png" alt=""><figcaption></figcaption></figure>
 
 5. You now have familiarity of the **Action** used by the **Subflow** needed to trigger the **AI Agent**, which is described in the next section.
 
@@ -201,81 +201,81 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 1.  Go to **All** > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**. Ensure that it is empty.
 
-    ![](<.gitbook/assets/image (68).png>)
+    <figure><img src=".gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 2. This list **SHOULD** be **EMPTY** for the AI Agent to work. If it is **NOT** empty, <mark style="color:green;">**a.)**</mark> click on all the items by clicking the **top-rightmost check box** > <mark style="color:green;">**b.)**</mark> click **Action on selected rows...** > <mark style="color:green;">**c.)**</mark> click **Delete** > <mark style="color:green;">**d.)**</mark> click **Delete** again. The flow does not have robust exception handling for this lab so this manual step is required to ensure that the scripts will run properly.
 
-![](<.gitbook/assets/sc_ihub_expense_event_delete.png>)
+<figure><img src=".gitbook/assets/sc_ihub_expense_event_delete.png" alt=""><figcaption></figcaption></figure>
 
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
-    ![](<.gitbook/assets/image (69).png>)
+    <figure><img src=".gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 4. This will go to the list of workflows and agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** **Integration Hub Trigger** and hit **Return/Enter ↵**.
 
-![](<.gitbook/assets/sc_ihub_agent_studio_manage.png>)
+<figure><img src=".gitbook/assets/sc_ihub_agent_studio_manage.png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. Click on **Forecast Variance Integration Hub Trigger**.
 
-![](<.gitbook/assets/sc_ihub_forecast_variance_agent.png>)
+<figure><img src=".gitbook/assets/sc_ihub_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
 6.  Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
 
-    ![](<.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 7.  Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**. No further action is required in this section but feel free to explore the configurations of each of the tools.
 
-    ![](<.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 8.  Under **Define security controls** > <mark style="color:green;">**a.)**</mark> click **Define data access** > <mark style="color:green;">**b.)**</mark> select **Dynamic user** from the drop down then > <mark style="color:green;">**c.)**</mark> add **admin** user as the approved role. For this exercise we are using permissive authorisations but this is where you can tighten authorisations for your agents allowing mechanisms such as inheriting the authorisations of logged in user (Dynamic identity type) or a predefined set of access (AI User identity type).
 
-    ![](<.gitbook/assets/image (1) (1) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 9.  Next, click on **Define trigger**, which is a key part of this exercise. Click on **Create New Expense Transaction Event** to get a view of how the trigger is configured. You do not have to change anything in this page.
 
-    ![](<.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 10. Notice the details such as the **Select trigger** > **Created** and **Table** > **Expense Transaction Event**. These are set so the AI Agent will be triggered as soon as entries are created in the **Expense Transaction Event** which gets expense data from an external source via REST API.
 
-![](<.gitbook/assets/sc_ihub_trigger_1.png>)
+<figure><img src=".gitbook/assets/sc_ihub_trigger_1.png" alt="" width="563"><figcaption></figcaption></figure>
 
 11. Also notice the configuration for **Conditions** which allows further qualificiation of when the trigger will be activate. The M**ethod for defining sys user** and **Sys\_user** fields are also critical to ensure correct levels of authorizations are used in the trigger.
 
-![](<.gitbook/assets/sc_ihub_trigger_2.png>)
+<figure><img src=".gitbook/assets/sc_ihub_trigger_2.png" alt="" width="563"><figcaption></figcaption></figure>
 
 12. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Make sure your configuration is set as below. <mark style="color:green;">**Keep this browser window open! You will need again it later**</mark>.
 
-    ![](<.gitbook/assets/image (6) (1).png>)
+    <figure><img src=".gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Runtime of Flow, Actions, and AI Agents
 
 1.  In a **new browser window**, go to All > <mark style="color:green;">**a.)**</mark> type **Flow Designer** and go to <mark style="color:green;">**b.)**</mark> **Process Automation** > **Flow Designer**. This will open the app in a new tab.
 
-    ![](<.gitbook/assets/image (72).png>)
+    <figure><img src=".gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 2. In the new **Flow Designer** tab that just opened, <mark style="color:green;">**a.)**</mark> click **Subflows** > <mark style="color:green;">**b.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type Get Expense Event then <mark style="color:green;">**d.)**</mark> click **Apply**.
 
-![](<.gitbook/assets/sc_ihub_flow_search.png>)
+<figure><img src=".gitbook/assets/sc_ihub_flow_search.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. This will lead to the subflow below. This is not a Flow designer lab so we will not cover the build of this in detail. The key thing to note is that it makes use of the **Action** also called **Get Expense Event** to update the **Transaction Event Record** table which is critical for our automation.
 
-![](<.gitbook/assets/sc_ihub_get_expense_event.png>)
+<figure><img src=".gitbook/assets/sc_ihub_get_expense_event.png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. On the top right corner of the same Subflow screen, click **Test**.
 
-![](<.gitbook/assets/sc_ihub_test_flow.png>)
+<figure><img src=".gitbook/assets/sc_ihub_test_flow.png" alt="" width="355"><figcaption></figcaption></figure>
 
 5. A pop-up will appear. Click **Run Test**.
 
-![](<.gitbook/assets/sc_ihub_test_run.png>)
+<figure><img src=".gitbook/assets/sc_ihub_test_run.png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. After a few seconds, a link which states **Your test has finished running. View the subflow execution details.** - click on it.
 
-![](<.gitbook/assets/sc_ihub_test_link.png>)
+<figure><img src=".gitbook/assets/sc_ihub_test_link.png" alt="" width="563"><figcaption></figcaption></figure>
 
 7. If everything is working as expected, all the steps would be either <mark style="color:green;">**Completed**</mark> or <mark style="color:green;">**Evaluated - True**</mark>.
 
-![](<.gitbook/assets/sc_ihub_test_results.png>)
+<figure><img src=".gitbook/assets/sc_ihub_test_results.png" alt=""><figcaption></figcaption></figure>
 
 8.  Go back to the earlier browser window with **AI Agent Studio**. You will notice that there is a new **Now Assist badge**. This is the AI Agent at work in the back end because the **Get Expense Event** subflow has triggered a change in the **Expense Transaction Event** table. Click on the **Now Assist icon** with the updated badge count.
 
-    ![](<.gitbook/assets/image (32).png>)
+    <figure><img src=".gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 9.  This will open the **Now Assist** chat. Click on the two-headed diagonal arrow to Enter **Modal**.&#x20;
 
-    ![](<.gitbook/assets/image (33).png>)
+    <figure><img src=".gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 10. Here is an overview of the steps that were executed.
 
 <mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** show tools used.
@@ -290,17 +290,17 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <mark style="color:green;">**f.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed. In this case it is FINC0010020.
 
-![](<.gitbook/assets/image (34).png>)
+<figure><img src=".gitbook/assets/image (34).png" alt="" width="516"><figcaption></figcaption></figure>
 
 12. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
-    ![](<.gitbook/assets/image (35).png>)
+    <figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 13. For this exercise, we are not impersonating a persona so you remain as the System user.
 
-    ![](<.gitbook/assets/image (36).png>)
+    <figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 14. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case  created by the AI Agent, FINC0010020 in the example above.
 
-![](<.gitbook/assets/image (37).png>)
+<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusion
 
