@@ -128,7 +128,7 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 
 <figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-8. Ctrl  / ⌘ + Click on the **i-icon** in the screen that follows to open a new window.
+8. Ctrl  / ⌘ + Click on the **i-icon** in the screen that follows to open a new window. <mark style="color:green;">**You will need to come back to this window later!**</mark>
 
 <figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
@@ -153,23 +153,22 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 <figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 14.
-15.
 
 <figure><img src=".gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
-16\.
+15. Do the same steps you have done for **sesion:role:MCP\_SERVICE\_ROLE** but this time for the value **refresh\_token**. Put the value **refresh\_token** for **Name** and **OAuth scope**.
 
 <figure><img src=".gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-17\.
+16. For OAuth provider, simply get your **Recent selections** item which has the **AutoGen-Snowflake MCP Lab** prefix.
 
 <figure><img src=".gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
-18\.
+17. You will see the **sesion:role:MCP\_SERVICE\_ROLE** and **refresh\_token** entries stored. Right click on the header and click **Save**.
 
 <figure><img src=".gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
-19\.
+19. Go back to your tab which has the **OAuth 2.0 Credentials** open and click **Get OAuth Token**.
 
 <figure><img src=".gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
@@ -181,7 +180,7 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 
 <figure><img src=".gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-22\.
+22. Your will have a refreshed OAuth token that will last for 1 hour before it expires. You can now connect to the Snowflake cloud data warehouse via MCP and call MCP tools using ServiceNow's AI Agents.
 
 <figure><img src=".gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
@@ -205,85 +204,71 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 <figure><img src=".gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
-4. Click on <mark style="color:$success;">**a.)**</mark> **more (vertical three dots)** > <mark style="color:$success;">**b.) Duplicate**</mark>
+4.  Click on <mark style="color:$success;">**a.)**</mark> **more (vertical three dots)** > <mark style="color:$success;">**b.) Duplicate**</mark>
 
-<figure><img src=".gitbook/assets/sc_mcp_forecast_variance.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+5.  You will get a prompt to confirm whether you want to duplicate the agent. Click **Duplicate**.
 
-5. You will get a prompt to confirm whether you want to duplicate the agent. Click **Duplicate**.
+    <figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+6.  In the new Agent screen, go to the **AI agent name** and rename it to **Forecast Variance Snowflake MCP**.
 
-<figure><img src=".gitbook/assets/sc_mcp_duplicate_agent.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+7.  In the section **Define the role and Required steps** under sub-section **List of steps**, go to step 2 after the paragraph which starts with **Get cost center obtained in...** then add **Also run the MCP tool "Get Details via Snowflake MCP" as a secondary check. Only return one entry (limit = 1). Columns should be \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]**. It should look like the screenshot below.
 
-6. In the new Agent screen, go to the **AI agent name** and rename it to **Forecast Variance Snowflake MCP**.
+    <figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+8.  Click **Save and Continue**.
 
-<figure><img src=".gitbook/assets/sc_mcp_rename_agent.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+9.  Navigate to <mark style="color:green;">**a.)**</mark> **Add tools and information** > <mark style="color:green;">**b.)**</mark> **Add tool** > <mark style="color:green;">**c.)**</mark> > **MCP server tool**.
 
-7. In the section **Define the role and Required steps** under sub-section **List of steps**, go to step 2 after the paragraph which starts with **Get cost center obtained in...** then add **Also run the MCP tool "Get Details via Snowflake MCP" as a secondary check. Only return one entry (limit = 1). Columns should be \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]**. It should look like the screenshot below.
-
-<figure><img src=".gitbook/assets/sc_mcp_define_agent_steps.png" alt="" width="375"><figcaption></figcaption></figure>
-
-8. Click **Save and Continue**.
-
-<figure><img src=".gitbook/assets/sc_mcp_save.png" alt="" width="178"><figcaption></figcaption></figure>
-
-9. Navigate to <mark style="color:green;">**a.)**</mark> **Add tools and information** > <mark style="color:green;">**b.)**</mark> **Add tool** > <mark style="color:green;">**c.)**</mark> > **MCP server tool**.
-
-<figure><img src=".gitbook/assets/sc_mcp_add_tools.png" alt="" width="563"><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 10. In the pop-up that appears, <mark style="color:green;">**a.)**</mark> click on the **dropdown** > <mark style="color:green;">**b.)**</mark> select **Snowflake MCP**.
 
-<figure><img src=".gitbook/assets/sc_mcp_add_server.png" alt="" width="563"><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 11. In the same pop-up screen, select the tool **variance-baseline-search**.
 
-<figure><img src=".gitbook/assets/sc_mcp_select_tool.png" alt="" width="366"><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (74).png" alt="" width="375"><figcaption></figcaption></figure>
 12. Still in the same pop-up screen provide the following details. Screenshot on how the settings should look like immediately follows. You only need to modify three settings and leave the rest as they are.
 
 <mark style="color:green;">**a.)**</mark> **Name**: **Get Details in Snowflake MCP**
 
-<mark style="color:green;">**b.)**</mark> **Tool description**: **query: Get the details via Snowflake MCP using the cost center taken from "Extract Cost Center" step columns: \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"] limit: 1**
+<mark style="color:green;">**b.)**</mark> **Tool description**:&#x20;
+
+* query: Get the details via Snowflake MCP using the cost center taken from "Extract Cost Center" step (e.g. "CC\_IT\_001")
+* columns: \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]
+* limit: 1
 
 <mark style="color:green;">**c.)**</mark> **Execution mode**: **Autonomous**
 
 <mark style="color:green;">**d.)**</mark>**&#x20;Save**
 
-<figure><img src=".gitbook/assets/sc_mcp_tool_settings (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (82).png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. The pop-up will exit and you should get a section on **Model Context Protocol tools** which should look like below.
 
-<figure><img src=".gitbook/assets/sc_mcp_tool_final.png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 14. Click **Save and Continue**.
 
-<figure><img src=".gitbook/assets/sc_mcp_save.png" alt="" width="178"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+15. Since this is copied from an existing AI Agent configuration, simply accept the default values for **Define security controls** and its 2 sub-items. Also keep A**dd triggers value** blank.
 
-15. Configure the availability of the AI Agent as this setting might have been reset when it was copied from the original **Forecast Variance AI Agent**. Follow the steps below and refer to the screenshot that immediately follows.
+    <figure><img src=".gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+16. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**.
 
-<mark style="color:green;">**a.)**</mark> Go to **Toggle display**
+    <figure><img src=".gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+17. You **MIGHT**  be alerted of potential duplicates but this is due to the multiple AI Agents created to test various integration scenarios. Click **Ignore and continue**.
 
-<mark style="color:green;">**b.)**</mark> Toggle Status to **On**
+    <figure><img src=".gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+18. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
 
-<mark style="color:green;">**c.)**</mark> Toggle **Now Assist panel** to **On**
+    <figure><img src=".gitbook/assets/image (81).png" alt="" width="478"><figcaption></figcaption></figure>
+19. The test will run for a few seconds and will show you that it is running the tool **Get Details in Snowflake MCP**. This is the additional tool you created earlier.
 
-<mark style="color:green;">**d.)**</mark> Toggle **Virtual Agent** to **On** and select **Now Asssit in Virtual Agent (default)**
+    <figure><img src=".gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+20. Finally, you will notice that the **Get Details in Snowflake MCP** has obtained the closest matching the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.
 
-<mark style="color:green;">**e.)**</mark> Click **Save and Test**
-
-<figure><img src=".gitbook/assets/sc_mcp_agent_display.png" alt=""><figcaption></figcaption></figure>
-
-16. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Start test**.
-
-<figure><img src=".gitbook/assets/sc_mcp_start_test.png" alt="" width="375"><figcaption></figcaption></figure>
-
-17. The test will run for a few seconds and will show you that it is running the tool **Get Details in Snowflake MCP**. This is the additional tool you created earlier.
-
-<figure><img src=".gitbook/assets/sc_mcp_test_run_1.png" alt=""><figcaption></figcaption></figure>
-
-18. Finally, you will notice that the **Get Details in Snowflake MCP** has obtained the closest matching the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.
-
-<figure><img src=".gitbook/assets/sc_mcp_test_run_2.png" alt=""><figcaption></figcaption></figure>
-
-19. **Challenge:** once you are done with this lab, see if you can remove the tool **Extract Cost Center** and replace it completely with the data from **Get Details via Snowflake MCP** as seen in step 7. No hints this time. 😉
+    <figure><img src=".gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+21. **Challenge:** once you are done with this lab, see if you can remove the tool **Extract Cost Center** and replace it completely with the data from **Get Details via Snowflake MCP** as seen in step 7. No hints this time. 😉
 
 ## Conclusion
 
