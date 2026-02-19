@@ -43,7 +43,7 @@ This lab is divided into 6 exercises with the suggested sequence below. The Serv
 
 ## A note from the author and some disclaimers
 
-This lab demonstrates end-to-end integration scenarios that require both ServiceNow platform capabilities and external system connectivity.&#x20;
+This lab demonstrates end-to-end integration scenarios that require both ServiceNow platform capabilities and external system connectivity.
 
 ### ServiceNow dependencies
 
@@ -58,8 +58,6 @@ Before attempting these exercises, ensure you have access and license entitlemen
 | Now Assist Skill Kit                              | 6.0.7                                        |
 | MCP Server                                        | 1.0.0                                        |
 | MCP Client                                        | 1.0.7                                        |
-| Lens                                              | 2.0.0                                        |
-| Document Intelligence                             | 7.1.5                                        |
 | AI Control Tower                                  | 1.0.1                                        |
 
 ### External system dependencies

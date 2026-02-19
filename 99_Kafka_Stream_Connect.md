@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Bonus Exercise: Stream Connect for Apache Kafka Lab
 
 [Take me back to main page](./)
@@ -51,17 +55,13 @@ This will reduce effort in building the Kafka Producer:
 
 1. Get a Docker account which can be created for free via https://www.docker.com/
 2. Install Docker Desktop via https://docs.docker.com/desktop/
-3.  Open Docker, search for apache/kafka latest image by using the **Search** bar then click **Pull**&#x20;
+3.  Open Docker, search for apache/kafka latest image by using the **Search** bar then click **Pull**
 
     <figure><img src=".gitbook/assets/sc_docker_pull.png" alt=""><figcaption></figcaption></figure>
 4.  Go to **Images**, **Run** the Docker Image, accept defaults
 
-
-
     <figure><img src=".gitbook/assets/sc_docker_run.png" alt=""><figcaption></figcaption></figure>
 5.  Go to Containers and see the newly created container with a randomized name; in the example below, it is vigilant\_bartik and agitated\_ardinghelli
-
-
 
     <figure><img src=".gitbook/assets/sc_docker_image.png" alt=""><figcaption></figcaption></figure>
 6. This will be the image you will use for **Part 5: Sending messages from Kafka Producer**. Alternatively you can execute all of the steps in **Part 4: Setting up a Kafka Producer** in your local machine by setting up Apache Kafka in your local machine
@@ -91,12 +91,8 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * e. Put in **Path for each row** the characters **//**
 *   f. Tick **Data in single column**
 
-
-
     <figure><img src=".gitbook/assets/sc_data_source_create.png" alt="" width="554"><figcaption></figcaption></figure>
 *   g. Right click on the header and click **Save**
-
-
 
     <figure><img src=".gitbook/assets/sc_data_source_save.png" alt=""><figcaption></figcaption></figure>
 
@@ -135,18 +131,12 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * a. Select the clip icon
 *   b. Click **Choose file** and upload the file from your machine
 
-
-
     <figure><img src=".gitbook/assets/sc_data_source_json.png" alt="" width="512"><figcaption></figcaption></figure>
 
 6.  Right click on the header and click **Save**
 
-
-
     <figure><img src=".gitbook/assets/sc_data_source_save.png" alt=""><figcaption></figcaption></figure>
 7.  Under Related Links click on **Test Load 20 Records**
-
-
 
     <figure><img src=".gitbook/assets/sc_data_source_test_load.png" alt=""><figcaption></figcaption></figure>
 
@@ -156,15 +146,11 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 1.  Go to **All** > search for **IntegrationHub ETL**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub.png" alt="" width="296"><figcaption></figcaption></figure>
 2.  In IntegrationHub ETL home screen, click **Create new**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_create.png" alt="" width="255"><figcaption></figcaption></figure>
-3.  Under **Specify Basic Details**, click on \*\*Import Source Data and Provide Basic Details \*\*&#x20;
+3.  Under **Specify Basic Details**, click on \*\*Import Source Data and Provide Basic Details \*\*
 
     <figure><img src=".gitbook/assets/sc_ihub_specify_basic.png" alt="" width="347"><figcaption></figcaption></figure>
 4. Fill in the screen **Provide Basic Information for the ETL Transform Map**
@@ -176,35 +162,25 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * e. **Preview Size Override**, set to **100**
 *   f. Click **Save** then **Mark as Complete**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_provide_basic.png" alt="" width="563"><figcaption></figcaption></figure>
 
 5.  **Under Prepare Source Data for Mapping**, click on **Preview and Prepare Data**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_prepare.png" alt="" width="563"><figcaption></figcaption></figure>
 6. Fill in the screen **Provide Basic Information for the ETL Transform Map**
 
-*   a. Verify that when clicking on object in the first node of the tree on the left that the fields are similar to the screen here. Sequence is not important.&#x20;
+*   a. Verify that when clicking on object in the first node of the tree on the left that the fields are similar to the screen here. Sequence is not important.
 
     <figure><img src=".gitbook/assets/sc_ihub_preview_object.png" alt=""><figcaption></figcaption></figure>
 * b. Verify that when click on in data in the third node on the tree to the left that the fields are similar to the screen here. This is a wide table so checking the first few fields is sufficient. Sequence is not important.
 *   c. Click **Mark as Complete**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_preview_data.png" alt=""><figcaption></figcaption></figure>
 
 7.  Under **Map to CMDB and Add Relationships**, click **Select CMDB Classes to Map Source Data**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_map_data_select.png" alt="" width="563"><figcaption></figcaption></figure>
 8.  Click in **Add Conditional Class**
-
-
 
     <figure><img src=".gitbook/assets/sc_ihub_select_class.png" alt="" width="254"><figcaption></figcaption></figure>
 9. A new dialog will pop-up
@@ -217,38 +193,26 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * f. Under **Then** **Class** field, select **Windows Server**
 *   g. Click **Save**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_add_class.png" alt=""><figcaption></figcaption></figure>
 
 10. **Set up Mapping** for Linux Server 1
-
-
 
     <figure><img src=".gitbook/assets/sc_ihub_select_linux_mapping.png" alt="" width="563"><figcaption></figcaption></figure>
 11. Fill up the details for Linux Server 1
 
 *   a. **Source Native Key** > **Source Column**, click on mapping button, type and select **hostname**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_linux_host.png" alt="" width="563"><figcaption></figcaption></figure>
 *   b. **Name** > **Source Column**, click on mapping button, type **data.name**, click on **data** then click on **name**
-
-
 
     <figure><img src=".gitbook/assets/sc_ihub_linux_name.png" alt=""><figcaption></figcaption></figure>
 * c. Using the same approach from the PREVIOUS screenshot, go to **Product instance identifier** > **Source Column**, click on mapping button, type **data.name**, click on **data** then click on **name**
 * d. Using the same approach from the PREVIOUS screenshot, go to **Serial number** > **Source Column**, click on mapping button, type **data.site\_code**, click on data then click on **site\_code**
 *   e. The final output should be similar to below. Click back
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_linux_final.png" alt="" width="530"><figcaption></figcaption></figure>
 
 12. **Set up Mapping** for Windows Server 1
-
-
 
     <figure><img src=".gitbook/assets/sc_ihub_select_windows_mapping.png" alt="" width="563"><figcaption></figcaption></figure>
 13. Do similar steps done for Linux Server 1 for Windows Server 1
@@ -259,8 +223,6 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 * d. **Serial number** > **Source Column**, click on mapping button, type **data.site\_code**, click on **data** then click on **site\_code**
 *   e. The final output should be similar to below. Click back
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_windows_final.png" alt="" width="557"><figcaption></figcaption></figure>
 
 14. Click **Mark as Complete** to finish Select CMDB Classes to Map Source Data
@@ -269,15 +231,11 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 15. Under **Map to CMDB and Add Relationships**, click **Add Relationships**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_map_data_add.png" alt="" width="563"><figcaption></figcaption></figure>
 16. Click **Add Relationships**
 
 * a. Leave this blank; this is just to show the option to add Class Relationships if needed
 *   b. Click back
-
-
 
     <figure><img src=".gitbook/assets/sc_ihub_map_data_add_complete.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -289,21 +247,15 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 *   a. Click **Run Integration**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_run_integration.png" alt="" width="563"><figcaption></figcaption></figure>
 *   b. The results should be similar to below
-
-
 
     <figure><img src=".gitbook/assets/sc_ihub_integration_result.png" alt="" width="563"><figcaption></figcaption></figure>
 *   c. Click back then click **Perform Rollback**
 
-
-
     <figure><img src=".gitbook/assets/sc_ihub_rollback_integration.png" alt="" width="541"><figcaption></figcaption></figure>
 
-14. Set up of ETL Transform Map is complete, click back&#x20;
+14. Set up of ETL Transform Map is complete, click back
 
     <figure><img src=".gitbook/assets/sc_ihub_complete.png" alt="" width="328"><figcaption></figcaption></figure>
 
