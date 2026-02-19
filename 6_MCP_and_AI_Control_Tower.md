@@ -65,7 +65,7 @@ graph LR
 
 ### MCP Server Preparations (Lab Admin only!)
 
-1. Run the following in Snowflake for each server with the appropriate integration name. These can be done in advance as the server names will be&#x20;
+1. Run the following in Snowflake for each server with the appropriate integration name. These can be done in advance as the server names will be
 
 ```sql
 CREATE SECURITY INTEGRATION SN_MCP_0001
@@ -86,70 +86,110 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 
 ### MCP Client Preparations
 
-1.a 
+1. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Settings**.
+
 <figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
-2.
+
+2. In the **Settings** page > <mark style="color:green;">**a.)**</mark> go to **Manage MCP Servers** > <mark style="color:green;">**b.)**</mark> click on **New**.
+
 <figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
-3.
-<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+3.  Enter the name as <mark style="color:green;">**a.)**</mark> **Snowflake MCP Lab** with <mark style="color:green;">**b.)**</mark> Authentication type OAuth 2.1 and with <mark style="color:green;">**c.)**</mark> the URL [**https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance\_mcp\_server**](https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance_mcp_server). Then <mark style="color:green;">**d.)**</mark> click **Next**.&#x20;
 
+    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+4. The following screen has more inputs required.
 
-4.
+<mark style="color:green;">**a.)**</mark> For **Client registration type** select **Manual Registration**&#x20;
+
+<mark style="color:green;">**b.)**</mark> For **Grant type** select **Authorization Code**&#x20;
+
+<mark style="color:green;">**c.)**</mark> For **Token authentication method** select **Client Secret Basic**
+
+<mark style="color:green;">**d.)**</mark> **Client ID** will be provided to you by your **Lab Admin**&#x20;
+
+<mark style="color:green;">**e.)**</mark> **Client Secret** will be provided to you by your **Lab Admin**
+
+<mark style="color:green;">**f.)**</mark> For **Authorization URL**, type [**https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/authorize**](https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/authorize)
+
+<mark style="color:green;">**g.)**</mark> For **Token URL**, type [**https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request**](https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request)&#x20;
+
+<mark style="color:green;">**h.)**</mark> Click **Add**
 
 <figure><img src=".gitbook/assets/image (40).png" alt="" width="563"><figcaption></figcaption></figure>
 
-5.
-<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
-6.
-<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
-7.
-<figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
-8.
-<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
-9.
-<figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
-10.
-<figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
-11.
-<figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
-12.
-<figure><img src=".gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
-13.
-<figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+5.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Connection & Credential Aliases** then <mark style="color:green;">**b.)**</mark> click **Connections & Credentials > Connection & Credential Aliases**.
 
+    <figure><img src=".gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+6. Search for an entry with the prefix **AutoGen-Snowflake MCP Lab**. Take not of the Lab! There might be an entry with a similar prefix.
+
+<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+
+7. You can configure the alias by going through the link under the <mark style="color:green;">**a.)**</mark>**&#x20;Name** field or <mark style="color:green;">**b.)**</mark> Credential field. The succeeding screens are through the **Credential** field so click <mark style="color:green;">**b.)**</mark>.
+
+<figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+
+8. Ctrl  / ⌘ + Click on the **i-icon** in the screen that follows to open a new window.
+
+<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+
+9\.
+
+<figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+
+10\.
+
+<figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+
+11\.
+
+<figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+
+12\.
+
+<figure><img src=".gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+
+13\.
+
+<figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 14.
 15.
+
 <figure><img src=".gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
-16.
+
+16\.
+
 <figure><img src=".gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
-17.
+
+17\.
 
 <figure><img src=".gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
-18.
+
+18\.
 
 <figure><img src=".gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
-19.
+
+19\.
 
 <figure><img src=".gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
-20.
+
+20. Your Lab Admin will provide the <mark style="color:green;">**a.)**</mark>**&#x20;Username** and <mark style="color:green;">**b.)**</mark>**&#x20;Password** and once entered  <mark style="color:green;">**c.)**</mark> click **Sign in**.
 
 <figure><img src=".gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
-21.
+
+21. Click **Allow**.
 
 <figure><img src=".gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
-22.
+
+22\.
 
 <figure><img src=".gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
-23.
-24. a
-25. a
-26. a
+
+23\. 24. a 25. a 26. a
 
 ### Connecting to an MCP Server (Snowflake)
 
-This provides the steps needed to connect ServiceNow to an MCP ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)) Server tool configured in Snowflake. ServiceNow can serve as an MCP Client to connect to any solution that has MCP support.&#x20;
+This provides the steps needed to connect ServiceNow to an MCP ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)) Server tool configured in Snowflake. ServiceNow can serve as an MCP Client to connect to any solution that has MCP support.
 
 This exercise does not cover the creation of the MCP Service from Snowflake as that requires administrator rights and CDW expertise which may not be widely available to various personas.
 
@@ -165,7 +205,7 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 <figure><img src=".gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
-4. Click on <mark style="color:$success;">**a.)**</mark> **more (vertical three dots)** > <mark style="color:$success;">**b.) Duplicate**</mark>&#x20;
+4. Click on <mark style="color:$success;">**a.)**</mark> **more (vertical three dots)** > <mark style="color:$success;">**b.) Duplicate**</mark>
 
 <figure><img src=".gitbook/assets/sc_mcp_forecast_variance.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -203,7 +243,7 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 <mark style="color:green;">**b.)**</mark> **Tool description**: **query: Get the details via Snowflake MCP using the cost center taken from "Extract Cost Center" step columns: \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"] limit: 1**
 
-<mark style="color:green;">**c.)**</mark> **Execution mode**: **Autonomous**&#x20;
+<mark style="color:green;">**c.)**</mark> **Execution mode**: **Autonomous**
 
 <mark style="color:green;">**d.)**</mark>**&#x20;Save**
 
@@ -217,15 +257,13 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 <figure><img src=".gitbook/assets/sc_mcp_save.png" alt="" width="178"><figcaption></figcaption></figure>
 
-
-
 15. Configure the availability of the AI Agent as this setting might have been reset when it was copied from the original **Forecast Variance AI Agent**. Follow the steps below and refer to the screenshot that immediately follows.
 
 <mark style="color:green;">**a.)**</mark> Go to **Toggle display**
 
 <mark style="color:green;">**b.)**</mark> Toggle Status to **On**
 
-<mark style="color:green;">**c.)**</mark> Toggle **Now Assist panel** to **On**&#x20;
+<mark style="color:green;">**c.)**</mark> Toggle **Now Assist panel** to **On**
 
 <mark style="color:green;">**d.)**</mark> Toggle **Virtual Agent** to **On** and select **Now Asssit in Virtual Agent (default)**
 
@@ -241,7 +279,7 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 <figure><img src=".gitbook/assets/sc_mcp_test_run_1.png" alt=""><figcaption></figcaption></figure>
 
-18. Finally, you will notice that the **Get Details in Snowflake MCP** has obtained the closest matching the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.&#x20;
+18. Finally, you will notice that the **Get Details in Snowflake MCP** has obtained the closest matching the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.
 
 <figure><img src=".gitbook/assets/sc_mcp_test_run_2.png" alt=""><figcaption></figcaption></figure>
 
@@ -249,12 +287,10 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 ## Conclusion
 
-Congratulations! You have created the **MCP Server** integrations that allows ServiceNow to make use of MCP capabilities from other systems outside ServiceNow, allowing LLM-powered integrations alternative APIs ,that require less development.&#x20;
+Congratulations! You have created the **MCP Server** integrations that allows ServiceNow to make use of MCP capabilities from other systems outside ServiceNow, allowing LLM-powered integrations alternative APIs ,that require less development.
 
 ## Next step
 
 You can explore a bonus use case that makes use of Stream Connect for Apache Kafka for integrations that require more throughput and data volume.
-
-
 
 [Take me back to main page](./)
