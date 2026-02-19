@@ -86,17 +86,13 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 
 ### MCP Client Preparations
 
-1.
-
-    <figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+1.a 
+<figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 2.
-
-    <figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 3.
-
-    <figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 
 4.
@@ -104,59 +100,48 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 <figure><img src=".gitbook/assets/image (40).png" alt="" width="563"><figcaption></figcaption></figure>
 
 5.
-
-    <figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 6.
-
-    <figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 7.
-
-    <figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 8.
-
-    <figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 9.
-
-    <figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 10.
-
-    <figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 11.
-
-    <figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 12.
-
-    <figure><img src=".gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 13.
-
-    <figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 
 14.
 15.
-
-    <figure><img src=".gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 16.
-
-    <figure><img src=".gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 17.
 
-    <figure><img src=".gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 18.
 
-    <figure><img src=".gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 19.
 
-    <figure><img src=".gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 20.
 
-    <figure><img src=".gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 21.
 
-    <figure><img src=".gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 22.
 
-    <figure><img src=".gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 23.
 24. a
 25. a
