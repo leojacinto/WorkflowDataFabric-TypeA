@@ -90,7 +90,7 @@ graph LR
 
 ### AI Search Configuration
 
-1. This configuration section includes setting up of AI Search which is a critical tool for the AI Agents.  You can skip this if you have done it for [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub).&#x20;
+1. This configuration section includes setting up of AI Search which is a critical tool for the AI Agents. You can skip this if you have done it for [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub).
 2.  Using an private/incognito browser window, log into your instance as:
 
     1. User: **aislab.admin**
@@ -103,9 +103,7 @@ graph LR
 4.  Click on Repair Machine Learning Settings.
 
     <figure><img src=".gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-
-5.  You will get a message that the machine learning settings are being reset.&#x20;
+5.  You will get a message that the machine learning settings are being reset.
 
     <figure><img src=".gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 6.  After a 2-3 minutes, you will get a notification that the machine learning settings are reset. This will do indexing of tables in the background which will be needed for the search functionality to be used by the AI Agents later.
@@ -115,31 +113,25 @@ graph LR
 
 ### Platform Configuration
 
-1. Back as **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).&#x20;
-2.  Ensure you are in the correct scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials.&#x20;
+1. Back as **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
+2.  Ensure you are in the correct scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials.
 
     <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
 
     <figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-4.  Search for <mark style="color:green;">**a.)**</mark>  **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.&#x20;
+4.  Search for <mark style="color:green;">**a.)**</mark> **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.
 
     <figure><img src=".gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 5.  In the **Roles** tab, click **Edit**.
 
     <figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-6.  Search for <mark style="color:green;">**a.)**</mark>  **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**.&#x20;
+6.  Search for <mark style="color:green;">**a.)**</mark> **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**.
 
     <figure><img src=".gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-7.  You will get <mark style="color:green;">**a.)**</mark>  messages such as **Adding Role agent\_role\_config\_viewer to admin**, there will be 4 of such messages > <mark style="color:green;">**b.)**</mark> right-click on the top panel and click **Save**.
+7.  You will get <mark style="color:green;">**a.)**</mark> messages such as **Adding Role agent\_role\_config\_viewer to admin**, there will be 4 of such messages > <mark style="color:green;">**b.)**</mark> right-click on the top panel and click **Save**.
 
     <figure><img src=".gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
 8.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in.
 
     <figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="" width="254"><figcaption></figcaption></figure>
@@ -152,21 +144,15 @@ graph LR
 11. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
     <figure><img src=".gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
-
 12. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Unified Navigation app shell** is selected. If it is not added, you may need to select it from **Add ServiceNow platform** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
 
     <figure><img src=".gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
 13. Click on the **Assistant Designer** logo at the top left. You may need to refresh your page to make sure it has picked up the latest status of **Now Assist Panel - Platform (default)**.
 
     <figure><img src=".gitbook/assets/image (7) (1).png" alt="" width="240"><figcaption></figcaption></figure>
-14. Go to **Now Assist in Virtual Agent (default)** > **Edit**. Note that this is another configuration tile!&#x20;
+14. Go to **Now Assist in Virtual Agent (default)** > **Edit**. Note that this is another configuration tile!
 
     <figure><img src=".gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-
 15. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
     <figure><img src=".gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -187,16 +173,16 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 
 1.  Navigate to All > <mark style="color:green;">**a.)**</mark> type **Zero Copy Connector for ERP Home** > <mark style="color:green;">**b.)**</mark> click **Zero Copy Connector for ERP Home**.
 
-    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 2.  The **Zero Copy Connector for ERP Home** is a workspace which has the layout as below.
 
-    <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 3.  Click on <mark style="color:green;">**a.)**</mark> **Models (database icon)** > <mark style="color:green;">**b.)**</mark> click **Model Name** > **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type **DP: Cost Center** > <mark style="color:green;">**d.)**</mark> click **Apply**.
 
-    <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 4.  Click on **DP: Cost Center**.
 
-    <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 5.  Note the <mark style="color:green;">**a.)**</mark> popup that indicates that you are opening an **ERP Data Product** which is delivered as templates that customers can use to ramp-up creation of ERP models. Click <mark style="color:green;">**b.)**</mark> **Clone** to create a copy of this model.
 
     <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
@@ -209,7 +195,7 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 8.  Click **Read**.
 
     <figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-9.  Notice that there is a BAPI already configured based on the **DP: Cost Center** model you have cloned earlier. The entity **BAPI\_COSTCENTER\_GETDETAIL1** is already configured here so you do not have to do anything. As mentioned earlier, there are other ways to obtain master data from SAP (whether it is Cost Center, Materials, etc.) such as RFC table reads or OData endpoints.&#x20;
+9.  Notice that there is a BAPI already configured based on the **DP: Cost Center** model you have cloned earlier. The entity **BAPI\_COSTCENTER\_GETDETAIL1** is already configured here so you do not have to do anything. As mentioned earlier, there are other ways to obtain master data from SAP (whether it is Cost Center, Materials, etc.) such as RFC table reads or OData endpoints.
 
     <figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 10. Click on **Specify Inputs**. You do not need to do anything in this screen. The intent is to provide an overview of what can be configured as fields for selections when extracting or displaying information from the ERP system. If the table, BAPI, or OData endpoint supports it, this screen can be kept blank which is an equivalent of selecting all entries.
@@ -284,7 +270,7 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 14. This will lead you to a screen showing the data assets created. In the same screen, click on the <mark style="color:green;">**a.)**</mark> three vertical dots then <mark style="color:green;">**b.)**</mark> **Open list**.
 
     <figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
-15. This will lead you to the data fabric table.&#x20;
+15. This will lead you to the data fabric table.
 
     <figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 16. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for SQL.
@@ -308,7 +294,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_zcc_agent_studio_manage.png" alt="" width="563"><figcaption></figcaption></figure>
 
-5. You might get multiple results so only get the one which says **Forecast Variance** only.&#x20;
+5. You might get multiple results so only get the one which says **Forecast Variance** only.
 
 <figure><img src=".gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
@@ -354,16 +340,16 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 15. For this exercise, we are not impersonating a persona so you remain as the System user.
 
     <figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
-16. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case  created by the AI Agent, FINC0010003 in the example above.
+16. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case created by the AI Agent, FINC0010003 in the example above.
 
     <figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusion
 
-Congratulations! You have created the **Workflow Data Fabric** integrations that powers the **Financial Forecast Variance Agent** allowing proactive creation of cases based on multiple data sources in a complex landscape to allow proactive management of budgets.&#x20;
+Congratulations! You have created the **Workflow Data Fabric** integrations that powers the **Financial Forecast Variance Agent** allowing proactive creation of cases based on multiple data sources in a complex landscape to allow proactive management of budgets.
 
 ## Next step
 
-Let us continue building the data foundations for AI Agents to use. The next suggested exercise is the creation of the External Content Connector to SharePoint.&#x20;
+Let us continue building the data foundations for AI Agents to use. The next suggested exercise is the creation of the External Content Connector to SharePoint.
 
 [Take me back to main page](./)

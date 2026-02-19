@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Lab Exercise: ServiceNow Lens and Document Intelligence
 
 <mark style="color:red;">**Lab Exercise creation in progress!**</mark>
