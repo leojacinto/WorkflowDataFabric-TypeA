@@ -76,14 +76,6 @@ graph LR
 
 ## Steps
 
-### Note on the header of screenshots
-
-You may see either an Alectri logo or ServiceNow logo in the screenshots. You can ignore this while we consolidate the screenshots to come consistently from one system.
-
-<figure><img src=".gitbook/assets/image (20).png" alt="" width="136"><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (21).png" alt="" width="151"><figcaption></figcaption></figure>
-
 ### AI Search Configuration
 
 1. This configuration section includes setting up of AI Search which is a critical tool for the AI Agents.  You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).&#x20;
@@ -214,10 +206,9 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/sc_ihub_expense_event_delete.png" alt=""><figcaption></figcaption></figure>
 
-3. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
+3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
-<figure><img src=".gitbook/assets/sc_ihub_agent_studio.png" alt="" width="334"><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 4. This will go to the list of workflows and agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** **Integration Hub Trigger** and hit **Return/Enter ↵**.
 
 <figure><img src=".gitbook/assets/sc_ihub_agent_studio_manage.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -252,10 +243,9 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 ### Runtime of Flow, Actions, and AI Agents
 
-1. In a **new browser window**, go to All > <mark style="color:green;">**a.)**</mark> type **Flow Designer** and go to <mark style="color:green;">**b.)**</mark> **Process Automation** > **Flow Designer**. This will open the app in a new tab.
+1.  In a **new browser window**, go to All > <mark style="color:green;">**a.)**</mark> type **Flow Designer** and go to <mark style="color:green;">**b.)**</mark> **Process Automation** > **Flow Designer**. This will open the app in a new tab.
 
-<figure><img src=".gitbook/assets/sc_ihub_flow_designer.png" alt="" width="337"><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 2. In the new **Flow Designer** tab that just opened, <mark style="color:green;">**a.)**</mark> click **Subflows** > <mark style="color:green;">**b.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type Get Expense Event then <mark style="color:green;">**d.)**</mark> click **Apply**.
 
 <figure><img src=".gitbook/assets/sc_ihub_flow_search.png" alt="" width="563"><figcaption></figcaption></figure>

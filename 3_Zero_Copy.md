@@ -88,14 +88,6 @@ graph LR
 
 ## Steps
 
-### Note on the header of screenshots
-
-You may see either an Alectri logo or ServiceNow logo in the screenshots. You can ignore this while we consolidate the screenshots to come consistently from one system.
-
-<figure><img src=".gitbook/assets/image (20).png" alt="" width="136"><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (21).png" alt="" width="151"><figcaption></figcaption></figure>
-
 ### AI Search Configuration
 
 1. This configuration section includes setting up of AI Search which is a critical tool for the AI Agents.  You can skip this if you have done it for [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub).&#x20;
@@ -249,10 +241,9 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 
 <figure><img src=".gitbook/assets/sc_zcc_snowflake.png" alt=""><figcaption></figcaption></figure>
 
-2. In the ServiceNow navigation, go to All > <mark style="color:green;">**a.)**</mark> type **Workflow Data Fabric Hub** > <mark style="color:green;">**b.)**</mark> go to **Workflow Data Fabric Hub**.
+2.  In the ServiceNow navigation, go to All > <mark style="color:green;">**a.)**</mark> type **Workflow Data Fabric Hub** > <mark style="color:green;">**b.)**</mark> go to **Workflow Data Fabric Hub**.
 
-<figure><img src=".gitbook/assets/sc_zcc_wdf_hub.png" alt="" width="368"><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 3.  In the landing page, go to **Established connections** > **Snowflake Connection (S)**. <mark style="color:red;">**Note:**</mark> this established connection is configured specifically for instances used in ServiceNow-led labs.
 
     <figure><img src=".gitbook/assets/image (11) (1).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -304,7 +295,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 1. Go to All > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**.
 
-<figure><img src=".gitbook/assets/sc_zcc_expense_event.png" alt="" width="336"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 2. This will lead to the screen below. Note that this is the table created in [Lab Exercise: Fundamentals](1_Fundamentals.md) and populated with the data from [Lab Exercise: Integration Hub](2_Integration_Hub.md).
 

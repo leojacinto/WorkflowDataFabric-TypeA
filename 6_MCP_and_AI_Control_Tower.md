@@ -63,14 +63,6 @@ graph LR
 
 ## Steps
 
-### Note on the header of screenshots
-
-You may see either an Alectri logo or ServiceNow logo in the screenshots. You can ignore this while we consolidate the screenshots to come consistently from one system.
-
-<figure><img src=".gitbook/assets/image (20).png" alt="" width="136"><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (21).png" alt="" width="151"><figcaption></figcaption></figure>
-
 ### MCP Server Preparations (Lab Admin only!)
 
 1. Run the following in Snowflake for each server with the appropriate integration name. These can be done in advance as the server names will be&#x20;
@@ -178,7 +170,7 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
 1. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_studio.png" alt="" width="334"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 2. This will go to the list of workflows and agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** and hit **Return/Enter ↵**.
 
