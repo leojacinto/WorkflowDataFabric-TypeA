@@ -67,7 +67,7 @@ The table you will create here will not be used for the rest of the steps and se
     <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
 7.  Now that you are in the right scope, you are ready to create the scoped table. Navigate to All > <mark style="color:green;">**a.)**</mark> type **System Definition** > <mark style="color:green;">**b.)**</mark> search for **Tables**&#x20;
 
-    <figure><img src=".gitbook/assets/sc_fund_sysdef.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 8.  Go to the top right section of the navigation and click **New**.&#x20;
 
     <figure><img src=".gitbook/assets/sc_fund_new_table.png" alt="" width="563"><figcaption></figcaption></figure>
