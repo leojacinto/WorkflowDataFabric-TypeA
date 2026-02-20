@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Bonus Exercise: Stream Connect for Apache Kafka Lab
 
 [Take me back to main page](./)

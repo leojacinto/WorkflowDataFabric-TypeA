@@ -136,9 +136,9 @@ These data integrations match the external sources mentioned earlier.
 These are pointers to the respective tables coming from either the Cloud Data Warehouse (Snowflake) or ERP (SAP).
 
 * **Cost Center**: master data taken from the ERP system, known as CSKS from SAP but can also be obtained with through BAPI or OData endpoints. Master data does not change frequently in ERP systems so either persistence or zero copy approaches are viable for ServiceNow use cases.
-* **Cost Center History**: monthly data taken from the Cloud Data Warehouse with information whether cost centers have historically gone over/under budget or on target. ERP systems normally do not store this type of history or aggregation and is hence stored in a business or data warehouse.
 * **Cost Center Summary**: aggregated Cost Center History data for the year stored in the Cloud Data Warehouse for reporting purposes.
-* **Expense History**: this can come from an expense management system, ERP system, or Cloud Data Warehouse. For this lab, we are obtaining this from the Cloud Data Warehouse.
+* **Cost Center History**: monthly data taken from the Cloud Data Warehouse with information whether cost centers have historically gone over/under budget or on target. ERP systems normally do not store this type of history or aggregation and is hence stored in a business or data warehouse. **Note** that the purpose of this exercise, this has been created as a local ServiceNow table but is usually stored in a Cloud Data Warehouse or ERP system in customer environments.&#x20;
+* **Expense History**: this can come from an expense management system, ERP system, or Cloud Data Warehouse. For this lab, we are obtaining this from the Cloud Data Warehouse. **Note** that the purpose of this exercise, this has been created as a local ServiceNow table but is usually stored in a Cloud Data Warehouse or ERP system in customer environments.&#x20;
 
 #### ServiceNow Native Tables
 
