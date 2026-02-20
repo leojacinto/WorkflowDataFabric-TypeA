@@ -93,8 +93,8 @@ Congratulations! You have created the destination table within ServiceNow for th
 
 ## Next step
 
-Let us continue building the data foundations for the use case. Next up is creation of the Data Fabric tables which will be used by AI Agents. Click [here to proceed with configuring the Data Fabric tables using ServiceNow's Zero Copy cpability](/broken/pages/qvtWnBJJ7yRVnf7LkGP6).
+Let us continue building the data foundations for the use case. Next up is creation of the Data Fabric tables which will be used by AI Agents. Click [here to proceed with configuring the Data Fabric tables using ServiceNow's Zero Copy capability](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
 
-Alternatively, you can focus purely on REST API connectivity by proceeding with the [Integration Hub configuation](/broken/pages/Mxtr8y5z9iSBqS1mCbau).
+Alternatively, you can focus purely on REST API connectivity by proceeding with the [Integration Hub configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub).
 
 [Take me back to main page](./)

@@ -96,13 +96,13 @@ graph LR
     1. User: **aislab.admin**
     2. Password: **aislab.admin**
 
-    <figure><img src=".gitbook/assets/image (1) (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
 
-    <figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt="" width="337"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="337"><figcaption></figcaption></figure>
 4.  Click on Repair Machine Learning Settings.
 
-    <figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 5.  You will get a message that the machine learning settings are being reset.
 
     <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
@@ -119,7 +119,7 @@ graph LR
     <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
 
-    <figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4.  Search for <mark style="color:green;">**a.)**</mark> **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.
 
     <figure><img src=".gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
@@ -189,7 +189,7 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 6.  Provide the label for the cloned model as <mark style="color:green;">**a.)**</mark> **SAP Cost Center** and take not of the Target application which should be <mark style="color:green;">**b.)**</mark> **Forecast Variance**. Click <mark style="color:green;">**c.)**</mark> Clone this model once done.
 
     <figure><img src=".gitbook/assets/image (7).png" alt="" width="450"><figcaption></figcaption></figure>
-7.  After cloning the model, you will be redirected to the **Models** section. Click **SAP Cost Center** which you have just created as a clone in the previous step. Click **Manage model**.
+7.  After cloning the mode you will be directed to its configuration screen. Assign the <mark style="color:green;">**a.)**</mark> ERP system name as S4D then <mark style="color:green;">**b.)**</mark> click Save. Then, <mark style="color:green;">**c.)**</mark> click **Manage model**.
 
     <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 8.  Click **Read**.
@@ -307,10 +307,9 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 8.  Under **Define security controls** > <mark style="color:green;">**a.)**</mark> click **Define data access** > <mark style="color:green;">**b.)**</mark> select **Dynamic user** from the drop down then > <mark style="color:green;">**c.)**</mark> add **admin** user as the approved role. For this exercise we are using permissive authorisations but this is where you can tighten authorisations for your agents allowing mechanisms such as inheriting the authorisations of logged in user (Dynamic identity type) or a predefined set of access (AI User identity type).
 
     <figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
-9. Next, click on **Define trigger**, which is kept blank. You can add the triggers for the AI Agent here but for the exercise, the AI Agent will be triggered manually to be able to show the detail chat responses and debugging. No further action is required in this section.
+9.  Next, click on **Define trigger**, which is kept blank. You can add the triggers for the AI Agent here but for the exercise, the AI Agent will be triggered manually to be able to show the detail chat responses and debugging. No further action is required in this section.
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_details_4.png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 10. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**.
 
     <figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
