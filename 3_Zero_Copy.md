@@ -105,7 +105,7 @@ graph LR
     <figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 5.  You will get a message that the machine learning settings are being reset.
 
-    <figure><img src=".gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 6.  After a 2-3 minutes, you will get a notification that the machine learning settings are reset. This will do indexing of tables in the background which will be needed for the search functionality to be used by the AI Agents later.
 
     <figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="279"><figcaption></figcaption></figure>
@@ -137,7 +137,7 @@ graph LR
     <figure><img src=".gitbook/assets/image (2) (1) (1) (2).png" alt="" width="254"><figcaption></figcaption></figure>
 9.  Once logged back in navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Assistant Designer** then <mark style="color:green;">**b.)**</mark> click **Conversational Interfaces > Assistant Designer**. This will open a new tab.
 
-    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="" width="337"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1) (1) (2).png" alt="" width="337"><figcaption></figcaption></figure>
 10. Go to **Now Assist Panel - Platform (default)** > **Edit**.
 
     <figure><img src=".gitbook/assets/image (4) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>

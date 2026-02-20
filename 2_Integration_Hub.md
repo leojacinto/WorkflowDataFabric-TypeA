@@ -93,7 +93,7 @@ graph LR
     <figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 5.  You will get a message that the machine learning settings are being reset.
 
-    <figure><img src=".gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 6.  After a 2-3 minutes, you will get a notification that the machine learning settings are reset. This will do indexing of tables in the background which will be needed for the search functionality to be used by the AI Agents later.
 
     <figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="279"><figcaption></figcaption></figure>
@@ -125,7 +125,7 @@ graph LR
     <figure><img src=".gitbook/assets/image (2) (1) (1) (2).png" alt="" width="254"><figcaption></figcaption></figure>
 9.  Once logged back in navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Assistant Designer** then <mark style="color:green;">**b.)**</mark> click **Conversational Interfaces > Assistant Designer**. This will open a new tab.
 
-    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="" width="337"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1) (1) (2).png" alt="" width="337"><figcaption></figcaption></figure>
 10. Go to **Now Assist Panel - Platform (default)** > **Edit**.
 
     <figure><img src=".gitbook/assets/image (4) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
@@ -189,7 +189,7 @@ The scoped **Action** is a key feature for the trigger that obtains expense data
 
 5. You now have familiarity of the **Action** used by the **Subflow** needed to trigger the **AI Agent**, which is described in the next section.
 
-### Walkthrough of Custom Forecast Variance AI Agent
+### Custom Forecast Variance AI Agent
 
 This is a walk through of how the an AI Agent with equipped with both deterministic and probabilistic can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
 
@@ -225,10 +225,10 @@ This is a walk through of how the an AI Agent with equipped with both determinis
     <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 10. Notice the details such as the **Select trigger** > **Created** and **Table** > **Expense Transaction Event**. These are set so the AI Agent will be triggered as soon as entries are created in the **Expense Transaction Event** which gets expense data from an external source via REST API.
 
-    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 11. Also notice the configuration for **Conditions** which allows further qualification of when the trigger will be activate. The M**ethod for defining sys user** and **Sys\_user** fields are also critical to ensure correct levels of authorisations are used in the trigger.
 
-    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 12. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Make sure your configuration is set as below. <mark style="color:green;">**Keep this browser window open! You will need again it later**</mark>.
 
     <figure><img src=".gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -293,6 +293,20 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 14. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case created by the AI Agent, FINC0010020 in the example above.
 
 <figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+
+## Troubleshooting
+
+1. Errors like **Sorry, there was a problem on my side trying to complete this request. Try asking again later.** in Runtime of Flow, Actions, and AI Agents > step 8 can be fixed by doing a dummy change in Custom Forecast Variance AI Agent > Step 10; e.g, changing the **Select trigger** to **Created or updated** then set back to **Created**. Save your changes.
+2. If the Now Assist Agent is not showing the action being executed and the history of chats like below, wait for 5 minutes or so and refresh your browser. This is primarily due to the instance's fresh Now Assist settings which you have just configured earlier.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+3. If you get messages in Now Assist from the agent saying messages like below, this just means that indexing of the tables needed by the agent to search transactions is not yet completed. Wait for 10 to 15 minutes.
+
+* There is no available information indicating similar transactions for this vendor in the past based on the cost center being processed.
+* Based on the available information, there is insufficient data to determine whether the results are mostly 'On Target', 'Over Budget', or 'Under Budget.' Please provide additional details or context for a more accurate evaluation.
+
+<br>
 
 ## Conclusion
 
