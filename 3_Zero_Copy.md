@@ -96,44 +96,47 @@ graph LR
     <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
 
-    <figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4.  Search for <mark style="color:green;">**a.)**</mark> **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.
 
     <figure><img src=".gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 5.  In the **Roles** tab, click **Edit**.
 
-    <figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-6.  Search for <mark style="color:green;">**a.)**</mark> **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**.
+    <figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+6.  Search for <mark style="color:green;">**a.)**</mark> **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel.
 
-    <figure><img src=".gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-7.  You will get <mark style="color:green;">**a.)**</mark> messages such as **Adding Role agent\_role\_config\_viewer to admin**, there will be 4 of such messages > <mark style="color:green;">**b.)**</mark> right-click on the top panel and click **Save**.
+    <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+7.  Search for <mark style="color:green;">**a.)**</mark> **sn\_erp\_integration.erp\_admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_erp\_integration.erp\_admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**.
 
-    <figure><img src=".gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-8.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in.
+    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+8.  You will get <mark style="color:green;">**a.)**</mark> messages such as **Adding Role decision\_table\_reader to admin**, there will be 4 of such messages > <mark style="color:green;">**b.)**</mark> right-click on the top panel and click **Save**.
+
+    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+9.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in.
 
     <figure><img src=".gitbook/assets/image (2) (1) (1) (2).png" alt="" width="254"><figcaption></figcaption></figure>
-9.  Once logged back in navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Assistant Designer** then <mark style="color:green;">**b.)**</mark> click **Conversational Interfaces > Assistant Designer**. This will open a new tab.
+10. Once logged back in navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Assistant Designer** then <mark style="color:green;">**b.)**</mark> click **Conversational Interfaces > Assistant Designer**. This will open a new tab.
 
     <figure><img src=".gitbook/assets/image (3) (1) (1) (2).png" alt="" width="337"><figcaption></figcaption></figure>
-10. Go to **Now Assist Panel - Platform (default)** > **Edit**.
+11. Go to **Now Assist Panel - Platform (default)** > **Edit**.
 
     <figure><img src=".gitbook/assets/image (4) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-11. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
+12. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
     <figure><img src=".gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-12. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Unified Navigation app shell** is selected. If it is not added, you may need to select it from **Add ServiceNow platform** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
+13. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Unified Navigation app shell** is selected. If it is not added, you may need to select it from **Add ServiceNow platform** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
 
     <figure><img src=".gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
-13. Click on the **Assistant Designer** logo at the top left. You may need to refresh your page to make sure it has picked up the latest status of **Now Assist Panel - Platform (default)**.
+14. Click on the **Assistant Designer** logo at the top left. You may need to refresh your page to make sure it has picked up the latest status of **Now Assist Panel - Platform (default)**.
 
     <figure><img src=".gitbook/assets/image (7) (1).png" alt="" width="240"><figcaption></figcaption></figure>
-14. Go to **Now Assist in Virtual Agent (default)** > **Edit**. Note that this is another configuration tile!
+15. Go to **Now Assist in Virtual Agent (default)** > **Edit**. Note that this is another configuration tile!
 
     <figure><img src=".gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-15. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
+16. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
     <figure><img src=".gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-16. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Employee Center** is selected. If it is not added, you may need to select it from **Add portal** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
+17. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Employee Center** is selected. If it is not added, you may need to select it from **Add portal** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
 
 <figure><img src=".gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -166,7 +169,7 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 6.  Provide the label for the cloned model as <mark style="color:green;">**a.)**</mark> **SAP Cost Center** and take not of the Target application which should be <mark style="color:green;">**b.)**</mark> **Forecast Variance**. Click <mark style="color:green;">**c.)**</mark> Clone this model once done.
 
     <figure><img src=".gitbook/assets/image (7).png" alt="" width="450"><figcaption></figcaption></figure>
-7.  After cloning the mode you will be directed to its configuration screen. Assign the <mark style="color:green;">**a.)**</mark> ERP system name as S4D then <mark style="color:green;">**b.)**</mark> click Save. Then, <mark style="color:green;">**c.)**</mark> click **Manage model**.
+7.  After cloning the mode you will be directed to its configuration screen. Assign the <mark style="color:green;">**a.)**</mark> ERP system name as S4D then <mark style="color:green;">**b.)**</mark> click Save. Then, <mark style="color:green;">**c.)**</mark> click **Manage model**. <mark style="color:red;">Might need to add roles.</mark>
 
     <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 8.  Click **Read**.
@@ -286,7 +289,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
     <figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 9.  Next, click on **Define trigger**, which is kept blank. You can add the triggers for the AI Agent here but for the exercise, the AI Agent will be triggered manually to be able to show the detail chat responses and debugging. No further action is required in this section.
 
-    <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 10. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**.
 
     <figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
