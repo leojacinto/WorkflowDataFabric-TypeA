@@ -132,27 +132,26 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 
 <figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
-9\.
+9.  In the screen that follows, click on a line below **OAuth Entity Scope** which is under the section **OAuth Entity Profile Scopes**. A small dialog box will pop-up. Click on the **magnifying class icon**.
 
-<figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
-
-10\.
+    <figure><img src=".gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+10. In the next dialog box that appears, click **New**.
 
 <figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
-11\.
+11. Beside <mark style="color:green;">**a.)**</mark> Name and <mark style="color:green;">**b.)**</mark> OAuth scope, type **session:role:MCP\_SERVICE\_ROLE**.
 
 <figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
-12\.
+12. Beside OAuth provider, <mark style="color:green;">**a.)**</mark> type AutoGen and <mark style="color:green;">**b.)**</mark> select the entry with the prefix **AutoGen-Snowflake MCP Lab**, then <mark style="color:green;">**c.)**</mark> click **Submit**.
 
 <figure><img src=".gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
-13\.
+13. This will lead you back to the small dialog box, click the **check mark** to confirm your settings.
 
 <figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
-14.
+14. This will lead to the screen below.
 
 <figure><img src=".gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
@@ -183,8 +182,6 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 22. Your will have a refreshed OAuth token that will last for 1 hour before it expires. You can now connect to the Snowflake cloud data warehouse via MCP and call MCP tools using ServiceNow's AI Agents.
 
 <figure><img src=".gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
-
-23\. 24. a 25. a 26. a
 
 ### Connecting to an MCP Server (Snowflake)
 
