@@ -207,7 +207,7 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 5.  You will get a prompt to confirm whether you want to duplicate the agent. Click **Duplicate**.
 
     <figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
-6.  In the new Agent screen, go to the **AI agent name** and rename it to **Forecast Variance Snowflake MCP**.
+6.  In the new Agent screen, go to the **AI agent name** and rename it to **Forecast Variance Snowflake MCP Lab**.
 
     <figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 7.  In the section **Define the role and Required steps** under sub-section **List of steps**, go to step 2 after the paragraph which starts with **Get cost center obtained in...** then add **Also run the MCP tool "Get Details via Snowflake MCP" as a secondary check. Only return one entry (limit = 1). Columns should be \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]**. It should look like the screenshot below.
