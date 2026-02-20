@@ -15,7 +15,7 @@ graph LR
     subgraph "External System Prerequisites"
         ERP[(ERP System<br/>Data)]
         ExpenseAPI[Expense Event<br/>API]
- 
+        SharePoint[SharePoint<br/>Executive Memos]
         CDW[(Cloud Data<br/>Warehouse)]
     end
 
