@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Lab Exercise: External Content Connector
 
 [Take me back to main page](./)
