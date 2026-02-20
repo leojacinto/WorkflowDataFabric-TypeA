@@ -44,6 +44,29 @@ While you have the power of CMDB at your fingertips, there are processes which r
 
 The table you will create here will not be used for the rest of the steps and serves mainly to introduce how target tables for REST API endpoints are created for ServiceNow.
 
+## AI Search Configuration
+
+1. This configuration section includes setting up of AI Search which is a critical tool for the AI Agents. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
+2.  Using an private/incognito browser window, log into your instance as:
+
+    1. User: **aislab.admin**
+    2. Password: **aislab.admin**
+
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
+3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
+
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="337"><figcaption></figcaption></figure>
+4.  Click on Repair Machine Learning Settings.
+
+    <figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+5.  You will get a message that the machine learning settings are being reset.
+
+    <figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+6.  After a 2-3 minutes, you will get a notification that the machine learning settings are reset. This will do indexing of tables in the background which will be needed for the search functionality to be used by the AI Agents later.
+
+    <figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="279"><figcaption></figcaption></figure>
+7. Exit your aislab.admin session and go back to your main session where you have logged in as **admin** user with the password provided to you.
+
 ## Steps
 
 1. Go to the top right portion of your navigation and click on the <mark style="color:green;">**a.)**</mark> **globe icon** then **arrow** **>**  the <mark style="color:green;">**b.)**</mark> **list icon** to create new scope.

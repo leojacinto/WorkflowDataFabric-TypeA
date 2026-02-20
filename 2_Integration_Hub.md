@@ -76,29 +76,6 @@ graph LR
 
 ## Steps
 
-### AI Search Configuration
-
-1. This configuration section includes setting up of AI Search which is a critical tool for the AI Agents. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
-2.  Using an private/incognito browser window, log into your instance as:
-
-    1. User: **aislab.admin**
-    2. Password: **aislab.admin**
-
-    <figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
-3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
-
-    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="337"><figcaption></figcaption></figure>
-4.  Click on Repair Machine Learning Settings.
-
-    <figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-5.  You will get a message that the machine learning settings are being reset.
-
-    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-6.  After a 2-3 minutes, you will get a notification that the machine learning settings are reset. This will do indexing of tables in the background which will be needed for the search functionality to be used by the AI Agents later.
-
-    <figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="279"><figcaption></figcaption></figure>
-7. Exit your aislab.admin session and go back to your main session where you have logged in as **admin** user with the password provided to you.
-
 ### Platform Configuration
 
 1. Back as **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
@@ -107,14 +84,14 @@ graph LR
     <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
 
-    <figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4.  Search for <mark style="color:green;">**a.)**</mark> **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.
 
     <figure><img src=".gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 5.  In the **Roles** tab, click **Edit**.
 
-    <figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-6.  Search for <mark style="color:green;">**a.)**</mark> **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**.
+    <figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+6.  Search for <mark style="color:green;">**a.)**</mark> **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**. You will notice that there are also roles for integration and viewer purposes which can be assigned for users who will need less privileges.
 
     <figure><img src=".gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 7.  You will get <mark style="color:green;">**a.)**</mark> messages such as **Adding Role agent\_role\_config\_viewer to admin**, there will be 4 of such messages > <mark style="color:green;">**b.)**</mark> right-click on the top panel and click **Save**.
@@ -213,25 +190,52 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 6.  Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
 
-    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 7.  Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**. No further action is required in this section but feel free to explore the configurations of each of the tools.
 
-    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-8.  Under **Define security controls** > <mark style="color:green;">**a.)**</mark> click **Define data access** > <mark style="color:green;">**b.)**</mark> select **Dynamic user** from the drop down then > <mark style="color:green;">**c.)**</mark> add **admin** user as the approved role. For this exercise we are using permissive authorisations but this is where you can tighten authorisations for your agents allowing mechanisms such as inheriting the authorisations of logged in user (Dynamic identity type) or a predefined set of access (AI User identity type).
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+8.  Under **Define security controls** > <mark style="color:green;">**a.)**</mark> click **Define data access** > <mark style="color:green;">**b.)**</mark> select **Dynamic user** from the drop down then > <mark style="color:green;">**c.)**</mark> add **admin** user as the **Approved role** if the field is not filled out yet. For this exercise we are using permissive authorisations but this is where you can tighten authorisations for your agents allowing mechanisms such as inheriting the authorisations of logged in user (Dynamic identity type) or a predefined set of access (AI User identity type).
 
     <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
-9.  Next, click on **Define trigger**, which is a key part of this exercise. Click on **Create New Expense Transaction Event** to get a view of how the trigger is configured. You do not have to change anything in this page. <mark style="color:red;">Error</mark>
+9.  Next, click on **Define trigger**, which is a key part of this exercise. Click on **Create New Expense Transaction Event** to get a view of how the trigger is configured.&#x20;
 
     <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
-10. Notice the details such as the **Select trigger** > **Created** and **Table** > **Expense Transaction Event**. These are set so the AI Agent will be triggered as soon as entries are created in the **Expense Transaction Event** which gets expense data from an external source via REST API.
+10. <mark style="color:red;">**\[IMPORTANT STEP]**</mark> Due to a bug related to the update set for this lab, you will need to delete and recreate the trigger. Click the <mark style="color:green;">**a.)**</mark> **delete** icon then <mark style="color:green;">**b.)**</mark> click **Add trigger**.&#x20;
 
-    <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-11. Also notice the configuration for **Conditions** which allows further qualification of when the trigger will be activate. The M**ethod for defining sys user** and **Sys\_user** fields are also critical to ensure correct levels of authorisations are used in the trigger.
+    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+11. Enter the details below for the trigger.
 
-    <figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
-12. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Make sure your configuration is set as below. Once done, <mark style="color:green;">**d.)**</mark> click **Save**. <mark style="color:green;">**Keep this browser window open! You will need again it later**</mark>.
+<mark style="color:green;">**a.)**</mark> **Select trigger**: **Created**
 
-    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<mark style="color:green;">**b.)**</mark> **Name**: **Create New Expense Transaction Event \<YOUR INITIALS>**
+
+<mark style="color:green;">**c.)**</mark> **Trigger**: toggle **ON**
+
+<mark style="color:green;">**d.)**</mark> Scroll down
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+12. More details to add below then&#x20;
+
+<mark style="color:green;">**a.)**</mark> **Table**: **Expense Transaction Event**
+
+<mark style="color:green;">**b.)**</mark> **Field**: **Vendor**
+
+<mark style="color:green;">**c.)**</mark> **Condition** > **Operator**: **is not empty**
+
+<mark style="color:green;">**d.)**</mark> **Sys\_user**: **Owner**
+
+<mark style="color:green;">**e.)**</mark> **Save**
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+13. Click **Save and Continue**.
+
+<figure><img src=".gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+
+14. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Make sure your configuration is set as below. Once done, <mark style="color:green;">**d.)**</mark> click **Save**. <mark style="color:green;">**Keep this browser window open! You will need again it later**</mark>.
+
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Runtime of Flow, Actions, and AI Agents
 
@@ -296,10 +300,10 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 ## Troubleshooting
 
-1. Errors like **Sorry, there was a problem on my side trying to complete this request. Try asking again later.** in Runtime of Flow, Actions, and AI Agents > step 8 can be fixed by doing a dummy change in Custom Forecast Variance AI Agent > Step 10; e.g, changing the **Select trigger** to **Created or updated** then set back to **Created**. Save your changes.
+1. The agent might not trigger after creating a new expense event entry in **x\_snc\_forecast\_v\_0\_expense\_transaction\_event** or throw errors like **Sorry, there was a problem on my side trying to complete this request. Try asking again later.** in Runtime of Flow, Actions, and AI Agents > step 8. This can be fixed by doing a dummy change in Custom Forecast Variance AI Agent > Steps 10 to 13; e.g, recreating the trigger.
 2. If the Now Assist Agent is not showing the action being executed and the history of chats like below, wait for 5 minutes or so and refresh your browser. This is primarily due to the instance's fresh Now Assist settings which you have just configured earlier.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. If you get messages in Now Assist from the agent saying messages like below, this just means that indexing of the tables needed by the agent to search transactions is not yet completed. Wait for 10 to 15 minutes.
 
