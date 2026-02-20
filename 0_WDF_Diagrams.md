@@ -79,7 +79,7 @@ graph LR
             ZeroCopySQL[Zero Copy SQL<br/>Connection]
             ZeroCopyERP[Zero Copy ERP<br/>Connection]
             IntHub[Integration Hub<br/>Spoke/Flow]
-
+            ExtContent[External Content<br/>Connector]
         end
 
         subgraph "Zero Copy Tables - Read Only"
@@ -104,6 +104,10 @@ graph LR
             MCPC[MCP Client]
         end
 
+        subgraph "AI Experiences"
+            Lens["ServiceNow</br>Lens"]
+            DocIntel["Document</br>Intelligence"]
+        end
     end
 
     %% Styling
@@ -171,6 +175,8 @@ You can skip the review of the diagram below if you prefer, and head straight in
 * [Lab Exercise: Fundamentals](1_Fundamentals.md)
 * [Lab Exercise: Integration Hub](2_Integration_Hub.md)
 * [Lab Exercise: Zero Copy Connectors](3_Zero_Copy.md)
+* [Lab Exercise: External Content Connector](https://github.com/leojacinto/WorkflowDataFabric/blob/7b684d7e35eb559c8c3524ec584effa7628e38c4/4_External_Content_Connector.md)
+* [Lab Exercise: ServiceNow Lens and Document Intelligence](https://github.com/leojacinto/WorkflowDataFabric/blob/7b684d7e35eb559c8c3524ec584effa7628e38c4/5_Lens_and_DocIntel.md)
 * [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](6_MCP_and_AI_Control_Tower.md)
 
 ```mermaid fullWidth="true"
@@ -232,6 +238,9 @@ graph LR
     ZeroCopySQL --> ZCExp
     ExpenseAPI -->|Real-time Events| IntHub
     IntHub -->|Write| ExpenseTable
+    EC -->|Individual UI-based| Lens -->|Write| ExpenseTable
+    EC -->|Individual UI-based| DocIntel -->|Write| ExpenseTable
+    SharePoint -->|Executive Guidance| ExtContent
 
     %% Agent 1 Workflow - Zero Copy Source
     ZCCC -->|Query Over-Budget| Agent1
@@ -259,6 +268,7 @@ graph LR
     %% User Interaction Connections
     Employee -->|Ask Questions<br/>View/Update Cases| EC
     EC -->|Search & Query| FinCase
+    EC -->|Natural Language| ExtContent
     Employee -->|Analytics| ClaudeDesktop
 
     %% Styling
@@ -275,6 +285,7 @@ graph LR
     class ExpenseTable,FinCase,FinVar native
     class Agent1,Agent2,RAG,NASK,FlowAction,MCPS,MCPC,GGraph,NLQuery,Lens,DocIntel ai
     class Employee,EC,ClaudeDesktop user
+
 ```
 
 [Take me back to main page](./)
