@@ -263,7 +263,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <figure><img src=".gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
-2. This will lead to the screen below. Note that this is the table created in [Lab Exercise: Fundamentals](1_Fundamentals.md) and populated with the data from [Lab Exercise: Integration Hub](2_Integration_Hub.md).
+2. This will lead to the screen below. Note that this is the table created in [Lab Exercise: Fundamentals](lab-exercise-fundamentals.md) and populated with the data from [Lab Exercise: Integration Hub](lab-exercise-integration-hub.md).
 
 <figure><img src=".gitbook/assets/sc_zcc_expense_event_list.png" alt=""><figcaption></figcaption></figure>
 

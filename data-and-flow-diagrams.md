@@ -141,8 +141,8 @@ These are pointers to the respective tables coming from either the Cloud Data Wa
 
 * **Cost Center**: master data taken from the ERP system, known as CSKS from SAP but can also be obtained with through BAPI or OData endpoints. Master data does not change frequently in ERP systems so either persistence or zero copy approaches are viable for ServiceNow use cases.
 * **Cost Center Summary**: aggregated Cost Center History data for the year stored in the Cloud Data Warehouse for reporting purposes.
-* **Cost Center History**: monthly data taken from the Cloud Data Warehouse with information whether cost centers have historically gone over/under budget or on target. ERP systems normally do not store this type of history or aggregation and is hence stored in a business or data warehouse. **Note** that the purpose of this exercise, this has been created as a local ServiceNow table but is usually stored in a Cloud Data Warehouse or ERP system in customer environments.&#x20;
-* **Expense History**: this can come from an expense management system, ERP system, or Cloud Data Warehouse. For this lab, we are obtaining this from the Cloud Data Warehouse. **Note** that the purpose of this exercise, this has been created as a local ServiceNow table but is usually stored in a Cloud Data Warehouse or ERP system in customer environments.&#x20;
+* **Cost Center History**: monthly data taken from the Cloud Data Warehouse with information whether cost centers have historically gone over/under budget or on target. ERP systems normally do not store this type of history or aggregation and is hence stored in a business or data warehouse. **Note** that the purpose of this exercise, this has been created as a local ServiceNow table but is usually stored in a Cloud Data Warehouse or ERP system in customer environments.
+* **Expense History**: this can come from an expense management system, ERP system, or Cloud Data Warehouse. For this lab, we are obtaining this from the Cloud Data Warehouse. **Note** that the purpose of this exercise, this has been created as a local ServiceNow table but is usually stored in a Cloud Data Warehouse or ERP system in customer environments.
 
 #### ServiceNow Native Tables
 
@@ -174,7 +174,7 @@ You can skip the review of the diagram below if you prefer, and head straight in
 
 * [Lab Exercise: Fundamentals](1_Fundamentals.md)
 * [Lab Exercise: Integration Hub](2_Integration_Hub.md)
-* [Lab Exercise: Zero Copy Connectors](3_Zero_Copy.md)
+* [Lab Exercise: Zero Copy Connectors](lab-exercise-zero-copy-connectors.md)
 * [Lab Exercise: External Content Connector](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/4_external_content_connector)
 * <mark style="color:$warning;">**\[Roadmap]**</mark> [Lab Exercise: ServiceNow Lens and Document Intelligence](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/5_lens_and_docintel)
 * [Lab Exercise: Model Context Protocol Server/Client and AI Control Tower](6_MCP_and_AI_Control_Tower.md)
