@@ -63,12 +63,12 @@ graph LR
 
 ## Steps
 
-### MCP Server Preparations (Lab Admin only!)
+### <mark style="color:red;">**Lab Admins, do this in advance!**</mark> MCP Server Preparations
 
-1. Run the following in Snowflake for each server with the appropriate integration name. These can be done in advance as the server names will be
+1. Run the following in Snowflake for each server with the appropriate integration name. These can be done in advance as the server name prefix will be provided to you when you request for your lab environment. In this example, if you have the lab prefix lab-feb-7744 and have 10 lab participants, you will need to do steps 1 and 2 here for **https://lef-feb-7744-0001.lab.service-now.com/oauth\_redirect.do** to **https://lef-feb-7744-0010.lab.service-now.com/oauth\_redirect.do**. Take note that you have to change the title of the security name in the command as well, e.g. **SN\_MCP\_7744\_0001** to **SN\_MCP\_7744\_0010**
 
 ```sql
-CREATE SECURITY INTEGRATION SN_MCP_0001
+CREATE SECURITY INTEGRATION SN_MCP_7744_0001
   TYPE = OAUTH
   OAUTH_CLIENT = CUSTOM
   OAUTH_CLIENT_TYPE = 'CONFIDENTIAL'
@@ -81,8 +81,10 @@ CREATE SECURITY INTEGRATION SN_MCP_0001
 2. Get the credentials for each users. These will need to be given to the users prior to the activity.
 
 ```sql
-SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
+SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_7744_0001');
 ```
+
+3. Once you have executed steps 1 and 2 for all your instances, you can share the link to the credentials in a file.
 
 ### MCP Client Preparations
 
@@ -96,7 +98,7 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 
 3.  Enter the name as <mark style="color:green;">**a.)**</mark> **Snowflake MCP Lab** with <mark style="color:green;">**b.)**</mark> Authentication type OAuth 2.1 and with <mark style="color:green;">**c.)**</mark> the URL [**https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance\_mcp\_server**](https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance_mcp_server). Then <mark style="color:green;">**d.)**</mark> click **Next**.&#x20;
 
-    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4. The following screen has more inputs required.
 
 <mark style="color:green;">**a.)**</mark> For **Client registration type** select **Manual Registration**&#x20;
@@ -128,7 +130,7 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_0001');
 
 <figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-8. Ctrl  / ⌘ + Click on the **i-icon** in the screen that follows to open a new window. <mark style="color:green;">**You will need to come back to this window later!**</mark>
+8. Ctrl  / ⌘ + click on the **i-icon** in the screen that follows to open a new window. <mark style="color:green;">**You will need to come back to this window later!**</mark>
 
 <figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
@@ -266,6 +268,33 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 
     <figure><img src=".gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 21. **Challenge:** once you are done with this lab, see if you can remove the tool **Extract Cost Center** and replace it completely with the data from **Get Details via Snowflake MCP** as seen in step 7. No hints this time. 😉
+
+## Troubleshooting
+
+1. If the Now Assist Agent is not showing the action being executed and the history of chats like below, wait for 5 minutes or so and refresh your browser. This is primarily due to the instance's fresh Now Assist settings which you have just configured earlier.
+
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+2. If you get messages in Now Assist from the agent saying messages like below, this just means that indexing of the tables needed by the agent to search transactions is not yet completed. Wait for 10 to 15 minutes.
+
+* There is no available information indicating similar transactions for this vendor in the past based on the cost center being processed.
+*   Based on the available information, there is insufficient data to determine whether the results are mostly 'On Target', 'Over Budget', or 'Under Budget.' Please provide additional details or context for a more accurate evaluation. **Do the following steps to force an indexing job, but this is not a guaranteed fix if there is a high load in the shared lab ML services used in AI search**.
+
+    * Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Indexed Sources** > <mark style="color:green;">**b.)**</mark> click **AI Search > AI Search Index >** and Ctrl  / ⌘ + click **Indexed Sources** to open a new window.
+
+    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+    *   Search for **Sources** with the string <mark style="color:green;">**a.)**</mark> \*x\_snc\_forecast then Ctrl  / ⌘ + click both <mark style="color:green;">**b.)**</mark> **Cost Center Budget History Indexed Source** and <mark style="color:green;">**c.)**</mark>**&#x20;Expense Transactions Indexed Source** so you have two new windows for these objects.&#x20;
+
+        <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    * In the new window for **Center Budget History Indexed Source**, click **Index All Tables**.
+
+    <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+    *   In the new window for **Expense Transactions Indexed Source**, click **Index All Tables**.
+
+        <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    * Once done, you can re-execute your agent.
 
 ## Conclusion
 

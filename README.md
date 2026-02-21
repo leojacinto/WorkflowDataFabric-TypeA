@@ -13,6 +13,8 @@ Finance teams discover budget overruns weeks too late. Expense analysis requires
 
 Your automations and AI Agents are just as good as your underlying data. Integrations powered by Workflow Data Fabric allow AI Agents to automate critical processes using accurate and consistent data.
 
+With the trend of external agents reaching through enterprise data, it is worth examining why platform-native agents can scale more safely. Agents built within ServiceNow inherit battle-tested authorization models: role-based access, ACLs, and purpose-built security controls for AI agents; allowing organizations to automate confidently without stepping outside their governance boundaries.
+
 ## Persona context
 
 You're a **Data Architect** serving the Finance department. Finance Managers need immediate visibility into budget performance. Cost Center Owners need to understand why they're over budget; with context, not just numbers. **Your mission**: Build an intelligent financial data fabric that connects ServiceNow to external systems, deploys AI agents to detect and analyze budget issues automatically, surfaces executive guidance, and enables self-service analytics through Employee Center and Claude Desktop. You'll solve three critical problems:
