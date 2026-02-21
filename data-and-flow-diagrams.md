@@ -176,7 +176,7 @@ You can skip the review of the diagram below if you prefer, and head straight in
 * [Lab Exercise: Integration Hub](2_Integration_Hub.md)
 * [Lab Exercise: Zero Copy Connectors](lab-exercise-zero-copy-connectors.md)
 * [Lab Exercise: Model Context Protocol Server/Client](6_MCP_and_AI_Control_Tower.md)
-* <mark style="color:$warning;">**\[Restricted Access]**</mark> [Lab Exercise: External Content Connector](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/4_external_content_connector)
+* <mark style="color:$warning;">**\[Controlled Lab]**</mark> [Lab Exercise: External Content Connector](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/4_external_content_connector)
 * <mark style="color:$warning;">**\[Roadmap]**</mark> [Lab Exercise: ServiceNow Lens and Document Intelligence](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/5_lens_and_docintel)
 
 ```mermaid fullWidth="true"
