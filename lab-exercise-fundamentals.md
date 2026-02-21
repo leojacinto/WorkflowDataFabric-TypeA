@@ -55,7 +55,7 @@ The table you will create here will not be used for the rest of the steps and se
     <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
 
-    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="337"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
 4.  Click on Repair Machine Learning Settings.
 
     <figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
@@ -69,7 +69,7 @@ The table you will create here will not be used for the rest of the steps and se
 
 ## Steps
 
-1. Go to the top right portion of your navigation and click on the <mark style="color:green;">**a.)**</mark> **globe icon** then **arrow** **>**  the <mark style="color:green;">**b.)**</mark> **list icon** to create new scope.
+1. Go to the top right portion of your navigation and click on the <mark style="color:green;">**a.)**</mark> **globe icon** then **arrow** **>** the <mark style="color:green;">**b.)**</mark> **list icon** to create new scope.
 
 <figure><img src=".gitbook/assets/sc_fund_scope_change.png" alt="" width="375"><figcaption></figcaption></figure>
 
