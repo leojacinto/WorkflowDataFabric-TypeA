@@ -42,9 +42,15 @@ This lab is divided into 5 exercises with the suggested sequence below. The Serv
 
 <table><thead><tr><th width="203.09375">Topic</th><th width="180.48828125">Difficulty</th><th>AI Agents involved</th><th>Suggested duration</th></tr></thead><tbody><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/0_wdf_diagrams">Workflow Data Fabric Diagrams</a></td><td>N/A</td><td>No</td><td>N/A</td></tr><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/1_fundamentals">Lab Exercise: Fundamentals</a></td><td>Basic</td><td>No</td><td>30 minutes</td></tr><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub">Lab Exercise: Integration Hub</a></td><td>Basic</td><td>Yes</td><td>45 minutes</td></tr><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy">Lab Exercise: Zero Copy Connectors</a></td><td>Intermediate</td><td>Yes</td><td>1 hour</td></tr><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/6_mcp_and_ai_control_tower">Lab Exercise: Model Context Protocol Server/Client</a></td><td>Intermediate</td><td>Yes</td><td>1 hour</td></tr><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/4_external_content_connector">Lab Exercise: External Content Connector</a></td><td>Basic</td><td>Yes</td><td>20 minutes</td></tr><tr><td><mark style="color:$warning;"><strong>[Roadmap]</strong></mark> <a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/5_lens_and_docintel">Lab Exercise: ServiceNow Lens and Document Intelligence</a></td><td>Intermediate</td><td>Yes</td><td>30 minutes</td></tr></tbody></table>
 
+## Recommended materials
+
+Below is a list of recommended courses that you can read up on to learn more about Workflow Data Fabric.
+
+<table><thead><tr><th width="203.09375">Course</th><th width="180.48828125">Level</th><th>Type</th><th>Duration</th></tr></thead><tbody><tr><td><a href="https://learning.servicenow.com/lxp/en/automation-engine/suite-certification-workflow-data-fabric?id=learning_path_prev&#x26;path_id=668f6e1497069250e4fb72de2153af9d">Workflow Data Fabric</a></td><td>Advanced</td><td>Learning Path</td><td>4 days, 2 hours</td></tr><tr><td><a href="https://learning.servicenow.com/lxp/en/automation-engine/sprint-to-workflow-data-fabric-suite-certification?id=learning_course_prev&#x26;course_id=6862722387102e905aa9ca2d0ebb3591">Sprint to Workflow Data Fabric Suite Certification</a></td><td>Advanced</td><td>Course</td><td>2 days, 5 hours</td></tr></tbody></table>
+
 ## A note from the author and some disclaimers
 
-This lab demonstrates end-to-end integration scenarios that require both ServiceNow platform capabilities and external system connectivity.
+This lab involves integrating ServiceNow with external systems (e.g., databases, APIs, cloud services). Some steps require pre-configured environments and connectivity that may not be available in a standard PDI; this best run as a guided workshop.
 
 ### ServiceNow dependencies
 
