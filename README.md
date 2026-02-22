@@ -46,7 +46,7 @@ This lab is divided into 5 exercises with the suggested sequence below. The Serv
 
 Below is a list of recommended courses that you can read up on to learn more about Workflow Data Fabric.
 
-<table><thead><tr><th width="203.09375">Course</th><th width="180.48828125">Level</th><th>Type</th><th>Duration</th></tr></thead><tbody><tr><td><a href="https://learning.servicenow.com/lxp/en/automation-engine/suite-certification-workflow-data-fabric?id=learning_path_prev&#x26;path_id=668f6e1497069250e4fb72de2153af9d">Workflow Data Fabric</a></td><td>Advanced</td><td>Learning Path</td><td>4 days, 2 hours</td></tr><tr><td><a href="https://learning.servicenow.com/lxp/en/automation-engine/sprint-to-workflow-data-fabric-suite-certification?id=learning_course_prev&#x26;course_id=6862722387102e905aa9ca2d0ebb3591">Sprint to Workflow Data Fabric Suite Certification</a></td><td>Advanced</td><td>Course</td><td>2 days, 5 hours</td></tr></tbody></table>
+<table><thead><tr><th width="203.09375">Course</th><th width="180.48828125">Level</th><th>Type</th><th>Duration</th></tr></thead><tbody><tr><td><a href="https://learning.servicenow.com/lxp/en/automation-engine/suite-certification-workflow-data-fabric?id=learning_path_prev&#x26;path_id=668f6e1497069250e4fb72de2153af9d" target="_blank">Workflow Data Fabric</a></td><td>Advanced</td><td>Learning Path</td><td>4 days, 2 hours</td></tr><tr><td><a href="https://learning.servicenow.com/lxp/en/automation-engine/sprint-to-workflow-data-fabric-suite-certification?id=learning_course_prev&#x26;course_id=6862722387102e905aa9ca2d0ebb3591" target="_blank">Sprint to Workflow Data Fabric Suite Certification</a></td><td>Advanced</td><td>Course</td><td>2 days, 5 hours</td></tr></tbody></table>
 
 ## A note from the author and some disclaimers
 
@@ -88,4 +88,4 @@ Fully provisioned environments with all dependencies pre-configured are availabl
 
 ### About the author
 
-This lab is created by [Leo Francia](https://www.linkedin.com/in/leojmfrancia/), a Data Architect at ServiceNow, and is in no way a ServiceNow official manual. Leo is an active member of the [ServiceNow community](https://www.servicenow.com/community/workflow-data-fabric/ct-p/workflow-data-fabric) and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talk about himself in the third person, but please let him be.
+This lab is created by <a href="https://www.linkedin.com/in/leojmfrancia/" target="_blank">Leo Francia</a>, a Data Architect at ServiceNow, and is in no way a ServiceNow official manual. Leo is an active member of the <a href="https://www.servicenow.com/community/workflow-data-fabric/ct-p/workflow-data-fabric" target="_blank">ServiceNow community</a> and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talk about himself in the third person, but please let him be.
