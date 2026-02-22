@@ -52,19 +52,19 @@ The table you will create here will not be used for the rest of the steps and se
     1. User: **aislab.admin**
     2. Password: **aislab.admin**
 
-    <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_fund_aislab_admin_login.png" alt="" width="362"><figcaption></figcaption></figure>
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
 
-    <figure><img src=".gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_fund_repair_ml_nav.png" alt=""><figcaption></figcaption></figure>
 4.  Click on Repair Machine Learning Settings.
 
-    <figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_fund_repair_ml_click.png" alt="" width="375"><figcaption></figcaption></figure>
 5.  You will get a message that the machine learning settings are being reset.
 
-    <figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_fund_ml_settings_resetting.png" alt="" width="375"><figcaption></figcaption></figure>
 6.  After a 2-3 minutes, you will get a notification that the machine learning settings are reset. This will do indexing of tables in the background which will be needed for the search functionality to be used by the AI Agents later.
 
-    <figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="279"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_fund_ml_settings_reset_done.png" alt="" width="279"><figcaption></figcaption></figure>
 7. Exit your aislab.admin session and go back to your main session where you have logged in as **admin** user with the password provided to you.
 
 ## Steps
@@ -81,7 +81,7 @@ The table you will create here will not be used for the rest of the steps and se
     <figure><img src=".gitbook/assets/sc_fund_create_scope.png" alt=""><figcaption></figcaption></figure>
 4.  Provide the scope details with <mark style="color:green;">**a.)**</mark> name **Forecast Variance \<YOUR INITIALS>** and the <mark style="color:green;">**b.)**</mark> scope. Click <mark style="color:green;">**c.)**</mark> Create. Note that the scope is a technical name and is automatically populated but you have the option to change it. In this example, the scope is **x\_snc\_forecast\_var**. Fell free to add your iniitials at the end of the scope. The scope here will not be used in the exercise and is only meant to serve as guide in demonstrating the fundamental steps. Click **Back to list** once done.
 
-    <figure><img src=".gitbook/assets/sc_fund_scope_details (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_fund_scope_details_created.png" alt=""><figcaption></figcaption></figure>
 5.  Verify that you are in the correct scope after you have created it. Being in the correct scope as you proceed with the lab will avoid scope access and object management issues. Do this by a.) clicking on the <mark style="color:green;">**a.)**</mark> scope (globe icon) and ensuring that has the value of the <mark style="color:green;">**b.)**</mark> **Forecast Variance \<YOUR INITIALS>** label you created.
 
     <figure><img src=".gitbook/assets/sc_fund_dummy_scope.png" alt=""><figcaption></figcaption></figure>
@@ -90,7 +90,7 @@ The table you will create here will not be used for the rest of the steps and se
     <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
 7.  Now that you are in the right scope, you are ready to create the scoped table. Navigate to All > <mark style="color:green;">**a.)**</mark> type **System Definition** > <mark style="color:green;">**b.)**</mark> search for **Tables**
 
-    <figure><img src=".gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_fund_sysdef_tables_nav.png" alt=""><figcaption></figcaption></figure>
 8.  Go to the top right section of the navigation and click **New**.
 
     <figure><img src=".gitbook/assets/sc_fund_new_table.png" alt="" width="563"><figcaption></figcaption></figure>
