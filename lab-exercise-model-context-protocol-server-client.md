@@ -65,7 +65,7 @@ graph LR
 
 ### <mark style="color:red;">**Lab Admins, do this in advance!**</mark> MCP Server Preparations
 
-1. You need access to a live Snowflake instance. Contact [Leo Francia](mailto:leo.francia@servicenow.com) for more details on instance access to [https://xwtgfjs-jq54573.snowflakecomputing.com/](https://xwtgfjs-jq54573.snowflakecomputing.com/) which is used for this lab.
+1. You need access to a live Snowflake instance. Contact [Leo Francia](mailto:leo.francia@servicenow.com) for more details on instance access to [https://xwtgfjs-jq54573.snowflakecomputing.com](https://xwtgfjs-jq54573.snowflakecomputing.com/) which is used for this lab.
 2.  Run the following in Snowflake for each lab instance. The first parameter is your lab prefix (e.g. `lef-feb-7318`) and the second is the instance running number (e.g. `0001`). For example, if your lab prefix is `lef-feb-7318` and you have 10 participants, you will need to run:
 
     ```sql
