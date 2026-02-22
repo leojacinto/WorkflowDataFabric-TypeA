@@ -231,7 +231,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 13. Click **Save and Continue**.
 
-<figure><img src=".gitbook/assets/sc_common_save_and_continue.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_common_save_and_continue (1).png" alt=""><figcaption></figcaption></figure>
 
 14. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Make sure your configuration is set as below. Once done, <mark style="color:green;">**d.)**</mark> click **Save**. <mark style="color:green;">**Keep this browser window open! You will need again it later**</mark>.
 
@@ -309,7 +309,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 * Errors/messages in Now Assist below. These do not affect the outcome of your lab activity as the agents and the tools related to this are already configured and is only related to the lab instance server load.
   * There is no available information indicating similar transactions for this vendor in the past based on the cost center being processed.
-  * Based on the available information, there is insufficient data to determine whether the results are mostly 'On Target', 'Over Budget', or 'Under Budget.' Please provide additional details or context for a more accurate evaluation.&#x20;
+  * Based on the available information, there is insufficient data to determine whether the results are mostly 'On Target', 'Over Budget', or 'Under Budget.' Please provide additional details or context for a more accurate evaluation.
 *   **If the errors persist after waiting 10 to 15 minutes, do the following steps to force an indexing job, but this is not a guaranteed fix if there is a high load in the shared lab ML services used in AI search**.
 
     * Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Indexed Sources** > <mark style="color:green;">**b.)**</mark> click **AI Search > AI Search Index >** and Ctrl / ⌘ + click **Indexed Sources** to open a new window.

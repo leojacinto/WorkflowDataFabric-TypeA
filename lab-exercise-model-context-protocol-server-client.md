@@ -65,55 +65,60 @@ graph LR
 
 ### <mark style="color:red;">**Lab Admins, do this in advance!**</mark> MCP Server Preparations
 
-1. Run the following in Snowflake for each server with the appropriate integration name. These can be done in advance as the server name prefix will be provided to you when you request for your lab environment. In this example, if you have the lab prefix lab-feb-7744 and have 10 lab participants, you will need to do steps 1 and 2 here for **https://lef-feb-7744-0001.lab.service-now.com/oauth\_redirect.do** to **https://lef-feb-7744-0010.lab.service-now.com/oauth\_redirect.do**. Take note that you have to change the title of the security name in the command as well, e.g. **SN\_MCP\_7744\_0001** to **SN\_MCP\_7744\_0010**
+1. You need access to a live Snowflake instance. Contact [Leo Francia](mailto:leo.francia@servicenow.com) for more details on instance access to [https://xwtgfjs-jq54573.snowflakecomputing.com/](https://xwtgfjs-jq54573.snowflakecomputing.com/) which is used for this lab.
+2.  Run the following in Snowflake for each lab instance. The first parameter is your lab prefix (e.g. `lef-feb-7318`) and the second is the instance running number (e.g. `0001`). For example, if your lab prefix is `lef-feb-7318` and you have 10 participants, you will need to run:
 
-```sql
-CREATE SECURITY INTEGRATION SN_MCP_7744_0001
-  TYPE = OAUTH
-  OAUTH_CLIENT = CUSTOM
-  OAUTH_CLIENT_TYPE = 'CONFIDENTIAL'
-  OAUTH_REDIRECT_URI = 'https://lef-feb-7744-0001.lab.service-now.com/oauth_redirect.do'
-  OAUTH_ISSUE_REFRESH_TOKENS = TRUE
-  OAUTH_ENFORCE_PKCE = FALSE
-  ENABLED = TRUE;
-```
+    ```sql
+    CALL ALECTRI.FINANCE.SETUP_LAB_INSTANCE('lef-feb-7318', '0001');
+    CALL ALECTRI.FINANCE.SETUP_LAB_INSTANCE('lef-feb-7318', '0002');
+    CALL ALECTRI.FINANCE.SETUP_LAB_INSTANCE('lef-feb-7318', '0003');
+    -- repeat up to your last instance
+    CALL ALECTRI.FINANCE.SETUP_LAB_INSTANCE('lef-feb-7318', '0010');
+    ```
+3.  Each call returns a `SELECT` statement. Run each one to get the Client ID and Client Secret per instance.
 
-2. Get the credentials for each users. These will need to be given to the users prior to the activity.
+    ```sql
+    SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_7318_0001');
+    SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_7318_0002');
+    -- repeat for each instance
+    ```
+4. <mark style="color:red;">**\[IMPORTANT STEP TO AVOID LOGISTICAL ISSUES DURING LAB]**</mark> Compile the results into a shared file with one row per instance containing the **Client ID** and **Client Secret**. Share the file link with students, they will self-serve their own credentials based on their assigned instance number.
+5. During the lab session, verbally share the **Snowflake username and password** that students will need when prompted during the OAuth sign-in step. **Do not include this in the shared file.**
+6.  To clean up after the lab:
 
-```sql
-SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_7744_0001');
-```
-
-3. Once you have executed steps 1 and 2 for all your instances, you can share the link to the credentials in a file.
+    ```sql
+    CALL ALECTRI.FINANCE.TEARDOWN_LAB_INSTANCE('lef-feb-7318', '0001');
+    -- repeat for each instance
+    ```
 
 ### MCP Client Preparations
 
 1. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Settings**.
 
-<figure><img src=".gitbook/assets/sc_mcp_agent_studio_settings_nav.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_mcp_agent_studio_settings_nav (3).png" alt=""><figcaption></figcaption></figure>
 
 2. In the **Settings** page > <mark style="color:green;">**a.)**</mark> go to **Manage MCP Servers** > <mark style="color:green;">**b.)**</mark> click on **New**.
 
 <figure><img src=".gitbook/assets/sc_mcp_manage_servers_new.png" alt=""><figcaption></figcaption></figure>
 
-3.  Enter the name as <mark style="color:green;">**a.)**</mark> **Snowflake MCP Lab** with <mark style="color:green;">**b.)**</mark> Authentication type OAuth 2.1 and with <mark style="color:green;">**c.)**</mark> the URL [**https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance\_mcp\_server**](https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance_mcp_server). Then <mark style="color:green;">**d.)**</mark> click **Next**.&#x20;
+3.  Enter the name as <mark style="color:green;">**a.)**</mark> **Snowflake MCP Lab** with <mark style="color:green;">**b.)**</mark> Authentication type OAuth 2.1 and with <mark style="color:green;">**c.)**</mark> the URL [**https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance\_mcp\_server**](https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance_mcp_server). Then <mark style="color:green;">**d.)**</mark> click **Next**.
 
     <figure><img src=".gitbook/assets/sc_mcp_add_server_details.png" alt=""><figcaption></figcaption></figure>
 4. The following screen has more inputs required.
 
-<mark style="color:green;">**a.)**</mark> For **Client registration type** select **Manual Registration**&#x20;
+<mark style="color:green;">**a.)**</mark> For **Client registration type** select **Manual Registration**
 
-<mark style="color:green;">**b.)**</mark> For **Grant type** select **Authorization Code**&#x20;
+<mark style="color:green;">**b.)**</mark> For **Grant type** select **Authorization Code**
 
 <mark style="color:green;">**c.)**</mark> For **Token authentication method** select **Client Secret Basic**
 
-<mark style="color:green;">**d.)**</mark> **Client ID** will be provided to you by your **Lab Admin**&#x20;
+<mark style="color:green;">**d.)**</mark> **Client ID** will be provided to you by your **Lab Admin**
 
 <mark style="color:green;">**e.)**</mark> **Client Secret** will be provided to you by your **Lab Admin**
 
 <mark style="color:green;">**f.)**</mark> For **Authorization URL**, type [**https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/authorize**](https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/authorize)
 
-<mark style="color:green;">**g.)**</mark> For **Token URL**, type [**https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request**](https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request)&#x20;
+<mark style="color:green;">**g.)**</mark> For **Token URL**, type [**https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request**](https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request)
 
 <mark style="color:green;">**h.)**</mark> Click **Add**
 
@@ -122,7 +127,7 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_7744_0001');
 5.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Connection & Credential Aliases** then <mark style="color:green;">**b.)**</mark> click **Connections & Credentials > Connection & Credential Aliases**.
 
     <figure><img src=".gitbook/assets/sc_common_conn_cred_aliases_nav.png" alt=""><figcaption></figcaption></figure>
-6. Search for an entry with the prefix **AutoGen-Snowflake MCP Lab**. Take not of the Lab! There might be an entry with a similar prefix.
+6. Search for an entry with the prefix **AutoGen-Snowflake MCP Lab**. Take note of the string **Lab**! There might be an entry with a similar prefix.
 
 <figure><img src=".gitbook/assets/sc_mcp_search_autogen_alias.png" alt=""><figcaption></figcaption></figure>
 
@@ -130,11 +135,11 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_7744_0001');
 
 <figure><img src=".gitbook/assets/sc_mcp_configure_alias.png" alt=""><figcaption></figcaption></figure>
 
-8. Ctrl  / ⌘ + click on the **i-icon** in the screen that follows to open a new window. <mark style="color:green;">**You will need to come back to this window later!**</mark>
+8. Ctrl / ⌘ + click on the **i-icon** in the screen that follows to open a new window. <mark style="color:green;">**You will need to come back to this window later!**</mark>
 
 <figure><img src=".gitbook/assets/sc_mcp_oauth_credentials.png" alt=""><figcaption></figcaption></figure>
 
-9.  In the screen that follows, click on a line below **OAuth Entity Scope** which is under the section **OAuth Entity Profile Scopes**. A small dialog box will pop-up. Click on the **magnifying class icon**.
+9.  In the screen that follows, double-click on a line below **OAuth Entity Scope** which is under the section **OAuth Entity Profile Scopes**. A small dialog box will pop-up. Click on the **magnifying class icon**.
 
     <figure><img src=".gitbook/assets/sc_mcp_oauth_entity_scope.png" alt=""><figcaption></figcaption></figure>
 10. In the next dialog box that appears, click **New**.
@@ -173,7 +178,7 @@ SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_7744_0001');
 
 <figure><img src=".gitbook/assets/sc_mcp_get_oauth_token.png" alt=""><figcaption></figcaption></figure>
 
-20. Your Lab Admin will provide the <mark style="color:green;">**a.)**</mark>**&#x20;Username** and <mark style="color:green;">**b.)**</mark>**&#x20;Password** and once entered  <mark style="color:green;">**c.)**</mark> click **Sign in**.
+20. Your Lab Admin will provide the <mark style="color:green;">**a.)**</mark>**&#x20;Username** and <mark style="color:green;">**b.)**</mark>**&#x20;Password** and once entered <mark style="color:green;">**c.)**</mark> click **Sign in**.
 
 <figure><img src=".gitbook/assets/sc_mcp_snowflake_sign_in.png" alt=""><figcaption></figcaption></figure>
 
@@ -226,12 +231,12 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
     <figure><img src=".gitbook/assets/sc_mcp_select_snowflake.png" alt=""><figcaption></figcaption></figure>
 11. In the same pop-up screen, select the tool **variance-baseline-search**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_variance_baseline_tool.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_mcp_variance_baseline_tool (2).png" alt="" width="375"><figcaption></figcaption></figure>
 12. Still in the same pop-up screen provide the following details. Screenshot on how the settings should look like immediately follows. You only need to modify three settings and leave the rest as they are.
 
 <mark style="color:green;">**a.)**</mark> **Name**: **Get Details in Snowflake MCP**
 
-<mark style="color:green;">**b.)**</mark> **Tool description**:&#x20;
+<mark style="color:green;">**b.)**</mark> **Tool description**:
 
 * query: Get the details via Snowflake MCP using the cost center taken from "Extract Cost Center" step (e.g. "CC\_IT\_001")
 * columns: \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]
@@ -248,14 +253,14 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
     <figure><img src=".gitbook/assets/sc_mcp_tools_section.png" alt=""><figcaption></figcaption></figure>
 14. Click **Save and Continue**.
 
-    <figure><img src=".gitbook/assets/sc_common_save_and_continue.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_common_save_and_continue (1).png" alt=""><figcaption></figcaption></figure>
 15. Since this is copied from an existing AI Agent configuration, simply accept the default values for **Define security controls** and its 2 sub-items. Also keep A**dd triggers value** blank.
 
     <figure><img src=".gitbook/assets/sc_mcp_security_defaults.png" alt=""><figcaption></figcaption></figure>
 16. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**.
 
     <figure><img src=".gitbook/assets/sc_mcp_channels_status_save.png" alt=""><figcaption></figcaption></figure>
-17. You **MIGHT**  be alerted of potential duplicates but this is due to the multiple AI Agents created to test various integration scenarios. Click **Ignore and continue**.
+17. You **MIGHT** be alerted of potential duplicates but this is due to the multiple AI Agents created to test various integration scenarios. Click **Ignore and continue**.
 
     <figure><img src=".gitbook/assets/sc_mcp_duplicate_warning.png" alt=""><figcaption></figcaption></figure>
 18. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
@@ -280,11 +285,11 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 * There is no available information indicating similar transactions for this vendor in the past based on the cost center being processed.
 *   Based on the available information, there is insufficient data to determine whether the results are mostly 'On Target', 'Over Budget', or 'Under Budget.' Please provide additional details or context for a more accurate evaluation. **Do the following steps to force an indexing job, but this is not a guaranteed fix if there is a high load in the shared lab ML services used in AI search**.
 
-    * Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Indexed Sources** > <mark style="color:green;">**b.)**</mark> click **AI Search > AI Search Index >** and Ctrl  / ⌘ + click **Indexed Sources** to open a new window.
+    * Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Indexed Sources** > <mark style="color:green;">**b.)**</mark> click **AI Search > AI Search Index >** and Ctrl / ⌘ + click **Indexed Sources** to open a new window.
 
     <figure><img src=".gitbook/assets/sc_common_indexed_sources_nav.png" alt=""><figcaption></figcaption></figure>
 
-    *   Search for **Sources** with the string <mark style="color:green;">**a.)**</mark> \*x\_snc\_forecast then Ctrl  / ⌘ + click both <mark style="color:green;">**b.)**</mark> **Cost Center Budget History Indexed Source** and <mark style="color:green;">**c.)**</mark>**&#x20;Expense Transactions Indexed Source** so you have two new windows for these objects.&#x20;
+    *   Search for **Sources** with the string <mark style="color:green;">**a.)**</mark> \*x\_snc\_forecast then Ctrl / ⌘ + click both <mark style="color:green;">**b.)**</mark> **Cost Center Budget History Indexed Source** and <mark style="color:green;">**c.)**</mark>**&#x20;Expense Transactions Indexed Source** so you have two new windows for these objects.
 
         <figure><img src=".gitbook/assets/sc_common_search_indexed_sources.png" alt=""><figcaption></figcaption></figure>
     * In the new window for **Center Budget History Indexed Source**, click **Index All Tables**.
