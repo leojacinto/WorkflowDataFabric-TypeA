@@ -23,7 +23,7 @@ You have already created an [Action](https://servicenow-lf.gitbook.io/the-workfl
 
 In this lab, you’ll step into the role of an Integration Architect or Integration Developer responsible for designing high-performance, event-driven integrations. Your task: configure Stream Connect for Apache Kafka in ServiceNow to ingest CMDB data from Kafka producers, bridging your organization’s ServiceNow environment with its broader data ecosystem.
 
-To have a better idea of the desired outcome, have a look at this demo video of how Stream Connect for Apache Kafka is able to populate CMDB data in real time: <a href="https://www.youtube.com/watch?v=y8N1j_qbr_E" target="_blank">https://www.youtube.com/watch?v=y8N1j_qbr_E</a>.
+To have a better idea of the desired outcome, have a look at this demo video of how Stream Connect for Apache Kafka is able to populate CMDB data in real time: [https://www.youtube.com/watch?v=y8N1j\_qbr\_E](https://www.youtube.com/watch?v=y8N1j_qbr_E).
 
 ## Outcome
 
@@ -33,13 +33,13 @@ Let’s get Streameeey! 🚀
 
 ## Acknowledgement
 
-The use case which is the basis of this lab is created by <a href="https://www.linkedin.com/in/kamal-shewakramani/" target="_blank">Kamal Shewakramani</a>.
+The use case which is the basis of this lab is created by [Kamal Shewakramani](https://www.linkedin.com/in/kamal-shewakramani/).
 
 ***
 
 ## Access pre-requisites
 
-1. The steps in this lab makes use of hermes1, a ServiceNow instance accessible only to ServiceNow internal employees. If you are a ServiceNow employee, you are able to HOP to hermes1 via this URL: <a href="http://hihop.service-now.com/hop.do?sysparm_instance=hermes1&mode=readwrite" target="_blank">http://hihop.service-now.com/hop.do?sysparm_instance=hermes1&mode=readwrite</a>
+1. The steps in this lab makes use of hermes1, a ServiceNow instance accessible only to ServiceNow internal employees. If you are a ServiceNow employee, you are able to HOP to hermes1 via this URL: [http://hihop.service-now.com/hop.do?sysparm\_instance=hermes1\&mode=readwrite](http://hihop.service-now.com/hop.do?sysparm_instance=hermes1\&mode=readwrite)
 2. This lab would still be useful for non-internal ServiceNow employees as this provides the framework and technical steps to configure Stream Connect for Apache Kafka for a Consumer scenario.
 3. Fully provisioned environments with all dependencies pre-configured are available through ServiceNow-led workshops and enablement sessions. Please note that this lab uses the latest ServiceNow components and license for Stream Connect, so provisioning requires lead time. Contact your ServiceNow representative or reach out to the author for availability.
 
@@ -49,8 +49,8 @@ The use case which is the basis of this lab is created by <a href="https://www.l
 
 This will reduce effort in building the Kafka Producer:
 
-1. Get a Docker account which can be created for free via <a href="https://www.docker.com/" target="_blank">https://www.docker.com/</a>
-2. Install Docker Desktop via <a href="https://docs.docker.com/desktop/" target="_blank">https://docs.docker.com/desktop/</a>
+1. Get a Docker account which can be created for free via https://www.docker.com/
+2. Install Docker Desktop via https://docs.docker.com/desktop/
 3.  Open Docker, search for apache/kafka latest image by using the **Search** bar then click **Pull**
 
     <figure><img src=".gitbook/assets/sc_docker_pull.png" alt=""><figcaption></figcaption></figure>
@@ -64,7 +64,7 @@ This will reduce effort in building the Kafka Producer:
 
 ### Alternative local machine option
 
-Kafka can also be set up in your local machine using in this page <a href="https://kafka.apache.org/quickstart" target="_blank">https://kafka.apache.org/quickstart</a> > **Step 1: Get Kafka** with JVM 17+ installed in your machine
+Kafka can also be set up in your local machine using in this page https://kafka.apache.org/quickstart > **Step 1: Get Kafka** with JVM 17+ installed in your machine
 
 ***
 
@@ -468,8 +468,8 @@ In the text above, take note of the portions below which you should replace with
 
 ## **Part 6: Additional Resources**
 
-* <a href="https://www.servicenow.com/au/standard/resource-center/data-sheet/ds-stream-connect-for-apache-kafka.html" target="_blank">Stream Connect for Apache Kafka Data Sheet</a>
-* <a href="https://learning.servicenow.com/lxp/en?id=learning_course_prev&course_id=0a25082c473ae950123f3975d36d43d6" target="_blank">Stream Connect for Apache Kafka Overview</a>
-* <a href="https://www.servicenow.com/docs/bundle/zurich-integrate-applications/page/administer/integrationhub/concept/stream-connect-quick-start.html" target="_blank">Stream Connect Quick Start Guide</a>
+* [Stream Connect for Apache Kafka Data Sheet](https://www.servicenow.com/au/standard/resource-center/data-sheet/ds-stream-connect-for-apache-kafka.html)
+* [Stream Connect for Apache Kafka Overview](https://learning.servicenow.com/lxp/en?id=learning_course_prev\&course_id=0a25082c473ae950123f3975d36d43d6)
+* [Stream Connect Quick Start Guide](https://www.servicenow.com/docs/bundle/zurich-integrate-applications/page/administer/integrationhub/concept/stream-connect-quick-start.html)
 
 [Take me back to main page](./)
