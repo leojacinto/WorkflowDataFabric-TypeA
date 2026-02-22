@@ -300,13 +300,19 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 ## Troubleshooting
 
-1. If the URL in **Action Configuration** > step 4 is failed to fetch data due to rate limiting or any other reason, you can upload the file here to trigger a created/updated row in x\_snc\_forecast\_v\_0\_expense\_transaction\_event. [Get the XML file here](https://raw.githubusercontent.com/leojacinto/WorkflowDataFabric-TypeA/refs/heads/main/.gitbook/assets/x_snc_forecast_v_0_expense_transaction_event.xml).
+1. If the URL in **Action Configuration** > step 4 is failed to fetch data due to rate limiting or any other reason, you can upload the file here to trigger a created/updated row in x\_snc\_forecast\_v\_0\_expense\_transaction\_event. [Get the XML file here](https://raw.githubusercontent.com/leojacinto/WorkflowDataFabric-TypeA/refs/heads/main/.gitbook/assets/x_snc_forecast_v_0_expense_transaction_event.xml). Additional notes:
+
+* If you are not using the action to fetch data via API and are uploading the XML file, change the trigger in **Custom Forecast Variance AI Agent** > step 11 to **Created or updated**, instead of **Created**.
+*   This approach is not representative of real integration scenario as you are only doing a file upload. A **Created** trigger will not initiate from an upload.
+
+    <figure><img src=".gitbook/assets/sc_ihub_alternate_trigger.png" alt="" width="563"><figcaption></figcaption></figure>
+
 2. The agent might not trigger after creating a new expense event entry in **x\_snc\_forecast\_v\_0\_expense\_transaction\_event** or throw errors like **Sorry, there was a problem on my side trying to complete this request. Try asking again later.** in Runtime of Flow, Actions, and AI Agents > step 8. This can be fixed by doing a dummy change in Custom Forecast Variance AI Agent > Steps 10 to 13; e.g, recreating the trigger.
 3. If the Now Assist Agent is not showing the action being executed and the history of chats like below, wait for 5 minutes or so and refresh your browser. This is primarily due to the instance's fresh Now Assist settings which you have just configured earlier.
 
 <figure><img src=".gitbook/assets/sc_common_troubleshoot_now_assist.png" alt=""><figcaption></figcaption></figure>
 
-3. If you get messages in Now Assist from the agent saying messages like below, this just means that indexing of the tables needed by the agent to search transactions is not yet completed. Wait for 10 to 15 minutes.
+4. If you get messages in Now Assist from the agent saying messages like below, this just means that indexing of the tables needed by the agent to search transactions is not yet completed. Wait for 10 to 15 minutes.
 
 * Errors/messages in Now Assist below. These do not affect the outcome of your lab activity as the agents and the tools related to this are already configured and is only related to the lab instance server load.
   * There is no available information indicating similar transactions for this vendor in the past based on the cost center being processed.
