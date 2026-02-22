@@ -65,7 +65,7 @@ graph LR
 
 ### <mark style="color:red;">**Lab Admins, do this in advance!**</mark> MCP Server Preparations
 
-1. You need access to a live Snowflake instance. Contact [Leo Francia](mailto:leo.francia@servicenow.com) for more details on instance access to <a href="https://xwtgfjs-jq54573.snowflakecomputing.com/" target="_blank">https://xwtgfjs-jq54573.snowflakecomputing.com/</a> which is used for this lab.
+1. You need access to a live Snowflake instance. Contact [Leo Francia](mailto:leo.francia@servicenow.com) for more details on instance access to [https://xwtgfjs-jq54573.snowflakecomputing.com/](https://xwtgfjs-jq54573.snowflakecomputing.com/) which is used for this lab.
 2.  Run the following in Snowflake for each lab instance. The first parameter is your lab prefix (e.g. `lef-feb-7318`) and the second is the instance running number (e.g. `0001`). For example, if your lab prefix is `lef-feb-7318` and you have 10 participants, you will need to run:
 
     ```sql
@@ -101,7 +101,7 @@ graph LR
 
 <figure><img src=".gitbook/assets/sc_mcp_manage_servers_new.png" alt=""><figcaption></figcaption></figure>
 
-3.  Enter the name as <mark style="color:green;">**a.)**</mark> **Snowflake MCP Lab** with <mark style="color:green;">**b.)**</mark> Authentication type OAuth 2.1 and with <mark style="color:green;">**c.)**</mark> the URL <a href="https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance_mcp_server" target="_blank"><strong>https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance_mcp_server</strong></a>. Then <mark style="color:green;">**d.)**</mark> click **Next**.
+3.  Enter the name as <mark style="color:green;">**a.)**</mark> **Snowflake MCP Lab** with <mark style="color:green;">**b.)**</mark> Authentication type OAuth 2.1 and with <mark style="color:green;">**c.)**</mark> the URL [**https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance\_mcp\_server**](https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance_mcp_server). Then <mark style="color:green;">**d.)**</mark> click **Next**.
 
     <figure><img src=".gitbook/assets/sc_mcp_add_server_details.png" alt=""><figcaption></figcaption></figure>
 4. The following screen has more inputs required.
@@ -116,9 +116,9 @@ graph LR
 
 <mark style="color:green;">**e.)**</mark> **Client Secret** will be provided to you by your **Lab Admin**
 
-<mark style="color:green;">**f.)**</mark> For **Authorization URL**, type <a href="https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/authorize" target="_blank"><strong>https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/authorize</strong></a>
+<mark style="color:green;">**f.)**</mark> For **Authorization URL**, type [**https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/authorize**](https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/authorize)
 
-<mark style="color:green;">**g.)**</mark> For **Token URL**, type <a href="https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request" target="_blank"><strong>https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request</strong></a>
+<mark style="color:green;">**g.)**</mark> For **Token URL**, type [**https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request**](https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request)
 
 <mark style="color:green;">**h.)**</mark> Click **Add**
 
@@ -192,7 +192,7 @@ graph LR
 
 ### Connecting to an MCP Server (Snowflake)
 
-This provides the steps needed to connect ServiceNow to an MCP (<a href="https://modelcontextprotocol.io/docs/getting-started/intro" target="_blank">Model Context Protocol</a>) Server tool configured in Snowflake. ServiceNow can serve as an MCP Client to connect to any solution that has MCP support.
+This provides the steps needed to connect ServiceNow to an MCP ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)) Server tool configured in Snowflake. ServiceNow can serve as an MCP Client to connect to any solution that has MCP support.
 
 This exercise does not cover the creation of the MCP Service from Snowflake as that requires administrator rights and CDW expertise which may not be widely available to various personas.
 

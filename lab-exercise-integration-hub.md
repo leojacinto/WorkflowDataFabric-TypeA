@@ -146,7 +146,7 @@ The scoped **Action** is a key feature for the trigger that obtains expense data
 3.  In the next screen, navigate to **Connections** > **New**.
 
     <figure><img src=".gitbook/assets/sc_ihub_connections_new.png" alt=""><figcaption></figcaption></figure>
-4.  Provide <mark style="color:green;">**a.)**</mark> **Name** as **Get Expense Event**, <mark style="color:green;">**b.)**</mark>**&#x20;Connection URL** as <a href="https://expense-event.free.beeceptor.com" target="_blank"><strong>https://expense-event.free.beeceptor.com</strong></a> then <mark style="color:green;">**c.)**</mark> click **Submit**.
+4.  Provide <mark style="color:green;">**a.)**</mark> **Name** as **Get Expense Event**, <mark style="color:green;">**b.)**</mark>**&#x20;Connection URL** as [**https://expense-event.free.beeceptor.com**](https://expense-event.free.beeceptor.com) then <mark style="color:green;">**c.)**</mark> click **Submit**.
 
     <figure><img src=".gitbook/assets/sc_ihub_connection_url_submit.png" alt=""><figcaption></figcaption></figure>
 5.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **ServiceNow Studio** then <mark style="color:green;">**b.)**</mark> click **App Engine > ServiceNow Studio**. This will open a new tab.
@@ -300,7 +300,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 ## Troubleshooting
 
-1. If the URL in **Action Configuration** > step 4 is failed to fetch data due to rate limiting or any other reason, you can upload the file here to trigger a created/updated row in x\_snc\_forecast\_v\_0\_expense\_transaction\_event. <a href="https://raw.githubusercontent.com/leojacinto/WorkflowDataFabric-TypeA/refs/heads/main/.gitbook/assets/x_snc_forecast_v_0_expense_transaction_event.xml" target="_blank">Get the XML file here</a>.
+1. If the URL in **Action Configuration** > step 4 is failed to fetch data due to rate limiting or any other reason, you can upload the file here to trigger a created/updated row in x\_snc\_forecast\_v\_0\_expense\_transaction\_event. [Get the XML file here](https://raw.githubusercontent.com/leojacinto/WorkflowDataFabric-TypeA/refs/heads/main/.gitbook/assets/x_snc_forecast_v_0_expense_transaction_event.xml).
 2. The agent might not trigger after creating a new expense event entry in **x\_snc\_forecast\_v\_0\_expense\_transaction\_event** or throw errors like **Sorry, there was a problem on my side trying to complete this request. Try asking again later.** in Runtime of Flow, Actions, and AI Agents > step 8. This can be fixed by doing a dummy change in Custom Forecast Variance AI Agent > Steps 10 to 13; e.g, recreating the trigger.
 3. If the Now Assist Agent is not showing the action being executed and the history of chats like below, wait for 5 minutes or so and refresh your browser. This is primarily due to the instance's fresh Now Assist settings which you have just configured earlier.
 
