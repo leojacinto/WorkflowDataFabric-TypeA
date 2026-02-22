@@ -84,7 +84,7 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 
 7. Wait for 5 to 10 minutes for the crawl job to finish. After the job has finished, it would have indexed the documents in SharePoint. In some cases, this can run up to 20+ minutes especially if there are a lot of large documents uploaded to SharePoint.
 
-<figure><img src=".gitbook/assets/sc_xcc_finished (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_xcc_crawl_finished.png" alt="" width="563"><figcaption></figcaption></figure>
 
 8. Click on <mark style="color:$success;">**a.)**</mark> **User profile** on top right corner (e.g., SA) > <mark style="color:$success;">**b.)**</mark>**&#x20;Impersonate user**.
 
@@ -92,7 +92,7 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 
 9. In the pop-up that appears > <mark style="color:green;">**a.)**</mark> type the name of the XCC-mapped user **Chi Fen** > <mark style="color:green;">**b.)**</mark> click on **Chi Fen** in the drop down <mark style="color:green;">**c.)**</mark> then finally click on **Chi Fen** again to complete impersonation.
 
-<figure><img src=".gitbook/assets/sc_xcc_select_impersonation (1).png" alt="" width="446"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_xcc_select_impersonation_chifen.png" alt="" width="446"><figcaption></figcaption></figure>
 
 10. You will get an indication that the impersonation is successful if you see a red line on the top panel and if your user profile has changed and has a red line on the portrait image as well.
 
@@ -104,7 +104,7 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 
 12. This will lead to the **Employee Center** home page. Click on **Now Assist** ("sparkle" icon) on the bottom right.
 
-<figure><img src=".gitbook/assets/sc_xcc_employee_center_home (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_xcc_employee_center_home_page.png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. This will open a open a pop-up for **Now Assist**. Click on **Expand** (two-headed diagonal icon) on the top right so you can have a better typing workspace.
 
@@ -116,7 +116,7 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 
 15. You will get a <mark style="color:green;">**a.)**</mark> detailed response based on the SharePoint documents that were crawled earlier, which is also aligned with the over-budget entries. Click on the <mark style="color:green;">**b.)**</mark> number **1** then <mark style="color:green;">**c.)**</mark> click on the PDF file **Strategic Memo - European Product Launch.pdf**.
 
-<figure><img src=".gitbook/assets/sc_xcc_response (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_xcc_response_detail.png" alt=""><figcaption></figcaption></figure>
 
 16. You will be directed to the file which has the content explaining why cost center **MKTG-FR-PR** went over-budget. You might be required to provide login/credentials, so if you are executing this lab in a ServiceNow managed environment, credentials to access this document will be provided separately in the lab session for security purposes.
 
