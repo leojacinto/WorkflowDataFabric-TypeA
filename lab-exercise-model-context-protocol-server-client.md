@@ -63,34 +63,6 @@ graph LR
 
 ## Steps
 
-### <mark style="color:red;">**Lab Admins, do this in advance!**</mark> MCP Server Preparations
-
-1. You need access to a live Snowflake instance. Contact [Leo Francia](mailto:leo.francia@servicenow.com) for more details on instance access to [https://xwtgfjs-jq54573.snowflakecomputing.com](https://xwtgfjs-jq54573.snowflakecomputing.com/) which is used for this lab.
-2.  Run the following in Snowflake for each lab instance. The first parameter is your lab prefix (e.g. `lef-feb-7318`) and the second is the instance running number (e.g. `0001`). For example, if your lab prefix is `lef-feb-7318` and you have 10 participants, you will need to run:
-
-    ```sql
-    CALL ALECTRI.FINANCE.SETUP_LAB_INSTANCE('lef-feb-7318', '0001');
-    CALL ALECTRI.FINANCE.SETUP_LAB_INSTANCE('lef-feb-7318', '0002');
-    CALL ALECTRI.FINANCE.SETUP_LAB_INSTANCE('lef-feb-7318', '0003');
-    -- repeat up to your last instance
-    CALL ALECTRI.FINANCE.SETUP_LAB_INSTANCE('lef-feb-7318', '0010');
-    ```
-3.  Each call returns a `SELECT` statement. Run each one to get the Client ID and Client Secret per instance.
-
-    ```sql
-    SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_7318_0001');
-    SELECT SYSTEM$SHOW_OAUTH_CLIENT_SECRETS('SN_MCP_7318_0002');
-    -- repeat for each instance
-    ```
-4. <mark style="color:red;">**\[IMPORTANT STEP TO AVOID LOGISTICAL ISSUES DURING LAB]**</mark> Compile the results into a shared file with one row per instance containing the **Client ID** and **Client Secret**. Share the file link with students, they will self-serve their own credentials based on their assigned instance number.
-5. During the lab session, verbally share the **Snowflake username and password** that students will need when prompted during the OAuth sign-in step. **Do not include this in the shared file.**
-6.  To clean up after the lab:
-
-    ```sql
-    CALL ALECTRI.FINANCE.TEARDOWN_LAB_INSTANCE('lef-feb-7318', '0001');
-    -- repeat for each instance
-    ```
-
 ### MCP Client Preparations
 
 1. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Settings**.
@@ -101,100 +73,27 @@ graph LR
 
 <figure><img src=".gitbook/assets/sc_mcp_manage_servers_new.png" alt=""><figcaption></figcaption></figure>
 
-3.  Enter the name as <mark style="color:green;">**a.)**</mark> **Snowflake MCP Lab** with <mark style="color:green;">**b.)**</mark> Authentication type OAuth 2.1 and with <mark style="color:green;">**c.)**</mark> the URL [**https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance\_mcp\_server**](https://xwtgfjs-jq54573.snowflakecomputing.com/api/v2/databases/alectri/schemas/finance/mcp-servers/variance_mcp_server). Then <mark style="color:green;">**d.)**</mark> click **Next**.
+3. Enter the details below:
 
-    <figure><img src=".gitbook/assets/sc_mcp_add_server_details.png" alt=""><figcaption></figcaption></figure>
-4. The following screen has more inputs required.
+<mark style="color:green;">**a.)**</mark> **Name:** **Neon MCP Lab**&#x20;
 
-<mark style="color:green;">**a.)**</mark> For **Client registration type** select **Manual Registration**
+<mark style="color:green;">**b.)**</mark>**&#x20;Authentication type:** **API Key**&#x20;
 
-<mark style="color:green;">**b.)**</mark> For **Grant type** select **Authorization Code**
+<mark style="color:green;">**c.)**</mark> **URL:** [**https://mcp.neon.tech/mcp**](https://mcp.neon.tech/mcp)
 
-<mark style="color:green;">**c.)**</mark> For **Token authentication method** select **Client Secret Basic**
+<mark style="color:green;">**d.)**</mark>**&#x20;API Key:** Bearer \<ask\_your\_lab\_guide\_for\_key>
 
-<mark style="color:green;">**d.)**</mark> **Client ID** will be provided to you by your **Lab Admin**
+Note: there should be the word **Bearer** as a prefix so your value in the API Key can be something like **Bearer napi\_some\_secure\_key**
 
-<mark style="color:green;">**e.)**</mark> **Client Secret** will be provided to you by your **Lab Admin**
+<mark style="color:green;">**e.)**</mark> **Add**
 
-<mark style="color:green;">**f.)**</mark> For **Authorization URL**, type [**https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/authorize**](https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/authorize)
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:green;">**g.)**</mark> For **Token URL**, type [**https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request**](https://xwtgfjs-jq54573.snowflakecomputing.com/oauth/token-request)
+### Connecting to an MCP Server (Neon)
 
-<mark style="color:green;">**h.)**</mark> Click **Add**
+This provides the steps needed to connect ServiceNow to an MCP ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)) Server tool configured in Neon. ServiceNow can serve as an MCP Client to connect to any solution that has MCP support.
 
-<figure><img src=".gitbook/assets/sc_mcp_oauth_config_details.png" alt="" width="563"><figcaption></figcaption></figure>
-
-5.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Connection & Credential Aliases** then <mark style="color:green;">**b.)**</mark> click **Connections & Credentials > Connection & Credential Aliases**.
-
-    <figure><img src=".gitbook/assets/sc_common_conn_cred_aliases_nav.png" alt=""><figcaption></figcaption></figure>
-6. Search for an entry with the prefix **AutoGen-Snowflake MCP Lab**. Take note of the string **Lab**! There might be an entry with a similar prefix.
-
-<figure><img src=".gitbook/assets/sc_mcp_search_autogen_alias.png" alt=""><figcaption></figcaption></figure>
-
-7. You can configure the alias by going through the link under the <mark style="color:green;">**a.)**</mark>**&#x20;Name** field or <mark style="color:green;">**b.)**</mark> Credential field. The succeeding screens are through the **Credential** field so click <mark style="color:green;">**b.)**</mark>.
-
-<figure><img src=".gitbook/assets/sc_mcp_configure_alias.png" alt=""><figcaption></figcaption></figure>
-
-8. Ctrl / ⌘ + click on the **i-icon** in the screen that follows to open a new window. <mark style="color:green;">**You will need to come back to this window later!**</mark>
-
-<figure><img src=".gitbook/assets/sc_mcp_oauth_credentials.png" alt=""><figcaption></figcaption></figure>
-
-9.  In the screen that follows, double-click on a line below **OAuth Entity Scope** which is under the section **OAuth Entity Profile Scopes**. A small dialog box will pop-up. Click on the **magnifying class icon**.
-
-    <figure><img src=".gitbook/assets/sc_mcp_oauth_entity_scope.png" alt=""><figcaption></figcaption></figure>
-10. In the next dialog box that appears, click **New**.
-
-<figure><img src=".gitbook/assets/sc_mcp_scope_dialog_new.png" alt=""><figcaption></figcaption></figure>
-
-11. Beside <mark style="color:green;">**a.)**</mark> Name and <mark style="color:green;">**b.)**</mark> OAuth scope, type **session:role:MCP\_SERVICE\_ROLE**.
-
-<figure><img src=".gitbook/assets/sc_mcp_scope_name_details.png" alt=""><figcaption></figcaption></figure>
-
-12. Beside OAuth provider, <mark style="color:green;">**a.)**</mark> type AutoGen and <mark style="color:green;">**b.)**</mark> select the entry with the prefix **AutoGen-Snowflake MCP Lab**, then <mark style="color:green;">**c.)**</mark> click **Submit**.
-
-<figure><img src=".gitbook/assets/sc_mcp_scope_oauth_provider.png" alt=""><figcaption></figcaption></figure>
-
-13. This will lead you back to the small dialog box, click the **check mark** to confirm your settings.
-
-<figure><img src=".gitbook/assets/sc_mcp_scope_confirm_check.png" alt=""><figcaption></figcaption></figure>
-
-14. This will lead to the screen below.
-
-<figure><img src=".gitbook/assets/sc_mcp_scope_result.png" alt=""><figcaption></figcaption></figure>
-
-15. Do the same steps you have done for **sesion:role:MCP\_SERVICE\_ROLE** but this time for the value **refresh\_token**. Put the value **refresh\_token** for **Name** and **OAuth scope**.
-
-<figure><img src=".gitbook/assets/sc_mcp_refresh_token_details.png" alt=""><figcaption></figcaption></figure>
-
-16. For OAuth provider, simply get your **Recent selections** item which has the **AutoGen-Snowflake MCP Lab** prefix.
-
-<figure><img src=".gitbook/assets/sc_mcp_refresh_token_provider.png" alt=""><figcaption></figcaption></figure>
-
-17. You will see the **sesion:role:MCP\_SERVICE\_ROLE** and **refresh\_token** entries stored. Right click on the header and click **Save**.
-
-<figure><img src=".gitbook/assets/sc_mcp_scopes_saved.png" alt=""><figcaption></figcaption></figure>
-
-19. Go back to your tab which has the **OAuth 2.0 Credentials** open and click **Get OAuth Token**.
-
-<figure><img src=".gitbook/assets/sc_mcp_get_oauth_token.png" alt=""><figcaption></figcaption></figure>
-
-20. Your Lab Admin will provide the <mark style="color:green;">**a.)**</mark>**&#x20;Username** and <mark style="color:green;">**b.)**</mark>**&#x20;Password** and once entered <mark style="color:green;">**c.)**</mark> click **Sign in**.
-
-<figure><img src=".gitbook/assets/sc_mcp_snowflake_sign_in.png" alt=""><figcaption></figcaption></figure>
-
-21. Click **Allow**.
-
-<figure><img src=".gitbook/assets/sc_mcp_snowflake_allow.png" alt=""><figcaption></figcaption></figure>
-
-22. Your will have a refreshed OAuth token that will last for 1 hour before it expires. You can now connect to the Snowflake cloud data warehouse via MCP and call MCP tools using ServiceNow's AI Agents.
-
-<figure><img src=".gitbook/assets/sc_mcp_oauth_token_refreshed.png" alt=""><figcaption></figcaption></figure>
-
-### Connecting to an MCP Server (Snowflake)
-
-This provides the steps needed to connect ServiceNow to an MCP ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)) Server tool configured in Snowflake. ServiceNow can serve as an MCP Client to connect to any solution that has MCP support.
-
-This exercise does not cover the creation of the MCP Service from Snowflake as that requires administrator rights and CDW expertise which may not be widely available to various personas.
+This exercise does not cover the creation of the MCP Service from Neon as that requires administrator rights and CDW expertise which may not be widely available to various personas.
 
 1. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
@@ -214,43 +113,42 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
 5.  You will get a prompt to confirm whether you want to duplicate the agent. Click **Duplicate**.
 
     <figure><img src=".gitbook/assets/sc_mcp_duplicate_confirm.png" alt=""><figcaption></figcaption></figure>
-6.  In the new Agent screen, go to the **AI agent name** and rename it to **Forecast Variance Snowflake MCP Lab**.
+6.  In the new Agent screen, go to the **AI agent name** and rename it to **Forecast Variance Neon MCP Lab**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_rename_agent_input.png" alt=""><figcaption></figcaption></figure>
-7.  In the section **Define the role and Required steps** under sub-section **List of steps**, go to step 2 after the paragraph which starts with **Get cost center obtained in...** then add **Also run the MCP tool "Get Details via Snowflake MCP" as a secondary check. Only return one entry (limit = 1). Columns should be \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]**. It should look like the screenshot below.
+    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+7.  In the section **Define the role and Required steps** under sub-section **List of steps**, go to step 2 after the paragraph which starts with **Get cost center obtained in...** then add **Also run the MCP tool "Get Details via Neon MCP" as a secondary check. Only return one entry (limit = 1). Columns should be \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]**. It should look like the screenshot below.
 
-    <figure><img src=".gitbook/assets/sc_mcp_define_role_add_step.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 8.  Click **Save and Continue**.
 
     <figure><img src=".gitbook/assets/sc_mcp_save_and_continue.png" alt=""><figcaption></figcaption></figure>
 9.  Navigate to <mark style="color:green;">**a.)**</mark> **Add tools and information** > <mark style="color:green;">**b.)**</mark> **Add tool** > <mark style="color:green;">**c.)**</mark> > **MCP server tool**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_add_tool_menu.png" alt=""><figcaption></figcaption></figure>
-10. In the pop-up that appears, <mark style="color:green;">**a.)**</mark> click on the **dropdown** > <mark style="color:green;">**b.)**</mark> select **Snowflake MCP**.
+    <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+10. In the pop-up that appears, <mark style="color:green;">**a.)**</mark> click on the **dropdown** > <mark style="color:green;">**b.)**</mark> select **Neon MCP**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_select_snowflake.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 11. In the same pop-up screen, select the tool **variance-baseline-search**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_variance_baseline_tool (2).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 12. Still in the same pop-up screen provide the following details. Screenshot on how the settings should look like immediately follows. You only need to modify three settings and leave the rest as they are.
 
-<mark style="color:green;">**a.)**</mark> **Name**: **Get Details in Snowflake MCP**
+<mark style="color:green;">**a.)**</mark> **Name**: Get Details via Neon MCP
 
 <mark style="color:green;">**b.)**</mark> **Tool description**:
 
-* query: Get the details via Snowflake MCP using the cost center taken from "Extract Cost Center" step (e.g. "CC\_IT\_001")
-* columns: \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]
-* limit: 1
+* projectId: shy-base-71725149 (camelCase, not project\_id)&#x20;
+* sql: SELECT cost\_center, actual\_amount\_usd, baseline\_amount\_usd, variance, variance\_pct FROM "VARIANCE\_BASELINE\_V" WHERE cost\_center = '\{{cost\_center\}}' LIMIT 1
 
 <mark style="color:green;">**c.)**</mark> **Execution mode**: **Autonomous**
 
 <mark style="color:green;">**d.)**</mark>**&#x20;Save**
 
-<figure><img src=".gitbook/assets/sc_mcp_tool_settings_detail.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. The pop-up will exit and you should get a section on **Model Context Protocol tools** which should look like below.
 
-    <figure><img src=".gitbook/assets/sc_mcp_tools_section.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 14. Click **Save and Continue**.
 
     <figure><img src=".gitbook/assets/sc_common_save_and_continue (1).png" alt=""><figcaption></figcaption></figure>
@@ -259,28 +157,24 @@ This exercise does not cover the creation of the MCP Service from Snowflake as t
     <figure><img src=".gitbook/assets/sc_mcp_security_defaults.png" alt=""><figcaption></figcaption></figure>
 16. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_channels_status_save.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 17. You **MIGHT** be alerted of potential duplicates but this is due to the multiple AI Agents created to test various integration scenarios. Click **Ignore and continue**.
 
     <figure><img src=".gitbook/assets/sc_mcp_duplicate_warning.png" alt=""><figcaption></figcaption></figure>
 18. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
 
     <figure><img src=".gitbook/assets/sc_mcp_test_input.png" alt="" width="478"><figcaption></figcaption></figure>
-19. The test will run for a few seconds and will show you that it is running the tool **Get Details in Snowflake MCP**. This is the additional tool you created earlier.
+19. The test will run for a few seconds and will show you that it is running the tool **Get Details in Neon MCP**. This is the additional tool you created earlier.
 
-    <figure><img src=".gitbook/assets/sc_mcp_test_running_tool.png" alt=""><figcaption></figcaption></figure>
-20. Finally, you will notice that the **Get Details in Snowflake MCP** has obtained the closest matching the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.
+    <figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+20. Finally, you will notice that the **Get Details in Neon MCP** has obtained the closest matching the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.
 
-    <figure><img src=".gitbook/assets/sc_mcp_test_mcp_results.png" alt=""><figcaption></figcaption></figure>
-21. **Challenge:** once you are done with this lab, see if you can remove the tool **Extract Cost Center** and replace it completely with the data from **Get Details via Snowflake MCP** as seen in step 7. No hints this time. 😉
+    <figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+21. **Challenge:** once you are done with this lab, see if you can remove the tool **Extract Cost Center** and replace it completely with the data from **Get Details via Neon MCP** as seen in step 7. No hints this time. 😉
 
 ## Troubleshooting
 
-1. If the Now Assist Agent is not showing the action being executed and the history of chats like below, wait for 5 minutes or so and refresh your browser. This is primarily due to the instance's fresh Now Assist settings which you have just configured earlier.
-
-<figure><img src=".gitbook/assets/sc_common_troubleshoot_now_assist.png" alt=""><figcaption></figcaption></figure>
-
-2. If you get messages in Now Assist from the agent saying messages like below, this just means that indexing of the tables needed by the agent to search transactions is not yet completed. Wait for 10 to 15 minutes.
+1. If you get messages in Now Assist from the agent saying messages like below, this just means that indexing of the tables needed by the agent to search transactions is not yet completed. Wait for 10 to 15 minutes.
 
 * Errors/messages in Now Assist below. These do not affect the outcome of your lab activity as the agents and the tools related to this are already configured and is only related to the lab instance server load.
   * There is no available information indicating similar transactions for this vendor in the past based on the cost center being processed.
