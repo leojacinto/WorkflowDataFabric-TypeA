@@ -7,9 +7,8 @@
 Finance teams discover budget overruns weeks too late. Expense analysis requires manually piecing together data from ERP systems, data warehouses, and SharePoint. By the time finance reacts, small variances become major problems. **ServiceNow Workflow Data Fabric transforms reactive financial management into proactive intelligence**. By unifying data across systems through Zero Copy for SQL and ERP, Spokes, External Content Connectors, MCP, and AI agents, organizations can:
 
 * **Detect budget issues in real-time** before they escalate
-* **Automate financial case creation** enriched with executive guidance and trend analysis
-* **Enable self-service insights** through natural language queries in Employee Center
 * **Scale financial operations** with AI agents, not headcount
+* **Automate financial case creation** enriched with multiple external data sources and trend analysis
 
 Your automations and AI Agents are just as good as your underlying data. Integrations powered by Workflow Data Fabric allow AI Agents to automate critical processes using accurate and consistent data.
 
