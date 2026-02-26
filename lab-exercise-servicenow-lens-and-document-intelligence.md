@@ -2,13 +2,17 @@
 hidden: true
 ---
 
-# Lab Exercise: ServiceNow Lens and Document Intelligence
+# Lab Exercise: ServiceNow  Document Intelligence and Lens
 
 <mark style="color:red;">**Lab Exercise creation in progress!**</mark>
 
 [Take me back to main page](./)
 
 This lab will walk you through the configuration and usage of ServiceNow Lens and Document Intelligence as sources of unstructured document data for interactive and batch capture of expense information from documents.
+
+**A note on this exercise:** In production, invoices are captured at the source: an ERP, procurement platform, or expense system, not uploaded directly into ServiceNow. ServiceNow's strength in this pattern is what happens _after_ ingestion: orchestrating validation against external data, enriching records via integration, and routing exceptions through case management. That's the capability we're demonstrating in most of the exercises in this lab.
+
+To keep this exercise self-contained and reuse the agent built in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub), we upload the document to a task record and let Document Intelligence extract it locally. Once the document is extracted, everything downstream such as the agent calls, the cross-system lookups, and the case creation, works the same regardless of how the document arrived. The document upload through a task table is a stand-in for the real action that happens in an ERP system. This exercise is about what ServiceNow _does_ with the document and is not about how it _receives_ it.
 
 ## Data flow
 
@@ -180,8 +184,13 @@ graph LR
 
 <figure><img src=".gitbook/assets/image (33).png" alt="" width="319"><figcaption></figcaption></figure>
 
-4.
-5. f
-6. f
+4. a
+5. a
+6. a
+7. a
+
+### Document Intelligence Runtime
+
+1. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
 
 [Take me back to main page](./)
