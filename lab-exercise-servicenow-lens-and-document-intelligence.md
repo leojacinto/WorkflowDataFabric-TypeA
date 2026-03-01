@@ -14,6 +14,8 @@ This lab will walk you through the configuration and usage of ServiceNow Lens an
 
 To keep this exercise self-contained and reuse the agent built in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub), we upload the document to a task record and let Document Intelligence extract it locally. Once the document is extracted, everything downstream such as the agent calls, the cross-system lookups, and the case creation, works the same regardless of how the document arrived. The document upload through a task table is a stand-in for the real action that happens in an ERP system. This exercise is about what ServiceNow _does_ with the document and is not about how it _receives_ it.
 
+A more detailed version of this exercise with significantly more configuration steps is available as standalone. Reach out to your Lab Administrator for more details.
+
 ## Data flow
 
 The data flow below shows how ServiceNow will get information from documents from invoices and further process said information to evaluate whether a Finance case should be created.
@@ -90,81 +92,58 @@ graph LR
 2.  Go to <mark style="color:green;">**a.)**</mark> **Platform** > <mark style="color:green;">**b.)**</mark>**&#x20;Other** > <mark style="color:green;">**c.)**</mark> type **Extract information from documents** > <mark style="color:green;">**d.)**</mark> click **Activate Skill**.
 
     <figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-3.  In the following screen, <mark style="color:green;">**a.)**</mark> put **Use case name** as **Extract Invoice Information** > <mark style="color:green;">**b.)**</mark>**&#x20;Target table** as **Expense Transaction Event**  > <mark style="color:green;">**c.)**</mark> leave everything else as is then click **Save and Continue**.&#x20;
+3.  Go to <mark style="color:green;">**a.)**</mark> **Create Usecase** > <mark style="color:green;">**b.)**</mark> click on **Expense Transaction Event.**
 
-    <figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
-4.  Click **Add a field** in the screen that follows.&#x20;
+    <figure><img src=".gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+4. In this screen, you do not have to configure anything as this has been preconfigured as a custom **use case** under the standard platform skill **Extract information from documents**. The sub-steps below only serve as a tour of the different configuration components for a Document Intelligence components.&#x20;
 
-    <figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
-5.  Click **Field**.&#x20;
+<mark style="color:green;">**a.)**</mark>**&#x20;Status: Active** indicates that this has been activated prior.
 
-    <figure><img src=".gitbook/assets/image (16).png" alt="" width="416"><figcaption></figcaption></figure>
-6. Provide the following details for the first field:
+<mark style="color:green;">**b.)**</mark>**&#x20;Target table: Expense Transaction Event** is the table that will save the extracted information from the documents. This can be a standard or a custom table
 
-<mark style="color:green;">**a.)**</mark>**&#x20;Field name: Vendor**
+<mark style="color:green;">**c.)**</mark>**&#x20;Full automation mode: On** indicates that this skill will automatically process and extract the information from uploaded documents. If [Document Intelligence Admin](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8700f4efc3a411101d9a3cadb140ddad/1.1.0) is installed, the thresholds fore **Full automation** to trigger can be set for each use case. Our scenario does not have it installed so we will configure the thresholds for Full automation mode in the latter steps.
 
-<mark style="color:green;">**b.)**</mark>**&#x20;Details: Vendor**
+<mark style="color:green;">**d.)**</mark>**&#x20;Field Names** show all of the relevant fields for this use case, these have been preconfigured.
 
-<mark style="color:green;">**c.)**</mark>**&#x20;Field type: Text**
+<mark style="color:green;">**e.)**</mark>**&#x20;Target fields** show the fields from the **Target table** where the extracted information will be saved in.
 
-<mark style="color:green;">**d.)**</mark>**&#x20;Target field: Vendor**
+<mark style="color:green;">**f.)**</mark>**&#x20;Type** is where the data type can be configured. For this scenario we are using Text for all as Document Intelligence is capable of mapping this to the appropriate data type in the target table in most cases.
 
-<mark style="color:green;">**e.)**</mark> Click **Save**
+<mark style="color:green;">**g.)**</mark> **Required** can be configured to set whether a field is mandatory for the Document Intelligence extraction, i.e. a blank required field will result into the extraction not being saved into the target table.
 
-<figure><img src=".gitbook/assets/image (15).png" alt="" width="416"><figcaption></figcaption></figure>
+<mark style="color:green;">**h.)**</mark>**&#x20;+ New field** allows addition of new fields for Document Intelligence to extract. No additional fields are needed for this scenario.
 
-7. Do the same for the following rest:
-   1. **Cost Center**
-      1. **Field name: Cost Center**
-      2. **Details: Cost Center**
-      3. **Field type: Text**
-      4. **Target field: Cost Center**
-      5. Click **Save**
-   2. **Amount USD**
-      1. **Field name: Amount USD**
-      2. **Details: Amount USD**
-      3. **Field type: Decimal**
-      4. **Target field: Amount USD**
-      5. Click **Save**
-8.  You should have a screen similar to below. Click **Save and Continue**.
+<mark style="color:green;">**i.)**</mark>**&#x20;Settings (gear icon)** allow you to toggle **Full Automation mode** and **Manage LLMs**.
 
-    <figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-9.  Skip the testing for now as we will need to fine-tune some parameters later. Click **Save and Continue**.
+<mark style="color:green;">**j.)**</mark> Go to **Integrations** tab.
 
-    <figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
-10. We do not need to add integrations for this use case. Click **Save and Continue**.
+<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
-11. Complete the setup, click **Complete setup**.
+5. In the integrations tab the following needs to be observed. The **Process** integration picks up the document from the source table and **Extract** integration extracts the contents of the document to be saved to the target table.
 
-    <figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
-12. Click **Return to use cases**.
+<mark style="color:green;">**a.)**</mark>**&#x20;Extract** integration should be present with the target table **x\_snc\_forecast\_v\_0\_expense\_transaction\_event (Expense Transaction Event)**.
 
-    <figure><img src=".gitbook/assets/image (21).png" alt="" width="375"><figcaption></figcaption></figure>
-13. Click **Save and Continue**.
+<mark style="color:green;">**b.)**</mark>**&#x20;DocIntel Extract Values Flow - Expense Transaction Event - Extract** should be the Flow assigned. If it is not assigned, double click and type the name of the flow to assign it. This is a scoped Flow and is created specifically for this use case.
 
-    <figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
-14. Click **Save and Continue**.
+<mark style="color:green;">**c.)**</mark>**&#x20;Process** integration should be present with the target table **x\_snc\_forecast\_v\_0\_expense\_transaction\_event (Expense Transaction Event)**.
 
-    <figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
-15. Click **Activate**.
+<mark style="color:green;">**d.)**</mark>**&#x20;DocIntel Task Processing Flow - Expense Transaction Event - Process** should be the Flow assigned. If it is not assigned, double click and type the name of the flow to assign it. This is a scoped Flow and is created specifically for this use case.
 
-    <figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
-16. Click **Return to Platform**.&#x20;
+<mark style="color:green;">**e.)**</mark> If everything is correct, click **Exit**.
 
-    <figure><img src=".gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure>
-17. You will be redirected to the Skills screen so <mark style="color:green;">**a.)**</mark> search for **Extract information from documents** > <mark style="color:green;">**b.)**</mark> Click the **vertical three dot button** > <mark style="color:green;">**c.)**</mark> click **Edit**.&#x20;
+<figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src=".gitbook/assets/image (26).png" alt="" width="563"><figcaption></figcaption></figure>
-18. In the next screen, click **Extract Invoice Information**.
+6. Click **Save and Continue**.&#x20;
 
-    <figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
-19. In the screen that follows, click on the **settings icon**.
+<figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src=".gitbook/assets/image (28).png" alt="" width="180"><figcaption></figcaption></figure>
-20. Toggle <mark style="color:green;">**a.)**</mark> **Full automation mode**, then <mark style="color:green;">**b.)**</mark> click **Save**.
+5.  Click **Activate**.&#x20;
 
-    <figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+6.  Click **Return to Platform**.&#x20;
+
+    <figure><img src=".gitbook/assets/image (25).png" alt="" width="563"><figcaption></figcaption></figure>
+7. You will be redirected to the Skills screen and this concludes the walkthrough of the Skills needed for document extraction.
 
 ### Document Intelligence Runtime
 
