@@ -78,6 +78,8 @@ graph LR
     class Employee,EC user
 ```
 
+## Steps
+
 ### Document Intelligence Config
 
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
