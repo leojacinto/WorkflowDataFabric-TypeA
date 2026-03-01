@@ -78,7 +78,7 @@ graph LR
     class Employee,EC user
 ```
 
-### Document Intelligence Configuration
+### Document Intelligence Config
 
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
 
@@ -141,7 +141,7 @@ graph LR
 
     <figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-### Document Intelligence Runtime
+### Document Intelligence Parameters
 
 1. Steps 2 to 4 are applicable if you do **NOT** have [Document Intelligence Admin](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8700f4efc3a411101d9a3cadb140ddad/1.1.0) plugin installed which is the case for this lab. Succeeding versions of this lab will have the said plugin installed which will result in a more streamlined experience.
 2.  For this step, change the scope to Global by navigating to the <mark style="color:green;">**a.)**</mark> **globe icon** and clicking <mark style="color:green;">**b.)**</mark> **Global** application scope.
@@ -234,5 +234,7 @@ graph LR
 
     <figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 18. Congratulations! You have walked through the configuration and runtime of Document Intelligence, integrated with AI Agents that process the contents of the invoice for appropriate case handling for over-budget cost centers.
+
+### Lens - <mark style="color:red;">pending!</mark>
 
 [Take me back to main page](./)
