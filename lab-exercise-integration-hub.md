@@ -286,7 +286,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 <mark style="color:green;">**f.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed. In this case it is FINC0010020.
 
-<figure><img src=".gitbook/assets/sc_ihub_agent_results_overview.png" alt="" width="516"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_ihub_agent_results_overview.png" alt=""><figcaption></figcaption></figure>
 
 12. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
@@ -294,7 +294,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 13. For this exercise, we are not impersonating a persona so you remain as the System user.
 
     <figure><img src=".gitbook/assets/sc_common_fow_system_user.png" alt=""><figcaption></figcaption></figure>
-14. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case created by the AI Agent, FINC0010020 in the example above.
+14. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > <mark style="color:green;">**c.)**</mark> sort by **Number** descending/ascending > <mark style="color:green;">**d.)**</mark> or look for the Finance case created by the AI Agent, FINC0010020 in the example above.
 
 <figure><img src=".gitbook/assets/sc_ihub_finance_case_list.png" alt=""><figcaption></figcaption></figure>
 
