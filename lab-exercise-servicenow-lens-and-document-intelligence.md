@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Lab Exercise: ServiceNow Document Intelligence and Lens
 
 [Take me back to main page](./)
