@@ -2,9 +2,7 @@
 hidden: true
 ---
 
-# Lab Exercise: ServiceNow  Document Intelligence and Lens
-
-<mark style="color:red;">**Lab Exercise creation in progress!**</mark>
+# Lab Exercise: ServiceNow Document Intelligence and Lens
 
 [Take me back to main page](./)
 
@@ -143,11 +141,13 @@ graph LR
 6.  Click **Return to Platform**.&#x20;
 
     <figure><img src=".gitbook/assets/image (25).png" alt="" width="563"><figcaption></figcaption></figure>
-7. You will be redirected to the Skills screen and this concludes the walkthrough of the Skills needed for document extraction.
+7.  You will be redirected to the Skills screen and this concludes the walkthrough of the Skills needed for document extraction.
+
+    <figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 ### Document Intelligence Runtime
 
-1. Steps 2 to 4 are applicable if you do not have Document Intelligence Admin plugin installed which is the case for this lab. Succeeding versions of this lab will have the said plugin installed which will result in a more streamlined experience.
+1. Steps 2 to 4 are applicable if you do **NOT** have [Document Intelligence Admin](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8700f4efc3a411101d9a3cadb140ddad/1.1.0) plugin installed which is the case for this lab. Succeeding versions of this lab will have the said plugin installed which will result in a more streamlined experience.
 2.  For this step, change the scope to Global by navigating to the <mark style="color:green;">**a.)**</mark> **globe icon** and clicking <mark style="color:green;">**b.)**</mark> **Global** application scope.
 
     <figure><img src=".gitbook/assets/image (30).png" alt="" width="321"><figcaption></figcaption></figure>
@@ -155,7 +155,7 @@ graph LR
 
 <figure><img src=".gitbook/assets/image (31).png" alt="" width="373"><figcaption></figcaption></figure>
 
-4. Search for <mark style="color:green;">**a.)**</mark> **\*threshold** and update the values of the three parameters below <mark style="color:green;">**b.)**</mark> to **0.01**. This is to reduce the threshold for the automation
+4. Search for <mark style="color:green;">**a.)**</mark> **\*threshold** and update the values of the three parameters below <mark style="color:green;">**b.)**</mark> to **0.01**. This is to reduce the threshold for the automation and avoid trial and error issues. In a production environment, you are likely to test and fine-tune this to ensure exceptions are caught and corrected manually.
 
 <figure><img src=".gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
@@ -163,13 +163,80 @@ graph LR
 
 <figure><img src=".gitbook/assets/image (33).png" alt="" width="319"><figcaption></figcaption></figure>
 
-4. a
-5. a
-6. a
-7. a
-
 ### Document Intelligence Runtime
 
-1. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
+1.  Go to **All** > type **x\_snc\_forecast\_v\_0\_variance\_task.do** and hit **Return/Enter ↵**.&#x20;
+
+    <figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+2. We will be uploading a document in the **x\_snc\_forecast\_v\_0\_variance\_task** task table. As mentioned earlier in this lab, ServiceNow is not a usual source of uploaded invoices as invoice uploads are normally done in ERP systems. The objective of these next steps is to show how ServiceNow would be able to capture information from similar documents and process them upstream. **Remember the automatically generated task ID!** Your task ID might differ from what is displayed in this screen, will need this later. Follow the steps below:
+
+<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:green;">**a.)**</mark> Put **CC\_IT\_002** as the short description. You can make it as descriptive as you like, the intent is to idenfify this as a document upload for this cost center.
+
+<mark style="color:green;">**b.)**</mark> Click the **Attach (**[**paper clip**](https://cepr.org/voxeu/columns/ai-and-paperclip-problem)**)** button.
+
+2. Obtain the invoice file to attach which is a sample invoice for CC\_IT\_002 cost center. File here: [**Invoice\_IT\_Laptop\_CC\_IT\_002.pdf**](https://raw.githubusercontent.com/leojacinto/WorkflowDataFabric-TypeA/refs/heads/main/.gitbook/assets/Invoice_IT_Laptop_CC_IT_002.pdf).
+3.  Click **Choose file**.
+
+    <figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+4.  Upload the file > <mark style="color:green;">**a.)**</mark> [**Invoice\_IT\_Laptop\_CC\_IT\_002.pdf**](https://raw.githubusercontent.com/leojacinto/WorkflowDataFabric-TypeA/refs/heads/main/.gitbook/assets/Invoice_IT_Laptop_CC_IT_002.pdf) > <mark style="color:green;">**b.)**</mark> click **Exit (x)**.&#x20;
+
+    <figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+5.  Go to field > <mark style="color:green;">**a.)**</mark>**&#x20;State** and > <mark style="color:green;">**b.)**</mark> change it to **Work in Progress**.&#x20;
+
+    <figure><img src=".gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+6.  You can _either_ <mark style="color:green;">**a.)**</mark> right-click on the header and click **Save** or > <mark style="color:green;">**b.)**</mark> simply click **Submit**.&#x20;
+
+    <figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+7.  In the same browser window, you will notice that there is a new **Now Assist badge**. This is the AI Agent at work in the back end because the Document Intelligence integration flows have been triggered by changing the status of the task in which we have uploaded the Invoice to. This in turn triggered the same agent in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub). Click on the **Now Assist icon** with the updated badge count. If the **Now Assist badge** does not appear, simply reload your page.
+
+    <figure><img src=".gitbook/assets/sc_ihub_now_assist_badge_notification.png" alt=""><figcaption></figcaption></figure>
+8.  This will open the **Now Assist** chat. Click on the two-headed diagonal arrow to Enter **Modal**.
+
+    <figure><img src=".gitbook/assets/sc_ihub_now_assist_chat_expand.png" alt=""><figcaption></figcaption></figure>
+9. This will expand the Now Assist window.
+
+<mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** show tools used.
+
+<mark style="color:green;">**b.)**</mark> Note the **Event ID** extracted from the invoice event. We are using **Event ID** to leverage the flow built in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub). Note that in a real business scenario, the relevant field would be invoice ID or something similar for such a document type used in this exercise.
+
+<mark style="color:green;">**c.)**</mark> Note the **cost\_center** and **vendor** extracted from the expense event.
+
+<mark style="color:green;">**d.)**</mark> There are no results from the **Retrieval-augmented Generation (RAG) search** for this vendor.
+
+<mark style="color:green;">**e.)**</mark> You can also access the **RAG search** results for the vendors associated with the expense event.
+
+<mark style="color:green;">**f.)**</mark> Finally, if the expense event will lead to the associated cost center being over budget, the total cost center expense and the **Finance Case** created for exceeding the budget for further review and action is listed. In this case it is FINC0010017.
+
+<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
+10. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
+
+<figure><img src=".gitbook/assets/sc_common_fow_nav.png" alt=""><figcaption></figcaption></figure>
+
+11. For this exercise, we are not impersonating a persona so you remain as the System user.
+
+<figure><img src=".gitbook/assets/sc_common_fow_system_user.png" alt=""><figcaption></figcaption></figure>
+
+12. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > <mark style="color:green;">**c.)**</mark> sort by **Number** descending/ascending > <mark style="color:green;">**d.)**</mark> or look for the Finance case created by the AI Agent, FINC0010017 in the example above.&#x20;
+
+    <figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+13. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
+
+    <figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+14. Go to <mark style="color:green;">**a.)**</mark> **Platform** > <mark style="color:green;">**b.)**</mark>**&#x20;Other** > <mark style="color:green;">**c.)**</mark> type **Extract information from documents** > go to **Extract information from documents** > **vertical tree dot** > <mark style="color:green;">**d.)**</mark>**&#x20;Edit**.
+
+    <figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+15. Go to <mark style="color:green;">**a.)**</mark> **Create Usecase** > <mark style="color:green;">**b.)**</mark> click on **Expense Transaction Event.**
+
+    <figure><img src=".gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+16. In the screen that follows, go to <mark style="color:green;">**a.)**</mark> **Test Outputs** > <mark style="color:green;">**b.)**</mark> note the **Task ID** automatically generated when you created an entry in **x\_snc\_forecast\_v\_0\_variance\_task**. Your task ID may differ from what is show here.  Finally, > <mark style="color:green;">**c.)**</mark> > click on **Process**.
+
+    <figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+17. You can do several things here. Notice the <mark style="color:green;">**a.)**</mark> **Invoice** you uploaded with the <mark style="color:green;">**b.)**</mark>**&#x20;information** now extracted. You can also see the <mark style="color:green;">**c.)**</mark>**&#x20;Status**. You also have the option to open the section into a new **Document Intelligence** window.
+
+    <figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+18. Congratulations! You have walked through the configuration and runtime of Document Intelligence, integrated with AI Agents that process the contents of the invoice for appropriate case handling for over-budget cost centers.
 
 [Take me back to main page](./)
