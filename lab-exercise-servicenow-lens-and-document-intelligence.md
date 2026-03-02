@@ -239,4 +239,20 @@ graph LR
 
 ### Lens - <mark style="color:red;">pending!</mark>
 
+1.
+2.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
+
+    <figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+3.  Go to <mark style="color:green;">**a.)**</mark> **Platform** > <mark style="color:green;">**b.)**</mark>**&#x20;Other** > <mark style="color:green;">**c.)**</mark> type **ServiceNow AI Lens** > <mark style="color:green;">**d.)**</mark> click **Turn on**.
+
+    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+4.  Accept defaults and click **Turn on**.
+
+    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+5. a
+6. a
+7. a
+8. a
+9.
+
 [Take me back to main page](./)

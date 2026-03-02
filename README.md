@@ -36,7 +36,7 @@ By completing this lab, you'll build an interconnected financial intelligence pl
 
 You'll master the architectural patterns for transforming siloed enterprise data into unified, intelligent decision-making platforms. **Let's build something intelligent**. 🚀💡
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Table of contents
 
@@ -93,3 +93,14 @@ Fully provisioned environments with all dependencies pre-configured are availabl
 ### About the author
 
 This lab is created by [Leo Francia](https://www.linkedin.com/in/leojmfrancia/), a Data Architect at ServiceNow, and is in no way a ServiceNow official manual. Leo is an active member of the [ServiceNow community](https://www.servicenow.com/community/workflow-data-fabric/ct-p/workflow-data-fabric) and presales organization so do not hesitate to drop him a note. He is also not sure if he should continue to talk about himself in the third person, but please let him be.
+
+### Acknowledgement
+
+This lab would not have been possible without the help of exceptional colleagues at ServiceNow:
+
+* [Kamal Shewakramani](https://www.linkedin.com/in/kamal-shewakramani/)
+* [Gurjot Joshi](https://www.linkedin.com/in/gurjotjoshi/)
+* [Santosh Panda](https://www.linkedin.com/in/santosh-panda015/)
+* [Jia Khee Lim](https://www.linkedin.com/in/jia-khee-lim-79427a151/)
+* [Rahul Adlakha](https://www.linkedin.com/in/rahuladlakha/)
+* [Theo Simmons](https://www.linkedin.com/in/theo-simmonsnow/)
