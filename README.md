@@ -16,7 +16,7 @@ With the trend of external agents reaching through enterprise data, it is worth 
 
 ## Persona context
 
-You're a **Data Architect** serving the Finance department. Finance Managers need immediate visibility into budget performance. Cost Center Owners need to understand why they're over budget; with context, not just numbers. **Your mission**: Build an intelligent financial data fabric that connects ServiceNow to external systems, deploys AI agents to detect and analyze budget issues automatically, surfaces executive guidance, and enables self-service analytics through Employee Center and Claude Desktop. You'll solve three critical problems:
+You're a **Data Architect** serving the Finance department. Finance Managers need immediate visibility into budget performance. Cost Center Owners need to understand why they're over budget; with context beyond just numbers. **Your mission**: Build an intelligent financial data fabric that connects ServiceNow to external systems, deploys AI agents to detect and analyze budget issues automatically, surfaces executive guidance, and enables self-service analytics through Employee Center and Claude Desktop. You'll solve three critical problems:
 
 1. "We find out about budget overruns too late: can we get real-time alerts?"
 2. "Investigation means manually searching expenses, reports, and memos: can you unify this?"
@@ -24,28 +24,31 @@ You're a **Data Architect** serving the Finance department. Finance Managers nee
 
 ## Outcome
 
-By completing this lab, you'll build a production-grade financial intelligence platform demonstrating:
+By completing this lab, you'll build an interconnected financial intelligence platform demonstrating:
 
 * **Integration Hub** for real-time expense event processing
 * **Zero Copy integration** with ERP and cloud warehouses (no data duplication)
-* **MCP Server** enabling Claude Code or Desktop to analyze ServiceNow financial data
-* **AI agents** that autonomously detect issues, analyze trends, and create contextual cases
+* **MCP Server** enabling integration with any application that supports the protocol
+* **AI agents** that autonomously searches via [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation), analyze trends, and create contextual cases
+* **Lens and Document Intelligence** for invoice data capture individually or batch, respectively
 * <mark style="color:$warning;">**\[Controlled Lab]**</mark>**&#x20;External Content Connector** bringing executive memos into agent decisions
-* <mark style="color:$warning;">**\[Roadmap]**</mark>**&#x20;Lens and Document Intelligence** for invoice data capture individually or batch, respectively
+* **Finance Case Management** which receives the cases pre-processed by the AI Agents based on data taken from WDF
 
 You'll master the architectural patterns for transforming siloed enterprise data into unified, intelligent decision-making platforms. **Let's build something intelligent**. 🚀💡
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ## Table of contents
 
-This lab is divided into 5 exercises with the suggested sequence below. The ServiceNow-led lab environments which contains these exercises will allow you to complete individual labs in any sequence you prefer. The exercises focus on walk through and basic configuration of Workflow Data Fabric integrations and there are pre-made custom agents that make use of the integrations to demonstrate what is possible. You will not need to configure agents in this exercise but steps are provided on how you can explore how the agents were configured.
+This lab is divided into 5 exercises with the suggested sequence below. The ServiceNow-led lab environments which contains these exercises will allow you to complete individual labs in any sequence you prefer. The exercises focus on walk through and basic configuration of Workflow Data Fabric integrations and there are pre-made custom agents that make use of the integrations to demonstrate what is possible. You will not need to configure agents in this lab but steps are provided on how you can explore how the agents were configured.
 
 This is designed to be a full day workshop covering most of WDF's capabilities. As such, we will not be able to cover in great depth all of the capabilities. If there are capabilities most relevant to your requirements, do ask your Lab Admin if there is a relevant deep dive lab available.
 
 <table><thead><tr><th width="203.09375">Topic</th><th width="180.48828125">Difficulty</th><th>AI Agents involved</th><th>Suggested duration</th></tr></thead><tbody><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/0_wdf_diagrams">Workflow Data Fabric Diagrams</a></td><td>N/A</td><td>No</td><td>N/A</td></tr><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/1_fundamentals">Lab Exercise: Fundamentals</a></td><td>Basic</td><td>No</td><td>30 minutes</td></tr><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub">Lab Exercise: Integration Hub</a></td><td>Intermediate</td><td>Yes</td><td>45 minutes</td></tr><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy">Lab Exercise: Zero Copy Connectors</a></td><td>Intermediate</td><td>Yes</td><td>1 hour</td></tr><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/6_mcp_and_ai_control_tower">Lab Exercise: Model Context Protocol Server/Client</a></td><td>Intermediate</td><td>Yes</td><td>1 hour</td></tr><tr><td><a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/5_lens_and_docintel">Lab Exercise: ServiceNow Lens and Document Intelligence</a></td><td>Basic</td><td>Yes</td><td>30 minutes</td></tr><tr><td><mark style="color:$warning;"><strong>[Controlled Lab]</strong></mark> <a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/4_external_content_connector">Lab Exercise: External Content Connector</a></td><td>Basic</td><td>Yes</td><td>20 minutes</td></tr></tbody></table>
 
-## Recommended materials
+## Post-lab recommended materials
 
-Below is a list of recommended courses that you can read up on to learn more about Workflow Data Fabric.
+Below is a list of recommended courses that you can read up on after the lab to learn more about Workflow Data Fabric.
 
 <table><thead><tr><th width="203.09375">Course</th><th width="180.48828125">Level</th><th>Type</th><th>Duration</th></tr></thead><tbody><tr><td><a href="https://learning.servicenow.com/lxp/en/automation-engine/suite-certification-workflow-data-fabric?id=learning_path_prev&#x26;path_id=668f6e1497069250e4fb72de2153af9d">Workflow Data Fabric</a></td><td>Advanced</td><td>Learning Path</td><td>4 days, 2 hours</td></tr><tr><td><a href="https://learning.servicenow.com/lxp/en/automation-engine/sprint-to-workflow-data-fabric-suite-certification?id=learning_course_prev&#x26;course_id=6862722387102e905aa9ca2d0ebb3591">Sprint to Workflow Data Fabric Suite Certification</a></td><td>Advanced</td><td>Course</td><td>2 days, 5 hours</td></tr></tbody></table>
 
@@ -80,8 +83,8 @@ Before attempting these exercises, ensure you have access and license entitlemen
 Each lab is designed to be conceptually valuable even without a fully configured environment. You can:
 
 * Follow along to understand the architectural patterns and configuration steps
-* Adapt the exercises to your own data sources and systems
 * Use the provided screenshots and sample outputs as reference
+* Adapt the exercises to your own data sources and systems
 
 ### Guided lab sessions and object dependencies
 

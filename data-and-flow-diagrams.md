@@ -4,11 +4,11 @@
 
 ## Components
 
-Let us first start by breaking down the different components of the lab. In a tightly integrated ServiceNow landscape that spans various internal ServiceNow components and external data sources, the diagram below would be a good represenation. These internal and external components will be used by Flows and AI Agents to provide the automations needed to solve our business problem of managing financial budgets. While the components will look overwhelming, the reality is customer landscapes require this level of complexity to manage different types of data across multiple functions. The key thing to note is the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop).
+Let us first start by breaking down the different components of the lab. The diagram below is a good representation of a tightly integrated ServiceNow landscape that spans various internal ServiceNow components and external data sources. These internal and external components will be used by Flows and AI Agents to provide the automations needed to solve our business problem of managing financial budgets. While the components will look overwhelming, the reality is customer landscapes require this level of complexity to manage different types of data across multiple functions. The key thing to note is the end user will interact with **Work Center**, **Employee Center**, or an **MCP Client** (e.g., Claude Code or Desktop).
 
 ### External system prerequisites
 
-Baseline configuration for the external systems listed in this lab are done prior to the steps listed. As mentioned in the disclaimer, environments which will have the prereqiusite external systems will be available externally for customers soon and for time being, you can use this lab as a guide on how the components will interact.
+Baseline integration to the external systems listed in this lab have mostly been configured.
 
 ```mermaid
 graph LR
@@ -42,7 +42,9 @@ graph LR
 
 ### User interaction layer
 
-The end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**. These three interfaces will be end test scenario for the lab exercises.
+The end user will interact with **Work Center**, **Employee Center**, or an **MCP Client** (e.g., Claude Code or Desktop). These three interfaces will be end test scenario for the lab exercises.
+
+As of March-2026 version of this lab, MCP Server access through Claude or similar is not yet included.
 
 ```mermaid
 graph LR
@@ -130,9 +132,9 @@ graph LR
 
 These data integrations match the external sources mentioned earlier.
 
-* **Zero Copy Connector for SQL**: also known as ZCC for SQL will connect to the Snowflake data assets for the lab, specifically the Cost Center History, Expenses, and Summary.
-* **Zero Copy Connector for ERP**: also known as ZCC for ERP will get the cost center master data from SAP.
 * **Integration Hub**: will access the REST API data, for the lab it will be a periodic trigger.
+* **Zero Copy Connector for ERP**: also known as ZCC for ERP will get the cost center master data from SAP.
+* **Zero Copy Connector for SQL**: also known as ZCC for SQL will connect to the Snowflake data assets for the lab, specifically the Cost Center History, Expenses, and Summary.
 * **External Content Connector**: will access the indexed documents in SharePoint to enrich decision making and automations for our finance workflow.
 
 #### Zero Copy Tables
