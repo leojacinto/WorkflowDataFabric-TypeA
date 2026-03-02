@@ -117,7 +117,7 @@ graph LR
     <figure><img src=".gitbook/assets/sc_common_assistant_designer_logo.png" alt="" width="240"><figcaption></figcaption></figure>
 14. Go to **Now Assist in Virtual Agent (default)** > **Edit**. Note that this is another configuration tile!
 
-    <figure><img src=".gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 15. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
     <figure><img src=".gitbook/assets/sc_common_display_experiences_link.png" alt="" width="563"><figcaption></figcaption></figure>
