@@ -87,7 +87,7 @@ Note: there should be the word **Bearer** as a prefix so your value in the API K
 
 <mark style="color:green;">**e.)**</mark> **Add**
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Connecting to an MCP Server (Neon)
 
@@ -115,10 +115,10 @@ This exercise does not cover the creation of the MCP Service from Neon as that r
     <figure><img src=".gitbook/assets/sc_mcp_duplicate_confirm.png" alt=""><figcaption></figcaption></figure>
 6.  In the new Agent screen, go to the **AI agent name** and rename it to **Forecast Variance Neon MCP Lab**.
 
-    <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 7.  In the section **Define the role and Required steps** under sub-section **List of steps**, go to step 2 after the paragraph which starts with **Get cost center obtained in...** then add **Also run the MCP tool "Get Details via Neon MCP" as a secondary check. Only return one entry (limit = 1). Columns should be \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]**. It should look like the screenshot below.
 
-    <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 8.  Click **Save and Continue**.
 
     <figure><img src=".gitbook/assets/sc_mcp_save_and_continue.png" alt=""><figcaption></figcaption></figure>

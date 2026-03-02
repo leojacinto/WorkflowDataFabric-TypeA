@@ -38,13 +38,13 @@ graph LR
     class MockExpense external
 ```
 
-## Lab story so far
+## Lab story
 
-While you have the power of CMDB at your fingertips, there are processes which require specific steps and data formats. You will need to create a scoped table which will store information from an expense event API.
+While you have the power of CMDB at your fingertips, the process we are solving for here does not concern CI data. You will need to create a scoped table which will store information from an expense event API. This can come from cloud services such as AWS or Azure.
 
 The table you will create here will not be used for the rest of the steps and serves mainly to introduce how target tables for REST API endpoints are created for ServiceNow.
 
-## AI Search Configuration
+## AI Search configuration
 
 1. This configuration section includes setting up of AI Search which is a critical tool for the AI Agents. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
 2.  Using an private/incognito browser window, log into your instance as:
@@ -106,18 +106,16 @@ The table you will create here will not be used for the rest of the steps and se
 12. Let us use one column as an example. Provide the <mark style="color:green;">**a.)**</mark> **Type**, in this case **String**. Provide the <mark style="color:green;">**b.)**</mark> **Column label**, in this example, **Cost Center** which will automatically populate the <mark style="color:green;">**c.)**</mark> **Column name**. Since this is the string, provide the <mark style="color:green;">**d.)**</mark> **Max length** of **40**. Finally, right click on then header and <mark style="color:green;">**e.)**</mark> **Save**.
 
     <figure><img src=".gitbook/assets/sc_fund_field_details.png" alt="" width="563"><figcaption></figcaption></figure>
-13. Do the same steps for all of the 16 other fields below. Note that the **Column label**, **Column name**, **Type**, **Max length** vary across some columns. For now, keep **Display** as **false** across all fields.
+13. Do the same steps for all of the 16 other fields below. Note that the **Column label**, **Column name**, **Type**, **Max length** vary across some columns. For now, keep **Display** as **false** across all fields. Notice that these 16 fields are expense, invoice, or finance related, specifically tied to the business process problem we are solving for. Correct data foundations are critical to ensure that agents have the correct context and structure especially when delivering enterprise use cases.
 
     <figure><img src=".gitbook/assets/sc_fund_all_fields.png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusion
 
-Congratulations! You have created the destination table within ServiceNow for the external REST API sources. As a recap, the table you created will not be used for the rest of the steps and serves mainly to introduce how target tables for REST API endpoints are created for ServiceNow.
+Congratulations! You have created the destination table within ServiceNow for the external REST API sources. As a recap, the table you created will **NOT** be used for the rest of the steps and serves mainly to introduce how target tables for REST API endpoints are created for ServiceNow.
 
 ## Next step
 
-Let us continue building the data foundations for the use case. Next up is creation of the Data Fabric tables which will be used by AI Agents. Click [here to proceed with configuring the Data Fabric tables using ServiceNow's Zero Copy capability](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
-
-Alternatively, you can focus purely on REST API connectivity by proceeding with the [Integration Hub configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub).
+Let us continue building the data foundations for the use case. Next up is creation of the Data Fabric tables which will be used by AI Agents. Let us work on AI Agents' ability to use REST API connectivity by proceeding with the [Integration Hub configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub).
 
 [Take me back to main page](./)

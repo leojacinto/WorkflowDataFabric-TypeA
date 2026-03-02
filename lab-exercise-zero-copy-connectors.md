@@ -132,7 +132,7 @@ graph LR
     <figure><img src=".gitbook/assets/sc_common_assistant_designer_logo.png" alt="" width="240"><figcaption></figcaption></figure>
 15. Go to **Now Assist in Virtual Agent (default)** > **Edit**. Note that this is another configuration tile!
 
-    <figure><img src=".gitbook/assets/sc_common_now_assist_va_edit.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="/broken/files/arrd0BvvFBw5U2LUYR3J" alt="" width="375"><figcaption></figcaption></figure>
 16. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
     <figure><img src=".gitbook/assets/sc_common_display_experiences_link.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -276,7 +276,7 @@ This is a walk through of how the an AI Agent with equipped with both determinis
 
 5. You might get multiple results so only get the one which says **Forecast Variance** only.
 
-<figure><img src=".gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sc_zcc_forecast_variance_agent.png" alt="" width="563"><figcaption></figcaption></figure>
 
 6.  Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
 
