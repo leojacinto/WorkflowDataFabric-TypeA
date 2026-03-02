@@ -237,22 +237,48 @@ graph LR
     <figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 18. Congratulations! You have walked through the configuration and runtime of Document Intelligence, integrated with AI Agents that process the contents of the invoice for appropriate case handling for over-budget cost centers.
 
-### Lens - <mark style="color:red;">pending!</mark>
+### AI Lens
 
-1.
-2.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
+**ServiceNow AI Lens** is a capability that allows capturing of information from documents and images via UI (dialog) with the use of AI. Unlike Document Intelligence which can execute in the back-end (e.g. by picking information from documents attached in cases or tasks), Lens requires user interaction. Also unlike Document Intelligence, Lens requires less set-up upfront.
+
+1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
 
     <figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-3.  Go to <mark style="color:green;">**a.)**</mark> **Platform** > <mark style="color:green;">**b.)**</mark>**&#x20;Other** > <mark style="color:green;">**c.)**</mark> type **ServiceNow AI Lens** > <mark style="color:green;">**d.)**</mark> click **Turn on**.
+2.  Go to <mark style="color:green;">**a.)**</mark> **Platform** > <mark style="color:green;">**b.)**</mark>**&#x20;Other** > <mark style="color:green;">**c.)**</mark> type **ServiceNow AI Lens** > <mark style="color:green;">**d.)**</mark> click **Turn on**.
 
-    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-4.  Accept defaults and click **Turn on**.
+    <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+3.  Accept defaults and click **Turn on**.
+
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+4.  A pop-up will appear, click **Back to skills**.
+
+    <figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+5. The **Lens** version in used in the lab is 3.01. If you have already obtained Lens for your own use, skip steps 6 and 7.
+6.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **ServiceNow AI Lens** > <mark style="color:green;">**b.)**</mark> click on **ServiceNow AI Lens > Downloads**.
 
     <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-5. a
-6. a
-7. a
-8. a
-9.
+7.  Download and install the appropriate Lens installation package for your device. As there are three possible device types, installation steps are not shown in this guide. It is generally safe to follow the default prompts in the installation package.
+
+    <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+8. Obtain the invoice file to attach which is a sample invoice for **PROD\_DE\_2** cost center. File here: [**Invoice\_Injection\_PROD\_DE\_2.pdf**](https://raw.githubusercontent.com/leojacinto/WorkflowDataFabric-TypeA/refs/heads/main/.gitbook/assets/Invoice_Injection_PROD_DE_2.pdf)**.** Open the file once you have downloaded it.
+9.  Go to **All** > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**.
+
+    <figure><img src=".gitbook/assets/sc_common_expense_event_nav.png" alt=""><figcaption></figcaption></figure>
+10. Click **Create with Lens** which can be found at the top right portion of the navigation.
+
+    <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+11. This will open a pop-up. <mark style="color:green;">**a.)**</mark> Decide whether you want to always allow your instance to open the app associated with the **Create with Lens button**, i.e. ServiceNow Lens. Having this box ticked or unticked will not affect the Lens app's execution. Then <mark style="color:green;">**b.)**</mark> click **Open ServiceNow AI Lens.app**.
+
+    <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+12. This will open the **Lens** app. <mark style="color:green;">**a.)**</mark> Drag the **Lens** app displayed as a frame with green and indigo gradient. You might instinctively drag the app by just clicking at the frame - you don't have to do this! You can also click on the <mark style="color:green;">**b.)**</mark> space inside the frame if you wish to drag it. You can also <mark style="color:green;">**c.)**</mark> resize the frame to capture the relevant area of the document. Click **Analyze** once you are done and wait for a few seconds for Lens to process the document.
+
+    <figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+13. Your **Expense Transaction Event** new record in your browser will be populated with the data from the invoice. As with any AI solution, processing time is required which makes important to weigh the benefit of a UI-based document scanner against a backend-friendly solution like Document Intelligence. Click **Submit**.
+
+    <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+14. The new **Expense Transaction Event** is now saved.
+
+    <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+15. Congratulations! You now have explored the capabilities of both Document Intelligence and AI Lens.
 
 [Take me back to main page](./)
