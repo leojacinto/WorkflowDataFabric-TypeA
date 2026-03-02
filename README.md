@@ -104,3 +104,4 @@ This lab would not have been possible without the help of exceptional colleagues
 * [Jia Khee Lim](https://www.linkedin.com/in/jia-khee-lim-79427a151/)
 * [Rahul Adlakha](https://www.linkedin.com/in/rahuladlakha/)
 * [Theo Simmons](https://www.linkedin.com/in/theo-simmonsnow/)
+* [Quentin Carton](https://www.linkedin.com/in/quentincarton/)
