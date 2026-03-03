@@ -31,7 +31,7 @@ By completing this lab, you'll build an interconnected financial intelligence pl
 * **MCP Server** enabling integration with any application that supports the protocol
 * **AI agents** that autonomously searches via [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation), analyze trends, and create contextual cases
 * **Lens and Document Intelligence** for invoice data capture individually or batch, respectively
-* <mark style="color:$warning;">**\[Controlled Lab]**</mark>**&#x20;External Content Connector** bringing executive memos into agent decisions
+* <mark style="color:$warning;">**\[Controlled Lab]**</mark>**&#x20;External Content Connector** bringing executive memos into making decisions
 * **Finance Case Management** which receives the cases pre-processed by the AI Agents based on data taken from WDF
 
 You'll master the architectural patterns for transforming siloed enterprise data into unified, intelligent decision-making platforms. **Let's build something intelligent**. 🚀💡

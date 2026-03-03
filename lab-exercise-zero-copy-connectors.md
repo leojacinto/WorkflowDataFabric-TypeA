@@ -124,7 +124,7 @@ graph LR
 12. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
     <figure><img src=".gitbook/assets/sc_common_display_experiences_link.png" alt="" width="563"><figcaption></figcaption></figure>
-13. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Unified Navigation app shell** is selected. If it is not added, you may need to select it from **Add ServiceNow platform** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
+13. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Unified Navigation app shell** is selected. If it is not added, you may need to select it from **Add ServiceNow platform** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**. This step is needed to ensure that the Now Assist panel is accessible when AI Agents are triggered.
 
     <figure><img src=".gitbook/assets/sc_common_unified_nav_settings.png" alt=""><figcaption></figcaption></figure>
 14. Click on the **Assistant Designer** logo at the top left. You may need to refresh your page to make sure it has picked up the latest status of **Now Assist Panel - Platform (default)**.
@@ -132,11 +132,11 @@ graph LR
     <figure><img src=".gitbook/assets/sc_common_assistant_designer_logo.png" alt="" width="240"><figcaption></figcaption></figure>
 15. Go to **Now Assist in Virtual Agent (default)** > **Edit**. Note that this is another configuration tile!
 
-    <figure><img src="/broken/files/arrd0BvvFBw5U2LUYR3J" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/sc_common_virtual_agent_edit.png" alt="" width="375"><figcaption></figcaption></figure>
 16. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
     <figure><img src=".gitbook/assets/sc_common_display_experiences_link.png" alt="" width="563"><figcaption></figcaption></figure>
-17. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Employee Center** is selected. If it is not added, you may need to select it from **Add portal** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**.
+17. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Employee Center** is selected. If it is not added, you may need to select it from **Add portal** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**. This step is needed to ensure that the Virtual Agent is accessible in Employee Center where most end users will do their day to day tasks such as processing and opening cases.
 
 <figure><img src=".gitbook/assets/sc_common_employee_center_display.png" alt=""><figcaption></figcaption></figure>
 
