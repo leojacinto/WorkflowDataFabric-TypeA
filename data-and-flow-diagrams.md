@@ -175,7 +175,7 @@ Do not let the chart intimidate you 😉. This will be broken down further and t
 You can skip the review of the diagram below if you prefer, and head straight into the lab exercises, each of which having its individual (and much more broken down 😉) data flow.
 
 * [Lab Exercise: Fundamentals](1_Fundamentals.md)
-* [Lab Exercise: Integration Hub](2_Integration_Hub.md)
+* [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub)
 * [Lab Exercise: Zero Copy Connectors](lab-exercise-zero-copy-connectors.md)
 * [Lab Exercise: Model Context Protocol Server/Client](6_MCP_and_AI_Control_Tower.md)
 * [Lab Exercise: ServiceNow Lens and Document Intelligence](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/5_lens_and_docintel)
