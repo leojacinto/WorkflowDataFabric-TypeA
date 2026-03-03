@@ -177,9 +177,9 @@ You can skip the review of the diagram below if you prefer, and head straight in
 * [Lab Exercise: Fundamentals](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/data-and-flow-diagrams)
 * [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub)
 * [Lab Exercise: Zero Copy Connectors](lab-exercise-zero-copy-connectors.md)
-* [Lab Exercise: Model Context Protocol Server/Client](6_MCP_and_AI_Control_Tower.md)
-* [Lab Exercise: ServiceNow Lens and Document Intelligence](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/5_lens_and_docintel)
-* <mark style="color:$warning;">**\[Controlled Lab]**</mark> [Lab Exercise: External Content Connector](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/4_external_content_connector)
+* [Lab Exercise: Model Context Protocol Server/Client](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-model-context-protocol-server-client)
+* [Lab Exercise: ServiceNow Lens and Document Intelligence](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-servicenow-lens-and-document-intelligence)
+* <mark style="color:$warning;">**\[Controlled Lab]**</mark> [Lab Exercise: External Content Connector](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-external-content-connector)
 
 ```mermaid fullWidth="true"
 graph LR
