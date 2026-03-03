@@ -105,3 +105,4 @@ This lab would not have been possible without the help of exceptional colleagues
 * [Rahul Adlakha](https://www.linkedin.com/in/rahuladlakha/)
 * [Theo Simmons](https://www.linkedin.com/in/theo-simmonsnow/)
 * [Quentin Carton](https://www.linkedin.com/in/quentincarton/)
+* [Dan Clark](https://www.linkedin.com/in/dannyclark/)
