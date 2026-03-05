@@ -76,13 +76,15 @@ graph LR
 
 ## Steps
 
-### Platform Configuration
+### Preparation: Platform Configuration
 
-1. Back as **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
+These are required preparation steps in platform level. These are cross configurations that affect instance behaviour (across applications).
+
+1. As **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
 2.  Ensure you are in the correct scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials.
 
     <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
-3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
+3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Users and Groups** > <mark style="color:green;">**b.)**</mark> click on **Users and Groups > Users**.
 
     <figure><img src=".gitbook/assets/sc_common_agent_studio_users_nav.png" alt=""><figcaption></figcaption></figure>
 4.  Search for <mark style="color:green;">**a.)**</mark> **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.
@@ -133,9 +135,28 @@ graph LR
 
 <figure><img src=".gitbook/assets/sc_common_now_assist_turn_on.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Action configuration
+### Preparation: Initial Checks
 
-The scoped **Action** is a key feature for the trigger that obtains expense data via REST API. If you wish to learn more on how Flows and AI Agents can get high more granular and higher throughput of data through streaming, have a look at the bonus exercise on [Stream Connect for Apache Kafka](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/99_kafka_stream_connect).
+Verify Now Assist panel is accessible. Navigate to the expense event table and verify it's empty. Run the Reset Script if needed.&#x20;
+
+1.  If you have set up the Now Assist Panel correctly, you should see the Now Assist icon on the top right.&#x20;
+
+    <figure><img src=".gitbook/assets/sc_ihub_now_assist_panel.png" alt=""><figcaption></figcaption></figure>
+2.  Ensure you are in the correct scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials.
+
+    <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
+3.  Go to **All** > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**. Ensure that it is empty.
+
+    <figure><img src=".gitbook/assets/sc_common_expense_event_nav.png" alt=""><figcaption></figcaption></figure>
+4. This list **SHOULD** be **EMPTY** for the AI agent to work. If it is **NOT** empty, <mark style="color:green;">**a.)**</mark> click on all the items by clicking the **top-rightmost check box** > <mark style="color:green;">**b.)**</mark> click **Action on selected rows...** > <mark style="color:green;">**c.)**</mark> click **Delete** > <mark style="color:green;">**d.)**</mark> click **Delete** again. The flow does not have robust exception handling for this lab so this manual step is required to ensure that the scripts will run properly.
+
+<figure><img src=".gitbook/assets/sc_ihub_expense_event_delete.png" alt=""><figcaption></figcaption></figure>
+
+3. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create an**
+
+### Hands-on: Connection Setup
+
+Navigate to Connection & Credential Aliases. Open the pre-configured "Get Expense Event" alias. Create a new Connection pointing to the REST API endpoint.
 
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Connection & Credential Aliases** then <mark style="color:green;">**b.)**</mark> click **Connections & Credentials > Connection & Credential Aliases**.
 
@@ -149,14 +170,21 @@ The scoped **Action** is a key feature for the trigger that obtains expense data
 4.  Provide <mark style="color:green;">**a.)**</mark> **Name** as **Get Expense Event**, <mark style="color:green;">**b.)**</mark>**&#x20;Connection URL** as [**https://expense-event.free.beeceptor.com**](https://expense-event.free.beeceptor.com) then <mark style="color:green;">**c.)**</mark> click **Submit**. The structure of the table in [Lab Exercise: Fundamentals](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-fundamentals) is based on the data coming from this REST API endpoint. The data from this endpoint will be written into the scoped table through a scoped **Action**.
 
     <figure><img src=".gitbook/assets/sc_ihub_connection_url_submit.png" alt=""><figcaption></figcaption></figure>
-5.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **ServiceNow Studio** then <mark style="color:green;">**b.)**</mark> click **App Engine > ServiceNow Studio**. This will open a new tab.
+
+### Walkthrough: Action
+
+The scoped **Action** is a key feature for the trigger that obtains expense data via REST API. If you wish to learn more on how Flows and AI Agents can get more granular and higher throughput of data through streaming, have a look at the bonus exercise on [Stream Connect for Apache Kafka](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/99_kafka_stream_connect).
+
+For this section: Open ServiceNow Studio > Forecast Variance app > Automation > Actions > Get Expense Event. Explore the Base URL, Imported Specifications, and Output mappings. Understand how REST response maps to table fields.
+
+1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **ServiceNow Studio** then <mark style="color:green;">**b.)**</mark> click **App Engine > ServiceNow Studio**. This will open a new tab.
 
     <figure><img src=".gitbook/assets/sc_ihub_servicenow_studio_nav.png" alt=""><figcaption></figcaption></figure>
-6. In the **ServiceNow Studio** tab that pops up under **Apps**, <mark style="color:green;">**a.)**</mark> type Forecast Variance and <mark style="color:green;">**b.)**</mark> click on **Forecast Variance**. Note that you may need to search for a different a App name if you used a different label for your scope.
+2. In the **ServiceNow Studio** tab that pops up under **Apps**, <mark style="color:green;">**a.)**</mark> type Forecast Variance and <mark style="color:green;">**b.)**</mark> click on **Forecast Variance**. Note that you may need to search for a different a App name if you used a different label for your scope.
 
 <figure><img src=".gitbook/assets/sc_ihub_studio_forecast_variance.png" alt="" width="334"><figcaption></figcaption></figure>
 
-3. In this current version of the lab, we will  walk you through the components. <mark style="color:green;">**a.)**</mark> **Go to Automation** > **Actions** > **Get Expense Event**. It will open the Action and from there <mark style="color:green;">**b.)**</mark> **click on Get Expense Event**. The <mark style="color:green;">**c.)**</mark> **Base URL** here is coming from a service that creates the expense event and the <mark style="color:green;">**d.)**</mark> **Imported Specifications** are also generated from the same service. No further action is needed in this section.
+3. In this current version of the lab, we will walk you through the components. <mark style="color:green;">**a.)**</mark> **Go to Automation** > **Actions** > **Get Expense Event**. It will open the Action and from there <mark style="color:green;">**b.)**</mark> **click on Get Expense Event**. The <mark style="color:green;">**c.)**</mark> **Base URL** here is coming from a service that creates the expense event and the <mark style="color:green;">**d.)**</mark> **Imported Specifications** are also generated from the same service. No further action is needed in this section.
 
 <figure><img src=".gitbook/assets/sc_ihub_studio_action_1.png" alt=""><figcaption></figcaption></figure>
 
@@ -166,9 +194,11 @@ The scoped **Action** is a key feature for the trigger that obtains expense data
 
 5. You now have familiarity of the **Action** used by the **Subflow** needed to trigger the **AI agent**, which is described in the next section.
 
-### Custom Forecast Variance AI agent
+### Walkthrough: Custom Forecast Variance AI Agent
 
-This is a walk through of how an AI agent with equipped with both deterministic and probabilistic capabilities can automate research and validation of cost center history and expenses; as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not an OOTB agent.
+This is a walk through of how an AI agent equipped with both deterministic and probabilistic capabilities can automate research and validation of cost center history and expenses; as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not an OOTB agent.
+
+For this section: Open AI Agent Studio > Forecast Variance Integration Hub Trigger. Explore: Define the specialty (plain English instructions), Add tools (Search retrievals + Subflows), Define security controls (Dynamic user + admin role).
 
 1.  Go to **All** > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**. Ensure that it is empty.
 
@@ -197,13 +227,20 @@ This is a walk through of how an AI agent with equipped with both deterministic 
 8.  Under **Define security controls** > <mark style="color:green;">**a.)**</mark> click **Define data access** > <mark style="color:green;">**b.)**</mark> select **Dynamic user** from the drop down then > <mark style="color:green;">**c.)**</mark> add **admin** user as the **Approved role** if the field is not filled out yet. For this exercise we are using permissive authorisations but this is where you can tighten authorisations for your agents allowing mechanisms such as inheriting the authorisations of logged in user (Dynamic identity type) or a predefined set of access (AI User identity type).
 
     <figure><img src=".gitbook/assets/sc_ihub_define_security.png" alt=""><figcaption></figcaption></figure>
-9.  Next, click on **Define trigger**, which is a key part of this exercise.&#x20;
 
-    <figure><img src=".gitbook/assets/sc_ihub_define_trigger_view.png" alt=""><figcaption></figcaption></figure>
-10. <mark style="color:red;">**\[IMPORTANT STEP]**</mark> Due to a bug related to the update set for this lab, if there is an existing trigger, you will need to delete that and **re-create**. Click the <mark style="color:green;">**a.)**</mark> **delete** icon then <mark style="color:green;">**b.)**</mark> click **Add trigger**.
+### Hands-on: Configure AI Agent Trigger
 
-    <figure><img src=".gitbook/assets/sc_ihub_trigger_delete_add.png" alt=""><figcaption></figcaption></figure>
-11. Enter the details below for the trigger. These are basic information to identify your trigger. When the parameters in the trigger are satisfied, this will fire off the AI agent.
+Delete any existing trigger. Create new trigger: Table = Expense Transaction Event, Field = Vendor, Condition = is not empty. Toggle trigger ON. Save.
+
+1. Next, click on **Define trigger**, which is a key part of this exercise.
+
+<figure><img src=".gitbook/assets/sc_ihub_define_trigger_view.png" alt=""><figcaption></figcaption></figure>
+
+2. <mark style="color:red;">**\[IMPORTANT STEP]**</mark> Due to a bug related to the update set for this lab, if there is an existing trigger, you will need to delete that and **re-create**. Click the <mark style="color:green;">**a.)**</mark> **delete** icon then <mark style="color:green;">**b.)**</mark> click **Add trigger**.
+
+<figure><img src=".gitbook/assets/sc_ihub_trigger_delete_add.png" alt=""><figcaption></figcaption></figure>
+
+3. Enter the details below for the trigger. These are basic information to identify your trigger. When the parameters in the trigger are satisfied, this will fire off the AI agent.
 
 <mark style="color:green;">**a.)**</mark> **Select trigger**: **Created**
 
@@ -215,7 +252,7 @@ This is a walk through of how an AI agent with equipped with both deterministic 
 
 <figure><img src=".gitbook/assets/sc_ihub_trigger_details_1.png" alt=""><figcaption></figcaption></figure>
 
-12. More details to add below before finally saving the trigger configuration. These configurations include the target table and field and condition that needs to be satisfied to fire off the trigger, as well as logging.&#x20;
+4. More details to add below before finally saving the trigger configuration. These configurations include the target table and field and condition that needs to be satisfied to fire off the trigger, as well as logging.
 
 <mark style="color:green;">**a.)**</mark> **Table**: **Expense Transaction Event**
 
@@ -229,20 +266,22 @@ This is a walk through of how an AI agent with equipped with both deterministic 
 
 <figure><img src=".gitbook/assets/sc_ihub_trigger_details_2.png" alt=""><figcaption></figcaption></figure>
 
-13. Click **Save and Continue**.
+5. Click **Save and Continue**.
 
 <figure><img src=".gitbook/assets/sc_common_save_and_continue (1).png" alt=""><figcaption></figcaption></figure>
 
-14. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Make sure your configuration is set as below. Once done, <mark style="color:green;">**d.)**</mark> click **Save**. <mark style="color:green;">**Keep this browser window open! You will need again it later**</mark>.
+6. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Make sure your configuration is set as below. Once done, <mark style="color:green;">**d.)**</mark> click **Save**. <mark style="color:green;">**Keep this browser window open! You will need again it later**</mark>.
 
 <figure><img src=".gitbook/assets/sc_ihub_select_channels.png" alt=""><figcaption></figcaption></figure>
 
-### Runtime of Flow, Actions, and AI agents
+### Hands-on: Flow Execution
+
+Open Flow Designer > Subflows > Get Expense Event. Click Test > Run Test. Wait for completion. Click execution details link. Verify all steps show Completed or Evaluated - True.
 
 1.  In a **new browser window**, go to All > <mark style="color:green;">**a.)**</mark> type **Flow Designer** and go to <mark style="color:green;">**b.)**</mark> **Process Automation** > **Flow Designer**. This will open the app in a new tab.
 
     <figure><img src=".gitbook/assets/sc_ihub_flow_designer_nav.png" alt=""><figcaption></figcaption></figure>
-2. In the new **Flow Designer** tab that just opened, <mark style="color:green;">**a.)**</mark> click **Subflows** > <mark style="color:green;">**b.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type Get Expense Event then <mark style="color:green;">**d.)**</mark> click **Apply**.&#x20;
+2. In the new **Flow Designer** tab that just opened, <mark style="color:green;">**a.)**</mark> click **Subflows** > <mark style="color:green;">**b.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type Get Expense Event then <mark style="color:green;">**d.)**</mark> click **Apply**.
 
 <figure><img src=".gitbook/assets/sc_ihub_flow_search.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -266,13 +305,19 @@ This is a walk through of how an AI agent with equipped with both deterministic 
 
 <figure><img src=".gitbook/assets/sc_ihub_test_results.png" alt=""><figcaption></figcaption></figure>
 
-8.  Go back to the earlier browser window with **AI Agent Studio**. You will notice that there is a new **Now Assist badge**. This is the AI agent at work in the back end because the **Get Expense Event** subflow has triggered a change in the **Expense Transaction Event** table. Click on the **Now Assist icon** with the updated badge count. If the **Now Assist badge** does not appear, simply reload your page.
+### Walkthrough: Agent Runtime
 
-    <figure><img src=".gitbook/assets/sc_ihub_now_assist_badge_notification.png" alt=""><figcaption></figcaption></figure>
-9.  This will open the **Now Assist** chat. Click on the two-headed diagonal arrow to Enter **Modal**.
+Return to AI Agent Studio browser window. Look for the Now Assist badge. Open Now Assist chat. Expand to Modal view. Explore: planning steps, event ID extraction, RAG search results, budget analysis, Finance Case link.
 
-    <figure><img src=".gitbook/assets/sc_ihub_now_assist_chat_expand.png" alt=""><figcaption></figcaption></figure>
-10. Here is an overview of the steps that were executed.
+1. Go back to the earlier browser window with **AI Agent Studio**. You will notice that there is a new **Now Assist badge**. This is the AI agent at work in the back end because the **Get Expense Event** subflow has triggered a change in the **Expense Transaction Event** table. Click on the **Now Assist icon** with the updated badge count. If the **Now Assist badge** does not appear, simply reload your page.
+
+<figure><img src=".gitbook/assets/sc_ihub_now_assist_badge_notification.png" alt=""><figcaption></figcaption></figure>
+
+2. This will open the **Now Assist** chat. Click on the two-headed diagonal arrow to Enter **Modal**.
+
+<figure><img src=".gitbook/assets/sc_ihub_now_assist_chat_expand.png" alt=""><figcaption></figcaption></figure>
+
+3. Here is an overview of the steps that were executed.
 
 <mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** show tools used.
 
@@ -288,15 +333,25 @@ This is a walk through of how an AI agent with equipped with both deterministic 
 
 <figure><img src=".gitbook/assets/sc_ihub_agent_results_overview.png" alt=""><figcaption></figcaption></figure>
 
-12. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name. We will now check if Finance Case has been created successfully.
+### Completion: Verify Finance Case
 
-    <figure><img src=".gitbook/assets/sc_common_fow_nav.png" alt=""><figcaption></figcaption></figure>
-13. For this exercise, we are not impersonating a persona so you remain as the System user.
+Navigate to Finance Operations Workspace. Find the case created by the agent. Confirm it contains the cost center, vendor, and budget analysis.
 
-    <figure><img src=".gitbook/assets/sc_common_fow_system_user.png" alt=""><figcaption></figcaption></figure>
-14. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > <mark style="color:green;">**c.)**</mark> sort by **Number** descending/ascending > <mark style="color:green;">**d.)**</mark> or look for the Finance case created by the AI agent, FINC0010020 in the example above.
+1. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name. We will now check if Finance Case has been created successfully.
+
+<figure><img src=".gitbook/assets/sc_common_fow_nav.png" alt=""><figcaption></figcaption></figure>
+
+2. For this exercise, we are not impersonating a persona so you remain as the System user.
+
+<figure><img src=".gitbook/assets/sc_common_fow_system_user.png" alt=""><figcaption></figcaption></figure>
+
+3. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > <mark style="color:green;">**c.)**</mark> sort by **Number** descending/ascending > <mark style="color:green;">**d.)**</mark> or look for the Finance case created by the AI agent, FINC0010020 in the example above.
 
 <figure><img src=".gitbook/assets/sc_ihub_finance_case_list.png" alt=""><figcaption></figcaption></figure>
+
+## Conclusion
+
+Congratulations! You have created the **Workflow Data Fabric** integrations that powers the **Financial Forecast Variance Agent** allowing proactive creation of cases based on multiple data sources in a complex landscape to allow proactive management of budgets with zero human intervention. The AI Agent is triggered as soon as there are changes in the **Expense Transaction Event** table.
 
 ## Troubleshooting
 
@@ -334,10 +389,6 @@ This is a walk through of how an AI agent with equipped with both deterministic 
 
         <figure><img src=".gitbook/assets/sc_common_index_expense_transactions.png" alt=""><figcaption></figcaption></figure>
     * Once done, you can re-execute your agent.
-
-## Conclusion
-
-Congratulations! You have created the **Workflow Data Fabric** integrations that powers the **Financial Forecast Variance Agent** allowing proactive creation of cases based on multiple data sources in a complex landscape to allow proactive management of budgets. Moreover, the AI Agent is triggered as soon as there are changes in the **Expense Transaction Event** table.
 
 ## Next step
 
