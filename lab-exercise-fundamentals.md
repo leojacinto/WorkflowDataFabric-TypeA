@@ -44,30 +44,35 @@ While you have the power of CMDB at your fingertips, the process we are solving 
 
 The table you will create here will not be used for the rest of the steps and serves mainly to introduce how target tables for REST API endpoints are created for ServiceNow.
 
-## AI Search configuration
+## Steps
 
-1. This configuration section includes setting up of AI Search which is a critical tool for the AI Agents. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
-2.  Using an private/incognito browser window, log into your instance as:
+### Preparation: AI Search configuration
+
+This configuration section includes setting up of AI Search which is a critical tool for the AI Agents for your newly provisioned lab instance.
+
+1.  Using an private/incognito browser window, log on to your instance as:
 
     1. User: **aislab.admin**
     2. Password: **aislab.admin**
 
     <figure><img src=".gitbook/assets/sc_fund_aislab_admin_login.png" alt="" width="362"><figcaption></figcaption></figure>
-3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
+2.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
 
     <figure><img src=".gitbook/assets/sc_fund_repair_ml_nav.png" alt=""><figcaption></figcaption></figure>
-4.  Click on Repair Machine Learning Settings.
+3.  Click on Repair Machine Learning Settings.
 
     <figure><img src=".gitbook/assets/sc_fund_repair_ml_click.png" alt="" width="375"><figcaption></figcaption></figure>
-5.  You will get a message that the machine learning settings are being reset.
+4.  You will get a message that the machine learning settings are being reset.
 
     <figure><img src=".gitbook/assets/sc_fund_ml_settings_resetting.png" alt="" width="375"><figcaption></figcaption></figure>
-6.  After a 2-3 minutes, you will get a notification that the machine learning settings are reset. This will do indexing of tables in the background which will be needed for the search functionality to be used by the AI Agents later.
+5.  After a 2-3 minutes, you will get a notification that the machine learning settings are reset. This will do indexing of tables in the background which will be needed for the search functionality to be used by the AI Agents later.
 
     <figure><img src=".gitbook/assets/sc_fund_ml_settings_reset_done.png" alt="" width="279"><figcaption></figcaption></figure>
-7. Exit your aislab.admin session and go back to your main session where you have logged in as **admin** user with the password provided to you.
+6. Exit your aislab.admin session and go back to your main session where you have logged in as **admin** user with the password provided to you.
 
-## Steps
+### Hands on: Create a Scope
+
+Create a dummy scope. This will not be used in the lab. If you are familiar with scope creation, you can skip this exercise as this is not a dependency in the exercises.
 
 1. Go to the top right portion of your navigation and click on the <mark style="color:green;">**a.)**</mark> **globe icon** then **arrow** **>** the <mark style="color:green;">**b.)**</mark> **list icon** to create new scope.
 

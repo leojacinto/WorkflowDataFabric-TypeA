@@ -90,53 +90,54 @@ graph LR
 
 ### Platform Configuration
 
-1. Back as **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
-2.  Ensure you are in the correct scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials.
+1. If you have not done so yet,&#x20;
+2. Back as **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
+3.  Ensure you are in the correct scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials.
 
     <figure><img src=".gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
-3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
+4.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
 
     <figure><img src=".gitbook/assets/sc_common_agent_studio_users_nav.png" alt=""><figcaption></figcaption></figure>
-4.  Search for <mark style="color:green;">**a.)**</mark> **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.
+5.  Search for <mark style="color:green;">**a.)**</mark> **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.
 
     <figure><img src=".gitbook/assets/sc_common_search_admin_user.png" alt=""><figcaption></figcaption></figure>
-5.  In the **Roles** tab, click **Edit**.
+6.  In the **Roles** tab, click **Edit**.
 
     <figure><img src=".gitbook/assets/sc_common_roles_tab_edit.png" alt=""><figcaption></figcaption></figure>
-6.  Search for <mark style="color:green;">**a.)**</mark> **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel.
+7.  Search for <mark style="color:green;">**a.)**</mark> **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel.
 
     <figure><img src=".gitbook/assets/sc_zcc_roles_sn_aia_admin.png" alt=""><figcaption></figcaption></figure>
-7.  Search for <mark style="color:green;">**a.)**</mark> **sn\_erp\_integration.erp\_admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_erp\_integration.erp\_admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**.
+8.  Search for <mark style="color:green;">**a.)**</mark> **sn\_erp\_integration.erp\_admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_erp\_integration.erp\_admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**.
 
     <figure><img src=".gitbook/assets/sc_zcc_roles_erp_admin_save.png" alt=""><figcaption></figcaption></figure>
-8.  You will get <mark style="color:green;">**a.)**</mark> messages such as **Adding Role decision\_table\_reader to admin**, there will be 4 of such messages > <mark style="color:green;">**b.)**</mark> right-click on the top panel and click **Save**.
+9.  You will get <mark style="color:green;">**a.)**</mark> messages such as **Adding Role decision\_table\_reader to admin**, there will be 4 of such messages > <mark style="color:green;">**b.)**</mark> right-click on the top panel and click **Save**.
 
     <figure><img src=".gitbook/assets/sc_zcc_role_messages_save.png" alt=""><figcaption></figcaption></figure>
-9.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in.
+10. <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in.
 
     <figure><img src=".gitbook/assets/sc_common_logout.png" alt="" width="254"><figcaption></figcaption></figure>
-10. Once logged back in navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Assistant Designer** then <mark style="color:green;">**b.)**</mark> click **Conversational Interfaces > Assistant Designer**. This will open a new tab.
+11. Once logged back in navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Assistant Designer** then <mark style="color:green;">**b.)**</mark> click **Conversational Interfaces > Assistant Designer**. This will open a new tab.
 
     <figure><img src=".gitbook/assets/sc_common_assistant_designer_nav.png" alt="" width="337"><figcaption></figcaption></figure>
-11. Go to **Now Assist Panel - Platform (default)** > **Edit**.
+12. Go to **Now Assist Panel - Platform (default)** > **Edit**.
 
     <figure><img src=".gitbook/assets/sc_common_now_assist_panel_edit.png" alt="" width="375"><figcaption></figcaption></figure>
-12. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
+13. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
     <figure><img src=".gitbook/assets/sc_common_display_experiences_link.png" alt="" width="563"><figcaption></figcaption></figure>
-13. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Unified Navigation app shell** is selected. If it is not added, you may need to select it from **Add ServiceNow platform** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**. This step is needed to ensure that the Now Assist panel is accessible when AI Agents are triggered.
+14. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Unified Navigation app shell** is selected. If it is not added, you may need to select it from **Add ServiceNow platform** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**. This step is needed to ensure that the Now Assist panel is accessible when AI Agents are triggered.
 
     <figure><img src=".gitbook/assets/sc_common_unified_nav_settings.png" alt=""><figcaption></figcaption></figure>
-14. Click on the **Assistant Designer** logo at the top left. You may need to refresh your page to make sure it has picked up the latest status of **Now Assist Panel - Platform (default)**.
+15. Click on the **Assistant Designer** logo at the top left. You may need to refresh your page to make sure it has picked up the latest status of **Now Assist Panel - Platform (default)**.
 
     <figure><img src=".gitbook/assets/sc_common_assistant_designer_logo.png" alt="" width="240"><figcaption></figcaption></figure>
-15. Go to **Now Assist in Virtual Agent (default)** > **Edit**. Note that this is another configuration tile!
+16. Go to **Now Assist in Virtual Agent (default)** > **Edit**. Note that this is another configuration tile!
 
     <figure><img src=".gitbook/assets/sc_common_virtual_agent_edit.png" alt="" width="375"><figcaption></figcaption></figure>
-16. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
+17. Under **Continue customizing this assistant** > **Add display experiences** > click **Go to display experiences**.
 
     <figure><img src=".gitbook/assets/sc_common_display_experiences_link.png" alt="" width="563"><figcaption></figcaption></figure>
-17. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Employee Center** is selected. If it is not added, you may need to select it from **Add portal** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**. This step is needed to ensure that the Virtual Agent is accessible in Employee Center where most end users will do their day to day tasks such as processing and opening cases.
+18. Under **Settings** > <mark style="color:green;">**a.)**</mark>**&#x20;Display experiences**, make sure that <mark style="color:green;">**b.)**</mark>**&#x20;Employee Center** is selected. If it is not added, you may need to select it from **Add portal** dropdown menu. Click <mark style="color:green;">**c.)**</mark> **Save** then <mark style="color:green;">**d.)**</mark>**&#x20;Activate**. This step is needed to ensure that the Virtual Agent is accessible in Employee Center where most end users will do their day to day tasks such as processing and opening cases.
 
 <figure><img src=".gitbook/assets/sc_common_employee_center_display.png" alt=""><figcaption></figcaption></figure>
 
@@ -257,7 +258,7 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 
 ### Custom Forecast Variance AI Agent in action
 
-This is a walk through of how the an AI Agent with equipped with both deterministic and probabilistic can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
+This is a walk through of how the an AI Agent equipped with both deterministic and probabilistic can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
 
 1. Go to All > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**.
 
