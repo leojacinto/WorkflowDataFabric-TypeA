@@ -173,7 +173,7 @@ Navigate to Connection & Credential Aliases. Open the pre-configured "Get Expens
 
 ### Walkthrough: Action
 
-The scoped **Action** is a key feature for the trigger that obtains expense data via REST API. If you wish to learn more on how Flows and AI Agents can get more granular and higher throughput of data through streaming, have a look at the bonus exercise on [Stream Connect for Apache Kafka](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/99_kafka_stream_connect).
+The scoped **Action** is a key feature for the trigger that obtains expense data via REST API. If you wish to learn more on how Flows and AI Agents can get more granular and higher throughput of data through streaming, have a look at the bonus exercise on [Stream Connect for Apache Kafka](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-kafka_stream_connect).
 
 For this section: Open ServiceNow Studio > Forecast Variance app > Automation > Actions > Get Expense Event. Explore the Base URL, Imported Specifications, and Output mappings. Understand how REST response maps to table fields.
 
