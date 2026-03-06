@@ -172,14 +172,7 @@ While not part of Workflow Data Fabric, these provide additional data sources fo
 
 The diagram below will be further decomposed in the next sections to give you mode detail on the inner workings within ServiceNow while, as mentioned earlier, the end user interacts with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
 
-You can skip the review of the diagram below if you prefer, and head straight into the lab exercises, each of which having its individual (and much more broken down 😉) data flow.
-
-* [Lab Exercise: Fundamentals](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-fundamentals)
-* [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub)
-* [Lab Exercise: Zero Copy Connectors](main-exercises/lab-exercise-zero-copy-connectors.md)
-* [Lab Exercise: Model Context Protocol Server/Client](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-model-context-protocol-server-client)
-* [Lab Exercise: ServiceNow Lens and Document Intelligence](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-servicenow-lens-and-document-intelligence)
-* <mark style="color:$warning;">**\[Controlled Lab]**</mark> [Lab Exercise: External Content Connector](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-external-content-connector)
+You can skip the review of the diagram below if you prefer, and head straight into the lab exercises, each of which having its individual (and much more detailed) data flow.
 
 ```mermaid fullWidth="true"
 ---
