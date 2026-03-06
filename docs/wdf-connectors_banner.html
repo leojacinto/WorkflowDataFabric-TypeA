@@ -79,7 +79,7 @@
   .fade {
     position: absolute;
     inset: 0;
-    background: radial-gradient(ellipse 68% 75% at 38% 50%, transparent 20%, rgba(255,255,255,0.9) 100%);
+    background: radial-gradient(ellipse 68% 75% at 43% 50%, transparent 20%, rgba(255,255,255,0.9) 100%);
     pointer-events: none;
     z-index: 1;
   }
@@ -87,7 +87,7 @@
   .glow {
     position: absolute;
     inset: 0;
-    background: radial-gradient(ellipse 20% 40% at 24% 50%, var(--now-green-ghost) 0%, transparent 100%);
+    background: radial-gradient(ellipse 20% 40% at 29% 50%, var(--now-green-ghost) 0%, transparent 100%);
     pointer-events: none;
     z-index: 1;
   }
@@ -119,15 +119,15 @@
   /* ================================== */
   .hub {
     position: absolute;
-    left: 10%;
+    left: 18%;
     top: 50%;
     transform: translateY(-50%);
     z-index: 20;
   }
 
   .hub-outer {
-    width: clamp(220px, 28vw, 380px);
-    height: clamp(220px, 28vw, 380px);
+    width: clamp(220px, 28vw, 800px);
+    height: clamp(220px, 28vw, 800px);
     border-radius: 50%;
     border: 1px solid var(--now-green-dim);
     display: flex;
@@ -156,14 +156,14 @@
   }
 
   .hub-icon img {
-    width: clamp(44px, 5.2vw, 72px);
-    height: clamp(44px, 5.2vw, 72px);
+    width: clamp(44px, 5.2vw, 150px);
+    height: clamp(44px, 5.2vw, 150px);
     object-fit: contain;
   }
 
   .hub-name {
     font-family: var(--sans);
-    font-size: clamp(1.3rem, 2.2vw, 2rem);
+    font-size: clamp(1.3rem, 2.2vw, 4rem);
     font-weight: 400;
     letter-spacing: 0.04em;
     color: var(--ink);
@@ -172,7 +172,7 @@
 
   .hub-sub {
     font-family: var(--mono);
-    font-size: clamp(0.58rem, 0.8vw, 0.82rem);
+    font-size: clamp(0.58rem, 1.06vw, 2rem);
     font-weight: 400;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -204,25 +204,25 @@
   /* ================================== */
   .nodes {
     position: absolute;
-    right: 30%;
+    right: 18%;
     top: 50%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    gap: clamp(0.23rem, 0.46vw, 0.44rem);
+    gap: clamp(0.23rem, 0.46vw, 1.2rem);
     z-index: 20;
   }
 
   .node {
     display: flex;
     align-items: center;
-    gap: clamp(0.46rem, 0.75vw, 0.75rem);
-    padding: clamp(0.35rem, 0.63vw, 0.58rem) clamp(0.58rem, 0.92vw, 1.04rem) clamp(0.35rem, 0.63vw, 0.58rem) clamp(0.46rem, 0.75vw, 0.81rem);
+    gap: clamp(0.46rem, 0.84vw, 2rem);
+    padding: clamp(0.35rem, 0.64vw, 1.5rem) clamp(0.58rem, 1.05vw, 2.5rem) clamp(0.35rem, 0.64vw, 1.5rem) clamp(0.46rem, 0.84vw, 2rem);
     border-radius: 9px;
     border: 1px solid var(--ink-ghost);
     background: rgba(255,255,255,0.88);
     backdrop-filter: blur(6px);
-    min-width: clamp(160px, 17vw, 230px);
+    min-width: clamp(160px, 18.2vw, 600px);
     opacity: 1;
     transform: none;
     transition: box-shadow 0.3s ease, border-color 0.3s ease;
@@ -235,8 +235,8 @@
   }
 
   .node-icon {
-    width: clamp(25px, 2.5vw, 35px);
-    height: clamp(25px, 2.5vw, 35px);
+    width: clamp(25px, 2.84vw, 90px);
+    height: clamp(25px, 2.84vw, 90px);
     border-radius: 7px;
     display: flex;
     align-items: center;
@@ -255,7 +255,7 @@
 
   .node-name {
     font-family: var(--sans);
-    font-size: clamp(0.72rem, 0.94vw, 0.94rem);
+    font-size: clamp(0.72rem, 1.31vw, 3rem);
     font-weight: 400;
     letter-spacing: 0.02em;
     color: var(--ink);
@@ -263,7 +263,7 @@
 
   .node-type {
     font-family: var(--mono);
-    font-size: clamp(0.42rem, 0.52vw, 0.52rem);
+    font-size: clamp(0.42rem, 0.76vw, 2rem);
     font-weight: 400;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -313,14 +313,14 @@
   /* ================================== */
   .badge {
     position: absolute;
-    top: 50%; left: 46%;
+    top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     z-index: 15;
   }
 
   .badge-inner {
     font-family: var(--mono);
-    font-size: clamp(0.36rem, 0.48vw, 0.48rem);
+    font-size: clamp(0.36rem, 0.65vw, 2rem);
     font-weight: 400;
     letter-spacing: 0.28em;
     text-transform: uppercase;
