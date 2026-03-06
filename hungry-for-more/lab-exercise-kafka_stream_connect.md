@@ -6,9 +6,7 @@ icon: foot-wing
 
 [Take me back to main page](../)
 
-{% embed url="https://codepen.io/leojacinto/pen/raMeoYJ" %}
-
-{% endembed %}
+<figure><img src="../.gitbook/assets/wdf_connectors_banner.gif" alt="Workflow Data Fabric"><figcaption></figcaption></figure>
 
 ## Business motivation
 
