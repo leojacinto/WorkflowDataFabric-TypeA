@@ -12,7 +12,7 @@ import subprocess, os, sys, glob
 # ── CONFIG ──────────────────────────────────────────────────────
 WIDTH = 2048          # viewport width (HTML scales via vw units)
 HEIGHT = 1024         # viewport height (scene aspect-ratio 2:1)
-DURATION = 8          # seconds to record
+DURATION = 12         # seconds to record
 FPS = 50              # GIF framerate (50fps = max practical, GIF min delay = 20ms)
 CROP_PCT = 0.12       # trim 12% from left/right edges
 CROP_TOP = 0.135      # trim 13.5% from top
@@ -22,6 +22,7 @@ CROP_H = int(HEIGHT * (1 - CROP_TOP - CROP_BOT))
 CROP_X = int(WIDTH * CROP_PCT)
 CROP_Y = int(HEIGHT * CROP_TOP)
 TRIM_START = 3
+LOOP_DUR = 9          # 2 full breathe cycles (4.5s each) for seamless loop
 # ────────────────────────────────────────────────────────
 
 DARK = "--dark" in sys.argv
@@ -73,14 +74,14 @@ palette = f"/tmp/wdf_palette_{VARIANT}.png"
 
 print(f"Generating palette at {FPS}fps (trimming first {TRIM_START}s)...")
 subprocess.run([
-    "ffmpeg", "-y", "-ss", str(TRIM_START), "-i", video_path,
+    "ffmpeg", "-y", "-ss", str(TRIM_START), "-t", str(LOOP_DUR), "-i", video_path,
     "-vf", f"crop={CROP_W}:{CROP_H}:{CROP_X}:{CROP_Y},fps={FPS},palettegen=max_colors=256:stats_mode=diff",
     palette
 ], check=True, capture_output=True)
 
 print("Encoding GIF...")
 subprocess.run([
-    "ffmpeg", "-y", "-ss", str(TRIM_START), "-i", video_path,
+    "ffmpeg", "-y", "-ss", str(TRIM_START), "-t", str(LOOP_DUR), "-i", video_path,
     "-i", palette,
     "-lavfi", f"crop={CROP_W}:{CROP_H}:{CROP_X}:{CROP_Y},fps={FPS}[x];[x][1:v]paletteuse=dither=sierra2_4a:diff_mode=rectangle",
     OUTPUT_GIF
