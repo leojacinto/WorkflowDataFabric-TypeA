@@ -15,7 +15,7 @@ HEIGHT = 1024         # viewport height (scene aspect-ratio 2:1)
 DURATION = 8          # seconds to record
 FPS = 50              # GIF framerate (50fps = max practical, GIF min delay = 20ms)
 CROP_PCT = 0.12       # trim 12% from left/right edges
-CROP_TOP = 0.115      # trim 11.5% from top
+CROP_TOP = 0.135      # trim 13.5% from top
 CROP_BOT = 0.13       # trim 13% from bottom
 CROP_W = int(WIDTH * (1 - 2 * CROP_PCT))
 CROP_H = int(HEIGHT * (1 - CROP_TOP - CROP_BOT))
