@@ -6,7 +6,7 @@ icon: foot-wing
 
 [Take me back to main page](../)
 
-{% embed url="https://leojacinto.github.io/WorkflowDataFabric-TypeA/wdf-connectors_banner.html" %}
+{% embed url="https://codepen.io/leojacinto/pen/raMeoYJ" %}
 
 {% endembed %}
 

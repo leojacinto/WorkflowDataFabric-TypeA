@@ -4,7 +4,7 @@ icon: magnifying-glass-chart
 
 # Workflow Data Fabric Lab: Financial Intelligence at Scale
 
-{% embed url="https://leojacinto.github.io/WorkflowDataFabric-TypeA/wdf-connectors_banner.html" %}
+{% embed url="https://codepen.io/leojacinto/pen/raMeoYJ" %}
 
 {% endembed %}
 
