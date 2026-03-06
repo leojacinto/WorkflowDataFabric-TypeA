@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Workflow Data Fabric</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #FFFFFF;
+    --grid-line: rgba(0,0,0,0.025);
+    --grid-strong: rgba(0,0,0,0.05);
+    --now-green: #62D84E;
+    --now-green-dim: rgba(98,216,78,0.22);
+    --now-green-ghost: rgba(98,216,78,0.07);
+    --ink: #1B1F23;
+    --ink-mid: rgba(27,31,35,0.5);
+    --ink-light: rgba(27,31,35,0.22);
+    --ink-ghost: rgba(27,31,35,0.06);
+    --blue: #4A90D9;    --blue-bg: rgba(74,144,217,0.10);
+    --teal: #2ECEC2;    --teal-bg: rgba(46,206,194,0.10);
+    --amber: #D4952E;   --amber-bg: rgba(212,149,46,0.10);
+    --coral: #D9584A;   --coral-bg: rgba(217,88,74,0.10);
+    --violet: #8B6CC1;  --violet-bg: rgba(139,108,193,0.10);
+    --slate: #5A6A7A;   --slate-bg: rgba(90,106,122,0.10);
+    --sans: 'IBM Plex Sans', 'SF Pro Text', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --mono: 'IBM Plex Mono', 'SF Mono', 'Cascadia Mono', 'Consolas', 'Liberation Mono', monospace;
+  }
+
+  html { font-size: 16px; }
+
+  body {
+    background: var(--bg);
+    font-family: var(--sans);
+    color: var(--ink);
+    overflow: hidden;
+  }
+
+  /* ================================== */
+  /* BANNER CONTAINER                   */
+  /* ================================== */
+  .scene {
+    position: relative;
+    width: 100%;
+    min-width: 580px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--bg);
+    margin: 0 auto;
+  }
+
+  /* ================================== */
+  /* GRID                               */
+  /* ================================== */
+  .grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 44px 44px;
+    z-index: 0;
+  }
+
+  .grid::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(var(--grid-strong) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-strong) 1px, transparent 1px);
+    background-size: 220px 220px;
+  }
+
+  .fade {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 68% 75% at 38% 50%, transparent 20%, rgba(255,255,255,0.9) 100%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 20% 40% at 24% 50%, var(--now-green-ghost) 0%, transparent 100%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* ================================== */
+  /* SCAN LINE                          */
+  /* ================================== */
+  .scan {
+    position: absolute;
+    left: 0; width: 100%; height: 1.5px;
+    background: linear-gradient(90deg, transparent 5%, var(--now-green-dim) 35%, var(--now-green-dim) 65%, transparent 95%);
+    opacity: 0.3;
+    z-index: 90;
+    animation: scanDown 7s linear infinite;
+  }
+
+  @keyframes scanDown {
+    0% { top: -2px; }
+    100% { top: 100%; }
+  }
+
+  /* ================================== */
+  /* CANVAS                             */
+  /* ================================== */
+  canvas { position: absolute; inset: 0; z-index: 5; }
+
+  /* ================================== */
+  /* HUB                                */
+  /* ================================== */
+  .hub {
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20;
+    opacity: 0;
+    animation: slideIn 1s ease 0.4s forwards;
+  }
+
+  @keyframes slideIn {
+    0% { opacity: 0; transform: translateY(-50%) translateX(-20px); }
+    100% { opacity: 1; transform: translateY(-50%) translateX(0); }
+  }
+
+  .hub-outer {
+    width: clamp(260px, 30vw, 420px);
+    height: clamp(260px, 30vw, 420px);
+    border-radius: 50%;
+    border: 1px solid var(--now-green-dim);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: breathe 4.5s ease-in-out infinite;
+  }
+
+  @keyframes breathe {
+    0%,100% { box-shadow: 0 0 0 0 var(--now-green-ghost), 0 0 80px -10px var(--now-green-ghost); }
+    50% { box-shadow: 0 0 0 14px var(--now-green-ghost), 0 0 120px 0 rgba(98,216,78,0.04); }
+  }
+
+  .hub-inner {
+    width: 78%;
+    height: 78%;
+    border-radius: 50%;
+    border: 1px solid var(--now-green-dim);
+    background: radial-gradient(circle at 50% 44%, rgba(98,216,78,0.05) 0%, transparent 70%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+  }
+
+  .hub-icon svg {
+    width: clamp(44px, 4.8vw, 64px);
+    height: clamp(44px, 4.8vw, 64px);
+    stroke: var(--now-green);
+    stroke-width: 1.5;
+    fill: none;
+  }
+
+  .hub-name {
+    font-family: var(--sans);
+    font-size: clamp(1.5rem, 2.4vw, 2.3rem);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    margin-top: 0.1rem;
+  }
+
+  .hub-sub {
+    font-family: var(--mono);
+    font-size: clamp(0.65rem, 0.9vw, 0.9rem);
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-mid);
+  }
+
+  .orbit {
+    position: absolute;
+    inset: -20px;
+    border-radius: 50%;
+    border: 1px dashed var(--ink-ghost);
+    animation: spin 55s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .orbit-dot {
+    position: absolute;
+    width: 6px; height: 6px;
+    background: var(--now-green);
+    border-radius: 50%;
+    top: -3px; left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.5;
+  }
+
+  /* ================================== */
+  /* NODES                              */
+  /* ================================== */
+  .nodes {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.35rem, 0.7vw, 0.65rem);
+    z-index: 20;
+  }
+
+  .node {
+    display: flex;
+    align-items: center;
+    gap: clamp(0.4rem, 0.65vw, 0.65rem);
+    padding: clamp(0.35rem, 0.65vw, 0.6rem) clamp(0.55rem, 0.9vw, 1rem) clamp(0.35rem, 0.65vw, 0.6rem) clamp(0.45rem, 0.7vw, 0.75rem);
+    border-radius: 9px;
+    border: 1px solid var(--ink-ghost);
+    background: rgba(255,255,255,0.88);
+    backdrop-filter: blur(6px);
+    min-width: clamp(155px, 16vw, 220px);
+    opacity: 0;
+    transform: translateX(28px);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    cursor: default;
+  }
+
+  .node:hover {
+    border-color: var(--now-green-dim);
+    box-shadow: 0 2px 16px -3px var(--now-green-ghost);
+  }
+
+  .node-icon {
+    width: clamp(22px, 2.4vw, 32px);
+    height: clamp(22px, 2.4vw, 32px);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .node-icon svg {
+    width: 55%;
+    height: 55%;
+    stroke-width: 1.8;
+    fill: none;
+  }
+
+  .node-info { display: flex; flex-direction: column; gap: 0px; }
+
+  .node-name {
+    font-family: var(--sans);
+    font-size: clamp(0.6rem, 0.78vw, 0.78rem);
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: var(--ink);
+  }
+
+  .node-type {
+    font-family: var(--mono);
+    font-size: clamp(0.34rem, 0.42vw, 0.42rem);
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-mid);
+  }
+
+  .node-pip {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    margin-left: auto;
+    flex-shrink: 0;
+    animation: pulse 3s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%,100% { opacity: 0.35; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.3); }
+  }
+
+  /* Colour themes */
+  .n-snow .node-icon { background: var(--blue-bg); }
+  .n-snow .node-icon svg { stroke: var(--blue); }
+  .n-snow .node-pip { background: var(--blue); }
+
+  .n-sp .node-icon { background: var(--teal-bg); }
+  .n-sp .node-icon svg { stroke: var(--teal); }
+  .n-sp .node-pip { background: var(--teal); }
+
+  .n-sap .node-icon { background: var(--amber-bg); }
+  .n-sap .node-icon svg { stroke: var(--amber); }
+  .n-sap .node-pip { background: var(--amber); }
+
+  .n-rest .node-icon { background: var(--coral-bg); }
+  .n-rest .node-icon svg { stroke: var(--coral); }
+  .n-rest .node-pip { background: var(--coral); }
+
+  .n-mcp .node-icon { background: var(--violet-bg); }
+  .n-mcp .node-icon svg { stroke: var(--violet); }
+  .n-mcp .node-pip { background: var(--violet); }
+
+  .n-doc .node-icon { background: var(--slate-bg); }
+  .n-doc .node-icon svg { stroke: var(--slate); }
+  .n-doc .node-pip { background: var(--slate); }
+
+  /* ================================== */
+  /* CENTRE BADGE                       */
+  /* ================================== */
+  .badge {
+    position: absolute;
+    top: 50%; left: 46%;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    opacity: 0;
+    animation: fadeIn 1.2s ease 1.8s forwards;
+  }
+
+  .badge-inner {
+    font-family: var(--mono);
+    font-size: clamp(0.38rem, 0.5vw, 0.5rem);
+    font-weight: 400;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--ink-mid);
+    opacity: 0.35;
+    padding: 0.3rem 0.9rem;
+    border: 1px solid var(--ink-ghost);
+    border-radius: 14px;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(4px);
+    white-space: nowrap;
+  }
+
+  @keyframes fadeIn { to { opacity: 1; } }
+</style>
+</head>
+<body>
+
+<div class="scene" id="scene">
+  <div class="grid"></div>
+  <div class="fade"></div>
+  <div class="glow"></div>
+  <div class="scan"></div>
+
+  <!-- corners removed -->
+
+  <canvas id="c"></canvas>
+
+  <!-- Hub -->
+  <div class="hub" id="hub">
+    <div class="hub-outer">
+      <div class="orbit"><div class="orbit-dot"></div></div>
+      <div class="hub-inner">
+        <div class="hub-icon">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>
+          </svg>
+        </div>
+        <div class="hub-name">ServiceNow</div>
+        <div class="hub-sub">AI Platform</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nodes: 2x3 grid -->
+  <div class="nodes" id="nodes">
+    <div class="node n-snow">
+      <div class="node-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M2 12h10M12 2v10M22 12H12M12 22V12M4.93 4.93l5.07 5.07M14 14l5.07 5.07M4.93 19.07l5.07-5.07M14 10l5.07-5.07"/>
+          <circle cx="12" cy="12" r="1.5"/>
+        </svg>
+      </div>
+      <div class="node-info">
+        <div class="node-name">Snowflake</div>
+        <div class="node-type">Data Warehouse</div>
+      </div>
+      <div class="node-pip"></div>
+    </div>
+
+    <div class="node n-rest">
+      <div class="node-icon">
+        <svg viewBox="0 0 24 24">
+          <polyline points="16 18 22 12 16 6"/>
+          <polyline points="8 6 2 12 8 18"/>
+          <line x1="14.5" y1="4" x2="9.5" y2="20"/>
+        </svg>
+      </div>
+      <div class="node-info">
+        <div class="node-name">REST API</div>
+        <div class="node-type">Web Services</div>
+      </div>
+      <div class="node-pip"></div>
+    </div>
+
+    <div class="node n-sp">
+      <div class="node-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <line x1="9" y1="13" x2="15" y2="13"/>
+          <line x1="9" y1="17" x2="13" y2="17"/>
+        </svg>
+      </div>
+      <div class="node-info">
+        <div class="node-name">SharePoint</div>
+        <div class="node-type">Content Source</div>
+      </div>
+      <div class="node-pip"></div>
+    </div>
+
+    <div class="node n-mcp">
+      <div class="node-icon">
+        <svg viewBox="0 0 24 24">
+          <rect x="4" y="4" width="16" height="16" rx="2"/>
+          <circle cx="9" cy="10" r="1.5"/>
+          <circle cx="15" cy="10" r="1.5"/>
+          <path d="M9 15c0 0 1.5 2 3 2s3-2 3-2"/>
+          <line x1="12" y1="2" x2="12" y2="4"/>
+          <line x1="5" y1="2" x2="7" y2="4"/>
+          <line x1="19" y1="2" x2="17" y2="4"/>
+        </svg>
+      </div>
+      <div class="node-info">
+        <div class="node-name">MCP</div>
+        <div class="node-type">Model Context Protocol</div>
+      </div>
+      <div class="node-pip"></div>
+    </div>
+
+    <div class="node n-sap">
+      <div class="node-icon">
+        <svg viewBox="0 0 24 24">
+          <ellipse cx="12" cy="5" rx="9" ry="3"/>
+          <path d="M3 5v7c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+          <path d="M3 12v7c0 1.66 4.03 3 9 3s9-1.34 9-3v-7"/>
+        </svg>
+      </div>
+      <div class="node-info">
+        <div class="node-name">SAP</div>
+        <div class="node-type">Enterprise ERP</div>
+      </div>
+      <div class="node-pip"></div>
+    </div>
+
+    <div class="node n-doc">
+      <div class="node-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <path d="M10 12l2 2 4-4"/>
+        </svg>
+      </div>
+      <div class="node-info">
+        <div class="node-name">Document Intelligence</div>
+        <div class="node-type">AI Extraction</div>
+      </div>
+      <div class="node-pip"></div>
+    </div>
+  </div>
+
+  <!-- Centre badge -->
+  <div class="badge">
+    <div class="badge-inner">Data Fabric</div>
+  </div>
+</div>
+
+<script>
+// ============================================
+// STAGGERED NODE ENTRANCE
+// ============================================
+const nodeEls = document.querySelectorAll('.node');
+nodeEls.forEach((n, i) => {
+  setTimeout(() => {
+    n.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    n.style.opacity = '1';
+    n.style.transform = 'translateX(0)';
+  }, 700 + i * 120);
+});
+
+// ============================================
+// CANVAS
+// ============================================
+const scene = document.getElementById('scene');
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+
+function resize() {
+  const dpr = window.devicePixelRatio || 1;
+  const W = scene.offsetWidth;
+  const H = scene.offsetHeight;
+  if (W < 10 || H < 10) return;
+  canvas.width = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width = W + 'px';
+  canvas.style.height = H + 'px';
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+
+new ResizeObserver(resize).observe(scene);
+
+// ============================================
+// COLOURS
+// ============================================
+const colors = [
+  [74,144,217],   // Snowflake
+  [217,88,74],    // REST API
+  [46,206,194],   // SharePoint
+  [139,108,193],  // MCP
+  [212,149,46],   // SAP
+  [90,106,122],   // Doc Intelligence
+];
+
+function getHub() {
+  const sr = scene.getBoundingClientRect();
+  const h = document.getElementById('hub');
+  const hr = h.getBoundingClientRect();
+  return { x: hr.left - sr.left + hr.width / 2, y: hr.top - sr.top + hr.height / 2 };
+}
+
+function getAnchors() {
+  const sr = scene.getBoundingClientRect();
+  return Array.from(nodeEls).map(n => {
+    const nr = n.getBoundingClientRect();
+    return { x: nr.left - sr.left, y: nr.top - sr.top + nr.height / 2 };
+  });
+}
+
+// ============================================
+// PARTICLES
+// ============================================
+class P {
+  constructor(i, d) {
+    this.i = i;
+    this.d = d;
+    this.t = d === 1 ? 0 : 1;
+    this.s = (0.0015 + Math.random() * 0.0024) * d;
+    this.r = 1.2 + Math.random() * 1.6;
+    this.a = 0.25 + Math.random() * 0.4;
+    this.alive = true;
+  }
+  step() {
+    this.t += this.s;
+    if (this.t > 1 || this.t < 0) this.alive = false;
+  }
+}
+
+let parts = [];
+
+function spawn() {
+  const i = Math.floor(Math.random() * colors.length);
+  parts.push(new P(i, Math.random() > 0.35 ? 1 : -1));
+}
+
+// ============================================
+// DRAW
+// ============================================
+function draw() {
+  const W = scene.offsetWidth, H = scene.offsetHeight;
+  if (W < 10 || H < 10) { requestAnimationFrame(draw); return; }
+  ctx.clearRect(0, 0, W, H);
+
+  const hub = getHub();
+  const anc = getAnchors();
+
+  // Skip frame if layout hasn't settled (the root cause fix)
+  if (hub.x <= 0 && hub.y <= 0) { requestAnimationFrame(draw); return; }
+  if (anc.length === 0 || (anc[0].x <= 0 && anc[0].y <= 0)) { requestAnimationFrame(draw); return; }
+
+  anc.forEach((a, i) => {
+    const mx = (hub.x + a.x) / 2;
+    const cpY = a.y;
+    const [r, g, b] = colors[i];
+
+    ctx.beginPath();
+    ctx.moveTo(hub.x, hub.y);
+    ctx.quadraticCurveTo(mx, cpY, a.x, a.y);
+    ctx.strokeStyle = `rgba(${r},${g},${b},0.10)`;
+    ctx.lineWidth = 1.1;
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.setLineDash([3, 9]);
+    ctx.moveTo(hub.x, hub.y);
+    ctx.quadraticCurveTo(mx, cpY, a.x, a.y);
+    ctx.strokeStyle = `rgba(${r},${g},${b},0.045)`;
+    ctx.lineWidth = 0.7;
+    ctx.stroke();
+    ctx.setLineDash([]);
+  });
+
+  parts.forEach(p => {
+    p.step();
+    if (!p.alive || !anc[p.i]) return;
+    const a = anc[p.i];
+    const mx = (hub.x + a.x) / 2;
+    const cpY = a.y;
+    const t = p.t, mt = 1 - t;
+    const px = mt*mt*hub.x + 2*mt*t*mx + t*t*a.x;
+    const py = mt*mt*hub.y + 2*mt*t*cpY + t*t*a.y;
+    const [r, g, b] = colors[p.i];
+
+    ctx.beginPath();
+    ctx.arc(px, py, p.r * 2.8, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(${r},${g},${b},${p.a * 0.11})`;
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(px, py, p.r, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(${r},${g},${b},${p.a})`;
+    ctx.fill();
+  });
+
+  parts = parts.filter(p => p.alive);
+  if (Math.random() < 0.09) spawn();
+
+  requestAnimationFrame(draw);
+}
+
+// THE FIX: poll until layout is genuinely ready, then start
+function waitForLayout() {
+  const W = scene.offsetWidth;
+  const H = scene.offsetHeight;
+  const hub = getHub();
+  const anc = getAnchors();
+
+  if (W > 100 && H > 50 && hub.x > 10 && hub.y > 10 && anc.length > 0 && anc[0].x > 10) {
+    resize();
+    requestAnimationFrame(draw);
+  } else {
+    setTimeout(waitForLayout, 100);
+  }
+}
+
+waitForLayout();
+</script>
+</body>
+</html>

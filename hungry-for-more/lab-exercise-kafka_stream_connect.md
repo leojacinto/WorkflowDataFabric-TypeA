@@ -6,7 +6,7 @@ icon: foot-wing
 
 [Take me back to main page](../)
 
-<figure><img src="../.gitbook/assets/sc_persona.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><iframe src="https://leojacinto.github.io/WorkflowDataFabric-TypeA/wdf-connectors_banner.html" width="100%" height="450" style="border:none; border-radius:8px;" allowfullscreen></iframe><figcaption></figcaption></figure>
 
 ## Business motivation
 
