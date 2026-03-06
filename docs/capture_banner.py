@@ -7,8 +7,8 @@ import subprocess, os, sys, time, glob
 
 # ── CONFIG ──────────────────────────────────────────────
 WIDTH = 1440          # 2x retina for crisp display at 730px GitBook width
-ASPECT = 5 / 2        # 2.5:1 banner ratio for GitBook content area
-HEIGHT = int(WIDTH / ASPECT)  # 576
+ASPECT = 2 / 1        # 2:1 banner ratio for GitBook content area
+HEIGHT = int(WIDTH / ASPECT)  # 720
 DURATION = 8          # seconds to record
 FPS = 50              # max practical GIF framerate (GIF minimum delay = 20ms)
 # ────────────────────────────────────────────────────────
@@ -63,16 +63,19 @@ print(f"Video recorded: {video_path} ({video_size:.1f} MB)")
 # Two-pass palette generation for maximum quality
 palette = "/tmp/wdf_palette.png"
 
-print(f"Generating palette at {FPS}fps...")
+# Trim first 3 seconds (page load / blank frames) so GIF loops seamlessly
+TRIM_START = 3
+
+print(f"Generating palette at {FPS}fps (trimming first {TRIM_START}s)...")
 subprocess.run([
-    "ffmpeg", "-y", "-i", video_path,
+    "ffmpeg", "-y", "-ss", str(TRIM_START), "-i", video_path,
     "-vf", f"fps={FPS},scale={WIDTH}:-1:flags=lanczos,palettegen=max_colors=256:stats_mode=diff",
     palette
 ], check=True, capture_output=True)
 
 print("Encoding GIF...")
 subprocess.run([
-    "ffmpeg", "-y", "-i", video_path,
+    "ffmpeg", "-y", "-ss", str(TRIM_START), "-i", video_path,
     "-i", palette,
     "-lavfi", f"fps={FPS},scale={WIDTH}:-1:flags=lanczos[x];[x][1:v]paletteuse=dither=sierra2_4a:diff_mode=rectangle",
     OUTPUT_GIF
