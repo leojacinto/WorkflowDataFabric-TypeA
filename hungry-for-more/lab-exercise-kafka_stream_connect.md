@@ -6,7 +6,7 @@ icon: foot-wing
 
 [Take me back to main page](../)
 
-<figure><picture><source srcset="../.gitbook/assets/wdf_connectors_banner_dark.gif" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/wdf_connectors_banner.gif" alt="Workflow Data Fabric"></picture><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/wdf_connectors_banner.gif" alt="Workflow Data Fabric"><figcaption></figcaption></figure>
 
 ## Business motivation
 
