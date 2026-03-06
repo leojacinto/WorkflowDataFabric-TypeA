@@ -8,5 +8,5 @@
 * [Lab Exercise: Model Context Protocol Server/Client](lab-exercise-model-context-protocol-server-client.md)
 * [Lab Exercise: ServiceNow Document Intelligence and Lens](lab-exercise-servicenow-lens-and-document-intelligence.md)
 * [\[Controlled\] Lab Exercise: External Content Connector](lab-exercise-external-content-connector.md)
-* [Bonus Exercise: Stream Connect for Apache Kafka Lab](lab-exercise-kafka_stream_connect.md)
+* [Troubleshooting](troubleshooting.md)
 * [screenshots](screenshots/readme.md)
