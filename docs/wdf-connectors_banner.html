@@ -46,8 +46,8 @@
   .scene {
     position: relative;
     width: 100%;
-    min-width: 400px;
-    aspect-ratio: 7 / 2;
+    min-width: 580px;
+    aspect-ratio: 5 / 2;
     overflow: hidden;
     background: var(--bg);
     margin: 0 auto;
@@ -119,22 +119,15 @@
   /* ================================== */
   .hub {
     position: absolute;
-    left: 12%;
+    left: 10%;
     top: 50%;
     transform: translateY(-50%);
     z-index: 20;
-    opacity: 0;
-    animation: slideIn 1s ease 0.4s forwards;
-  }
-
-  @keyframes slideIn {
-    0% { opacity: 0; transform: translateY(-50%) translateX(-20px); }
-    100% { opacity: 1; transform: translateY(-50%) translateX(0); }
   }
 
   .hub-outer {
-    width: clamp(160px, 22vw, 260px);
-    height: clamp(160px, 22vw, 260px);
+    width: clamp(220px, 28vw, 380px);
+    height: clamp(220px, 28vw, 380px);
     border-radius: 50%;
     border: 1px solid var(--now-green-dim);
     display: flex;
@@ -163,14 +156,14 @@
   }
 
   .hub-icon img {
-    width: clamp(40px, 5vw, 65px);
-    height: clamp(40px, 5vw, 65px);
+    width: clamp(44px, 5.2vw, 72px);
+    height: clamp(44px, 5.2vw, 72px);
     object-fit: contain;
   }
 
   .hub-name {
     font-family: var(--sans);
-    font-size: clamp(1rem, 1.6vw, 1.5rem);
+    font-size: clamp(1.3rem, 2.2vw, 2rem);
     font-weight: 400;
     letter-spacing: 0.04em;
     color: var(--ink);
@@ -179,7 +172,7 @@
 
   .hub-sub {
     font-family: var(--mono);
-    font-size: clamp(0.45rem, 0.6vw, 0.65rem);
+    font-size: clamp(0.58rem, 0.8vw, 0.82rem);
     font-weight: 400;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -188,7 +181,7 @@
 
   .orbit {
     position: absolute;
-    inset: -12px;
+    inset: -18px;
     border-radius: 50%;
     border: 1px dashed var(--ink-ghost);
     animation: spin 55s linear infinite;
@@ -211,12 +204,12 @@
   /* ================================== */
   .nodes {
     position: absolute;
-    right: 4%;
+    right: 5%;
     top: 50%;
     transform: translateY(-50%);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: clamp(0.25rem, 0.45vw, 0.4rem);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.3rem, 0.6vw, 0.55rem);
     z-index: 20;
   }
 
@@ -224,14 +217,14 @@
     display: flex;
     align-items: center;
     gap: clamp(0.4rem, 0.65vw, 0.65rem);
-    padding: clamp(0.25rem, 0.4vw, 0.4rem) clamp(0.4rem, 0.6vw, 0.7rem) clamp(0.25rem, 0.4vw, 0.4rem) clamp(0.35rem, 0.5vw, 0.55rem);
+    padding: clamp(0.3rem, 0.55vw, 0.5rem) clamp(0.5rem, 0.8vw, 0.9rem) clamp(0.3rem, 0.55vw, 0.5rem) clamp(0.4rem, 0.65vw, 0.7rem);
     border-radius: 9px;
     border: 1px solid var(--ink-ghost);
     background: rgba(255,255,255,0.88);
     backdrop-filter: blur(6px);
-    min-width: clamp(110px, 12vw, 160px);
-    opacity: 0;
-    transform: translateX(28px);
+    min-width: clamp(140px, 15vw, 200px);
+    opacity: 1;
+    transform: none;
     transition: box-shadow 0.3s ease, border-color 0.3s ease;
     cursor: default;
   }
@@ -242,8 +235,8 @@
   }
 
   .node-icon {
-    width: clamp(18px, 1.8vw, 24px);
-    height: clamp(18px, 1.8vw, 24px);
+    width: clamp(22px, 2.2vw, 30px);
+    height: clamp(22px, 2.2vw, 30px);
     border-radius: 7px;
     display: flex;
     align-items: center;
@@ -262,7 +255,7 @@
 
   .node-name {
     font-family: var(--sans);
-    font-size: clamp(0.48rem, 0.6vw, 0.62rem);
+    font-size: clamp(0.55rem, 0.72vw, 0.72rem);
     font-weight: 400;
     letter-spacing: 0.02em;
     color: var(--ink);
@@ -270,7 +263,7 @@
 
   .node-type {
     font-family: var(--mono);
-    font-size: clamp(0.28rem, 0.34vw, 0.34rem);
+    font-size: clamp(0.32rem, 0.4vw, 0.4rem);
     font-weight: 400;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -278,7 +271,7 @@
   }
 
   .node-pip {
-    width: 4px; height: 4px;
+    width: 5px; height: 5px;
     border-radius: 50%;
     margin-left: auto;
     flex-shrink: 0;
@@ -320,16 +313,14 @@
   /* ================================== */
   .badge {
     position: absolute;
-    top: 50%; left: 44%;
+    top: 50%; left: 46%;
     transform: translate(-50%, -50%);
     z-index: 15;
-    opacity: 0;
-    animation: fadeIn 1.2s ease 1.8s forwards;
   }
 
   .badge-inner {
     font-family: var(--mono);
-    font-size: clamp(0.3rem, 0.38vw, 0.4rem);
+    font-size: clamp(0.36rem, 0.48vw, 0.48rem);
     font-weight: 400;
     letter-spacing: 0.28em;
     text-transform: uppercase;
@@ -343,7 +334,6 @@
     white-space: nowrap;
   }
 
-  @keyframes fadeIn { to { opacity: 1; } }
 </style>
 </head>
 <body>
@@ -372,7 +362,7 @@
     </div>
   </div>
 
-  <!-- Nodes: 2x3 grid -->
+  <!-- Nodes -->
   <div class="nodes" id="nodes">
     <div class="node n-snow">
       <div class="node-icon">
@@ -480,13 +470,6 @@
 // STAGGERED NODE ENTRANCE
 // ============================================
 const nodeEls = document.querySelectorAll('.node');
-nodeEls.forEach((n, i) => {
-  setTimeout(() => {
-    n.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-    n.style.opacity = '1';
-    n.style.transform = 'translateX(0)';
-  }, 700 + i * 120);
-});
 
 // ============================================
 // CANVAS
