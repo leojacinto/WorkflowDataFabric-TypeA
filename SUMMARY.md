@@ -9,12 +9,15 @@
 * [Lab Exercise: Integration Hub](main-exercises/lab-exercise-integration-hub.md)
 * [Lab Exercise: Zero Copy Connectors](main-exercises/lab-exercise-zero-copy-connectors.md)
 
-## Extended Exercises - for those hungry for more
+## Extended Exercises
 
-* [Lab Exercise: Model Context Protocol Server/Client](extended-exercises-for-those-hungry-for-more/lab-exercise-model-context-protocol-server-client.md)
-* [Lab Exercise: ServiceNow Document Intelligence and Lens](extended-exercises-for-those-hungry-for-more/lab-exercise-servicenow-lens-and-document-intelligence.md)
-* [Lab Exercise: External Content Connector](extended-exercises-for-those-hungry-for-more/lab-exercise-external-content-connector.md)
-* [Lab Exercise: Stream Connect for Apache Kafka Lab](extended-exercises-for-those-hungry-for-more/lab-exercise-kafka_stream_connect.md)
+* [Lab Exercise: Model Context Protocol Server/Client](extended-exercises/lab-exercise-model-context-protocol-server-client.md)
+* [Lab Exercise: ServiceNow Document Intelligence and Lens](extended-exercises/lab-exercise-servicenow-lens-and-document-intelligence.md)
+
+## Hungry for more?
+
+* [Lab Exercise: External Content Connector](hungry-for-more/lab-exercise-external-content-connector.md)
+* [Lab Exercise: Stream Connect for Apache Kafka Lab](hungry-for-more/lab-exercise-kafka_stream_connect.md)
 
 ***
 
