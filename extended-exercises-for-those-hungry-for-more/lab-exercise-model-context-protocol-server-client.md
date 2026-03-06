@@ -1,6 +1,6 @@
 # Lab Exercise: Model Context Protocol Server/Client
 
-[Take me back to main page](./)
+[Take me back to main page](../)
 
 This lab will walk you through the configuration and usage of MCP capabilities to interact with ServiceNow either as a client or as a server, allowing end users to interact with the platform as they see fit. For simplicity, this lab will cover ServiceNow acting as an MCP Client. More details on MCP Server scenarios will be added soon.
 
@@ -67,11 +67,11 @@ graph LR
 
 1. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Settings**.
 
-<figure><img src=".gitbook/assets/sc_mcp_agent_studio_settings_nav (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_mcp_agent_studio_settings_nav (3).png" alt=""><figcaption></figcaption></figure>
 
 2. In the **Settings** page > <mark style="color:green;">**a.)**</mark> go to **Manage MCP Servers** > <mark style="color:green;">**b.)**</mark> click on **New**.
 
-<figure><img src=".gitbook/assets/sc_mcp_manage_servers_new.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_mcp_manage_servers_new.png" alt=""><figcaption></figcaption></figure>
 
 3. Enter the details below:
 
@@ -87,7 +87,7 @@ Note: there should be the word **Bearer** as a prefix so your value in the API K
 
 <mark style="color:green;">**e.)**</mark> **Add**
 
-<figure><img src=".gitbook/assets/sc_mcp_add_neon_server_details.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_mcp_add_neon_server_details.png" alt=""><figcaption></figcaption></figure>
 
 ### Connecting to an MCP Server (Neon)
 
@@ -97,40 +97,40 @@ This exercise does not cover the creation of the MCP Service from Neon as that r
 
 1. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
-<figure><img src=".gitbook/assets/sc_common_agent_studio_create_manage.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_common_agent_studio_create_manage.png" alt=""><figcaption></figcaption></figure>
 
 2. This will go to the list of workflows and agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** and hit **Return/Enter ↵**.
 
-<figure><img src=".gitbook/assets/sc_zcc_agent_studio_manage.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_zcc_agent_studio_manage.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Click on **Forecast Variance**.
 
-<figure><img src=".gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
 4.  Click on <mark style="color:$success;">**a.)**</mark> **more (vertical three dots)** > <mark style="color:$success;">**b.) Duplicate**</mark>
 
-    <figure><img src=".gitbook/assets/sc_mcp_duplicate_agent_menu.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_duplicate_agent_menu.png" alt=""><figcaption></figcaption></figure>
 5.  You will get a prompt to confirm whether you want to duplicate the agent. Click **Duplicate**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_duplicate_confirm.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_duplicate_confirm.png" alt=""><figcaption></figcaption></figure>
 6.  In the new Agent screen, go to the **AI agent name** and rename it to **Forecast Variance Neon MCP Lab**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_rename_agent_neon.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_rename_agent_neon.png" alt=""><figcaption></figcaption></figure>
 7.  In the section **Define the role and Required steps** under sub-section **List of steps**, go to step 2 after the paragraph which starts with **Get cost center obtained in...** then add **Also run the MCP tool "Get Details via Neon MCP" as a secondary check. Only return one entry (limit = 1). Columns should be \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]**. It should look like the screenshot below.
 
-    <figure><img src=".gitbook/assets/sc_mcp_define_role_neon_step.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_define_role_neon_step.png" alt=""><figcaption></figcaption></figure>
 8.  Click **Save and Continue**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_save_and_continue.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_save_and_continue.png" alt=""><figcaption></figcaption></figure>
 9.  Navigate to <mark style="color:green;">**a.)**</mark> **Add tools and information** > <mark style="color:green;">**b.)**</mark> **Add tool** > <mark style="color:green;">**c.)**</mark> > **MCP server tool**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_add_tool_neon.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_add_tool_neon.png" alt=""><figcaption></figcaption></figure>
 10. In the pop-up that appears, <mark style="color:green;">**a.)**</mark> click on the **dropdown** > <mark style="color:green;">**b.)**</mark> select **Neon MCP**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_select_neon.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_select_neon.png" alt=""><figcaption></figcaption></figure>
 11. In the same pop-up screen, select the tool **variance-baseline-search**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_variance_baseline_neon.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_variance_baseline_neon.png" alt=""><figcaption></figcaption></figure>
 12. Still in the same pop-up screen provide the following details. Screenshot on how the settings should look like immediately follows. You only need to modify three settings and leave the rest as they are.
 
 <mark style="color:green;">**a.)**</mark> **Name**: Get Details via Neon MCP
@@ -144,32 +144,32 @@ This exercise does not cover the creation of the MCP Service from Neon as that r
 
 <mark style="color:green;">**d.)**</mark>**&#x20;Save**
 
-<figure><img src=".gitbook/assets/sc_mcp_tool_settings_neon.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_mcp_tool_settings_neon.png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. The pop-up will exit and you should get a section on **Model Context Protocol tools** which should look like below.
 
-    <figure><img src=".gitbook/assets/sc_mcp_tools_section_neon.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_tools_section_neon.png" alt=""><figcaption></figcaption></figure>
 14. Click **Save and Continue**.
 
-    <figure><img src=".gitbook/assets/sc_common_save_and_continue (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_common_save_and_continue (1).png" alt=""><figcaption></figcaption></figure>
 15. Since this is copied from an existing AI Agent configuration, simply accept the default values for **Define security controls** and its 2 sub-items. Also keep A**dd triggers value** blank.
 
-    <figure><img src=".gitbook/assets/sc_mcp_security_defaults.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_security_defaults.png" alt=""><figcaption></figcaption></figure>
 16. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_channels_status_neon.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_channels_status_neon.png" alt=""><figcaption></figcaption></figure>
 17. You **MIGHT** be alerted of potential duplicates but this is due to the multiple AI Agents created to test various integration scenarios. Click **Ignore and continue**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_duplicate_warning.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_duplicate_warning.png" alt=""><figcaption></figcaption></figure>
 18. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
 
-    <figure><img src=".gitbook/assets/sc_mcp_test_input.png" alt="" width="478"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_test_input.png" alt="" width="478"><figcaption></figcaption></figure>
 19. The test will run for a few seconds and will show you that it is running the tool **Get Details in Neon MCP**. This is the additional tool you created earlier.
 
-    <figure><img src=".gitbook/assets/sc_mcp_test_running_neon.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_test_running_neon.png" alt=""><figcaption></figcaption></figure>
 20. Finally, you will notice that the **Get Details in Neon MCP** has obtained the closest matching the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.
 
-    <figure><img src=".gitbook/assets/sc_mcp_test_results_neon.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_mcp_test_results_neon.png" alt=""><figcaption></figcaption></figure>
 21. **Challenge:** once you are done with this lab, see if you can remove the tool **Extract Cost Center** and replace it completely with the data from **Get Details via Neon MCP** as seen in step 7. No hints this time. 😉
 
 ## Conclusion
@@ -180,4 +180,4 @@ Congratulations! You have created the **MCP Server** integrations that allows Se
 
 You can explore a bonus use case that makes use of Stream Connect for Apache Kafka for integrations that require more throughput and data volume.
 
-[Take me back to main page](./)
+[Take me back to main page](../)
