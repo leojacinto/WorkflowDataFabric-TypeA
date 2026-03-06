@@ -75,9 +75,9 @@ graph LR
 
 3. Enter the details below:
 
-<mark style="color:green;">**a.)**</mark> **Name:** **Neon MCP Lab**&#x20;
+<mark style="color:green;">**a.)**</mark> **Name:** **Neon MCP Lab**
 
-<mark style="color:green;">**b.)**</mark>**&#x20;Authentication type:** **API Key**&#x20;
+<mark style="color:green;">**b.)**</mark>**&#x20;Authentication type:** **API Key**
 
 <mark style="color:green;">**c.)**</mark> **URL:** [**https://mcp.neon.tech/mcp**](https://mcp.neon.tech/mcp)
 
@@ -137,7 +137,7 @@ This exercise does not cover the creation of the MCP Service from Neon as that r
 
 <mark style="color:green;">**b.)**</mark> **Tool description**:
 
-* projectId: shy-base-71725149 (camelCase, not project\_id)&#x20;
+* projectId: shy-base-71725149 (camelCase, not project\_id)
 * sql: SELECT cost\_center, actual\_amount\_usd, baseline\_amount\_usd, variance, variance\_pct FROM "VARIANCE\_BASELINE\_V" WHERE cost\_center = '\{{cost\_center\}}' LIMIT 1
 
 <mark style="color:green;">**c.)**</mark> **Execution mode**: **Autonomous**
@@ -171,31 +171,6 @@ This exercise does not cover the creation of the MCP Service from Neon as that r
 
     <figure><img src=".gitbook/assets/sc_mcp_test_results_neon.png" alt=""><figcaption></figcaption></figure>
 21. **Challenge:** once you are done with this lab, see if you can remove the tool **Extract Cost Center** and replace it completely with the data from **Get Details via Neon MCP** as seen in step 7. No hints this time. 😉
-
-## Troubleshooting
-
-1. If you get messages in Now Assist from the agent saying messages like below, this just means that indexing of the tables needed by the agent to search transactions is not yet completed. Wait for 10 to 15 minutes.
-
-* Errors/messages in Now Assist below. These do not affect the outcome of your lab activity as the agents and the tools related to this are already configured and is only related to the lab instance server load.
-  * There is no available information indicating similar transactions for this vendor in the past based on the cost center being processed.
-  * Based on the available information, there is insufficient data to determine whether the results are mostly 'On Target', 'Over Budget', or 'Under Budget.' Please provide additional details or context for a more accurate evaluation.
-*   **If the errors persist after waiting 10 to 15 minutes, do the following steps to force an indexing job, but this is not a guaranteed fix if there is a high load in the shared lab ML services used in AI search**.
-
-    * Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Indexed Sources** > <mark style="color:green;">**b.)**</mark> click **AI Search > AI Search Index >** and Ctrl / ⌘ + click **Indexed Sources** to open a new window.
-
-    <figure><img src=".gitbook/assets/sc_common_indexed_sources_nav.png" alt=""><figcaption></figcaption></figure>
-
-    *   Search for **Sources** with the string <mark style="color:green;">**a.)**</mark> \*x\_snc\_forecast then Ctrl / ⌘ + click both <mark style="color:green;">**b.)**</mark> **Cost Center Budget History Indexed Source** and <mark style="color:green;">**c.)**</mark>**&#x20;Expense Transactions Indexed Source** so you have two new windows for these objects.
-
-        <figure><img src=".gitbook/assets/sc_common_search_indexed_sources.png" alt=""><figcaption></figcaption></figure>
-    * In the new window for **Center Budget History Indexed Source**, click **Index All Tables**.
-
-    <figure><img src=".gitbook/assets/sc_common_index_budget_history.png" alt=""><figcaption></figcaption></figure>
-
-    *   In the new window for **Expense Transactions Indexed Source**, click **Index All Tables**.
-
-        <figure><img src=".gitbook/assets/sc_common_index_expense_transactions.png" alt=""><figcaption></figcaption></figure>
-    * Once done, you can re-execute your agent.
 
 ## Conclusion
 
