@@ -1,3 +1,7 @@
+---
+icon: atom
+---
+
 # Lab Exercise: Fundamentals
 
 [Take me back to main page](../)

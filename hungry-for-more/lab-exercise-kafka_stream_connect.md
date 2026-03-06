@@ -1,3 +1,7 @@
+---
+icon: foot-wing
+---
+
 # Lab Exercise: Stream Connect for Apache Kafka Lab
 
 [Take me back to main page](../)

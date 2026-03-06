@@ -1,3 +1,7 @@
+---
+icon: diagram-nested
+---
+
 # Data and Flow Diagrams
 
 [Take me back to main page](./)

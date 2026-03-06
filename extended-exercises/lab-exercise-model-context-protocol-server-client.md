@@ -1,3 +1,7 @@
+---
+icon: mcp
+---
+
 # Lab Exercise: Model Context Protocol Server/Client
 
 [Take me back to main page](../)
