@@ -1,3 +1,7 @@
+---
+icon: link
+---
+
 # Lab Exercise: Integration Hub
 
 [Take me back to main page](../)

@@ -1,3 +1,7 @@
+---
+icon: arrows-to-circle
+---
+
 # Lab Exercise: Zero Copy Connectors
 
 [Take me back to main page](../)
