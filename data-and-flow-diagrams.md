@@ -176,7 +176,7 @@ You can skip the review of the diagram below if you prefer, and head straight in
 
 * [Lab Exercise: Fundamentals](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-fundamentals)
 * [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub)
-* [Lab Exercise: Zero Copy Connectors](lab-exercise-zero-copy-connectors.md)
+* [Lab Exercise: Zero Copy Connectors](main-exercises/lab-exercise-zero-copy-connectors.md)
 * [Lab Exercise: Model Context Protocol Server/Client](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-model-context-protocol-server-client)
 * [Lab Exercise: ServiceNow Lens and Document Intelligence](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-servicenow-lens-and-document-intelligence)
 * <mark style="color:$warning;">**\[Controlled Lab]**</mark> [Lab Exercise: External Content Connector](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-external-content-connector)
