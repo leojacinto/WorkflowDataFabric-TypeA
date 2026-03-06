@@ -4,9 +4,7 @@ icon: magnifying-glass-chart
 
 # Workflow Data Fabric Lab: Financial Intelligence at Scale
 
-{% embed url="https://codepen.io/leojacinto/pen/raMeoYJ" %}
-
-{% endembed %}
+<figure><img src=".gitbook/assets/wdf_connectors_banner.gif" alt="Workflow Data Fabric"><figcaption></figcaption></figure>
 
 ## Business motivation
 
