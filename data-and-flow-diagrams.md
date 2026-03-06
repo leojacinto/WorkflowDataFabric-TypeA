@@ -170,7 +170,7 @@ While not part of Workflow Data Fabric, these provide additional data sources fo
 
 ## Overall data flow
 
-Do not let the chart intimidate you 😉. This will be broken down further and the intent of showing the whole data flow is to provide an overview of the inner workings within ServiceNow while, as mentioned earlier, the end user will interact with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
+The diagram below will be further decomposed in the next sections to give you mode detail on the inner workings within ServiceNow while, as mentioned earlier, the end user interacts with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
 
 You can skip the review of the diagram below if you prefer, and head straight into the lab exercises, each of which having its individual (and much more broken down 😉) data flow.
 
@@ -182,112 +182,49 @@ You can skip the review of the diagram below if you prefer, and head straight in
 * <mark style="color:$warning;">**\[Controlled Lab]**</mark> [Lab Exercise: External Content Connector](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-external-content-connector)
 
 ```mermaid fullWidth="true"
-graph LR
-    subgraph "User Interaction Layer"
-        Employee((Employee/<br/>Finance Manager))
-        EC[Employee Center or<br/>Workspace with Now Assist]
-        ClaudeDesktop[Claude Desktop<br/>+ MCP]
+---
+title: Workflow Data Fabric Landscape
+---
+graph TB
+    subgraph USER["User Interaction"]
+        WC["Work Center"]
+        EC["Employee Center"]
+        MCP_C["MCP Client"]
     end
 
-    subgraph "External Systems"
-        ERP[(ERP System<br/>Data)]
-        ExpenseAPI[Expense Event<br/>API]
-        SharePoint[SharePoint<br/>Executive Memos]
-        CDW[(Cloud Data<br/>Warehouse)]
-    end
-
-    subgraph "AI Experiences"
-        Lens["ServiceNow</br>Lens"]
-        DocIntel["Document</br>Intelligence"]
-    end
-
-    subgraph "ServiceNow Workflow Data Fabric and related components"
-        subgraph "Data Integration Layer"
-            ZeroCopySQL[Zero Copy SQL<br/>Connection]
-            ZeroCopyERP[Zero Copy ERP<br/>Connection]
-            IntHub[Integration Hub<br/>Spoke/Flow]
-            ExtContent[External Content<br/>Connector]
+    subgraph SNOW["ServiceNow Platform"]
+        direction TB
+        subgraph AI["AI & Automation"]
+            AGENTS["AI Agents"]
+            FLOWS["Flows & Actions"]
+            RAG["RAG via AI Search"]
+            MCP_S["MCP Server"]
         end
-
-        subgraph "Zero Copy Tables - Read Only"
-            ZCCC[(Cost Center)]
-            ZCCH[(Cost Center</br>History)]
-            ZCExp[(Expenses)]
+        subgraph DATA["Data Layer"]
+            ZCT["Zero Copy Tables"]
+            NT["Native Tables"]
         end
-
-        subgraph "ServiceNow Native Tables"
-            ExpenseTable[(Expense Event<br/>Line Items<br/>Scoped Table)]
-            FinCase[(Finance Case<br/>Table)]
-          end
-
-
-        subgraph AI[AI & Automation]
-            Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
-            Agent2[Agent: Proactive<br/>Budget Alert<br/>Integration Hub Source]
-            RAG[RAG - Retrieval<br/>Augmented Generation]
-            FlowAction[Flow and Action]
-            MCPS[MCP Server]
-            MCPC[MCP Client]
+        subgraph AX["AI Experiences"]
+            LENS["Lens"]
+            DOCINT["Document Intelligence"]
         end
     end
 
-    %% Data Flow Connections
-    ERP -->|OData Feed| ZeroCopyERP
-    CDW -->|Data Fabric table| ZeroCopySQL
+    subgraph EXT["External Systems"]
+        ERP["ERP"]
+        CDW["Cloud Data Warehouse"]
+        DOC["Document Storage"]
+        API["Expense Event API"]
+    end
 
-    ZeroCopyERP --> ZCCC
-    ZeroCopySQL --> ZCCH
-    ZeroCopySQL --> ZCExp
-    ExpenseAPI -->|Real-time Events| IntHub
-    IntHub -->|Write| ExpenseTable
-    EC -->|Individual UI-based| Lens -->|Write| ExpenseTable
-    EC -->|Individual UI-based| DocIntel -->|Write| ExpenseTable
-    SharePoint -->|Executive Guidance| ExtContent
-
-    %% Agent 1 Workflow - Zero Copy Source
-    ZCCC -->|Query Over-Budget| Agent1
-    ZCCH -->|Historical Data| Agent1
-    ZCExp -->|Expense Details| Agent1
-    ExpenseTable -->|Search Similar Cases| Agent1
-    ZCExp -->|Search Similar Cases| Agent1
-    Agent1 -->|Create Case| FinCase
-    Agent1 <-->|Trend Analysis| RAG
-    Agent1 <-->|Flows/Subflows/Actions| FlowAction
-
-    %% Agent 2 Workflow - Integration Hub Source
-    ExpenseTable -->|Incoming Event| Agent2
-    ZCCC -->|Current Budget| Agent2
-    Agent2 -->|Create Case| FinCase
-    
-    %% MCP Server Connection
-    FinCase -->|Query Data| MCPS
-    MCPS <-->|API Communication| ClaudeDesktop
-
-    %% MCP Client Connection
-    Agent1 -->|Query Data| MCPC
-    MCPC -->|Query Data| CDW
-
-    %% User Interaction Connections
-    Employee -->|Ask Questions<br/>View/Update Cases| EC
-    EC -->|Search & Query| FinCase
-    EC -->|Natural Language| ExtContent
-    Employee -->|Analytics| ClaudeDesktop
-
-    %% Styling
-    classDef external fill:#e1f5ff,stroke:#01579b,stroke-width:2px
-    classDef integration fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    classDef zeroCopy fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    classDef native fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
-    classDef ai fill:#fff9c4,stroke:#f57f17,stroke-width:2px
-    classDef user fill:#e3f2fd,stroke:#1565c0,stroke-width:3px
-
-    class ERP,ExpenseAPI,SharePoint,CDW,MockERP,MockExpense,MockCDW external
-    class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent integration
-    class ZCCC,ZCCH,ZCExp zeroCopy
-    class ExpenseTable,FinCase,FinVar native
-    class Agent1,Agent2,RAG,NASK,FlowAction,MCPS,MCPC,GGraph,NLQuery,Lens,DocIntel ai
-    class Employee,EC,ClaudeDesktop user
-
+    USER --> AI
+    MCP_C --> MCP_S
+    AI --> DATA
+    AX --> DATA
+    DATA -->|"Zero Copy Connector"| ERP
+    DATA -->|"Zero Copy Connector"| CDW
+    AI -->|"Integration Hub"| API
+    AI -->|"XCC"| DOC
 ```
 
 [Take me back to main page](./)
