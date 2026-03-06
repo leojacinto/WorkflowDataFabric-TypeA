@@ -7,8 +7,8 @@ import subprocess, os, sys, time, glob
 
 # ── CONFIG ──────────────────────────────────────────────
 WIDTH = 1440          # 2x retina for crisp display at 730px GitBook width
-ASPECT = 7 / 2        # 3.5:1 wide banner ratio for GitBook narrow content
-HEIGHT = int(WIDTH / ASPECT)  # ~411
+ASPECT = 5 / 2        # 2.5:1 banner ratio for GitBook content area
+HEIGHT = int(WIDTH / ASPECT)  # 576
 DURATION = 8          # seconds to record
 FPS = 50              # max practical GIF framerate (GIF minimum delay = 20ms)
 # ────────────────────────────────────────────────────────
