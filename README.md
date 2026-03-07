@@ -52,7 +52,7 @@ This is designed to be a full day workshop covering most of WDF's capabilities. 
 
 ## For Solution Consultants using internal Demo Hub
 
-<mark style="color:$warning;">**\[Internal Only]**</mark> There are steps in this lab which look different compared to the internal Demo Hub instances accessible internally to ServiceNow Solution Consultants. A summary of these differences are can be accessed in [Demo Hub Considerations](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/demo-hub-for-scs/demo-hub-considerations).&#x20;
+<mark style="color:$warning;">**\[Internal Only]**</mark> There are steps in this lab which look different compared to the internal Demo Hub instances accessible only to ServiceNow Solution Consultants. A summary of these differences are can be accessed in [Demo Hub Considerations](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/demo-hub-for-scs/demo-hub-considerations).&#x20;
 
 ## Post-lab recommended materials
 
