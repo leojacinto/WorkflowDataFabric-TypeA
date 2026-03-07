@@ -19,6 +19,10 @@
 * [Lab Exercise: External Content Connector](hungry-for-more/lab-exercise-external-content-connector.md)
 * [Lab Exercise: Stream Connect for Apache Kafka Lab](hungry-for-more/lab-exercise-kafka_stream_connect.md)
 
+## Demo Hub for SCs
+
+* [Demo Hub for Solution Consultants](demo-hub-for-scs/demo-hub-for-solution-consultants.md)
+
 ***
 
 * [Troubleshooting](troubleshooting.md)
