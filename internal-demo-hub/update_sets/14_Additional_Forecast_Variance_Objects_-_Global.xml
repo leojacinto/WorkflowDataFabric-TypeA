@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-02-11 06:02:49">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Additional Forecast Variance Objects - Global</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>c63c23a4150332107f449f4c6bfdb316</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:48</sys_created_on>
+<sys_id>eafa107015cb32107f449f4c6bfdb3ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:48</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary_u_period_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_period" label="PERIOD" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_period</element><help/><hint/><label>PERIOD</label><language>en</language><name>u_cc_summary</name><plural>PERIODs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:18</sys_created_on><sys_id>2aee27a8154732107f449f4c6bfdb39a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PERIOD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary_u_period_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:18</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-57233981</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:48</sys_created_on>
+<sys_id>66fa107015cb32107f449f4c6bfdb3ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b50410000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:48</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.PERIOD</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>a2ee27a8774732102e0dc66d6b46aba4</update_guid>
+<update_guid_history>a2ee27a8774732102e0dc66d6b46aba4:-57233981</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:12&lt;/sys_created_on&gt;&lt;sys_id&gt;89ee63a8154732107f449f4c6bfdb361&lt;/sys_id&gt;&lt;sys_name&gt;u_cc_summary&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-518656998</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>eefa107015cb32107f449f4c6bfdb3ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b46320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4aeee3a87647321060ade9b3eea8e3d4</update_guid>
+<update_guid_history>4aeee3a87647321060ade9b3eea8e3d4:-518656998</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="u_cc_summary" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>u_cc_summary</label><language>en</language><name>u_cc_summary</name><plural>cc_summaries</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:14</sys_created_on><sys_id>e9eee3a8154732107f449f4c6bfdb38c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cc_summary</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>291273056</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e2fa107015cb32107f449f4c6bfdb3ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b46970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>c6eee3a802473210edba5c88d86bd5d7</update_guid>
+<update_guid_history>c6eee3a802473210edba5c88d86bd5d7:291273056</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_f4ee63a8154732107f449f4c6bfdb359</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><filter_extension/><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>u_cc_summary</label><live_feed_enabled>false</live_feed_enabled><name>u_cc_summary</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:11</sys_created_on><sys_id>f4ee63a8154732107f449f4c6bfdb359</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cc_summary</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_f4ee63a8154732107f449f4c6bfdb359</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:11</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-2007453769</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e6fa107015cb32107f449f4c6bfdb3ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b46d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>0eeee3a854473210f2f11f92ce2828d9</update_guid>
+<update_guid_history>0eeee3a854473210f2f11f92ce2828d9:-2007453769</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_u_actual_amount_usd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_actual_amount_usd" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;ACTUAL_AMOUNT_USD&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_actual_amount_usd&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:16&lt;/sys_created_on&gt;&lt;sys_id&gt;06eee3a8154732107f449f4c6bfdb3dc&lt;/sys_id&gt;&lt;sys_name&gt;ACTUAL_AMOUNT_USD&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_u_actual_amount_usd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>133833760</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>eefa507015cb32107f449f4c6bfdb383</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b481b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.ACTUAL_AMOUNT_USD</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>86eee3a83e4732106c5558ff0cdc63ea</update_guid>
+<update_guid_history>86eee3a83e4732106c5558ff0cdc63ea:133833760</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary_u_actual_amount_usd_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_actual_amount_usd" label="ACTUAL_AMOUNT_USD" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_actual_amount_usd</element><help/><hint/><label>ACTUAL_AMOUNT_USD</label><language>en</language><name>u_cc_summary</name><plural>ACTUAL_AMOUNT_USDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:16</sys_created_on><sys_id>ceeee3a8154732107f449f4c6bfdb3e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ACTUAL_AMOUNT_USD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary_u_actual_amount_usd_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>778858941</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e2fa507015cb32107f449f4c6bfdb384</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b483c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.ACTUAL_AMOUNT_USD</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>82eee3a8e2473210cd5f5cc8a10392ed</update_guid>
+<update_guid_history>82eee3a8e2473210cd5f5cc8a10392ed:778858941</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_u_baseline_amount_usd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_baseline_amount_usd" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;BASELINE_AMOUNT_USD&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_baseline_amount_usd&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:16&lt;/sys_created_on&gt;&lt;sys_id&gt;4eeee3a8154732107f449f4c6bfdb3ee&lt;/sys_id&gt;&lt;sys_name&gt;BASELINE_AMOUNT_USD&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_u_baseline_amount_usd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>470018322</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e6fa507015cb32107f449f4c6bfdb384</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b48cc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.BASELINE_AMOUNT_USD</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>46ee27a8bd473210b4038b42dbd68808</update_guid>
+<update_guid_history>46ee27a8bd473210b4038b42dbd68808:470018322</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary_u_baseline_amount_usd_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_baseline_amount_usd" label="BASELINE_AMOUNT_USD" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_baseline_amount_usd</element><help/><hint/><label>BASELINE_AMOUNT_USD</label><language>en</language><name>u_cc_summary</name><plural>BASELINE_AMOUNT_USDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:16</sys_created_on><sys_id>c6eee3a8154732107f449f4c6bfdb3f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BASELINE_AMOUNT_USD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary_u_baseline_amount_usd_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1923599047</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>eafa507015cb32107f449f4c6bfdb384</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b48ed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.BASELINE_AMOUNT_USD</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>82ee27a8b94732109531cbb60845e10b</update_guid>
+<update_guid_history>82ee27a8b94732109531cbb60845e10b:-1923599047</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_u_variance</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_variance" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;VARIANCE&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_variance&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:16&lt;/sys_created_on&gt;&lt;sys_id&gt;4eee27a8154732107f449f4c6bfdb30c&lt;/sys_id&gt;&lt;sys_name&gt;VARIANCE&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_u_variance&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1335450902</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>eefa507015cb32107f449f4c6bfdb384</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b497e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.VARIANCE</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>46ee27a82e473210849c8710c55c4326</update_guid>
+<update_guid_history>46ee27a82e473210849c8710c55c4326:-1335450902</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary_u_variance_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_variance" label="VARIANCE" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_variance</element><help/><hint/><label>VARIANCE</label><language>en</language><name>u_cc_summary</name><plural>VARIANCEs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:16</sys_created_on><sys_id>8eee27a8154732107f449f4c6bfdb31d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VARIANCE</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary_u_variance_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>578082979</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e2fa507015cb32107f449f4c6bfdb385</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b49970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.VARIANCE</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>82ee27a8704732107491e833f8b93929</update_guid>
+<update_guid_history>82ee27a8704732107491e833f8b93929:578082979</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_u_variance_pct</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_variance_pct" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;VARIANCE_PCT&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_variance_pct&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:16&lt;/sys_created_on&gt;&lt;sys_id&gt;4eee27a8154732107f449f4c6bfdb32a&lt;/sys_id&gt;&lt;sys_name&gt;VARIANCE_PCT&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_u_variance_pct&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-207348818</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e6fa507015cb32107f449f4c6bfdb385</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4a6a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.VARIANCE_PCT</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>5aee27a882473210be968697ca4fc737</update_guid>
+<update_guid_history>5aee27a882473210be968697ca4fc737:-207348818</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary_u_variance_pct_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_variance_pct" label="VARIANCE_PCT" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_variance_pct</element><help/><hint/><label>VARIANCE_PCT</label><language>en</language><name>u_cc_summary</name><plural>VARIANCE_PCTs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:16</sys_created_on><sys_id>c6ee27a8154732107f449f4c6bfdb32f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VARIANCE_PCT</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary_u_variance_pct_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1776452191</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>eafa507015cb32107f449f4c6bfdb385</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4a970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.VARIANCE_PCT</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>9eee27a8a1473210d926368988e96c39</update_guid>
+<update_guid_history>9eee27a8a1473210d926368988e96c39:1776452191</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_u_cost_center</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_cost_center" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;COST_CENTER&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_cost_center&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:17&lt;/sys_created_on&gt;&lt;sys_id&gt;d2ee27a8154732107f449f4c6bfdb33b&lt;/sys_id&gt;&lt;sys_name&gt;COST_CENTER&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_u_cost_center&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>392078190</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>eefa507015cb32107f449f4c6bfdb385</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4b5e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.COST_CENTER</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>daee27a8a9473210ac283871cdae6147</update_guid>
+<update_guid_history>daee27a8a9473210ac283871cdae6147:392078190</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary_u_cost_center_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_cost_center" label="COST_CENTER" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_cost_center</element><help/><hint/><label>COST_CENTER</label><language>en</language><name>u_cc_summary</name><plural>COST_CENTERs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:17</sys_created_on><sys_id>5eee27a8154732107f449f4c6bfdb33f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>COST_CENTER</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary_u_cost_center_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:17</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1677884929</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e2fa507015cb32107f449f4c6bfdb386</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4b7d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.COST_CENTER</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>5eee27a8ef47321036e9cef42f21a649</update_guid>
+<update_guid_history>5eee27a8ef47321036e9cef42f21a649:1677884929</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_u_fiscal_year</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_fiscal_year" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;FISCAL_YEAR&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_fiscal_year&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:17&lt;/sys_created_on&gt;&lt;sys_id&gt;92ee27a8154732107f449f4c6bfdb34b&lt;/sys_id&gt;&lt;sys_name&gt;FISCAL_YEAR&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_u_fiscal_year&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-281257988</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e6fa507015cb32107f449f4c6bfdb386</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4c980000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.FISCAL_YEAR</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>9aee27a8b54732103391aeebb896aa57</update_guid>
+<update_guid_history>9aee27a8b54732103391aeebb896aa57:-281257988</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary_u_fiscal_year_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_fiscal_year" label="FISCAL_YEAR" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_fiscal_year</element><help/><hint/><label>FISCAL_YEAR</label><language>en</language><name>u_cc_summary</name><plural>FISCAL_YEARs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:17</sys_created_on><sys_id>1eee27a8154732107f449f4c6bfdb34f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FISCAL_YEAR</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary_u_fiscal_year_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:17</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1358023419</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>eafa507015cb32107f449f4c6bfdb386</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4ccd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.FISCAL_YEAR</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>1eee27a84b473210f570ff63e0cf2b59</update_guid>
+<update_guid_history>1eee27a84b473210f570ff63e0cf2b59:-1358023419</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_u_forecast_source</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_forecast_source" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;FORECAST_SOURCE&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_forecast_source&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:17&lt;/sys_created_on&gt;&lt;sys_id&gt;1aee27a8154732107f449f4c6bfdb367&lt;/sys_id&gt;&lt;sys_name&gt;FORECAST_SOURCE&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_u_forecast_source&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>660148510</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>eefa507015cb32107f449f4c6bfdb386</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4d7c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.FORECAST_SOURCE</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>12ee27a8ae4732104e77e5cf7d455f74</update_guid>
+<update_guid_history>12ee27a8ae4732104e77e5cf7d455f74:660148510</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary_u_forecast_source_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_forecast_source" label="FORECAST_SOURCE" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_forecast_source</element><help/><hint/><label>FORECAST_SOURCE</label><language>en</language><name>u_cc_summary</name><plural>FORECAST_SOURCEs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:17</sys_created_on><sys_id>92ee27a8154732107f449f4c6bfdb36c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FORECAST_SOURCE</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary_u_forecast_source_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:17</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1849223713</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e2fa507015cb32107f449f4c6bfdb387</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4d910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.FORECAST_SOURCE</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>92ee27a8ce4732107c0626a2a586f876</update_guid>
+<update_guid_history>92ee27a8ce4732107c0626a2a586f876:1849223713</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_u_gl_account</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_gl_account" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;GL_ACCOUNT&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_gl_account&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:17&lt;/sys_created_on&gt;&lt;sys_id&gt;d6ee27a8154732107f449f4c6bfdb377&lt;/sys_id&gt;&lt;sys_name&gt;GL_ACCOUNT&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_u_gl_account&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-816502098</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e6fa507015cb32107f449f4c6bfdb387</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4e650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.GL_ACCOUNT</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>eeee27a8424732101974981efb295f83</update_guid>
+<update_guid_history>eeee27a8424732101974981efb295f83:-816502098</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary_u_gl_account_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_gl_account" label="GL_ACCOUNT" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_gl_account</element><help/><hint/><label>GL_ACCOUNT</label><language>en</language><name>u_cc_summary</name><plural>GL_ACCOUNTs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:17</sys_created_on><sys_id>52ee27a8154732107f449f4c6bfdb37c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GL_ACCOUNT</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary_u_gl_account_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:17</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>491539743</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>eafa507015cb32107f449f4c6bfdb387</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4e9c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.GL_ACCOUNT</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>eeee27a8d3473210fcd24f74b9371785</update_guid>
+<update_guid_history>eeee27a8d3473210fcd24f74b9371785:491539743</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_u_last_updated</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_last_updated" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;LAST_UPDATED&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_last_updated&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:18&lt;/sys_created_on&gt;&lt;sys_id&gt;26ee27a8154732107f449f4c6bfdb387&lt;/sys_id&gt;&lt;sys_name&gt;LAST_UPDATED&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_u_last_updated&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1178025292</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>eefa507015cb32107f449f4c6bfdb387</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4f7b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.LAST_UPDATED</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>62ee27a8d947321029d8be9133d9b993</update_guid>
+<update_guid_history>62ee27a8d947321029d8be9133d9b993:1178025292</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cc_summary_u_last_updated_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_last_updated" label="LAST_UPDATED" language="en" table="u_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_last_updated</element><help/><hint/><label>LAST_UPDATED</label><language>en</language><name>u_cc_summary</name><plural>LAST_UPDATEDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-11 02:50:18</sys_created_on><sys_id>e6ee27a8154732107f449f4c6bfdb38b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>LAST_UPDATED</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cc_summary_u_last_updated_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-11 02:50:18</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1222909537</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e2fa507015cb32107f449f4c6bfdb388</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b4f940000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.LAST_UPDATED</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>22ee27a8624732100f5675ac96f95e95</update_guid>
+<update_guid_history>22ee27a8624732100f5675ac96f95e95:1222909537</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cc_summary_u_period</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_period" table="u_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;PERIOD&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_period&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-11 02:50:18&lt;/sys_created_on&gt;&lt;sys_id&gt;66ee27a8154732107f449f4c6bfdb396&lt;/sys_id&gt;&lt;sys_name&gt;PERIOD&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cc_summary_u_period&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-11 02:50:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1033801482</payload_hash>
+<remote_update_set display_value="Additional Forecast Variance Objects - Global">eafa107015cb32107f449f4c6bfdb3ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 06:02:49</sys_created_on>
+<sys_id>e6fa507015cb32107f449f4c6bfdb388</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4a9b502a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-11 06:02:49</sys_updated_on>
+<table>u_cc_summary</table>
+<target_name>u_cc_summary.PERIOD</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a2ee27a82d473210187574336da031a2</update_guid>
+<update_guid_history>a2ee27a82d473210187574336da031a2:1033801482</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

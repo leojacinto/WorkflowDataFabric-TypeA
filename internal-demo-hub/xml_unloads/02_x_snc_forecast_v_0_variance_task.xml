@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-01-31 13:27:53">
+<x_snc_forecast_v_0_variance_task action="INSERT_OR_UPDATE">
+<action_status/>
+<active>true</active>
+<activity_due/>
+<additional_assignee_list/>
+<approval>not requested</approval>
+<approval_history/>
+<approval_set/>
+<assigned_to display_value=""/>
+<assignee/>
+<assignment_group display_value=""/>
+<business_duration/>
+<business_service display_value=""/>
+<calendar_duration/>
+<close_notes/>
+<closed_at/>
+<closed_by display_value=""/>
+<cmdb_ci display_value=""/>
+<cmdb_ci_business_app display_value=""/>
+<comments/>
+<comments_and_work_notes/>
+<company display_value=""/>
+<contact_type/>
+<contract display_value=""/>
+<correlation_display/>
+<correlation_id/>
+<created_date/>
+<delivery_plan display_value=""/>
+<delivery_task display_value=""/>
+<description/>
+<due_date/>
+<escalation>0</escalation>
+<expected_start/>
+<follow_up/>
+<group_list/>
+<impact>3</impact>
+<knowledge>false</knowledge>
+<location display_value=""/>
+<made_sla>true</made_sla>
+<needs_attention>false</needs_attention>
+<number>TASK0020018</number>
+<opened_at>2025-11-23 22:15:05</opened_at>
+<opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+<order/>
+<parent display_value=""/>
+<priority>4</priority>
+<reassignment_count>0</reassignment_count>
+<rejection_goto display_value=""/>
+<resolution_comments/>
+<route_reason/>
+<sentiment display_value=""/>
+<service_offering display_value=""/>
+<short_description>CC_IT_002 exceeded baseline budget</short_description>
+<skills/>
+<sla_due/>
+<sn_ai_sentiment display_value=""/>
+<sn_esign_document display_value=""/>
+<sn_esign_esignature_configuration display_value=""/>
+<sn_fin_accounting_period display_value=""/>
+<sn_hr_le_activity display_value=""/>
+<state>1</state>
+<status/>
+<sys_class_name>x_snc_forecast_v_0_variance_task</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-23 22:15:05</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>385abb033b557e900ad1a021a3e45a90</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-23 22:15:05</sys_updated_on>
+<task_effective_number>TASK0020018</task_effective_number>
+<threshold_value/>
+<time_worked/>
+<universal_request display_value=""/>
+<upon_approval>proceed</upon_approval>
+<upon_reject>cancel</upon_reject>
+<urgency>3</urgency>
+<user_input/>
+<variables/>
+<watch_list/>
+<wf_activity display_value=""/>
+<work_end/>
+<work_notes/>
+<work_notes_list/>
+<work_start/>
+</x_snc_forecast_v_0_variance_task>
+</unload>

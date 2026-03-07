@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-02-10 10:22:12">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Workflow Data Fabric Hub">15e007190f2ca3a07fd9186f8ad8ead6</application>
+<application_name>Workflow Data Fabric Hub</application_name>
+<application_scope>sn_data_fabric</application_scope>
+<application_version>2.2.1</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Scripted Connectors v2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>39e1e314cf4fb61076b9b7fe3d851ccc</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 10:22:11</sys_created_on>
+<sys_id>10cc40e8cf873a1076b9b7fe3d851cf3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 10:22:11</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workflow Data Fabric Hub">15e007190f2ca3a07fd9186f8ad8ead6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_5e596f60ffd39e108e03ffffffffffb6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;f4297d032760221019ae55225cf6f28b&lt;/enforce_acl&gt;&lt;http_method&gt;GET&lt;/http_method&gt;&lt;name&gt;Established Connections&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    function getScopeInformation(grObject, sysIds) {
+        let res = [];
+        grObject.addQuery('sys_id', 'IN', sysIds.join(','));
+        grObject.query();
+
+        while (grObject.next()) {
+            let sysId = grObject.getValue('sys_id');
+            let scopeName = grObject.getValue('name');
+            res.push({
+                sysId,
+                scopeName
+            });
+        }
+        return res;
+    }
+
+    const SYS_CREATED_ON_SORT = 'sys_created_on:desc';
+
+    // read request queryParams
+    const sourceType = String(request.queryParams.sourceType ?? 'all');
+    const createdBy = (request.queryParams.createdBy &amp;&amp; String(request.queryParams.createdBy) === 'me') ? gs.getUserName() : '';
+    const connectionStatus = !!request.queryParams.connectionStatus &amp;&amp; String(request.queryParams.connectionStatus) ? String(request.queryParams.connectionStatus) : '';
+    const searchValue = request.queryParams.searchValue ? decodeURIComponent(request.queryParams.searchValue) : '';
+    const start = Number(request.queryParams.start);
+    const end = Number(request.queryParams.end);
+    const connectionId = String(request.queryParams.connectionId ?? '');
+    const sortOrder = String(request.queryParams.sortOrder ?? '');
+    const selection = String(request.queryParams.selection ?? 'false').toLowerCase() === 'true';
+
+    let sortFields = [];
+    if (sortOrder &amp;&amp; sortOrder.toLowerCase() !== SYS_CREATED_ON_SORT) {
+        sortFields = [{
+            name: "connection_label",
+            isAscending: sortOrder.toLowerCase() !== 'desc'
+        }];
+    } else if (sortOrder &amp;&amp; sortOrder.toLowerCase() === SYS_CREATED_ON_SORT) {
+        sortFields = [{
+            name: "sys_created_on",
+            isAscending: false
+        }];
+    } else {
+        // If label sorting isn't specified, default to sorting label in ascending order
+        sortFields = [{
+            name: "connection_label",
+            isAscending: !sortOrder || sortOrder.toLowerCase() !== 'desc'
+        }];
+    }
+
+    const filteringStatus = !!connectionStatus &amp;&amp; connectionStatus !== 'all' ? connectionStatus : '';
+    try {
+        var appId = gs.getCurrentApplicationId();
+        if (connectionId) {
+            let connection = new ConnectionService().getConnectionById(connectionId);
+			const isSameScope = connection["scope"] === appId;
+            connection["currentScopeId"] = appId;
+            connection["isSameScope"] = isSameScope;
+            let scopeIds = [appId];
+            if (!isSameScope) {
+                scopeIds.push(connection["scope"]);
+            }
+            var gr = new GlideRecord('sys_scope');
+            const scopeInformation = getScopeInformation(gr, scopeIds);
+            for (let { sysId,scopeName } of scopeInformation) {
+                if (isSameScope || sysId === connection["scope"]) {
+                    connection["connScopeName"] = scopeName;
+                }
+                if (isSameScope || sysId === appId) {
+                    connection["currSessionScopeName"] = scopeName;
+                }
+            }
+            return connection;
+        }
+
+        var obj= new ConnectionService().getConnectionsBySearchParams(sourceType, createdBy, searchValue, start, end, sortFields, filteringStatus) || [];
+
+		//Alectri Simulation.
+        var simulatorUtil = new x_snc_alectri_zc_0.ZCCSimulatorUtil();
+        for (var i = 0; i &lt; obj['result'].length; i++) {
+            if (simulatorUtil.checkIfAlectriConnection(obj['result'][i]['id'])) {
+                var arr = JSON.parse(simulatorUtil.fetchAllDFtables(obj['result'][i]['id']));
+                obj['result'][i]['numMappedTables'] = parseInt(arr.length);
+				//mark the connection as simulated
+				obj['result'][i]['name'] = obj['result'][i]['name'] + ' (S)';
+            }
+        }
+
+return obj;
+
+    } catch (error) {
+        throw new sn_ws_err.BadRequestError('Data Fabric Hub: Unable to retrieve established connection(s). ' + error.message);
+    }
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/sn_data_fabric/data_fabric_ui/established-connections&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/established-connections&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-21 20:19:41&lt;/sys_created_on&gt;&lt;sys_id&gt;5e596f60ffd39e108e03ffffffffffb6&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Established Connections&lt;/sys_name&gt;&lt;sys_package display_value="Workflow Data Fabric Hub" source="sn_data_fabric"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workflow Data Fabric Hub"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_5e596f60ffd39e108e03ffffffffffb6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-29 14:26:46&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Data Fabric UI"&gt;48e07b5c430f5210920d8759bbb8f2d1&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>877424495</payload_hash>
+<remote_update_set display_value="Scripted Connectors v2">10cc40e8cf873a1076b9b7fe3d851cf3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 10:22:11</sys_created_on>
+<sys_id>10cc40e8cf873a1076b9b7fe3d851cf5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4667932a0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 10:22:11</sys_updated_on>
+<table/>
+<target_name>Established Connections</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>f2f12b54b24fb6101bea70f96fcda6dc</update_guid>
+<update_guid_history>f2f12b54b24fb6101bea70f96fcda6dc:877424495,f5243522ebbaf2d01c5eb0214e3bac20:-760342252</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workflow Data Fabric Hub">15e007190f2ca3a07fd9186f8ad8ead6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_ebacfc37437f521093098759bbb8f2fd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;f4297d032760221019ae55225cf6f28b&lt;/enforce_acl&gt;&lt;http_method&gt;GET&lt;/http_method&gt;&lt;name&gt;Get data fabric table&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    const schemaMapping = new sn_datafabric.SchemaMapping();
+
+    function getScopeInformation(grObject, sysIds) {
+        let res = [];
+        grObject.addQuery('sys_id', 'IN', sysIds.join(','));
+        grObject.query();
+
+        while (grObject.next()) {
+            let sysId = grObject.getValue('sys_id');
+            let scopeName = grObject.getValue('name');
+            let scopeId = grObject.getValue('scope');
+            res.push({
+                sysId,
+                scopeName,
+                scopeId
+            });
+        }
+        return res;
+    }
+
+    function getCompatibleTypesFor(type) {
+        try {
+            const outputObj = schemaMapping.listCompatibleColumnTypes(type);
+            const outputController = new DatafabricOutputController(outputObj);
+            if (!outputController.getStatus())
+                return null;
+
+            const resp = outputController.getData();
+            if (resp) {
+                const parsedResp = JSON.parse(resp);
+
+                //TODO: remove this when backend API is fixed to add string as a compatible type for reference type
+                if (type === 'reference' &amp;&amp; parsedResp &amp;&amp; !parsedResp.find(respType =&gt; respType.name === 'string')) {
+                    parsedResp.push({
+                        name: 'string',
+                        label: 'String'
+                    });
+                }
+
+                return parsedResp;
+            }
+        } catch (e) {
+            return null;
+        }
+    };
+
+    function getAllCompatibleColumnTypes(columns) {
+        let compatibleTypes = {};
+        let typeMetadata = {};
+        columns.forEach(column =&gt; {
+            if (column.glideColumnType) {
+                if (!compatibleTypes[column.glideColumnType]) {
+                    const types = getCompatibleTypesFor(column.glideColumnType);
+                    if (types) {
+                        compatibleTypes[column.glideColumnType] = types.map(type =&gt; type.name);
+                        types.forEach(type =&gt; {
+                            typeMetadata[type.name] = type;
+                        });
+                    }
+                }
+            }
+            if (column.remoteColumnType) {
+                if (!compatibleTypes[column.remoteColumnType]) {
+                    const types = getCompatibleTypesFor(column.remoteColumnType);
+                    if (types) {
+                        compatibleTypes[column.remoteColumnType] = types.map(type =&gt; type.name);
+                        types.forEach(type =&gt; {
+                            typeMetadata[type.name] = type;
+                        });
+                    }
+                }
+            }
+        });
+        return {compatibleTypes, typeMetadata};
+    }
+
+    const remoteSchema = request.queryParams.remoteSchema + '';
+    const remoteTable = request.queryParams.remoteTable + '';
+    const connectionId = String(request.queryParams.connectionId ?? '');
+    const dataFabricTableId = String(request.queryParams.dataFabricTableId ?? '');
+    const mode = request.queryParams.mode + '';
+
+    let appId = gs.getCurrentApplicationId();
+    let isSameScope = false;
+    let tableScopeId;
+    var sys_scope_gr = new GlideRecord('sys_scope');
+    var appName;
+    var scope;
+    var currSessionScopeName;
+
+    if (dataFabricTableId !== '') {
+        var sys_db_obj_gr = new GlideRecord('sys_db_object');
+        sys_db_obj_gr.addQuery("name", "=", dataFabricTableId);
+        sys_db_obj_gr.query();
+        while (sys_db_obj_gr.next()) {
+            tableScopeId = sys_db_obj_gr.getValue('sys_scope');
+            isSameScope = tableScopeId === appId;
+        }
+
+        var scopeSysIds = [appId];
+        if (!isSameScope) {
+            scopeSysIds.push(tableScopeId);
+        }
+
+        const scopeInformation = getScopeInformation(sys_scope_gr, scopeSysIds);
+        for (let {
+                sysId,
+                scopeName,
+                scopeId
+            }
+            of scopeInformation) {
+            if (isSameScope || sysId === tableScopeId) {
+                appName = scopeName;
+                scope = scopeId;
+            }
+            if (isSameScope || sysId === appId) {
+                currSessionScopeName = scopeName;
+            }
+        }
+    } else {
+        sys_scope_gr.get(appId);
+        appName = sys_scope_gr.getValue('name');
+        scope = sys_scope_gr.getValue('scope');
+        currSessionScopeName = appName;
+    }
+
+    /*
+    remoteColumnName", columnDefinition.name,
+    "remoteColumnLabel", columnDefinition.label,
+    "remoteColumnType", columnDefinition.type,
+    "remoteColumnLength", columnDefinition.length,
+    "remoteColumnDigits", columnDefinition.digits,
+    "isRemoteColumnNullable", columnDefinition.nullable));*/
+/*
+    const connectionDetails = connectionId ? new ConnectionService().getConnectionById(connectionId) : {};
+
+    try {
+
+        let columns = [];
+        if ((connectionId &amp;&amp; remoteSchema &amp;&amp; remoteTable)) {
+            const outputObj = schemaMapping.listColumnsInTable(connectionId, remoteSchema, remoteTable);
+            const outputController = new DatafabricOutputController(outputObj);
+            outputController.throwIfErrored();
+            const resp = outputController.getData();
+            columns = JSON.parse(resp);
+        }
+*/
+
+//Alectri Simulation.
+var connectionDetails ={};
+    var simulatorUtil = new x_snc_alectri_zc_0.ZCCSimulatorUtil();
+    if (!simulatorUtil.checkIfAlectriConnection(connectionId)) {
+
+         connectionDetails = connectionId ? new ConnectionService().getConnectionById(connectionId) : {};
+    }
+    try {
+        let columns = [];
+        if ((connectionId &amp;&amp; remoteSchema &amp;&amp; remoteTable)) {
+            //Alectri Simulation
+            if (simulatorUtil.checkIfAlectriConnection(connectionId)) {
+                columns = simulatorUtil.fetchTableColumns(remoteTable);
+            } else {
+                const outputObj = schemaMapping.listColumnsInTable(connectionId, remoteSchema, remoteTable);
+                const outputController = new DatafabricOutputController(outputObj);
+                outputController.throwIfErrored();
+                const resp = outputController.getData();
+                columns = JSON.parse(resp);
+            }
+        }
+        let data = {
+            connectionDetails,
+            scope: {
+                id: appId,
+                name: appName,
+                scope: scope,
+                currSessionScopeName
+            },
+            remoteSchema,
+            remoteTable,
+            columns,
+        };
+        if (dataFabricTableId !== '') {
+            const outputObj = schemaMapping.showRemoteTable(dataFabricTableId);
+            const outputController = new DatafabricOutputController(outputObj);
+            outputController.throwIfErrored();
+
+            const dataFabricTable = JSON.parse(outputController.getData());
+
+            const {
+                columnMapping,
+                glidePrimaryKeys,
+                glideTableName,
+                glideTableLabel,
+            } = dataFabricTable;
+
+            const primaryKeys = new Set(glidePrimaryKeys.split(","));
+
+            const mappedColumns = {};
+            columnMapping.forEach(mapped =&gt; {
+                mappedColumns[mapped.remoteColumnName] = mapped;
+            });
+
+            if (columns.length === 0) {
+                columns = columnMapping.map(column =&gt; {
+                    const referenceInfo = column.glideColumnType === 'reference' ? {
+                            "referenceTable": column.referenceTable,
+                            "referenceTableLabel": column.referenceTableLabel,
+                            "referenceColumn": column.referenceColumn,
+                            "referenceColumnLabel": column.referenceColumnLabel
+                    } : {};
+
+                    return {
+                        "glideColumnName": column.glideColumnName,
+                        "glideColumnLabel": column.glideColumnLabel,
+                        "glideColumnType": column.glideColumnType,
+                        "isColumnPrimaryKey": column.isColumnPrimaryKey,
+                        "remoteColumnName": (remoteTable) ?  column.remoteColumnName : '',  
+                        "isSelected": true,
+                        ...referenceInfo
+                    };
+                });
+            } else {
+                if (mode === 'change_source') { //with change_source mode, they are not allow to change/add/remove the columns in the target table, only allow to remap columns on the source table
+                    columns = columnMapping.map(column =&gt; {
+                        const remoteColumn = columns.find(col =&gt; col.remoteColumnName === column.remoteColumnName);
+                        const referenceInfo = column.glideColumnType === 'reference' ? {
+                                "referenceTable": column.referenceTable,
+                                "referenceTableLabel": column.referenceTableLabel,
+                                "referenceColumn": column.referenceColumn,
+                                "referenceColumnLabel": column.referenceColumnLabel
+                        } : {};
+                        return {
+                            ...remoteColumn,
+                            "glideColumnName": column.glideColumnName,
+                            "glideColumnLabel": column.glideColumnLabel,
+                            "glideColumnType": column.glideColumnType,
+                            "isColumnPrimaryKey": column.isColumnPrimaryKey,
+                            "remoteColumnName": column.remoteColumnName,  
+                            "isSelected": true,
+                            ...referenceInfo
+                        };
+                    });
+                } else {
+                    columns.forEach(column =&gt; {
+                        const mappedColumn = mappedColumns[column.remoteColumnName];
+
+                        if (mappedColumn) {
+
+                            const compatibleTypes = getCompatibleTypesFor(mappedColumn.glideColumnType);
+                            if (!compatibleTypes.find(compatibleType =&gt; compatibleType.name === column.remoteColumnType)) {
+                                column["glideColumnType"] = mappedColumn.remoteColumnType;
+                            } else {
+                                column["glideColumnType"] = mappedColumn.glideColumnType;
+                            }
+                            column["glideColumnName"] = mappedColumn.glideColumnName;
+                            column["glideColumnLabel"] = mappedColumn.glideColumnLabel;
+                            column["isColumnPrimaryKey"] = mappedColumn.isColumnPrimaryKey;
+                            column["isSelected"] = true;
+
+                            if (mappedColumn.glideColumnType === 'reference') {
+                                column["referenceTable"] = mappedColumn.referenceTable;
+                                column["referenceTableLabel"] = mappedColumn.referenceTableLabel;
+                                column["referenceColumn"] = mappedColumn.referenceColumn;
+                                column["referenceColumnLabel"] = mappedColumn.referenceColumnLabel;
+                            }
+                        }
+                    });
+                }
+            }
+            data["dataFabricTableInfo"] = {
+                glideTableName,
+                glideTableLabel,
+                isSameScope
+            };
+            if (remoteTable)
+                data["dataFabricTableInfo"]["persistedColumnSelection"] = mappedColumns;
+            data["columns"] = columns;
+        }
+
+        const {compatibleTypes, typeMetadata} = getAllCompatibleColumnTypes(data["columns"]);
+        data["compatibleTypes"] = compatibleTypes;
+        data["typeMetadata"] = typeMetadata;
+
+var logo = (data['remoteSchema']!='Redshift Database')?data['remoteSchema'].toLowerCase().split(' ')[0]:'aws-redshift';
+
+		//logo
+		var db = new GlideRecord('db_image');
+		db.addEncodedQuery('active=true^nameLIKE'+logo);
+		db.query();
+		while(db.next()){
+		data['connectionDetails']={'logo':db.name+''};
+		}
+
+        return data;
+
+    } catch (error) {
+        throw new sn_ws_err.BadRequestError(String(error.message));
+    }
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/sn_data_fabric/data_fabric_ui/get-remote-table&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/get-remote-table&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-25 06:37:01&lt;/sys_created_on&gt;&lt;sys_id&gt;ebacfc37437f521093098759bbb8f2fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get data fabric table&lt;/sys_name&gt;&lt;sys_package display_value="Workflow Data Fabric Hub" source="sn_data_fabric"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workflow Data Fabric Hub"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_ebacfc37437f521093098759bbb8f2fd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 10:21:17&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Data Fabric UI"&gt;48e07b5c430f5210920d8759bbb8f2d1&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;ebacfc37437f521093098759bbb8f2fd&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-25 06:37:01&lt;/sys_created_on&gt;&lt;sys_id&gt;19ccfc37437f521093098759bbb8f215&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-25 06:37:01&lt;/sys_updated_on&gt;&lt;table&gt;sys_ws_operation&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1635039185</payload_hash>
+<remote_update_set display_value="Scripted Connectors v2">10cc40e8cf873a1076b9b7fe3d851cf3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 10:22:11</sys_created_on>
+<sys_id>14cc40e8cf873a1076b9b7fe3d851cf6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4711d6030000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 10:22:11</sys_updated_on>
+<table/>
+<target_name>Get data fabric table</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>4b8c046848873a10c27b9d46a32c9fd0</update_guid>
+<update_guid_history>4b8c046848873a10c27b9d46a32c9fd0:1635039185,0a243522a2baf2d0a1661d0c2718c366:1587020701</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workflow Data Fabric Hub">15e007190f2ca3a07fd9186f8ad8ead6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_470e1bab4353121093098759bbb8f264</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;01783dcf2720221019ae55225cf6f232&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;Establish Connection&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	/**
+	 * {
+	 *   "result": {
+	 *     "status": false,
+	 *     "message": "Remote database refresh failed. failed to reserve data fabric engine",
+	 *     "exception": {
+	 *       "fileName": "sys_ws_operation.470e1bab4353121093098759bbb8f264.operation_script",
+	 *       "sourceName": "sys_ws_operation.470e1bab4353121093098759bbb8f264.operation_script",
+	 *       "lineNumber": 3,
+	 *       "name": "JavaException"
+	 *     },
+	 *     "additionalDetails": null
+	 *   }
+	 * }
+	 */
+
+const connectionId = String(request.queryParams.connectionId ?? '');
+
+	//Alectri Simulation.
+		var simulatorUtil = new x_snc_alectri_zc_0.ZCCSimulatorUtil();
+		if(simulatorUtil.checkIfAlectriConnection(connectionId)){
+			return simulatorUtil.simulateEstablishConnectionObject();
+		}
+
+	var rawResponse = new sn_datafabric.ConnectionManager().refreshRemoteDatabase();
+	var response = {
+		status: rawResponse.status,
+		message: rawResponse.message
+	};
+	return response;
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/sn_data_fabric/data_fabric_ui/establish-connection&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/establish-connection&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-31 03:20:02&lt;/sys_created_on&gt;&lt;sys_id&gt;470e1bab4353121093098759bbb8f264&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Establish Connection&lt;/sys_name&gt;&lt;sys_package display_value="Workflow Data Fabric Hub" source="sn_data_fabric"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workflow Data Fabric Hub"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_470e1bab4353121093098759bbb8f264&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-29 14:26:10&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Data Fabric UI"&gt;48e07b5c430f5210920d8759bbb8f2d1&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>665362686</payload_hash>
+<remote_update_set display_value="Scripted Connectors v2">10cc40e8cf873a1076b9b7fe3d851cf3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 10:22:11</sys_created_on>
+<sys_id>18cc40e8cf873a1076b9b7fe3d851cf3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c466791ca0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 10:22:11</sys_updated_on>
+<table/>
+<target_name>Establish Connection</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>fef12b54b14fb610e3f36ecee585b8aa</update_guid>
+<update_guid_history>fef12b54b14fb610e3f36ecee585b8aa:665362686,b92435227abaf2d035f798e099ce6b00:-1507052791</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workflow Data Fabric Hub">15e007190f2ca3a07fd9186f8ad8ead6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_7d2c75ac27e0221019ae55225cf6f254</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;f4297d032760221019ae55225cf6f28b&lt;/enforce_acl&gt;&lt;http_method&gt;GET&lt;/http_method&gt;&lt;name&gt;Data Fabric Tables&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    function getScopeInformation(sysId) {
+        let res = [];
+        var sysScopeGR = new GlideRecord('sys_scope');
+        sysScopeGR.addQuery('sys_id', sysId);
+        sysScopeGR.query();
+
+        if (sysScopeGR.next()) {
+            let sysId = sysScopeGR.getValue('sys_id');
+            let scopeName = sysScopeGR.getValue('name');
+            res.push({
+                sysId,
+                scopeName
+            });
+        }
+        return res;
+    }
+
+    // filter descriptions:
+    // name - filter by table name or table label, starts with, case insensitive match
+    // createdBy - user_name to filter by, or empty/null
+    // onlyApplicationTables - return application tables or all tables
+    // connectors - list of sys_id that match against the list of connectors
+    // orderDescending - whether to sort ascending (or descending if false).  Sort by table's label
+    // start - pagination
+    // end - pagination
+
+    try {
+
+        let {
+            name,
+            createdBy,
+            connectors,
+            connections,
+            order,
+            status,
+            start,
+            end
+        } = request.queryParams;
+
+        let filters = {};
+        filters["name"] = name ? String(name) : '';
+        filters["createdBy"] = (createdBy &amp;&amp; String(createdBy) === 'me') ? gs.getUserName() : '';
+        filters["onlyApplicationTables"] = false;
+        filters["connectors"] = (connectors &amp;&amp; String(connectors) !== 'all') ? String(connectors).split(',') : [];
+        filters["order"] = String(order);
+        filters["status"] = String(status);
+        connections = connections? String(connections): 'all';
+        if (connections === 'all') {
+            filters["connections"] = [];
+        } else {
+            filters["connections"] = String(connections).split(',');
+        }
+
+        const sm = new sn_datafabric.SchemaMapping();
+        const outputObj = sm.listAllMappedTables(JSON.stringify(filters), Number(start), Number(end));
+
+        const outputController = new DatafabricOutputController(outputObj);
+        outputController.throwIfErrored();
+
+        const currentAppScopeId = gs.getCurrentApplicationId();
+		const sessionScopeInfo = getScopeInformation(currentAppScopeId);
+
+        const result = JSON.parse(outputController.getData());
+
+		//Alectri Simulation.
+		var simulatorUtil = new x_snc_alectri_zc_0.ZCCSimulatorUtil();
+		var arr = JSON.parse(simulatorUtil.fetchAllDFtables());
+	
+		for(var i=0;i&lt;arr.length;i++){
+		result['dataFabricTables'].push(arr[i]);
+		}
+		result['rowCount'] = result['rowCount'] + parseInt(arr.length);
+
+        return {
+            count: result["rowCount"],
+            dataFabricTables: result["dataFabricTables"],
+            currentSessionScope: sessionScopeInfo
+        };
+
+    } catch (error) {
+        throw new sn_ws_err.BadRequestError('Data Fabric Hub: Unable to fetch data fabric tables. ' + error.message);
+    }
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/sn_data_fabric/data_fabric_ui/data-fabric-tables&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/data-fabric-tables&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-24 16:22:35&lt;/sys_created_on&gt;&lt;sys_id&gt;7d2c75ac27e0221019ae55225cf6f254&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Data Fabric Tables&lt;/sys_name&gt;&lt;sys_package display_value="Workflow Data Fabric Hub" source="sn_data_fabric"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workflow Data Fabric Hub"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_7d2c75ac27e0221019ae55225cf6f254&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 07:06:03&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Data Fabric UI"&gt;48e07b5c430f5210920d8759bbb8f2d1&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>593764</payload_hash>
+<remote_update_set display_value="Scripted Connectors v2">10cc40e8cf873a1076b9b7fe3d851cf3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 10:22:11</sys_created_on>
+<sys_id>54cc40e8cf873a1076b9b7fe3d851cf5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c46678d860000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 10:22:11</sys_updated_on>
+<table/>
+<target_name>Data Fabric Tables</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>2af1e754ec4fb6108765e592d1e1be69</update_guid>
+<update_guid_history>2af1e754ec4fb6108765e592d1e1be69:593764,d7df9f9c7ccbb610cfa238cf614b9e99:593764,3524352259baf2d0f7a59e619ce6823e:975030070</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workflow Data Fabric Hub">15e007190f2ca3a07fd9186f8ad8ead6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_47ea8e3643b7121093098759bbb8f2bc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;f4297d032760221019ae55225cf6f28b&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;Create data fabric table&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+    /**
+     * {
+     *    connectionId: "sys_id_of_connection",
+     *    remoteSchema: "remote_schema_name",
+     *    remoteTable: "remote_table_name",
+     *    glideTableName: "glide_table_name",
+     *    glideTableLabel: "Glide Table Label",
+     *    columnMapping: [ {
+     *       remoteColumnName: "remote_column_name",
+     *       glideColumnName: "glide_column_name",
+     *       glideColumnLabel: "Glide Column Label",
+     *       glideColumnType: "glide_column_scalar_type",
+     *       remoteColumnLength: 40,
+     *       isColumnPrimaryKey: false
+     *    } ],
+     *    deleteColumns: [ "column_name1", "column_name2" ]
+     * }
+     **/
+
+    const data = request.body.data;
+    const connectionId = data['connectionId'];
+    const remoteSchema = data['remoteSchema'];
+    const remoteTable = data['remoteTable'];
+    const glideTableName = data['glideTableName'];
+    const glideTableLabel = data['glideTableLabel'];
+    const scope = gs.getCurrentApplicationId();
+    const columnMapping = data['columnMapping'];
+    const deleteColumns = data['deleteColumns'];
+
+    function getQueryParam(queryParams, key) {
+        let param = queryParams[key];
+        if (Array.isArray(param))
+            return param[0];
+        return param;
+    }
+
+    try {
+        const data = {
+            connectionSysId: connectionId,
+            schemaName: remoteSchema,
+            remoteTableName: remoteTable,
+            glideTableName,
+            glideTableLabel,
+            scope,
+            columnMapping,
+            deleteColumns
+        };
+
+
+        // The backend API will trigger an Edit instead of Create if the table already exists
+        // This check ensures that an edit does not happen when we are expecting a creation.
+        const mode = getQueryParam(request.queryParams, 'mode');
+        if (mode === "create") {
+            if (gs.tableExists(glideTableName)) {
+                throw {
+                    message: gs.getMessage('Table with the name {0} already exists', [glideTableName])
+                };
+            }
+			
+        }
+
+//Alectri Simulation.
+        var simulatorUtil = new x_snc_alectri_zc_0.ZCCSimulatorUtil();
+        if (simulatorUtil.checkIfAlectriConnection(connectionId)) {
+            simulatorUtil.createDataFabricTable(remoteTable,glideTableLabel);
+            return 'Dummy table';
+        }
+
+      var schemaMapper = new sn_datafabric.SchemaMapping();
+      const outputObj = schemaMapper.createRemoteTable(JSON.stringify(data));
+      const outputController = new DatafabricOutputController(outputObj);
+      outputController.throwIfErrored();
+
+      return outputController.getWarningMsg();	
+
+    } catch (error) {
+        throw new sn_ws_err.BadRequestError(gs.getMessage('Data Fabric Hub: Unable to create a data fabric table. {0}', [error.message]));
+    }
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/sn_data_fabric/data_fabric_ui/create-remote-table&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/create-remote-table&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-22 10:04:42&lt;/sys_created_on&gt;&lt;sys_id&gt;47ea8e3643b7121093098759bbb8f2bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create data fabric table&lt;/sys_name&gt;&lt;sys_package display_value="Workflow Data Fabric Hub" source="sn_data_fabric"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workflow Data Fabric Hub"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_47ea8e3643b7121093098759bbb8f2bc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-29 14:26:25&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Data Fabric UI"&gt;48e07b5c430f5210920d8759bbb8f2d1&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;47ea8e3643b7121093098759bbb8f2bc&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-22 10:04:42&lt;/sys_created_on&gt;&lt;sys_id&gt;1e8fca7643b7121093098759bbb8f235&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-22 10:04:42&lt;/sys_updated_on&gt;&lt;table&gt;sys_ws_operation&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-345949901</payload_hash>
+<remote_update_set display_value="Scripted Connectors v2">10cc40e8cf873a1076b9b7fe3d851cf3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 10:22:11</sys_created_on>
+<sys_id>94cc40e8cf873a1076b9b7fe3d851cf4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c466789f50000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 10:22:11</sys_updated_on>
+<table/>
+<target_name>Create data fabric table</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>16f1a754104fb610fb809b389bd880a7</update_guid>
+<update_guid_history>16f1a754104fb610fb809b389bd880a7:-345949901,f924352228baf2d0dde811ca034ed909:-1925894542</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workflow Data Fabric Hub">15e007190f2ca3a07fd9186f8ad8ead6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_89839bf443e7521093098759bbb8f2e5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;f4297d032760221019ae55225cf6f28b&lt;/enforce_acl&gt;&lt;http_method&gt;GET&lt;/http_method&gt;&lt;name&gt;Schema and Tables&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    const connectionId = String(request.queryParams.connectionId ?? '');
+
+
+    //Alectri Simulation.
+    var simulatorUtil = new x_snc_alectri_zc_0.ZCCSimulatorUtil();
+    if (simulatorUtil.checkIfAlectriConnection(connectionId)) {
+        return simulatorUtil.simulateDatabaseSchema(connectionId);
+    }
+
+
+
+    try {
+        return new sn_data_fabric.SchemaService().getSchemasAndTables(connectionId);
+    } catch (error) {
+        throw new sn_ws_err.BadRequestError('Data Fabric Hub: Unable to retrieve schemas and tables. ' + error.message);
+    }
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/sn_data_fabric/data_fabric_ui/schema_tables&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/schema_tables&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-04 02:38:29&lt;/sys_created_on&gt;&lt;sys_id&gt;89839bf443e7521093098759bbb8f2e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Schema and Tables&lt;/sys_name&gt;&lt;sys_package display_value="Workflow Data Fabric Hub" source="sn_data_fabric"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workflow Data Fabric Hub"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_89839bf443e7521093098759bbb8f2e5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-29 14:27:01&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Data Fabric UI"&gt;48e07b5c430f5210920d8759bbb8f2d1&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;89839bf443e7521093098759bbb8f2e5&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-04 02:38:26&lt;/sys_created_on&gt;&lt;sys_id&gt;a9ccfbf4436b521093098759bbb8f251&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-04 02:38:26&lt;/sys_updated_on&gt;&lt;table&gt;sys_ws_operation&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1438427320</payload_hash>
+<remote_update_set display_value="Scripted Connectors v2">10cc40e8cf873a1076b9b7fe3d851cf3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 10:22:11</sys_created_on>
+<sys_id>98cc40e8cf873a1076b9b7fe3d851cf5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c466797bc0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 10:22:11</sys_updated_on>
+<table/>
+<target_name>Schema and Tables</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>0ff16b54404fb610634b316d4ec6c594</update_guid>
+<update_guid_history>0ff16b54404fb610634b316d4ec6c594:-1438427320,0624352231baf2d0136ae632df045c43:450626368</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workflow Data Fabric Hub">15e007190f2ca3a07fd9186f8ad8ead6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_4eb43e3653842210419ec8b020e5e626</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;f4297d032760221019ae55225cf6f28b&lt;/enforce_acl&gt;&lt;http_method&gt;DELETE&lt;/http_method&gt;&lt;name&gt;Delete data fabric table&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+  var pathparams = request.pathParams;  
+	var remoteTableId = pathparams.id;
+	if(remoteTableId){
+		//Alectri Simulation.
+		var simulatorUtil = new x_snc_alectri_zc_0.ZCCSimulatorUtil();
+
+		if(simulatorUtil.checkIfAlectriDFtable(remoteTableId)){
+
+		simulatorUtil.dropDFSimulatedTable(remoteTableId);
+		
+		return {
+			status:true,
+			message: 'Data Fabric table has been removed'
+		};
+		}
+
+		var result = new sn_datafabric.ConnectionManager().dropDataFabricRemoteTable(remoteTableId);
+		return {
+			status:result.status,
+			message: result.message
+		};
+	}
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/sn_data_fabric/data_fabric_ui/delete-remote-table/{id}&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/delete-remote-table/{id}&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-06 23:03:26&lt;/sys_created_on&gt;&lt;sys_id&gt;4eb43e3653842210419ec8b020e5e626&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Delete data fabric table&lt;/sys_name&gt;&lt;sys_package display_value="Workflow Data Fabric Hub" source="sn_data_fabric"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workflow Data Fabric Hub"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_4eb43e3653842210419ec8b020e5e626&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-29 14:26:36&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Data Fabric UI"&gt;48e07b5c430f5210920d8759bbb8f2d1&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1189279842</payload_hash>
+<remote_update_set display_value="Scripted Connectors v2">10cc40e8cf873a1076b9b7fe3d851cf3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 10:22:11</sys_created_on>
+<sys_id>d8cc40e8cf873a1076b9b7fe3d851cf4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c46678fa70000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 10:22:11</sys_updated_on>
+<table/>
+<target_name>Delete data fabric table</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>66f12b54d44fb61054f4f9e3f0c1a40a</update_guid>
+<update_guid_history>66f12b54d44fb61054f4f9e3f0c1a40a:-1189279842,3924352297baf2d05d8a069ed3e7811b:702496638</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workflow Data Fabric Hub">15e007190f2ca3a07fd9186f8ad8ead6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_c180fae74313521093098759bbb8f29c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;01783dcf2720221019ae55225cf6f232&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;Test And Save Connection&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    /**
+     * {
+     *   "result": {
+     *     "status": true,
+     *     "message": "Connection details successfully verified and saved.",
+     *     "Exception": "Connection details successfully verified and saved."
+     *   }
+     * }
+     */
+    /**
+     * {
+     *   "result": {
+     *     "additionalDetails": {
+     *       "connectionId": "a54b9822dbbf1210ffa74cae16961968"
+     *     },
+     *     "status": true,
+     *     "message": "Connection details successfully verified and saved."
+     *   }
+     * }
+     */
+
+    function getQueryParam(queryParams, key) {
+        let param = queryParams[key];
+        if (Array.isArray(param))
+            return param[0];
+        return param;
+    }
+
+    const data = request.body.data;
+    const connectionSysId = data.connection_sys_id;
+    const isTestConnectionOnly = getQueryParam(request.queryParams, 'isTestConnectionOnly') == 'true';
+    const connectionStatus = getQueryParam(request.queryParams, 'connectionStatus');
+
+
+	//Alectri Simulation.
+    var simulatorUtil = new x_snc_alectri_zc_0.ZCCSimulatorUtil();
+    if (simulatorUtil.checkIfAlectriConnection(connectionSysId)) {
+        return simulatorUtil.simulateTestConnectionObject(connectionSysId);
+    }
+
+
+
+    let connectionManager = new sn_datafabric.ConnectionManager();
+    let payload;
+    try {
+        payload = isTestConnectionOnly ? JSON.stringify({
+            connection_sys_id: connectionSysId
+        }) : JSON.stringify(data);
+    } catch (e) {
+        return {
+            status: false,
+            message: "Bad parsing"
+        };
+    }
+
+    let rawResponse = isTestConnectionOnly ? connectionManager.testConnection(payload) : connectionManager.testAndSaveConnection(payload);
+    //ignore Exception from response for now, since it's in valid JSON format.
+    if (connectionStatus &amp;&amp; connectionStatus.toString() === 'DEACTIVATED' &amp;&amp; rawResponse.status) {
+        rawResponse = connectionManager.activateConnection(connectionSysId);
+        rawResponse.additionalDetails = {
+            connectionId: connectionSysId
+        };
+    }
+    var response = {
+        additionalDetails: rawResponse.additionalDetails,
+        status: rawResponse.status,
+        message: rawResponse.message
+    };
+    return response;
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/sn_data_fabric/data_fabric_ui/test-connection&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/test-connection&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 23:56:26&lt;/sys_created_on&gt;&lt;sys_id&gt;c180fae74313521093098759bbb8f29c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Test And Save Connection&lt;/sys_name&gt;&lt;sys_package display_value="Workflow Data Fabric Hub" source="sn_data_fabric"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workflow Data Fabric Hub"&gt;15e007190f2ca3a07fd9186f8ad8ead6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_c180fae74313521093098759bbb8f29c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-29 14:27:11&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Data Fabric UI"&gt;48e07b5c430f5210920d8759bbb8f2d1&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1826947316</payload_hash>
+<remote_update_set display_value="Scripted Connectors v2">10cc40e8cf873a1076b9b7fe3d851cf3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 10:22:11</sys_created_on>
+<sys_id>dccc40e8cf873a1076b9b7fe3d851cf5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c46679a0b0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 10:22:11</sys_updated_on>
+<table/>
+<target_name>Test And Save Connection</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>9bf1ab54e14fb610635825f23887a703</update_guid>
+<update_guid_history>9bf1ab54e14fb610635825f23887a703:-1826947316,8a2435229abaf2d07a65e5089ba29348:280334958</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

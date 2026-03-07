@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-01-14 07:41:57">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>ZCC Simulator Global Script Include</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>bd84683393123650259bffb83603d61d</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 07:41:55</sys_created_on>
+<sys_id>2d25e87b93123650259bffb83603d6dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 07:41:55</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_af5b746b93967e1073ecfd5da503d650</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.ZCCSimulatorUtil&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;ZCCSimulatorUtil&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var ZCCSimulatorUtil = Class.create();
+ZCCSimulatorUtil.prototype = {
+    initialize: function() {
+    },
+
+	createNewTable: function(tableName,tableLable) {
+        var tableDef = new GlideRecord('sys_db_object');
+        tableDef.initialize();
+        tableDef.name = tableName;
+        tableDef.label = tableLable;
+		tableDef.sys_scope = 'global';
+        var tableSysId = tableDef.insert();
+        return tableSysId;
+    },
+
+    createTableFields: function(tablename, headerArr) {
+        for (var j = 0; j &lt; headerArr.length; j++) {
+            var colName = 'u_' + headerArr[j].toLowerCase().replace(/\s+/g, '_');
+            var dict = new GlideRecord('sys_dictionary');
+            dict.initialize();
+            dict.name = tablename;
+            dict.element = colName;
+            dict.column_label = headerArr[j];
+            dict.internal_type = 'string';
+            dict.max_length = 255;
+            dict.mandatory = false;
+			dict.sys_scope = 'global';
+            dict.insert();
+        }
+    },
+
+//
+    insertRecords: function(attachmentSID, tablename, headerArr) {
+       var attachment2 = new GlideSysAttachment();
+	    var attachmentStream2 = attachment2.getContentStream(attachmentSID);
+        var parser2 = new sn_impex.GlideExcelParser();
+        parser2.parse(attachmentStream2);
+        while (parser2.next()) {
+            var row2 = parser2.getRow();
+            var newRec = new GlideRecord(tablename);
+            newRec.initialize();
+            for (var c = 0; c &lt; headerArr.length; c++) {
+                var val = row2[headerArr[c]] ? row2[headerArr[c]].toString() : '';
+                newRec['u_' + headerArr[c].toLowerCase().replace(/\s+/g, '_')] = val;
+            }
+            newRec.insert();
+        }
+
+    },
+
+    type: 'ZCCSimulatorUtil'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-13 14:41:14&lt;/sys_created_on&gt;&lt;sys_id&gt;af5b746b93967e1073ecfd5da503d650&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;ZCCSimulatorUtil&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_af5b746b93967e1073ecfd5da503d650&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 07:40:48&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;af5b746b93967e1073ecfd5da503d650&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-13 14:41:13&lt;/sys_created_on&gt;&lt;sys_id&gt;b18b382b93967e1073ecfd5da503d61a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-13 14:41:13&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1546599429</payload_hash>
+<remote_update_set display_value="ZCC Simulator Global Script Include">2d25e87b93123650259bffb83603d6dd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 07:41:55</sys_created_on>
+<sys_id>2525e87b93123650259bffb83603d6de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbb7335c70000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 07:41:55</sys_updated_on>
+<table/>
+<target_name>ZCCSimulatorUtil</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>89e424371a1236507fe98a7d8cc02303</update_guid>
+<update_guid_history>89e424371a1236507fe98a7d8cc02303:-1546599429,7a8bb42f46967e1023f8695ab4e5684f:-134572871</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

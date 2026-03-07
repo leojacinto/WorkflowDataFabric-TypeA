@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-02-19 07:51:12">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<application_name>Zero Copy Connector for ERP</application_name>
+<application_scope>sn_erp_integration</application_scope>
+<application_version>9.0.16</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>V2 ZCC for ERP Additional Objects - Batch Parent</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value="V2 ZCC for ERP Additional Objects - Batch Parent">4080861398cb32107f447881c592a626</remote_base_update_set>
+<remote_parent_id/>
+<remote_sys_id>168f3197988b32107f447881c592a683</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-19 07:51:12</sys_created_on>
+<sys_id>4080861398cb32107f447881c592a626</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-19 07:51:12</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<application_name>Zero Copy Connector for ERP</application_name>
+<application_scope>sn_erp_integration</application_scope>
+<application_version>9.0.16</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>V2 ZCC for ERP Additional Objects - Batch Parent</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value="V2 ZCC for ERP Additional Objects - Batch Parent">4080861398cb32107f447881c592a626</remote_base_update_set>
+<remote_parent_id/>
+<remote_sys_id>168f3197988b32107f447881c592a683</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-19 07:51:12</sys_created_on>
+<sys_id>4080861398cb32107f447881c592a626</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-19 07:51:12</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<application_name>Zero Copy Connector for ERP</application_name>
+<application_scope>sn_erp_integration</application_scope>
+<application_version>9.0.16</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>V2 ZCC for ERP Additional Objects - Batch Child</name>
+<origin_sys_id/>
+<parent display_value="V2 ZCC for ERP Additional Objects - Batch Parent">4080861398cb32107f447881c592a626</parent>
+<release_date/>
+<remote_base_update_set display_value="V2 ZCC for ERP Additional Objects - Batch Parent">4080861398cb32107f447881c592a626</remote_base_update_set>
+<remote_parent_id/>
+<remote_sys_id>d27f3d5f988b32107f447881c592a696</remote_sys_id>
+<state>in_hierarchy</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-19 07:51:12</sys_created_on>
+<sys_id>4c80861398cb32107f447881c592a626</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-19 07:51:12</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>V2 ZCC for ERP Additional Objects - Batch Child</name>
+<origin_sys_id/>
+<parent display_value="V2 ZCC for ERP Additional Objects - Batch Parent">4080861398cb32107f447881c592a626</parent>
+<release_date/>
+<remote_base_update_set display_value="V2 ZCC for ERP Additional Objects - Batch Parent">4080861398cb32107f447881c592a626</remote_base_update_set>
+<remote_parent_id/>
+<remote_sys_id>d28f3197988b32107f447881c592a685</remote_sys_id>
+<state>in_hierarchy</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-19 07:51:12</sys_created_on>
+<sys_id>4880861398cb32107f447881c592a627</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-19 07:51:12</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_c02919136f81311030f4e0d0245b3675</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Allows cloning and changes of models in Zero Copy Connector for ERP application</description><ignore_cache>true</ignore_cache><is_private>true</is_private><name>sn_erp_integration.enableModelModification</name><read_roles/><suffix>enableModelModification</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-08 10:10:32</sys_created_on><sys_id>c02919136f81311030f4e0d0245b3675</sys_id><sys_mod_count>5</sys_mod_count><sys_name>sn_erp_integration.enableModelModification</sys_name><sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration">5e4866a16f2111100e6ee0d0245b3610</sys_package><sys_policy/><sys_scope display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</sys_scope><sys_update_name>sys_properties_c02919136f81311030f4e0d0245b3675</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-19 03:24:48</sys_updated_on><type>boolean</type><value>true</value><write_roles>sn_erp_integration.erp_admin</write_roles></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=c02919136f81311030f4e0d0245b3675"/></record_update>]]></payload>
+<payload_hash>-679042106</payload_hash>
+<remote_update_set display_value="V2 ZCC for ERP Additional Objects - Batch Child">4c80861398cb32107f447881c592a626</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-19 07:51:12</sys_created_on>
+<sys_id>8080861398cb32107f447881c592a627</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c74df486c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-19 07:51:12</sys_updated_on>
+<table/>
+<target_name>sn_erp_integration.enableModelModification</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>02effd9ff08b3210a6c35623a9067062</update_guid>
+<update_guid_history>02effd9ff08b3210a6c35623a9067062:-679042106,8a83cd9363c3321004aa064f88c91037:-679042106,ca83cd934fc33210e13ac026c6083032:-114293929</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_erp_integration_system_eeb09157980732107f447881c592a6f6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_erp_integration_system"><sn_erp_integration_system action="INSERT_OR_UPDATE"><name>S4D</name><short_description>S4D S/4HANA System</short_description><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-19 04:22:37</sys_created_on><sys_id>eeb09157980732107f447881c592a6f6</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-19 04:22:50</sys_updated_on></sn_erp_integration_system></record_update>]]></payload>
+<payload_hash>1820480007</payload_hash>
+<remote_update_set display_value="V2 ZCC for ERP Additional Objects - Batch Child">4880861398cb32107f447881c592a627</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-19 07:51:12</sys_created_on>
+<sys_id>cc80861398cb32107f447881c592a627</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c74ddce640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-19 07:51:12</sys_updated_on>
+<table/>
+<target_name>S4D</target_name>
+<type>ERP system</type>
+<update_domain>global</update_domain>
+<update_guid>528f359f3e8b3210943bb0f00247e70c</update_guid>
+<update_guid_history>528f359f3e8b3210943bb0f00247e70c:1820480007,2f4f3d5f468b3210c407ee00235b7e82:1820480007</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_erp_integration_system_info_7cc051db980732107f447881c592a682</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_erp_integration_system_info"><sn_erp_integration_system_info action="INSERT_OR_UPDATE"><bapi_list_status>not_started</bapi_list_status><erp_odata_heartbeat>false</erp_odata_heartbeat><etl_datasource_count>0</etl_datasource_count><get_bapi_list>true</get_bapi_list><get_idoc_list>true</get_idoc_list><get_odata_list>true</get_odata_list><get_table_list>true</get_table_list><idoc_catalog_started>false</idoc_catalog_started><idoc_list_status>not_started</idoc_list_status><is_alive>false</is_alive><last_alive/><last_http_alive/><metadata_started>false</metadata_started><odata_catalog_started>false</odata_catalog_started><odata_list_status>not_started</odata_list_status><remote_table_count>0</remote_table_count><software display_value="SAP S/4HANA 2023">7e54a614ff902210856cffffffffff40</software><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-19 04:22:37</sys_created_on><sys_id>7cc051db980732107f447881c592a682</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-19 04:22:50</sys_updated_on><system display_value="S4D">eeb09157980732107f447881c592a6f6</system><system_info/><system_properties display_value="S4D">70c051db980732107f447881c592a682</system_properties><table_list_status>not_started</table_list_status></sn_erp_integration_system_info></record_update>]]></payload>
+<payload_hash>1489220173</payload_hash>
+<remote_update_set display_value="V2 ZCC for ERP Additional Objects - Batch Child">4880861398cb32107f447881c592a627</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-19 07:51:12</sys_created_on>
+<sys_id>c080861398cb32107f447881c592a628</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c74e11e850000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-19 07:51:12</sys_updated_on>
+<table/>
+<target_name>70c051db980732107f447881c592a682</target_name>
+<type>ERP system info</type>
+<update_domain>global</update_domain>
+<update_guid>17508edfd18b321087eeb76ff2ed473f</update_guid>
+<update_guid_history>17508edfd18b321087eeb76ff2ed473f:1489220173,abe0599faa073210f3f3dca58cca36f3:1489220173</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_erp_integration_system_properties_70c051db980732107f447881c592a682</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_erp_integration_system_properties"><sn_erp_integration_system_properties action="INSERT_OR_UPDATE"><batch_size>10000</batch_size><batch_size_reduction_factor>0.8</batch_size_reduction_factor><connection/><db_memory_limit_mb>80</db_memory_limit_mb><enable_batch_size_recovery>true</enable_batch_size_recovery><enable_memory_pressure_monitoring>true</enable_memory_pressure_monitoring><http_connection/><logging_level>ERROR</logging_level><logging_method>console</logging_method><max_reduction_attempts>5</max_reduction_attempts><max_transaction_time_ms>30000</max_transaction_time_ms><min_batch_size>500</min_batch_size><min_transaction_size>1000</min_transaction_size><paging_method>none</paging_method><partner_sender_number/><partner_sender_port/><partner_sender_type/><sap_options_max_lines>1000</sap_options_max_lines><sap_pagesize>30000</sap_pagesize><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-19 04:22:37</sys_created_on><sys_id>70c051db980732107f447881c592a682</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-19 04:22:37</sys_updated_on><system display_value="S4D">eeb09157980732107f447881c592a6f6</system><transaction_size>5000</transaction_size><transaction_size_reduction_factor>0.8</transaction_size_reduction_factor><virtual_schema_name>s4d</virtual_schema_name></sn_erp_integration_system_properties></record_update>]]></payload>
+<payload_hash>1609131616</payload_hash>
+<remote_update_set display_value="V2 ZCC for ERP Additional Objects - Batch Child">4880861398cb32107f447881c592a627</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-19 07:51:12</sys_created_on>
+<sys_id>c480861398cb32107f447881c592a628</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c74dec9330000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-19 07:51:12</sys_updated_on>
+<table/>
+<target_name>eeb09157980732107f447881c592a6f6</target_name>
+<type>ERP system properties</type>
+<update_domain>global</update_domain>
+<update_guid>02cff99fb78b32108f8644bb640008bf</update_guid>
+<update_guid_history>02cff99fb78b32108f8644bb640008bf:1609131616</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

@@ -1,0 +1,904 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<unload unload_date="2026-01-31 14:40:14">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<application_name>Zero Copy Connector for ERP</application_name>
+<application_scope>sn_erp_integration</application_scope>
+<application_version>8.0.14</application_version>
+<collisions />
+<commit_date />
+<deleted />
+<description>Automatically created by the system</description>
+<inserted />
+<name>Zero Copy for ERP</name>
+<origin_sys_id />
+<parent display_value="" />
+<release_date />
+<remote_base_update_set display_value="" />
+<remote_parent_id />
+<remote_sys_id>3c390a623bf036d062f31831a3e45a5a</remote_sys_id>
+<state>loaded</state>
+<summary />
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>12e7e5513bbe325062f31831a3e45a53</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<update_set display_value="" />
+<update_source display_value="" />
+<updated />
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_dictionary_sn_erp_integration_cost_center_u_controlling_area</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_controlling_area" table="sn_erp_integration_cost_center"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Controlling Area&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_controlling_area&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:54:43&lt;/sys_created_on&gt;&lt;sys_id&gt;aac722373b41329862f31831a3e45aef&lt;/sys_id&gt;&lt;sys_name&gt;Controlling Area&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sn_erp_integration_cost_center_u_controlling_area&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:54:43&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-486323580</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>16e7a9513bbe325062f31831a3e45a7f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c147cbec00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center.Controlling Area</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>95476d1d5b7e32508d2047a1c498bc8c</update_guid>
+<update_guid_history>95476d1d5b7e32508d2047a1c498bc8c:-486323580,b9e76a37df413298ee92dfe0e5aa67ea:-486323580</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_dictionary_sn_erp_integration_cost_center_u_owner</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_owner" table="sn_erp_integration_cost_center"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Owner&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_owner&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-23 10:44:03&lt;/sys_created_on&gt;&lt;sys_id&gt;bf0c11473b59ba900ad1a021a3e45a5d&lt;/sys_id&gt;&lt;sys_name&gt;Owner&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sn_erp_integration_cost_center_u_owner&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-23 10:44:03&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1049527837</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>1ae7a9513bbe325062f31831a3e45a80</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c147cbedd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center.Owner</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>65476d1df77e3250478d3a1db5a5a98f</update_guid>
+<update_guid_history>65476d1df77e3250478d3a1db5a5a98f:-1049527837,7a2cd9474a59ba908187b5b06b305780:-1049527837</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sn_erp_integration_etl_extraction_source_field_4a7d3e253be16e906a65e624c3e45ae4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_erp_integration_etl_extraction_source_field"&gt;&lt;sn_erp_integration_etl_extraction_source_field action="DELETE"&gt;&lt;column_name&gt;cost_center_data_controlling_area&lt;/column_name&gt;&lt;etl_extraction_source display_value="SAP Cost Center"&gt;673d76a13be16e906a65e624c3e45afb&lt;/etl_extraction_source&gt;&lt;field_alias&gt;cost_center_data_controlling_area&lt;/field_alias&gt;&lt;field_type&gt;table&lt;/field_type&gt;&lt;model_operation_output display_value="Controlling Area"&gt;3286fd213be12e906a65e624c3e45ae0&lt;/model_operation_output&gt;&lt;sys_class_name&gt;sn_erp_integration_etl_extraction_source_field&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-16 16:02:52&lt;/sys_created_on&gt;&lt;sys_id&gt;4a7d3e253be16e906a65e624c3e45ae4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_erp_integration_etl_extraction_source_field_4a7d3e253be16e906a65e624c3e45ae4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-16 16:02:52&lt;/sys_updated_on&gt;&lt;/sn_erp_integration_etl_extraction_source_field&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1085097525</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>1ae7e5513bbe325062f31831a3e45a5a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7fe3c85c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table />
+<target_name />
+<type>ETL Extraction Source Field</type>
+<update_domain>global</update_domain>
+<update_guid>0601cd4c6c1efa5010f099db30b0ae05</update_guid>
+<update_guid_history>0601cd4c6c1efa5010f099db30b0ae05:-1085097525,8a7d3e2543e16e90d6b7dd6a6613fee5:-1412746240</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_dictionary_sn_erp_integration_cost_center_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="sn_erp_integration_cost_center"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:57&lt;/sys_created_on&gt;&lt;sys_id&gt;3e0766ff3b01329862f31831a3e45abf&lt;/sys_id&gt;&lt;sys_name&gt;sn_erp_integration_cost_center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sn_erp_integration_cost_center_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:50:57&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1090994403</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>1ee7a9513bbe325062f31831a3e45a7c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c147cbe2f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>d9476d1d547e3250cfd84b32a19b0a6c</update_guid>
+<update_guid_history>d9476d1d547e3250cfd84b32a19b0a6c:-1090994403,c707a6ffee013298d404f578c787e22b:-1090994403</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_documentation_sn_erp_integration_cost_center_u_cost_center_en</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_documentation element="u_cost_center" label="Cost Center" language="en" table="sn_erp_integration_cost_center"&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_cost_center&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Cost Center&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;plural&gt;Cost Centers&lt;/plural&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:53:32&lt;/sys_created_on&gt;&lt;sys_id&gt;e8a766f33b41329862f31831a3e45ad7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cost Center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_sn_erp_integration_cost_center_u_cost_center_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:53:32&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1753951401</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>1ee7a9513bbe325062f31831a3e45a81</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7e2e850000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Material Transfer Cost Center.Cost Center</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>eca7a6f34c413298e0e9290c41145e06</update_guid>
+<update_guid_history>eca7a6f34c413298e0e9290c41145e06:-1753951401</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_security_acl_2e0766ff3b01329862f31831a3e45a59</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Default access control on sn_erp_integration_cost_center&lt;/description&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script/&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:57&lt;/sys_created_on&gt;&lt;sys_id&gt;2e0766ff3b01329862f31831a3e45a59&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_erp_integration_cost_center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_2e0766ff3b01329862f31831a3e45a59&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:50:57&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>189772589</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>26e7a9513bbe325062f31831a3e45aca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7bcfd70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>sn_erp_integration_cost_center</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>620766ff3d013298a67558298e549764</update_guid>
+<update_guid_history>620766ff3d013298a67558298e549764:189772589</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_security_acl_role_260766ff3b01329862f31831a3e45a65</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl_role"&gt;&lt;sys_security_acl_role action="INSERT_OR_UPDATE"&gt;&lt;sys_class_name&gt;sys_security_acl_role&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:57&lt;/sys_created_on&gt;&lt;sys_id&gt;260766ff3b01329862f31831a3e45a65&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_erp_integration_cost_center.sn_erp_integration.sap_material_transfer_cost_center_user&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_security_acl display_value="sn_erp_integration_cost_center"&gt;2e0766ff3b01329862f31831a3e45a59&lt;/sys_security_acl&gt;&lt;sys_update_name&gt;sys_security_acl_role_260766ff3b01329862f31831a3e45a65&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:50:57&lt;/sys_updated_on&gt;&lt;sys_user_role display_value="sn_erp_integration.sap_material_transfer_cost_center_user" name="sn_erp_integration.sap_material_transfer_cost_center_user"&gt;ed9266a53b6d2e906a65e624c3e45a89&lt;/sys_user_role&gt;&lt;/sys_security_acl_role&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2133569734</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>2ae7a9513bbe325062f31831a3e45acb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7bd03a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>sn_erp_integration_cost_center.sn_erp_integration.sap_material_transfer_cost_center_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>e20766ff2501329862dbf05f5ff78f9e</update_guid>
+<update_guid_history>e20766ff2501329862dbf05f5ff78f9e:2133569734</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_transform_map_4e7d3e253be16e906a65e624c3e45abe</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;SAP Material Cost Center&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;sap_material_transfer_cost_center_1747411370518&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-16 16:02:51&lt;/sys_created_on&gt;&lt;sys_id&gt;4e7d3e253be16e906a65e624c3e45abe&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SAP Material Cost Center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_4e7d3e253be16e906a65e624c3e45abe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-02 18:10:48&lt;/sys_updated_on&gt;&lt;target_table&gt;sn_erp_integration_cost_center&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-791417264</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>2ee7a9513bbe325062f31831a3e45acc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7fe7acdb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table />
+<target_name>SAP Material Cost Center</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>d0024d801f5efa507a37029bc9f69bb7</update_guid>
+<update_guid_history>d0024d801f5efa507a37029bc9f69bb7:-791417264,027d3e25ade16e90c40124d4a05524c0:96667488</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_dictionary_sn_erp_integration_cost_center_sys_class_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="sys_class_name" table="sn_erp_integration_cost_center"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation/&gt;&lt;choice&gt;0&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Class&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:current.getTableName();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value display_value="Get Current Table Name"&gt;b5cb83a85f220100a9ad2572f2b4773c&lt;/dynamic_default_value&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sys_class_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;sys_class_name&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;80&lt;/max_length&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-22 01:06:38&lt;/sys_created_on&gt;&lt;sys_id&gt;926ec6e63b15f69062f31831a3e45a1a&lt;/sys_id&gt;&lt;sys_name&gt;Class&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sn_erp_integration_cost_center_sys_class_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-22 01:06:38&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;true&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type/&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1892417850</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>52e7a9513bbe325062f31831a3e45a7d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c147cbe980000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center.Class</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>95476d1d887e325054410810c156a887</update_guid>
+<update_guid_history>95476d1d887e325054410810c156a887:1892417850,1196a995737e3250e208cd9bd00bfe82:1892417850,be6ec6e65115f69051611360c95572a7:-1789644104</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_documentation_sn_erp_integration_cost_center_u_department_en</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_documentation element="u_department" label="Department" language="en" table="sn_erp_integration_cost_center"&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_department&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Department&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;plural&gt;Departments&lt;/plural&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:55:51&lt;/sys_created_on&gt;&lt;sys_id&gt;9a28e2b73b41329862f31831a3e45a8e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Department&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_sn_erp_integration_cost_center_u_department_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:55:51&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>235649429</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>52e7a9513bbe325062f31831a3e45a82</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d804dc50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Material Transfer Cost Center.Department</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>2a28e2b73d413298f6f50826ce87eabd</update_guid>
+<update_guid_history>2a28e2b73d413298f6f50826ce87eabd:235649429</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_dictionary_sn_erp_integration_cost_center_u_cost_center</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_cost_center" table="sn_erp_integration_cost_center"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Cost Center&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;true&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_cost_center&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:53:32&lt;/sys_created_on&gt;&lt;sys_id&gt;a577ee733b41329862f31831a3e45ac1&lt;/sys_id&gt;&lt;sys_name&gt;Cost Center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sn_erp_integration_cost_center_u_cost_center&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-21 14:38:53&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;true&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1613505232</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>5ae7a9513bbe325062f31831a3e45a7f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c147cbeae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center.Cost Center</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>9d476d1dc67e3250f9d279ee2b0fe189</update_guid>
+<update_guid_history>9d476d1dc67e3250f9d279ee2b0fe189:-1613505232,36befb5205d1369023ecd31a36404ef9:-1613505232,283eaa3785c132986ae847386a672e1e:-112876787,8afc2e7f9b8132981c132053eb045581:1864740192,a2cc2e3fc3813298087481514d6c31ab:-112876787,a8a766f3834132982c01a9847373e2df:-1613505232</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_dictionary_sn_erp_integration_sap_material_transfer_cost_center_u_cost_center</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_cost_center" table="sn_erp_integration_sap_material_transfer_cost_center"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Cost Center&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;true&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_cost_center&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;sn_erp_integration_sap_material_transfer_cost_center&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-16 16:01:25&lt;/sys_created_on&gt;&lt;sys_id&gt;3e0d36ed3ba16e906a65e624c3e45ab2&lt;/sys_id&gt;&lt;sys_name&gt;Cost Center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sn_erp_integration_sap_material_transfer_cost_center_u_cost_center&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-30 17:07:34&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;true&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1378849168</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>5ee7a9513bbe325062f31831a3e45a80</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a3616cb9e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_sap_material_transfer_cost_center</table>
+<target_name>SAP Material Transfer Cost Center.Cost Center</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>16cd8bdfd8f8361441a37ac39816bdb3</update_guid>
+<update_guid_history>16cd8bdfd8f8361441a37ac39816bdb3:1378849168,750d07db74f836143f9edc52f2c5eb2e:1479521215,a3b94f1fafb836145772b75309a28b34:1378849168,38390a620df036d072cb428b2a60235c:863604541,152dfae1eae16e900b7453a9e1422fcf:-756166591,c12dfae1e6e16e900876272fc61a3555:-756166591</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sn_erp_integration_etl_extraction_source_field_867d3e253be16e906a65e624c3e45add</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_erp_integration_etl_extraction_source_field"&gt;&lt;sn_erp_integration_etl_extraction_source_field action="DELETE"&gt;&lt;column_name&gt;cost_center_data_cost_center_description&lt;/column_name&gt;&lt;etl_extraction_source display_value="SAP Cost Center"&gt;673d76a13be16e906a65e624c3e45afb&lt;/etl_extraction_source&gt;&lt;field_alias&gt;cost_center_data_cost_center_description&lt;/field_alias&gt;&lt;field_type&gt;table&lt;/field_type&gt;&lt;model_operation_output display_value="Cost Center Description"&gt;fe8631613be12e906a65e624c3e45a12&lt;/model_operation_output&gt;&lt;sys_class_name&gt;sn_erp_integration_etl_extraction_source_field&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-16 16:02:51&lt;/sys_created_on&gt;&lt;sys_id&gt;867d3e253be16e906a65e624c3e45add&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_erp_integration_etl_extraction_source_field_867d3e253be16e906a65e624c3e45add&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-16 16:02:51&lt;/sys_updated_on&gt;&lt;/sn_erp_integration_etl_extraction_source_field&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-842952647</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>5ee7e5513bbe325062f31831a3e45a5a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7fe3c8c20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table />
+<target_name />
+<type>ETL Extraction Source Field</type>
+<update_domain>global</update_domain>
+<update_guid>c601cd4c8a1efa502a22831f7bfc4b35</update_guid>
+<update_guid_history>c601cd4c8a1efa502a22831f7bfc4b35:-842952647,ca7d3e253ae16e906b731281c244b5de:-1484179718</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_security_acl_9e0726ff3b01329862f31831a3e45afa</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Default access control on sn_erp_integration_cost_center&lt;/description&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;operation display_value="create"&gt;create&lt;/operation&gt;&lt;script/&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:56&lt;/sys_created_on&gt;&lt;sys_id&gt;9e0726ff3b01329862f31831a3e45afa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_erp_integration_cost_center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_9e0726ff3b01329862f31831a3e45afa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:50:56&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>473112925</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>6ae7a9513bbe325062f31831a3e45aca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7bccf70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>sn_erp_integration_cost_center</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>620766ffcd013298328d78d2e84eee09</update_guid>
+<update_guid_history>620766ffcd013298328d78d2e84eee09:473112925</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_security_acl_role_660766ff3b01329862f31831a3e45a51</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl_role"&gt;&lt;sys_security_acl_role action="INSERT_OR_UPDATE"&gt;&lt;sys_class_name&gt;sys_security_acl_role&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:57&lt;/sys_created_on&gt;&lt;sys_id&gt;660766ff3b01329862f31831a3e45a51&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_erp_integration_cost_center.sn_erp_integration.sap_material_transfer_cost_center_user&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_security_acl display_value="sn_erp_integration_cost_center"&gt;ee0766ff3b01329862f31831a3e45a2c&lt;/sys_security_acl&gt;&lt;sys_update_name&gt;sys_security_acl_role_660766ff3b01329862f31831a3e45a51&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:50:57&lt;/sys_updated_on&gt;&lt;sys_user_role display_value="sn_erp_integration.sap_material_transfer_cost_center_user" name="sn_erp_integration.sap_material_transfer_cost_center_user"&gt;ed9266a53b6d2e906a65e624c3e45a89&lt;/sys_user_role&gt;&lt;/sys_security_acl_role&gt;&lt;/record_update&gt;</payload>
+<payload_hash>270986188</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>6ee7a9513bbe325062f31831a3e45acb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7bcf0c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>sn_erp_integration_cost_center.sn_erp_integration.sap_material_transfer_cost_center_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>2a0766fff80132989d2800f435f92058</update_guid>
+<update_guid_history>2a0766fff80132989d2800f435f92058:270986188</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_documentation_sn_erp_integration_cost_center_u_controlling_area_en</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_documentation element="u_controlling_area" label="Controlling Area" language="en" table="sn_erp_integration_cost_center"&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_controlling_area&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Controlling Area&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;plural&gt;Controlling Areas&lt;/plural&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:54:43&lt;/sys_created_on&gt;&lt;sys_id&gt;b1e7a6373b41329862f31831a3e45ac7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Controlling Area&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_sn_erp_integration_cost_center_u_controlling_area_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:54:43&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1059886425</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>92e7a9513bbe325062f31831a3e45a81</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7f42f40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Material Transfer Cost Center.Controlling Area</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b9e76a37404132988402227898f9aaec</update_guid>
+<update_guid_history>b9e76a37404132988402227898f9aaec:-1059886425</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sn_erp_integration_etl_extraction_source_field_ce7d3e253be16e906a65e624c3e45adf</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_erp_integration_etl_extraction_source_field"&gt;&lt;sn_erp_integration_etl_extraction_source_field action="DELETE"&gt;&lt;column_name&gt;cost_center_data_cost_center&lt;/column_name&gt;&lt;etl_extraction_source display_value="SAP Cost Center"&gt;673d76a13be16e906a65e624c3e45afb&lt;/etl_extraction_source&gt;&lt;field_alias&gt;cost_center_data_cost_center&lt;/field_alias&gt;&lt;field_type&gt;table&lt;/field_type&gt;&lt;model_operation_output display_value="Cost Center"&gt;b28631613be12e906a65e624c3e45a0c&lt;/model_operation_output&gt;&lt;sys_class_name&gt;sn_erp_integration_etl_extraction_source_field&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-16 16:02:51&lt;/sys_created_on&gt;&lt;sys_id&gt;ce7d3e253be16e906a65e624c3e45adf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_erp_integration_etl_extraction_source_field_ce7d3e253be16e906a65e624c3e45adf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-16 16:02:51&lt;/sys_updated_on&gt;&lt;/sn_erp_integration_etl_extraction_source_field&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1417054874</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>92e7e5513bbe325062f31831a3e45a5b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7fe3c9130000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table />
+<target_name />
+<type>ETL Extraction Source Field</type>
+<update_domain>global</update_domain>
+<update_guid>4601cd4c151efa50b993f555d204aa40</update_guid>
+<update_guid_history>4601cd4c151efa50b993f555d204aa40:-1417054874,027d3e25b8e16e907a4b6bc83cc224e1:571975405</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_documentation_sn_erp_integration_cost_center_u_owner_en</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_documentation element="u_owner" label="Owner" language="en" table="sn_erp_integration_cost_center"&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_owner&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Owner&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;plural&gt;Owners&lt;/plural&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-23 10:44:04&lt;/sys_created_on&gt;&lt;sys_id&gt;d62c99473b59ba900ad1a021a3e45acf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Owner&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_sn_erp_integration_cost_center_u_owner_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-23 10:44:04&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-175213595</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>96e7a9513bbe325062f31831a3e45a82</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ab050532b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center.Owner</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ba2cd9474759ba903fec48fcfc256f82</update_guid>
+<update_guid_history>ba2cd9474759ba903fec48fcfc256f82:-175213595</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_index_sn_erp_integration_cost_center_u_cost_center</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_index"&gt;&lt;sys_index action="INSERT_OR_UPDATE"&gt;&lt;access_method&gt;btree&lt;/access_method&gt;&lt;col_name_string&gt;u_cost_center&lt;/col_name_string&gt;&lt;index_col_name element="u_cost_center" name="sn_erp_integration_cost_center"&gt;a577ee733b41329862f31831a3e45ac1&lt;/index_col_name&gt;&lt;logical_table_name&gt;sn_erp_integration_cost_center&lt;/logical_table_name&gt;&lt;sys_class_name&gt;sys_index&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 14:20:36&lt;/sys_created_on&gt;&lt;sys_id&gt;b0dd6ab33bc1329862f31831a3e45a5d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_erp_integration_cost_center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_index_sn_erp_integration_cost_center_u_cost_center&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 14:20:36&lt;/sys_updated_on&gt;&lt;table display_value="SAP Material Transfer Cost Center" name="sn_erp_integration_cost_center"&gt;bdd622bf3b01329862f31831a3e45a44&lt;/table&gt;&lt;unique_index&gt;true&lt;/unique_index&gt;&lt;/sys_index&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-772476863</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>96e7a9513bbe325062f31831a3e45a87</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d96f6500000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>bdd622bf3b01329862f31831a3e45a44</table>
+<target_name>SAP Material Transfer Cost Center: Cost Center</target_name>
+<type>Indexes</type>
+<update_domain>global</update_domain>
+<update_guid>81dd6ab333c13298efe3d62dbb896f6c</update_guid>
+<update_guid_history>81dd6ab333c13298efe3d62dbb896f6c:-772476863</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_db_object_bdd622bf3b01329862f31831a3e45a44</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_db_object"&gt;&lt;sys_db_object action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;actions_access&gt;false&lt;/actions_access&gt;&lt;alter_access&gt;false&lt;/alter_access&gt;&lt;caller_access/&gt;&lt;client_scripts_access&gt;false&lt;/client_scripts_access&gt;&lt;configuration_access&gt;false&lt;/configuration_access&gt;&lt;create_access&gt;false&lt;/create_access&gt;&lt;create_access_controls&gt;true&lt;/create_access_controls&gt;&lt;delete_access&gt;false&lt;/delete_access&gt;&lt;filter_extension/&gt;&lt;is_df_table&gt;false&lt;/is_df_table&gt;&lt;is_document_table&gt;false&lt;/is_document_table&gt;&lt;is_extendable&gt;true&lt;/is_extendable&gt;&lt;label&gt;SAP Cost Center&lt;/label&gt;&lt;live_feed_enabled&gt;false&lt;/live_feed_enabled&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;number_ref/&gt;&lt;provider_class/&gt;&lt;read_access&gt;true&lt;/read_access&gt;&lt;scriptable_table&gt;false&lt;/scriptable_table&gt;&lt;super_class/&gt;&lt;sys_class_name&gt;sys_db_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:56&lt;/sys_created_on&gt;&lt;sys_id&gt;bdd622bf3b01329862f31831a3e45a44&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;SAP Cost Center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_db_object_bdd622bf3b01329862f31831a3e45a44&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-23 10:33:33&lt;/sys_updated_on&gt;&lt;update_access&gt;false&lt;/update_access&gt;&lt;user_role display_value="sn_erp_integration.sap_material_transfer_cost_center_user" name="sn_erp_integration.sap_material_transfer_cost_center_user"&gt;ed9266a53b6d2e906a65e624c3e45a89&lt;/user_role&gt;&lt;ws_access&gt;true&lt;/ws_access&gt;&lt;/sys_db_object&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1405235531</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>96e7e5513bbe325062f31831a3e45a5c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c1479f9660000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>4d962995547e3250207bbb294726474e</update_guid>
+<update_guid_history>4d962995547e3250207bbb294726474e:-1405235531,30c91d0baa19ba90c39eba87350744ea:-1405235531,5e6ec6e6d815f69010b9b126a5c06a17:559366773,cb07a6ff5a013298c610c9baacf8ab60:1791186914</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_dictionary_sn_erp_integration_cost_center_u_cost_center_description</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_cost_center_description" table="sn_erp_integration_cost_center"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Cost Center Description&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_cost_center_description&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:55:22&lt;/sys_created_on&gt;&lt;sys_id&gt;72f722773b41329862f31831a3e45a86&lt;/sys_id&gt;&lt;sys_name&gt;Cost Center Description&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sn_erp_integration_cost_center_u_cost_center_description&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:55:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2002895232</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>9ee7a9513bbe325062f31831a3e45a7f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c147cbe610000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center.Cost Center Description</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>59476d1d217e3250afa791c3f5510c73</update_guid>
+<update_guid_history>59476d1d217e3250afa791c3f5510c73:-2002895232,a708e67716413298fbd78869f838849c:-2002895232</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sn_erp_integration_etl_extraction_source_673d76a13be16e906a65e624c3e45afb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_erp_integration_etl_extraction_source"&gt;&lt;sn_erp_integration_etl_extraction_source action="INSERT_OR_UPDATE"&gt;&lt;allow_model_change&gt;false&lt;/allow_model_change&gt;&lt;comments/&gt;&lt;comments_and_work_notes/&gt;&lt;description/&gt;&lt;generator_script/&gt;&lt;model display_value="SAP Material Transfer Cost Center"&gt;74c291653be9ea906a65e624c3e45a65&lt;/model&gt;&lt;name&gt;SAP Cost Center&lt;/name&gt;&lt;page_size&gt;1000&lt;/page_size&gt;&lt;processes&gt;1&lt;/processes&gt;&lt;row_data_size&gt;0&lt;/row_data_size&gt;&lt;short_description&gt;SAP Cost Center&lt;/short_description&gt;&lt;sys_class_name&gt;sn_erp_integration_etl_extraction_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-16 16:02:09&lt;/sys_created_on&gt;&lt;sys_id&gt;673d76a13be16e906a65e624c3e45afb&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;SAP Cost Center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_erp_integration_etl_extraction_source_673d76a13be16e906a65e624c3e45afb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-02 18:59:42&lt;/sys_updated_on&gt;&lt;target_table_link&gt;/sn_erp_integration_cost_center_list.do&lt;/target_table_link&gt;&lt;transform_map display_value="SAP Material Cost Center"&gt;4e7d3e253be16e906a65e624c3e45abe&lt;/transform_map&gt;&lt;transform_table_link&gt;/sys_transform_map.do?sys_id=4e7d3e253be16e906a65e624c3e45abe&lt;/transform_table_link&gt;&lt;work_notes/&gt;&lt;/sn_erp_integration_etl_extraction_source&gt;&lt;/record_update&gt;</payload>
+<payload_hash>982360859</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>9ee7e5513bbe325062f31831a3e45a59</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b801475ba0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table />
+<target_name>SAP Cost Center</target_name>
+<type>ERP extraction table</type>
+<update_domain>global</update_domain>
+<update_guid>f83d410c6d123e502b28dd4e6d547ee0</update_guid>
+<update_guid_history>f83d410c6d123e502b28dd4e6d547ee0:982360859,583d410c0d123e50334a5af60b8de15b:1008284240,052d4dc8a2123e50b5085d9184f8282b:-1967574659,ce3c4184a1123e508535c62f5691d9f9:1008284240,5b514dcc8e1efa506a30925634870240:-664727522,1b4109cc1c1efa500964f6b79c48c704:1012824151,9e01cd4ceb1efa50a89304c905e35c9d:-777790880,de01cd4c3f1efa5009716a093f79208d:-664727522,9d014d4c041efa50e16b8af01af9ff6b:-1645660959,7bf0c94cd21efa508c7aa1a83f79d786:1745452436,0e7d3e25bfe16e9079f8f5d2fd1092e9:104619492,827d3e2524e16e9031de792cccdacbdc:515457318,827d3e252ce16e90c3b694f25f7f61d9:645812133,b34d3625cde16e90de24b504666031f8:-22929569</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_security_acl_role_b60766ff3b01329862f31831a3e45ab7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl_role"&gt;&lt;sys_security_acl_role action="INSERT_OR_UPDATE"&gt;&lt;sys_class_name&gt;sys_security_acl_role&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:57&lt;/sys_created_on&gt;&lt;sys_id&gt;b60766ff3b01329862f31831a3e45ab7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_erp_integration_cost_center.sn_erp_integration.sap_material_transfer_cost_center_user&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_security_acl display_value="sn_erp_integration_cost_center"&gt;e60766ff3b01329862f31831a3e45a9f&lt;/sys_security_acl&gt;&lt;sys_update_name&gt;sys_security_acl_role_b60766ff3b01329862f31831a3e45ab7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:50:57&lt;/sys_updated_on&gt;&lt;sys_user_role display_value="sn_erp_integration.sap_material_transfer_cost_center_user" name="sn_erp_integration.sap_material_transfer_cost_center_user"&gt;ed9266a53b6d2e906a65e624c3e45a89&lt;/sys_user_role&gt;&lt;/sys_security_acl_role&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1993778433</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>a2e7a9513bbe325062f31831a3e45acc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7bd1850000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>sn_erp_integration_cost_center.sn_erp_integration.sap_material_transfer_cost_center_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>7a0766ff0a013298f2cd52e4b18765be</update_guid>
+<update_guid_history>7a0766ff0a013298f2cd52e4b18765be:-1993778433</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_security_acl_e60766ff3b01329862f31831a3e45a9f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Default access control on sn_erp_integration_cost_center&lt;/description&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;operation display_value="delete"&gt;delete&lt;/operation&gt;&lt;script/&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:57&lt;/sys_created_on&gt;&lt;sys_id&gt;e60766ff3b01329862f31831a3e45a9f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_erp_integration_cost_center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_e60766ff3b01329862f31831a3e45a9f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:50:57&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1064411199</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>aee7a9513bbe325062f31831a3e45aca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7bd1200000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>sn_erp_integration_cost_center</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>f20766ff0f013298401a60a4ac9716b6</update_guid>
+<update_guid_history>f20766ff0f013298401a60a4ac9716b6:1064411199</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_dictionary_sn_erp_integration_cost_center_u_department</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_department" table="sn_erp_integration_cost_center"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Department&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_department&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:55:51&lt;/sys_created_on&gt;&lt;sys_id&gt;1e186eb33b41329862f31831a3e45a5c&lt;/sys_id&gt;&lt;sys_name&gt;Department&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sn_erp_integration_cost_center_u_department&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:55:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1737895004</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>d2e7a9513bbe325062f31831a3e45a80</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c147cbe1a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center.Department</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>11476d1df37e32501e6d6fef3ac38813</update_guid>
+<update_guid_history>11476d1df37e32501e6d6fef3ac38813:-1737895004,a228e2b74041329891a932208e594296:-1737895004</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sn_erp_integration_etl_extraction_source_field_067d3e253be16e906a65e624c3e45ae2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_erp_integration_etl_extraction_source_field"&gt;&lt;sn_erp_integration_etl_extraction_source_field action="DELETE"&gt;&lt;column_name&gt;cost_center_data_department&lt;/column_name&gt;&lt;etl_extraction_source display_value="SAP Cost Center"&gt;673d76a13be16e906a65e624c3e45afb&lt;/etl_extraction_source&gt;&lt;field_alias&gt;cost_center_data_department&lt;/field_alias&gt;&lt;field_type&gt;table&lt;/field_type&gt;&lt;model_operation_output display_value="Department"&gt;be86fd213be12e906a65e624c3e45ad8&lt;/model_operation_output&gt;&lt;sys_class_name&gt;sn_erp_integration_etl_extraction_source_field&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-16 16:02:51&lt;/sys_created_on&gt;&lt;sys_id&gt;067d3e253be16e906a65e624c3e45ae2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_erp_integration_etl_extraction_source_field_067d3e253be16e906a65e624c3e45ae2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-16 16:02:51&lt;/sys_updated_on&gt;&lt;/sn_erp_integration_etl_extraction_source_field&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-445663376</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>d2e7e5513bbe325062f31831a3e45a5a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7fe3c7510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table />
+<target_name />
+<type>ETL Extraction Source Field</type>
+<update_domain>global</update_domain>
+<update_guid>c6018d4cad1efa50d03822c8466b99c8</update_guid>
+<update_guid_history>c6018d4cad1efa50d03822c8466b99c8:-445663376,467d3e252ee16e90c12378634cea53e3:1168191739</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_documentation_sn_erp_integration_cost_center_u_cost_center_description_en</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_documentation element="u_cost_center_description" label="Cost Center Description" language="en" table="sn_erp_integration_cost_center"&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_cost_center_description&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Cost Center Description&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;plural&gt;Cost Center Descriptions&lt;/plural&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:55:23&lt;/sys_created_on&gt;&lt;sys_id&gt;a30866773b41329862f31831a3e45a65&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cost Center Description&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_sn_erp_integration_cost_center_u_cost_center_description_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:55:23&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1611787145</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>d6e7a9513bbe325062f31831a3e45a81</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7fde450000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Material Transfer Cost Center.Cost Center Description</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e708e67776413298d7bc04a11189d69e</update_guid>
+<update_guid_history>e708e67776413298d7bc04a11189d69e:1611787145</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sn_erp_integration_model_74c291653be9ea906a65e624c3e45a65</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_erp_integration_model"&gt;&lt;sn_erp_integration_model action="INSERT_OR_UPDATE"&gt;&lt;comments/&gt;&lt;comments_and_work_notes/&gt;&lt;description/&gt;&lt;erp_extraction_sources_count&gt;1&lt;/erp_extraction_sources_count&gt;&lt;erp_functions_count&gt;0&lt;/erp_functions_count&gt;&lt;erp_remote_tables_count&gt;1&lt;/erp_remote_tables_count&gt;&lt;erp_softwares&gt;2063dc44ffd8a210856cffffffffff17&lt;/erp_softwares&gt;&lt;is_internal&gt;false&lt;/is_internal&gt;&lt;is_locked&gt;false&lt;/is_locked&gt;&lt;is_ui_hidden&gt;false&lt;/is_ui_hidden&gt;&lt;model_updated_on&gt;2026-01-02 18:59:43&lt;/model_updated_on&gt;&lt;module display_value="Manufacturing"&gt;0e4454cc4f18621000b0dbe3d2ce0b34&lt;/module&gt;&lt;name&gt;SAP Material Transfer Cost Center&lt;/name&gt;&lt;platform_table/&gt;&lt;platform_table_name/&gt;&lt;protocol&gt;rfc&lt;/protocol&gt;&lt;repeat&gt;false&lt;/repeat&gt;&lt;short_description&gt;SAP Material Transfer Cost Center&lt;/short_description&gt;&lt;sys_class_name&gt;sn_erp_integration_model&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-16 08:17:10&lt;/sys_created_on&gt;&lt;sys_id&gt;74c291653be9ea906a65e624c3e45a65&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;SAP Material Transfer Cost Center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_erp_integration_model_74c291653be9ea906a65e624c3e45a65&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-02 18:59:43&lt;/sys_updated_on&gt;&lt;system display_value="System 1"&gt;6d6c22366f6251100e6ee0d0245b362e&lt;/system&gt;&lt;type/&gt;&lt;virtual_table_name&gt;sap_material_transfer_cost_center&lt;/virtual_table_name&gt;&lt;work_notes/&gt;&lt;/sn_erp_integration_model&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1751942670</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>d6e7e5513bbe325062f31831a3e45a5b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b801475740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table />
+<target_name>SAP Material Transfer Cost Center</target_name>
+<type>Model</type>
+<update_domain>global</update_domain>
+<update_guid>b83d410ccc123e50338600c1cbda85db</update_guid>
+<update_guid_history>b83d410ccc123e50338600c1cbda85db:1751942670,d601cd4c231efa50e9709f2130a86b87:-9675538,3b4d3aa15ce16e908784c881e35d5770:1594532591,e5d1e6a11b6d2e90071acd706243c47d:283354128,078631618de12e90a472031d94507b27:-981014961,0d04f129daa12e90888b95cea95b98e2:-515174740,e7f3f1295ba12e90272d1d743dd0f808:68822822,170351a550e9ea9022504e55ddb05356:-1340049845,e4e2dd2526e9ea903884633fef8fe944:649929009</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_documentation_sn_erp_integration_cost_center__en</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_documentation element="" label="SAP Cost Center" language="en" table="sn_erp_integration_cost_center"&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element/&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;SAP Cost Center&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;plural&gt;SAP Cost Centers&lt;/plural&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:58&lt;/sys_created_on&gt;&lt;sys_id&gt;070766ff3b01329862f31831a3e45ad9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SAP Cost Center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_sn_erp_integration_cost_center__en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-23 10:33:34&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>371964363</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>dae7a9513bbe325062f31831a3e45a82</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ab046b1e50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>70c91d0baa19ba90339768f0314707bf</update_guid>
+<update_guid_history>70c91d0baa19ba90339768f0314707bf:371964363,4707a6ff5b01329849344c31a2c4b32d:26890515</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_security_acl_ee0766ff3b01329862f31831a3e45a2c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Default access control on sn_erp_integration_cost_center&lt;/description&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script/&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:56&lt;/sys_created_on&gt;&lt;sys_id&gt;ee0766ff3b01329862f31831a3e45a2c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_erp_integration_cost_center&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_ee0766ff3b01329862f31831a3e45a2c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:50:56&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1894905175</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>e2e7a9513bbe325062f31831a3e45acb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7bcea00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>sn_erp_integration_cost_center</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>a20766ff9f01329813c3de939bc3df50</update_guid>
+<update_guid_history>a20766ff9f01329813c3de939bc3df50:-1894905175</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_security_acl_role_e60766ff3b01329862f31831a3e45a0a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl_role"&gt;&lt;sys_security_acl_role action="INSERT_OR_UPDATE"&gt;&lt;sys_class_name&gt;sys_security_acl_role&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kevinjos.ramirezarce@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 13:50:56&lt;/sys_created_on&gt;&lt;sys_id&gt;e60766ff3b01329862f31831a3e45a0a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_erp_integration_cost_center.sn_erp_integration.sap_material_transfer_cost_center_user&lt;/sys_name&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_security_acl display_value="sn_erp_integration_cost_center"&gt;9e0726ff3b01329862f31831a3e45afa&lt;/sys_security_acl&gt;&lt;sys_update_name&gt;sys_security_acl_role_e60766ff3b01329862f31831a3e45a0a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kevinjos.ramirezarce@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 13:50:56&lt;/sys_updated_on&gt;&lt;sys_user_role display_value="sn_erp_integration.sap_material_transfer_cost_center_user" name="sn_erp_integration.sap_material_transfer_cost_center_user"&gt;ed9266a53b6d2e906a65e624c3e45a89&lt;/sys_user_role&gt;&lt;/sys_security_acl_role&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1225079186</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>e6e7a9513bbe325062f31831a3e45acc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a7d7bcd8d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>sn_erp_integration_cost_center.sn_erp_integration.sap_material_transfer_cost_center_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>e60766ffd501329871d72ff46b1a322b</update_guid>
+<update_guid_history>e60766ffd501329871d72ff46b1a322b:1225079186</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Zero Copy Connector for ERP">5e4866a16f2111100e6ee0d0245b3610</application>
+<category>customer</category>
+<comments />
+<name>sys_ui_section_c353b6ff3b05329862f31831a3e45afd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_ui_section caption="" section_id="c353b6ff3b05329862f31831a3e45afd" sys_domain="global" table="sn_erp_integration_cost_center" version="3" view=""&gt;&lt;sys_ui_element action="INSERT_OR_UPDATE"&gt;&lt;element&gt;.begin_split&lt;/element&gt;&lt;position&gt;0&lt;/position&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 14:44:47&lt;/sys_created_on&gt;&lt;sys_id&gt;0b537aff3b05329862f31831a3e45ad5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_ui_formatter/&gt;&lt;sys_ui_section caption="NULL" display_value="" name="sn_erp_integration_cost_center" sys_domain="global" view="Default view"&gt;c353b6ff3b05329862f31831a3e45afd&lt;/sys_ui_section&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 14:44:47&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;type&gt;.begin_split&lt;/type&gt;&lt;/sys_ui_element&gt;&lt;sys_ui_element action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_cost_center&lt;/element&gt;&lt;position&gt;1&lt;/position&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 14:44:47&lt;/sys_created_on&gt;&lt;sys_id&gt;03537aff3b05329862f31831a3e45ad6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_ui_formatter/&gt;&lt;sys_ui_section caption="NULL" display_value="" name="sn_erp_integration_cost_center" sys_domain="global" view="Default view"&gt;c353b6ff3b05329862f31831a3e45afd&lt;/sys_ui_section&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 14:44:47&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;type/&gt;&lt;/sys_ui_element&gt;&lt;sys_ui_element action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_controlling_area&lt;/element&gt;&lt;position&gt;2&lt;/position&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 14:44:47&lt;/sys_created_on&gt;&lt;sys_id&gt;0b537aff3b05329862f31831a3e45ad6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_ui_formatter/&gt;&lt;sys_ui_section caption="NULL" display_value="" name="sn_erp_integration_cost_center" sys_domain="global" view="Default view"&gt;c353b6ff3b05329862f31831a3e45afd&lt;/sys_ui_section&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 14:44:47&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;type/&gt;&lt;/sys_ui_element&gt;&lt;sys_ui_element action="INSERT_OR_UPDATE"&gt;&lt;element&gt;.split&lt;/element&gt;&lt;position&gt;3&lt;/position&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 14:44:47&lt;/sys_created_on&gt;&lt;sys_id&gt;03537aff3b05329862f31831a3e45ad7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_ui_formatter/&gt;&lt;sys_ui_section caption="NULL" display_value="" name="sn_erp_integration_cost_center" sys_domain="global" view="Default view"&gt;c353b6ff3b05329862f31831a3e45afd&lt;/sys_ui_section&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 14:44:47&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;type&gt;.split&lt;/type&gt;&lt;/sys_ui_element&gt;&lt;sys_ui_element action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_cost_center_description&lt;/element&gt;&lt;position&gt;4&lt;/position&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 14:44:47&lt;/sys_created_on&gt;&lt;sys_id&gt;0b537aff3b05329862f31831a3e45ad7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_ui_formatter/&gt;&lt;sys_ui_section caption="NULL" display_value="" name="sn_erp_integration_cost_center" sys_domain="global" view="Default view"&gt;c353b6ff3b05329862f31831a3e45afd&lt;/sys_ui_section&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 14:44:47&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;type/&gt;&lt;/sys_ui_element&gt;&lt;sys_ui_element action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_department&lt;/element&gt;&lt;position&gt;5&lt;/position&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 14:44:47&lt;/sys_created_on&gt;&lt;sys_id&gt;03537aff3b05329862f31831a3e45ad8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_ui_formatter/&gt;&lt;sys_ui_section caption="NULL" display_value="" name="sn_erp_integration_cost_center" sys_domain="global" view="Default view"&gt;c353b6ff3b05329862f31831a3e45afd&lt;/sys_ui_section&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 14:44:47&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;type/&gt;&lt;/sys_ui_element&gt;&lt;sys_ui_element action="INSERT_OR_UPDATE"&gt;&lt;element&gt;.end_split&lt;/element&gt;&lt;position&gt;6&lt;/position&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 14:44:47&lt;/sys_created_on&gt;&lt;sys_id&gt;0b537aff3b05329862f31831a3e45ad8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_ui_formatter/&gt;&lt;sys_ui_section caption="NULL" display_value="" name="sn_erp_integration_cost_center" sys_domain="global" view="Default view"&gt;c353b6ff3b05329862f31831a3e45afd&lt;/sys_ui_section&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 14:44:47&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;type&gt;.end_split&lt;/type&gt;&lt;/sys_ui_element&gt;&lt;sys_ui_element action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_owner&lt;/element&gt;&lt;position&gt;7&lt;/position&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-23 10:44:03&lt;/sys_created_on&gt;&lt;sys_id&gt;562c99473b59ba900ad1a021a3e45a03&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_ui_formatter/&gt;&lt;sys_ui_section caption="NULL" display_value="" name="sn_erp_integration_cost_center" sys_domain="global" view="Default view"&gt;c353b6ff3b05329862f31831a3e45afd&lt;/sys_ui_section&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-23 10:44:03&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;type/&gt;&lt;/sys_ui_element&gt;&lt;sys_ui_section action="INSERT_OR_UPDATE"&gt;&lt;caption/&gt;&lt;header&gt;false&lt;/header&gt;&lt;name&gt;sn_erp_integration_cost_center&lt;/name&gt;&lt;roles/&gt;&lt;sys_class_name&gt;sys_ui_section&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-13 14:44:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c353b6ff3b05329862f31831a3e45afd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_erp_integration_cost_center&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Zero Copy Connector for ERP" source="sn_erp_integration"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Zero Copy Connector for ERP"&gt;5e4866a16f2111100e6ee0d0245b3610&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_section_c353b6ff3b05329862f31831a3e45afd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-13 14:44:47&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;title&gt;true&lt;/title&gt;&lt;view display_value="Default view" name="NULL"&gt;Default view&lt;/view&gt;&lt;view_name/&gt;&lt;/sys_ui_section&gt;&lt;/sys_ui_section&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1748259021</payload_hash>
+<remote_update_set display_value="Zero Copy for ERP">12e7e5513bbe325062f31831a3e45a53</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-31 14:40:13</sys_created_on>
+<sys_id>eae7a9513bbe325062f31831a3e45acd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ab0504c9a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-31 14:40:13</sys_updated_on>
+<table>sn_erp_integration_cost_center</table>
+<target_name>SAP Cost Center</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>d62c99475c59ba9050b947def636e306</update_guid>
+<update_guid_history>d62c99475c59ba9050b947def636e306:-1748259021,83537afffc05329818b90678ea210ada:1308507140,4b53b6ffe0053298b97a71413e65e4ff:-258268264</update_guid_history>
+<update_set display_value="" />
+<view />
+</sys_update_xml>
+</unload>

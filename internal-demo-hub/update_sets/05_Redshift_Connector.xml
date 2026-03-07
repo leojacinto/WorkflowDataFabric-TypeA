@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-01-14 17:41:32">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Redshift Connector</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>4d2d6e73975af290481fb147f053af4a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>e06eaa7b975af290481fb147f053af47</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_3e8d2637975af290481fb147f053af14</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.redshift.access-key-id&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.redshift.access-key-id&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snc.redshift.access-key-id&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="alectriredshift"&gt;a28daef3975af290481fb147f053af15&lt;/model&gt;&lt;model_id&gt;a28daef3975af290481fb147f053af15&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_a28daef3975af290481fb147f053af15&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:37:51&lt;/sys_created_on&gt;&lt;sys_id&gt;3e8d2637975af290481fb147f053af14&lt;/sys_id&gt;&lt;sys_name&gt;snc.redshift.access-key-id&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;bd2c44cf97a4321043f2fe2de053af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_3e8d2637975af290481fb147f053af14&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:37:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1437259782</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>206eaa7b975af290481fb147f053af49</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd97a9310000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>snc.redshift.access-key-id</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>540e66f7e45af29008800612cd95b579</update_guid>
+<update_guid_history>540e66f7e45af29008800612cd95b579:1437259782</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_afcdee77975af290481fb147f053af3c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Choice List Specification" section_id="afcdee77975af290481fb147f053af3c" sys_domain="global" table="sn_df_connection_attributes" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>33ca0e52eb031100d4360c505206fe16</element><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>6fcdee77975af290481fb147f053af3e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sn_df_connection_attributes" sys_domain="global" view="Default view">afcdee77975af290481fb147f053af3c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>choice</element><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>ebcdee77975af290481fb147f053af3f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sn_df_connection_attributes" sys_domain="global" view="Default view">afcdee77975af290481fb147f053af3c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Choice List Specification</caption><header>false</header><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>afcdee77975af290481fb147f053af3c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Glide Data Fabric" source="com.glide.datafabric">bd2c44cf97a4321043f2fe2de053af14</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_afcdee77975af290481fb147f053af3c</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-965253177</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>206eaa7b975af290481fb147f053af4e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96ded10000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>e7cdee77d65af2908c1309df94d1c342</update_guid>
+<update_guid_history>e7cdee77d65af2908c1309df94d1c342:-965253177</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_df_connection_data_ee8daef3975af290481fb147f053af1a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_df_connection_data"><sys_df_connection_data action="INSERT_OR_UPDATE"><connection display_value="alectriredshift">a28daef3975af290481fb147f053af15</connection><connection_attributes/><connection_status>CONNECTED</connection_status><error_message/><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:50</sys_created_on><sys_id>ee8daef3975af290481fb147f053af1a</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on></sys_df_connection_data><sys_variable_value action="delete_multiple" query="document_key=ee8daef3975af290481fb147f053af1a"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>3a8d2637975af290481fb147f053af9a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>AKIAQ4NSBRRJFA3Y7SHQ</value><variable display_value="snc.redshift.access-key-id">3e8d2637975af290481fb147f053af14</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>3a8d2637975af290481fb147f053af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>dev</value><variable display_value="snc.redshift.database-name">328d2637975af290481fb147f053af82</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>7a8d2637975af290481fb147f053af9b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>jdbc:redshift://wdf-two-wg.061039807570.us-west-1.redshift-serverless.amazonaws.com:5439</value><variable display_value="connection-url">668de237975af290481fb147f053afb3</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>7e8d2637975af290481fb147f053af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>true</value><variable display_value="statistics.enabled">3a8d2637975af290481fb147f053af93</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>be8d2637975af290481fb147f053af9b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>ACCESS_KEY</value><variable display_value="snc.redshift.auth-type">728d2637975af290481fb147f053af10</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>f28d2637975af290481fb147f053af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>﷞﷟﷒2d7d6ef3975af290481fb147f053af01﷬﷔1﷬﷭Nxx9x8mxyLoanYNNUHiTSw==XygRflORrxRDBEkbruIvqRayIztl6cmK3iB6Kylhg7pUSd_wwS9w5_lsAsU0WGZjot7bcRK_qcs=﷮﷯</value><variable display_value="snc.redshift.secret-access-key">728d2637975af290481fb147f053af7d</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1175077606</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>246eaa7b975af290481fb147f053af4a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd97e7710000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>ee8daef3975af290481fb147f053af1a</target_name>
+<type>DataFabric Connection Data</type>
+<update_domain>global</update_domain>
+<update_guid>801e6af7895af29090aef63d642e06c1</update_guid>
+<update_guid_history>801e6af7895af29090aef63d642e06c1:-1175077606</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_7a8d2637975af290481fb147f053af9b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>7a8d2637975af290481fb147f053af9b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>jdbc:redshift://wdf-two-wg.061039807570.us-west-1.redshift-serverless.amazonaws.com:5439</value><variable display_value="connection-url">668de237975af290481fb147f053afb3</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1683431477</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>246eaa7b975af290481fb147f053af4f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96ca000000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>7a8d2637975af290481fb147f053af9b</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>9acd6e77ca5af2906b28dbff3161bbb5</update_guid>
+<update_guid_history>9acd6e77ca5af2906b28dbff3161bbb5:-1683431477</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_23cdee77975af290481fb147f053af35</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Default Value" section_id="23cdee77975af290481fb147f053af35" sys_domain="global" table="sn_df_connection_attributes" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>07f7c652eb031100d4360c505206fe3a</element><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>efcdee77975af290481fb147f053af36</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Default Value" display_value="Default Value" name="sn_df_connection_attributes" sys_domain="global" view="Default view">23cdee77975af290481fb147f053af35</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>default_value</element><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>6fcdee77975af290481fb147f053af37</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Default Value" display_value="Default Value" name="sn_df_connection_attributes" sys_domain="global" view="Default view">23cdee77975af290481fb147f053af35</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Default Value</caption><header>false</header><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>23cdee77975af290481fb147f053af35</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Glide Data Fabric" source="com.glide.datafabric">bd2c44cf97a4321043f2fe2de053af14</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_23cdee77975af290481fb147f053af35</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>498900430</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>286eaa7b975af290481fb147f053af4b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96de9c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>6bcdee77165af2903ad75bd3fbfe803a</update_guid>
+<update_guid_history>6bcdee77165af2903ad75bd3fbfe803a:498900430</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_6bcdae77975af290481fb147f053aff8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Reference Specification" section_id="6bcdae77975af290481fb147f053aff8" sys_domain="global" table="sn_df_connection_attributes" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>67ce7e41eb031100d4360c505206fedb</element><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>efcdae77975af290481fb147f053affc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="Default view">6bcdae77975af290481fb147f053aff8</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reference</element><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>ebcdae77975af290481fb147f053affe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="Default view">6bcdae77975af290481fb147f053aff8</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reference_qual_condition</element><position>2</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>e7cdee77975af290481fb147f053af18</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="Default view">6bcdae77975af290481fb147f053aff8</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Reference Specification</caption><header>false</header><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6bcdae77975af290481fb147f053aff8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Glide Data Fabric" source="com.glide.datafabric">bd2c44cf97a4321043f2fe2de053af14</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_6bcdae77975af290481fb147f053aff8</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-984426316</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>2c6eaa7b975af290481fb147f053af4c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96ddb40000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>6bcdee77385af2901d0a928816fb031b</update_guid>
+<update_guid_history>6bcdee77385af2901d0a928816fb031b:-984426316</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_6bcdee77975af290481fb147f053af6e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Calculated Value" section_id="6bcdee77975af290481fb147f053af6e" sys_domain="global" table="sn_df_connection_attributes" version="3" view="advanced"><sys_ui_element action="INSERT_OR_UPDATE"><element>9c214781eb031100d4360c505206fe89</element><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>2fcdee77975af290481fb147f053af7d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6bcdee77975af290481fb147f053af6e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>virtual</element><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>abcdee77975af290481fb147f053af7e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6bcdee77975af290481fb147f053af6e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>calculation</element><position>2</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>abcdee77975af290481fb147f053af7c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6bcdee77975af290481fb147f053af6e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Calculated Value</caption><header>false</header><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6bcdee77975af290481fb147f053af6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Glide Data Fabric" source="com.glide.datafabric">bd2c44cf97a4321043f2fe2de053af14</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_6bcdee77975af290481fb147f053af6e</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><title>false</title><view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1228488635</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>606eaa7b975af290481fb147f053af4d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96e00c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>2bcdee77565af29030bdbae271c05b81</update_guid>
+<update_guid_history>2bcdee77565af29030bdbae271c05b81:-1228488635</update_guid_history>
+<update_set display_value=""/>
+<view>advanced</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_668de237975af290481fb147f053afb3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;connection-url&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;connection-url&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;connection-url&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="alectriredshift"&gt;a28daef3975af290481fb147f053af15&lt;/model&gt;&lt;model_id&gt;a28daef3975af290481fb147f053af15&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_a28daef3975af290481fb147f053af15&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:37:50&lt;/sys_created_on&gt;&lt;sys_id&gt;668de237975af290481fb147f053afb3&lt;/sys_id&gt;&lt;sys_name&gt;connection-url&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;bd2c44cf97a4321043f2fe2de053af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_668de237975af290481fb147f053afb3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:37:50&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-336206458</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>646eaa7b975af290481fb147f053af49</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd978b350000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>connection-url</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>56fd62f7025af290c7277b2d3745a787</update_guid>
+<update_guid_history>56fd62f7025af290c7277b2d3745a787:-336206458</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_bfcdee77975af290481fb147f053afef</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Default Value" section_id="bfcdee77975af290481fb147f053afef" sys_domain="global" table="sn_df_connection_attributes" version="3" view="advanced"><sys_ui_element action="INSERT_OR_UPDATE"><element>9c214781eb031100d4360c505206fe8a</element><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>37cdee77975af290481fb147f053aff4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Default Value" display_value="Default Value" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">bfcdee77975af290481fb147f053afef</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>use_dynamic_default</element><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>b7cdee77975af290481fb147f053aff1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Default Value" display_value="Default Value" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">bfcdee77975af290481fb147f053afef</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>default_value</element><position>2</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>37cdee77975af290481fb147f053aff2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Default Value" display_value="Default Value" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">bfcdee77975af290481fb147f053afef</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dynamic_default_value</element><position>3</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>b3cdee77975af290481fb147f053aff3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Default Value" display_value="Default Value" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">bfcdee77975af290481fb147f053afef</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Default Value</caption><header>false</header><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bfcdee77975af290481fb147f053afef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Glide Data Fabric" source="com.glide.datafabric">bd2c44cf97a4321043f2fe2de053af14</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_bfcdee77975af290481fb147f053afef</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><title>false</title><view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-964823407</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>646eaa7b975af290481fb147f053af4e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96e3c30000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>37cdee776f5af29095e4a896764bc2f7</update_guid>
+<update_guid_history>37cdee776f5af29095e4a896764bc2f7:-964823407</update_guid_history>
+<update_set display_value=""/>
+<view>advanced</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_df_connection_metadata_a28daef3975af290481fb147f053af15</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_df_connection_metadata"><sys_df_connection_metadata action="INSERT_OR_UPDATE"><active>true</active><connection_label>AlectriRedshift</connection_label><connection_name>alectriredshift</connection_name><connector display_value="redshift">915460147bc0221052d1f56d933f9e2e</connector><data_steward_roles/><order>100</order><selected_section_choices>[]</selected_section_choices><short_description/><sys_class_name>sys_df_connection_metadata</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:50</sys_created_on><sys_id>a28daef3975af290481fb147f053af15</sys_id><sys_mod_count>0</sys_mod_count><sys_name>alectriredshift</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_df_connection_metadata_a28daef3975af290481fb147f053af15</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:50</sys_updated_on></sys_df_connection_metadata></record_update>]]></payload>
+<payload_hash>1425840295</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>686eaa7b975af290481fb147f053af4a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd98db470000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>alectriredshift</target_name>
+<type>DataFabric Connection Metadata</type>
+<update_domain>global</update_domain>
+<update_guid>df4e627b615af290cb30c25967a2ebd0</update_guid>
+<update_guid_history>df4e627b615af290cb30c25967a2ebd0:1425840295,ee8daef33b5af2909d93adffd808ed18:1425840295</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_7e8d2637975af290481fb147f053af9c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>7e8d2637975af290481fb147f053af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>true</value><variable display_value="statistics.enabled">3a8d2637975af290481fb147f053af93</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>722904683</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>686eaa7b975af290481fb147f053af4f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96d0780000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>7e8d2637975af290481fb147f053af9c</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>3acdae77785af2904ae1e87d7ade3510</update_guid>
+<update_guid_history>3acdae77785af2904ae1e87d7ade3510:722904683</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_2bcdee77975af290481fb147f053af1e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="2bcdee77975af290481fb147f053af1e" sys_domain="global" table="sn_df_connection_attributes" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>6fcdee77975af290481fb147f053af21</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>ebcdee77975af290481fb147f053af29</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>internal_type</element><position>2</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>e7cdee77975af290481fb147f053af24</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>label</element><position>3</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>e7cdee77975af290481fb147f053af2b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>element</element><position>4</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>e3cdee77975af290481fb147f053af26</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>max_length</element><position>5</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>e3cdee77975af290481fb147f053af2d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>63cdee77975af290481fb147f053af20</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_scope</element><position>7</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>efcdee77975af290481fb147f053af27</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>8</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>ebcdee77975af290481fb147f053af22</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>read_only</element><position>9</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>6bcdee77975af290481fb147f053af2a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>mandatory</element><position>10</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>67cdee77975af290481fb147f053af25</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>display</element><position>11</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>67cdee77975af290481fb147f053af2c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>text_index</element><position>12</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>63cdee77975af290481fb147f053af27</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>audit</element><position>13</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>63cdee77975af290481fb147f053af2e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>14</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>efcdee77975af290481fb147f053af20</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>default_value</element><position>15</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>6fcdee77975af290481fb147f053af28</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reference</element><position>16</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_id>6bcdee77975af290481fb147f053af23</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2bcdee77975af290481fb147f053af1e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Glide Data Fabric" source="com.glide.datafabric">bd2c44cf97a4321043f2fe2de053af14</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_2bcdee77975af290481fb147f053af1e</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>535048933</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>6c6eaa7b975af290481fb147f053af4b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96de650000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>ebcdee77e85af290d1d626ce5ef52632</update_guid>
+<update_guid_history>ebcdee77e85af290d1d626ce5ef52632:535048933</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_2fcdee77975af290481fb147f053af64</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Dependent Field" section_id="2fcdee77975af290481fb147f053af64" sys_domain="global" table="sn_df_connection_attributes" version="3" view="advanced"><sys_ui_element action="INSERT_OR_UPDATE"><element>0b71c3b34733110016dcd8966c9a71be</element><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>2bcdee77975af290481fb147f053af67</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">2fcdee77975af290481fb147f053af64</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>use_dependent_field</element><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>a7cdee77975af290481fb147f053af68</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">2fcdee77975af290481fb147f053af64</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dependent</element><position>2</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>27cdee77975af290481fb147f053af69</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">2fcdee77975af290481fb147f053af64</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dependent_on_field</element><position>3</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>a7cdee77975af290481fb147f053af66</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">2fcdee77975af290481fb147f053af64</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Dependent Field</caption><header>false</header><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2fcdee77975af290481fb147f053af64</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Glide Data Fabric" source="com.glide.datafabric">bd2c44cf97a4321043f2fe2de053af14</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_2fcdee77975af290481fb147f053af64</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><title>false</title><view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>284827886</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>a06eaa7b975af290481fb147f053af4c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96dfc80000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>27cdee77965af2905c9004b0cd5c766c</update_guid>
+<update_guid_history>27cdee77965af2905c9004b0cd5c766c:284827886</update_guid_history>
+<update_set display_value=""/>
+<view>advanced</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_6fcdee77975af290481fb147f053af83</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="6fcdee77975af290481fb147f053af83" sys_domain="global" table="sn_df_connection_attributes" version="3" view="advanced"><sys_ui_element action="INSERT_OR_UPDATE"><element>47305d038f201200e3f874f137bdeea9</element><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>fbcdee77975af290481fb147f053af92</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>63cdee77975af290481fb147f053af87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>2</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>e7cdee77975af290481fb147f053af8b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>internal_type</element><position>3</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>6fcdee77975af290481fb147f053af8f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>label</element><position>4</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>fbcdee77975af290481fb147f053af94</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>element</element><position>5</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>6fcdee77975af290481fb147f053af88</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>max_length</element><position>6</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>e3cdee77975af290481fb147f053af8d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>ebcdee77975af290481fb147f053af90</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_scope</element><position>8</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>7bcdee77975af290481fb147f053af95</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>9</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>67cdee77975af290481fb147f053af85</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>read_only</element><position>10</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>ebcdee77975af290481fb147f053af89</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>mandatory</element><position>11</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>63cdee77975af290481fb147f053af8e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>display</element><position>12</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>6bcdee77975af290481fb147f053af91</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>audit</element><position>13</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>e3cdee77975af290481fb147f053af86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>text_index</element><position>14</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>6bcdee77975af290481fb147f053af8a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>15</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>efcdee77975af290481fb147f053af8e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>87305d038f201200e3f874f137bdeea9</element><position>16</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>7fcdee77975af290481fb147f053af93</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>attributes</element><position>17</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>efcdee77975af290481fb147f053af87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dependent</element><position>18</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>67cdee77975af290481fb147f053af8c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6fcdee77975af290481fb147f053af83</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Glide Data Fabric" source="com.glide.datafabric">bd2c44cf97a4321043f2fe2de053af14</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_6fcdee77975af290481fb147f053af83</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><title>true</title><view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>376415787</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>a46eaa7b975af290481fb147f053af4d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96e2bf0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>f7cdee774f5af290457a884f2ae3eb9a</update_guid>
+<update_guid_history>f7cdee774f5af290457a884f2ae3eb9a:376415787</update_guid_history>
+<update_set display_value=""/>
+<view>advanced</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_728d2637975af290481fb147f053af10</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.redshift.auth-type&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.redshift.auth-type&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snc.redshift.auth-type&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="alectriredshift"&gt;a28daef3975af290481fb147f053af15&lt;/model&gt;&lt;model_id&gt;a28daef3975af290481fb147f053af15&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_a28daef3975af290481fb147f053af15&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:37:51&lt;/sys_created_on&gt;&lt;sys_id&gt;728d2637975af290481fb147f053af10&lt;/sys_id&gt;&lt;sys_name&gt;snc.redshift.auth-type&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;bd2c44cf97a4321043f2fe2de053af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_728d2637975af290481fb147f053af10&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:37:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1738124678</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>a86eaa7b975af290481fb147f053af49</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd9795b60000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>snc.redshift.auth-type</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>4bfde2f7115af290f0606782607623e1</update_guid>
+<update_guid_history>4bfde2f7115af290f0606782607623e1:1738124678</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_3a8d2637975af290481fb147f053af9a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>3a8d2637975af290481fb147f053af9a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>AKIAQ4NSBRRJFA3Y7SHQ</value><variable display_value="snc.redshift.access-key-id">3e8d2637975af290481fb147f053af14</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-813678925</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>a86eaa7b975af290481fb147f053af4e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96d0180000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>3a8d2637975af290481fb147f053af9a</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>e6cdae771c5af2901d7430ff4b79150c</update_guid>
+<update_guid_history>e6cdae771c5af2901d7430ff4b79150c:-813678925</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_form_sections_27cdee77975af290481fb147f053af4a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="27cdee77975af290481fb147f053af4a" sys_domain="global" table="sn_df_connection_attributes" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b3cdee77975af290481fb147f053af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="sn_df_connection_attributes" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">27cdee77975af290481fb147f053af4a</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6fcdee77975af290481fb147f053af83</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>37cdee77975af290481fb147f053afef</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="sn_df_connection_attributes" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">27cdee77975af290481fb147f053af4a</sys_ui_form><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3cdee77975af290481fb147f053af64</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="sn_df_connection_attributes" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">27cdee77975af290481fb147f053af4a</sys_ui_form><sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">a7cdee77975af290481fb147f053af4e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>3</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>efcdee77975af290481fb147f053af6d</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="sn_df_connection_attributes" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">27cdee77975af290481fb147f053af4a</sys_ui_form><sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">2fcdee77975af290481fb147f053af64</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>4</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e3cdee77975af290481fb147f053af83</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="sn_df_connection_attributes" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">27cdee77975af290481fb147f053af4a</sys_ui_form><sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6bcdee77975af290481fb147f053af6e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>5</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7fcd22b7975af290481fb147f053af11</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="sn_df_connection_attributes" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">27cdee77975af290481fb147f053af4a</sys_ui_form><sys_ui_section caption="Default Value" display_value="Default Value" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">bfcdee77975af290481fb147f053afef</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>27cdee77975af290481fb147f053af4a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_form_sections_27cdee77975af290481fb147f053af4a</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+<payload_hash>1984784662</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>ac6eaa7b975af290481fb147f053af4a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96e3ef0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Sections</type>
+<update_domain>global</update_domain>
+<update_guid>b3cd22b7fc5af2906c639a4a81fc2f15</update_guid>
+<update_guid_history>b3cd22b7fc5af2906c639a4a81fc2f15:1984784662,2bcdee77505af290a2ae15082d561c4c:-937231689</update_guid_history>
+<update_set display_value=""/>
+<view>7966be310a0a0b8c00bd504090503227</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_be8d2637975af290481fb147f053af9b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>be8d2637975af290481fb147f053af9b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>ACCESS_KEY</value><variable display_value="snc.redshift.auth-type">728d2637975af290481fb147f053af10</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-375956583</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>ac6eaa7b975af290481fb147f053af4f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96cf510000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>be8d2637975af290481fb147f053af9b</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>eacd6e77695af2901c387111e33e74b9</update_guid>
+<update_guid_history>eacd6e77695af2901c387111e33e74b9:-375956583</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_form_sections_67cdae77975af290481fb147f053afb4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="67cdae77975af290481fb147f053afb4" sys_domain="global" table="sn_df_connection_attributes" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a7cdee77975af290481fb147f053af34</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="sn_df_connection_attributes" name="sn_df_connection_attributes" sys_domain="global" view="Default view">67cdae77975af290481fb147f053afb4</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="sn_df_connection_attributes" sys_domain="global" view="Default view">2bcdee77975af290481fb147f053af1e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>27cdee77975af290481fb147f053af1d</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="sn_df_connection_attributes" name="sn_df_connection_attributes" sys_domain="global" view="Default view">67cdae77975af290481fb147f053afb4</sys_ui_form><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="Default view">6bcdae77975af290481fb147f053aff8</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3cdee77975af290481fb147f053af44</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="sn_df_connection_attributes" name="sn_df_connection_attributes" sys_domain="global" view="Default view">67cdae77975af290481fb147f053afb4</sys_ui_form><sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sn_df_connection_attributes" sys_domain="global" view="Default view">afcdee77975af290481fb147f053af3c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>3</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>27cdee77975af290481fb147f053af3c</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="sn_df_connection_attributes" name="sn_df_connection_attributes" sys_domain="global" view="Default view">67cdae77975af290481fb147f053afb4</sys_ui_form><sys_ui_section caption="Default Value" display_value="Default Value" name="sn_df_connection_attributes" sys_domain="global" view="Default view">23cdee77975af290481fb147f053af35</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>67cdae77975af290481fb147f053afb4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_form_sections_67cdae77975af290481fb147f053afb4</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:38:59</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+<payload_hash>-1316101063</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>e06eaa7b975af290481fb147f053af4b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96df080000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Sections</type>
+<update_domain>global</update_domain>
+<update_guid>67cdee77905af290d1735f6c2c4a7247</update_guid>
+<update_guid_history>67cdee77905af290d1735f6c2c4a7247:-1316101063,63cdae77045af290afe385ebb2c03cf6:1832840364</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_f28d2637975af290481fb147f053af9c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>f28d2637975af290481fb147f053af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>﷞﷟﷒2d7d6ef3975af290481fb147f053af01﷬﷔1﷬﷭Nxx9x8mxyLoanYNNUHiTSw==XygRflORrxRDBEkbruIvqRayIztl6cmK3iB6Kylhg7pUSd_wwS9w5_lsAsU0WGZjot7bcRK_qcs=﷮﷯</value><variable display_value="snc.redshift.secret-access-key">728d2637975af290481fb147f053af7d</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>1700346689</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>e06eaa7b975af290481fb147f053af50</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96d0d90000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>f28d2637975af290481fb147f053af9c</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>f6cdae77d15af290f82ca25211b9dd2d</update_guid>
+<update_guid_history>f6cdae77d15af290f82ca25211b9dd2d:1700346689</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_3fcdee77975af290481fb147f053af9c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Reference Specification" section_id="3fcdee77975af290481fb147f053af9c" sys_domain="global" table="sn_df_connection_attributes" version="3" view="advanced"><sys_ui_element action="INSERT_OR_UPDATE"><element>91a1eb11eb431100d4360c505206fef2</element><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>33cdee77975af290481fb147f053afc3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reference</element><position>2</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>bfcdee77975af290481fb147f053afa0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>use_reference_qualifier</element><position>3</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>3bcdee77975af290481fb147f053afbd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reference_qual_condition</element><position>4</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>b3cdee77975af290481fb147f053afc0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dynamic_ref_qual</element><position>5</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>bfcdee77975af290481fb147f053afc3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reference_qual</element><position>6</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>37cdee77975af290481fb147f053af9e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>1da1eb11eb431100d4360c505206fef2</element><position>9</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>bfcdee77975af290481fb147f053afba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>10</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>b7cdee77975af290481fb147f053afbe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reference_key</element><position>11</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>33cdee77975af290481fb147f053afc1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reference_cascade_rule</element><position>12</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>b3cdee77975af290481fb147f053af9f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>13</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>3fcdee77975af290481fb147f053afbb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reference_floats</element><position>14</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>37cdee77975af290481fb147f053afbf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dynamic_creation</element><position>15</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>bfcdee77975af290481fb147f053afc1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>16</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>33cdee77975af290481fb147f053afa0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dynamic_creation_script</element><position>17</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:01</sys_created_on><sys_id>bbcdee77975af290481fb147f053afbc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fcdee77975af290481fb147f053af9c</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Reference Specification</caption><header>false</header><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3fcdee77975af290481fb147f053af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Glide Data Fabric" source="com.glide.datafabric">bd2c44cf97a4321043f2fe2de053af14</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_3fcdee77975af290481fb147f053af9c</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><title>false</title><view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1640701025</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>e46eaa7b975af290481fb147f053af4c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96e3790000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>7bcdee77875af2904757ad65315e0bed</update_guid>
+<update_guid_history>7bcdee77875af2904757ad65315e0bed:1640701025</update_guid_history>
+<update_set display_value=""/>
+<view>advanced</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_328d2637975af290481fb147f053af82</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.redshift.database-name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.redshift.database-name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snc.redshift.database-name&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="alectriredshift"&gt;a28daef3975af290481fb147f053af15&lt;/model&gt;&lt;model_id&gt;a28daef3975af290481fb147f053af15&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_a28daef3975af290481fb147f053af15&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:37:51&lt;/sys_created_on&gt;&lt;sys_id&gt;328d2637975af290481fb147f053af82&lt;/sys_id&gt;&lt;sys_name&gt;snc.redshift.database-name&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;bd2c44cf97a4321043f2fe2de053af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_328d2637975af290481fb147f053af82&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:37:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-604462970</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>e86eaa7b975af290481fb147f053af47</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd979f1f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>snc.redshift.database-name</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>6ffd66f7d85af290d575ed13cee3d029</update_guid>
+<update_guid_history>6ffd66f7d85af290d575ed13cee3d029:-604462970</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_3a8d2637975af290481fb147f053af93</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;statistics.enabled&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;statistics.enabled&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;statistics.enabled&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="alectriredshift"&gt;a28daef3975af290481fb147f053af15&lt;/model&gt;&lt;model_id&gt;a28daef3975af290481fb147f053af15&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_a28daef3975af290481fb147f053af15&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:37:51&lt;/sys_created_on&gt;&lt;sys_id&gt;3a8d2637975af290481fb147f053af93&lt;/sys_id&gt;&lt;sys_name&gt;statistics.enabled&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;bd2c44cf97a4321043f2fe2de053af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_3a8d2637975af290481fb147f053af93&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:37:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-845955962</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>e86eaa7b975af290481fb147f053af48</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd97b30f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>statistics.enabled</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>bc0ea6f7405af2908ee1f05fc9bfe9e6</update_guid>
+<update_guid_history>bc0ea6f7405af2908ee1f05fc9bfe9e6:-845955962</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_a7cdee77975af290481fb147f053af4e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Choice List Specification" section_id="a7cdee77975af290481fb147f053af4e" sys_domain="global" table="sn_df_connection_attributes" version="3" view="advanced"><sys_ui_element action="INSERT_OR_UPDATE"><element>c2d0aa5eeb031100d4360c505206fe25</element><position>0</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>a3cdee77975af290481fb147f053af50</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">a7cdee77975af290481fb147f053af4e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>choice</element><position>1</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>23cdee77975af290481fb147f053af51</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">a7cdee77975af290481fb147f053af4e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>choice_table</element><position>2</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>afcdee77975af290481fb147f053af51</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">a7cdee77975af290481fb147f053af4e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>choice_field</element><position>3</position><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_id>2fcdee77975af290481fb147f053af52</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sn_df_connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">a7cdee77975af290481fb147f053af4e</sys_ui_section><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Choice List Specification</caption><header>false</header><name>sn_df_connection_attributes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:39:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a7cdee77975af290481fb147f053af4e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_df_connection_attributes</sys_name><sys_overrides/><sys_package display_value="Glide Data Fabric" source="com.glide.datafabric">bd2c44cf97a4321043f2fe2de053af14</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_a7cdee77975af290481fb147f053af4e</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:39:00</sys_updated_on><sys_user/><title>false</title><view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-784695769</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>e86eaa7b975af290481fb147f053af4d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96df830000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table>sn_df_connection_attributes</table>
+<target_name>Data Fabric Connection Attributes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>23cdee77375af290e879196aa40ba856</update_guid>
+<update_guid_history>23cdee77375af290e879196aa40ba856:-784695769</update_guid_history>
+<update_set display_value=""/>
+<view>advanced</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_728d2637975af290481fb147f053af7d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.redshift.secret-access-key&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.redshift.secret-access-key&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;snc.redshift.secret-access-key&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;568&lt;/max_length&gt;&lt;model display_value="alectriredshift"&gt;a28daef3975af290481fb147f053af15&lt;/model&gt;&lt;model_id&gt;a28daef3975af290481fb147f053af15&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_a28daef3975af290481fb147f053af15&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:37:51&lt;/sys_created_on&gt;&lt;sys_id&gt;728d2637975af290481fb147f053af7d&lt;/sys_id&gt;&lt;sys_name&gt;snc.redshift.secret-access-key&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;bd2c44cf97a4321043f2fe2de053af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_728d2637975af290481fb147f053af7d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:37:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1106612484</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>ec6eaa7b975af290481fb147f053af49</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd97beee0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>snc.redshift.secret-access-key</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>690ee6f7475af2908ee8224f9ba3d45b</update_guid>
+<update_guid_history>690ee6f7475af2908ee8224f9ba3d45b:-1106612484</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_3a8d2637975af290481fb147f053af9c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>ee8daef3975af290481fb147f053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:37:51</sys_created_on><sys_id>3a8d2637975af290481fb147f053af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:37:51</sys_updated_on><value>dev</value><variable display_value="snc.redshift.database-name">328d2637975af290481fb147f053af82</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-794247961</payload_hash>
+<remote_update_set display_value="Redshift Connector">e06eaa7b975af290481fb147f053af47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:41:31</sys_created_on>
+<sys_id>ec6eaa7b975af290481fb147f053af4e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbd96cfb60000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 17:41:31</sys_updated_on>
+<table/>
+<target_name>3a8d2637975af290481fb147f053af9c</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>a6cdae775b5af2901a386d3858bd2d08</update_guid>
+<update_guid_history>a6cdae775b5af2901a386d3858bd2d08:-794247961</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-03-02 13:18:11">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<application_name>Forecast Variance</application_name>
+<application_scope>x_snc_forecast_v_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Update Expense Event Fields</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>f604f77a34533e107f44f24963bba6a5</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>85d477fa34533e107f44f24963bba639</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_billing_period</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="billing_period" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Billing Period</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>billing_period</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:23</sys_created_on><sys_id>7068fd833b91fa900ad1a021a3e45aa7</sys_id><sys_name>Billing Period</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_billing_period</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:17:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-934103029</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>8dd477fa34533e107f44f24963bba639</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb206410000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Billing Period</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0694bbbab3533e105e99450a48a6242b</update_guid>
+<update_guid_history>0694bbbab3533e105e99450a48a6242b:-934103029,6e68b1c33f91fa901fbd9dab3dd61c5c:-964700210,596831c3fe91fa9044b8920607f04faa:-934103029</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_business_unit</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="business_unit" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Business Unit</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>business_unit</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:22</sys_created_on><sys_id>2468fd833b91fa900ad1a021a3e45a1d</sys_id><sys_name>Business Unit</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_business_unit</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>918269691</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>0dd477fa34533e107f44f24963bba63a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a1c30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Business Unit</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>f374b7baa5533e107fca8bd188083805</update_guid>
+<update_guid_history>f374b7baa5533e107fca8bd188083805:918269691,ca6871c35091fa9036e1b0044bcf6ff7:-1447743860,9d6831c33191fa905ba88958db0c466c:918269691</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_correlation_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="correlation_id" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Correlation ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>correlation_id</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:22</sys_created_on><sys_id>7468fd833b91fa900ad1a021a3e45a58</sys_id><sys_name>Correlation ID</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_correlation_id</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>617072901</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>01d477fa34533e107f44f24963bba63b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a2f90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Correlation ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7b74b7baf5533e10171b6b61bc5c151f</update_guid>
+<update_guid_history>7b74b7baf5533e10171b6b61bc5c151f:617072901,a268b1c3f791fa9037f8fc3244a999cb:-342246194,116831c3f391fa9033b79bc0185f0fd7:617072901</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_event_type</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="event_type" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Event Type</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>event_type</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:22</sys_created_on><sys_id>fc68fd833b91fa900ad1a021a3e45a5b</sys_id><sys_name>Event Type</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_event_type</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-168201001</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>05d477fa34533e107f44f24963bba63b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a5060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Event Type</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0084b7ba5b533e1068b4cc2360a19558</update_guid>
+<update_guid_history>0084b7ba5b533e1068b4cc2360a19558:-168201001,e96871c32a91fa90a51a66f62a442e3f:366053198,456831c31e91fa90e499699cb878ff39:-168201001</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_gl_account</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="gl_account" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>GL Account</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>gl_account</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:23</sys_created_on><sys_id>bc68fd833b91fa900ad1a021a3e45a76</sys_id><sys_name>GL Account</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_gl_account</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-296824977</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>09d477fa34533e107f44f24963bba63b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a4440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.GL Account</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3774b7ba28533e109eb03779d12e3f4f</update_guid>
+<update_guid_history>3774b7ba28533e109eb03779d12e3f4f:-296824977,826871c31391fa9094cf3e3cb86f85be:-125328430,196831c31e91fa902d3afcfd003d236a:-296824977</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_invoice_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="invoice_id" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Invoice ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>invoice_id</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:23</sys_created_on><sys_id>b068fd833b91fa900ad1a021a3e45ab7</sys_id><sys_name>Invoice ID</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_invoice_id</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>35551803</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>0dd477fa34533e107f44f24963bba63b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a39e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Invoice ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>bb74b7ba26533e104a75459d06e4b43d</update_guid>
+<update_guid_history>bb74b7ba26533e104a75459d06e4b43d:35551803,ee68b1c39a91fa905996e6d948412889:565824142,dd6831c3fe91fa904e9b9b85c681ceac:35551803</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_priority</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="priority" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Priority</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>priority</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:22</sys_created_on><sys_id>fc68fd833b91fa900ad1a021a3e45a30</sys_id><sys_name>Priority</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_priority</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1168215987</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>01d477fa34533e107f44f24963bba63c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a6050000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Priority</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>c484b7ba1e533e10db9a1695862c378c</update_guid>
+<update_guid_history>c484b7ba1e533e10db9a1695862c378c:-1168215987,f268b1c37a91fa9054de1aaa84cd3af7:885479760,956831c3f691fa90cfcbe60a1032d8d9:-1168215987</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_region</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="region" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Region</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>region</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:22</sys_created_on><sys_id>f068fd833b91fa900ad1a021a3e45a38</sys_id><sys_name>Region</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_region</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>2102763949</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>05d477fa34533e107f44f24963bba63c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a16c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Region</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>377477ba14533e10faf8248ed99c6cfc</update_guid>
+<update_guid_history>377477ba14533e10faf8248ed99c6cfc:2102763949,5268b1c35091fa900064e62aa612b955:-1625700848,d16831c3c591fa90fd9970b25c551fa8:2102763949</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_schema_version</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="schema_version" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Schema Version</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>schema_version</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:22</sys_created_on><sys_id>b868fd833b91fa900ad1a021a3e45a6f</sys_id><sys_name>Schema Version</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_schema_version</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-64152575</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>85d477fa34533e107f44f24963bba655</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a3f00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Schema Version</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>f774b7ba47533e10077633ee14dd7846</update_guid>
+<update_guid_history>f774b7ba47533e10077633ee14dd7846:-64152575,aa68b1c34591fa90d3e9fa44bce33591:-1685671726,996831c37f91fa90560648aa4c6518d4:-64152575</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_sent_from</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sent_from" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Sent From</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sent_from</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:22</sys_created_on><sys_id>6468fd833b91fa900ad1a021a3e45a2d</sys_id><sys_name>Sent From</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_sent_from</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-23257129</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>89d477fa34533e107f44f24963bba655</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a2a00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Sent From</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3f74b7bad7533e10ed387e2a0e7f5916</update_guid>
+<update_guid_history>3f74b7bad7533e10ed387e2a0e7f5916:-23257129,fe68b1c33591fa90383203af1345b4fd:-824616236,1d6831c33c91fa90193ec26bfd33d4db:-23257129</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_service_category</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="service_category" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Service Category</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>service_category</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:22</sys_created_on><sys_id>7868fd833b91fa900ad1a021a3e45a34</sys_id><sys_name>Service Category</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_service_category</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>258044389</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>8dd477fa34533e107f44f24963bba655</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a34b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Service Category</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7f74b7bac9533e10ff5203e49e74af34</update_guid>
+<update_guid_history>7f74b7bac9533e10ff5203e49e74af34:258044389,da68b1c30d91fa9076280b2cd25ff913:1413009358,d56831c36991fa90af104d799d8640a3:258044389</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_source_system</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="source_system" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Source System</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>source_system</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:23</sys_created_on><sys_id>3c68fd833b91fa900ad1a021a3e45aba</sys_id><sys_name>Source System</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_source_system</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1304461659</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>81d477fa34533e107f44f24963bba656</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a2210000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Source System</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3374b7ba4c533e10c97b95a28c1dd00e</update_guid>
+<update_guid_history>3374b7ba4c533e10c97b95a28c1dd00e:1304461659,356871c35791fa90ead1398096982189:697482828,0d6831c33691fa90259c6277ee0f7765:1304461659</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_timestamp</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="timestamp" table="x_snc_forecast_v_0_expense_transaction_event"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Timestamp</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>timestamp</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">glide_date_time</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_forecast_v_0_expense_transaction_event</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-23 12:47:23</sys_created_on><sys_id>f468fd833b91fa900ad1a021a3e45aa3</sys_id><sys_name>Timestamp</sys_name><sys_package display_value="Forecast Variance" source="x_snc_forecast_v_0">a4fd2da13bf8be5062f31831a3e45ac9</sys_package><sys_policy/><sys_scope display_value="Forecast Variance">a4fd2da13bf8be5062f31831a3e45ac9</sys_scope><sys_update_name>sys_dictionary_x_snc_forecast_v_0_expense_transaction_event_timestamp</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-02 13:16:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1289024959</payload_hash>
+<remote_update_set display_value="Update Expense Event Fields">85d477fa34533e107f44f24963bba639</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-02 13:18:10</sys_created_on>
+<sys_id>85d477fa34533e107f44f24963bba656</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19caeb1a5aa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-02 13:18:10</sys_updated_on>
+<table>x_snc_forecast_v_0_expense_transaction_event</table>
+<target_name>Expense Transaction Event.Timestamp</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>8084b7ba86533e105370d8f3216c3885</update_guid>
+<update_guid_history>8084b7ba86533e105370d8f3216c3885:1289024959,f56871c37a91fa90f0008a92dc5eab81:-58886428,856831c37191fa909695864f437b2763:1289024959</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

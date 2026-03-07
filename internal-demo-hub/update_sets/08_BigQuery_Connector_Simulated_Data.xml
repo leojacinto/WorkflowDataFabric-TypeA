@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-01-14 18:43:55">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>BigQuery Connector Simulated Data</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a33c7a3f93523610259bffb83603d642</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>4eac76ff93523610259bffb83603d672</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_432cfefb93523610259bffb83603d676</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>432cfefb93523610259bffb83603d676</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>276379</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>90</u_churn_risk_score><u_customer_id>30</u_customer_id><u_customer_name>Customer-30</u_customer_name><u_last_interaction_date>2025-12-21</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-1049702355</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>02acb6ff93523610259bffb83603d60c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d8c20000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>432cfefb93523610259bffb83603d676</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>078c3abfd1523610619e37aead240a63</update_guid>
+<update_guid_history>078c3abfd1523610619e37aead240a63:-1049702355</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_8f2cfefb93523610259bffb83603d673</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>8f2cfefb93523610259bffb83603d673</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>347071</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>72</u_churn_risk_score><u_customer_id>23</u_customer_id><u_customer_name>Customer-23</u_customer_name><u_last_interaction_date>2025-11-15</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>1334620899</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>02acb6ff93523610259bffb83603d611</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1de930000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>8f2cfefb93523610259bffb83603d673</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>9f8c3abfd3523610a384d7c186fd44ec</update_guid>
+<update_guid_history>9f8c3abfd3523610a384d7c186fd44ec:1334620899</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_072cfefb93523610259bffb83603d678</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>072cfefb93523610259bffb83603d678</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>276552</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>43</u_churn_risk_score><u_customer_id>37</u_customer_id><u_customer_name>Customer-37</u_customer_name><u_last_interaction_date>2025-10-25</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-1538023718</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>06ac76ff93523610259bffb83603d674</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d6030000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>072cfefb93523610259bffb83603d678</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>be8c3abf0d523610204d8e135fb2b72a</update_guid>
+<update_guid_history>be8c3abf0d523610204d8e135fb2b72a:-1538023718</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_4b2cfefb93523610259bffb83603d678</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>4b2cfefb93523610259bffb83603d678</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>59753</u_account_balance><u_account_type>Credit Card</u_account_type><u_churn_risk_score>23</u_churn_risk_score><u_customer_id>38</u_customer_id><u_customer_name>Customer-38</u_customer_name><u_last_interaction_date>2025-11-04</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-1667093358</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>06acb6ff93523610259bffb83603d60d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1da4b0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>4b2cfefb93523610259bffb83603d678</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>8f8c3abf4a523610a5963f882c4ce88b</update_guid>
+<update_guid_history>8f8c3abf4a523610a5963f882c4ce88b:-1667093358</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_0f2cfefb93523610259bffb83603d662</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>0f2cfefb93523610259bffb83603d662</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>436401</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>85</u_churn_risk_score><u_customer_id>8</u_customer_id><u_customer_name>Customer-8</u_customer_name><u_last_interaction_date>2025-10-27</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>1961352575</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>0aac76ff93523610259bffb83603d675</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d75d0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>0f2cfefb93523610259bffb83603d662</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>0b8c3abff9523610c09aeffa6b55e253</update_guid>
+<update_guid_history>0b8c3abff9523610c09aeffa6b55e253:1961352575</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_832cfefb93523610259bffb83603d662</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>832cfefb93523610259bffb83603d662</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>319330</u_account_balance><u_account_type>Credit Card</u_account_type><u_churn_risk_score>38</u_churn_risk_score><u_customer_id>6</u_customer_id><u_customer_name>Customer-6</u_customer_name><u_last_interaction_date>2025-09-28</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>56790857</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>0aacb6ff93523610259bffb83603d60e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1dba80000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>832cfefb93523610259bffb83603d662</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>9b8c3abf8e523610c9346de1f176c19b</update_guid>
+<update_guid_history>9b8c3abf8e523610c9346de1f176c19b:56790857</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_872cfefb93523610259bffb83603d676</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>872cfefb93523610259bffb83603d676</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>440476</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>21</u_churn_risk_score><u_customer_id>31</u_customer_id><u_customer_name>Customer-31</u_customer_name><u_last_interaction_date>2026-01-09</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-736047925</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>0eacb6ff93523610259bffb83603d60f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1dd400000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>872cfefb93523610259bffb83603d676</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>178c3abfc4523610ee6836f5e0eeddc4</update_guid>
+<update_guid_history>178c3abfc4523610ee6836f5e0eeddc4:-736047925</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_banking_data_u_account_type</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_account_type" table="banking_data"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;account_type&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_account_type&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;banking_data&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:41:44&lt;/sys_created_on&gt;&lt;sys_id&gt;622cbefb93523610259bffb83603d6b5&lt;/sys_id&gt;&lt;sys_name&gt;account_type&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_banking_data_u_account_type&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:41:44&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1040954240</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>12acb6ff93523610259bffb83603d616</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd182270000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.account_type</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e17cfe7fd2523610b35f4b72f389cf67</update_guid>
+<update_guid_history>e17cfe7fd2523610b35f4b72f389cf67:1040954240,a62cbefbb4523610c3572916400565d3:1040954240</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_banking_data_u_last_interaction_date_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_last_interaction_date" label="last_interaction_date" language="en" table="banking_data"><sys_documentation action="INSERT_OR_UPDATE"><element>u_last_interaction_date</element><help/><hint/><label>last_interaction_date</label><language>en</language><name>banking_data</name><plural>last_interaction_dates</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:45</sys_created_on><sys_id>f22cfefb93523610259bffb83603d632</sys_id><sys_mod_count>0</sys_mod_count><sys_name>last_interaction_date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_banking_data_u_last_interaction_date_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:45</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-9691823</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>12acb6ff93523610259bffb83603d632</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd185a10000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.last_interaction_date</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3d7c32bfbc52361017b26c8af6083a48</update_guid>
+<update_guid_history>3d7c32bfbc52361017b26c8af6083a48:-9691823,be2cfefb1b523610a1b883fea4ea6459:-9691823</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_c32cfefb93523610259bffb83603d679</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>c32cfefb93523610259bffb83603d679</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>452215</u_account_balance><u_account_type>Loan</u_account_type><u_churn_risk_score>91</u_churn_risk_score><u_customer_id>40</u_customer_id><u_customer_name>Customer-40</u_customer_name><u_last_interaction_date>2025-11-06</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>282094060</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>16acb6ff93523610259bffb83603d612</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e2af0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>c32cfefb93523610259bffb83603d679</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>2b8c7abf02523610f7d9129c9a9a6ef5</update_guid>
+<update_guid_history>2b8c7abf02523610f7d9129c9a9a6ef5:282094060</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_banking_data_u_last_interaction_date</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_last_interaction_date" table="banking_data"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;last_interaction_date&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_last_interaction_date&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;banking_data&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:41:45&lt;/sys_created_on&gt;&lt;sys_id&gt;be2cfefb93523610259bffb83603d62b&lt;/sys_id&gt;&lt;sys_name&gt;last_interaction_date&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_banking_data_u_last_interaction_date&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:41:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>959916744</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>16acb6ff93523610259bffb83603d617</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd184200000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.last_interaction_date</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3d7cfe7fbe5236107dede26aabb0a5f2</update_guid>
+<update_guid_history>3d7cfe7fbe5236107dede26aabb0a5f2:959916744,ba2cfefb64523610eb9116ed2ab14256:959916744</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_tables_7a2cfefb93523610259bffb83603d65b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_tables"><x_snc_alectri_zc_0_source_tables action="INSERT_OR_UPDATE"><source_database display_value="Banking Database">a56bb6b793523610259bffb83603d6a5</source_database><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>7a2cfefb93523610259bffb83603d65b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><table_id>banking_data</table_id><table_name>Customer Data</table_name></x_snc_alectri_zc_0_source_tables></record_update>]]></payload>
+<payload_hash>125264785</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>16acb6ff93523610259bffb83603d633</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1138f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>Customer Data</target_name>
+<type>Source Tables</type>
+<update_domain>global</update_domain>
+<update_guid>325c367fa7523610f6f0db2629d9487f</update_guid>
+<update_guid_history>325c367fa7523610f6f0db2629d9487f:125264785</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_cb2cfefb93523610259bffb83603d65f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>cb2cfefb93523610259bffb83603d65f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>299059</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>62</u_churn_risk_score><u_customer_id>1</u_customer_id><u_customer_name>Customer-1</u_customer_name><u_last_interaction_date>2025-12-22</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-426754231</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>1aacb6ff93523610259bffb83603d613</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e41a0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>cb2cfefb93523610259bffb83603d65f</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>fb8cbabf2e5236102d4e5d7d52f62111</update_guid>
+<update_guid_history>fb8cbabf2e5236102d4e5d7d52f62111:-426754231</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_b62cfefb93523610259bffb83603d65c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>customer_id</column_label><column_name>customer_id</column_name><source_table display_value="Customer Data">7a2cfefb93523610259bffb83603d65b</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>b62cfefb93523610259bffb83603d65c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>1916083078</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>1aacb6ff93523610259bffb83603d634</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1318c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>customer_id</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>a86cb67ff6523610d90d5f68e2f8d6e2</update_guid>
+<update_guid_history>a86cb67ff6523610d90d5f68e2f8d6e2:1916083078</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_cf2cfefb93523610259bffb83603d677</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>cf2cfefb93523610259bffb83603d677</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>247662</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>71</u_churn_risk_score><u_customer_id>36</u_customer_id><u_customer_name>Customer-36</u_customer_name><u_last_interaction_date>2025-10-01</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>399719665</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>1eacb6ff93523610259bffb83603d614</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e5a40000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>cf2cfefb93523610259bffb83603d677</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>f78cbabffa523610cc137a8edd7ba021</update_guid>
+<update_guid_history>f78cbabffa523610cc137a8edd7ba021:399719665</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_banking_data_u_account_type_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_account_type" label="account_type" language="en" table="banking_data"><sys_documentation action="INSERT_OR_UPDATE"><element>u_account_type</element><help/><hint/><label>account_type</label><language>en</language><name>banking_data</name><plural>account_types</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:44</sys_created_on><sys_id>a62cbefb93523610259bffb83603d6bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>account_type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_banking_data_u_account_type_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:44</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>584104465</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>1eacb6ff93523610259bffb83603d630</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1853b0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.account_type</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f17c32bf5852361010a17b4ae97eb71d</update_guid>
+<update_guid_history>f17c32bf5852361010a17b4ae97eb71d:584104465,a62cbefb08523610836ee107606e5ad6:584104465</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_8b2cfefb93523610259bffb83603d672</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>8b2cfefb93523610259bffb83603d672</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>139239</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>100</u_churn_risk_score><u_customer_id>19</u_customer_id><u_customer_name>Customer-19</u_customer_name><u_last_interaction_date>2026-01-02</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>1379054942</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>42acb6ff93523610259bffb83603d610</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1dd8f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>8b2cfefb93523610259bffb83603d672</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>538c3abfd152361022a0658bfc892be1</update_guid>
+<update_guid_history>538c3abfd152361022a0658bfc892be1:1379054942</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_032cfefb93523610259bffb83603d672</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>032cfefb93523610259bffb83603d672</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>32369</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>88</u_churn_risk_score><u_customer_id>17</u_customer_id><u_customer_name>Customer-17</u_customer_name><u_last_interaction_date>2025-09-27</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-471924321</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>46ac76ff93523610259bffb83603d673</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d4c40000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>032cfefb93523610259bffb83603d672</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>fe8c3abf545236101efb44dcd7ac731e</update_guid>
+<update_guid_history>fe8c3abf545236101efb44dcd7ac731e:-471924321</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_472cfefb93523610259bffb83603d672</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>472cfefb93523610259bffb83603d672</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>33949</u_account_balance><u_account_type>Credit Card</u_account_type><u_churn_risk_score>35</u_churn_risk_score><u_customer_id>18</u_customer_id><u_customer_name>Customer-18</u_customer_name><u_last_interaction_date>2025-11-08</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-684172000</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>46acb6ff93523610259bffb83603d60c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d94a0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>472cfefb93523610259bffb83603d672</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>438c3abf68523610a9d262cc5fed4880</update_guid>
+<update_guid_history>438c3abf68523610a9d262cc5fed4880:-684172000</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_8f2cfefb93523610259bffb83603d678</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>8f2cfefb93523610259bffb83603d678</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>310586</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>62</u_churn_risk_score><u_customer_id>39</u_customer_id><u_customer_name>Customer-39</u_customer_name><u_last_interaction_date>2025-09-16</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-1803182749</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>46acb6ff93523610259bffb83603d611</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e19b0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>8f2cfefb93523610259bffb83603d678</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>278c7abf09523610e8646e6070313616</update_guid>
+<update_guid_history>278c7abf09523610e8646e6070313616:-1803182749</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_0b2cfefb93523610259bffb83603d661</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>0b2cfefb93523610259bffb83603d661</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>148389</u_account_balance><u_account_type>Loan</u_account_type><u_churn_risk_score>25</u_churn_risk_score><u_customer_id>4</u_customer_id><u_customer_name>Customer-4</u_customer_name><u_last_interaction_date>2025-09-18</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>594972385</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>4aac76ff93523610259bffb83603d674</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d6560000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>0b2cfefb93523610259bffb83603d661</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>7e8c3abfc8523610737e0df3fcef782e</update_guid>
+<update_guid_history>7e8c3abfc8523610737e0df3fcef782e:594972385</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_4f2cfefb93523610259bffb83603d661</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>4f2cfefb93523610259bffb83603d661</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>487039</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>80</u_churn_risk_score><u_customer_id>5</u_customer_id><u_customer_name>Customer-5</u_customer_name><u_last_interaction_date>2025-12-22</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>1444223494</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>4aacb6ff93523610259bffb83603d60d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1daa00000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>4f2cfefb93523610259bffb83603d661</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>4f8c3abfcb5236109a849c55e9be928f</update_guid>
+<update_guid_history>4f8c3abfcb5236109a849c55e9be928f:1444223494</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_0f2cfefb93523610259bffb83603d670</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>0f2cfefb93523610259bffb83603d670</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>304941</u_account_balance><u_account_type>Credit Card</u_account_type><u_churn_risk_score>82</u_churn_risk_score><u_customer_id>13</u_customer_id><u_customer_name>Customer-13</u_customer_name><u_last_interaction_date>2026-01-08</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-788652627</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>4eac76ff93523610259bffb83603d675</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d7b60000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>0f2cfefb93523610259bffb83603d670</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>c78c3abf71523610c366d09e5683a857</update_guid>
+<update_guid_history>c78c3abf71523610c366d09e5683a857:-788652627</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_832cfefb93523610259bffb83603d670</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>832cfefb93523610259bffb83603d670</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>378743</u_account_balance><u_account_type>Credit Card</u_account_type><u_churn_risk_score>89</u_churn_risk_score><u_customer_id>11</u_customer_id><u_customer_name>Customer-11</u_customer_name><u_last_interaction_date>2025-11-04</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>722846007</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>4eacb6ff93523610259bffb83603d60e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1dbfa0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>832cfefb93523610259bffb83603d670</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>5b8c3abffa523610efe6d399cfd7049f</update_guid>
+<update_guid_history>5b8c3abffa523610efe6d399cfd7049f:722846007</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_fd2cfafb93523610259bffb83603d629</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><filter_extension/><is_df_table>false</is_df_table><is_document_table>false</is_document_table><is_extendable>false</is_extendable><label>Customer Data</label><live_feed_enabled>false</live_feed_enabled><name>banking_data</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:41</sys_created_on><sys_id>fd2cfafb93523610259bffb83603d629</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer Data</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_fd2cfafb93523610259bffb83603d629</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:41</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>651272829</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>52acb6ff93523610259bffb83603d615</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd180f90000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>657c7e7ffa523610b1ed5421ed8491f8</update_guid>
+<update_guid_history>657c7e7ffa523610b1ed5421ed8491f8:651272829,5e2cbefbe952361037672a4b5203cf12:651272829</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_banking_data_u_churn_risk_score_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_churn_risk_score" label="churn_risk_score" language="en" table="banking_data"><sys_documentation action="INSERT_OR_UPDATE"><element>u_churn_risk_score</element><help/><hint/><label>churn_risk_score</label><language>en</language><name>banking_data</name><plural>churn_risk_scores</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:45</sys_created_on><sys_id>ba2cfefb93523610259bffb83603d60e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>churn_risk_score</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_banking_data_u_churn_risk_score_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:45</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1873958399</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>52acb6ff93523610259bffb83603d631</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1856c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.churn_risk_score</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>757c32bf2c523610ac1fb722dbea8620</update_guid>
+<update_guid_history>757c32bf2c523610ac1fb722dbea8620:1873958399,fe2cfefbe252361073044a2a0375c129:1873958399</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_banking_data_u_churn_risk_score</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_churn_risk_score" table="banking_data"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;churn_risk_score&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_churn_risk_score&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;banking_data&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:41:45&lt;/sys_created_on&gt;&lt;sys_id&gt;762cfefb93523610259bffb83603d608&lt;/sys_id&gt;&lt;sys_name&gt;churn_risk_score&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_banking_data_u_churn_risk_score&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:41:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>622524530</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>56acb6ff93523610259bffb83603d616</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd183390000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.churn_risk_score</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>f97cfe7ffa5236105da9f807b1ab91bf</update_guid>
+<update_guid_history>f97cfe7ffa5236105da9f807b1ab91bf:622524530,ba2cfefbb752361063d93a240cbc6126:622524530</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_banking_data__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Customer Data" language="en" table="banking_data"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Customer Data</label><language>en</language><name>banking_data</name><plural>Customer Data</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:42</sys_created_on><sys_id>0a2c7efb93523610259bffb83603d6a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer Data</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_banking_data__en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1515580762</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>56acb6ff93523610259bffb83603d632</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd183e60000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>717cfe7f175236108b28129a1cf7e6ca</update_guid>
+<update_guid_history>717cfe7f175236108b28129a1cf7e6ca:-1515580762,de2cbefbb9523610ee546bbd3c8b680f:-1515580762</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_c72cfefb93523610259bffb83603d662</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>c72cfefb93523610259bffb83603d662</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>108264</u_account_balance><u_account_type>Loan</u_account_type><u_churn_risk_score>63</u_churn_risk_score><u_customer_id>7</u_customer_id><u_customer_name>Customer-7</u_customer_name><u_last_interaction_date>2025-11-10</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>93618594</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>5aacb6ff93523610259bffb83603d612</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e3080000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>c72cfefb93523610259bffb83603d662</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>f78c7abf0b523610706405e8f613f8f9</update_guid>
+<update_guid_history>f78c7abf0b523610706405e8f613f8f9:93618594</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_banking_data_u_account_balance_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_account_balance" label="account_balance" language="en" table="banking_data"><sys_documentation action="INSERT_OR_UPDATE"><element>u_account_balance</element><help/><hint/><label>account_balance</label><language>en</language><name>banking_data</name><plural>account_balances</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:44</sys_created_on><sys_id>2a2cbefb93523610259bffb83603d6f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>account_balance</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_banking_data_u_account_balance_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:44</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1669132935</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>5aacb6ff93523610259bffb83603d617</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd184990000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.account_balance</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3d7cfe7f1052361082a496c22a6bb4fa</update_guid>
+<update_guid_history>3d7cfe7f1052361082a496c22a6bb4fa:-1669132935,b62cfefb7d523610167a27dd7d801406:-1669132935</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_3a2cfefb93523610259bffb83603d65d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>account_type</column_label><column_name>account_type</column_name><source_table display_value="Customer Data">7a2cfefb93523610259bffb83603d65b</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>3a2cfefb93523610259bffb83603d65d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>218595426</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>5aacb6ff93523610259bffb83603d633</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd130610000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>account_type</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>246cb67ffd523610976c52b3eacbfa03</update_guid>
+<update_guid_history>246cb67ffd523610976c52b3eacbfa03:218595426</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_cb2cfefb93523610259bffb83603d671</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>cb2cfefb93523610259bffb83603d671</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>107635</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>29</u_churn_risk_score><u_customer_id>16</u_customer_id><u_customer_name>Customer-16</u_customer_name><u_last_interaction_date>2025-10-29</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-1182489953</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>5eacb6ff93523610259bffb83603d613</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e46f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>cb2cfefb93523610259bffb83603d671</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>bb8cbabf97523610e50fe97a5c397f15</update_guid>
+<update_guid_history>bb8cbabf97523610e50fe97a5c397f15:-1182489953</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_f22cfefb93523610259bffb83603d65d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>customer_name</column_label><column_name>customer_name</column_name><source_table display_value="Customer Data">7a2cfefb93523610259bffb83603d65b</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>f22cfefb93523610259bffb83603d65d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>963513350</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>5eacb6ff93523610259bffb83603d634</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd131e90000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>customer_name</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>686cb67fad52361056e5ca87d6a92be6</update_guid>
+<update_guid_history>686cb67fad52361056e5ca87d6a92be6:963513350</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_832cfefb93523610259bffb83603d675</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>832cfefb93523610259bffb83603d675</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>227640</u_account_balance><u_account_type>Loan</u_account_type><u_churn_risk_score>33</u_churn_risk_score><u_customer_id>27</u_customer_id><u_customer_name>Customer-27</u_customer_name><u_last_interaction_date>2025-10-22</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-487381995</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>82acb6ff93523610259bffb83603d60f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1dc560000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>832cfefb93523610259bffb83603d675</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>978c3abff5523610ad57ef956869bebc</update_guid>
+<update_guid_history>978c3abff5523610ad57ef956869bebc:-487381995</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_0f2cfefb93523610259bffb83603d675</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>0f2cfefb93523610259bffb83603d675</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>140036</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>36</u_churn_risk_score><u_customer_id>29</u_customer_id><u_customer_name>Customer-29</u_customer_name><u_last_interaction_date>2026-01-11</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-2111122771</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>86acb6ff93523610259bffb83603d60b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d8070000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>0f2cfefb93523610259bffb83603d675</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>878c3abfbb5236100a3e2cad038ac45b</update_guid>
+<update_guid_history>878c3abfbb5236100a3e2cad038ac45b:-2111122771</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_8b2cfefb93523610259bffb83603d677</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>8b2cfefb93523610259bffb83603d677</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>263694</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>69</u_churn_risk_score><u_customer_id>35</u_customer_id><u_customer_name>Customer-35</u_customer_name><u_last_interaction_date>2025-09-21</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-486276375</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>86acb6ff93523610259bffb83603d610</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1dde50000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>8b2cfefb93523610259bffb83603d677</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>138c3abfa4523610617dcec62d834ae5</update_guid>
+<update_guid_history>138c3abfa4523610617dcec62d834ae5:-486276375</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_032cfefb93523610259bffb83603d677</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>032cfefb93523610259bffb83603d677</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>252840</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>75</u_churn_risk_score><u_customer_id>33</u_customer_id><u_customer_name>Customer-33</u_customer_name><u_last_interaction_date>2026-01-08</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>819938673</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>8aac76ff93523610259bffb83603d673</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d54b0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>032cfefb93523610259bffb83603d677</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>328c3abf3f52361056082ea693f01123</update_guid>
+<update_guid_history>328c3abf3f52361056082ea693f01123:819938673</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_472cfefb93523610259bffb83603d677</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>472cfefb93523610259bffb83603d677</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>341475</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>31</u_churn_risk_score><u_customer_id>34</u_customer_id><u_customer_name>Customer-34</u_customer_name><u_last_interaction_date>2025-11-28</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-773187054</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>8aacb6ff93523610259bffb83603d60c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d99c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>472cfefb93523610259bffb83603d677</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>038c3abfdc5236100546cedfa2da5884</update_guid>
+<update_guid_history>038c3abfdc5236100546cedfa2da5884:-773187054</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_0b2cfefb93523610259bffb83603d66f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>0b2cfefb93523610259bffb83603d66f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>344387</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>37</u_churn_risk_score><u_customer_id>9</u_customer_id><u_customer_name>Customer-9</u_customer_name><u_last_interaction_date>2025-10-20</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-511788338</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>8eac76ff93523610259bffb83603d674</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d6b00000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>0b2cfefb93523610259bffb83603d66f</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>ba8c3abff1523610f4d90fc7bbb7904b</update_guid>
+<update_guid_history>ba8c3abff1523610f4d90fc7bbb7904b:-511788338</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_4f2cfefb93523610259bffb83603d66f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>4f2cfefb93523610259bffb83603d66f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>249761</u_account_balance><u_account_type>Loan</u_account_type><u_churn_risk_score>80</u_churn_risk_score><u_customer_id>10</u_customer_id><u_customer_name>Customer-10</u_customer_name><u_last_interaction_date>2025-11-03</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>1367758015</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>8eacb6ff93523610259bffb83603d60d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1dafa0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>4f2cfefb93523610259bffb83603d66f</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>1f8c3abf8f523610601369b286c5db93</update_guid>
+<update_guid_history>1f8c3abf8f523610601369b286c5db93:1367758015</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_cb2cfefb93523610259bffb83603d676</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>cb2cfefb93523610259bffb83603d676</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>435955</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>72</u_churn_risk_score><u_customer_id>32</u_customer_id><u_customer_name>Customer-32</u_customer_name><u_last_interaction_date>2025-12-04</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>1362560303</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>92acb6ff93523610259bffb83603d614</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e4e90000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>cb2cfefb93523610259bffb83603d676</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>7b8cbabf18523610e3ecddaab25a0f19</update_guid>
+<update_guid_history>7b8cbabf18523610e3ecddaab25a0f19:1362560303</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_f62cfefb93523610259bffb83603d65e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>last_interaction_date</column_label><column_name>last_interaction_date</column_name><source_table display_value="Customer Data">7a2cfefb93523610259bffb83603d65b</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>f62cfefb93523610259bffb83603d65e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>429344518</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>92acb6ff93523610259bffb83603d635</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd132480000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>last_interaction_date</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>686cf67f995236102075b7153c9be341</update_guid>
+<update_guid_history>686cf67f995236102075b7153c9be341:429344518</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_banking_data_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="banking_data"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;banking_data&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:41:42&lt;/sys_created_on&gt;&lt;sys_id&gt;862cfafb93523610259bffb83603d631&lt;/sys_id&gt;&lt;sys_name&gt;banking_data&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_banking_data_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:41:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1096568404</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>96acb6ff93523610259bffb83603d615</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd183b20000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3d7cfe7fd652361005f44c1630b3e1c6</update_guid>
+<update_guid_history>3d7cfe7fd652361005f44c1630b3e1c6:-1096568404,562cbefb7f523610ca0d08e402d96d0c:-1096568404</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_banking_data_u_customer_id_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_customer_id" label="customer_id" language="en" table="banking_data"><sys_documentation action="INSERT_OR_UPDATE"><element>u_customer_id</element><help/><hint/><label>customer_id</label><language>en</language><name>banking_data</name><plural>customer_ids</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:43</sys_created_on><sys_id>9a2cbefb93523610259bffb83603d61c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>customer_id</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_banking_data_u_customer_id_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:43</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-868528271</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>96acb6ff93523610259bffb83603d631</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd185030000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.customer_id</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>717c32bfbd5236102b0db1ddbc0a4c1a</update_guid>
+<update_guid_history>717c32bfbd5236102b0db1ddbc0a4c1a:-868528271,5a2cbefb27523610a6f465439f997438:-868528271</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_c32cfefb93523610259bffb83603d661</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>c32cfefb93523610259bffb83603d661</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>448240</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>77</u_churn_risk_score><u_customer_id>3</u_customer_id><u_customer_name>Customer-3</u_customer_name><u_last_interaction_date>2025-09-30</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-1688847476</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>9aacb6ff93523610259bffb83603d611</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e1f50000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>c32cfefb93523610259bffb83603d661</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>e38c7abfd2523610cafedd4e5b48511a</update_guid>
+<update_guid_history>e38c7abfd2523610cafedd4e5b48511a:-1688847476</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_banking_data_u_customer_id</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_customer_id" table="banking_data"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;customer_id&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_customer_id&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;banking_data&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:41:43&lt;/sys_created_on&gt;&lt;sys_id&gt;522cbefb93523610259bffb83603d616&lt;/sys_id&gt;&lt;sys_name&gt;customer_id&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_banking_data_u_customer_id&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:41:43&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2024875784</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>9aacb6ff93523610259bffb83603d616</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd181be0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.customer_id</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>257cfe7f78523610fdf294d709e40960</update_guid>
+<update_guid_history>257cfe7f78523610fdf294d709e40960:-2024875784,9e2cbefb46523610b1fde7601977e428:-2024875784</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_alectri_simulated_connectors_b33bb67793523610259bffb83603d69c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_alectri_simulated_connectors"><x_snc_alectri_zc_0_alectri_simulated_connectors action="INSERT_OR_UPDATE"><connection_id>3c893e3b2f127e1097dacf4fafa4e3bf</connection_id><connection_name>Alectri BigQuery Simulated</connection_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:38:16</sys_created_on><sys_id>b33bb67793523610259bffb83603d69c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:38:16</sys_updated_on></x_snc_alectri_zc_0_alectri_simulated_connectors></record_update>]]></payload>
+<payload_hash>-527256758</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>9aacb6ff93523610259bffb83603d632</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd0cf530000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>Alectri BigQuery Simulated</target_name>
+<type>Alectri Simulated Connectors</type>
+<update_domain>global</update_domain>
+<update_guid>2a4cbe3f36523610aa3a973064d386ff</update_guid>
+<update_guid_history>2a4cbe3f36523610aa3a973064d386ff:-527256758</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_c72cfefb93523610259bffb83603d670</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>c72cfefb93523610259bffb83603d670</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>141356</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>59</u_churn_risk_score><u_customer_id>12</u_customer_id><u_customer_name>Customer-12</u_customer_name><u_last_interaction_date>2025-10-09</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-432234504</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>9eacb6ff93523610259bffb83603d612</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e3600000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>c72cfefb93523610259bffb83603d670</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>b78c7abf0b523610459176ef7cdac1fd</update_guid>
+<update_guid_history>b78c7abf0b523610459176ef7cdac1fd:-432234504</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_7e2cfefb93523610259bffb83603d65d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>account_balance</column_label><column_name>account_balance</column_name><source_table display_value="Customer Data">7a2cfefb93523610259bffb83603d65b</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>7e2cfefb93523610259bffb83603d65d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>1571586374</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>9eacb6ff93523610259bffb83603d633</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd130bc0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>account_balance</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>2c6cb67f385236109969cf274971eeda</update_guid>
+<update_guid_history>2c6cb67f385236109969cf274971eeda:1571586374</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_0b2cfefb93523610259bffb83603d674</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>0b2cfefb93523610259bffb83603d674</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>410193</u_account_balance><u_account_type>Credit Card</u_account_type><u_churn_risk_score>25</u_churn_risk_score><u_customer_id>25</u_customer_id><u_customer_name>Customer-25</u_customer_name><u_last_interaction_date>2025-11-28</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>875465203</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>c2ac76ff93523610259bffb83603d675</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d7060000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>0b2cfefb93523610259bffb83603d674</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>4b8c3abfec5236108ffa3afd9621824f</update_guid>
+<update_guid_history>4b8c3abfec5236108ffa3afd9621824f:875465203</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_4f2cfefb93523610259bffb83603d674</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>4f2cfefb93523610259bffb83603d674</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>244963</u_account_balance><u_account_type>Credit Card</u_account_type><u_churn_risk_score>17</u_churn_risk_score><u_customer_id>26</u_customer_id><u_customer_name>Customer-26</u_customer_name><u_last_interaction_date>2025-11-13</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-1138766872</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>c2acb6ff93523610259bffb83603d60e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1db510000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>4f2cfefb93523610259bffb83603d674</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>db8c3abf6e523610440149d937d34a97</update_guid>
+<update_guid_history>db8c3abf6e523610440149d937d34a97:-1138766872</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_872cfefb93523610259bffb83603d671</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>872cfefb93523610259bffb83603d671</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>396145</u_account_balance><u_account_type>Loan</u_account_type><u_churn_risk_score>83</u_churn_risk_score><u_customer_id>15</u_customer_id><u_customer_name>Customer-15</u_customer_name><u_last_interaction_date>2025-10-10</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-2045583992</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>c6acb6ff93523610259bffb83603d60f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1dcb50000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>872cfefb93523610259bffb83603d671</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>578c3abf83523610179ea40fe1d054c0</update_guid>
+<update_guid_history>578c3abf83523610179ea40fe1d054c0:-2045583992</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_432cfefb93523610259bffb83603d671</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>432cfefb93523610259bffb83603d671</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>165105</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>2</u_churn_risk_score><u_customer_id>14</u_customer_id><u_customer_name>Customer-14</u_customer_name><u_last_interaction_date>2025-10-23</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>1459579888</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>caacb6ff93523610259bffb83603d60b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d85f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>432cfefb93523610259bffb83603d671</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>478c3abfb7523610bd95730ea160f75f</update_guid>
+<update_guid_history>478c3abfb7523610bd95730ea160f75f:1459579888</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_8f2cfefb93523610259bffb83603d660</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>8f2cfefb93523610259bffb83603d660</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>372734</u_account_balance><u_account_type>Credit Card</u_account_type><u_churn_risk_score>1</u_churn_risk_score><u_customer_id>2</u_customer_id><u_customer_name>Customer-2</u_customer_name><u_last_interaction_date>2026-01-03</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>772636342</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>caacb6ff93523610259bffb83603d610</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1de3b0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>8f2cfefb93523610259bffb83603d660</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>df8c3abf015236100b220a673b472ee8</update_guid>
+<update_guid_history>df8c3abf015236100b220a673b472ee8:772636342</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_072cfefb93523610259bffb83603d673</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>072cfefb93523610259bffb83603d673</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>330733</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>10</u_churn_risk_score><u_customer_id>21</u_customer_id><u_customer_name>Customer-21</u_customer_name><u_last_interaction_date>2025-12-08</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>-627437197</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>ceac76ff93523610259bffb83603d673</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d5a50000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>072cfefb93523610259bffb83603d673</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>fe8c3abf6c523610ead8e07562169126</update_guid>
+<update_guid_history>fe8c3abf6c523610ead8e07562169126:-627437197</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_4b2cfefb93523610259bffb83603d673</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>4b2cfefb93523610259bffb83603d673</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>262442</u_account_balance><u_account_type>Current</u_account_type><u_churn_risk_score>62</u_churn_risk_score><u_customer_id>22</u_customer_id><u_customer_name>Customer-22</u_customer_name><u_last_interaction_date>2025-09-28</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>1765387449</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>ceacb6ff93523610259bffb83603d60c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1d9f40000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>4b2cfefb93523610259bffb83603d673</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>cf8c3abfc05236104b7fc76d1751c687</update_guid>
+<update_guid_history>cf8c3abfc05236104b7fc76d1751c687:1765387449</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_c72cfefb93523610259bffb83603d675</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>c72cfefb93523610259bffb83603d675</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>468839</u_account_balance><u_account_type>Loan</u_account_type><u_churn_risk_score>5</u_churn_risk_score><u_customer_id>28</u_customer_id><u_customer_name>Customer-28</u_customer_name><u_last_interaction_date>2026-01-05</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>1586415859</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>d2acb6ff93523610259bffb83603d613</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e3bb0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>c72cfefb93523610259bffb83603d675</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>3f8cbabf36523610a5c11cd41197310d</update_guid>
+<update_guid_history>3f8cbabf36523610a5c11cd41197310d:1586415859</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_b22cfefb93523610259bffb83603d65e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>churn_risk_score</column_label><column_name>churn_risk_score</column_name><source_table display_value="Customer Data">7a2cfefb93523610259bffb83603d65b</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>b22cfefb93523610259bffb83603d65e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-528592112</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>d2acb6ff93523610259bffb83603d634</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd131380000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>churn_risk_score</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>e86cb67f335236108d28140b3fed16de</update_guid>
+<update_guid_history>e86cb67f335236108d28140b3fed16de:-528592112</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_cf2cfefb93523610259bffb83603d672</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>cf2cfefb93523610259bffb83603d672</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>43669</u_account_balance><u_account_type>Loan</u_account_type><u_churn_risk_score>90</u_churn_risk_score><u_customer_id>20</u_customer_id><u_customer_name>Customer-20</u_customer_name><u_last_interaction_date>2025-12-18</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>158774360</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>d6acb6ff93523610259bffb83603d614</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e5450000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>cf2cfefb93523610259bffb83603d672</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>3b8cbabfb9523610486b848add0c3b1d</update_guid>
+<update_guid_history>3b8cbabfb9523610486b848add0c3b1d:158774360</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_banking_data_u_account_balance</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_account_balance" table="banking_data"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;account_balance&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_account_balance&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;banking_data&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:41:44&lt;/sys_created_on&gt;&lt;sys_id&gt;662cbefb93523610259bffb83603d6d8&lt;/sys_id&gt;&lt;sys_name&gt;account_balance&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_banking_data_u_account_balance&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:41:44&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1772075540</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>daacb6ff93523610259bffb83603d615</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd182940000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.account_balance</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>ad7cfe7f2f523610f0547af4859bb89f</update_guid>
+<update_guid_history>ad7cfe7f2f523610f0547af4859bb89f:1772075540,722cfefba1523610f588dade61ce9403:1772075540</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_banking_data_u_customer_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_customer_name" label="customer_name" language="en" table="banking_data"><sys_documentation action="INSERT_OR_UPDATE"><element>u_customer_name</element><help/><hint/><label>customer_name</label><language>en</language><name>banking_data</name><plural>customer_names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:44</sys_created_on><sys_id>6e2cbefb93523610259bffb83603d640</sys_id><sys_mod_count>0</sys_mod_count><sys_name>customer_name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_banking_data_u_customer_name_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:44</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1362124337</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>daacb6ff93523610259bffb83603d631</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd184d10000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.customer_name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>fd7c32bf1452361079fecad7aae9d116</update_guid>
+<update_guid_history>fd7c32bf1452361079fecad7aae9d116:1362124337,6e2cbefbba5236104af466acea8b878d:1362124337</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>banking_data_c32cfefb93523610259bffb83603d674</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="banking_data"><banking_data action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:41:46</sys_created_on><sys_id>c32cfefb93523610259bffb83603d674</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:41:46</sys_updated_on><u_account_balance>21206</u_account_balance><u_account_type>Savings</u_account_type><u_churn_risk_score>40</u_churn_risk_score><u_customer_id>24</u_customer_id><u_customer_name>Customer-24</u_customer_name><u_last_interaction_date>2025-12-29</u_last_interaction_date></banking_data></record_update>]]></payload>
+<payload_hash>865422027</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>deacb6ff93523610259bffb83603d611</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1e2520000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>c32cfefb93523610259bffb83603d674</target_name>
+<type>Customer Data</type>
+<update_domain>global</update_domain>
+<update_guid>a38c7abfa6523610601cade729cd361e</update_guid>
+<update_guid_history>a38c7abfa6523610601cade729cd361e:865422027</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_banking_data_u_customer_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_customer_name" table="banking_data"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;customer_name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_customer_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;banking_data&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:41:43&lt;/sys_created_on&gt;&lt;sys_id&gt;1a2cbefb93523610259bffb83603d63a&lt;/sys_id&gt;&lt;sys_name&gt;customer_name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_banking_data_u_customer_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:41:43&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1171505624</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>deacb6ff93523610259bffb83603d616</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd1813f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table>banking_data</table>
+<target_name>Customer Data.customer_name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>657c7e7ffa52361009ae4499967aa2fc</update_guid>
+<update_guid_history>657c7e7ffa52361009ae4499967aa2fc:1171505624,6a2cbefb625236109f2f325762c0f38a:1171505624</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_databases_a56bb6b793523610259bffb83603d6a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_databases"><x_snc_alectri_zc_0_source_databases action="INSERT_OR_UPDATE"><alectri_simulated_connector display_value="Alectri BigQuery Simulated">b33bb67793523610259bffb83603d69c</alectri_simulated_connector><database_name>Banking Database</database_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:39:05</sys_created_on><sys_id>a56bb6b793523610259bffb83603d6a5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:39:05</sys_updated_on></x_snc_alectri_zc_0_source_databases></record_update>]]></payload>
+<payload_hash>-1263855041</payload_hash>
+<remote_update_set display_value="BigQuery Connector Simulated Data">4eac76ff93523610259bffb83603d672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:43:54</sys_created_on>
+<sys_id>deacb6ff93523610259bffb83603d632</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdd0e59a0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:43:54</sys_updated_on>
+<table/>
+<target_name>Banking Database</target_name>
+<type>Source Databases</type>
+<update_domain>global</update_domain>
+<update_guid>334cfe3f30523610b7b5dc8b7a7db567</update_guid>
+<update_guid_history>334cfe3f30523610b7b5dc8b7a7db567:-1263855041</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

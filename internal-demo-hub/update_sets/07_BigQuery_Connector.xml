@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-01-14 18:32:28">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>BigQuery Connector</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>dc39feb72f127e1097dacf4fafa4e338</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:32:27</sys_created_on>
+<sys_id>ae0afa7f2f127e1097dacf4fafa4e395</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:32:27</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_df_connection_data_c5893e3b2f127e1097dacf4fafa4e3c6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_df_connection_data"><sys_df_connection_data action="INSERT_OR_UPDATE"><connection display_value="alectribigquery">3c893e3b2f127e1097dacf4fafa4e3bf</connection><connection_attributes/><connection_status>CONNECTED</connection_status><error_message/><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:30:10</sys_created_on><sys_id>c5893e3b2f127e1097dacf4fafa4e3c6</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:30:10</sys_updated_on></sys_df_connection_data><sys_variable_value action="delete_multiple" query="document_key=c5893e3b2f127e1097dacf4fafa4e3c6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>c5893e3b2f127e1097dacf4fafa4e3c6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:30:10</sys_created_on><sys_id>0989b27b2f127e1097dacf4fafa4e3c5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:30:10</sys_updated_on><value>﷞﷟﷒807e9a772fd23e1097dacf4fafa4e39f﷬﷔1﷬﷭0_aYLE8pw1HBPssCKCXNhg==gejvXnZnDnZrTiobtN0FQExoNck_q2TwQNmAKHNJaZ4gRwJYxdGwKyJMSfX4Td_RiY_gK_L75I7heXtVseVz3u1BB_-0cUz1vJtalw1WujVViVsJzX7UiDzm9mDmnSMzGaAhiBcRBh2K-ypIZpkK7EPKPdaMyxFh3jaunZy_1ibiWM5Orrm0EjHlfpMNuosdlHaRl2ebPi9AOb0TMaXuOTFt5_zuYKGEyNdPMgIMFUuqCBcG0fBRq1bSCAVT_c7vhm-PDAwf8lwJ4_3LAooLm5Me4gHUkLiG-a_7G5HXERTH1L0eF2mKUJYa_y4lyhtarX_LAEiEFPF9IyDDPtqphDhuinxg_IYmExb3M5p8kD3LYAut2qMyV-iUq2RBUUcw1rlLHKPcVgEqKyGq3i823Oci4Wh2KBQgzLDiaYeDBpfkQOr6l2USzDvTg6-7-mCPPWLJECxMYuTjHh9Jn_6fR_cEf5otseazRnn2NZ2v1Ovq9ebtKxNN2_uVFL9wmyPAFMmE-ebvbl8KHFmjnKmY2UEiRCt30QqeZm1aRyJW7Xi5yRUVnbpEHJBINvuT4vu_IP8YpGE2gTNwaKRSml02yhZl3cRjaeE9Pe1XN57Im-KguEcII4QmFSvJFfbKxxxMNhmm8opBr02IBk5gYn_I6gDgz1KYLwAIbvzH_fmaQUwGi2SEmpGbtnJj2z6sc7TxsQBLLBvapk2M8q-24ruyODwwoNvXzho1DaZIL03GFPRdnmQdBlJih2CF-5WvrZtY65vov39MJGirUu4HfIoJyE2tE-kej-RoZdg_q6UvlBZdqGqx9OT4UVSkS3Gynr5Rkg9tLBJXm_gKBYQjTGDof9bUiTZ-POUkjjpWMFA_-SJGBSFejUXUhbxHiGpQ9yMNl1z9E-Mif1btmS7qlTWuIK_NPKz7ROI_stsifqoCRbPFvii48IMZFAZJ9Ublp-NoiB0VlPuYRcseUo8CyorQHxGP6ZgB3v0mjVbpnMRe-lAyTN_s83mfskir9qVFwOMUQW2A2sky9t2ntl3jDkZasgdtVLx76BBC4abraJJwxWABNJ8JA-7dzAB3W07z_QetVW7dg33riihUF-85ir1fD0a9CHtXPL1K20n6pqv_dtCa2enr2HWQD-7E2G_jUdDIO9ue04KHZy4n0ulngBknawrEQLr6I4ZVjbSHigUHoZ34madjx6S7xBZK67xGe6uGUyOiHihaCxztUOrt4a9VumIv_tegDUwbLjwxIIjF01D1_KWsUGXeDlpYJit1HCpMQwjMsscA31Ld8mj4LL5nA81p-3g8u1CNIrXhmIaCMzGgO2TmW9J6pRLfrmKgjSHyK8onZmWKWr9DSpca_FRkp2h9ArrbcU94uagsl-6hSZSox3s7s_Fgx8mLIwnnLh-1hwAgFoHZNFzn9_8wfhLLZjKme-oZVUeBoloXTF7vHYJ3ZjYACfnYCQszFsH54bCgfQy2DWUOA6utZ1MoH-w47qthi8k1a2Bs4Omdn3rn3pbWcl3Fk62gj_AdZTYqiQiuiLbQuc2Des4Ognf-cmyF7GBEFBpHQj-YuJObbibBPOYFWYEPfmfAIB1K76a2RHxnGg-_w0aAzfANWSKATWm1o7YBleWGTDVKk1qT6F62yv6OwfviJqc_y9cdhqsw3DwDESQzkaTcHTGfOEePnfhr--5jcWm0oqF6brVMed9igzqPjXMxRQ7JGZ8aGwTCwxlo3dZVRJiWJh3rT98nAjgFbaIPLYaOp1W9DeDjqL1XM7FGT3fUtX2njOExnhSqmy2ukP0N9_pnmvL6MjhmlBC6eAYFxeJopWO9OCFRZYyHJYVkYT5Noh_JV2OdTfcVKRvfGsu43gTx1k6R5cXe_6ZHYy5o5RiMEvTzetT1Ny5Iog5tw5N-UVJcLqZxsb6XDEHcDrpI-4rguCR9pY5gxiKrJLnSSKnr2EJl7NFrXcYSG55-r-IeL4xaz6LSNWO6oduwzOvZ7QNoIE9ViRaWwyIumw7ZfYeA8VAtIJPE7x7WgdHNWEZyluCsh3ZcS60GjjT43AHM2bN-7DcpATEVufCRU-gQ81AMyI5VDp2R_WpAIO8jHnXt7ABjvKTIYluvDqFwQ5U9GpNbQrZBG2e6CuXFpE1FCQnGgX9C-hXVinxlnmc1MvbjcfRIfJayD0at-4SwEcMrelHFuHzrztKP1GFWbhkU86RKGKJ345nuuu6b4ZZYHG4Lvt0ET60W1ChawzhwH5GJxnaUOAgzCPAoHK-caDvf_w4pIIrtvfIgj_oo_G0c4XPbzILZofNa9g7lvKyrLqSBWKTyb42tQgqtZ1gkpgSQMMJnbOe2rAWyvJyPDfb4CFxlAeyNu2XmOgCC9J9YTAKxy9NPbU2p77OlGMIxaF6OQdum0WFFBOtjXF8J2AlfowHCUatfTXk-JcdBVuONVQB-xbhIi_cNWp3Ojm4BH9V_MHQ-fl7Q4pU9VMJ7Z4Y9Ygd1T9Qh_gKfJZr5KvV2w1QDLg5ecwdbGjZrqr2SP5LOP4Ecwvf6ziLZpKP7gIB8HxXEgDogG7fuyRu5xnO4lv9gUTyzfeh2EsVI-EzGabPq6rYkvSYrpxe46R77-H2WJjl-ITMO-hOuIhPaxXG4Px-FBE-B0XpP58kazXnpYBz0aa8lHa1b9TmgA1W-OrBl8gZ9ina666acOR5lv0l5ogbX-w0rwfhRViy_BZ-Lwyz3cbr__TjHDV7qL1S4jAgL9LtYE2CUerZDUxQ-IZ0_ZZYv9k0OowqBLslHBSmuJareDIR54SOoCRl3d-4kiKQDB0atH3ZstmAeQfJ-SjW1VYRn7iWjCVueWujOTCiaFvSO9WR1JuUYZ21xZeEVrOnqCVAcpBix-PRVo8tyETqanpROotjLNSHaU5SKOF8k5jOVRC_FgFHIFZ0JeeNJhRdPtpyUMUqpWLcf7__MW9tjPevFLY-bIoda-ajhs4C052X2Yq3vVbl1nPDQsV6M45Zo3uCzFkusaWBfsG002gVOMKQAvrfRM0CLUY3yFR9amUvCLQ-5uceNHYGFjacvYvZIZkevt50DpscrfBwsjMQnS383_FTNlRXF7HcowFLIklcgXrLG1IUL-ACvp3plvPPrJDrAcrOoGKzleztMRAgMstFiw5NAMlHPEg==﷮﷯</value><variable display_value="snc.bigquery.oauth-private-key-file">01893e3b2f127e1097dacf4fafa4e3c8</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>296859847</payload_hash>
+<remote_update_set display_value="BigQuery Connector">ae0afa7f2f127e1097dacf4fafa4e395</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:32:27</sys_created_on>
+<sys_id>260afa7f2f127e1097dacf4fafa4e397</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdc74a500000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:32:27</sys_updated_on>
+<table/>
+<target_name>c5893e3b2f127e1097dacf4fafa4e3c6</target_name>
+<type>DataFabric Connection Data</type>
+<update_domain>global</update_domain>
+<update_guid>c2e9727f85127e10c5668d2fafde47cd</update_guid>
+<update_guid_history>c2e9727f85127e10c5668d2fafde47cd:296859847</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_df_connection_metadata_3c893e3b2f127e1097dacf4fafa4e3bf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_df_connection_metadata"><sys_df_connection_metadata action="INSERT_OR_UPDATE"><active>true</active><connection_label>AlectriBigQuery</connection_label><connection_name>alectribigquery</connection_name><connector display_value="snc_bigquery">8f97294d375352109f982bc4f3924bfb</connector><data_steward_roles/><order>100</order><selected_section_choices>[]</selected_section_choices><short_description/><sys_class_name>sys_df_connection_metadata</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:30:10</sys_created_on><sys_id>3c893e3b2f127e1097dacf4fafa4e3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>alectribigquery</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_df_connection_metadata_3c893e3b2f127e1097dacf4fafa4e3bf</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:30:10</sys_updated_on></sys_df_connection_metadata></record_update>]]></payload>
+<payload_hash>-937492030</payload_hash>
+<remote_update_set display_value="BigQuery Connector">ae0afa7f2f127e1097dacf4fafa4e395</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:32:27</sys_created_on>
+<sys_id>6a0afa7f2f127e1097dacf4fafa4e397</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdc5b8400000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:32:27</sys_updated_on>
+<table/>
+<target_name>alectribigquery</target_name>
+<type>DataFabric Connection Metadata</type>
+<update_domain>global</update_domain>
+<update_guid>01893e3b5f127e10c6131658891c78c4</update_guid>
+<update_guid_history>01893e3b5f127e10c6131658891c78c4:-937492030</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_01893e3b2f127e1097dacf4fafa4e3c8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.bigquery.oauth-private-key-file&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.bigquery.oauth-private-key-file&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;snc.bigquery.oauth-private-key-file&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;4096&lt;/max_length&gt;&lt;model display_value="alectribigquery"&gt;3c893e3b2f127e1097dacf4fafa4e3bf&lt;/model&gt;&lt;model_id&gt;3c893e3b2f127e1097dacf4fafa4e3bf&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_3c893e3b2f127e1097dacf4fafa4e3bf&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:30:10&lt;/sys_created_on&gt;&lt;sys_id&gt;01893e3b2f127e1097dacf4fafa4e3c8&lt;/sys_id&gt;&lt;sys_name&gt;snc.bigquery.oauth-private-key-file&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;24da31442fa932101bc5324fafa4e36a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_01893e3b2f127e1097dacf4fafa4e3c8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:30:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1362466252</payload_hash>
+<remote_update_set display_value="BigQuery Connector">ae0afa7f2f127e1097dacf4fafa4e395</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:32:27</sys_created_on>
+<sys_id>a60afa7f2f127e1097dacf4fafa4e396</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdc766850000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:32:27</sys_updated_on>
+<table/>
+<target_name>snc.bigquery.oauth-private-key-file</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>fbe9767fdc127e10ba56ba36e77c06a1</update_guid>
+<update_guid_history>fbe9767fdc127e10ba56ba36e77c06a1:-1362466252,2cc97afb8e127e109cb0a556340723a3:-1362466252</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_0989b27b2f127e1097dacf4fafa4e3c5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>c5893e3b2f127e1097dacf4fafa4e3c6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:30:10</sys_created_on><sys_id>0989b27b2f127e1097dacf4fafa4e3c5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:30:10</sys_updated_on><value>﷞﷟﷒807e9a772fd23e1097dacf4fafa4e39f﷬﷔1﷬﷭0_aYLE8pw1HBPssCKCXNhg==gejvXnZnDnZrTiobtN0FQExoNck_q2TwQNmAKHNJaZ4gRwJYxdGwKyJMSfX4Td_RiY_gK_L75I7heXtVseVz3u1BB_-0cUz1vJtalw1WujVViVsJzX7UiDzm9mDmnSMzGaAhiBcRBh2K-ypIZpkK7EPKPdaMyxFh3jaunZy_1ibiWM5Orrm0EjHlfpMNuosdlHaRl2ebPi9AOb0TMaXuOTFt5_zuYKGEyNdPMgIMFUuqCBcG0fBRq1bSCAVT_c7vhm-PDAwf8lwJ4_3LAooLm5Me4gHUkLiG-a_7G5HXERTH1L0eF2mKUJYa_y4lyhtarX_LAEiEFPF9IyDDPtqphDhuinxg_IYmExb3M5p8kD3LYAut2qMyV-iUq2RBUUcw1rlLHKPcVgEqKyGq3i823Oci4Wh2KBQgzLDiaYeDBpfkQOr6l2USzDvTg6-7-mCPPWLJECxMYuTjHh9Jn_6fR_cEf5otseazRnn2NZ2v1Ovq9ebtKxNN2_uVFL9wmyPAFMmE-ebvbl8KHFmjnKmY2UEiRCt30QqeZm1aRyJW7Xi5yRUVnbpEHJBINvuT4vu_IP8YpGE2gTNwaKRSml02yhZl3cRjaeE9Pe1XN57Im-KguEcII4QmFSvJFfbKxxxMNhmm8opBr02IBk5gYn_I6gDgz1KYLwAIbvzH_fmaQUwGi2SEmpGbtnJj2z6sc7TxsQBLLBvapk2M8q-24ruyODwwoNvXzho1DaZIL03GFPRdnmQdBlJih2CF-5WvrZtY65vov39MJGirUu4HfIoJyE2tE-kej-RoZdg_q6UvlBZdqGqx9OT4UVSkS3Gynr5Rkg9tLBJXm_gKBYQjTGDof9bUiTZ-POUkjjpWMFA_-SJGBSFejUXUhbxHiGpQ9yMNl1z9E-Mif1btmS7qlTWuIK_NPKz7ROI_stsifqoCRbPFvii48IMZFAZJ9Ublp-NoiB0VlPuYRcseUo8CyorQHxGP6ZgB3v0mjVbpnMRe-lAyTN_s83mfskir9qVFwOMUQW2A2sky9t2ntl3jDkZasgdtVLx76BBC4abraJJwxWABNJ8JA-7dzAB3W07z_QetVW7dg33riihUF-85ir1fD0a9CHtXPL1K20n6pqv_dtCa2enr2HWQD-7E2G_jUdDIO9ue04KHZy4n0ulngBknawrEQLr6I4ZVjbSHigUHoZ34madjx6S7xBZK67xGe6uGUyOiHihaCxztUOrt4a9VumIv_tegDUwbLjwxIIjF01D1_KWsUGXeDlpYJit1HCpMQwjMsscA31Ld8mj4LL5nA81p-3g8u1CNIrXhmIaCMzGgO2TmW9J6pRLfrmKgjSHyK8onZmWKWr9DSpca_FRkp2h9ArrbcU94uagsl-6hSZSox3s7s_Fgx8mLIwnnLh-1hwAgFoHZNFzn9_8wfhLLZjKme-oZVUeBoloXTF7vHYJ3ZjYACfnYCQszFsH54bCgfQy2DWUOA6utZ1MoH-w47qthi8k1a2Bs4Omdn3rn3pbWcl3Fk62gj_AdZTYqiQiuiLbQuc2Des4Ognf-cmyF7GBEFBpHQj-YuJObbibBPOYFWYEPfmfAIB1K76a2RHxnGg-_w0aAzfANWSKATWm1o7YBleWGTDVKk1qT6F62yv6OwfviJqc_y9cdhqsw3DwDESQzkaTcHTGfOEePnfhr--5jcWm0oqF6brVMed9igzqPjXMxRQ7JGZ8aGwTCwxlo3dZVRJiWJh3rT98nAjgFbaIPLYaOp1W9DeDjqL1XM7FGT3fUtX2njOExnhSqmy2ukP0N9_pnmvL6MjhmlBC6eAYFxeJopWO9OCFRZYyHJYVkYT5Noh_JV2OdTfcVKRvfGsu43gTx1k6R5cXe_6ZHYy5o5RiMEvTzetT1Ny5Iog5tw5N-UVJcLqZxsb6XDEHcDrpI-4rguCR9pY5gxiKrJLnSSKnr2EJl7NFrXcYSG55-r-IeL4xaz6LSNWO6oduwzOvZ7QNoIE9ViRaWwyIumw7ZfYeA8VAtIJPE7x7WgdHNWEZyluCsh3ZcS60GjjT43AHM2bN-7DcpATEVufCRU-gQ81AMyI5VDp2R_WpAIO8jHnXt7ABjvKTIYluvDqFwQ5U9GpNbQrZBG2e6CuXFpE1FCQnGgX9C-hXVinxlnmc1MvbjcfRIfJayD0at-4SwEcMrelHFuHzrztKP1GFWbhkU86RKGKJ345nuuu6b4ZZYHG4Lvt0ET60W1ChawzhwH5GJxnaUOAgzCPAoHK-caDvf_w4pIIrtvfIgj_oo_G0c4XPbzILZofNa9g7lvKyrLqSBWKTyb42tQgqtZ1gkpgSQMMJnbOe2rAWyvJyPDfb4CFxlAeyNu2XmOgCC9J9YTAKxy9NPbU2p77OlGMIxaF6OQdum0WFFBOtjXF8J2AlfowHCUatfTXk-JcdBVuONVQB-xbhIi_cNWp3Ojm4BH9V_MHQ-fl7Q4pU9VMJ7Z4Y9Ygd1T9Qh_gKfJZr5KvV2w1QDLg5ecwdbGjZrqr2SP5LOP4Ecwvf6ziLZpKP7gIB8HxXEgDogG7fuyRu5xnO4lv9gUTyzfeh2EsVI-EzGabPq6rYkvSYrpxe46R77-H2WJjl-ITMO-hOuIhPaxXG4Px-FBE-B0XpP58kazXnpYBz0aa8lHa1b9TmgA1W-OrBl8gZ9ina666acOR5lv0l5ogbX-w0rwfhRViy_BZ-Lwyz3cbr__TjHDV7qL1S4jAgL9LtYE2CUerZDUxQ-IZ0_ZZYv9k0OowqBLslHBSmuJareDIR54SOoCRl3d-4kiKQDB0atH3ZstmAeQfJ-SjW1VYRn7iWjCVueWujOTCiaFvSO9WR1JuUYZ21xZeEVrOnqCVAcpBix-PRVo8tyETqanpROotjLNSHaU5SKOF8k5jOVRC_FgFHIFZ0JeeNJhRdPtpyUMUqpWLcf7__MW9tjPevFLY-bIoda-ajhs4C052X2Yq3vVbl1nPDQsV6M45Zo3uCzFkusaWBfsG002gVOMKQAvrfRM0CLUY3yFR9amUvCLQ-5uceNHYGFjacvYvZIZkevt50DpscrfBwsjMQnS383_FTNlRXF7HcowFLIklcgXrLG1IUL-ACvp3plvPPrJDrAcrOoGKzleztMRAgMstFiw5NAMlHPEg==﷮﷯</value><variable display_value="snc.bigquery.oauth-private-key-file">01893e3b2f127e1097dacf4fafa4e3c8</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>459657788</payload_hash>
+<remote_update_set display_value="BigQuery Connector">ae0afa7f2f127e1097dacf4fafa4e395</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:32:27</sys_created_on>
+<sys_id>ae0afa7f2f127e1097dacf4fafa4e397</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdc6625a0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:32:27</sys_updated_on>
+<table/>
+<target_name>0989b27b2f127e1097dacf4fafa4e3c5</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>6ba9b2bb6f127e10153924db30911065</update_guid>
+<update_guid_history>6ba9b2bb6f127e10153924db30911065:459657788</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

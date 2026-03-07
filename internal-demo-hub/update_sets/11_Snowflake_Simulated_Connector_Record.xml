@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-02-10 05:46:26">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Snowflake Simulated Connector Record</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1e088f9ccf8b761076b9b7fe3d851cde</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>acad8794cf8f761076b9b7fe3d851cae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_43398fdccfcb761076b9b7fe3d851c12</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>43398fdccfcb761076b9b7fe3d851c12</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>true</value><variable display_value="snc.snowflake.table-statistics.enable">cf394fdccfcb761076b9b7fe3d851cfa</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>2000522962</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>20ad0b1ccf8f761076b9b7fe3d851c4f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460c21610000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>43398fdccfcb761076b9b7fe3d851c12</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>b71b07d0864f7610a9857fa7c1dede1e</update_guid>
+<update_guid_history>b71b07d0864f7610a9857fa7c1dede1e:2000522962</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cfd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.snowflake.private-key&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.snowflake.private-key&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;snc.snowflake.private-key&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;4096&lt;/max_length&gt;&lt;model display_value="snowflake_connection"&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model&gt;&lt;model_id&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cf5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-10 05:27:10&lt;/sys_created_on&gt;&lt;sys_id&gt;ba3903dccfcb761076b9b7fe3d851cfd&lt;/sys_id&gt;&lt;sys_name&gt;snc.snowflake.private-key&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;7fcf5185cfba3210cf1eb1450d851c5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cfd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 05:27:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-499667909</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>20ad8794cf8f761076b9b7fe3d851cb0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460b335e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>snc.snowflake.private-key</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>74ea0350dd4f7610b0e374c51b559b59</update_guid>
+<update_guid_history>74ea0350dd4f7610b0e374c51b559b59:-499667909</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_c7398fdccfcb761076b9b7fe3d851c11</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>c7398fdccfcb761076b9b7fe3d851c11</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>WDF_DEMO_L0_01_WH</value><variable display_value="snowflake.warehouse">4f394fdccfcb761076b9b7fe3d851caa</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1424747410</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>24ad0b1ccf8f761076b9b7fe3d851c50</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460c21cc0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>c7398fdccfcb761076b9b7fe3d851c11</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>bb1b07d0584f761040f67590e4bd2f60</update_guid>
+<update_guid_history>bb1b07d0584f761040f67590e4bd2f60:-1424747410</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_cf394fdccfcb761076b9b7fe3d851cfa</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.snowflake.table-statistics.enable&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.snowflake.table-statistics.enable&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snc.snowflake.table-statistics.enable&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="snowflake_connection"&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model&gt;&lt;model_id&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cf5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-10 05:27:11&lt;/sys_created_on&gt;&lt;sys_id&gt;cf394fdccfcb761076b9b7fe3d851cfa&lt;/sys_id&gt;&lt;sys_name&gt;snc.snowflake.table-statistics.enable&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;7fcf5185cfba3210cf1eb1450d851c5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_cf394fdccfcb761076b9b7fe3d851cfa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 05:27:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1968677849</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>24ad8794cf8f761076b9b7fe3d851cb1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460b32fa0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>snc.snowflake.table-statistics.enable</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>30ea03504c4f7610995b39598c31b655</update_guid>
+<update_guid_history>30ea03504c4f7610995b39598c31b655:-1968677849</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_0b398fdccfcb761076b9b7fe3d851c02</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>0b398fdccfcb761076b9b7fe3d851c02</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>﷞﷟﷒63c88718cfcb761076b9b7fe3d851ce1﷬﷔1﷬﷭wR36OUWXu_o5eV2i2qRsEQ==R47YDWBbk6A3u-yBDmu-Dc2l8XlOcjQf6q9PcDFtxQNcF2NgIZNZ_ht-2ydoienrojQnS-JIWEWYx7NFDo0PEz-2O2YoW_WpHPR_EaLkwfMpjYUbI_rApfdHDFaLGQPsYtAZpvhD9bAVNlFOiNhPpAi13QoSVom9zJRLUWSAWVgxsIuHhjGcEDRCA-zaa_ApXykpeVl4iVtOIZdOZDM7TbjFh1gqUAMR0pJVxh3JubvgpGhNn4IXyiR454v7y1C783JnbhRvRDPxSxk2jh1Wk7TudCjm2VsvLir4gFFbJb4c9_ky-Ve4Nz392jEbvl30lTp0l22Ooa_t0UY5SLssVg8V6iM2egYd3xz8shx-a7YEwjchZfkYAX0I1gnhOolbaOXT2OC4boH2c2GDnzQzAETIaKrNy2stwo2frJEbRXUxFVX3KsNPc2kJp1EFiPufObN4vUumSXWZoHJwBvDVUBybr037zlTjddB4o12PxlPB2FfqG0pGR5QIUoVAjxOlL4RS4hEHNG1eexomDV5rVLWD5JVikSLeCQhUAkRGR_Po6G2uq51rxR1CNCKkc15u4IvqNS_DyiZl1IEPseYQB0nMc82H7IABm0dy9svY9rSL4tcDjSmsKExwx_Hn0a6CaWOfF1crCxqVWpD2qiBE8rcAGTNa4MWIuPkuArNWYTFiIU74Fvv1fyD0XupZI3JpiZ-HtOTLF9OS7oKV6BYffk5zgospKoUO_eo2-dCJpIcPztqrwkGxO2Dz9lbIQKfWiS4BEKEnWtSECEfDl_CvHCqTy7mn6UEUZvPcBEszNLaySnzfCB_-CfT0Pk5yH7sYtsu4RfLMcnuEs_kcbyoJ5nsfCe6Z1DsA5cjqD8DPiOrsVNuKjFO3EpqgZmxy6tlcZGaBxpGRYkB8oma593tbwJCV8cs5CdTBdaYn2OBdfJyckn6JEcDVpxyYIw_WQKVmjif5czdHs-rqipCOErBPfkXjm9bROsih9Sr6iT0AFHW4ZRoCohDgj-SLcKl33NvWE8HAOYfikHlKw-uk2gOs5dztXyJ3hJ3qrN1ChCNYjdzKd9Vhrp9kYnsPeDKZDE3C_g4s24GN8mJjOpNQlFJ8isY16bocVDY81OzRKnu8N4ASRvB0pGnDXgHHMfIoLAO_VrTRKrstvkCJ8hooM-if6YUdP9106Ps6nY2qr6beytnwr9L6jIQq9H0FOz2bfZ6mD5ERVgCjEhYg-us_fsJMigacp1wsuqK1I4OklJUM5I0bt8_nDsZC6s3UArD7_eJaEWwe9upbIZIHaEmXoIJpTCUqPGkWr2Wvolyh4fF7-jSI8zC0JQmylmvY4e0pnT0nn8qRVPigLrcpLrRJPdcvSCE3i657DuU3EaFlpDUtRuYhw45oFGW3Gm4yHVEIbfvbCpIejyruL6g8B3cf9P3F077vSUBtmqRqSV4qNgt5zeHizz0s_kRpX8fYr6x7MHy9ta-fFHv3k7AIVnLPwCEsZwK_fm1TRQT_gL0p20qrv5Ali7GgLD8CA0jXBYcjHQ5BlpZE65HFwVVetDb5JxNjkC5DcrbLXu5G-RF8uo2xDjtxqGR4huIUV1sgXWpJM4XcaDsUV12g5gmHnD538lqILWAmLHrtgSy4d7pmeXzboWnDj8UQ9jLoZyAHGeawv0r9ljK3XzOLR78rChTZ9CK18mvBNH37wJbCuJaSsi_AbTwjXPOnzSaF-w951PCLwam0H_gzAjq54pmnlpC_apUDOROtwgw2vLpbcDgjHVnqaS6FiogbGYu_nBubMNuxKLyiEhSWyGL3StbPFQsLlwUid272ycGO_D7-1V6hdLJTva8bAV_NuxmDUHXaBet8_mRBN4nnyn9LSPwbfiW7CKQzjXbTrhT-hGs5gsQu5CEYLmhgpT3N4JsVDiPJgRAoJmuDzyOUUuea8TX0WKzDaA2uTiIGOMffJwyzaRGKFXsQVj_RBsLcCCbRFISB5fkc8ir4iQZSzLrJvdmXmvNqcRh1t1_-FIu5ey8viGqqoFAgzvW_ezDLA-04aqHW1u_zSw7P4pReu2PhGr-Gd8n2SZlN5ZB3FMBa-x788gM5Vw5hgTimpF4gZDye25JxqzNpd9gU0Xe7g1raDLPtAHYrTWfsG-9LVtCaH-7fEG5NLXYVz52kZ2JdlvZcwi5LRSdMjZK_FY9icCBvS_iQINDAFWRsDH7JYbasXLKP8pCJGNkwS_ekqDKc2nfklZ1Xflb0NkGwkfF-dQ07QxkQEDZdItXhHKOadhY5KU5hp0unDDhQ0O3ech26EyTy-NI9NmLZYo1xkNqAltRXOHtfJn8lJpqXVmo9Vm37OZiyF4VhQmPbgffV6r_oD_z_v3GmhrdbU_stADt7eQ3eFu9VWCXYTHyWJmIZFkWpFKIHb_UpTOZ8tLTD2stfirEhBsrCgweBKJyWOTMeEbO5_eESBUDC5QCJ0U_WJf43SjgdgDM=﷮﷯</value><variable display_value="snc.snowflake.private-key">ba3903dccfcb761076b9b7fe3d851cfd</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-615200780</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>2cad0b1ccf8f761076b9b7fe3d851c4d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460c22f50000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>0b398fdccfcb761076b9b7fe3d851c02</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>7b1b07d01f4f76100bb02dee63c6269e</update_guid>
+<update_guid_history>7b1b07d01f4f76100bb02dee63c6269e:-615200780</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_0f398fdccfcb761076b9b7fe3d851c03</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>0f398fdccfcb761076b9b7fe3d851c03</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>﷞﷟﷒63c88718cfcb761076b9b7fe3d851ce1﷬﷔1﷬﷭YsCM4vnAc438ZX5Vs1wb1A==yguNI-8_nYi-P2_zocvC0o59XpEOdLzc-GGE3Q==﷮﷯</value><variable display_value="snc.snowflake.private-key.passphrase">be394fdccfcb761076b9b7fe3d851c57</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-452842343</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>60ad0b1ccf8f761076b9b7fe3d851c4e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460c235a0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>0f398fdccfcb761076b9b7fe3d851c03</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>bb1b07d0a14f7610877b9cef581a5fa2</update_guid>
+<update_guid_history>bb1b07d0a14f7610877b9cef581a5fa2:-452842343</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_83398fdccfcb761076b9b7fe3d851c11</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>83398fdccfcb761076b9b7fe3d851c11</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>WDF_PLATFORM_DEMO_ROLE</value><variable display_value="snowflake.role">03394fdccfcb761076b9b7fe3d851c62</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>446363442</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>64ad0b1ccf8f761076b9b7fe3d851c4f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460c22900000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>83398fdccfcb761076b9b7fe3d851c11</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>3f1b07d0e24f761060c56c3e0b849368</update_guid>
+<update_guid_history>3f1b07d0e24f761060c56c3e0b849368:446363442</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_be394fdccfcb761076b9b7fe3d851c57</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.snowflake.private-key.passphrase&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.snowflake.private-key.passphrase&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;snc.snowflake.private-key.passphrase&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;528&lt;/max_length&gt;&lt;model display_value="snowflake_connection"&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model&gt;&lt;model_id&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cf5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-10 05:27:10&lt;/sys_created_on&gt;&lt;sys_id&gt;be394fdccfcb761076b9b7fe3d851c57&lt;/sys_id&gt;&lt;sys_name&gt;snc.snowflake.private-key.passphrase&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;7fcf5185cfba3210cf1eb1450d851c5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_be394fdccfcb761076b9b7fe3d851c57&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 05:27:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1082152369</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>64ad8794cf8f761076b9b7fe3d851cb0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460b33bf0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>snc.snowflake.private-key.passphrase</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>b8ea0350774f7610d96c7a6dc2e0c55d</update_guid>
+<update_guid_history>b8ea0350774f7610d96c7a6dc2e0c55d:-1082152369</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_fa394fdccfcb761076b9b7fe3d851c2d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;connection-user&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;connection-user&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;connection-user&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="snowflake_connection"&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model&gt;&lt;model_id&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cf5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-10 05:27:10&lt;/sys_created_on&gt;&lt;sys_id&gt;fa394fdccfcb761076b9b7fe3d851c2d&lt;/sys_id&gt;&lt;sys_name&gt;connection-user&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;7fcf5185cfba3210cf1eb1450d851c5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_fa394fdccfcb761076b9b7fe3d851c2d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 05:27:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>180441965</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>68ad8794cf8f761076b9b7fe3d851cb1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460b341f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>connection-user</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>49ea03500c4f76105bf21b57fc1eecac</update_guid>
+<update_guid_history>49ea03500c4f76105bf21b57fc1eecac:180441965</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_fe394fdccfcb761076b9b7fe3d851c28</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;connection-url&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;connection-url&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;connection-url&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="snowflake_connection"&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model&gt;&lt;model_id&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cf5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-10 05:27:10&lt;/sys_created_on&gt;&lt;sys_id&gt;fe394fdccfcb761076b9b7fe3d851c28&lt;/sys_id&gt;&lt;sys_name&gt;connection-url&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;7fcf5185cfba3210cf1eb1450d851c5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_fe394fdccfcb761076b9b7fe3d851c28&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 05:27:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1020145971</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>6cad0b1ccf8f761076b9b7fe3d851c4c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460b34800000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>connection-url</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>8dea03509a4f7610da836b7a1c3766b0</update_guid>
+<update_guid_history>8dea03509a4f7610da836b7a1c3766b0:1020145971</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_df_connection_data_7e3903dccfcb761076b9b7fe3d851cfb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_df_connection_data"><sys_df_connection_data action="INSERT_OR_UPDATE"><connection display_value="snowflake_connection">ba3903dccfcb761076b9b7fe3d851cf5</connection><connection_attributes/><connection_status>CONNECTED</connection_status><error_message/><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:10</sys_created_on><sys_id>7e3903dccfcb761076b9b7fe3d851cfb</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on></sys_df_connection_data><sys_variable_value action="delete_multiple" query="document_key=7e3903dccfcb761076b9b7fe3d851cfb"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>0b398fdccfcb761076b9b7fe3d851c02</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>﷞﷟﷒63c88718cfcb761076b9b7fe3d851ce1﷬﷔1﷬﷭wR36OUWXu_o5eV2i2qRsEQ==R47YDWBbk6A3u-yBDmu-Dc2l8XlOcjQf6q9PcDFtxQNcF2NgIZNZ_ht-2ydoienrojQnS-JIWEWYx7NFDo0PEz-2O2YoW_WpHPR_EaLkwfMpjYUbI_rApfdHDFaLGQPsYtAZpvhD9bAVNlFOiNhPpAi13QoSVom9zJRLUWSAWVgxsIuHhjGcEDRCA-zaa_ApXykpeVl4iVtOIZdOZDM7TbjFh1gqUAMR0pJVxh3JubvgpGhNn4IXyiR454v7y1C783JnbhRvRDPxSxk2jh1Wk7TudCjm2VsvLir4gFFbJb4c9_ky-Ve4Nz392jEbvl30lTp0l22Ooa_t0UY5SLssVg8V6iM2egYd3xz8shx-a7YEwjchZfkYAX0I1gnhOolbaOXT2OC4boH2c2GDnzQzAETIaKrNy2stwo2frJEbRXUxFVX3KsNPc2kJp1EFiPufObN4vUumSXWZoHJwBvDVUBybr037zlTjddB4o12PxlPB2FfqG0pGR5QIUoVAjxOlL4RS4hEHNG1eexomDV5rVLWD5JVikSLeCQhUAkRGR_Po6G2uq51rxR1CNCKkc15u4IvqNS_DyiZl1IEPseYQB0nMc82H7IABm0dy9svY9rSL4tcDjSmsKExwx_Hn0a6CaWOfF1crCxqVWpD2qiBE8rcAGTNa4MWIuPkuArNWYTFiIU74Fvv1fyD0XupZI3JpiZ-HtOTLF9OS7oKV6BYffk5zgospKoUO_eo2-dCJpIcPztqrwkGxO2Dz9lbIQKfWiS4BEKEnWtSECEfDl_CvHCqTy7mn6UEUZvPcBEszNLaySnzfCB_-CfT0Pk5yH7sYtsu4RfLMcnuEs_kcbyoJ5nsfCe6Z1DsA5cjqD8DPiOrsVNuKjFO3EpqgZmxy6tlcZGaBxpGRYkB8oma593tbwJCV8cs5CdTBdaYn2OBdfJyckn6JEcDVpxyYIw_WQKVmjif5czdHs-rqipCOErBPfkXjm9bROsih9Sr6iT0AFHW4ZRoCohDgj-SLcKl33NvWE8HAOYfikHlKw-uk2gOs5dztXyJ3hJ3qrN1ChCNYjdzKd9Vhrp9kYnsPeDKZDE3C_g4s24GN8mJjOpNQlFJ8isY16bocVDY81OzRKnu8N4ASRvB0pGnDXgHHMfIoLAO_VrTRKrstvkCJ8hooM-if6YUdP9106Ps6nY2qr6beytnwr9L6jIQq9H0FOz2bfZ6mD5ERVgCjEhYg-us_fsJMigacp1wsuqK1I4OklJUM5I0bt8_nDsZC6s3UArD7_eJaEWwe9upbIZIHaEmXoIJpTCUqPGkWr2Wvolyh4fF7-jSI8zC0JQmylmvY4e0pnT0nn8qRVPigLrcpLrRJPdcvSCE3i657DuU3EaFlpDUtRuYhw45oFGW3Gm4yHVEIbfvbCpIejyruL6g8B3cf9P3F077vSUBtmqRqSV4qNgt5zeHizz0s_kRpX8fYr6x7MHy9ta-fFHv3k7AIVnLPwCEsZwK_fm1TRQT_gL0p20qrv5Ali7GgLD8CA0jXBYcjHQ5BlpZE65HFwVVetDb5JxNjkC5DcrbLXu5G-RF8uo2xDjtxqGR4huIUV1sgXWpJM4XcaDsUV12g5gmHnD538lqILWAmLHrtgSy4d7pmeXzboWnDj8UQ9jLoZyAHGeawv0r9ljK3XzOLR78rChTZ9CK18mvBNH37wJbCuJaSsi_AbTwjXPOnzSaF-w951PCLwam0H_gzAjq54pmnlpC_apUDOROtwgw2vLpbcDgjHVnqaS6FiogbGYu_nBubMNuxKLyiEhSWyGL3StbPFQsLlwUid272ycGO_D7-1V6hdLJTva8bAV_NuxmDUHXaBet8_mRBN4nnyn9LSPwbfiW7CKQzjXbTrhT-hGs5gsQu5CEYLmhgpT3N4JsVDiPJgRAoJmuDzyOUUuea8TX0WKzDaA2uTiIGOMffJwyzaRGKFXsQVj_RBsLcCCbRFISB5fkc8ir4iQZSzLrJvdmXmvNqcRh1t1_-FIu5ey8viGqqoFAgzvW_ezDLA-04aqHW1u_zSw7P4pReu2PhGr-Gd8n2SZlN5ZB3FMBa-x788gM5Vw5hgTimpF4gZDye25JxqzNpd9gU0Xe7g1raDLPtAHYrTWfsG-9LVtCaH-7fEG5NLXYVz52kZ2JdlvZcwi5LRSdMjZK_FY9icCBvS_iQINDAFWRsDH7JYbasXLKP8pCJGNkwS_ekqDKc2nfklZ1Xflb0NkGwkfF-dQ07QxkQEDZdItXhHKOadhY5KU5hp0unDDhQ0O3ech26EyTy-NI9NmLZYo1xkNqAltRXOHtfJn8lJpqXVmo9Vm37OZiyF4VhQmPbgffV6r_oD_z_v3GmhrdbU_stADt7eQ3eFu9VWCXYTHyWJmIZFkWpFKIHb_UpTOZ8tLTD2stfirEhBsrCgweBKJyWOTMeEbO5_eESBUDC5QCJ0U_WJf43SjgdgDM=﷮﷯</value><variable display_value="snc.snowflake.private-key">ba3903dccfcb761076b9b7fe3d851cfd</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>0f398fdccfcb761076b9b7fe3d851c03</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>﷞﷟﷒63c88718cfcb761076b9b7fe3d851ce1﷬﷔1﷬﷭YsCM4vnAc438ZX5Vs1wb1A==yguNI-8_nYi-P2_zocvC0o59XpEOdLzc-GGE3Q==﷮﷯</value><variable display_value="snc.snowflake.private-key.passphrase">be394fdccfcb761076b9b7fe3d851c57</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>0f398fdccfcb761076b9b7fe3d851c11</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>WDF_DEMOHUB</value><variable display_value="snowflake.database">c7394fdccfcb761076b9b7fe3d851ca5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>43398fdccfcb761076b9b7fe3d851c04</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>SVC_SPD_SFEDP_DEMONOW_WDF</value><variable display_value="connection-user">fa394fdccfcb761076b9b7fe3d851c2d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>43398fdccfcb761076b9b7fe3d851c12</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>true</value><variable display_value="snc.snowflake.table-statistics.enable">cf394fdccfcb761076b9b7fe3d851cfa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>83398fdccfcb761076b9b7fe3d851c11</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>WDF_PLATFORM_DEMO_ROLE</value><variable display_value="snowflake.role">03394fdccfcb761076b9b7fe3d851c62</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>87398fdccfcb761076b9b7fe3d851c04</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>JWT</value><variable display_value="snc.snowflake.auth-type">be394fdccfcb761076b9b7fe3d851c5c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>c7398fdccfcb761076b9b7fe3d851c03</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>jdbc:snowflake://SERVICENOW-EDPSPD.snowflakecomputing.com</value><variable display_value="connection-url">fe394fdccfcb761076b9b7fe3d851c28</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>c7398fdccfcb761076b9b7fe3d851c11</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>WDF_DEMO_L0_01_WH</value><variable display_value="snowflake.warehouse">4f394fdccfcb761076b9b7fe3d851caa</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-853893462</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>a0ad0b1ccf8f761076b9b7fe3d851c4d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c4609fec00000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>7e3903dccfcb761076b9b7fe3d851cfb</target_name>
+<type>DataFabric Connection Data</type>
+<update_domain>global</update_domain>
+<update_guid>699a4b9c5d0f7610bed25ec79fa8121d</update_guid>
+<update_guid_history>699a4b9c5d0f7610bed25ec79fa8121d:-853893462</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_0f398fdccfcb761076b9b7fe3d851c11</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>0f398fdccfcb761076b9b7fe3d851c11</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>WDF_DEMOHUB</value><variable display_value="snowflake.database">c7394fdccfcb761076b9b7fe3d851ca5</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-581517586</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>a4ad0b1ccf8f761076b9b7fe3d851c4e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460c20710000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>0f398fdccfcb761076b9b7fe3d851c11</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>371b07d09a4f761058f90e56241f5b16</update_guid>
+<update_guid_history>371b07d09a4f761058f90e56241f5b16:-581517586</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_03394fdccfcb761076b9b7fe3d851c62</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snowflake.role&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snowflake.role&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snowflake.role&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="snowflake_connection"&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model&gt;&lt;model_id&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cf5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-10 05:27:11&lt;/sys_created_on&gt;&lt;sys_id&gt;03394fdccfcb761076b9b7fe3d851c62&lt;/sys_id&gt;&lt;sys_name&gt;snowflake.role&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;7fcf5185cfba3210cf1eb1450d851c5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_03394fdccfcb761076b9b7fe3d851c62&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 05:27:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-426513457</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>a4ad8794cf8f761076b9b7fe3d851caf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460b317f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>snowflake.role</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>f8eacb1499cb7610d82839538a2ee382</update_guid>
+<update_guid_history>f8eacb1499cb7610d82839538a2ee382:-426513457</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_87398fdccfcb761076b9b7fe3d851c04</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>87398fdccfcb761076b9b7fe3d851c04</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>JWT</value><variable display_value="snc.snowflake.auth-type">be394fdccfcb761076b9b7fe3d851c5c</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>1019780384</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>a8ad0b1ccf8f761076b9b7fe3d851c4f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460c20d70000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>87398fdccfcb761076b9b7fe3d851c04</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>771b07d0444f761005586ab09662031a</update_guid>
+<update_guid_history>771b07d0444f761005586ab09662031a:1019780384</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_be394fdccfcb761076b9b7fe3d851c5c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.snowflake.auth-type&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.snowflake.auth-type&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snc.snowflake.auth-type&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="snowflake_connection"&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model&gt;&lt;model_id&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cf5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-10 05:27:11&lt;/sys_created_on&gt;&lt;sys_id&gt;be394fdccfcb761076b9b7fe3d851c5c&lt;/sys_id&gt;&lt;sys_name&gt;snc.snowflake.auth-type&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;7fcf5185cfba3210cf1eb1450d851c5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_be394fdccfcb761076b9b7fe3d851c5c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 05:27:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-761241529</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>a8ad8794cf8f761076b9b7fe3d851cb0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460b323c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>snc.snowflake.auth-type</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>b4ea0350794f7610e16b24a666f8e14c</update_guid>
+<update_guid_history>b4ea0350794f7610e16b24a666f8e14c:-761241529</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_df_connection_metadata_ba3903dccfcb761076b9b7fe3d851cf5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_df_connection_metadata"><sys_df_connection_metadata action="INSERT_OR_UPDATE"><active>true</active><connection_label>Snowflake Connection</connection_label><connection_name>snowflake_connection</connection_name><connector display_value="snowflake">7334f4c9379f12109f982bc4f3924ba1</connector><data_steward_roles/><order>100</order><selected_section_choices>[]</selected_section_choices><short_description/><sys_class_name>sys_df_connection_metadata</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:10</sys_created_on><sys_id>ba3903dccfcb761076b9b7fe3d851cf5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>snowflake_connection</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_df_connection_metadata_ba3903dccfcb761076b9b7fe3d851cf5</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:10</sys_updated_on></sys_df_connection_metadata></record_update>]]></payload>
+<payload_hash>-131355860</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>e4ad0b1ccf8f761076b9b7fe3d851c4d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460491610000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>snowflake_connection</target_name>
+<type>DataFabric Connection Metadata</type>
+<update_domain>global</update_domain>
+<update_guid>fa3903dccccb7610ef9fb27e0eecbef9</update_guid>
+<update_guid_history>fa3903dccccb7610ef9fb27e0eecbef9:-131355860</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_43398fdccfcb761076b9b7fe3d851c04</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>43398fdccfcb761076b9b7fe3d851c04</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>SVC_SPD_SFEDP_DEMONOW_WDF</value><variable display_value="connection-user">fa394fdccfcb761076b9b7fe3d851c2d</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-818907833</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>e8ad0b1ccf8f761076b9b7fe3d851c4e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460c200e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>43398fdccfcb761076b9b7fe3d851c04</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>2b1b4b90544f76107c685dffacc4f655</update_guid>
+<update_guid_history>2b1b4b90544f76107c685dffacc4f655:-818907833</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_4f394fdccfcb761076b9b7fe3d851caa</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snowflake.warehouse&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snowflake.warehouse&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snowflake.warehouse&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="snowflake_connection"&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model&gt;&lt;model_id&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cf5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-10 05:27:11&lt;/sys_created_on&gt;&lt;sys_id&gt;4f394fdccfcb761076b9b7fe3d851caa&lt;/sys_id&gt;&lt;sys_name&gt;snowflake.warehouse&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;7fcf5185cfba3210cf1eb1450d851c5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_4f394fdccfcb761076b9b7fe3d851caa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 05:27:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-787252749</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>e8ad8794cf8f761076b9b7fe3d851caf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460b31df0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>snowflake.warehouse</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>70ea0350174f76103cce96b0328a8f48</update_guid>
+<update_guid_history>70ea0350174f76103cce96b0328a8f48:-787252749</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_c7398fdccfcb761076b9b7fe3d851c03</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>7e3903dccfcb761076b9b7fe3d851cfb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-02-10 05:27:11</sys_created_on><sys_id>c7398fdccfcb761076b9b7fe3d851c03</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-02-10 05:27:11</sys_updated_on><value>jdbc:snowflake://SERVICENOW-EDPSPD.snowflakecomputing.com</value><variable display_value="connection-url">fe394fdccfcb761076b9b7fe3d851c28</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>1418063416</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>ecad0b1ccf8f761076b9b7fe3d851c4f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460c22300000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>c7398fdccfcb761076b9b7fe3d851c03</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>fb1b07d09a4f76100f64dac6046f2d64</update_guid>
+<update_guid_history>fb1b07d09a4f76100f64dac6046f2d64:1418063416</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_c7394fdccfcb761076b9b7fe3d851ca5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snowflake.database&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snowflake.database&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snowflake.database&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="snowflake_connection"&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model&gt;&lt;model_id&gt;ba3903dccfcb761076b9b7fe3d851cf5&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_ba3903dccfcb761076b9b7fe3d851cf5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-10 05:27:11&lt;/sys_created_on&gt;&lt;sys_id&gt;c7394fdccfcb761076b9b7fe3d851ca5&lt;/sys_id&gt;&lt;sys_name&gt;snowflake.database&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;7fcf5185cfba3210cf1eb1450d851c5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_c7394fdccfcb761076b9b7fe3d851ca5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 05:27:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1571543973</payload_hash>
+<remote_update_set display_value="Snowflake Simulated Connector Record">acad8794cf8f761076b9b7fe3d851cae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-02-10 05:46:25</sys_created_on>
+<sys_id>ecad8794cf8f761076b9b7fe3d851cb0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c460b329c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-10 05:46:25</sys_updated_on>
+<table/>
+<target_name>snowflake.database</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>f8ea0350254f76108fe26dc1135c1050</update_guid>
+<update_guid_history>f8ea0350254f76108fe26dc1135c1050:1571543973</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

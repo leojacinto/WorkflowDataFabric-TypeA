@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-02-12 13:18:43">
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:18</sys_created_on>
+<sys_id>e6ee27a8154732107f449f4c6bfdb3ac</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:17:10</sys_updated_on>
+<u_actual_amount_usd>190200</u_actual_amount_usd>
+<u_baseline_amount_usd>190000</u_baseline_amount_usd>
+<u_cost_center display_value="BIZD-IT-01">82f741ea3b696ad06a65e624c3e45ac6</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V3</u_forecast_source>
+<u_gl_account>610000</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-200</u_variance>
+<u_variance_pct>-0.11</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>3aee27a8154732107f449f4c6bfdb3ad</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:17:32</sys_updated_on>
+<u_actual_amount_usd>220033</u_actual_amount_usd>
+<u_baseline_amount_usd>220000</u_baseline_amount_usd>
+<u_cost_center display_value="BIZD-JP-01">cef741ea3b696ad06a65e624c3e45ac8</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V3</u_forecast_source>
+<u_gl_account>610100</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-33</u_variance>
+<u_variance_pct>-0.02</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>beee27a8154732107f449f4c6bfdb3ad</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:17:45</sys_updated_on>
+<u_actual_amount_usd>350400</u_actual_amount_usd>
+<u_baseline_amount_usd>350000</u_baseline_amount_usd>
+<u_cost_center display_value="CC_FIN_002">82f741ea3b696ad06a65e624c3e45ac9</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>Manual</u_forecast_source>
+<u_gl_account>620500</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-400</u_variance>
+<u_variance_pct>-0.11</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>36ee27a8154732107f449f4c6bfdb3ae</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:17:53</sys_updated_on>
+<u_actual_amount_usd>400001</u_actual_amount_usd>
+<u_baseline_amount_usd>400000</u_baseline_amount_usd>
+<u_cost_center display_value="CC_IT_001">0af741ea3b696ad06a65e624c3e45ac9</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V2</u_forecast_source>
+<u_gl_account>620510</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-1</u_variance>
+<u_variance_pct>0</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>baee27a8154732107f449f4c6bfdb3ae</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:18:02</sys_updated_on>
+<u_actual_amount_usd>150550</u_actual_amount_usd>
+<u_baseline_amount_usd>150000</u_baseline_amount_usd>
+<u_cost_center display_value="CC_IT_002">caf741ea3b696ad06a65e624c3e45ac6</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>Budget FY25</u_forecast_source>
+<u_gl_account>630000</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-550</u_variance>
+<u_variance_pct>-0.37</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>32ee27a8154732107f449f4c6bfdb3af</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:18:14</sys_updated_on>
+<u_actual_amount_usd>151300</u_actual_amount_usd>
+<u_baseline_amount_usd>160000</u_baseline_amount_usd>
+<u_cost_center display_value="CLIN-BR-A">4af741ea3b696ad06a65e624c3e45ac5</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>Budget FY25</u_forecast_source>
+<u_gl_account>631200</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>8700</u_variance>
+<u_variance_pct>5.44</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>b6ee27a8154732107f449f4c6bfdb3af</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:18:22</sys_updated_on>
+<u_actual_amount_usd>500100</u_actual_amount_usd>
+<u_baseline_amount_usd>500000</u_baseline_amount_usd>
+<u_cost_center display_value="CLIN-BR-M">0ef741ea3b696ad06a65e624c3e45ac5</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V3</u_forecast_source>
+<u_gl_account>640200</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-100</u_variance>
+<u_variance_pct>-0.02</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>3eee27a8154732107f449f4c6bfdb3af</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:18:31</sys_updated_on>
+<u_actual_amount_usd>554167</u_actual_amount_usd>
+<u_baseline_amount_usd>550000</u_baseline_amount_usd>
+<u_cost_center display_value="CLIN-DE-01">4af741ea3b696ad06a65e624c3e45ac8</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V3</u_forecast_source>
+<u_gl_account>640300</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-4167</u_variance>
+<u_variance_pct>-0.76</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>f2ee27a8154732107f449f4c6bfdb3c2</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:22:42</sys_updated_on>
+<u_actual_amount_usd>1491000</u_actual_amount_usd>
+<u_baseline_amount_usd>1450000</u_baseline_amount_usd>
+<u_cost_center display_value="SCM-UK-PL">4ef741ea3b696ad06a65e624c3e45ac4</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V2</u_forecast_source>
+<u_gl_account>740200</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-41000</u_variance>
+<u_variance_pct>-2.83</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>b2ee27a8154732107f449f4c6bfdb3b0</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:19:20</sys_updated_on>
+<u_actual_amount_usd>441900</u_actual_amount_usd>
+<u_baseline_amount_usd>450000</u_baseline_amount_usd>
+<u_cost_center display_value="EHS-DE-SA">8ef741ea3b696ad06a65e624c3e45ac9</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>Budget FY25</u_forecast_source>
+<u_gl_account>640400</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>8100</u_variance>
+<u_variance_pct>1.8</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>3aee27a8154732107f449f4c6bfdb3b0</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:20:00</sys_updated_on>
+<u_actual_amount_usd>272900</u_actual_amount_usd>
+<u_baseline_amount_usd>275000</u_baseline_amount_usd>
+<u_cost_center display_value="HR-AU-TR">0af741ea3b696ad06a65e624c3e45ac6</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>Manual</u_forecast_source>
+<u_gl_account>650200</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>2100</u_variance>
+<u_variance_pct>0.76</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>beee27a8154732107f449f4c6bfdb3b0</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:20:09</sys_updated_on>
+<u_actual_amount_usd>874800</u_actual_amount_usd>
+<u_baseline_amount_usd>800000</u_baseline_amount_usd>
+<u_cost_center display_value="HR-IN-RC">46f741ea3b696ad06a65e624c3e45ac9</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V4</u_forecast_source>
+<u_gl_account>660500</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-74800</u_variance>
+<u_variance_pct>-9.35</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>36ee27a8154732107f449f4c6bfdb3b1</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:20:19</sys_updated_on>
+<u_actual_amount_usd>958400</u_actual_amount_usd>
+<u_baseline_amount_usd>900000</u_baseline_amount_usd>
+<u_cost_center display_value="LEGAL-NL-C">8ef741ea3b696ad06a65e624c3e45ac6</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V4</u_forecast_source>
+<u_gl_account>660510</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-58400</u_variance>
+<u_variance_pct>-6.49</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>72ee27a8154732107f449f4c6bfdb3be</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:20:32</sys_updated_on>
+<u_actual_amount_usd>611467</u_actual_amount_usd>
+<u_baseline_amount_usd>550000</u_baseline_amount_usd>
+<u_cost_center display_value="MKTG-FR-PR">06f741ea3b696ad06a65e624c3e45ac7</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V3</u_forecast_source>
+<u_gl_account>670100</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-61467</u_variance>
+<u_variance_pct>-11.18</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>f6ee27a8154732107f449f4c6bfdb3be</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:20:44</sys_updated_on>
+<u_actual_amount_usd>435233</u_actual_amount_usd>
+<u_baseline_amount_usd>400000</u_baseline_amount_usd>
+<u_cost_center display_value="MKTG-US-DM">42f741ea3b696ad06a65e624c3e45aca</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V3</u_forecast_source>
+<u_gl_account>670200</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-35233</u_variance>
+<u_variance_pct>-8.81</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>7eee27a8154732107f449f4c6bfdb3be</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:20:52</sys_updated_on>
+<u_actual_amount_usd>313900</u_actual_amount_usd>
+<u_baseline_amount_usd>320000</u_baseline_amount_usd>
+<u_cost_center display_value="PROD-DE-1">42f741ea3b696ad06a65e624c3e45ac4</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>Budget FY25</u_forecast_source>
+<u_gl_account>670300</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>6100</u_variance>
+<u_variance_pct>1.91</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>f2ee27a8154732107f449f4c6bfdb3bf</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:20:59</sys_updated_on>
+<u_actual_amount_usd>105000</u_actual_amount_usd>
+<u_baseline_amount_usd>120000</u_baseline_amount_usd>
+<u_cost_center display_value="PROD-DE-2">06f741ea3b696ad06a65e624c3e45ac4</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>Budget FY25</u_forecast_source>
+<u_gl_account>680000</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>15000</u_variance>
+<u_variance_pct>12.5</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>7aee27a8154732107f449f4c6bfdb3bf</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:21:41</sys_updated_on>
+<u_actual_amount_usd>763000</u_actual_amount_usd>
+<u_baseline_amount_usd>700000</u_baseline_amount_usd>
+<u_cost_center display_value="PROD-ES-01">8af741ea3b696ad06a65e624c3e45aca</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V2</u_forecast_source>
+<u_gl_account>690100</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-63000</u_variance>
+<u_variance_pct>-9</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>feee27a8154732107f449f4c6bfdb3bf</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:21:53</sys_updated_on>
+<u_actual_amount_usd>827000</u_actual_amount_usd>
+<u_baseline_amount_usd>760000</u_baseline_amount_usd>
+<u_cost_center display_value="PROD-IT-01">4ef741ea3b696ad06a65e624c3e45ac7</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V2</u_forecast_source>
+<u_gl_account>690200</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-67000</u_variance>
+<u_variance_pct>-8.82</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>76ee27a8154732107f449f4c6bfdb3c0</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:22:09</sys_updated_on>
+<u_actual_amount_usd>724000</u_actual_amount_usd>
+<u_baseline_amount_usd>720000</u_baseline_amount_usd>
+<u_cost_center display_value="PVG-EU-01">cef741ea3b696ad06a65e624c3e45ac5</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V3</u_forecast_source>
+<u_gl_account>700100</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-4000</u_variance>
+<u_variance_pct>-0.56</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>faee27a8154732107f449f4c6bfdb3c0</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:22:20</sys_updated_on>
+<u_actual_amount_usd>648000</u_actual_amount_usd>
+<u_baseline_amount_usd>648000</u_baseline_amount_usd>
+<u_cost_center display_value="QC-CH-01">02f741ea3b696ad06a65e624c3e45ac8</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>Budget FY25</u_forecast_source>
+<u_gl_account>710100</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>0</u_variance>
+<u_variance_pct>0</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>7eee27a8154732107f449f4c6bfdb3c1</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:22:51</sys_updated_on>
+<u_actual_amount_usd>1100000</u_actual_amount_usd>
+<u_baseline_amount_usd>1100000</u_baseline_amount_usd>
+<u_cost_center display_value="SCM-UK-WH">02f741ea3b696ad06a65e624c3e45ac5</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>ML Model V3</u_forecast_source>
+<u_gl_account>730300</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>0</u_variance>
+<u_variance_pct>0</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>72ee27a8154732107f449f4c6bfdb3c1</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:22:59</sys_updated_on>
+<u_actual_amount_usd>901200</u_actual_amount_usd>
+<u_baseline_amount_usd>900000</u_baseline_amount_usd>
+<u_cost_center display_value="REG-US-01">86f741ea3b696ad06a65e624c3e45ac8</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>Budget FY25</u_forecast_source>
+<u_gl_account>750100</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-1200</u_variance>
+<u_variance_pct>-0.13</u_variance_pct>
+</u_cc_summary>
+<u_cc_summary action="INSERT_OR_UPDATE">
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-11 02:50:19</sys_created_on>
+<sys_id>f6ee27a8154732107f449f4c6bfdb3c1</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-12 00:23:06</sys_updated_on>
+<u_actual_amount_usd>970000</u_actual_amount_usd>
+<u_baseline_amount_usd>960000</u_baseline_amount_usd>
+<u_cost_center display_value="SALES-US-IN">06f741ea3b696ad06a65e624c3e45aca</u_cost_center>
+<u_fiscal_year>2025</u_fiscal_year>
+<u_forecast_source>Budget FY25</u_forecast_source>
+<u_gl_account>750200</u_gl_account>
+<u_last_updated>2025-12-26</u_last_updated>
+<u_period>2025-FY</u_period>
+<u_variance>-10000</u_variance>
+<u_variance_pct>-1.04</u_variance_pct>
+</u_cc_summary>
+</unload>

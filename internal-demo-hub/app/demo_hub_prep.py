@@ -404,11 +404,18 @@ def process_xml_unload(client, xml_file, target_table):
 # ===========================================================================
 # Discover XML files and unload mapping
 # ===========================================================================
+def _numeric_sort_key(filepath):
+    """Extract leading number from filename for numeric sorting."""
+    basename = os.path.basename(filepath)
+    m = re.match(r'(\d+)', basename)
+    return int(m.group(1)) if m else 999
+
+
 def discover_update_sets():
     """Return sorted list of XML files in update_sets/ directory."""
     if not os.path.isdir(UPDATE_SET_DIR):
         return []
-    files = sorted(glob.glob(os.path.join(UPDATE_SET_DIR, "*.xml")))
+    files = sorted(glob.glob(os.path.join(UPDATE_SET_DIR, "*.xml")), key=_numeric_sort_key)
     return files
 
 
@@ -421,7 +428,7 @@ def discover_xml_unloads():
     """
     if not os.path.isdir(XML_UNLOAD_DIR):
         return []
-    files = sorted(glob.glob(os.path.join(XML_UNLOAD_DIR, "*.xml")))
+    files = sorted(glob.glob(os.path.join(XML_UNLOAD_DIR, "*.xml")), key=_numeric_sort_key)
     tasks = []
     for f in files:
         basename = os.path.splitext(os.path.basename(f))[0]
@@ -431,6 +438,8 @@ def discover_xml_unloads():
             table = parts[1]
         else:
             table = basename
+        # Clean up dirty names: remove " (1)", " (2)" etc. and trailing spaces
+        table = re.sub(r'\s*\(\d+\)', '', table).strip()
         tasks.append({'file': f, 'table': table})
     return tasks
 
@@ -700,7 +709,7 @@ HTML_TEMPLATE = r"""
 </head>
 <body>
 <h1>Demo Hub WDF Lab — Instance Prep</h1>
-<p class="subtitle">Import update sets and data into your ServiceNow Demo Hub instance</p>
+<p class="subtitle">Import update sets and data into your ServiceNow Demo Hub instance if you are working on the <a href="https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom" target="_blank" style="color:var(--accent);text-decoration:underline;">WDF Lab</a>. Do not use for any other purpose.</p>
 <div class="security-note">
   <strong>🔒 Your credentials are safe.</strong> Your password is used in-memory only to connect
   to your ServiceNow instance. It is <strong>never stored</strong> to disk, logged, or transmitted
@@ -954,8 +963,26 @@ def api_stream(job_id):
 # ===========================================================================
 # Entry point
 # ===========================================================================
+def find_free_port(start=8080, end=8099):
+    """Find the first available port in range."""
+    import socket
+    for port in range(start, end + 1):
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.bind(('127.0.0.1', port))
+                return port
+        except OSError:
+            continue
+    return None
+
+
 def main():
-    port = 5000
+    port = find_free_port()
+    if port is None:
+        print("  ERROR: No available port found in range 8080-8099.")
+        print("  Close other applications and try again.")
+        sys.exit(1)
+
     print(f"\n  Demo Hub WDF Lab Instance Prep")
     print(f"  Opening browser at http://localhost:{port}")
     print(f"  Press Ctrl+C to stop.\n")
@@ -963,7 +990,7 @@ def main():
     # Open browser after a short delay
     threading.Timer(1.5, lambda: webbrowser.open(f'http://localhost:{port}')).start()
 
-    app.run(host='127.0.0.1', port=port, debug=False, threaded=True)
+    app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
 
 
 if __name__ == '__main__':

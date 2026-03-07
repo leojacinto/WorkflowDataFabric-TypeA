@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-01-14 18:15:10">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Oracle Connector</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>07d432fb2f9e3e1097dacf4fafa4e3f4</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>8516b6b32fde3e1097dacf4fafa4e397</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_da45367f2f9e3e1097dacf4fafa4e348</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.oracle.table-statistics.enable&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.oracle.table-statistics.enable&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snc.oracle.table-statistics.enable&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="alectrioracle"&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model&gt;&lt;model_id&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:11:41&lt;/sys_created_on&gt;&lt;sys_id&gt;da45367f2f9e3e1097dacf4fafa4e348&lt;/sys_id&gt;&lt;sys_name&gt;snc.oracle.table-statistics.enable&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;24da31442fa932101bc5324fafa4e36a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_da45367f2f9e3e1097dacf4fafa4e348&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:11:41&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1746928845</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>0116b6b32fde3e1097dacf4fafa4e39a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb675780000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>snc.oracle.table-statistics.enable</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>f8b5b233f9de3e10b6b04c9be5eb2593</update_guid>
+<update_guid_history>f8b5b233f9de3e10b6b04c9be5eb2593:-1746928845</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_df_connection_metadata_1a45fe3f2f9e3e1097dacf4fafa4e3c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_df_connection_metadata"><sys_df_connection_metadata action="INSERT_OR_UPDATE"><active>true</active><connection_label>AlectriOracle</connection_label><connection_name>alectrioracle</connection_name><connector display_value="oracle">3640e4dc7b80221052d1f56d933f9ef7</connector><data_steward_roles/><order>100</order><selected_section_choices>[{"choice_element_id":"c55a54537b946210dd0cfb5bf23f9e6a","selected_section_id":"7fba90d37b946210dd0cfb5bf23f9e76"}]</selected_section_choices><short_description/><sys_class_name>sys_df_connection_metadata</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:41</sys_created_on><sys_id>1a45fe3f2f9e3e1097dacf4fafa4e3c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>alectrioracle</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_df_connection_metadata_1a45fe3f2f9e3e1097dacf4fafa4e3c0</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:41</sys_updated_on></sys_df_connection_metadata></record_update>]]></payload>
+<payload_hash>-1039499619</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>0516b6b32fde3e1097dacf4fafa4e39b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb4ce570000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>alectrioracle</target_name>
+<type>DataFabric Connection Metadata</type>
+<update_domain>global</update_domain>
+<update_guid>9e45367f6b9e3e108a98797ec309223c</update_guid>
+<update_guid_history>9e45367f6b9e3e108a98797ec309223c:-1039499619</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_6e45367f2f9e3e1097dacf4fafa4e3a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>6e45367f2f9e3e1097dacf4fafa4e3a2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>﷞﷟﷒807e9a772fd23e1097dacf4fafa4e39f﷬﷔1﷬﷭RRN61lCQBPUyoaop_b_12Q==U-L-4rVVUv5RxzedwsbVZyRC8ZCRwb0RdX32XA==﷮﷯</value><variable display_value="snc.oracle.wallet-pem-password">a245367f2f9e3e1097dacf4fafa4e369</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-2115263612</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>0916b6b32fde3e1097dacf4fafa4e39c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb5de550000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>6e45367f2f9e3e1097dacf4fafa4e3a2</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>138532ff919e3e10204ee087ded03ad3</update_guid>
+<update_guid_history>138532ff919e3e10204ee087ded03ad3:-2115263612</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_9645367f2f9e3e1097dacf4fafa4e340</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.oracle.auth-type&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.oracle.auth-type&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snc.oracle.auth-type&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="alectrioracle"&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model&gt;&lt;model_id&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:11:41&lt;/sys_created_on&gt;&lt;sys_id&gt;9645367f2f9e3e1097dacf4fafa4e340&lt;/sys_id&gt;&lt;sys_name&gt;snc.oracle.auth-type&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;24da31442fa932101bc5324fafa4e36a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_9645367f2f9e3e1097dacf4fafa4e340&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:11:41&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1203467507</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>0d16b6b32fde3e1097dacf4fafa4e398</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb66dcd0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>snc.oracle.auth-type</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>10b5b23388de3e108fa6b16e3583b18a</update_guid>
+<update_guid_history>10b5b23388de3e108fa6b16e3583b18a:1203467507</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_e645367f2f9e3e1097dacf4fafa4e3a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>e645367f2f9e3e1097dacf4fafa4e3a3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>admin</value><variable display_value="snc.oracle.database-user">ae45367f2f9e3e1097dacf4fafa4e373</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>1759917400</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>0d16b6b32fde3e1097dacf4fafa4e39d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb5dfc30000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>e645367f2f9e3e1097dacf4fafa4e3a3</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>178532ff3c9e3e1084b4abce1f3c78e3</update_guid>
+<update_guid_history>178532ff3c9e3e1084b4abce1f3c78e3:1759917400</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_a245367f2f9e3e1097dacf4fafa4e369</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.oracle.wallet-pem-password&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.oracle.wallet-pem-password&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;snc.oracle.wallet-pem-password&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;528&lt;/max_length&gt;&lt;model display_value="alectrioracle"&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model&gt;&lt;model_id&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:11:42&lt;/sys_created_on&gt;&lt;sys_id&gt;a245367f2f9e3e1097dacf4fafa4e369&lt;/sys_id&gt;&lt;sys_name&gt;snc.oracle.wallet-pem-password&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;24da31442fa932101bc5324fafa4e36a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_a245367f2f9e3e1097dacf4fafa4e369&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:11:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-231056531</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>4116b6b32fde3e1097dacf4fafa4e399</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb68a930000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>snc.oracle.wallet-pem-password</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>4ab5363382de3e10ffedb88c62f71db0</update_guid>
+<update_guid_history>4ab5363382de3e10ffedb88c62f71db0:-231056531</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_e645367f2f9e3e1097dacf4fafa4e36e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.oracle.wallet-pem-content&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.oracle.wallet-pem-content&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;snc.oracle.wallet-pem-content&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8120&lt;/max_length&gt;&lt;model display_value="alectrioracle"&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model&gt;&lt;model_id&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:11:42&lt;/sys_created_on&gt;&lt;sys_id&gt;e645367f2f9e3e1097dacf4fafa4e36e&lt;/sys_id&gt;&lt;sys_name&gt;snc.oracle.wallet-pem-content&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;24da31442fa932101bc5324fafa4e36a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_e645367f2f9e3e1097dacf4fafa4e36e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:11:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1461732731</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>4516b6b32fde3e1097dacf4fafa4e39a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb68bff0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>snc.oracle.wallet-pem-content</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>dab576338dde3e10e5ebcf6d2c660852</update_guid>
+<update_guid_history>dab576338dde3e10e5ebcf6d2c660852:-1461732731</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_2a45367f2f9e3e1097dacf4fafa4e3a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>2a45367f2f9e3e1097dacf4fafa4e3a2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>PEM</value><variable display_value="snc.oracle.keystore-type">ee45367f2f9e3e1097dacf4fafa4e363</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>2119499924</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>4916b6b32fde3e1097dacf4fafa4e39b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb5dd1e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>2a45367f2f9e3e1097dacf4fafa4e3a2</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>df8532ff009e3e103ebc4c2ada4ad994</update_guid>
+<update_guid_history>df8532ff009e3e103ebc4c2ada4ad994:2119499924</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_a245367f2f9e3e1097dacf4fafa4e3a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>a245367f2f9e3e1097dacf4fafa4e3a3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>﷞﷟﷒807e9a772fd23e1097dacf4fafa4e39f﷬﷔1﷬﷭-lblNRmxRE1DFNVJWfc2Lg==cCG0g6dxiEk_8HrHesZlAuuBt5K4U1A8g2B5rJvlGQi54jIvVM9-GfZ-feqkj0kMPEGB7JZrMvUil6ynNm8yXP-WZSncJEuKlBdMfJZIIv8VYb0xBSGLRkqd33PmFfBNqNSP8fbnI8cJV3-XCezbQ00txy4TLaUiZ_6vb3JtpdCd42liACczlS9CNhLzwx4-sBiUHDuXYNWyLIWqKyABM4Ho6endHDYf3Q7Kylj0WOusXf5R1qdnBlPyXVRaz0ELhlCNujsx8j5WX5mkGXKJkHc5p2G3tN4VznULajEKKCXrmJtC7eLiJUAoSRideCZb1nj2OBALL70bLLrntea0ZyKUK5jhx56zWyMaQbFZQiAZl9zMmpz0fewe56kOGTJNPKOKffkViqW26FvHHE161Y8VWMyZ7CbU0LUuGV_Q6y70nB5ZFgqY3F0ghQHMb4oTWghMf46HEOLAzE76qJ4jQXyZ7oTm9WVMLu6F9Wik8MdNj39xNRRPB_z7zw9GTG6S14hJZISwWNO1vAER2Iviw1y6WCVdkS7V737hFfc_d69zCJYn7najCfNKXJ5HGQ9SBq14B_iMkh4d87vVasSgRkrEhigvqU9eRcmJQMVewNDIyMX-x-AyVF6fYZJDyTww34gd8T0X0au4_N9MB21hBHs4olqNBDgFkoKprkcOznk5EUjrXXYpipNFJWg0pKxOU-IzgvS95_6J66psIkUW29dH7HTDJ_R-3UqNuY7QLHes1hhvO3qO3C-l15CsF39ofmkKc3MLqBXKWa_L-5MiPE_kXlFmqxcLN9WB7BtKWAEk4PgxE2GL6Fx3q9Hxiogq1j7xtaq9P6OXZIZKgZQ-sQmek4Vca7fuNa5qaCCaZb0PL1IzMA_Cv-VzcQVGkC3gMPaoOTZ2joNHP2tRni3f_O0tb59u9zT91QMK_VgzJJYRO-PLBE8WqVdiqE_FTnCXAfQWWhUi5QtbgQrcV5-mdNwxaKVie5Qymi-A8i1BgzjW-yYEjChmrBC82DIEgvhMrzUtrVNkAyvV0nzR8QeNvogkDcY0wjx8zZEzlusTwoz6KOYGhG7lQuBD3fLJtm8idoZ5FFAAOHt8iu2-2ph7WBZ7I00PMbtUiT-9hF-j4o4ZIDTyDg1C9oncHePxKVqyQjc3qx2OFJ9C2HyJvUzHvahw-gB7MZ21KD7jpca5MNU121FGoSxh-ZkRcO_dM1fLrMtUK_uYwOatffUQQp0IBHgNS_82WXt9eF9s98fVwjg0Y0m1n0Yo1BIiHtmkIgwB-4TAroQDI3ccBNkxbxBlMdoDHyuc60RCI1fjtjNodLXZFpgmNFiL9Jbny5HI-Gi9FYZBageki4kncC07j-cWTNnrpbZnz4aO5v2GIl5ujnCawmDX7XQqn_f2Xc5WU26HqZkzXnKS39kw1mzAXdmDKSdBMf5eJAzOmtUofXZn_x5sxZSVlDDjwaTzzS-U4jwr-wZO7SwOSMvCdUGzR_7UGVrhsQ-FWCzltBIwPiQoZik2h66fW1-X36Dsq4Bce6gkx53E3EVj_HluNqVUBCHKHt6wxO9j7AbMAfY_TNuxrZjfYgGHk2ixPPYQlKXOD8yw7WiYQNCqM8fSzlvQDWJAQnbzK2Z5KtqKBwQ-wzik0oAh_Sr7AUpwGwxbhldeeGid2WG5bJpkrJp3WyF62egoXNb9NVTUZ-hY4-kvwbr4FTWKdKT0UWiIjA4zIVDKC0fq-GKNnJxts9X4rs1w-LbUFm9Sdyue65-14G9X4rWoZQoUxxnqdc9CfOsMQCfOrDMknYo-wpRLY9rcZ1wKRYyLwnw3d4KDPzj0J4XuWJAwFOcsUO1VgjJdyxKXUFrFDYEPhZLGuWf0H0R5Dbn4lbjevV8eSEd8mtveo99mQWyToIWBw3-dAFh-uQZyPr3Qi1xxRCG0eYd9H2VmPxOQ13bdZvicN0AFevUaOA4n54BKASk2liJVtUlo_9hSfUDM2l_qnqDeubGQgfDNDMG3fRHGk_omdUSTaovjDdLHSpxweZcXoa14gDJdi6Ug1z3XQvIgv5S3be1a7rHQSiydU9TQ-az6UXjmZX2g9tPH1lpLxwDh_FeOdnbpsv21TSvWhNJLMrIcCA4xJwjGzilAjD4j4ID0dAzfmeQvW78i_k-QdATszCmv2Jv3TAcXbygjTZFCDJiSrxrJmjz3nQar2vFqRJ8zvtJz7ovGvgvluA9jIhbImKkwLCFfe5zw-LnicDhxEYUM5qwbFktxmOzMi3yVFZdZzuHq0xv1j38X97pXCnDYmFx3olI3y3zFB0_Rt53za8Cfep2hzRW-JGt80uMsrfxCzC6wjWjW3h-T4rW7YKB1OQKVya4Ayskvowxe-33epMLoYMZqE8KNFEnzNZtHN39ltabWMqK_f1R8hjbCivbKmqdwyUUxRV25eWW85uJo3gfyOdHGmedp1Spf91Z9Tg8EglXRLgqSv4CsOr0g8C55loNtowOd_LU1xk5Fm8e88luEO1v-UlZwkyPJJC7KsRGgGlkdJkBK9UWjkEPnuWS4CgAH2AOcFK0YhyXJVh9okRPq-fskKG3DUSWoxCO6m6VduO3l_WkkBEDGR054-WiKMngdkh2zlKJYvvoqKToHfNCWp-oAbyGB-0gQTvjcOId43Dmc5K_v1ll4vDSkjp1HhuIFC5sCI7o5WT_WH_qLs7Pqq5T3gkLyOyQIt-P5sycYnq4ZmlMURuXP1dV6Xp2k0p7BIls2HP23NI6x9QXeC3ILDtwYlDSRiKkTgs74WSqqbyCU7aVnQ8YeqCvFhx1oNx0fPefmsGk462gizrulO3bnfO7gk7l0jXCgCD90ewR3FJM-ClnDSuLTnHNmI6ZpGH8laeTSEjTs1Hmg1_DhfaCCPP0kZv_G2nXwA27zXA67ZacWXhVWuqBg5cxNQ30MFB7JcdvXSewgPrK0ULhDCmlp7YWuO-7G9Bpdf-cdSSfSF5-UzOuMal57p2JR44oFX_HevkU9I0tzIZuZQrjWLZB_J1trVxa7pYRawcbqQaU1cG3O6kOXI0OHQzT0HSMCbROpfbFpM2MOcJBFKDjst60jRm1fFat-Ta-XRqnGMqDEntCEeL7_BQRbYHpk2otT-VPVhriL5lh21P0_x115dR4fWV7v3ncCBOHN_oJe5tOwqGO6gqkAux6jUWvCrTpfE0wrwUn8CtKQke_AFfHcgI7B7eg2OerfcCNHdFMdlTegyuvJgGy2Cx9Q4dNULNvDFKwOn2q68jz-Hs3hhTQJxmsQYaHCUX5upAfVV79U2j2R_MwNPRhnV1BzZmgpB52c00L_Wi0irHiA2k3kN91A7Afm3tRRMGwE0KThWDGHXrdaSl4z4rlw4NoPpkX6cdAeFjgptOazfaligFOpjtsJIyhfkNgjQm26SF-ZtU4NgNfcE2m34qiS5Fuijv0POkSaP0KBcYuJvIdWCI61nYLEgDQ5178OIOq4DZMLip26iNxMMz2-mlel9DTf57esSQKQ7qbJTUD8CU9a-IP-q1EufznDn8KyefW9GB72oRRQUj50uK-Gyrqo_kafqb_RrRhmDnpmyspPfuo9iFzGBq4CIaEedEEXSjjD2J3tSNukPeAaE6kebooX8ljqT8CtURd-LgK5jXS59o3UXVAAtUlt5cji8ri_0ZfH5c18o-ek3LCU4ayl0flSRIkLm4jh74HvfW8IKKwpsTHA0stuEfUocytXSjwdkSIXzHoZ0rUFv2Bo-3Xjbtghl2n4m94KA-f6S4J16u40h9uTCoXrD0LjaNZwBPAifJEC7IjQy9v_53WKYxwkOOQ5CxnTm7akfVE-IvKVjInPg_w08WxAI2ez7SL10FNSFziXIwkbgr1fmNTjTddRGil25Fr85fP9RecG6hOzdiAFm6QfRY159GZuFQ3pjjbRzQe37cc-4cpfB7U1ycF8HRlyUvGTHYiJFXaeIJpAlapGAN4CHGO6Pq-khIfLAyeiAcMN0F6aFDsI-b2JNCMprEcI94dXQkrCyAOEspYiWUP3ekMTW9xNzufgTqXJXZuCT4AvVo7qfagy3rcVcoLq8y2NS0VraaxvzLPr_Q2pNFFpkCnEnNNSJfTUMDApgOLRSMIDhWbAZR48ZU4il9B95cqwndRWSlBT25b2SUsYSilKiEPoSqWe1L-Pn4AI5OyCgbzmLtZODXk_40DRpsRF0TQ13HKMfBFNMzjJcxMteDu1QBQNWCwV6hZ56_TACOQW3XmfGOXt1XLKu-OUOt_J03HJcUmeJADIHJ0UjNM8j-YrM7cH3Ym4s8flz27gZ6TUuVqDSTwfApZCbw6pjD2bNT3Md-6Wo5xzOU3XNQmB7nE6CwepqJxCiVRCw_a5qfnuaSy-ki7LdfyhtoXTIEeOvhEGqg3ygFqme6EWRbzwHRj5eCo2NIXPgdEIciYNa8UudgOZKtZxZGx-n6IM76JIxCP1BnqUCIQ0zl5lDp-C15arvFzhi_ubP5-CYx3Gk2LhUNS-JWlmtlzJOYuBxIhzl7_hsTSTURIp1fzCaDcx67zpry1VTavbUiVKaxqNo3Mo2P20xvwEoLnBN5-ohA7hSmDSXvxeOYaSbbT7ZKuTRZtkgCZKfj2SQYh9_dxbbvOvjCx0nf-AoeBgmyPBhpk0ZLnMYZsL7Ntur7DIIpqR1U-OsmHTEICAbdS27HG0GMC8Ja9Js3_YtbGY9ax6kyX4NH66wYI_kf6lKoULt_YV4tVNPNh--I1fpOt9qO9e0OGlRRTTsuDraGCSuSpdNVRcr7giy92DSna4ZoS0Hqn1OqKKBlK4vnsJWRQKfRqvADmrMWbr6a4c6-yNS0D9277kpsZQ9lODSf-a_yLRu2wra52uFdfPRnIzTktResMNd6x3FYmHoCaosD43J0CmxQFtsv-aDbW-obF9RDlY9_-yNUh3iuOC5jXQDcNLdZAcmBQLgNlqpN-Ae5LI3IzloEmxVet_jTXqEyJj5sMsnXX364Fz5WQYPpFzdBy-9qAnmjpu1mXDZ6XOb4TeBq7X-otROBQaCKyCTL8xCRDyFma3sGwPAewmbn3w_Z20mJq6Hiu5z7m7l8GBFPbY4Qph_L3nWR-9MVGEcKUxXFctWmcW2kRxZwLOBh4HXVhex6LB2s4riadrq2cZqPCfUffEOOZ9DPA9PvuZsq7b6G7LGzrGvzPR0Iq5Fv75oa-MNElQXrUm-wITVVBYKiM1VVijjZx_yEopo0ZjG-Tsy6-rDVH0rE_lLX7kKfgUYspnabTyALaU-SnciZfe-ktiddfJFuoOlqLDdRYQw-VOfabsmacHt4jBOBidFos4m810dgIlM40U6zJ9fn5EwpvZQqXh9Y2FqnWUbtnPFymU8fLrk_DCivmnGywqkY1wZlZf3CqrsBW3JM9Hkd1NJ3xu3rBKkURfF9fFP8e-E1dtqoLhVjYSSeoWZUSPt2oWusjsgnHxe95prF-V0W1zZq-xhTCbpEwkmcTyuivAwNKm7N3hXxQrlBDMX2h3d4bYFCg7l4jHWq0odKfOITxKwic19t8ovWnXhz4yAMYzsSaNBhc_tPBclNuUNa5mCARFtzINNlQ3Ve_DJqJ9EH9VieNIEPOnvgqhjhY6pv19fyMtG2F96w8cC4aFCxqcOJenj_PAsW6QW4C5nMnjo7i046nJiUw6QekulBPNMo1t0mA3MiDUYyKEs0extwLo_2fggo5xdDzzqLIWbp1cPCq11lDTw6KOGwy6YQQ9MrKrQjdOM4UX7hgqKWuhnprZb8S8ciYGSApr9VD71rrBYgVXK5JvfoPc3NJePqVBgfumQUA-xJySu1ATpBzq7TafXd4fjOmIkm4sa2viU0OtucBeU7-t7q3SiDX8B5AAlJlP61oqX014D3ap3VXiZviNe8VccNLulst5ACnLwvRHsW5evmw6Yyuuan8jEBftfh1bg-Q6Xk4MYzd830C_h_msQ84wgc2wHJsERy459bKNZlWDZ56zFiYkKmMLuK7SnYkIug0y8MP_fytGzKRxWANXkrozpvMdtUXT53CAXFBBT4QEIO2xd5NKBtIjuNUQwAmuS5yo1EmAMUjd1YBpJihSMXK-p0SfsmF7_-JIb3z5qoN3Ii0LksfohlYo1DZoeudDcwTFuCsCtuJo37MjqF3fmGD5z0ym83qWTQtIfGZkDPb7m_NWNVdMFTJRy8Sfs83aPGBu2K0jjUAPzwhuyIESxidOFlmHeGn1O9uPgOb6Jpa_uirrY25P_JBiNJ7yrFqJm0DF1tUXtixssA543OAsKe2NB1NRCWpYwatr4jREGDe74sGgKAwrMxHVTUo9uf9w_HrVy-xONy1xo_rZMj3SVyCTefEOL_JUbRZF4A8Jek0jDg-MbJ8ERL_5lrYe6DsRKR0y5mRnFIHygOqC88X7hVw1TWEHQIzbbDcfc9TqcUSz7tvbkQxsR8CMMf7gXUn-v-PbpBII9YCsaJbd3Bw9Tj7Hihx2wYPCHLR3GTl0hIMXZAvfKnVYshSqSR_n-FJRzAZJce4SZypbvKUi-xFxik3zDLixQ57cNhC7yaxtZ-p_Wf1v7BsDNqeAoiej5unXfNA1qetPAcuCBdpkfOJE8BvTjegl6SR7bNDTBNyujInGCkFSFvIIf4X2ZXewyVkhYKMWXzsroJAAkPQ9la7mf6fqUVzoghIE26rC9bSS_lDTDsE0phGe5zluyopyIM4m3Gk85iHP-_JDE2_GnOAVzohLoEC_I2Zdb9MBwLlP9VEv30P8Iay9kFr66YuHM04gbX92Qwuh6QZicPRml8-EjIoi1-HbxJLBi-gwfJS8fKOLkFp6sTbjwQcH83MzmtcIJaZxHBR4tXz0E0Qdz-Tyo4QWbcxl98ov5uB_Thc1rzg4giuJXOsYekc1F7BOnK4NRFJ7Z8PWmIFfhkfhZm77_R4iXPl5Oc1KiEu8c7Crm5zIHktvPcw2E-4bm-kM_dOp8fbLrABf2bIahcKj3hNi0oAk5ekeQhzM7qkXjEITOhHG9Udpv_IBBgdga2ZOThbZIVRq9hLuE84wtiO5VPzccFQyTMtXT55LGyGiGkaBrcH1fdWElIqVyqNgI17pMN50fJsEs8p6AOMdNJj1kK97wy87yeHRZJ0BEScqVhBPpJl-Re0WK71yjdAv33b2NiXkMdjpVuPXvKF_9mPi7hcfDeJAc6e1l409bOPpEW1NdP6snxUn9ZSLzrJHjseo_UqTLvcG7TT10pPFPO2EUs_X-wZ11mYDn8a6pwbAKlB9q8_uVB9OgUQR3sZhJba0-vIi4bCWIw3TTD744w9OXj32uAwj9rQ3Az4V9vOFfy6eJQxkJrKvgx51iF77cWstoMgmYgiswibOQ7zOlGpz42qXfV4aVLUweRNLV_6BczCEc9ONToOdg98ab4j3RzWs-qxdVBiQ2iVJ2N7KibPUYaLHt7uaN9rMQ6MIrVlB9bo511W3jTeeSqBp1oWmEx4eiBar8Rkf_huUKDIGUvCRQXtR4UehVMzPc_1tXKdACOMoxCveep_cfeOOFC9TM9IOqfjw1K54qxJIwOeTm7silVUSPz1BwhHrzbhpOdp3Hvrm-kCcSXfsBpKyVXwx4EkJujhwuedw6wazEOz2i83xEYuhaS6j24wZotLwb79_xdqyjYqTZkM=﷮﷯</value><variable display_value="snc.oracle.wallet-pem-content">e645367f2f9e3e1097dacf4fafa4e36e</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>2133835176</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>4d16b6b32fde3e1097dacf4fafa4e39c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb5deb50000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>a245367f2f9e3e1097dacf4fafa4e3a3</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>538532ff969e3e100fb4cdee3f4783d7</update_guid>
+<update_guid_history>538532ff969e3e100fb4cdee3f4783d7:2133835176</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_ae45367f2f9e3e1097dacf4fafa4e3a1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>ae45367f2f9e3e1097dacf4fafa4e3a1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>jdbc:oracle:thin:@(DESCRIPTION=(retry_count=20)(retry_delay=3)(ADDRESS=(PROTOCOL=tcps)(PORT=1522)(HOST=adb.us-phoenix-1.oraclecloud.com))(CONNECT_DATA=(SERVICE_NAME=bk8uwrvkgqzvi2h_servicenow_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))</value><variable display_value="connection-url">1a45367f2f9e3e1097dacf4fafa4e34d</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1874958218</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>8116b6b32fde3e1097dacf4fafa4e39d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb5df140000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>ae45367f2f9e3e1097dacf4fafa4e3a1</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>938532ffb89e3e10361aaecdf6d8bbdb</update_guid>
+<update_guid_history>938532ffb89e3e10361aaecdf6d8bbdb:-1874958218</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_ae45367f2f9e3e1097dacf4fafa4e373</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.oracle.database-user&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.oracle.database-user&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snc.oracle.database-user&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="alectrioracle"&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model&gt;&lt;model_id&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:11:42&lt;/sys_created_on&gt;&lt;sys_id&gt;ae45367f2f9e3e1097dacf4fafa4e373&lt;/sys_id&gt;&lt;sys_name&gt;snc.oracle.database-user&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;24da31442fa932101bc5324fafa4e36a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_ae45367f2f9e3e1097dacf4fafa4e373&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:11:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1386195187</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>8516b6b32fde3e1097dacf4fafa4e399</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb6b14d0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>snc.oracle.database-user</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>a8c53a3307de3e10a35a46e8b4dc0d97</update_guid>
+<update_guid_history>a8c53a3307de3e10a35a46e8b4dc0d97:1386195187</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_ee45367f2f9e3e1097dacf4fafa4e363</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.oracle.keystore-type&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.oracle.keystore-type&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;snc.oracle.keystore-type&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="alectrioracle"&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model&gt;&lt;model_id&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:11:42&lt;/sys_created_on&gt;&lt;sys_id&gt;ee45367f2f9e3e1097dacf4fafa4e363&lt;/sys_id&gt;&lt;sys_name&gt;snc.oracle.keystore-type&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;24da31442fa932101bc5324fafa4e36a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_ee45367f2f9e3e1097dacf4fafa4e363&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:11:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1175797491</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>8916b6b32fde3e1097dacf4fafa4e39a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb664d90000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>snc.oracle.keystore-type</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>73a5723391de3e1002046f1bab66ad38</update_guid>
+<update_guid_history>73a5723391de3e1002046f1bab66ad38:1175797491</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_1a45367f2f9e3e1097dacf4fafa4e34d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;connection-url&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;connection-url&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;connection-url&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="alectrioracle"&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model&gt;&lt;model_id&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:11:42&lt;/sys_created_on&gt;&lt;sys_id&gt;1a45367f2f9e3e1097dacf4fafa4e34d&lt;/sys_id&gt;&lt;sys_name&gt;connection-url&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;24da31442fa932101bc5324fafa4e36a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_1a45367f2f9e3e1097dacf4fafa4e34d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:11:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1867898637</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>8d16b6b32fde3e1097dacf4fafa4e397</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb6a0a80000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>connection-url</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>23b5f63327de3e107ce429bc0b65a056</update_guid>
+<update_guid_history>23b5f63327de3e107ce429bc0b65a056:-1867898637</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_6a45367f2f9e3e1097dacf4fafa4e3a0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>6a45367f2f9e3e1097dacf4fafa4e3a0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>MTLS</value><variable display_value="snc.oracle.auth-type">9645367f2f9e3e1097dacf4fafa4e340</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-837481594</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>8d16b6b32fde3e1097dacf4fafa4e39b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb5dd960000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>6a45367f2f9e3e1097dacf4fafa4e3a0</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>938532ff5f9e3e10854af9d586ea1899</update_guid>
+<update_guid_history>938532ff5f9e3e10854af9d586ea1899:-837481594</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_6a45367f2f9e3e1097dacf4fafa4e3a1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>6a45367f2f9e3e1097dacf4fafa4e3a1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>true</value><variable display_value="snc.oracle.table-statistics.enable">da45367f2f9e3e1097dacf4fafa4e348</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>2064036222</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>c116b6b32fde3e1097dacf4fafa4e39c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb5ddfc0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>6a45367f2f9e3e1097dacf4fafa4e3a1</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>df8532ff6a9e3e101f9662a68f5437ce</update_guid>
+<update_guid_history>df8532ff6a9e3e101f9662a68f5437ce:2064036222</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_variable_value_e245367f2f9e3e1097dacf4fafa4e3a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value"><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>e245367f2f9e3e1097dacf4fafa4e3a2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>﷞﷟﷒807e9a772fd23e1097dacf4fafa4e39f﷬﷔1﷬﷭rEFGnQpLfj_HIF42KRLL7Q==us7p8c0iS6hj5DulA1tcaT0uJAGSp8ZjinbWPQ==﷮﷯</value><variable display_value="snc.oracle.database-password">d645367f2f9e3e1097dacf4fafa4e352</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>375128147</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>c516b6b32fde3e1097dacf4fafa4e39d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb5df6e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>e245367f2f9e3e1097dacf4fafa4e3a2</target_name>
+<type>Value</type>
+<update_domain>global</update_domain>
+<update_guid>d38532fffb9e3e102a867df4e47445df</update_guid>
+<update_guid_history>d38532fffb9e3e102a867df4e47445df:375128147</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_df_connection_attributes_d645367f2f9e3e1097dacf4fafa4e352</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_df_connection_attributes"&gt;&lt;sn_df_connection_attributes action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;snc.oracle.database-password&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;snc.oracle.database-password&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;snc.oracle.database-password&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;528&lt;/max_length&gt;&lt;model display_value="alectrioracle"&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model&gt;&lt;model_id&gt;1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sn_df_connection_attributes_1a45fe3f2f9e3e1097dacf4fafa4e3c0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sn_df_connection_attributes&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 18:11:42&lt;/sys_created_on&gt;&lt;sys_id&gt;d645367f2f9e3e1097dacf4fafa4e352&lt;/sys_id&gt;&lt;sys_name&gt;snc.oracle.database-password&lt;/sys_name&gt;&lt;sys_package display_value="Glide Data Fabric" source="com.glide.datafabric"&gt;24da31442fa932101bc5324fafa4e36a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_df_connection_attributes_d645367f2f9e3e1097dacf4fafa4e352&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 18:11:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sn_df_connection_attributes&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2097340397</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>c916b6b32fde3e1097dacf4fafa4e399</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb6a13e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>snc.oracle.database-password</target_name>
+<type>Data Fabric Connection Attributes</type>
+<update_domain>global</update_domain>
+<update_guid>a7b5f633aede3e10618fa0a773e0216b</update_guid>
+<update_guid_history>a7b5f633aede3e10618fa0a773e0216b:2097340397</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_df_connection_data_5e45367f2f9e3e1097dacf4fafa4e33e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_df_connection_data"><sys_df_connection_data action="INSERT_OR_UPDATE"><connection display_value="alectrioracle">1a45fe3f2f9e3e1097dacf4fafa4e3c0</connection><connection_attributes/><connection_status>CONNECTED</connection_status><error_message/><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:41</sys_created_on><sys_id>5e45367f2f9e3e1097dacf4fafa4e33e</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on></sys_df_connection_data><sys_variable_value action="delete_multiple" query="document_key=5e45367f2f9e3e1097dacf4fafa4e33e"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>2a45367f2f9e3e1097dacf4fafa4e3a2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>PEM</value><variable display_value="snc.oracle.keystore-type">ee45367f2f9e3e1097dacf4fafa4e363</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>6a45367f2f9e3e1097dacf4fafa4e3a0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>MTLS</value><variable display_value="snc.oracle.auth-type">9645367f2f9e3e1097dacf4fafa4e340</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>6a45367f2f9e3e1097dacf4fafa4e3a1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>true</value><variable display_value="snc.oracle.table-statistics.enable">da45367f2f9e3e1097dacf4fafa4e348</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>6e45367f2f9e3e1097dacf4fafa4e3a2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>﷞﷟﷒807e9a772fd23e1097dacf4fafa4e39f﷬﷔1﷬﷭RRN61lCQBPUyoaop_b_12Q==U-L-4rVVUv5RxzedwsbVZyRC8ZCRwb0RdX32XA==﷮﷯</value><variable display_value="snc.oracle.wallet-pem-password">a245367f2f9e3e1097dacf4fafa4e369</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>a245367f2f9e3e1097dacf4fafa4e3a3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>﷞﷟﷒807e9a772fd23e1097dacf4fafa4e39f﷬﷔1﷬﷭-lblNRmxRE1DFNVJWfc2Lg==cCG0g6dxiEk_8HrHesZlAuuBt5K4U1A8g2B5rJvlGQi54jIvVM9-GfZ-feqkj0kMPEGB7JZrMvUil6ynNm8yXP-WZSncJEuKlBdMfJZIIv8VYb0xBSGLRkqd33PmFfBNqNSP8fbnI8cJV3-XCezbQ00txy4TLaUiZ_6vb3JtpdCd42liACczlS9CNhLzwx4-sBiUHDuXYNWyLIWqKyABM4Ho6endHDYf3Q7Kylj0WOusXf5R1qdnBlPyXVRaz0ELhlCNujsx8j5WX5mkGXKJkHc5p2G3tN4VznULajEKKCXrmJtC7eLiJUAoSRideCZb1nj2OBALL70bLLrntea0ZyKUK5jhx56zWyMaQbFZQiAZl9zMmpz0fewe56kOGTJNPKOKffkViqW26FvHHE161Y8VWMyZ7CbU0LUuGV_Q6y70nB5ZFgqY3F0ghQHMb4oTWghMf46HEOLAzE76qJ4jQXyZ7oTm9WVMLu6F9Wik8MdNj39xNRRPB_z7zw9GTG6S14hJZISwWNO1vAER2Iviw1y6WCVdkS7V737hFfc_d69zCJYn7najCfNKXJ5HGQ9SBq14B_iMkh4d87vVasSgRkrEhigvqU9eRcmJQMVewNDIyMX-x-AyVF6fYZJDyTww34gd8T0X0au4_N9MB21hBHs4olqNBDgFkoKprkcOznk5EUjrXXYpipNFJWg0pKxOU-IzgvS95_6J66psIkUW29dH7HTDJ_R-3UqNuY7QLHes1hhvO3qO3C-l15CsF39ofmkKc3MLqBXKWa_L-5MiPE_kXlFmqxcLN9WB7BtKWAEk4PgxE2GL6Fx3q9Hxiogq1j7xtaq9P6OXZIZKgZQ-sQmek4Vca7fuNa5qaCCaZb0PL1IzMA_Cv-VzcQVGkC3gMPaoOTZ2joNHP2tRni3f_O0tb59u9zT91QMK_VgzJJYRO-PLBE8WqVdiqE_FTnCXAfQWWhUi5QtbgQrcV5-mdNwxaKVie5Qymi-A8i1BgzjW-yYEjChmrBC82DIEgvhMrzUtrVNkAyvV0nzR8QeNvogkDcY0wjx8zZEzlusTwoz6KOYGhG7lQuBD3fLJtm8idoZ5FFAAOHt8iu2-2ph7WBZ7I00PMbtUiT-9hF-j4o4ZIDTyDg1C9oncHePxKVqyQjc3qx2OFJ9C2HyJvUzHvahw-gB7MZ21KD7jpca5MNU121FGoSxh-ZkRcO_dM1fLrMtUK_uYwOatffUQQp0IBHgNS_82WXt9eF9s98fVwjg0Y0m1n0Yo1BIiHtmkIgwB-4TAroQDI3ccBNkxbxBlMdoDHyuc60RCI1fjtjNodLXZFpgmNFiL9Jbny5HI-Gi9FYZBageki4kncC07j-cWTNnrpbZnz4aO5v2GIl5ujnCawmDX7XQqn_f2Xc5WU26HqZkzXnKS39kw1mzAXdmDKSdBMf5eJAzOmtUofXZn_x5sxZSVlDDjwaTzzS-U4jwr-wZO7SwOSMvCdUGzR_7UGVrhsQ-FWCzltBIwPiQoZik2h66fW1-X36Dsq4Bce6gkx53E3EVj_HluNqVUBCHKHt6wxO9j7AbMAfY_TNuxrZjfYgGHk2ixPPYQlKXOD8yw7WiYQNCqM8fSzlvQDWJAQnbzK2Z5KtqKBwQ-wzik0oAh_Sr7AUpwGwxbhldeeGid2WG5bJpkrJp3WyF62egoXNb9NVTUZ-hY4-kvwbr4FTWKdKT0UWiIjA4zIVDKC0fq-GKNnJxts9X4rs1w-LbUFm9Sdyue65-14G9X4rWoZQoUxxnqdc9CfOsMQCfOrDMknYo-wpRLY9rcZ1wKRYyLwnw3d4KDPzj0J4XuWJAwFOcsUO1VgjJdyxKXUFrFDYEPhZLGuWf0H0R5Dbn4lbjevV8eSEd8mtveo99mQWyToIWBw3-dAFh-uQZyPr3Qi1xxRCG0eYd9H2VmPxOQ13bdZvicN0AFevUaOA4n54BKASk2liJVtUlo_9hSfUDM2l_qnqDeubGQgfDNDMG3fRHGk_omdUSTaovjDdLHSpxweZcXoa14gDJdi6Ug1z3XQvIgv5S3be1a7rHQSiydU9TQ-az6UXjmZX2g9tPH1lpLxwDh_FeOdnbpsv21TSvWhNJLMrIcCA4xJwjGzilAjD4j4ID0dAzfmeQvW78i_k-QdATszCmv2Jv3TAcXbygjTZFCDJiSrxrJmjz3nQar2vFqRJ8zvtJz7ovGvgvluA9jIhbImKkwLCFfe5zw-LnicDhxEYUM5qwbFktxmOzMi3yVFZdZzuHq0xv1j38X97pXCnDYmFx3olI3y3zFB0_Rt53za8Cfep2hzRW-JGt80uMsrfxCzC6wjWjW3h-T4rW7YKB1OQKVya4Ayskvowxe-33epMLoYMZqE8KNFEnzNZtHN39ltabWMqK_f1R8hjbCivbKmqdwyUUxRV25eWW85uJo3gfyOdHGmedp1Spf91Z9Tg8EglXRLgqSv4CsOr0g8C55loNtowOd_LU1xk5Fm8e88luEO1v-UlZwkyPJJC7KsRGgGlkdJkBK9UWjkEPnuWS4CgAH2AOcFK0YhyXJVh9okRPq-fskKG3DUSWoxCO6m6VduO3l_WkkBEDGR054-WiKMngdkh2zlKJYvvoqKToHfNCWp-oAbyGB-0gQTvjcOId43Dmc5K_v1ll4vDSkjp1HhuIFC5sCI7o5WT_WH_qLs7Pqq5T3gkLyOyQIt-P5sycYnq4ZmlMURuXP1dV6Xp2k0p7BIls2HP23NI6x9QXeC3ILDtwYlDSRiKkTgs74WSqqbyCU7aVnQ8YeqCvFhx1oNx0fPefmsGk462gizrulO3bnfO7gk7l0jXCgCD90ewR3FJM-ClnDSuLTnHNmI6ZpGH8laeTSEjTs1Hmg1_DhfaCCPP0kZv_G2nXwA27zXA67ZacWXhVWuqBg5cxNQ30MFB7JcdvXSewgPrK0ULhDCmlp7YWuO-7G9Bpdf-cdSSfSF5-UzOuMal57p2JR44oFX_HevkU9I0tzIZuZQrjWLZB_J1trVxa7pYRawcbqQaU1cG3O6kOXI0OHQzT0HSMCbROpfbFpM2MOcJBFKDjst60jRm1fFat-Ta-XRqnGMqDEntCEeL7_BQRbYHpk2otT-VPVhriL5lh21P0_x115dR4fWV7v3ncCBOHN_oJe5tOwqGO6gqkAux6jUWvCrTpfE0wrwUn8CtKQke_AFfHcgI7B7eg2OerfcCNHdFMdlTegyuvJgGy2Cx9Q4dNULNvDFKwOn2q68jz-Hs3hhTQJxmsQYaHCUX5upAfVV79U2j2R_MwNPRhnV1BzZmgpB52c00L_Wi0irHiA2k3kN91A7Afm3tRRMGwE0KThWDGHXrdaSl4z4rlw4NoPpkX6cdAeFjgptOazfaligFOpjtsJIyhfkNgjQm26SF-ZtU4NgNfcE2m34qiS5Fuijv0POkSaP0KBcYuJvIdWCI61nYLEgDQ5178OIOq4DZMLip26iNxMMz2-mlel9DTf57esSQKQ7qbJTUD8CU9a-IP-q1EufznDn8KyefW9GB72oRRQUj50uK-Gyrqo_kafqb_RrRhmDnpmyspPfuo9iFzGBq4CIaEedEEXSjjD2J3tSNukPeAaE6kebooX8ljqT8CtURd-LgK5jXS59o3UXVAAtUlt5cji8ri_0ZfH5c18o-ek3LCU4ayl0flSRIkLm4jh74HvfW8IKKwpsTHA0stuEfUocytXSjwdkSIXzHoZ0rUFv2Bo-3Xjbtghl2n4m94KA-f6S4J16u40h9uTCoXrD0LjaNZwBPAifJEC7IjQy9v_53WKYxwkOOQ5CxnTm7akfVE-IvKVjInPg_w08WxAI2ez7SL10FNSFziXIwkbgr1fmNTjTddRGil25Fr85fP9RecG6hOzdiAFm6QfRY159GZuFQ3pjjbRzQe37cc-4cpfB7U1ycF8HRlyUvGTHYiJFXaeIJpAlapGAN4CHGO6Pq-khIfLAyeiAcMN0F6aFDsI-b2JNCMprEcI94dXQkrCyAOEspYiWUP3ekMTW9xNzufgTqXJXZuCT4AvVo7qfagy3rcVcoLq8y2NS0VraaxvzLPr_Q2pNFFpkCnEnNNSJfTUMDApgOLRSMIDhWbAZR48ZU4il9B95cqwndRWSlBT25b2SUsYSilKiEPoSqWe1L-Pn4AI5OyCgbzmLtZODXk_40DRpsRF0TQ13HKMfBFNMzjJcxMteDu1QBQNWCwV6hZ56_TACOQW3XmfGOXt1XLKu-OUOt_J03HJcUmeJADIHJ0UjNM8j-YrM7cH3Ym4s8flz27gZ6TUuVqDSTwfApZCbw6pjD2bNT3Md-6Wo5xzOU3XNQmB7nE6CwepqJxCiVRCw_a5qfnuaSy-ki7LdfyhtoXTIEeOvhEGqg3ygFqme6EWRbzwHRj5eCo2NIXPgdEIciYNa8UudgOZKtZxZGx-n6IM76JIxCP1BnqUCIQ0zl5lDp-C15arvFzhi_ubP5-CYx3Gk2LhUNS-JWlmtlzJOYuBxIhzl7_hsTSTURIp1fzCaDcx67zpry1VTavbUiVKaxqNo3Mo2P20xvwEoLnBN5-ohA7hSmDSXvxeOYaSbbT7ZKuTRZtkgCZKfj2SQYh9_dxbbvOvjCx0nf-AoeBgmyPBhpk0ZLnMYZsL7Ntur7DIIpqR1U-OsmHTEICAbdS27HG0GMC8Ja9Js3_YtbGY9ax6kyX4NH66wYI_kf6lKoULt_YV4tVNPNh--I1fpOt9qO9e0OGlRRTTsuDraGCSuSpdNVRcr7giy92DSna4ZoS0Hqn1OqKKBlK4vnsJWRQKfRqvADmrMWbr6a4c6-yNS0D9277kpsZQ9lODSf-a_yLRu2wra52uFdfPRnIzTktResMNd6x3FYmHoCaosD43J0CmxQFtsv-aDbW-obF9RDlY9_-yNUh3iuOC5jXQDcNLdZAcmBQLgNlqpN-Ae5LI3IzloEmxVet_jTXqEyJj5sMsnXX364Fz5WQYPpFzdBy-9qAnmjpu1mXDZ6XOb4TeBq7X-otROBQaCKyCTL8xCRDyFma3sGwPAewmbn3w_Z20mJq6Hiu5z7m7l8GBFPbY4Qph_L3nWR-9MVGEcKUxXFctWmcW2kRxZwLOBh4HXVhex6LB2s4riadrq2cZqPCfUffEOOZ9DPA9PvuZsq7b6G7LGzrGvzPR0Iq5Fv75oa-MNElQXrUm-wITVVBYKiM1VVijjZx_yEopo0ZjG-Tsy6-rDVH0rE_lLX7kKfgUYspnabTyALaU-SnciZfe-ktiddfJFuoOlqLDdRYQw-VOfabsmacHt4jBOBidFos4m810dgIlM40U6zJ9fn5EwpvZQqXh9Y2FqnWUbtnPFymU8fLrk_DCivmnGywqkY1wZlZf3CqrsBW3JM9Hkd1NJ3xu3rBKkURfF9fFP8e-E1dtqoLhVjYSSeoWZUSPt2oWusjsgnHxe95prF-V0W1zZq-xhTCbpEwkmcTyuivAwNKm7N3hXxQrlBDMX2h3d4bYFCg7l4jHWq0odKfOITxKwic19t8ovWnXhz4yAMYzsSaNBhc_tPBclNuUNa5mCARFtzINNlQ3Ve_DJqJ9EH9VieNIEPOnvgqhjhY6pv19fyMtG2F96w8cC4aFCxqcOJenj_PAsW6QW4C5nMnjo7i046nJiUw6QekulBPNMo1t0mA3MiDUYyKEs0extwLo_2fggo5xdDzzqLIWbp1cPCq11lDTw6KOGwy6YQQ9MrKrQjdOM4UX7hgqKWuhnprZb8S8ciYGSApr9VD71rrBYgVXK5JvfoPc3NJePqVBgfumQUA-xJySu1ATpBzq7TafXd4fjOmIkm4sa2viU0OtucBeU7-t7q3SiDX8B5AAlJlP61oqX014D3ap3VXiZviNe8VccNLulst5ACnLwvRHsW5evmw6Yyuuan8jEBftfh1bg-Q6Xk4MYzd830C_h_msQ84wgc2wHJsERy459bKNZlWDZ56zFiYkKmMLuK7SnYkIug0y8MP_fytGzKRxWANXkrozpvMdtUXT53CAXFBBT4QEIO2xd5NKBtIjuNUQwAmuS5yo1EmAMUjd1YBpJihSMXK-p0SfsmF7_-JIb3z5qoN3Ii0LksfohlYo1DZoeudDcwTFuCsCtuJo37MjqF3fmGD5z0ym83qWTQtIfGZkDPb7m_NWNVdMFTJRy8Sfs83aPGBu2K0jjUAPzwhuyIESxidOFlmHeGn1O9uPgOb6Jpa_uirrY25P_JBiNJ7yrFqJm0DF1tUXtixssA543OAsKe2NB1NRCWpYwatr4jREGDe74sGgKAwrMxHVTUo9uf9w_HrVy-xONy1xo_rZMj3SVyCTefEOL_JUbRZF4A8Jek0jDg-MbJ8ERL_5lrYe6DsRKR0y5mRnFIHygOqC88X7hVw1TWEHQIzbbDcfc9TqcUSz7tvbkQxsR8CMMf7gXUn-v-PbpBII9YCsaJbd3Bw9Tj7Hihx2wYPCHLR3GTl0hIMXZAvfKnVYshSqSR_n-FJRzAZJce4SZypbvKUi-xFxik3zDLixQ57cNhC7yaxtZ-p_Wf1v7BsDNqeAoiej5unXfNA1qetPAcuCBdpkfOJE8BvTjegl6SR7bNDTBNyujInGCkFSFvIIf4X2ZXewyVkhYKMWXzsroJAAkPQ9la7mf6fqUVzoghIE26rC9bSS_lDTDsE0phGe5zluyopyIM4m3Gk85iHP-_JDE2_GnOAVzohLoEC_I2Zdb9MBwLlP9VEv30P8Iay9kFr66YuHM04gbX92Qwuh6QZicPRml8-EjIoi1-HbxJLBi-gwfJS8fKOLkFp6sTbjwQcH83MzmtcIJaZxHBR4tXz0E0Qdz-Tyo4QWbcxl98ov5uB_Thc1rzg4giuJXOsYekc1F7BOnK4NRFJ7Z8PWmIFfhkfhZm77_R4iXPl5Oc1KiEu8c7Crm5zIHktvPcw2E-4bm-kM_dOp8fbLrABf2bIahcKj3hNi0oAk5ekeQhzM7qkXjEITOhHG9Udpv_IBBgdga2ZOThbZIVRq9hLuE84wtiO5VPzccFQyTMtXT55LGyGiGkaBrcH1fdWElIqVyqNgI17pMN50fJsEs8p6AOMdNJj1kK97wy87yeHRZJ0BEScqVhBPpJl-Re0WK71yjdAv33b2NiXkMdjpVuPXvKF_9mPi7hcfDeJAc6e1l409bOPpEW1NdP6snxUn9ZSLzrJHjseo_UqTLvcG7TT10pPFPO2EUs_X-wZ11mYDn8a6pwbAKlB9q8_uVB9OgUQR3sZhJba0-vIi4bCWIw3TTD744w9OXj32uAwj9rQ3Az4V9vOFfy6eJQxkJrKvgx51iF77cWstoMgmYgiswibOQ7zOlGpz42qXfV4aVLUweRNLV_6BczCEc9ONToOdg98ab4j3RzWs-qxdVBiQ2iVJ2N7KibPUYaLHt7uaN9rMQ6MIrVlB9bo511W3jTeeSqBp1oWmEx4eiBar8Rkf_huUKDIGUvCRQXtR4UehVMzPc_1tXKdACOMoxCveep_cfeOOFC9TM9IOqfjw1K54qxJIwOeTm7silVUSPz1BwhHrzbhpOdp3Hvrm-kCcSXfsBpKyVXwx4EkJujhwuedw6wazEOz2i83xEYuhaS6j24wZotLwb79_xdqyjYqTZkM=﷮﷯</value><variable display_value="snc.oracle.wallet-pem-content">e645367f2f9e3e1097dacf4fafa4e36e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>ae45367f2f9e3e1097dacf4fafa4e3a1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>jdbc:oracle:thin:@(DESCRIPTION=(retry_count=20)(retry_delay=3)(ADDRESS=(PROTOCOL=tcps)(PORT=1522)(HOST=adb.us-phoenix-1.oraclecloud.com))(CONNECT_DATA=(SERVICE_NAME=bk8uwrvkgqzvi2h_servicenow_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))</value><variable display_value="connection-url">1a45367f2f9e3e1097dacf4fafa4e34d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>e245367f2f9e3e1097dacf4fafa4e3a2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>﷞﷟﷒807e9a772fd23e1097dacf4fafa4e39f﷬﷔1﷬﷭rEFGnQpLfj_HIF42KRLL7Q==us7p8c0iS6hj5DulA1tcaT0uJAGSp8ZjinbWPQ==﷮﷯</value><variable display_value="snc.oracle.database-password">d645367f2f9e3e1097dacf4fafa4e352</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_df_connection_data</document><document_key>5e45367f2f9e3e1097dacf4fafa4e33e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:11:42</sys_created_on><sys_id>e645367f2f9e3e1097dacf4fafa4e3a3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:11:42</sys_updated_on><value>admin</value><variable display_value="snc.oracle.database-user">ae45367f2f9e3e1097dacf4fafa4e373</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-365916502</payload_hash>
+<remote_update_set display_value="Oracle Connector">8516b6b32fde3e1097dacf4fafa4e397</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:15:09</sys_created_on>
+<sys_id>cd16b6b32fde3e1097dacf4fafa4e39a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdb773870000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:15:09</sys_updated_on>
+<table/>
+<target_name>5e45367f2f9e3e1097dacf4fafa4e33e</target_name>
+<type>DataFabric Connection Data</type>
+<update_domain>global</update_domain>
+<update_guid>2cf53e733dde3e1079a83534a275537f</update_guid>
+<update_guid_history>2cf53e733dde3e1079a83534a275537f:-365916502</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

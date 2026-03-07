@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-02-13 01:42:50">
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>c2f741ea3b696ad06a65e624c3e45ac8</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:38:19</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>SCM-US-TR</u_cost_center>
+<u_cost_center_description>Supply Chain - Transportation - USA</u_cost_center_description>
+<u_department>SCM</u_department>
+<u_owner display_value="Mike  Hussey">8e578dba731313005754660c4cf6a795</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>4ef741ea3b696ad06a65e624c3e45ac7</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:38:30</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>PROD-IT-01</u_cost_center>
+<u_cost_center_description>Production - Liquids - Italy</u_cost_center_description>
+<u_department>PROD</u_department>
+<u_owner display_value="Garth Skiffington">5a826bf03710200044e0bfc8bcbe5dba</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>4ef741ea3b696ad06a65e624c3e45aca</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:39:22</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>QC-KR-01</u_cost_center>
+<u_cost_center_description>Quality Control - Stability Testing - Ko</u_cost_center_description>
+<u_department>QC</u_department>
+<u_owner display_value="Mike  Hussey">8e578dba731313005754660c4cf6a795</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>42f741ea3b696ad06a65e624c3e45ac4</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:39:22</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>PROD-DE-1</u_cost_center>
+<u_cost_center_description>Production - Tablets - Germany</u_cost_center_description>
+<u_department>PROD</u_department>
+<u_owner display_value="Mike  Hussey">8e578dba731313005754660c4cf6a795</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>42f741ea3b696ad06a65e624c3e45aca</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:39:22</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>MKTG-US-DM</u_cost_center>
+<u_cost_center_description>Marketing - Digital - USA</u_cost_center_description>
+<u_department>MKTG</u_department>
+<u_owner display_value="Mike  Hussey">8e578dba731313005754660c4cf6a795</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>06f741ea3b696ad06a65e624c3e45ac7</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:39:22</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>MKTG-FR-PR</u_cost_center>
+<u_cost_center_description>Marketing - Product Related - France</u_cost_center_description>
+<u_department>MKTG</u_department>
+<u_owner display_value="Mike  Hussey">8e578dba731313005754660c4cf6a795</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>caf741ea3b696ad06a65e624c3e45ac9</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:39:22</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>LEGAL-US-P</u_cost_center>
+<u_cost_center_description>Legal - Patents - USA</u_cost_center_description>
+<u_department>LEGAL</u_department>
+<u_owner display_value="Mike  Hussey">8e578dba731313005754660c4cf6a795</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>0ef741ea3b696ad06a65e624c3e45ac8</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:39:30</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>PVG-US-01</u_cost_center>
+<u_cost_center_description>Pharmacovigilance - North America</u_cost_center_description>
+<u_department>PVG</u_department>
+<u_owner display_value="Garth Skiffington">5a826bf03710200044e0bfc8bcbe5dba</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>8af741ea3b696ad06a65e624c3e45ac4</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:39:30</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>QC-JP-02</u_cost_center>
+<u_cost_center_description>Quality Control - Finished Goods - Japan</u_cost_center_description>
+<u_department>QC</u_department>
+<u_owner display_value="Garth Skiffington">5a826bf03710200044e0bfc8bcbe5dba</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>06f741ea3b696ad06a65e624c3e45ac4</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:46</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>PROD-DE-2</u_cost_center>
+<u_cost_center_description>Production - Injections - Germany</u_cost_center_description>
+<u_department>PROD</u_department>
+<u_owner display_value="Rosalyn Daulton">66826bf03710200044e0bfc8bcbe5dd8</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>8af741ea3b696ad06a65e624c3e45aca</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:42:31</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>PROD-ES-01</u_cost_center>
+<u_cost_center_description>Production - Packaging - Spain</u_cost_center_description>
+<u_department>PROD</u_department>
+<u_owner display_value="Petra Clemmens">c782abf03710200044e0bfc8bcbe5d41</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>02f741ea3b696ad06a65e624c3e45ac5</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:39:42</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>SCM-UK-WH</u_cost_center>
+<u_cost_center_description>Supply Chain - Warehousing - UK</u_cost_center_description>
+<u_department>SCM</u_department>
+<u_owner display_value="Garth Skiffington">5a826bf03710200044e0bfc8bcbe5dba</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>02f741ea3b696ad06a65e624c3e45acb</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:39:42</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>SCM</u_cost_center>
+<u_cost_center_description>Sales - International - USA</u_cost_center_description>
+<u_department>SALES</u_department>
+<u_owner display_value="Garth Skiffington">5a826bf03710200044e0bfc8bcbe5dba</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>06f741ea3b696ad06a65e624c3e45aca</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:39:42</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>SALES-US-IN</u_cost_center>
+<u_cost_center_description>Sales - International - USA</u_cost_center_description>
+<u_department>SALES</u_department>
+<u_owner display_value="Garth Skiffington">5a826bf03710200044e0bfc8bcbe5dba</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>46f741ea3b696ad06a65e624c3e45ac6</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:01</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>Rockwell Automation</u_cost_center>
+<u_cost_center_description>Finance - Accounts Payable - Canada</u_cost_center_description>
+<u_department>FIN</u_department>
+<u_owner display_value="Alejandro Mascall">a2826bf03710200044e0bfc8bcbe5ded</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>86f741ea3b696ad06a65e624c3e45ac8</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:01</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>REG-US-01</u_cost_center>
+<u_cost_center_description>Regulatory Affairs - FDA</u_cost_center_description>
+<u_department>REG</u_department>
+<u_owner display_value="Alejandro Mascall">a2826bf03710200044e0bfc8bcbe5ded</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>86f741ea3b696ad06a65e624c3e45ac5</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:01</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>REG-CH-02</u_cost_center>
+<u_cost_center_description>Regulatory Affairs - International</u_cost_center_description>
+<u_department>REG</u_department>
+<u_owner display_value="Alejandro Mascall">a2826bf03710200044e0bfc8bcbe5ded</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>8ef741ea3b696ad06a65e624c3e45ac3</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:01</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>RD-US-02</u_cost_center>
+<u_cost_center_description>Research - Formulation - USA</u_cost_center_description>
+<u_department>R&amp;D</u_department>
+<u_owner display_value="Alejandro Mascall">a2826bf03710200044e0bfc8bcbe5ded</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>4af741ea3b696ad06a65e624c3e45ac5</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:14</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>CLIN-BR-A</u_cost_center>
+<u_cost_center_description>Clinical Operations - Brazil Site A</u_cost_center_description>
+<u_department>CLIN</u_department>
+<u_owner display_value="Don Mestler">3682abf03710200044e0bfc8bcbe5d0e</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>0ef741ea3b696ad06a65e624c3e45ac5</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:14</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>CLIN-BR-M</u_cost_center>
+<u_cost_center_description>Clinical Operations - Brazil Management</u_cost_center_description>
+<u_department>CLIN</u_department>
+<u_owner display_value="Don Mestler">3682abf03710200044e0bfc8bcbe5d0e</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>4af741ea3b696ad06a65e624c3e45ac8</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:14</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>CLIN-DE-01</u_cost_center>
+<u_cost_center_description>Clinical Operations - Germany Site 1</u_cost_center_description>
+<u_department>CLIN</u_department>
+<u_owner display_value="Don Mestler">3682abf03710200044e0bfc8bcbe5d0e</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>0af741ea3b696ad06a65e624c3e45ac6</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:38</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>HR-AU-TR</u_cost_center>
+<u_cost_center_description>Human Resources - Training - Australia</u_cost_center_description>
+<u_department>HR</u_department>
+<u_owner display_value="Jerrod Bennett">5b7c200d0a640069006b3845b5d0fa7c</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>c6f741ea3b696ad06a65e624c3e45aca</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:38</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>RD-UK-01</u_cost_center>
+<u_cost_center_description>Research - Clinical Trials - UK</u_cost_center_description>
+<u_department>R&amp;D</u_department>
+<u_owner display_value="Jerrod Bennett">5b7c200d0a640069006b3845b5d0fa7c</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>8af741ea3b696ad06a65e624c3e45ac7</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:38</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>RD-CA-01</u_cost_center>
+<u_cost_center_description>Research - Biotechnology - Canada</u_cost_center_description>
+<u_department>R&amp;D</u_department>
+<u_owner display_value="Jerrod Bennett">5b7c200d0a640069006b3845b5d0fa7c</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>caf741ea3b696ad06a65e624c3e45ac3</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:38</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>RD-US-01</u_cost_center>
+<u_cost_center_description>Research - Discovery - USA</u_cost_center_description>
+<u_department>R&amp;D</u_department>
+<u_owner display_value="Jerrod Bennett">5b7c200d0a640069006b3845b5d0fa7c</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>cef741ea3b696ad06a65e624c3e45ac8</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:38</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>BIZD-JP-01</u_cost_center>
+<u_cost_center_description>Business Development - Partners - Japan</u_cost_center_description>
+<u_department>BIZD</u_department>
+<u_owner display_value="Jerrod Bennett">5b7c200d0a640069006b3845b5d0fa7c</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>46f741ea3b696ad06a65e624c3e45ac9</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:38</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>HR-IN-RC</u_cost_center>
+<u_cost_center_description>Human Resources - Recruitment - India</u_cost_center_description>
+<u_department>HR</u_department>
+<u_owner display_value="Jerrod Bennett">5b7c200d0a640069006b3845b5d0fa7c</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>8ef741ea3b696ad06a65e624c3e45ac6</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:40:38</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>LEGAL-NL-C</u_cost_center>
+<u_cost_center_description>Legal - Compliance - Netherlands</u_cost_center_description>
+<u_department>LEGAL</u_department>
+<u_owner display_value="Jerrod Bennett">5b7c200d0a640069006b3845b5d0fa7c</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>caf741ea3b696ad06a65e624c3e45ac6</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:07</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>CC_IT_002</u_cost_center>
+<u_cost_center_description>IT - Network Services - Singapore</u_cost_center_description>
+<u_department>IT</u_department>
+<u_owner display_value="Tia Lino">be826bf03710200044e0bfc8bcbe5dfc</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>82f741ea3b696ad06a65e624c3e45ac6</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:07</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>BIZD-IT-01</u_cost_center>
+<u_cost_center_description>Business Development - Licensing - Italy</u_cost_center_description>
+<u_department>BIZD</u_department>
+<u_owner display_value="Tia Lino">be826bf03710200044e0bfc8bcbe5dfc</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>82f741ea3b696ad06a65e624c3e45ac9</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:07</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>CC_FIN_002</u_cost_center>
+<u_cost_center_description>Finance - General Ledger - UK</u_cost_center_description>
+<u_department>FIN</u_department>
+<u_owner display_value="Tia Lino">be826bf03710200044e0bfc8bcbe5dfc</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>0af741ea3b696ad06a65e624c3e45ac9</sys_id>
+<sys_mod_count>8</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:07</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>CC_IT_001</u_cost_center>
+<u_cost_center_description>IT - Application Support - Germany</u_cost_center_description>
+<u_department>IT</u_department>
+<u_owner display_value="Tia Lino">be826bf03710200044e0bfc8bcbe5dfc</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>02f741ea3b696ad06a65e624c3e45ac8</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:07</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>QC-CH-01</u_cost_center>
+<u_cost_center_description>Quality Control - Microbiology - Switzer</u_cost_center_description>
+<u_department>QC</u_department>
+<u_owner display_value="Tia Lino">be826bf03710200044e0bfc8bcbe5dfc</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>c6f741ea3b696ad06a65e624c3e45ac4</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:07</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>QC-JP-01</u_cost_center>
+<u_cost_center_description>Quality Control - Raw Materials - Japan</u_cost_center_description>
+<u_department>QC</u_department>
+<u_owner display_value="Tia Lino">be826bf03710200044e0bfc8bcbe5dfc</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>42f741ea3b696ad06a65e624c3e45ac7</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:25</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>EHS-ZA-EN</u_cost_center>
+<u_cost_center_description>EHS - Environmental - South Africa</u_cost_center_description>
+<u_department>EHS</u_department>
+<u_owner display_value="Shanna Neundorfer">96826bf03710200044e0bfc8bcbe5da2</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>8ef741ea3b696ad06a65e624c3e45ac9</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:25</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>EHS-DE-SA</u_cost_center>
+<u_cost_center_description>EHS - Safety - Germany</u_cost_center_description>
+<u_department>EHS</u_department>
+<u_owner display_value="Shanna Neundorfer">96826bf03710200044e0bfc8bcbe5da2</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>4ef741ea3b696ad06a65e624c3e45ac4</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:25</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>SCM-UK-PL</u_cost_center>
+<u_cost_center_description>Supply Chain - Planning - UK</u_cost_center_description>
+<u_department>SCM</u_department>
+<u_owner display_value="Shanna Neundorfer">96826bf03710200044e0bfc8bcbe5da2</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>cef741ea3b696ad06a65e624c3e45ac5</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:41:46</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>PVG-EU-01</u_cost_center>
+<u_cost_center_description>Pharmacovigilance - Europe</u_cost_center_description>
+<u_department>PVG</u_department>
+<u_owner display_value="Rosalyn Daulton">66826bf03710200044e0bfc8bcbe5dd8</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>c6f741ea3b696ad06a65e624c3e45ac7</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:42:31</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>SALES-FR-D</u_cost_center>
+<u_cost_center_description>Sales - Domestic - France</u_cost_center_description>
+<u_department>SALES</u_department>
+<u_owner display_value="Petra Clemmens">c782abf03710200044e0bfc8bcbe5d41</u_owner>
+</sn_erp_integration_cost_center>
+<sn_erp_integration_cost_center action="INSERT_OR_UPDATE">
+<sys_class_name>sn_erp_integration_cost_center</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-19 10:03:25</sys_created_on>
+<sys_id>c2f741ea3b696ad06a65e624c3e45ac5</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-13 01:42:32</sys_updated_on>
+<u_controlling_area>GLOBAL</u_controlling_area>
+<u_cost_center>REG-CH-01</u_cost_center>
+<u_cost_center_description>Regulatory Affairs - Europe</u_cost_center_description>
+<u_department>REG</u_department>
+<u_owner display_value="Petra Clemmens">c782abf03710200044e0bfc8bcbe5d41</u_owner>
+</sn_erp_integration_cost_center>
+</unload>

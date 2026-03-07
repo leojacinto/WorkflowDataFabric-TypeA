@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-02-04 14:52:36">
+<x_snc_alectri_zc_0_source_databases action="INSERT_OR_UPDATE">
+<alectri_simulated_connector display_value="Alectri Oracle Simulator">0a963a772fde3e1097dacf4fafa4e3b1</alectri_simulated_connector>
+<database_name>Oracle Database</database_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:17:52</sys_created_on>
+<sys_id>97a6be772fde3e1097dacf4fafa4e361</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-04 14:07:14</sys_updated_on>
+</x_snc_alectri_zc_0_source_databases>
+<x_snc_alectri_zc_0_source_databases action="INSERT_OR_UPDATE">
+<alectri_simulated_connector display_value="Alectri RedShift Simulator">11d07ebb2f1e3e1097dacf4fafa4e3c3</alectri_simulated_connector>
+<database_name>RedShift Database</database_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 17:54:40</sys_created_on>
+<sys_id>9f01b27f2f1e3e1097dacf4fafa4e3d2</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-04 14:07:19</sys_updated_on>
+</x_snc_alectri_zc_0_source_databases>
+<x_snc_alectri_zc_0_source_databases action="INSERT_OR_UPDATE">
+<alectri_simulated_connector display_value="Alectri BigQuery Simulated">b33bb67793523610259bffb83603d69c</alectri_simulated_connector>
+<database_name>BigQuery Database</database_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:39:05</sys_created_on>
+<sys_id>a56bb6b793523610259bffb83603d6a5</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-02-04 14:07:26</sys_updated_on>
+</x_snc_alectri_zc_0_source_databases>
+</unload>

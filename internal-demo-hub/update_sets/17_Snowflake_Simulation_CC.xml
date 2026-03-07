@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-02-16 00:40:15">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Snowflake Simulation CC</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>d9d8b05645c7f2107f4482538cc04846</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>4a110d56450bf2107f4482538cc048b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_ebdae45698c332107f44ea40dcae4bfc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><filter_extension/><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Lab Cc Summary</label><live_feed_enabled>false</live_feed_enabled><name>u_lab_cc_summary</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:07</sys_created_on><sys_id>ebdae45698c332107f44ea40dcae4bfc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Lab Cc Summary</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_ebdae45698c332107f44ea40dcae4bfc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:08:04</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>243226273</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02110d56450bf2107f4482538cc048b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe370000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>f9743c96bf073210eab9535fee119530</update_guid>
+<update_guid_history>f9743c96bf073210eab9535fee119530:243226273,4c0c2c1a0fc332103fad63ea377e363e:243226273,6bdba41a66c3321000c2733d9a3bde94:-688836895,14eaa49696c3321010ca533ad1ca3971:1804818327</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:07&lt;/sys_created_on&gt;&lt;sys_id&gt;27daa49698c332107f44ea40dcae4b01&lt;/sys_id&gt;&lt;sys_name&gt;u_lab_cc_summary&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:07&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1954128204</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>8e110d56450bf2107f4482538cc048b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe480000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b5743c96da0732105a9f207274fffdce</update_guid>
+<update_guid_history>b5743c96da0732105a9f207274fffdce:1954128204,18eaa496efc33210ba1b0025e1d7946c:1954128204</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_u_actual_amount_usd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_actual_amount_usd" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;ACTUAL_AMOUNT_USD&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_actual_amount_usd&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:10&lt;/sys_created_on&gt;&lt;sys_id&gt;54eaa49698c332107f44ea40dcae4b73&lt;/sys_id&gt;&lt;sys_name&gt;ACTUAL_AMOUNT_USD&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_u_actual_amount_usd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2132776096</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>82110d56450bf2107f4482538cc048b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.ACTUAL_AMOUNT_USD</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>06743c962b0732107db86bf1cb93c0d3</update_guid>
+<update_guid_history>06743c962b0732107db86bf1cb93c0d3:-2132776096,e8eaa496acc3321015f9c6b85c174580:-2132776096</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_u_baseline_amount_usd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_baseline_amount_usd" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;BASELINE_AMOUNT_USD&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_baseline_amount_usd&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:11&lt;/sys_created_on&gt;&lt;sys_id&gt;eceaa49698c332107f44ea40dcae4b84&lt;/sys_id&gt;&lt;sys_name&gt;BASELINE_AMOUNT_USD&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_u_baseline_amount_usd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1788827474</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>86110d56450bf2107f4482538cc048b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe6f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.BASELINE_AMOUNT_USD</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>06743c9679073210c35f571be15c91f4</update_guid>
+<update_guid_history>06743c9679073210c35f571be15c91f4:1788827474,a8eaa49617c332107dd564cd89d40a91:1788827474</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_u_cost_center</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_cost_center" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;COST_CENTER&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_cost_center&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:12&lt;/sys_created_on&gt;&lt;sys_id&gt;f8eaa49698c332107f44ea40dcae4bc3&lt;/sys_id&gt;&lt;sys_name&gt;COST_CENTER&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_u_cost_center&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1819925074</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>8a110d56450bf2107f4482538cc048b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.COST_CENTER</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>ce743c96000732101fdcdffaf99912f7</update_guid>
+<update_guid_history>ce743c96000732101fdcdffaf99912f7:-1819925074,fceaa49617c33210cf1c8b6ea2b61acf:-1819925074</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_u_fiscal_year</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_fiscal_year" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;FISCAL_YEAR&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_fiscal_year&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:12&lt;/sys_created_on&gt;&lt;sys_id&gt;b4eaa49698c332107f44ea40dcae4bd3&lt;/sys_id&gt;&lt;sys_name&gt;FISCAL_YEAR&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_u_fiscal_year&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-213468612</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>8e110d56450bf2107f4482538cc048b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe620000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.FISCAL_YEAR</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0e743c96df073210d6262fa3638d7be7</update_guid>
+<update_guid_history>0e743c96df073210d6262fa3638d7be7:-213468612,f4eaa49614c332108d94fc90955d62df:-213468612</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_u_forecast_source</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_forecast_source" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;FORECAST_SOURCE&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_forecast_source&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:12&lt;/sys_created_on&gt;&lt;sys_id&gt;bceaa49698c332107f44ea40dcae4be2&lt;/sys_id&gt;&lt;sys_name&gt;FORECAST_SOURCE&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_u_forecast_source&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1175821986</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>82110d56450bf2107f4482538cc048b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe6b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.FORECAST_SOURCE</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4a743c96f6073210d1049a5ac1b805f0</update_guid>
+<update_guid_history>4a743c96f6073210d1049a5ac1b805f0:-1175821986,fceaa49619c33210ac77ee0a70ff11ee:-1175821986</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_u_gl_account</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_gl_account" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;GL_ACCOUNT&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_gl_account&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:13&lt;/sys_created_on&gt;&lt;sys_id&gt;b4eaa49698c332107f44ea40dcae4bf2&lt;/sys_id&gt;&lt;sys_name&gt;GL_ACCOUNT&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_u_gl_account&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-866472978</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>86110d56450bf2107f4482538cc048b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe670000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.GL_ACCOUNT</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0e743c96160732107be35f80f37b58ec</update_guid>
+<update_guid_history>0e743c96160732107be35f80f37b58ec:-866472978,f4eaa496c8c33210ecb09dc480a914fe:-866472978</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_u_last_updated</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_last_updated" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;LAST_UPDATED&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_last_updated&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:13&lt;/sys_created_on&gt;&lt;sys_id&gt;8deae49698c332107f44ea40dcae4b01&lt;/sys_id&gt;&lt;sys_name&gt;LAST_UPDATED&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_u_last_updated&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-961177460</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>8a110d56450bf2107f4482538cc048b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe550000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.LAST_UPDATED</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>86743c966c0732104dc33e52bf041fd8</update_guid>
+<update_guid_history>86743c966c0732104dc33e52bf041fd8:-961177460,49eae496e1c3321012fb599660028d0d:-961177460</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_u_period</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_period" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;PERIOD&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_period&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:13&lt;/sys_created_on&gt;&lt;sys_id&gt;8deae49698c332107f44ea40dcae4b10&lt;/sys_id&gt;&lt;sys_name&gt;PERIOD&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_u_period&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>270803018</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>8e110d56450bf2107f4482538cc048b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe5a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.PERIOD</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0a743c96130732108f46ea91c889d4dd</update_guid>
+<update_guid_history>0a743c96130732108f46ea91c889d4dd:270803018,49eae496cec33210144186e5aac6631c:270803018</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_u_variance</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_variance" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;VARIANCE&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_variance&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:11&lt;/sys_created_on&gt;&lt;sys_id&gt;aceaa49698c332107f44ea40dcae4b95&lt;/sys_id&gt;&lt;sys_name&gt;VARIANCE&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_u_variance&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-365175510</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc04865</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe5e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.VARIANCE</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>8a743c962a0732102ed2c7e2671a52e2</update_guid>
+<update_guid_history>8a743c962a0732102ed2c7e2671a52e2:-365175510,20eaa49696c33210d2fb6ccf038618af:-365175510</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_lab_cc_summary_u_variance_pct</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_variance_pct" table="u_lab_cc_summary"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;VARIANCE_PCT&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_variance_pct&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;u_lab_cc_summary&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-15 23:03:12&lt;/sys_created_on&gt;&lt;sys_id&gt;24eaa49698c332107f44ea40dcae4bb3&lt;/sys_id&gt;&lt;sys_name&gt;VARIANCE_PCT&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_lab_cc_summary_u_variance_pct&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-15 23:03:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2079225326</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc04865</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.VARIANCE_PCT</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7d743c960707321012f21ee5f254aec8</update_guid>
+<update_guid_history>7d743c960707321012f21ee5f254aec8:2079225326,2ceaa496e4c332103f454343e46d0ebf:2079225326</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary_u_actual_amount_usd_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_actual_amount_usd" label="ACTUAL_AMOUNT_USD" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_actual_amount_usd</element><help/><hint/><label>ACTUAL_AMOUNT_USD</label><language>en</language><name>u_lab_cc_summary</name><plural>ACTUAL_AMOUNT_USDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:11</sys_created_on><sys_id>10eaa49698c332107f44ea40dcae4b78</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ACTUAL_AMOUNT_USD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary_u_actual_amount_usd_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:11</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>937028001</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc04865</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe7a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.ACTUAL_AMOUNT_USD</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>42747c96de07321085be6285cd6f8e09</update_guid>
+<update_guid_history>42747c96de07321085be6285cd6f8e09:937028001,64eaa496afc332106cc44cb1a2feb983:937028001</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary_u_baseline_amount_usd_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_baseline_amount_usd" label="BASELINE_AMOUNT_USD" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_baseline_amount_usd</element><help/><hint/><label>BASELINE_AMOUNT_USD</label><language>en</language><name>u_lab_cc_summary</name><plural>BASELINE_AMOUNT_USDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:11</sys_created_on><sys_id>a8eaa49698c332107f44ea40dcae4b89</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BASELINE_AMOUNT_USD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary_u_baseline_amount_usd_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:11</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-878027491</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc04866</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2feb10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.BASELINE_AMOUNT_USD</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>42747c962d0732107f166b46b613b516</update_guid>
+<update_guid_history>42747c962d0732107f166b46b613b516:-878027491,24eaa4963cc33210f57f64e65a0c9a94:-878027491</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary_u_cost_center_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_cost_center" label="COST_CENTER" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_cost_center</element><help/><hint/><label>COST_CENTER</label><language>en</language><name>u_lab_cc_summary</name><plural>COST_CENTERs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:12</sys_created_on><sys_id>74eaa49698c332107f44ea40dcae4bc8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>COST_CENTER</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary_u_cost_center_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:12</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>226552805</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc04866</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe870000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.COST_CENTER</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>46747c96eb0732100dfe414ee512230c</update_guid>
+<update_guid_history>46747c96eb0732100dfe414ee512230c:226552805,70eaa496b8c33210b128faed4b9ce7d2:226552805</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary_u_fiscal_year_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_fiscal_year" label="FISCAL_YEAR" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_fiscal_year</element><help/><hint/><label>FISCAL_YEAR</label><language>en</language><name>u_lab_cc_summary</name><plural>FISCAL_YEARs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:12</sys_created_on><sys_id>7ceaa49698c332107f44ea40dcae4bd7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FISCAL_YEAR</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary_u_fiscal_year_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:12</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1546635287</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc04866</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe9a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.FISCAL_YEAR</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>4a747c96140732104fece216af28bf0f</update_guid>
+<update_guid_history>4a747c96140732104fece216af28bf0f:-1546635287,78eaa49657c33210678c54addd26f7e1:-1546635287</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary_u_forecast_source_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_forecast_source" label="FORECAST_SOURCE" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_forecast_source</element><help/><hint/><label>FORECAST_SOURCE</label><language>en</language><name>u_lab_cc_summary</name><plural>FORECAST_SOURCEs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:12</sys_created_on><sys_id>74eaa49698c332107f44ea40dcae4be7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FORECAST_SOURCE</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary_u_forecast_source_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:12</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1888365061</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc04866</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe8d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.FORECAST_SOURCE</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ce747c96400732106fa853b552ecf30d</update_guid>
+<update_guid_history>ce747c96400732106fa853b552ecf30d:1888365061,70eaa4963cc33210dbadddf2a7bcb8f1:1888365061</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary_u_gl_account_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_gl_account" label="GL_ACCOUNT" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_gl_account</element><help/><hint/><label>GL_ACCOUNT</label><language>en</language><name>u_lab_cc_summary</name><plural>GL_ACCOUNTs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>7ceaa49698c332107f44ea40dcae4bf6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GL_ACCOUNT</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary_u_gl_account_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1171909501</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc04867</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fea00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.GL_ACCOUNT</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>c2747c962f073210f0daec3abe540211</update_guid>
+<update_guid_history>c2747c962f073210f0daec3abe540211:-1171909501,78eae496e6c33210d8b9cd3f7f917a00:-1171909501</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary_u_last_updated_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_last_updated" label="LAST_UPDATED" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_last_updated</element><help/><hint/><label>LAST_UPDATED</label><language>en</language><name>u_lab_cc_summary</name><plural>LAST_UPDATEDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>81eae49698c332107f44ea40dcae4b06</sys_id><sys_mod_count>0</sys_mod_count><sys_name>LAST_UPDATED</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary_u_last_updated_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1853487813</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc04867</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fea60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.LAST_UPDATED</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>4e747c96e80732102ad971009697a812</update_guid>
+<update_guid_history>4e747c96e80732102ad971009697a812:1853487813,49eae49639c332103cec7ed121fa110f:1853487813</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary_u_period_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_period" label="PERIOD" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_period</element><help/><hint/><label>PERIOD</label><language>en</language><name>u_lab_cc_summary</name><plural>PERIODs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>81eae49698c332107f44ea40dcae4b15</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PERIOD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary_u_period_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1146029273</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc04867</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2feac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.PERIOD</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>c6747c96c407321099ee1c4b7e19ab14</update_guid>
+<update_guid_history>c6747c96c407321099ee1c4b7e19ab14:-1146029273,49eae4960dc33210c79e3e8dbf99a41e:-1146029273</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary_u_variance_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_variance" label="VARIANCE" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_variance</element><help/><hint/><label>VARIANCE</label><language>en</language><name>u_lab_cc_summary</name><plural>VARIANCEs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:11</sys_created_on><sys_id>68eaa49698c332107f44ea40dcae4b9a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VARIANCE</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary_u_variance_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:11</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-813380857</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc04867</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe810000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.VARIANCE</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ca747c96400732100d491ba1ac80bb0a</update_guid>
+<update_guid_history>ca747c96400732100d491ba1ac80bb0a:-813380857,a8eaa496d1c33210fc2adc14c714d7b1:-813380857</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary_u_variance_pct_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_variance_pct" label="VARIANCE_PCT" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element>u_variance_pct</element><help/><hint/><label>VARIANCE_PCT</label><language>en</language><name>u_lab_cc_summary</name><plural>VARIANCE_PCTs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:12</sys_created_on><sys_id>eceaa49698c332107f44ea40dcae4bb7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VARIANCE_PCT</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary_u_variance_pct_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:12</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1611050691</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc04868</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2feb70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary.VARIANCE_PCT</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ca747c963507321005c1499e9c833b17</update_guid>
+<update_guid_history>ca747c963507321005c1499e9c833b17:1611050691,64eaa49609c3321087944220956bddc2:1611050691</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_lab_cc_summary__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Lab Cc Summary" language="en" table="u_lab_cc_summary"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Lab Cc Summary</label><language>en</language><name>u_lab_cc_summary</name><plural>Lab Cc Summaries</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:08</sys_created_on><sys_id>77daa49698c332107f44ea40dcae4b1c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Lab Cc Summary</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_lab_cc_summary__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:08:04</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2025698016</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc04868</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fe4d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table>u_lab_cc_summary</table>
+<target_name>Lab Cc Summary</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3d743c969e073210eee4e92115e945d0</update_guid>
+<update_guid_history>3d743c969e073210eee4e92115e945d0:-2025698016,400c2c1a87c332101896126e223df43c:-2025698016,a7dba41ac7c332106cc0ecb61e4a1b91:-834824928,90eaa49651c332107eca76cee1f6bd6f:1221814762</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_11eae49698c332107f44ea40dcae4b2a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>11eae49698c332107f44ea40dcae4b2a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>272900</u_actual_amount_usd><u_baseline_amount_usd>275000</u_baseline_amount_usd><u_cost_center>HR-AU-TR</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>Manual</u_forecast_source><u_gl_account>650200</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>2100</u_variance><u_variance_pct>0.76</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>360658000</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc04868</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff230000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>11eae49698c332107f44ea40dcae4b2a</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>0925301a0407321052a66b66dbd9530c</update_guid>
+<update_guid_history>0925301a0407321052a66b66dbd9530c:360658000</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_15eae49698c332107f44ea40dcae4b29</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>15eae49698c332107f44ea40dcae4b29</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>151300</u_actual_amount_usd><u_baseline_amount_usd>160000</u_baseline_amount_usd><u_cost_center>CLIN-BR-A</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>Budget FY25</u_forecast_source><u_gl_account>631200</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>8700</u_variance><u_variance_pct>5.44</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-1390847920</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc04868</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff030000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>15eae49698c332107f44ea40dcae4b29</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>3025301a2c0732109283942ffe11b803</update_guid>
+<update_guid_history>3025301a2c0732109283942ffe11b803:-1390847920</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_15eae49698c332107f44ea40dcae4b2c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>15eae49698c332107f44ea40dcae4b2c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>970000</u_actual_amount_usd><u_baseline_amount_usd>960000</u_baseline_amount_usd><u_cost_center>SCM-UK-WH</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>Budget FY25</u_forecast_source><u_gl_account>750200</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-10000</u_variance><u_variance_pct>-1.04</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>373714641</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc04869</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>15eae49698c332107f44ea40dcae4b2c</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>c635701a890732104cbd5c4cefb541c4</update_guid>
+<update_guid_history>c635701a890732104cbd5c4cefb541c4:373714641</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_19eae49698c332107f44ea40dcae4b28</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>19eae49698c332107f44ea40dcae4b28</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>220033</u_actual_amount_usd><u_baseline_amount_usd>220000</u_baseline_amount_usd><u_cost_center>BIZD-JP-01</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V3</u_forecast_source><u_gl_account>610100</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-33</u_variance><u_variance_pct>-0.02</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-1174427050</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc04869</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fef20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>19eae49698c332107f44ea40dcae4b28</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>3025bcd6b607321068e3e971cdb45446</update_guid>
+<update_guid_history>3025bcd6b607321068e3e971cdb45446:-1174427050</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_19eae49698c332107f44ea40dcae4b2b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>19eae49698c332107f44ea40dcae4b2b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>827000</u_actual_amount_usd><u_baseline_amount_usd>760000</u_baseline_amount_usd><u_cost_center>PROD-IT-01</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V2</u_forecast_source><u_gl_account>690200</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-67000</u_variance><u_variance_pct>-8.82</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-2113984780</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc04869</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff540000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>19eae49698c332107f44ea40dcae4b2b</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>4125301af10732108c6e5752154add45</update_guid>
+<update_guid_history>4125301af10732108c6e5752154add45:-2113984780</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_1deae49698c332107f44ea40dcae4b2a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>1deae49698c332107f44ea40dcae4b2a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>435233</u_actual_amount_usd><u_baseline_amount_usd>400000</u_baseline_amount_usd><u_cost_center>MKTG-US-DM</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V3</u_forecast_source><u_gl_account>670200</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-35233</u_variance><u_variance_pct>-8.81</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-318063976</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc04869</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>1deae49698c332107f44ea40dcae4b2a</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>cd25301a1307321026b0d0a0af8bf422</update_guid>
+<update_guid_history>cd25301a1307321026b0d0a0af8bf422:-318063976</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_51eae49698c332107f44ea40dcae4b29</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>51eae49698c332107f44ea40dcae4b29</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>150550</u_actual_amount_usd><u_baseline_amount_usd>150000</u_baseline_amount_usd><u_cost_center>CC_IT_002</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>Budget FY25</u_forecast_source><u_gl_account>630000</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-550</u_variance><u_variance_pct>-0.37</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-194922968</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc0486a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fefe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>51eae49698c332107f44ea40dcae4b29</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>b825301a08073210c400305d1647ab00</update_guid>
+<update_guid_history>b825301a08073210c400305d1647ab00:-194922968</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_51eae49698c332107f44ea40dcae4b2c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>51eae49698c332107f44ea40dcae4b2c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>901200</u_actual_amount_usd><u_baseline_amount_usd>900000</u_baseline_amount_usd><u_cost_center>SCM-UK-PL</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>Budget FY25</u_forecast_source><u_gl_account>750100</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-1200</u_variance><u_variance_pct>-0.13</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>821734182</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc0486a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff600000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>51eae49698c332107f44ea40dcae4b2c</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>8235701a1b0732107d1c5c9a26bec5c2</update_guid>
+<update_guid_history>8235701a1b0732107d1c5c9a26bec5c2:821734182</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_55eae49698c332107f44ea40dcae4b2b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>55eae49698c332107f44ea40dcae4b2b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>763000</u_actual_amount_usd><u_baseline_amount_usd>700000</u_baseline_amount_usd><u_cost_center>PROD-ES-01</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V2</u_forecast_source><u_gl_account>690100</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-63000</u_variance><u_variance_pct>-9</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>1500059334</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc0486a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff4f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>55eae49698c332107f44ea40dcae4b2b</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>8d25301a41073210202c5c5354580829</update_guid>
+<update_guid_history>8d25301a41073210202c5c5354580829:1500059334</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_59eae49698c332107f44ea40dcae4b2a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>59eae49698c332107f44ea40dcae4b2a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>611467</u_actual_amount_usd><u_baseline_amount_usd>550000</u_baseline_amount_usd><u_cost_center>MKTG-FR-PR</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V3</u_forecast_source><u_gl_account>670100</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-61467</u_variance><u_variance_pct>-11.18</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-1227942443</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc0486a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff3e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>59eae49698c332107f44ea40dcae4b2a</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>8925301a8307321038884531a6287520</update_guid>
+<update_guid_history>8925301a8307321038884531a6287520:-1227942443</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_5deae49698c332107f44ea40dcae4b29</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>5deae49698c332107f44ea40dcae4b29</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>441900</u_actual_amount_usd><u_baseline_amount_usd>450000</u_baseline_amount_usd><u_cost_center>EHS-DE-SA</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>Budget FY25</u_forecast_source><u_gl_account>640400</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>8100</u_variance><u_variance_pct>1.8</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-357096906</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc0486b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff1b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>5deae49698c332107f44ea40dcae4b29</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>8125301a180732104944cc14e9f92c0a</update_guid>
+<update_guid_history>8125301a180732104944cc14e9f92c0a:-357096906</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_91eae49698c332107f44ea40dcae4b2b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>91eae49698c332107f44ea40dcae4b2b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>105000</u_actual_amount_usd><u_baseline_amount_usd>120000</u_baseline_amount_usd><u_cost_center>PROD-DE-2</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>Budget FY25</u_forecast_source><u_gl_account>680000</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>15000</u_variance><u_variance_pct>12.5</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-976557061</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc0486b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff4b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>91eae49698c332107f44ea40dcae4b2b</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>4925301ae3073210a57342d8254cf327</update_guid>
+<update_guid_history>4925301ae3073210a57342d8254cf327:-976557061</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_95eae49698c332107f44ea40dcae4b2a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>95eae49698c332107f44ea40dcae4b2a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>958400</u_actual_amount_usd><u_baseline_amount_usd>900000</u_baseline_amount_usd><u_cost_center>LEGAL-NL-C</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V4</u_forecast_source><u_gl_account>660510</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-58400</u_variance><u_variance_pct>-6.49</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-586873796</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc0486b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff390000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>95eae49698c332107f44ea40dcae4b2a</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>0525301a0f0732105afca26d83a9ce11</update_guid>
+<update_guid_history>0525301a0f0732105afca26d83a9ce11:-586873796</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_99eae49698c332107f44ea40dcae4b29</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>99eae49698c332107f44ea40dcae4b29</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>554167</u_actual_amount_usd><u_baseline_amount_usd>550000</u_baseline_amount_usd><u_cost_center>CLIN-DE-01</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V3</u_forecast_source><u_gl_account>640300</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-4167</u_variance><u_variance_pct>-0.76</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>1125664460</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc0486b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>99eae49698c332107f44ea40dcae4b29</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>0d25301a2707321052a6d2c144d3b807</update_guid>
+<update_guid_history>0d25301a2707321052a6d2c144d3b807:1125664460</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_99eae49698c332107f44ea40dcae4b2c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>99eae49698c332107f44ea40dcae4b2c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>1491000</u_actual_amount_usd><u_baseline_amount_usd>1450000</u_baseline_amount_usd><u_cost_center>SALES-US-IN</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V2</u_forecast_source><u_gl_account>740200</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-41000</u_variance><u_variance_pct>-2.83</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-734702808</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc0486c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff6d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>99eae49698c332107f44ea40dcae4b2c</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>5635b01afd0732100fedc57d96ec6b5e</update_guid>
+<update_guid_history>5635b01afd0732100fedc57d96ec6b5e:-734702808</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_9deae49698c332107f44ea40dcae4b28</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>9deae49698c332107f44ea40dcae4b28</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>400001</u_actual_amount_usd><u_baseline_amount_usd>400000</u_baseline_amount_usd><u_cost_center>CC_IT_001</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V2</u_forecast_source><u_gl_account>620510</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-1</u_variance><u_variance_pct>0</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>1289140306</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc0486c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fefa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>9deae49698c332107f44ea40dcae4b28</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>3425fcd6b20732103f5460034b7341fe</update_guid>
+<update_guid_history>3425fcd6b20732103f5460034b7341fe:1289140306</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_9deae49698c332107f44ea40dcae4b2b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>9deae49698c332107f44ea40dcae4b2b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>648000</u_actual_amount_usd><u_baseline_amount_usd>648000</u_baseline_amount_usd><u_cost_center>QC-CH-01</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>Budget FY25</u_forecast_source><u_gl_account>710100</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>0</u_variance><u_variance_pct>0</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-2020602301</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc0486c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff5c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>9deae49698c332107f44ea40dcae4b2b</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>c925301adb073210c26f5442f9a5c849</update_guid>
+<update_guid_history>c925301adb073210c26f5442f9a5c849:-2020602301</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_d1eae49698c332107f44ea40dcae4b2a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>d1eae49698c332107f44ea40dcae4b2a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>874800</u_actual_amount_usd><u_baseline_amount_usd>800000</u_baseline_amount_usd><u_cost_center>HR-IN-RC</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V4</u_forecast_source><u_gl_account>660500</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-74800</u_variance><u_variance_pct>-9.35</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-537664823</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc0486c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff340000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>d1eae49698c332107f44ea40dcae4b2a</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>8d25301abc0732100bfee6899f3e340e</update_guid>
+<update_guid_history>8d25301abc0732100bfee6899f3e340e:-537664823</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_d5eae49698c332107f44ea40dcae4b29</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>d5eae49698c332107f44ea40dcae4b29</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>500100</u_actual_amount_usd><u_baseline_amount_usd>500000</u_baseline_amount_usd><u_cost_center>CLIN-BR-M</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V3</u_forecast_source><u_gl_account>640200</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-100</u_variance><u_variance_pct>-0.02</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>2046905309</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc0486d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff0f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>d5eae49698c332107f44ea40dcae4b29</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>b425301abd07321021d5a87ac81f4505</update_guid>
+<update_guid_history>b425301abd07321021d5a87ac81f4505:2046905309</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_d5eae49698c332107f44ea40dcae4b2c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>d5eae49698c332107f44ea40dcae4b2c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>1100000</u_actual_amount_usd><u_baseline_amount_usd>1100000</u_baseline_amount_usd><u_cost_center>REG-US-01</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V3</u_forecast_source><u_gl_account>730300</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>0</u_variance><u_variance_pct>0</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>982384476</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc0486d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff690000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>d5eae49698c332107f44ea40dcae4b2c</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>1235b01adf073210eaebc4613969295c</update_guid>
+<update_guid_history>1235b01adf073210eaebc4613969295c:982384476</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_d9eae49698c332107f44ea40dcae4b28</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>d9eae49698c332107f44ea40dcae4b28</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>350400</u_actual_amount_usd><u_baseline_amount_usd>350000</u_baseline_amount_usd><u_cost_center>CC_FIN_002</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>Manual</u_forecast_source><u_gl_account>620500</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-400</u_variance><u_variance_pct>-0.11</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-92843861</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc0486d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fef60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>d9eae49698c332107f44ea40dcae4b28</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>f825fcd6f70732106a612d8ffbbbeefb</update_guid>
+<update_guid_history>f825fcd6f70732106a612d8ffbbbeefb:-92843861</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_d9eae49698c332107f44ea40dcae4b2b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>d9eae49698c332107f44ea40dcae4b2b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>724000</u_actual_amount_usd><u_baseline_amount_usd>720000</u_baseline_amount_usd><u_cost_center>PVG-EU-01</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V3</u_forecast_source><u_gl_account>700100</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-4000</u_variance><u_variance_pct>-0.56</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-1165957163</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc0486d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff580000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>d9eae49698c332107f44ea40dcae4b2b</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>8525301aff07321072db85db51e27d47</update_guid>
+<update_guid_history>8525301aff07321072db85db51e27d47:-1165957163</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_ddeae49698c332107f44ea40dcae4b27</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>ddeae49698c332107f44ea40dcae4b27</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>190200</u_actual_amount_usd><u_baseline_amount_usd>190000</u_baseline_amount_usd><u_cost_center>BIZD-IT-01</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>ML Model V3</u_forecast_source><u_gl_account>610000</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>-200</u_variance><u_variance_pct>-0.11</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>1072867124</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc0486e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2feed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>ddeae49698c332107f44ea40dcae4b27</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>3425bcd6a00732103c9d2d4137b04343</update_guid>
+<update_guid_history>3425bcd6a00732103c9d2d4137b04343:1072867124</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_lab_cc_summary_ddeae49698c332107f44ea40dcae4b2a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_lab_cc_summary"><u_lab_cc_summary action="INSERT_OR_UPDATE"><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:14</sys_created_on><sys_id>ddeae49698c332107f44ea40dcae4b2a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:14</sys_updated_on><u_actual_amount_usd>313900</u_actual_amount_usd><u_baseline_amount_usd>320000</u_baseline_amount_usd><u_cost_center>PROD-DE-1</u_cost_center><u_fiscal_year>2025</u_fiscal_year><u_forecast_source>Budget FY25</u_forecast_source><u_gl_account>670300</u_gl_account><u_last_updated>2025-12-26</u_last_updated><u_period>2025-FY</u_period><u_variance>6100</u_variance><u_variance_pct>1.91</u_variance_pct></u_lab_cc_summary></record_update>]]></payload>
+<payload_hash>-1504194434</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc0486e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2ff470000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>ddeae49698c332107f44ea40dcae4b2a</target_name>
+<type>Lab Cc Summary</type>
+<update_domain>global</update_domain>
+<update_guid>0525301a09073210a6af5add12c62c25</update_guid>
+<update_guid_history>0525301a09073210a6af5add12c62c25:-1504194434</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_tables_c1eae49698c332107f44ea40dcae4b24</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_tables"><x_snc_alectri_zc_0_source_tables action="INSERT_OR_UPDATE"><source_database display_value="Snowflake Database">c429979ccf87b61076b9b7fe3d851c7b</source_database><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>c1eae49698c332107f44ea40dcae4b24</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:20:19</sys_updated_on><table_id>u_lab_cc_summary</table_id><table_name>u_lab_cc_summary</table_name></x_snc_alectri_zc_0_source_tables></record_update>]]></payload>
+<payload_hash>2057009918</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc0486e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2febd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>u_lab_cc_summary</target_name>
+<type>Source Tables</type>
+<update_domain>global</update_domain>
+<update_guid>e2b4b0d688073210a9842a7d7dceb9f4</update_guid>
+<update_guid_history>e2b4b0d688073210a9842a7d7dceb9f4:2057009918</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_01eae49698c332107f44ea40dcae4b27</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>LAST_UPDATED</column_label><column_name>last_updated</column_name><source_table display_value="u_lab_cc_summary">c1eae49698c332107f44ea40dcae4b24</source_table><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>01eae49698c332107f44ea40dcae4b27</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>1735690532</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc0486e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fee50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>LAST_UPDATED</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>e9c4b4d66c073210b7533d4a8e366716</update_guid>
+<update_guid_history>e9c4b4d66c073210b7533d4a8e366716:1735690532</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_05eae49698c332107f44ea40dcae4b26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>COST_CENTER</column_label><column_name>cost_center</column_name><source_table display_value="u_lab_cc_summary">c1eae49698c332107f44ea40dcae4b24</source_table><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>05eae49698c332107f44ea40dcae4b26</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-1011368908</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc0486f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fed40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>COST_CENTER</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>2dc4b4d684073210d16d92a38db4930c</update_guid>
+<update_guid_history>2dc4b4d684073210d16d92a38db4930c:-1011368908</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_41eae49698c332107f44ea40dcae4b26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>VARIANCE_PCT</column_label><column_name>variance_pct</column_name><source_table display_value="u_lab_cc_summary">c1eae49698c332107f44ea40dcae4b24</source_table><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>41eae49698c332107f44ea40dcae4b26</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-1636407642</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc0486f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fed00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>VARIANCE_PCT</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>e1c4b4d66e073210bc5136ee2b9f360a</update_guid>
+<update_guid_history>e1c4b4d66e073210bc5136ee2b9f360a:-1636407642</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_4deae49698c332107f44ea40dcae4b26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>GL_ACCOUNT</column_label><column_name>gl_account</column_name><source_table display_value="u_lab_cc_summary">c1eae49698c332107f44ea40dcae4b24</source_table><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>4deae49698c332107f44ea40dcae4b26</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-675475098</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc0486f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fee10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>GL_ACCOUNT</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>a5c4b4d68f07321021d599b0f6ec5a14</update_guid>
+<update_guid_history>a5c4b4d68f07321021d599b0f6ec5a14:-675475098</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_81eae49698c332107f44ea40dcae4b25</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>ACTUAL_AMOUNT_USD</column_label><column_name>actual_amount_usd</column_name><source_table display_value="u_lab_cc_summary">c1eae49698c332107f44ea40dcae4b24</source_table><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>81eae49698c332107f44ea40dcae4b25</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-1973520460</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc0486f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fec30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>ACTUAL_AMOUNT_USD</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>adc474d67207321060f4fdd40f5a6a3a</update_guid>
+<update_guid_history>adc474d67207321060f4fdd40f5a6a3a:-1973520460</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_89eae49698c332107f44ea40dcae4b26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>FORECAST_SOURCE</column_label><column_name>forecast_source</column_name><source_table display_value="u_lab_cc_summary">c1eae49698c332107f44ea40dcae4b24</source_table><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>89eae49698c332107f44ea40dcae4b26</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-938676812</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc04870</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fedd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>FORECAST_SOURCE</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>adc4b4d6ef073210dd67825b6021ae11</update_guid>
+<update_guid_history>adc4b4d6ef073210dd67825b6021ae11:-938676812</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_8deae49698c332107f44ea40dcae4b25</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>VARIANCE</column_label><column_name>variance</column_name><source_table display_value="u_lab_cc_summary">c1eae49698c332107f44ea40dcae4b24</source_table><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>8deae49698c332107f44ea40dcae4b25</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>459598338</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>06114d56450bf2107f4482538cc04870</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fecc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>VARIANCE</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>a9c4b4d6a2073210f1f43f16defc2e07</update_guid>
+<update_guid_history>a9c4b4d6a2073210f1f43f16defc2e07:459598338</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_c1eae49698c332107f44ea40dcae4b27</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>PERIOD</column_label><column_name>period</column_name><source_table display_value="u_lab_cc_summary">c1eae49698c332107f44ea40dcae4b24</source_table><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>c1eae49698c332107f44ea40dcae4b27</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-1510733470</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0a114d56450bf2107f4482538cc04870</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fee90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>PERIOD</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>21c4b4d6ec073210f60153c82a275619</update_guid>
+<update_guid_history>21c4b4d6ec073210f60153c82a275619:-1510733470</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_c5eae49698c332107f44ea40dcae4b26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>FISCAL_YEAR</column_label><column_name>fiscal_year</column_name><source_table display_value="u_lab_cc_summary">c1eae49698c332107f44ea40dcae4b24</source_table><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>c5eae49698c332107f44ea40dcae4b26</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-37740460</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>0e114d56450bf2107f4482538cc04870</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fed80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>FISCAL_YEAR</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>65c4b4d6a4073210a1d85d449eb5bd0f</update_guid>
+<update_guid_history>65c4b4d6a4073210a1d85d449eb5bd0f:-37740460</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_c9eae49698c332107f44ea40dcae4b25</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>BASELINE_AMOUNT_USD</column_label><column_name>baseline_amount_usd</column_name><source_table display_value="u_lab_cc_summary">c1eae49698c332107f44ea40dcae4b24</source_table><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 23:03:13</sys_created_on><sys_id>c9eae49698c332107f44ea40dcae4b25</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 23:03:13</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-383006956</payload_hash>
+<remote_update_set display_value="Snowflake Simulation CC">4a110d56450bf2107f4482538cc048b3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-16 00:40:15</sys_created_on>
+<sys_id>02114d56450bf2107f4482538cc04871</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c63c2fec70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-16 00:40:15</sys_updated_on>
+<table/>
+<target_name>BASELINE_AMOUNT_USD</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>61c4b4d6300732107a5cff9d4544fd05</update_guid>
+<update_guid_history>61c4b4d6300732107a5cff9d4544fd05:-383006956</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

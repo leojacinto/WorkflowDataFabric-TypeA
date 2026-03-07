@@ -1,0 +1,3403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-01-31 13:27:26">
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>14800</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_FIN_002</cost_center>
+<description>Financial Platform</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-18</expense_date>
+<expense_id>EXP-2025-0021</expense_id>
+<gl_account>620500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>109a63003bd6fe500ad1a021a3e45ab9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Workday</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>7200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_002</cost_center>
+<description>Access Points</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-03-11</expense_date>
+<expense_id>EXP-2025-0029</expense_id>
+<gl_account>630000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>109a63003bd6fe500ad1a021a3e45abe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Aruba Networks</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>24600</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-M</cost_center>
+<description>Managers</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-14</expense_date>
+<expense_id>EXP-2025-0037</expense_id>
+<gl_account>640200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>109a63003bd6fe500ad1a021a3e45ac3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Hays Clinical</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>21900</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-DE-01</cost_center>
+<description>Site Mgmt</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-17</expense_date>
+<expense_id>EXP-2025-0045</expense_id>
+<gl_account>640300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>109a63003bd6fe500ad1a021a3e45ac8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Quintiles</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>EHS-DE-SA</cost_center>
+<description>Testing</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-17</expense_date>
+<expense_id>EXP-2025-0053</expense_id>
+<gl_account>640400</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>109a63003bd6fe500ad1a021a3e45acd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>SGS</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>18900</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_001</cost_center>
+<description>Cloud Services Jan</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-08</expense_date>
+<expense_id>EXP-2025-0001</expense_id>
+<gl_account>620510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>149a63003bd6fe500ad1a021a3e45a9d</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:59</sys_updated_on>
+<vendor>Amazon Web Services</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>16100</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_FIN_002</cost_center>
+<description>Reconciliation</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-12</expense_date>
+<expense_id>EXP-2025-0023</expense_id>
+<gl_account>620500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>149a63003bd6fe500ad1a021a3e45aba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>BlackLine</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>7400</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-A</cost_center>
+<description>CRA Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-11</expense_date>
+<expense_id>EXP-2025-0031</expense_id>
+<gl_account>631200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>149a63003bd6fe500ad1a021a3e45abf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Randstad BR</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>24500</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-M</cost_center>
+<description>Management</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-16</expense_date>
+<expense_id>EXP-2025-0039</expense_id>
+<gl_account>640200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>149a63003bd6fe500ad1a021a3e45ac4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Robert Half BR</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>23400</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-DE-01</cost_center>
+<description>ECG Systems</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-03-16</expense_date>
+<expense_id>EXP-2025-0047</expense_id>
+<gl_account>640300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>149a63003bd6fe500ad1a021a3e45ac9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Philips Medical</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>10600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>BIZD-JP-01</cost_center>
+<description>Sales Lead</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-14</expense_date>
+<expense_id>EXP-2025-0017</expense_id>
+<gl_account>610100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>189a63003bd6fe500ad1a021a3e45ab6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Hays Japan</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>6900</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_002</cost_center>
+<description>Network Switches</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-01-09</expense_date>
+<expense_id>EXP-2025-0025</expense_id>
+<gl_account>630000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>189a63003bd6fe500ad1a021a3e45abb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Cisco</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>7200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-A</cost_center>
+<description>Clinical Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-14</expense_date>
+<expense_id>EXP-2025-0033</expense_id>
+<gl_account>631200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>189a63003bd6fe500ad1a021a3e45ac0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Kelly BR</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>24400</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-M</cost_center>
+<description>Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-15</expense_date>
+<expense_id>EXP-2025-0041</expense_id>
+<gl_account>640200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>189a63003bd6fe500ad1a021a3e45ac5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Adecco Healthcare</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13600</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>EHS-DE-SA</cost_center>
+<description>Safety Audit</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-17</expense_date>
+<expense_id>EXP-2025-0049</expense_id>
+<gl_account>640400</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>189a63003bd6fe500ad1a021a3e45aca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>TÜV</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>16200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_FIN_002</cost_center>
+<description>ERP License</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-15</expense_date>
+<expense_id>EXP-2025-0019</expense_id>
+<gl_account>620500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>1c9a63003bd6fe500ad1a021a3e45ab7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Oracle Financials</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>7100</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_002</cost_center>
+<description>Firewall License</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-13</expense_date>
+<expense_id>EXP-2025-0027</expense_id>
+<gl_account>630000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>1c9a63003bd6fe500ad1a021a3e45abc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Palo Alto</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>7000</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-A</cost_center>
+<description>Coordinators</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-13</expense_date>
+<expense_id>EXP-2025-0035</expense_id>
+<gl_account>631200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>1c9a63003bd6fe500ad1a021a3e45ac1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Manpower BR</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>21800</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-DE-01</cost_center>
+<description>Monitors</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-01-13</expense_date>
+<expense_id>EXP-2025-0043</expense_id>
+<gl_account>640300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>1c9a63003bd6fe500ad1a021a3e45ac6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>GE Healthcare</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13700</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>EHS-DE-SA</cost_center>
+<description>Compliance</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-19</expense_date>
+<expense_id>EXP-2025-0051</expense_id>
+<gl_account>640400</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>1c9a63003bd6fe500ad1a021a3e45acb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Bureau Veritas</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>11400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-AU-TR</cost_center>
+<description>Coordinator</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-29</expense_date>
+<expense_id>EXP-2025-0104</expense_id>
+<gl_account>650200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>209aa3003bd6fe500ad1a021a3e45aa9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>23550</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-DE-01</cost_center>
+<description>Research</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-21</expense_date>
+<expense_id>EXP-2025-0112</expense_id>
+<gl_account>640300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>209aa3003bd6fe500ad1a021a3e45aae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>34600</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>QC-CH-01</cost_center>
+<description>Assistants</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-01</expense_date>
+<expense_id>EXP-2025-0136</expense_id>
+<gl_account>710100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>209aa3003bd6fe500ad1a021a3e45ad6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Manpower</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>27600</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-PL</cost_center>
+<description>Planning Software</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-20</expense_date>
+<expense_id>EXP-2025-0139</expense_id>
+<gl_account>750100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>209aa3003bd6fe500ad1a021a3e45ad8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>SAP Ariba</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>29600</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-WH</cost_center>
+<description>WMS</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-26</expense_date>
+<expense_id>EXP-2025-0147</expense_id>
+<gl_account>750200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>209aa3003bd6fe500ad1a021a3e45add</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Manhattan</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>6400</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-A</cost_center>
+<description>CRA</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-13</expense_date>
+<expense_id>EXP-2025-0176</expense_id>
+<gl_account>631200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>209ae3003bd6fe500ad1a021a3e45a08</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kelly</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>18200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-US-DM</cost_center>
+<description>Digital</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-06-01</expense_date>
+<expense_id>EXP-2025-0184</expense_id>
+<gl_account>670200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>209ae3003bd6fe500ad1a021a3e45a0d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Robert Half</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>34800</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>QC-CH-01</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-27</expense_date>
+<expense_id>EXP-2025-0192</expense_id>
+<gl_account>710100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>209ae3003bd6fe500ad1a021a3e45a12</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Randstad</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>12800</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-IN-RC</cost_center>
+<description>Job Postings</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-19</expense_date>
+<expense_id>EXP-2025-0055</expense_id>
+<gl_account>660500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>249a63003bd6fe500ad1a021a3e45ace</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Naukri</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>11400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-AU-TR</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-05</expense_date>
+<expense_id>EXP-2025-0106</expense_id>
+<gl_account>650200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>249aa3003bd6fe500ad1a021a3e45aaa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Robert Half</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>34800</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>QC-CH-01</cost_center>
+<description>Supervisors</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-02</expense_date>
+<expense_id>EXP-2025-0138</expense_id>
+<gl_account>710100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>249aa3003bd6fe500ad1a021a3e45ad7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kelly</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>28200</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-PL</cost_center>
+<description>Platform</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-24</expense_date>
+<expense_id>EXP-2025-0141</expense_id>
+<gl_account>750100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>249aa3003bd6fe500ad1a021a3e45ad9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kinaxis</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>30200</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-WH</cost_center>
+<description>Pallet Jacks</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-03-30</expense_date>
+<expense_id>EXP-2025-0149</expense_id>
+<gl_account>750200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>249aa3003bd6fe500ad1a021a3e45ade</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Crown</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>58800</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-IN-RC</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-26</expense_date>
+<expense_id>EXP-2025-0178</expense_id>
+<gl_account>660500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>249ae3003bd6fe500ad1a021a3e45a09</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>TeamLease</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>33600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-ES-01</cost_center>
+<description>Production</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-06-03</expense_date>
+<expense_id>EXP-2025-0186</expense_id>
+<gl_account>690100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>249ae3003bd6fe500ad1a021a3e45a0e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Manpower</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>11350</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-AU-TR</cost_center>
+<description>Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-03</expense_date>
+<expense_id>EXP-2025-0108</expense_id>
+<gl_account>650200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>289aa3003bd6fe500ad1a021a3e45aab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adecco</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>27800</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-PL</cost_center>
+<description>Forecasting</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-28</expense_date>
+<expense_id>EXP-2025-0143</expense_id>
+<gl_account>750100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>289aa3003bd6fe500ad1a021a3e45ada</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Blue Yonder</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>32400</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>REG-US-01</cost_center>
+<description>FDA Support</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-24</expense_date>
+<expense_id>EXP-2025-0151</expense_id>
+<gl_account>730300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>289aa3003bd6fe500ad1a021a3e45adf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Regulatory Pro</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>49200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>LEGAL-NL-C</cost_center>
+<description>Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-28</expense_date>
+<expense_id>EXP-2025-0180</expense_id>
+<gl_account>660510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>289ae3003bd6fe500ad1a021a3e45a0a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Hays</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>37600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-IT-01</cost_center>
+<description>Operators</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-06-05</expense_date>
+<expense_id>EXP-2025-0188</expense_id>
+<gl_account>690200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>289ae3003bd6fe500ad1a021a3e45a0f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Adecco</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>35200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-IT-01</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-26</expense_date>
+<expense_id>EXP-2025-0102</expense_id>
+<gl_account>690200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>2c9aa3003bd6fe500ad1a021a3e45aa7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adecco IT</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>16650</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-M</cost_center>
+<description>Support</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-19</expense_date>
+<expense_id>EXP-2025-0110</expense_id>
+<gl_account>640200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>2c9aa3003bd6fe500ad1a021a3e45aac</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>ICON</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>34500</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>QC-CH-01</cost_center>
+<description>Technicians</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-25</expense_date>
+<expense_id>EXP-2025-0134</expense_id>
+<gl_account>710100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>2c9aa3003bd6fe500ad1a021a3e45ad4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adecco CH</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>29400</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-WH</cost_center>
+<description>Forklifts</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-01-22</expense_date>
+<expense_id>EXP-2025-0145</expense_id>
+<gl_account>750200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>2c9aa3003bd6fe500ad1a021a3e45adb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Jungheinrich</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>32800</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>REG-US-01</cost_center>
+<description>Document Mgmt</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-28</expense_date>
+<expense_id>EXP-2025-0153</expense_id>
+<gl_account>730300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>2c9aa3003bd6fe500ad1a021a3e45ae0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Veeva Vault</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>11350</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-AU-TR</cost_center>
+<description>Coordinators</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-27</expense_date>
+<expense_id>EXP-2025-0174</expense_id>
+<gl_account>650200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>2c9ae3003bd6fe500ad1a021a3e45a06</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>31200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-FR-PR</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-30</expense_date>
+<expense_id>EXP-2025-0182</expense_id>
+<gl_account>670100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>2c9ae3003bd6fe500ad1a021a3e45a0b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Randstad</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>24800</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>PVG-EU-01</cost_center>
+<description>Platform</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-25</expense_date>
+<expense_id>EXP-2025-0190</expense_id>
+<gl_account>700100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>2c9ae3003bd6fe500ad1a021a3e45a10</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Veeva</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>14550</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_001</cost_center>
+<description>Support Mar</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-18</expense_date>
+<expense_id>EXP-2025-0006</expense_id>
+<gl_account>620510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>509a63003bd6fe500ad1a021a3e45aa3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Kelly IT</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>8700</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>BIZD-IT-01</cost_center>
+<description>Market Research</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-20</expense_date>
+<expense_id>EXP-2025-0008</expense_id>
+<gl_account>610000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>549a63003bd6fe500ad1a021a3e45aa4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Gartner</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>14500</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_001</cost_center>
+<description>Support Team Jan</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-15</expense_date>
+<expense_id>EXP-2025-0002</expense_id>
+<gl_account>620510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>589a63003bd6fe500ad1a021a3e45aa0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Adecco IT</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>6300</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>BIZD-IT-01</cost_center>
+<description>CRM License</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-22</expense_date>
+<expense_id>EXP-2025-0010</expense_id>
+<gl_account>610000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>589a63003bd6fe500ad1a021a3e45aa5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Salesforce</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>11400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>BIZD-JP-01</cost_center>
+<description>Tokyo Summit</description>
+<expense_category>Travel</expense_category>
+<expense_date>2025-01-10</expense_date>
+<expense_id>EXP-2025-0013</expense_id>
+<gl_account>610100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>589a63003bd6fe500ad1a021a3e45aa7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>JAL</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13100</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_001</cost_center>
+<description>IT Staff Feb</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-12</expense_date>
+<expense_id>EXP-2025-0004</expense_id>
+<gl_account>620510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>5c9a63003bd6fe500ad1a021a3e45aa1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Randstad Tech</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>7100</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>BIZD-IT-01</cost_center>
+<description>Sales Navigator</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-16</expense_date>
+<expense_id>EXP-2025-0012</expense_id>
+<gl_account>610000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>5c9a63003bd6fe500ad1a021a3e45aa6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>LinkedIn</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>10200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>BIZD-JP-01</cost_center>
+<description>Market Data</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-12</expense_date>
+<expense_id>EXP-2025-0015</expense_id>
+<gl_account>610100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>5c9a63003bd6fe500ad1a021a3e45aa8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Nikkei</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>48000</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>LEGAL-NL-C</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-01</expense_date>
+<expense_id>EXP-2025-0064</expense_id>
+<gl_account>660510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45a12</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Robert Walters</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>30900</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-FR-PR</cost_center>
+<description>Campaign Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-30</expense_date>
+<expense_id>EXP-2025-0072</expense_id>
+<gl_account>670100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45a17</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kelly FR</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13100</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-1</cost_center>
+<description>Press Parts</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-01-07</expense_date>
+<expense_id>EXP-2025-0079</expense_id>
+<gl_account>670300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45a66</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Fette</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>4400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-2</cost_center>
+<description>Sterilization</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-13</expense_date>
+<expense_id>EXP-2025-0087</expense_id>
+<gl_account>680000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45a6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Steris</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>30400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-ES-01</cost_center>
+<description>Cartoning</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-03-17</expense_date>
+<expense_id>EXP-2025-0095</expense_id>
+<gl_account>690100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45a70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Marchesini</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>30200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-IT-01</cost_center>
+<description>Mixing Tanks</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-01-13</expense_date>
+<expense_id>EXP-2025-0097</expense_id>
+<gl_account>690200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45aa3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>GEA</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>35200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-IT-01</cost_center>
+<description>Operators</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-24</expense_date>
+<expense_id>EXP-2025-0100</expense_id>
+<gl_account>690200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45aa5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Manpower</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>17900</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-US-DM</cost_center>
+<description>Platform</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-24</expense_date>
+<expense_id>EXP-2025-0121</expense_id>
+<gl_account>670200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45ac0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adobe</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>25200</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>PVG-EU-01</cost_center>
+<description>Case Processing</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-29</expense_date>
+<expense_id>EXP-2025-0132</expense_id>
+<gl_account>700100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45ac7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>ArisGlobal</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>59200</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>REG-US-01</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-07</expense_date>
+<expense_id>EXP-2025-0156</expense_id>
+<gl_account>730300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45aef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Robert Half</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>16800</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_001</cost_center>
+<description>Storage</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-05-08</expense_date>
+<expense_id>EXP-2025-0164</expense_id>
+<gl_account>620510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45af4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>HPE</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>6300</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_002</cost_center>
+<description>Network</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-18</expense_date>
+<expense_id>EXP-2025-0172</expense_id>
+<gl_account>630000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>609aa3003bd6fe500ad1a021a3e45af9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kelly</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>59800</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>REG-US-01</cost_center>
+<description>Regulatory</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-06-02</expense_date>
+<expense_id>EXP-2025-0198</expense_id>
+<gl_account>730300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>609ae3003bd6fe500ad1a021a3e45a3b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Kelly</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>56200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-IN-RC</cost_center>
+<description>Senior Recruiters</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-28</expense_date>
+<expense_id>EXP-2025-0058</expense_id>
+<gl_account>660500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>649aa3003bd6fe500ad1a021a3e45a0e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>ABC Consultants</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>48000</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>LEGAL-NL-C</cost_center>
+<description>Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-28</expense_date>
+<expense_id>EXP-2025-0066</expense_id>
+<gl_account>660510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>649aa3003bd6fe500ad1a021a3e45a13</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Michael Page</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>17700</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-US-DM</cost_center>
+<description>Specialists</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-01</expense_date>
+<expense_id>EXP-2025-0074</expense_id>
+<gl_account>670200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>649aa3003bd6fe500ad1a021a3e45a18</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays Digital</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-1</cost_center>
+<description>Validation</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-11</expense_date>
+<expense_id>EXP-2025-0081</expense_id>
+<gl_account>670300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>649aa3003bd6fe500ad1a021a3e45a67</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Körber</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>4200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-2</cost_center>
+<description>Fillers</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-03-15</expense_date>
+<expense_id>EXP-2025-0089</expense_id>
+<gl_account>680000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>649aa3003bd6fe500ad1a021a3e45a6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Groninger</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>31200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-IT-01</cost_center>
+<description>Containers</description>
+<expense_category>Materials</expense_category>
+<expense_date>2025-02-17</expense_date>
+<expense_id>EXP-2025-0099</expense_id>
+<gl_account>690200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>649aa3003bd6fe500ad1a021a3e45aa4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>B Braun</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>14200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-IN-RC</cost_center>
+<description>Platform</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-18</expense_date>
+<expense_id>EXP-2025-0115</expense_id>
+<gl_account>660500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>649aa3003bd6fe500ad1a021a3e45abc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Monster</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>29200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-ES-01</cost_center>
+<description>Systems</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-04-26</expense_date>
+<expense_id>EXP-2025-0123</expense_id>
+<gl_account>690100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>649aa3003bd6fe500ad1a021a3e45ac1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Coesia</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>54400</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SALES-US-IN</cost_center>
+<description>CRM Platform</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-02</expense_date>
+<expense_id>EXP-2025-0158</expense_id>
+<gl_account>740200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>649aa3003bd6fe500ad1a021a3e45af0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Salesforce</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>7900</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>BIZD-IT-01</cost_center>
+<description>Analysis</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-05-12</expense_date>
+<expense_id>EXP-2025-0166</expense_id>
+<gl_account>610000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>649aa3003bd6fe500ad1a021a3e45af5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>IDC</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>57400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-IN-RC</cost_center>
+<description>HR Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-26</expense_date>
+<expense_id>EXP-2025-0060</expense_id>
+<gl_account>660500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>689aa3003bd6fe500ad1a021a3e45a0f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kelly IN</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>29200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-FR-PR</cost_center>
+<description>Product Managers</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-30</expense_date>
+<expense_id>EXP-2025-0068</expense_id>
+<gl_account>670100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>689aa3003bd6fe500ad1a021a3e45a14</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Randstad</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>17200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-US-DM</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-06</expense_date>
+<expense_id>EXP-2025-0076</expense_id>
+<gl_account>670200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>689aa3003bd6fe500ad1a021a3e45a19</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Robert Half</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13000</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-1</cost_center>
+<description>Blister Equipment</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-03-13</expense_date>
+<expense_id>EXP-2025-0083</expense_id>
+<gl_account>670300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>689aa3003bd6fe500ad1a021a3e45a68</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Bosch</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>28200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-ES-01</cost_center>
+<description>Maintenance</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-01-11</expense_date>
+<expense_id>EXP-2025-0091</expense_id>
+<gl_account>690100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>689aa3003bd6fe500ad1a021a3e45a6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>IMA</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>29800</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>LEGAL-NL-C</cost_center>
+<description>Advisory</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-20</expense_date>
+<expense_id>EXP-2025-0117</expense_id>
+<gl_account>660510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>689aa3003bd6fe500ad1a021a3e45abd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Baker McKenzie</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>31600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-IT-01</cost_center>
+<description>Processing</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-04-28</expense_date>
+<expense_id>EXP-2025-0125</expense_id>
+<gl_account>690200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>689aa3003bd6fe500ad1a021a3e45ac2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Alfa Laval</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>25200</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>PVG-EU-01</cost_center>
+<description>Safety Database</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-23</expense_date>
+<expense_id>EXP-2025-0128</expense_id>
+<gl_account>700100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>689aa3003bd6fe500ad1a021a3e45ac4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Oracle Argus</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>55600</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SALES-US-IN</cost_center>
+<description>Marketing</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-07</expense_date>
+<expense_id>EXP-2025-0160</expense_id>
+<gl_account>740200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>689aa3003bd6fe500ad1a021a3e45af1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>HubSpot</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>9150</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>BIZD-JP-01</cost_center>
+<description>BD</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-14</expense_date>
+<expense_id>EXP-2025-0168</expense_id>
+<gl_account>610100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>689aa3003bd6fe500ad1a021a3e45af6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Recruit</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>47200</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-PL</cost_center>
+<description>Analysts</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-29</expense_date>
+<expense_id>EXP-2025-0194</expense_id>
+<gl_account>750100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>689ae3003bd6fe500ad1a021a3e45a38</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Hays</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>47600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>LEGAL-NL-C</cost_center>
+<description>Officers</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-28</expense_date>
+<expense_id>EXP-2025-0062</expense_id>
+<gl_account>660510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>6c9aa3003bd6fe500ad1a021a3e45a10</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays Legal NL</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>29300</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-FR-PR</cost_center>
+<description>Marketing Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-04</expense_date>
+<expense_id>EXP-2025-0070</expense_id>
+<gl_account>670100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>6c9aa3003bd6fe500ad1a021a3e45a15</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adecco FR</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>18400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-US-DM</cost_center>
+<description>Automation</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-25</expense_date>
+<expense_id>EXP-2025-0077</expense_id>
+<gl_account>670200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>6c9aa3003bd6fe500ad1a021a3e45a64</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>HubSpot</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>4600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-2</cost_center>
+<description>Filling Parts</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-01-09</expense_date>
+<expense_id>EXP-2025-0085</expense_id>
+<gl_account>680000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>6c9aa3003bd6fe500ad1a021a3e45a69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Bausch</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>28800</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-ES-01</cost_center>
+<description>Materials</description>
+<expense_category>Materials</expense_category>
+<expense_date>2025-02-15</expense_date>
+<expense_id>EXP-2025-0093</expense_id>
+<gl_account>690100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>6c9aa3003bd6fe500ad1a021a3e45a6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Amcor</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>19800</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-FR-PR</cost_center>
+<description>Campaign</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-22</expense_date>
+<expense_id>EXP-2025-0119</expense_id>
+<gl_account>670100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>6c9aa3003bd6fe500ad1a021a3e45abe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Dentsu</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>25200</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>PVG-EU-01</cost_center>
+<description>Safety Cloud</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-27</expense_date>
+<expense_id>EXP-2025-0130</expense_id>
+<gl_account>700100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>6c9aa3003bd6fe500ad1a021a3e45ac5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Veeva</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>59300</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>REG-US-01</cost_center>
+<description>Writers</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-07</expense_date>
+<expense_id>EXP-2025-0154</expense_id>
+<gl_account>730300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>6c9aa3003bd6fe500ad1a021a3e45aed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays Pharma</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>55800</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SALES-US-IN</cost_center>
+<description>Intelligence</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-05</expense_date>
+<expense_id>EXP-2025-0162</expense_id>
+<gl_account>740200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>6c9aa3003bd6fe500ad1a021a3e45af2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>ZoomInfo</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>14450</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_FIN_002</cost_center>
+<description>Accountants</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-16</expense_date>
+<expense_id>EXP-2025-0170</expense_id>
+<gl_account>620500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>6c9aa3003bd6fe500ad1a021a3e45af7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>51000</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-WH</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-31</expense_date>
+<expense_id>EXP-2025-0196</expense_id>
+<gl_account>750200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>6c9ae3003bd6fe500ad1a021a3e45a39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Manpower</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>7900</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>BIZD-JP-01</cost_center>
+<description>Partnership Marketing</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-22</expense_date>
+<expense_id>EXP-2025-0018</expense_id>
+<gl_account>610100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>909a63003bd6fe500ad1a021a3e45ab7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Dentsu</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>5500</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_002</cost_center>
+<description>Network Admin</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-16</expense_date>
+<expense_id>EXP-2025-0026</expense_id>
+<gl_account>630000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>909a63003bd6fe500ad1a021a3e45abc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Kelly SG</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>5400</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-A</cost_center>
+<description>Data Mgmt</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-21</expense_date>
+<expense_id>EXP-2025-0034</expense_id>
+<gl_account>631200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>909a63003bd6fe500ad1a021a3e45ac1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>IQVIA</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>17200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-M</cost_center>
+<description>Operations</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-23</expense_date>
+<expense_id>EXP-2025-0042</expense_id>
+<gl_account>640200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>909a63003bd6fe500ad1a021a3e45ac6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Syneos Health</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>23200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>EHS-DE-SA</cost_center>
+<description>EHS Officers</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-24</expense_date>
+<expense_id>EXP-2025-0050</expense_id>
+<gl_account>640400</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>909a63003bd6fe500ad1a021a3e45acb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Adecco Safety</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13100</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_FIN_002</cost_center>
+<description>Accountant</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-22</expense_date>
+<expense_id>EXP-2025-0020</expense_id>
+<gl_account>620500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>949a63003bd6fe500ad1a021a3e45ab8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Hays Finance</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>5450</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_002</cost_center>
+<description>IT Support</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-20</expense_date>
+<expense_id>EXP-2025-0028</expense_id>
+<gl_account>630000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>949a63003bd6fe500ad1a021a3e45abd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Adecco SG</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>5400</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-A</cost_center>
+<description>Patient Recruitment</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-20</expense_date>
+<expense_id>EXP-2025-0036</expense_id>
+<gl_account>631200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>949a63003bd6fe500ad1a021a3e45ac2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>PPD</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>25400</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-DE-01</cost_center>
+<description>CRA Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-20</expense_date>
+<expense_id>EXP-2025-0044</expense_id>
+<gl_account>640300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>949a63003bd6fe500ad1a021a3e45ac7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Randstad DE</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>23200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>EHS-DE-SA</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-26</expense_date>
+<expense_id>EXP-2025-0052</expense_id>
+<gl_account>640400</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>949a63003bd6fe500ad1a021a3e45acc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Manpower Safety</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>14300</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_FIN_002</cost_center>
+<description>Finance Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-25</expense_date>
+<expense_id>EXP-2025-0022</expense_id>
+<gl_account>620500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>989a63003bd6fe500ad1a021a3e45ab9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Robert Half</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>5250</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_002</cost_center>
+<description>Network Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-18</expense_date>
+<expense_id>EXP-2025-0030</expense_id>
+<gl_account>630000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>989a63003bd6fe500ad1a021a3e45abe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Manpower SG</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>17200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-M</cost_center>
+<description>Regulatory</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-22</expense_date>
+<expense_id>EXP-2025-0038</expense_id>
+<gl_account>640200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>989a63003bd6fe500ad1a021a3e45ac3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Parexel</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>24200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-DE-01</cost_center>
+<description>Clinical Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-24</expense_date>
+<expense_id>EXP-2025-0046</expense_id>
+<gl_account>640300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>989a63003bd6fe500ad1a021a3e45ac8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Manpower DE</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13150</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_FIN_002</cost_center>
+<description>Senior Accountant</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-20</expense_date>
+<expense_id>EXP-2025-0024</expense_id>
+<gl_account>620500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>9c9a63003bd6fe500ad1a021a3e45aba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Michael Page</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>5400</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-A</cost_center>
+<description>Monitoring</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-18</expense_date>
+<expense_id>EXP-2025-0032</expense_id>
+<gl_account>631200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>9c9a63003bd6fe500ad1a021a3e45abf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Medpace</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>17200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-M</cost_center>
+<description>Oversight</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-24</expense_date>
+<expense_id>EXP-2025-0040</expense_id>
+<gl_account>640200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>9c9a63003bd6fe500ad1a021a3e45ac4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Covance</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>25900</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-DE-01</cost_center>
+<description>Research Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-24</expense_date>
+<expense_id>EXP-2025-0048</expense_id>
+<gl_account>640300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>9c9a63003bd6fe500ad1a021a3e45ac9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Kelly DE</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>33600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-IT-01</cost_center>
+<description>Filling Equipment</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-03-19</expense_date>
+<expense_id>EXP-2025-0101</expense_id>
+<gl_account>690200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a09aa3003bd6fe500ad1a021a3e45aa7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>SPX FLOW</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>25100</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-M</cost_center>
+<description>Management</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-12</expense_date>
+<expense_id>EXP-2025-0109</expense_id>
+<gl_account>640200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a09aa3003bd6fe500ad1a021a3e45aac</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kelly</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>47300</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-PL</cost_center>
+<description>Coordinators</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-04</expense_date>
+<expense_id>EXP-2025-0144</expense_id>
+<gl_account>750100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a09aa3003bd6fe500ad1a021a3e45adb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adecco</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>58800</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>REG-US-01</cost_center>
+<description>Specialists</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-31</expense_date>
+<expense_id>EXP-2025-0152</expense_id>
+<gl_account>730300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a09aa3003bd6fe500ad1a021a3e45ae0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kelly Scientific</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>21200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-FR-PR</cost_center>
+<description>Campaign</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-05-23</expense_date>
+<expense_id>EXP-2025-0181</expense_id>
+<gl_account>670100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>a09ae3003bd6fe500ad1a021a3e45a0b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Havas</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>35100</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>PVG-EU-01</cost_center>
+<description>Officers</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-18</expense_date>
+<expense_id>EXP-2025-0189</expense_id>
+<gl_account>700100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>a09ae3003bd6fe500ad1a021a3e45a10</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Kelly</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>11200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-AU-TR</cost_center>
+<description>Platform</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-22</expense_date>
+<expense_id>EXP-2025-0103</expense_id>
+<gl_account>650200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a49aa3003bd6fe500ad1a021a3e45aa8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>LinkedIn Learning</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>22600</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-DE-01</cost_center>
+<description>Lab Equipment</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-04-14</expense_date>
+<expense_id>EXP-2025-0111</expense_id>
+<gl_account>640300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a49aa3003bd6fe500ad1a021a3e45aad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Siemens</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>19600</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>QC-CH-01</cost_center>
+<description>Autoclave</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-02-22</expense_date>
+<expense_id>EXP-2025-0135</expense_id>
+<gl_account>710100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a49aa3003bd6fe500ad1a021a3e45ad5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Thermo</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>51200</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-WH</cost_center>
+<description>Warehouse Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-29</expense_date>
+<expense_id>EXP-2025-0146</expense_id>
+<gl_account>750200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a49aa3003bd6fe500ad1a021a3e45adc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Manpower</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>6300</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CLIN-BR-A</cost_center>
+<description>Lab Services</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-11</expense_date>
+<expense_id>EXP-2025-0175</expense_id>
+<gl_account>631200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a49ae3003bd6fe500ad1a021a3e45a07</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Labcorp</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>18600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-US-DM</cost_center>
+<description>Email</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-05-25</expense_date>
+<expense_id>EXP-2025-0183</expense_id>
+<gl_account>670200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>a49ae3003bd6fe500ad1a021a3e45a0c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Mailchimp</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>19300</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>QC-CH-01</cost_center>
+<description>Calibration</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-04-20</expense_date>
+<expense_id>EXP-2025-0191</expense_id>
+<gl_account>710100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>a49ae3003bd6fe500ad1a021a3e45a11</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Mettler</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>23500</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>EHS-DE-SA</cost_center>
+<description>Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-25</expense_date>
+<expense_id>EXP-2025-0054</expense_id>
+<gl_account>640400</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a89a63003bd6fe500ad1a021a3e45acd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Randstad EHS</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>11300</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-AU-TR</cost_center>
+<description>E-Learning</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-26</expense_date>
+<expense_id>EXP-2025-0105</expense_id>
+<gl_account>650200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a89aa3003bd6fe500ad1a021a3e45aa9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Skillsoft</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13500</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>EHS-DE-SA</cost_center>
+<description>Certification</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-16</expense_date>
+<expense_id>EXP-2025-0113</expense_id>
+<gl_account>640400</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a89aa3003bd6fe500ad1a021a3e45aae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>DEKRA</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>19100</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>QC-CH-01</cost_center>
+<description>Calibration</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-03-26</expense_date>
+<expense_id>EXP-2025-0137</expense_id>
+<gl_account>710100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a89aa3003bd6fe500ad1a021a3e45ad6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Eppendorf</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>47100</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-PL</cost_center>
+<description>Planners</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-27</expense_date>
+<expense_id>EXP-2025-0140</expense_id>
+<gl_account>750100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a89aa3003bd6fe500ad1a021a3e45ad8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays SCM</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>50800</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-WH</cost_center>
+<description>Supervisors</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-05</expense_date>
+<expense_id>EXP-2025-0148</expense_id>
+<gl_account>750200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a89aa3003bd6fe500ad1a021a3e45add</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Randstad</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>14800</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-IN-RC</cost_center>
+<description>Branding</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-05-19</expense_date>
+<expense_id>EXP-2025-0177</expense_id>
+<gl_account>660500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>a89ae3003bd6fe500ad1a021a3e45a08</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Glassdoor</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>31600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-ES-01</cost_center>
+<description>Materials</description>
+<expense_category>Materials</expense_category>
+<expense_date>2025-05-27</expense_date>
+<expense_id>EXP-2025-0185</expense_id>
+<gl_account>690100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>a89ae3003bd6fe500ad1a021a3e45a0d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Klöckner</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>28400</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-PL</cost_center>
+<description>Planning</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-05-22</expense_date>
+<expense_id>EXP-2025-0193</expense_id>
+<gl_account>750100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>a89ae3003bd6fe500ad1a021a3e45a12</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Oracle SCM</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>55400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-IN-RC</cost_center>
+<description>Recruiters</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-26</expense_date>
+<expense_id>EXP-2025-0056</expense_id>
+<gl_account>660500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ac9a63003bd6fe500ad1a021a3e45ace</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>TeamLease</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>11200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-AU-TR</cost_center>
+<description>Courses</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-27</expense_date>
+<expense_id>EXP-2025-0107</expense_id>
+<gl_account>650200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ac9aa3003bd6fe500ad1a021a3e45aaa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Udemy</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>47200</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-PL</cost_center>
+<description>Analysts</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-03</expense_date>
+<expense_id>EXP-2025-0142</expense_id>
+<gl_account>750100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ac9aa3003bd6fe500ad1a021a3e45ad9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Robert Walters</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>51700</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-WH</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-06</expense_date>
+<expense_id>EXP-2025-0150</expense_id>
+<gl_account>750200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ac9aa3003bd6fe500ad1a021a3e45ade</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adecco</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>31400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>LEGAL-NL-C</cost_center>
+<description>Legal</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-05-21</expense_date>
+<expense_id>EXP-2025-0179</expense_id>
+<gl_account>660510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>ac9ae3003bd6fe500ad1a021a3e45a09</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Simmons</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>33200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-IT-01</cost_center>
+<description>Systems</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-05-29</expense_date>
+<expense_id>EXP-2025-0187</expense_id>
+<gl_account>690200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>ac9ae3003bd6fe500ad1a021a3e45a0e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Tetra Pak</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>19200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_001</cost_center>
+<description>Platform License Feb</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-05</expense_date>
+<expense_id>EXP-2025-0003</expense_id>
+<gl_account>620510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>d09a63003bd6fe500ad1a021a3e45aa1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>ServiceNow</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>8900</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>BIZD-IT-01</cost_center>
+<description>Partner Visit</description>
+<expense_category>Travel</expense_category>
+<expense_date>2025-03-08</expense_date>
+<expense_id>EXP-2025-0011</expense_id>
+<gl_account>610000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>d09a63003bd6fe500ad1a021a3e45aa6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Emirates</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>6800</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>BIZD-JP-01</cost_center>
+<description>BD Manager</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-18</expense_date>
+<expense_id>EXP-2025-0014</expense_id>
+<gl_account>610100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>d09a63003bd6fe500ad1a021a3e45aa8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Robert Walters JP</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>18800</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_001</cost_center>
+<description>Server Maintenance</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-03-10</expense_date>
+<expense_id>EXP-2025-0005</expense_id>
+<gl_account>620510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>d49a63003bd6fe500ad1a021a3e45aa2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Dell EMC</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>8200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>BIZD-JP-01</cost_center>
+<description>Osaka Meetings</description>
+<expense_category>Travel</expense_category>
+<expense_date>2025-02-20</expense_date>
+<expense_id>EXP-2025-0016</expense_id>
+<gl_account>610100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>d49a63003bd6fe500ad1a021a3e45aa9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>ANA</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>7200</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>BIZD-IT-01</cost_center>
+<description>Milan Conference</description>
+<expense_category>Travel</expense_category>
+<expense_date>2025-01-12</expense_date>
+<expense_id>EXP-2025-0007</expense_id>
+<gl_account>610000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>d89a63003bd6fe500ad1a021a3e45aa3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Alitalia</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>9400</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>BIZD-IT-01</cost_center>
+<description>BD Specialist</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-14</expense_date>
+<expense_id>EXP-2025-0009</expense_id>
+<gl_account>610000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:15</sys_created_on>
+<sys_id>dc9a63003bd6fe500ad1a021a3e45aa4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:15</sys_updated_on>
+<vendor>Hays Italy</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>28600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>LEGAL-NL-C</cost_center>
+<description>Compliance Review</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-21</expense_date>
+<expense_id>EXP-2025-0061</expense_id>
+<gl_account>660510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e09aa3003bd6fe500ad1a021a3e45a10</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>DLA Piper</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>19600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-FR-PR</cost_center>
+<description>Digital Ads</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-25</expense_date>
+<expense_id>EXP-2025-0069</expense_id>
+<gl_account>670100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e09aa3003bd6fe500ad1a021a3e45a15</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Havas</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13000</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-1</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-20</expense_date>
+<expense_id>EXP-2025-0084</expense_id>
+<gl_account>670300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e09aa3003bd6fe500ad1a021a3e45a69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adecco</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>32000</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-ES-01</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-18</expense_date>
+<expense_id>EXP-2025-0092</expense_id>
+<gl_account>690100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e09aa3003bd6fe500ad1a021a3e45a6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Randstad ES</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>48300</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>LEGAL-NL-C</cost_center>
+<description>Officers</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-27</expense_date>
+<expense_id>EXP-2025-0118</expense_id>
+<gl_account>660510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e09aa3003bd6fe500ad1a021a3e45abe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>35600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-IT-01</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-05</expense_date>
+<expense_id>EXP-2025-0126</expense_id>
+<gl_account>690200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e09aa3003bd6fe500ad1a021a3e45ac3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Manpower</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>35000</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>PVG-EU-01</cost_center>
+<description>Specialists</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-20</expense_date>
+<expense_id>EXP-2025-0129</expense_id>
+<gl_account>700100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e09aa3003bd6fe500ad1a021a3e45ac5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>67800</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SALES-US-IN</cost_center>
+<description>Sales Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-29</expense_date>
+<expense_id>EXP-2025-0161</expense_id>
+<gl_account>740200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e09aa3003bd6fe500ad1a021a3e45af2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays Sales</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>14700</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_FIN_002</cost_center>
+<description>Finance</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-19</expense_date>
+<expense_id>EXP-2025-0169</expense_id>
+<gl_account>620500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e09aa3003bd6fe500ad1a021a3e45af7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>SAP</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>30400</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SCM-UK-WH</cost_center>
+<description>Warehouse</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-05-24</expense_date>
+<expense_id>EXP-2025-0195</expense_id>
+<gl_account>750200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>e09ae3003bd6fe500ad1a021a3e45a39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>SAP EWM</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>29400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>LEGAL-NL-C</cost_center>
+<description>GDPR Audit</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-23</expense_date>
+<expense_id>EXP-2025-0063</expense_id>
+<gl_account>660510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e49aa3003bd6fe500ad1a021a3e45a11</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Norton Rose</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>20800</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-FR-PR</cost_center>
+<description>Research</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-23</expense_date>
+<expense_id>EXP-2025-0071</expense_id>
+<gl_account>670100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e49aa3003bd6fe500ad1a021a3e45a16</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>BVA</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>17700</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-US-DM</cost_center>
+<description>Creators</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-02</expense_date>
+<expense_id>EXP-2025-0078</expense_id>
+<gl_account>670200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e49aa3003bd6fe500ad1a021a3e45a65</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adecco</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>4600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-2</cost_center>
+<description>Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-16</expense_date>
+<expense_id>EXP-2025-0086</expense_id>
+<gl_account>680000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e49aa3003bd6fe500ad1a021a3e45a6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kelly</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>32600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-ES-01</cost_center>
+<description>Operators</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-22</expense_date>
+<expense_id>EXP-2025-0094</expense_id>
+<gl_account>690100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e49aa3003bd6fe500ad1a021a3e45a6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Manpower</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>29700</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-FR-PR</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-29</expense_date>
+<expense_id>EXP-2025-0120</expense_id>
+<gl_account>670100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e49aa3003bd6fe500ad1a021a3e45abf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kelly</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>35400</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>PVG-EU-01</cost_center>
+<description>Coordinators</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-22</expense_date>
+<expense_id>EXP-2025-0131</expense_id>
+<gl_account>700100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e49aa3003bd6fe500ad1a021a3e45ac6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Kelly EU</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>32600</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>REG-US-01</cost_center>
+<description>QMS</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-31</expense_date>
+<expense_id>EXP-2025-0155</expense_id>
+<gl_account>730300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e49aa3003bd6fe500ad1a021a3e45aee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>MasterControl</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>16500</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_001</cost_center>
+<description>Cloud Apr</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-04-10</expense_date>
+<expense_id>EXP-2025-0163</expense_id>
+<gl_account>620510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e49aa3003bd6fe500ad1a021a3e45af3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>AWS</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>6300</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>CC_IT_002</cost_center>
+<description>Security</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-04-21</expense_date>
+<expense_id>EXP-2025-0171</expense_id>
+<gl_account>630000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e49aa3003bd6fe500ad1a021a3e45af8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Fortinet</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>33200</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>REG-US-01</cost_center>
+<description>Consulting</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-05-26</expense_date>
+<expense_id>EXP-2025-0197</expense_id>
+<gl_account>730300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>e49ae3003bd6fe500ad1a021a3e45a3a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Parexel</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>55700</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SALES-US-IN</cost_center>
+<description>Sales Platform</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-06-04</expense_date>
+<expense_id>EXP-2025-0200</expense_id>
+<gl_account>740200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>e49ae3003bd6fe500ad1a021a3e45a3c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Outreach</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-IN-RC</cost_center>
+<description>Recruiter License</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-21</expense_date>
+<expense_id>EXP-2025-0057</expense_id>
+<gl_account>660500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45a0d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>LinkedIn IN</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>31200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>LEGAL-NL-C</cost_center>
+<description>Contracts</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-21</expense_date>
+<expense_id>EXP-2025-0065</expense_id>
+<gl_account>660510</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45a12</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Allen &amp; Overy</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>16200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-US-DM</cost_center>
+<description>Digital Jan</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-25</expense_date>
+<expense_id>EXP-2025-0073</expense_id>
+<gl_account>670200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45a17</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Google Ads</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13000</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-1</cost_center>
+<description>Operators</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-14</expense_date>
+<expense_id>EXP-2025-0080</expense_id>
+<gl_account>670300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45a66</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Randstad</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>4500</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-2</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-20</expense_date>
+<expense_id>EXP-2025-0088</expense_id>
+<gl_account>680000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45a6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Randstad</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>33200</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-ES-01</cost_center>
+<description>Production</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-24</expense_date>
+<expense_id>EXP-2025-0096</expense_id>
+<gl_account>690100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45a70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adecco ES</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>34600</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-IT-01</cost_center>
+<description>Production</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-20</expense_date>
+<expense_id>EXP-2025-0098</expense_id>
+<gl_account>690200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45aa3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Randstad IT</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>23350</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>EHS-DE-SA</cost_center>
+<description>Team</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-23</expense_date>
+<expense_id>EXP-2025-0114</expense_id>
+<gl_account>640400</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45abb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Randstad</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>17700</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-US-DM</cost_center>
+<description>Marketers</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-01</expense_date>
+<expense_id>EXP-2025-0122</expense_id>
+<gl_account>670200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45ac0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Hays</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>19200</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>QC-CH-01</cost_center>
+<description>Incubators</description>
+<expense_category>Equipment</expense_category>
+<expense_date>2025-01-18</expense_date>
+<expense_id>EXP-2025-0133</expense_id>
+<gl_account>710100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45ac7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Sartorius</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>66800</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SALES-US-IN</cost_center>
+<description>Sales Reps</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-26</expense_date>
+<expense_id>EXP-2025-0157</expense_id>
+<gl_account>740200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45aef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Korn Ferry</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>7900</amount>
+<approved_by display_value="Chi Fen">63d5dfbbfbab4690ecb9f46b5eefdc98</approved_by>
+<cost_center>BIZD-IT-01</cost_center>
+<description>Travel</description>
+<expense_category>Travel</expense_category>
+<expense_date>2025-04-15</expense_date>
+<expense_id>EXP-2025-0165</expense_id>
+<gl_account>610000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45af4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Lufthansa</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>11400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-AU-TR</cost_center>
+<description>Training</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-05-20</expense_date>
+<expense_id>EXP-2025-0173</expense_id>
+<gl_account>650200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>e89aa3003bd6fe500ad1a021a3e45af9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Coursera</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>69400</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SALES-US-IN</cost_center>
+<description>Sales</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-28</expense_date>
+<expense_id>EXP-2025-0199</expense_id>
+<gl_account>740200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:17</sys_created_on>
+<sys_id>e89ae3003bd6fe500ad1a021a3e45a3b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:17</sys_updated_on>
+<vendor>Hays</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>14400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-IN-RC</cost_center>
+<description>Job Board</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-03-19</expense_date>
+<expense_id>EXP-2025-0059</expense_id>
+<gl_account>660500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ec9aa3003bd6fe500ad1a021a3e45a0e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Indeed</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>18400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-FR-PR</cost_center>
+<description>Campaign</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-01-23</expense_date>
+<expense_id>EXP-2025-0067</expense_id>
+<gl_account>670100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ec9aa3003bd6fe500ad1a021a3e45a13</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Publicis</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>17400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>MKTG-US-DM</cost_center>
+<description>Social Ads</description>
+<expense_category>Services</expense_category>
+<expense_date>2025-02-27</expense_date>
+<expense_id>EXP-2025-0075</expense_id>
+<gl_account>670200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ec9aa3003bd6fe500ad1a021a3e45a18</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Meta</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>13100</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-1</cost_center>
+<description>Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-18</expense_date>
+<expense_id>EXP-2025-0082</expense_id>
+<gl_account>670300</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ec9aa3003bd6fe500ad1a021a3e45a67</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Manpower</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>4400</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-DE-2</cost_center>
+<description>Production</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-03-22</expense_date>
+<expense_id>EXP-2025-0090</expense_id>
+<gl_account>680000</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ec9aa3003bd6fe500ad1a021a3e45a6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Manpower</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>55900</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>HR-IN-RC</cost_center>
+<description>Recruiters</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-04-25</expense_date>
+<expense_id>EXP-2025-0116</expense_id>
+<gl_account>660500</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ec9aa3003bd6fe500ad1a021a3e45abc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>ABC</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>32800</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>PROD-ES-01</cost_center>
+<description>Staff</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-05-03</expense_date>
+<expense_id>EXP-2025-0124</expense_id>
+<gl_account>690100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ec9aa3003bd6fe500ad1a021a3e45ac1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Adecco</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>35200</amount>
+<approved_by display_value="Shirley Ross">b6e65291db0b001046a2f7b51d961937</approved_by>
+<cost_center>PVG-EU-01</cost_center>
+<description>PV Officers</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-01-16</expense_date>
+<expense_id>EXP-2025-0127</expense_id>
+<gl_account>700100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ec9aa3003bd6fe500ad1a021a3e45ac3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Randstad</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>68000</amount>
+<approved_by display_value="Ben Siteeo">4fd5dfbbfbab4690ecb9f46b5eefdc28</approved_by>
+<cost_center>SALES-US-IN</cost_center>
+<description>Account Execs</description>
+<expense_category>Personnel</expense_category>
+<expense_date>2025-02-28</expense_date>
+<expense_id>EXP-2025-0159</expense_id>
+<gl_account>740200</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ec9aa3003bd6fe500ad1a021a3e45af0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Robert Half</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+<x_snc_forecast_v_0_expense_transactions action="INSERT_OR_UPDATE">
+<amount>9100</amount>
+<approved_by display_value="Mike Adisa">67d5dfbbfbab4690ecb9f46b5eefdc9d</approved_by>
+<cost_center>BIZD-JP-01</cost_center>
+<description>Asia</description>
+<expense_category>Travel</expense_category>
+<expense_date>2025-04-17</expense_date>
+<expense_id>EXP-2025-0167</expense_id>
+<gl_account>610100</gl_account>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-03 06:27:16</sys_created_on>
+<sys_id>ec9aa3003bd6fe500ad1a021a3e45af5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-03 06:27:16</sys_updated_on>
+<vendor>Singapore Air</vendor>
+</x_snc_forecast_v_0_expense_transactions>
+</unload>

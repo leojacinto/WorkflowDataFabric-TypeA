@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-01-31 13:24:57">
+<x_snc_forecast_v_0_expense_transaction_event action="INSERT_OR_UPDATE">
+<amount_usd>5200.75</amount_usd>
+<billing_period>2025-10</billing_period>
+<business_unit>IT</business_unit>
+<correlation_id>KAFKA-AWS-IT002-20251007</correlation_id>
+<cost_center>CC_IT_001</cost_center>
+<event_id>EXP-2025-IT-002-1007-01</event_id>
+<event_type>EXPENSE_TRANSACTION</event_type>
+<gl_account>610100</gl_account>
+<invoice_id>AWS-INV-928172</invoice_id>
+<owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+<priority>NORMAL</priority>
+<region>us-east-1</region>
+<schema_version>1</schema_version>
+<sent_from>AWSExpenseFeed</sent_from>
+<service_category>Cloud Infrastructure</service_category>
+<source_system>AWS-Billing</source_system>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-04 04:09:12</sys_created_on>
+<sys_id>7f8498a43b9a765062f31831a3e45a9a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-04 04:09:12</sys_updated_on>
+<timestamp>2025-10-07 21:18:22</timestamp>
+<vendor>Amazon Web Services</vendor>
+</x_snc_forecast_v_0_expense_transaction_event>
+</unload>

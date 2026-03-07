@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-01-14 18:06:39">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Redshift Connector Simulated Data v2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>bc4276f72f5e3e1097dacf4fafa4e3f6</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>0c243eb72f9e3e1097dacf4fafa4e35d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_09027a372f5e3e1097dacf4fafa4e3b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>09027a372f5e3e1097dacf4fafa4e3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier27@example.com</u_contact_email><u_rating>2</u_rating><u_supplier_id>27</u_supplier_id><u_supplier_name>Supplier-27</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>922706730</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>00243eb72f9e3e1097dacf4fafa4e361</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe38c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>09027a372f5e3e1097dacf4fafa4e3b1</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>ab0436b7be9e3e10f3205e638a22d798</update_guid>
+<update_guid_history>ab0436b7be9e3e10f3205e638a22d798:922706730</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_01027a372f5e3e1097dacf4fafa4e3aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>01027a372f5e3e1097dacf4fafa4e3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier3@example.com</u_contact_email><u_rating>2</u_rating><u_supplier_id>3</u_supplier_id><u_supplier_name>Supplier-3</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>1738185881</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>04243eb72f9e3e1097dacf4fafa4e35e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe0f90000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>01027a372f5e3e1097dacf4fafa4e3aa</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>e304f2b72b9e3e10aaf4590e3f05ecb5</update_guid>
+<update_guid_history>e304f2b72b9e3e10aaf4590e3f05ecb5:1738185881</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_41027a372f5e3e1097dacf4fafa4e3b3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>41027a372f5e3e1097dacf4fafa4e3b3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Pune</u_city><u_contact_email>supplier32@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>32</u_supplier_id><u_supplier_name>Supplier-32</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>589804803</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>04243eb72f9e3e1097dacf4fafa4e362</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe5210000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>41027a372f5e3e1097dacf4fafa4e3b3</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>fb0436b7389e3e10a837b94cc9fbb8cd</update_guid>
+<update_guid_history>fb0436b7389e3e10a837b94cc9fbb8cd:589804803</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_49027a372f5e3e1097dacf4fafa4e3ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>49027a372f5e3e1097dacf4fafa4e3ab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Pune</u_city><u_contact_email>supplier8@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>8</u_supplier_id><u_supplier_name>Supplier-8</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>781791150</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>08243eb72f9e3e1097dacf4fafa4e363</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe6d00000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>49027a372f5e3e1097dacf4fafa4e3ab</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>770436b72e9e3e10c295e4c687ac7bf6</update_guid>
+<update_guid_history>770436b72e9e3e10c295e4c687ac7bf6:781791150</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_05027a372f5e3e1097dacf4fafa4e3ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>05027a372f5e3e1097dacf4fafa4e3ab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Noida</u_city><u_contact_email>supplier7@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>7</u_supplier_id><u_supplier_name>Supplier-7</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>695749262</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>0c243eb72f9e3e1097dacf4fafa4e35f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe21c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>05027a372f5e3e1097dacf4fafa4e3ab</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>ef0436b7609e3e10df0b49496d3aed18</update_guid>
+<update_guid_history>ef0436b7609e3e10df0b49496d3aed18:695749262</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_85027a372f5e3e1097dacf4fafa4e3b3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>85027a372f5e3e1097dacf4fafa4e3b3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Noida</u_city><u_contact_email>supplier33@example.com</u_contact_email><u_rating>5</u_rating><u_supplier_id>33</u_supplier_id><u_supplier_name>Supplier-33</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-270427374</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>10243eb72f9e3e1097dacf4fafa4e366</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe9cf0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>85027a372f5e3e1097dacf4fafa4e3b3</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>8c1476b7219e3e1014875967b370f06c</update_guid>
+<update_guid_history>8c1476b7219e3e1014875967b370f06c:-270427374</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_manufacturing_supplier_u_contact_email</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_contact_email" table="manufacturing_supplier"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;contact_email&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_contact_email&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;manufacturing_supplier&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:57:21&lt;/sys_created_on&gt;&lt;sys_id&gt;d802f6372f5e3e1097dacf4fafa4e3ab&lt;/sys_id&gt;&lt;sys_name&gt;contact_email&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_manufacturing_supplier_u_contact_email&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:57:21&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1286701082</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>10243eb72f9e3e1097dacf4fafa4e379</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa50d00000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.contact_email</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>22a2b2fbba5e3e10d65a01170f45ee35</update_guid>
+<update_guid_history>22a2b2fbba5e3e10d65a01170f45ee35:1286701082,a8023a378f5e3e10e63d3560883d912d:1286701082</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_41027a372f5e3e1097dacf4fafa4e3a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>supplier_id</column_label><column_name>supplier_id</column_name><source_table display_value="Suppliers">0d027a372f5e3e1097dacf4fafa4e3a3</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>41027a372f5e3e1097dacf4fafa4e3a5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>2064010304</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>10243eb72f9e3e1097dacf4fafa4e37e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbda94acf0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>supplier_id</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>8662b63b305e3e10d1519fa6f25c5548</update_guid>
+<update_guid_history>8662b63b305e3e10d1519fa6f25c5548:2064010304</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_89027a372f5e3e1097dacf4fafa4e3b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>89027a372f5e3e1097dacf4fafa4e3b4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Chennai</u_city><u_contact_email>supplier37@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>37</u_supplier_id><u_supplier_name>Supplier-37</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>1467208544</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>14243eb72f9e3e1097dacf4fafa4e367</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafeb4c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>89027a372f5e3e1097dacf4fafa4e3b4</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>401476b7449e3e10c331ea88a88a0989</update_guid>
+<update_guid_history>401476b7449e3e10c331ea88a88a0989:1467208544</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_manufacturing_supplier_u_active_flag_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_active_flag" label="active_flag" language="en" table="manufacturing_supplier"><sys_documentation action="INSERT_OR_UPDATE"><element>u_active_flag</element><help/><hint/><label>active_flag</label><language>en</language><name>manufacturing_supplier</name><plural>active_flags</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:23</sys_created_on><sys_id>bc027a372f5e3e1097dacf4fafa4e382</sys_id><sys_mod_count>0</sys_mod_count><sys_name>active_flag</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_manufacturing_supplier_u_active_flag_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:23</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-170567807</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>14243eb72f9e3e1097dacf4fafa4e37a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa535d0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.active_flag</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>aaa2b2fbb75e3e10ba8fdf71b591189d</update_guid>
+<update_guid_history>aaa2b2fbb75e3e10ba8fdf71b591189d:-170567807,cd027a37295e3e10724177508bfb1691:-170567807</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_c5027a372f5e3e1097dacf4fafa4e3a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>contact_email</column_label><column_name>contact_email</column_name><source_table display_value="Suppliers">0d027a372f5e3e1097dacf4fafa4e3a3</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>c5027a372f5e3e1097dacf4fafa4e3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>944596320</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>14243eb72f9e3e1097dacf4fafa4e37f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbda94c480000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>contact_email</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>1e62b63bda5e3e10c8fd74d7937d79a2</update_guid>
+<update_guid_history>1e62b63bda5e3e10c8fd74d7937d79a2:944596320</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_c1027a372f5e3e1097dacf4fafa4e3b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>c1027a372f5e3e1097dacf4fafa4e3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier26@example.com</u_contact_email><u_rating>1</u_rating><u_supplier_id>26</u_supplier_id><u_supplier_name>Supplier-26</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-280958964</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>18243eb72f9e3e1097dacf4fafa4e368</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafecbc0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>c1027a372f5e3e1097dacf4fafa4e3b1</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>901476b7a59e3e10cb521bfbe4e520be</update_guid>
+<update_guid_history>901476b7a59e3e10cb521bfbe4e520be:-280958964</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_c9027a372f5e3e1097dacf4fafa4e3b3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>c9027a372f5e3e1097dacf4fafa4e3b3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Noida</u_city><u_contact_email>supplier34@example.com</u_contact_email><u_rating>4</u_rating><u_supplier_id>34</u_supplier_id><u_supplier_name>Supplier-34</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>591167231</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>18243eb72f9e3e1097dacf4fafa4e376</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafeed30000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>c9027a372f5e3e1097dacf4fafa4e3b3</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>5414b6b72c9e3e1055087f1f32439a35</update_guid>
+<update_guid_history>5414b6b72c9e3e1055087f1f32439a35:591167231</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_manufacturing_supplier_u_supplier_id_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_supplier_id" label="supplier_id" language="en" table="manufacturing_supplier"><sys_documentation action="INSERT_OR_UPDATE"><element>u_supplier_id</element><help/><hint/><label>supplier_id</label><language>en</language><name>manufacturing_supplier</name><plural>supplier_ids</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:18</sys_created_on><sys_id>ebf176372f5e3e1097dacf4fafa4e3f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>supplier_id</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_manufacturing_supplier_u_supplier_id_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:18</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>792775165</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>18243eb72f9e3e1097dacf4fafa4e37b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa54390000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.supplier_id</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>76a2b2fbbb5e3e10649338e4760cacb0</update_guid>
+<update_guid_history>76a2b2fbbb5e3e10649338e4760cacb0:792775165,b3f1b6373d5e3e10644f24cbac59ffa6:792775165</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_4d027a372f5e3e1097dacf4fafa4e3b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>4d027a372f5e3e1097dacf4fafa4e3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier28@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>28</u_supplier_id><u_supplier_name>Supplier-28</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>439599445</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>1c243eb72f9e3e1097dacf4fafa4e364</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe84b0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>4d027a372f5e3e1097dacf4fafa4e3b1</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>081476b7af9e3e1047cc3033e2f3eb12</update_guid>
+<update_guid_history>081476b7af9e3e1047cc3033e2f3eb12:439599445</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_e6f1f2372f5e3e1097dacf4fafa4e306</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><filter_extension/><is_df_table>false</is_df_table><is_document_table>false</is_document_table><is_extendable>false</is_extendable><label>Suppliers</label><live_feed_enabled>false</live_feed_enabled><name>manufacturing_supplier</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:14</sys_created_on><sys_id>e6f1f2372f5e3e1097dacf4fafa4e306</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Suppliers</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_e6f1f2372f5e3e1097dacf4fafa4e306</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:14</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-295721625</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>1c243eb72f9e3e1097dacf4fafa4e377</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa4cbd0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>daa272fb9b5e3e102d2550df121e5da9</update_guid>
+<update_guid_history>daa272fb9b5e3e102d2550df121e5da9:-295721625,eff176377a5e3e10e7ecbe4a1dbc9a7a:-295721625</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_alectri_simulated_connectors_11d07ebb2f1e3e1097dacf4fafa4e3c3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_alectri_simulated_connectors"><x_snc_alectri_zc_0_alectri_simulated_connectors action="INSERT_OR_UPDATE"><connection_id>a28daef3975af290481fb147f053af15</connection_id><connection_name>Alectri RedShift Simulator</connection_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:53:04</sys_created_on><sys_id>11d07ebb2f1e3e1097dacf4fafa4e3c3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:53:04</sys_updated_on></x_snc_alectri_zc_0_alectri_simulated_connectors></record_update>]]></payload>
+<payload_hash>140763374</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>1c243eb72f9e3e1097dacf4fafa4e37c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbda904590000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>Alectri RedShift Simulator</target_name>
+<type>Alectri Simulated Connectors</type>
+<update_domain>global</update_domain>
+<update_guid>f552bef74f5e3e10fc062f9d1d51894a</update_guid>
+<update_guid_history>f552bef74f5e3e10fc062f9d1d51894a:140763374</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_05027a372f5e3e1097dacf4fafa4e3b0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>05027a372f5e3e1097dacf4fafa4e3b0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Pune</u_city><u_contact_email>supplier23@example.com</u_contact_email><u_rating>4</u_rating><u_supplier_id>23</u_supplier_id><u_supplier_name>Supplier-23</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-699881939</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>40243eb72f9e3e1097dacf4fafa4e360</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe2740000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>05027a372f5e3e1097dacf4fafa4e3b0</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>630436b7a19e3e10d5f76802ae8faa5b</update_guid>
+<update_guid_history>630436b7a19e3e10d5f76802ae8faa5b:-699881939</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_0d027a372f5e3e1097dacf4fafa4e3ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>0d027a372f5e3e1097dacf4fafa4e3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier15@example.com</u_contact_email><u_rating>2</u_rating><u_supplier_id>15</u_supplier_id><u_supplier_name>Supplier-15</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>326997131</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>44243eb72f9e3e1097dacf4fafa4e361</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe3f30000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>0d027a372f5e3e1097dacf4fafa4e3ad</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>7b0436b7d39e3e102a9a3c89e787d49c</update_guid>
+<update_guid_history>7b0436b7d39e3e102a9a3c89e787d49c:326997131</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_45027a372f5e3e1097dacf4fafa4e3aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>45027a372f5e3e1097dacf4fafa4e3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier4@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>4</u_supplier_id><u_supplier_name>Supplier-4</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-1105825839</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>48243eb72f9e3e1097dacf4fafa4e362</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe5ac0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>45027a372f5e3e1097dacf4fafa4e3aa</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>bb0436b7749e3e10b6a1412605772fd1</update_guid>
+<update_guid_history>bb0436b7749e3e10b6a1412605772fd1:-1105825839</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_49027a372f5e3e1097dacf4fafa4e3b0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>49027a372f5e3e1097dacf4fafa4e3b0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier24@example.com</u_contact_email><u_rating>4</u_rating><u_supplier_id>24</u_supplier_id><u_supplier_name>Supplier-24</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-1966241877</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>4c243eb72f9e3e1097dacf4fafa4e363</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe7360000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>49027a372f5e3e1097dacf4fafa4e3b0</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>370436b7e39e3e1000062e43eede6dfa</update_guid>
+<update_guid_history>370436b7e39e3e1000062e43eede6dfa:-1966241877</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_81027a372f5e3e1097dacf4fafa4e3ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>81027a372f5e3e1097dacf4fafa4e3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Chennai</u_city><u_contact_email>supplier13@example.com</u_contact_email><u_rating>5</u_rating><u_supplier_id>13</u_supplier_id><u_supplier_name>Supplier-13</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>199883923</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>50243eb72f9e3e1097dacf4fafa4e365</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe8ad0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>81027a372f5e3e1097dacf4fafa4e3ad</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>881476b7709e3e103970eee68554ba54</update_guid>
+<update_guid_history>881476b7709e3e103970eee68554ba54:199883923</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_manufacturing_supplier_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="manufacturing_supplier"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;manufacturing_supplier&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:57:14&lt;/sys_created_on&gt;&lt;sys_id&gt;6af1f2372f5e3e1097dacf4fafa4e3f9&lt;/sys_id&gt;&lt;sys_name&gt;manufacturing_supplier&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_manufacturing_supplier_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:57:14&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1086307318</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>50243eb72f9e3e1097dacf4fafa4e378</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa4df60000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>d2a272fb715e3e10e0356bfd2317a4f4</update_guid>
+<update_guid_history>d2a272fb715e3e10e0356bfd2317a4f4:1086307318,a7f13637655e3e10db69fdcd7783b7a1:1086307318</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_databases_9f01b27f2f1e3e1097dacf4fafa4e3d2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_databases"><x_snc_alectri_zc_0_source_databases action="INSERT_OR_UPDATE"><alectri_simulated_connector display_value="Alectri RedShift Simulator">11d07ebb2f1e3e1097dacf4fafa4e3c3</alectri_simulated_connector><database_name>Manufacturing Database</database_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:54:40</sys_created_on><sys_id>9f01b27f2f1e3e1097dacf4fafa4e3d2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:54:40</sys_updated_on></x_snc_alectri_zc_0_source_databases></record_update>]]></payload>
+<payload_hash>1269061138</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>50243eb72f9e3e1097dacf4fafa4e37d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbda916090000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>Manufacturing Database</target_name>
+<type>Source Databases</type>
+<update_domain>global</update_domain>
+<update_guid>fe52323b645e3e10215e93ae503b1a8b</update_guid>
+<update_guid_history>fe52323b645e3e10215e93ae503b1a8b:1269061138</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_89027a372f5e3e1097dacf4fafa4e3a8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>89027a372f5e3e1097dacf4fafa4e3a8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Noida</u_city><u_contact_email>supplier1@example.com</u_contact_email><u_rating>4</u_rating><u_supplier_id>1</u_supplier_id><u_supplier_name>Supplier-1</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-1860189593</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>54243eb72f9e3e1097dacf4fafa4e366</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafea370000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>89027a372f5e3e1097dacf4fafa4e3a8</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>4c1476b7819e3e10bae1fa3c5ee08e70</update_guid>
+<update_guid_history>4c1476b7819e3e10bae1fa3c5ee08e70:-1860189593</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_manufacturing_supplier_u_rating</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_rating" table="manufacturing_supplier"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;rating&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_rating&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;manufacturing_supplier&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:57:23&lt;/sys_created_on&gt;&lt;sys_id&gt;b0027a372f5e3e1097dacf4fafa4e32a&lt;/sys_id&gt;&lt;sys_name&gt;rating&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_manufacturing_supplier_u_rating&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:57:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-43846334</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>54243eb72f9e3e1097dacf4fafa4e379</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa4ff50000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.rating</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e2a2b2fb665e3e1097ce7399e6e23515</update_guid>
+<update_guid_history>e2a2b2fb665e3e1097ce7399e6e23515:-43846334,f0027a37105e3e10f4437211130e5377:-43846334</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_41027a372f5e3e1097dacf4fafa4e3a7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>rating</column_label><column_name>rating</column_name><source_table display_value="Suppliers">0d027a372f5e3e1097dacf4fafa4e3a3</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>41027a372f5e3e1097dacf4fafa4e3a7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>923827514</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>54243eb72f9e3e1097dacf4fafa4e37e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbda94b2e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>rating</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>4662b63bbc5e3e106a499f10bfb05e4c</update_guid>
+<update_guid_history>4662b63bbc5e3e106a499f10bfb05e4c:923827514</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_8d027a372f5e3e1097dacf4fafa4e3ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>8d027a372f5e3e1097dacf4fafa4e3ab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier9@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>9</u_supplier_id><u_supplier_name>Supplier-9</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>231698102</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>58243eb72f9e3e1097dacf4fafa4e367</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafeba40000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>8d027a372f5e3e1097dacf4fafa4e3ab</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>001476b7e99e3e107502769a5b43278d</update_guid>
+<update_guid_history>001476b7e99e3e107502769a5b43278d:231698102</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_manufacturing_supplier_u_city_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_city" label="city" language="en" table="manufacturing_supplier"><sys_documentation action="INSERT_OR_UPDATE"><element>u_city</element><help/><hint/><label>city</label><language>en</language><name>manufacturing_supplier</name><plural>cities</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:22</sys_created_on><sys_id>64023a372f5e3e1097dacf4fafa4e390</sys_id><sys_mod_count>0</sys_mod_count><sys_name>city</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_manufacturing_supplier_u_city_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:22</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>298620588</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>58243eb72f9e3e1097dacf4fafa4e37a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa52930000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.city</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>62a2b2fb1c5e3e10c3e836b307699a94</update_guid>
+<update_guid_history>62a2b2fb1c5e3e10c3e836b307699a94:298620588,f0027a37605e3e105dfdd7fbccc2e028:298620588</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_c5027a372f5e3e1097dacf4fafa4e3ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>c5027a372f5e3e1097dacf4fafa4e3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier14@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>14</u_supplier_id><u_supplier_name>Supplier-14</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-1747768848</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>5c243eb72f9e3e1097dacf4fafa4e368</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafed200000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>c5027a372f5e3e1097dacf4fafa4e3ad</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>941476b7609e3e10608e5542e56c4ee7</update_guid>
+<update_guid_history>941476b7609e3e10608e5542e56c4ee7:-1747768848</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_cd027a372f5e3e1097dacf4fafa4e3aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>cd027a372f5e3e1097dacf4fafa4e3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Noida</u_city><u_contact_email>supplier6@example.com</u_contact_email><u_rating>2</u_rating><u_supplier_id>6</u_supplier_id><u_supplier_name>Supplier-6</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>625926011</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>5c243eb72f9e3e1097dacf4fafa4e376</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafef300000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>cd027a372f5e3e1097dacf4fafa4e3aa</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>1414b6b7169e3e10b0ab503093385839</update_guid>
+<update_guid_history>1414b6b7169e3e10b0ab503093385839:625926011</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_manufacturing_supplier_u_supplier_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_supplier_name" label="supplier_name" language="en" table="manufacturing_supplier"><sys_documentation action="INSERT_OR_UPDATE"><element>u_supplier_name</element><help/><hint/><label>supplier_name</label><language>en</language><name>manufacturing_supplier</name><plural>supplier_names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:20</sys_created_on><sys_id>8c02f6372f5e3e1097dacf4fafa4e311</sys_id><sys_mod_count>0</sys_mod_count><sys_name>supplier_name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_manufacturing_supplier_u_supplier_name_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:20</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1950324285</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>5c243eb72f9e3e1097dacf4fafa4e37b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa52dc0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.supplier_name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>a6a2b2fb785e3e10cef0f4ef731d5c97</update_guid>
+<update_guid_history>a6a2b2fb785e3e10cef0f4ef731d5c97:1950324285,1c02f637cb5e3e107a1666fd131c97a9:1950324285</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_01027a372f5e3e1097dacf4fafa4e3af</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>01027a372f5e3e1097dacf4fafa4e3af</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier19@example.com</u_contact_email><u_rating>5</u_rating><u_supplier_id>19</u_supplier_id><u_supplier_name>Supplier-19</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>702282916</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>80243eb72f9e3e1097dacf4fafa4e35f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe1570000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>01027a372f5e3e1097dacf4fafa4e3af</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>630436b7c09e3e10925d3b877ec06d11</update_guid>
+<update_guid_history>630436b7c09e3e10925d3b877ec06d11:702282916</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_49027a372f5e3e1097dacf4fafa4e3b5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>49027a372f5e3e1097dacf4fafa4e3b5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Noida</u_city><u_contact_email>supplier40@example.com</u_contact_email><u_rating>5</u_rating><u_supplier_id>40</u_supplier_id><u_supplier_name>Supplier-40</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-676030474</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>80243eb72f9e3e1097dacf4fafa4e364</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe78f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>49027a372f5e3e1097dacf4fafa4e3b5</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>bb0476b7dc9e3e10d6550ebc24626f0a</update_guid>
+<update_guid_history>bb0476b7dc9e3e10d6550ebc24626f0a:-676030474</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_05027a372f5e3e1097dacf4fafa4e3b5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>05027a372f5e3e1097dacf4fafa4e3b5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier39@example.com</u_contact_email><u_rating>2</u_rating><u_supplier_id>39</u_supplier_id><u_supplier_name>Supplier-39</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-168356650</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>84243eb72f9e3e1097dacf4fafa4e360</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe2d80000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>05027a372f5e3e1097dacf4fafa4e3b5</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>230436b7b39e3e10b5f22df921115e5f</update_guid>
+<update_guid_history>230436b7b39e3e10b5f22df921115e5f:-168356650</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_0d027a372f5e3e1097dacf4fafa4e3b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>0d027a372f5e3e1097dacf4fafa4e3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier31@example.com</u_contact_email><u_rating>5</u_rating><u_supplier_id>31</u_supplier_id><u_supplier_name>Supplier-31</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-779160640</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>88243eb72f9e3e1097dacf4fafa4e361</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe4560000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>0d027a372f5e3e1097dacf4fafa4e3b2</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>3b0436b7a99e3e10432ece43412bc0a0</update_guid>
+<update_guid_history>3b0436b7a99e3e10432ece43412bc0a0:-779160640</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_45027a372f5e3e1097dacf4fafa4e3af</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>45027a372f5e3e1097dacf4fafa4e3af</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Noida</u_city><u_contact_email>supplier20@example.com</u_contact_email><u_rating>2</u_rating><u_supplier_id>20</u_supplier_id><u_supplier_name>Supplier-20</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>1883093540</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>8c243eb72f9e3e1097dacf4fafa4e362</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe6110000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>45027a372f5e3e1097dacf4fafa4e3af</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>f70436b7839e3e105f181a002205d0ee</update_guid>
+<update_guid_history>f70436b7839e3e105f181a002205d0ee:1883093540</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_c5027a372f5e3e1097dacf4fafa4e3b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>c5027a372f5e3e1097dacf4fafa4e3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier30@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>30</u_supplier_id><u_supplier_name>Supplier-30</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-440463050</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>90243eb72f9e3e1097dacf4fafa4e369</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafeda30000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>c5027a372f5e3e1097dacf4fafa4e3b2</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>541476b7099e3e10e1be48d2735ad5eb</update_guid>
+<update_guid_history>541476b7099e3e10e1be48d2735ad5eb:-440463050</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_cd027a372f5e3e1097dacf4fafa4e3af</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>cd027a372f5e3e1097dacf4fafa4e3af</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier22@example.com</u_contact_email><u_rating>4</u_rating><u_supplier_id>22</u_supplier_id><u_supplier_name>Supplier-22</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-949706254</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>90243eb72f9e3e1097dacf4fafa4e377</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafef940000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>cd027a372f5e3e1097dacf4fafa4e3af</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>d014b6b7b29e3e10b74f1241fd264a3d</update_guid>
+<update_guid_history>d014b6b7b29e3e10b74f1241fd264a3d:-949706254</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_manufacturing_supplier__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Suppliers" language="en" table="manufacturing_supplier"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Suppliers</label><language>en</language><name>manufacturing_supplier</name><plural>Suppliers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:16</sys_created_on><sys_id>83f136372f5e3e1097dacf4fafa4e307</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Suppliers</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_manufacturing_supplier__en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>729985810</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>90243eb72f9e3e1097dacf4fafa4e37c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa4e3e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>1aa272fb835e3e109deaa706359dbef7</update_guid>
+<update_guid_history>1aa272fb835e3e109deaa706359dbef7:729985810,63f17637da5e3e103901e21ae0807f78:729985810</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_81027a372f5e3e1097dacf4fafa4e3b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>81027a372f5e3e1097dacf4fafa4e3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Chennai</u_city><u_contact_email>supplier29@example.com</u_contact_email><u_rating>4</u_rating><u_supplier_id>29</u_supplier_id><u_supplier_name>Supplier-29</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>957965340</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>94243eb72f9e3e1097dacf4fafa4e365</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe9080000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>81027a372f5e3e1097dacf4fafa4e3b2</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>481476b7099e3e10c6e94af6fcb58858</update_guid>
+<update_guid_history>481476b7099e3e10c6e94af6fcb58858:957965340</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_manufacturing_supplier_u_active_flag</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_active_flag" table="manufacturing_supplier"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;active_flag&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_active_flag&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;manufacturing_supplier&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:57:23&lt;/sys_created_on&gt;&lt;sys_id&gt;78027a372f5e3e1097dacf4fafa4e37c&lt;/sys_id&gt;&lt;sys_name&gt;active_flag&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_manufacturing_supplier_u_active_flag&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:57:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1387743702</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>94243eb72f9e3e1097dacf4fafa4e378</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa4f230000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.active_flag</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>16a2b2fba35e3e10d3348d7c3f55ba0e</update_guid>
+<update_guid_history>16a2b2fba35e3e10d3348d7c3f55ba0e:-1387743702,49027a37e35e3e10147968bd7fe10c8e:-1387743702</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_tables_0d027a372f5e3e1097dacf4fafa4e3a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_tables"><x_snc_alectri_zc_0_source_tables action="INSERT_OR_UPDATE"><source_database display_value="Manufacturing Database">9f01b27f2f1e3e1097dacf4fafa4e3d2</source_database><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>0d027a372f5e3e1097dacf4fafa4e3a3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><table_id>manufacturing_supplier</table_id><table_name>Suppliers</table_name></x_snc_alectri_zc_0_source_tables></record_update>]]></payload>
+<payload_hash>-808984008</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>94243eb72f9e3e1097dacf4fafa4e37d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbda92e3f0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>Suppliers</target_name>
+<type>Source Tables</type>
+<update_domain>global</update_domain>
+<update_guid>1062b23bf05e3e1029c82652ccc39c43</update_guid>
+<update_guid_history>1062b23bf05e3e1029c82652ccc39c43:-808984008</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_89027a372f5e3e1097dacf4fafa4e3aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>89027a372f5e3e1097dacf4fafa4e3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier5@example.com</u_contact_email><u_rating>1</u_rating><u_supplier_id>5</u_supplier_id><u_supplier_name>Supplier-5</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>714309455</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>98243eb72f9e3e1097dacf4fafa4e366</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafea960000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>89027a372f5e3e1097dacf4fafa4e3aa</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>0c1476b7109e3e100f3450c8f6829c74</update_guid>
+<update_guid_history>0c1476b7109e3e100f3450c8f6829c74:714309455</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_manufacturing_supplier_u_supplier_id</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_supplier_id" table="manufacturing_supplier"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;supplier_id&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_supplier_id&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;manufacturing_supplier&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:57:18&lt;/sys_created_on&gt;&lt;sys_id&gt;e3f176372f5e3e1097dacf4fafa4e37e&lt;/sys_id&gt;&lt;sys_name&gt;supplier_id&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_manufacturing_supplier_u_supplier_id&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:57:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-176973156</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>98243eb72f9e3e1097dacf4fafa4e379</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa518c0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.supplier_id</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>eea2b2fb955e3e100420e13f4ba7363b</update_guid>
+<update_guid_history>eea2b2fb955e3e100420e13f4ba7363b:-176973156,3ff1b637905e3e1017f69f3a7fcc24a2:-176973156</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_81027a372f5e3e1097dacf4fafa4e3a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>supplier_name</column_label><column_name>supplier_name</column_name><source_table display_value="Suppliers">0d027a372f5e3e1097dacf4fafa4e3a3</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>81027a372f5e3e1097dacf4fafa4e3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-2097913792</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>98243eb72f9e3e1097dacf4fafa4e37e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbda94b880000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>supplier_name</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>0662b63b925e3e1066e478a7be6c3d50</update_guid>
+<update_guid_history>0662b63b925e3e1066e478a7be6c3d50:-2097913792</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_8d027a372f5e3e1097dacf4fafa4e3b0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>8d027a372f5e3e1097dacf4fafa4e3b0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier25@example.com</u_contact_email><u_rating>4</u_rating><u_supplier_id>25</u_supplier_id><u_supplier_name>Supplier-25</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>541288764</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>9c243eb72f9e3e1097dacf4fafa4e367</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafebfc0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>8d027a372f5e3e1097dacf4fafa4e3b0</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>141476b7269e3e10f00b94dc00a39eb6</update_guid>
+<update_guid_history>141476b7269e3e10f00b94dc00a39eb6:541288764</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_c9027a372f5e3e1097dacf4fafa4e3a9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>c9027a372f5e3e1097dacf4fafa4e3a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier2@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>2</u_supplier_id><u_supplier_name>Supplier-2</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>519770967</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>9c243eb72f9e3e1097dacf4fafa4e375</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafee0e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>c9027a372f5e3e1097dacf4fafa4e3a9</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>141476b7d79e3e103b11938f80ae23ef</update_guid>
+<update_guid_history>141476b7d79e3e103b11938f80ae23ef:519770967</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_manufacturing_supplier_u_contact_email_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_contact_email" label="contact_email" language="en" table="manufacturing_supplier"><sys_documentation action="INSERT_OR_UPDATE"><element>u_contact_email</element><help/><hint/><label>contact_email</label><language>en</language><name>manufacturing_supplier</name><plural>contact_emails</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:21</sys_created_on><sys_id>dc023a372f5e3e1097dacf4fafa4e321</sys_id><sys_mod_count>0</sys_mod_count><sys_name>contact_email</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_manufacturing_supplier_u_contact_email_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1383296671</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>9c243eb72f9e3e1097dacf4fafa4e37a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa53c10000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.contact_email</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e2a2b2fbf25e3e10c5dfb50de0c27ead</update_guid>
+<update_guid_history>e2a2b2fbf25e3e10c5dfb50de0c27ead:-1383296671,60023a373b5e3e106a00ee0340fc4f88:-1383296671</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_45027a372f5e3e1097dacf4fafa4e3b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>45027a372f5e3e1097dacf4fafa4e3b4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier36@example.com</u_contact_email><u_rating>5</u_rating><u_supplier_id>36</u_supplier_id><u_supplier_name>Supplier-36</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-1226122583</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>c0243eb72f9e3e1097dacf4fafa4e363</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe6710000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>45027a372f5e3e1097dacf4fafa4e3b4</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>b70436b7e59e3e10fd5801461fda57f2</update_guid>
+<update_guid_history>b70436b7e59e3e10fd5801461fda57f2:-1226122583</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_01027a372f5e3e1097dacf4fafa4e3b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>01027a372f5e3e1097dacf4fafa4e3b4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Noida</u_city><u_contact_email>supplier35@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>35</u_supplier_id><u_supplier_name>Supplier-35</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>1559265234</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>c4243eb72f9e3e1097dacf4fafa4e35f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe1bc0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>01027a372f5e3e1097dacf4fafa4e3b4</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>230436b73d9e3e10f360ac0e35a25615</update_guid>
+<update_guid_history>230436b73d9e3e10f360ac0e35a25615:1559265234</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_4d027a372f5e3e1097dacf4fafa4e3ac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>4d027a372f5e3e1097dacf4fafa4e3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier12@example.com</u_contact_email><u_rating>2</u_rating><u_supplier_id>12</u_supplier_id><u_supplier_name>Supplier-12</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-1402496224</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>c4243eb72f9e3e1097dacf4fafa4e364</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe7e90000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>4d027a372f5e3e1097dacf4fafa4e3ac</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>481476b74d9e3e10701cdea7382af80e</update_guid>
+<update_guid_history>481476b74d9e3e10701cdea7382af80e:-1402496224</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_09027a372f5e3e1097dacf4fafa4e3ac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>09027a372f5e3e1097dacf4fafa4e3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Pune</u_city><u_contact_email>supplier11@example.com</u_contact_email><u_rating>4</u_rating><u_supplier_id>11</u_supplier_id><u_supplier_name>Supplier-11</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-1574403999</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>c8243eb72f9e3e1097dacf4fafa4e360</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe32e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>09027a372f5e3e1097dacf4fafa4e3ac</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>ef0436b7889e3e1032bec37f15764162</update_guid>
+<update_guid_history>ef0436b7889e3e1032bec37f15764162:-1574403999</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_41027a372f5e3e1097dacf4fafa4e3ae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>41027a372f5e3e1097dacf4fafa4e3ae</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier16@example.com</u_contact_email><u_rating>1</u_rating><u_supplier_id>16</u_supplier_id><u_supplier_name>Supplier-16</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>1241843435</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:37</sys_created_on>
+<sys_id>cc243eb72f9e3e1097dacf4fafa4e361</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe4be0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:37</sys_updated_on>
+<table/>
+<target_name>41027a372f5e3e1097dacf4fafa4e3ae</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>3f0436b7639e3e103662edf24ff4e1c9</update_guid>
+<update_guid_history>3f0436b7639e3e103662edf24ff4e1c9:1241843435</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_c1027a372f5e3e1097dacf4fafa4e3ac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>c1027a372f5e3e1097dacf4fafa4e3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Chennai</u_city><u_contact_email>supplier10@example.com</u_contact_email><u_rating>1</u_rating><u_supplier_id>10</u_supplier_id><u_supplier_name>Supplier-10</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>1104169255</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>d0243eb72f9e3e1097dacf4fafa4e368</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafec5d0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>c1027a372f5e3e1097dacf4fafa4e3ac</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>d01476b7189e3e10666b3f8d00a7a8ba</update_guid>
+<update_guid_history>d01476b7189e3e10666b3f8d00a7a8ba:1104169255</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_c9027a372f5e3e1097dacf4fafa4e3ae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>c9027a372f5e3e1097dacf4fafa4e3ae</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Chennai</u_city><u_contact_email>supplier18@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>18</u_supplier_id><u_supplier_name>Supplier-18</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>912377232</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>d0243eb72f9e3e1097dacf4fafa4e376</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafee7a0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>c9027a372f5e3e1097dacf4fafa4e3ae</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>9414b6b7f49e3e106116785594942731</update_guid>
+<update_guid_history>9414b6b7f49e3e106116785594942731:912377232</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_manufacturing_supplier_u_rating_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_rating" label="rating" language="en" table="manufacturing_supplier"><sys_documentation action="INSERT_OR_UPDATE"><element>u_rating</element><help/><hint/><label>rating</label><language>en</language><name>manufacturing_supplier</name><plural>ratings</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:23</sys_created_on><sys_id>bc027a372f5e3e1097dacf4fafa4e32e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rating</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_manufacturing_supplier_u_rating_en</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:23</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-608233021</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>d0243eb72f9e3e1097dacf4fafa4e37b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa531d0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.rating</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>2aa2b2fb475e3e10cbc881a72fd0689a</update_guid>
+<update_guid_history>2aa2b2fb475e3e10cbc881a72fd0689a:-608233021,b8027a37185e3e105a9bd00e22ed767a:-608233021</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_cd027a372f5e3e1097dacf4fafa4e3b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>cd027a372f5e3e1097dacf4fafa4e3b4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier38@example.com</u_contact_email><u_rating>4</u_rating><u_supplier_id>38</u_supplier_id><u_supplier_name>Supplier-38</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-411939955</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>d4243eb72f9e3e1097dacf4fafa4e377</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafeff40000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>cd027a372f5e3e1097dacf4fafa4e3b4</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>6414b6b7629e3e10822a3f67edbfa97f</update_guid>
+<update_guid_history>6414b6b7629e3e10822a3f67edbfa97f:-411939955</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_manufacturing_supplier_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="manufacturing_supplier" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_active_flag</element><list_id display_value="manufacturing_supplier" element="NULL" name="manufacturing_supplier" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">89a2f2bb2f5e3e1097dacf4fafa4e335</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:00:08</sys_created_on><sys_id>89a2f2bb2f5e3e1097dacf4fafa4e336</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:00:08</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_city</element><list_id display_value="manufacturing_supplier" element="NULL" name="manufacturing_supplier" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">89a2f2bb2f5e3e1097dacf4fafa4e335</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:00:08</sys_created_on><sys_id>01a2f2bb2f5e3e1097dacf4fafa4e337</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:00:08</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_contact_email</element><list_id display_value="manufacturing_supplier" element="NULL" name="manufacturing_supplier" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">89a2f2bb2f5e3e1097dacf4fafa4e335</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:00:08</sys_created_on><sys_id>85a2f2bb2f5e3e1097dacf4fafa4e337</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:00:08</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_rating</element><list_id display_value="manufacturing_supplier" element="NULL" name="manufacturing_supplier" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">89a2f2bb2f5e3e1097dacf4fafa4e335</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:00:08</sys_created_on><sys_id>0da2f2bb2f5e3e1097dacf4fafa4e337</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:00:08</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_supplier_id</element><list_id display_value="manufacturing_supplier" element="NULL" name="manufacturing_supplier" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">89a2f2bb2f5e3e1097dacf4fafa4e335</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:00:08</sys_created_on><sys_id>81a2f2bb2f5e3e1097dacf4fafa4e338</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:00:08</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_supplier_name</element><list_id display_value="manufacturing_supplier" element="NULL" name="manufacturing_supplier" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">89a2f2bb2f5e3e1097dacf4fafa4e335</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:00:08</sys_created_on><sys_id>09a2f2bb2f5e3e1097dacf4fafa4e338</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:00:08</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>manufacturing_supplier</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 18:00:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>89a2f2bb2f5e3e1097dacf4fafa4e335</sys_id><sys_mod_count>0</sys_mod_count><sys_name>manufacturing_supplier</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_manufacturing_supplier_null</sys_update_name><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 18:00:08</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-313332181</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>d4243eb72f9e3e1097dacf4fafa4e37c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa523e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>aaa2b2fb525e3e10d008568608e5c751</update_guid>
+<update_guid_history>aaa2b2fb525e3e10d008568608e5c751:-313332181,09a2bebbc55e3e10e9e0b5eb402c7bd9:-313332181</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_85027a372f5e3e1097dacf4fafa4e3ae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>85027a372f5e3e1097dacf4fafa4e3ae</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>true</u_active_flag><u_city>Hyderabad</u_city><u_contact_email>supplier17@example.com</u_contact_email><u_rating>3</u_rating><u_supplier_id>17</u_supplier_id><u_supplier_name>Supplier-17</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-256773830</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>d8243eb72f9e3e1097dacf4fafa4e365</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafe9700000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>85027a372f5e3e1097dacf4fafa4e3ae</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>081476b7249e3e10bf72525cc060ce5c</update_guid>
+<update_guid_history>081476b7249e3e10bf72525cc060ce5c:-256773830</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_manufacturing_supplier_u_city</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_city" table="manufacturing_supplier"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;city&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_city&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;manufacturing_supplier&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:57:22&lt;/sys_created_on&gt;&lt;sys_id&gt;20023a372f5e3e1097dacf4fafa4e38a&lt;/sys_id&gt;&lt;sys_name&gt;city&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_manufacturing_supplier_u_city&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:57:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-104392546</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>d8243eb72f9e3e1097dacf4fafa4e378</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa4d3e0000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.city</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>52a272fb5c5e3e104a72e3fb951ec5ae</update_guid>
+<update_guid_history>52a272fb5c5e3e104a72e3fb951ec5ae:-104392546,b8023a375a5e3e109632c801681ea6e6:-104392546</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_0d027a372f5e3e1097dacf4fafa4e3a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>city</column_label><column_name>city</column_name><source_table display_value="Suppliers">0d027a372f5e3e1097dacf4fafa4e3a3</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>0d027a372f5e3e1097dacf4fafa4e3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-2137053602</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>d8243eb72f9e3e1097dacf4fafa4e37d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbda94a730000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>city</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>4e62363b515e3e102b2e89a8cf423f52</update_guid>
+<update_guid_history>4e62363b515e3e102b2e89a8cf423f52:-2137053602</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>manufacturing_supplier_89027a372f5e3e1097dacf4fafa4e3af</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="manufacturing_supplier"><manufacturing_supplier action="INSERT_OR_UPDATE"><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>89027a372f5e3e1097dacf4fafa4e3af</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on><u_active_flag>false</u_active_flag><u_city>Bangalore</u_city><u_contact_email>supplier21@example.com</u_contact_email><u_rating>2</u_rating><u_supplier_id>21</u_supplier_id><u_supplier_name>Supplier-21</u_supplier_name></manufacturing_supplier></record_update>]]></payload>
+<payload_hash>-1137861968</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>dc243eb72f9e3e1097dacf4fafa4e366</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdafeaf00000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>89027a372f5e3e1097dacf4fafa4e3af</target_name>
+<type>Suppliers</type>
+<update_domain>global</update_domain>
+<update_guid>801476b7f09e3e10ee8b9505b2439685</update_guid>
+<update_guid_history>801476b7f09e3e10ee8b9505b2439685:-1137861968</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_manufacturing_supplier_u_supplier_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_supplier_name" table="manufacturing_supplier"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;supplier_name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_supplier_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;manufacturing_supplier&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;gurjot.joshi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-14 17:57:19&lt;/sys_created_on&gt;&lt;sys_id&gt;73f1b6372f5e3e1097dacf4fafa4e3a8&lt;/sys_id&gt;&lt;sys_name&gt;supplier_name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_manufacturing_supplier_u_supplier_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;gurjot.joshi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-14 17:57:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1322429060</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>dc243eb72f9e3e1097dacf4fafa4e379</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbdaa4e880000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table>manufacturing_supplier</table>
+<target_name>Suppliers.supplier_name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>9ea272fb1c5e3e108371982a4ee99ffa</update_guid>
+<update_guid_history>9ea272fb1c5e3e108371982a4ee99ffa:-1322429060,8402f637ba5e3e1068d1981c044605a6:-1322429060</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_alectri_zc_0_source_table_columns_85027a372f5e3e1097dacf4fafa4e3a7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_alectri_zc_0_source_table_columns"><x_snc_alectri_zc_0_source_table_columns action="INSERT_OR_UPDATE"><column_label>active_flag</column_label><column_name>active_flag</column_name><source_table display_value="Suppliers">0d027a372f5e3e1097dacf4fafa4e3a3</source_table><sys_created_by>gurjot.joshi@snc</sys_created_by><sys_created_on>2026-01-14 17:57:24</sys_created_on><sys_id>85027a372f5e3e1097dacf4fafa4e3a7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gurjot.joshi@snc</sys_updated_by><sys_updated_on>2026-01-14 17:57:24</sys_updated_on></x_snc_alectri_zc_0_source_table_columns></record_update>]]></payload>
+<payload_hash>-1708149728</payload_hash>
+<remote_update_set display_value="Redshift Connector Simulated Data v2">0c243eb72f9e3e1097dacf4fafa4e35d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>gurjot.joshi@snc</sys_created_by>
+<sys_created_on>2026-01-14 18:06:38</sys_created_on>
+<sys_id>dc243eb72f9e3e1097dacf4fafa4e37e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19bbda94be90000001</sys_recorded_at>
+<sys_updated_by>gurjot.joshi@snc</sys_updated_by>
+<sys_updated_on>2026-01-14 18:06:38</sys_updated_on>
+<table/>
+<target_name>active_flag</target_name>
+<type>Source Table Columns</type>
+<update_domain>global</update_domain>
+<update_guid>5e62b63bfa5e3e10d0866dda0dfe619e</update_guid>
+<update_guid_history>5e62b63bfa5e3e10d0866dda0dfe619e:-1708149728</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
