@@ -21,7 +21,7 @@ This tool automatically imports all the required update sets and data into your 
    - **Windows:** Double-click `demo-hub-wdf-lab-instance-prep.bat`
 4. **Wait for setup** — On first run, it will install Python dependencies automatically (~30 seconds)
 5. **Your browser will open** with a form. Fill in:
-   - **Instance Name** — Just the name part, e.g. if your URL is `https://myinstance.service-now.com`, enter `myinstance`
+   - **Instance Name** — Just the name part, e.g. if your URL is `https://demoalectriabcdefg123456.service-now.com`, enter `demoalectriabcdefg123456`
    - **Username** — Your ServiceNow username (e.g. `admin`)
    - **Password** — Your ServiceNow password
 6. **Click "Start Instance Prep"** and watch the progress in the log area

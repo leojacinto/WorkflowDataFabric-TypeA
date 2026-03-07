@@ -724,7 +724,7 @@ HTML_TEMPLATE = r"""
   <!-- Single Instance Panel -->
   <div id="panel-single" class="panel active">
     <label for="instance">Instance Name</label>
-    <input type="text" id="instance" placeholder="e.g. mycompany" autocomplete="off">
+    <input type="text" id="instance" placeholder="e.g. demoalectriabcdefg123456" autocomplete="off">
     <div class="input-hint">We'll connect to https://&lt;name&gt;.service-now.com</div>
 
     <label for="username">Username</label>
