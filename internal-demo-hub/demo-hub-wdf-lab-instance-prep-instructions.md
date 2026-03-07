@@ -17,9 +17,7 @@ This tool automatically imports all the required update sets and data into your 
 1. **Download** the ZIP file using the link above (click "Download raw file" on GitHub)
 2. **Unzip** the file — you will see a folder called `demo-hub-wdf-lab-instance-prep`
 3. **Open the folder** and find the launcher for your operating system:
-   - **Mac/Linux:** Double-click `demo-hub-wdf-lab-instance-prep.sh`
-     - If it doesn't open, right-click → Open With → Terminal
-     - Or open Terminal, drag the file into it, and press Enter
+   - **Mac/Linux:** Double-click `demo-hub-wdf-lab-instance-prep.command` — it opens Terminal automatically
    - **Windows:** Double-click `demo-hub-wdf-lab-instance-prep.bat`
 4. **Wait for setup** — On first run, it will install Python dependencies automatically (~30 seconds)
 5. **Your browser will open** with a form. Fill in:
@@ -47,7 +45,7 @@ This tool automatically imports all the required update sets and data into your 
 | "Failed to connect" error | Check your instance name is correct (just the name, not the full URL). Make sure your instance is awake (not hibernating). |
 | Login fails | Verify your username and password. Try logging into your instance in a browser first to confirm. |
 | A file fails to import | The tool retries 3 times per file. If it still fails, note the filename from the log and ask your lab instructor for help. |
-| Script won't run on Mac | Open Terminal and run: `chmod +x demo-hub-wdf-lab-instance-prep.sh` then `./demo-hub-wdf-lab-instance-prep.sh` |
+| Script won't run on Mac | Open Terminal and run: `chmod +x demo-hub-wdf-lab-instance-prep.command` then `./demo-hub-wdf-lab-instance-prep.command` |
 
 ### Need Help?
 
@@ -111,7 +109,7 @@ The **Multi Instance (Admin)** tab allows running the same import across multipl
 
 ```
 demo-hub-wdf-lab-instance-prep/
-├── demo-hub-wdf-lab-instance-prep.sh   # Mac/Linux launcher
+├── demo-hub-wdf-lab-instance-prep.command  # Mac/Linux launcher (double-click to run)
 ├── demo-hub-wdf-lab-instance-prep.bat  # Windows launcher
 ├── demo_hub_prep.py                     # Main application
 ├── requirements.txt                     # Python dependencies (flask, requests)
