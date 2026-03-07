@@ -33,9 +33,9 @@ graph LR
     IntHub -->|Write| ExpenseTable
 
     %% Styling
-    classDef external fill:#e1f5ff,stroke:#01579b,stroke-width:2px
-    classDef integration fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    classDef native fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
+    classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    classDef integration fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    classDef native fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
 
     class IntHub integration
     class ExpenseTable native
