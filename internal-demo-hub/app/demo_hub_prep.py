@@ -31,10 +31,19 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Resolve paths relative to this script (works inside zip or cloned repo)
 # ---------------------------------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# update_sets/ and xml_unloads/ sit one level up from app/
-PARENT_DIR = os.path.dirname(BASE_DIR)
-UPDATE_SET_DIR = os.path.join(PARENT_DIR, "update_sets")
-XML_UNLOAD_DIR = os.path.join(PARENT_DIR, "xml_unloads")
+
+# Look for XML dirs in same directory first (ZIP layout), then parent (repo layout)
+def _find_dir(name):
+    same = os.path.join(BASE_DIR, name)
+    if os.path.isdir(same):
+        return same
+    parent = os.path.join(os.path.dirname(BASE_DIR), name)
+    if os.path.isdir(parent):
+        return parent
+    return same  # default to same-level path
+
+UPDATE_SET_DIR = _find_dir("update_sets")
+XML_UNLOAD_DIR = _find_dir("xml_unloads")
 
 # ---------------------------------------------------------------------------
 # Flask app
