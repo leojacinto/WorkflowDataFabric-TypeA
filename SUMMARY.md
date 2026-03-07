@@ -21,7 +21,7 @@
 
 ## Demo Hub for SCs
 
-* [Demo Hub for Solution Consultants](demo-hub-for-scs/demo-hub-for-solution-consultants.md)
+* [Demo Hub Considerations](demo-hub-for-scs/demo-hub-considerations.md)
 
 ***
 
