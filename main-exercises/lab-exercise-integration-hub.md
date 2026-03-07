@@ -62,12 +62,12 @@ graph LR
     EC -->|Search & Query| FinCase
 
     %% Styling
-    classDef external fill:#e1f5ff,stroke:#01579b,stroke-width:2px
-    classDef integration fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    classDef zeroCopy fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    classDef native fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
-    classDef ai fill:#fff9c4,stroke:#f57f17,stroke-width:2px
-    classDef user fill:#e3f2fd,stroke:#1565c0,stroke-width:3px
+    classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    classDef integration fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    classDef zeroCopy fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
+    classDef native fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    classDef ai fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
+    classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
 
     class ExpenseAPI,SharePoint external
     class IntHub,ExtContent integration
