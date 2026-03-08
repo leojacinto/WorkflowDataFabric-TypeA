@@ -15,7 +15,7 @@ The data flow below shows how ServiceNow consumes data from the local Expense Tr
 **Note**: future versions of this lab will include ServiceNow Enterprise Graph which will provide a universal query functionality that brings together the various internal and external data sources. As of Jan-2026, said feature is not globally available and is hence not yet included in this lab.
 
 ```mermaid
-graph LR
+graph TB
     subgraph "User Interaction Layer"
         Employee((Employee/<br/>Finance Manager))
         EC[Employee Center or<br/> Workspace with Now Assist]
@@ -26,7 +26,7 @@ graph LR
         CDW[(Cloud Data<br/>Warehouse)]
     end
 
-    subgraph "ServiceNow Workflow Data Fabric and related components"
+    subgraph "ServiceNow AI Platform"
         subgraph "Data Integration Layer"
             ZeroCopySQL[Zero Copy SQL<br/>Connection]
             ZeroCopyERP[Zero Copy ERP<br/>Connection]

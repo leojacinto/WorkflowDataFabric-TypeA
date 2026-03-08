@@ -15,7 +15,7 @@ There are dedicated Integration Hub and Flow Designer labs; hence, the focus of 
 The data flow below shows how ServiceNow will consume REST API endpoints via Integration Hub Spokes then further processed by a Flow so the entries will be written in the scoped table.
 
 ```mermaid
-graph LR
+graph TB
     subgraph "User Interaction Layer"
         Employee((Employee/<br/>Finance Manager))
         EC[Employee Center or<br/> Workspace with Now Assist]
@@ -25,7 +25,7 @@ graph LR
         ExpenseAPI[Expense Event<br/>API]
     end
 
-    subgraph "ServiceNow Workflow Data Fabric and related components"
+    subgraph "ServiceNow AI Platform"
         subgraph "Data Integration Layer"
             IntHub[Integration Hub<br/>Spoke/Flow]
         end

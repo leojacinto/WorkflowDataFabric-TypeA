@@ -19,21 +19,13 @@ A more detailed version of this exercise with significantly more configuration s
 The data flow below shows how ServiceNow will get information from documents from invoices and further process said information to evaluate whether a Finance case should be created.
 
 ```mermaid
-graph LR
+graph TB
     subgraph "User Interaction Layer"
         Employee((Employee/<br/>Finance Manager))
         EC[Employee Center or<br/>Workspace with Now Assist]
     end
 
-
-
-    subgraph "AI Experiences"
-        Lens["ServiceNow</br>Lens"]
-        DocIntel["Document</br>Intelligence"]
-    end
-
-    subgraph "ServiceNow Workflow Data Fabric and related components"
-
+    subgraph "ServiceNow AI Platform"
         subgraph "ServiceNow Native Tables"
             ExpenseTable[(Expense Event<br/>Line Items<br/>Scoped Table)]
             FinCase[(Finance Case<br/>Table)]
@@ -44,6 +36,10 @@ graph LR
             Agent2[Agent: Proactive<br/>Budget Alert<br/>Integration Hub Source]
             RAG[RAG - Retrieval<br/>Augmented Generation]
             FlowAction[Flow Action]
+        end
+        subgraph "AI Experiences"
+            Lens["ServiceNow</br>Lens"]
+            DocIntel["Document</br>Intelligence"]
         end
     end
 
