@@ -137,7 +137,7 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 6.  Provide the label for the cloned model as <mark style="color:green;">**a.)**</mark> **SAP Cost Center** and take not of the Target application which should be <mark style="color:green;">**b.)**</mark> **Forecast Variance**. Click <mark style="color:green;">**c.)**</mark> Clone this model once done.
 
     <figure><img src="../.gitbook/assets/sc_zcc_clone_model_details.png" alt="" width="450"><figcaption></figcaption></figure>
-7.  After cloning the model you will be directed to its configuration screen. Assign the <mark style="color:green;">**a.)**</mark> ERP system name as S4D then <mark style="color:green;">**b.)**</mark> click Save. This will set up your model to use an ERP system that the ServiceNow instance is integrated to via Connections & Credentials. Then, <mark style="color:green;">**c.)**</mark> click **Manage model**.&#x20;
+7.  After cloning the model you will be directed to its configuration screen. Assign the <mark style="color:green;">**a.)**</mark> ERP system name as S4D then <mark style="color:green;">**b.)**</mark> click Save. This will set up your model to use an ERP system that the ServiceNow instance is integrated to via Connections & Credentials. Then, <mark style="color:green;">**c.)**</mark> click **Manage model**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_model_config_save.png" alt=""><figcaption></figcaption></figure>
 8.  Click **Read** to use a read-only operation configured in the model. ZCC for ERP models can also perform **Update** and **Create** actions.
@@ -152,7 +152,7 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 11. Click on **Choose outputs**. You do not need to do anything in this screen. The intent is to provide an overview of what can be configured as the output for your selection or extraction. Both **Specify inputs** and **Choose outputs** sections can be intimidating for non-SAP practitioners which led to the creation of the **Data Product** we cloned in **Step 5**. Find out more about [**ERP Data Products here**](https://store.servicenow.com/store/app/9a0ad9f41b19e650396216db234bcba9).
 
     <figure><img src="../.gitbook/assets/sc_zcc_choose_outputs.png" alt=""><figcaption></figcaption></figure>
-12. Go to <mark style="color:green;">**a.)**</mark> **Extraction tables (Sankey diagram icon)** and click <mark style="color:green;">**b.)**</mark> **Name** > **more (vertical three dots)** > <mark style="color:green;">**c.**</mark> type **SAP Cost Center** and <mark style="color:green;">**d.)**</mark> click **Apply**. **Extraction tables** are used as persistence layer for **ERP models**, i.e. data is stored here from Extract Transform Load (ETL) processes as an alternative to reading ERP data via Zero Copy. This is useful especially if the ERP table you are connecting to has millions of rows OR are not frequently updated. In our use case, while cost center master data is relatively small in many customer environments, they do not change frequently.&#x20;
+12. Go to <mark style="color:green;">**a.)**</mark> **Extraction tables (Sankey diagram icon)** and click <mark style="color:green;">**b.)**</mark> **Name** > **more (vertical three dots)** > <mark style="color:green;">**c.**</mark> type **SAP Cost Center** and <mark style="color:green;">**d.)**</mark> click **Apply**. **Extraction tables** are used as persistence layer for **ERP models**, i.e. data is stored here from Extract Transform Load (ETL) processes as an alternative to reading ERP data via Zero Copy. This is useful especially if the ERP table you are connecting to has millions of rows OR are not frequently updated. In our use case, while cost center master data is relatively small in many customer environments, they do not change frequently.
 
     <figure><img src="../.gitbook/assets/sc_zcc_extraction_tables_filter.png" alt=""><figcaption></figcaption></figure>
 13. Click on **SAP Cost Center**.
@@ -193,10 +193,10 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 7.  In the screen that immediate follows, click on the tick box beside **Name** and this will include all the fields from the Snowflake data asset to the data fabric table being configured. Customers also have the option to select only the columns needed to speed up loading of data fabric tables.
 
     <figure><img src="../.gitbook/assets/sc_zcc_select_all_columns.png" alt=""><figcaption></figcaption></figure>
-8.  Look for **Cost center** column > change the data type from **String** to <mark style="color:green;">**a.)**</mark> **Reference** and click <mark style="color:green;">**b.)**</mark> **Reference** to set the table from which **Cost center** column will refer to.
+8.  Look for **Cost center** column > change the data type from **String** to <mark style="color:green;">**a.)**</mark> **Reference** and click <mark style="color:green;">**b.)**</mark> **Reference** to set the table from which **Cost center** column will refer to. A **Reference** field points to a record in an existing table, so users select from a controlled set instead of typing freehand. This keeps your data consistent and traceable, which matters most when the field drives downstream process logic.
 
     <figure><img src="../.gitbook/assets/sc_zcc_cost_center_reference.png" alt=""><figcaption></figcaption></figure>
-9. In the modal pop-up that appears, select the table **sn\_erp\_integration\_cost\_center** which you have set-up in the ZCC for ERP lab exercise.&#x20;
+9. In the modal pop-up that appears, select the table **sn\_erp\_integration\_cost\_center** which you have set-up in the ZCC for ERP lab exercise.
 
 <figure><img src="../.gitbook/assets/sc_zcc_reference_table.png" alt="" width="375"><figcaption></figcaption></figure>
 
