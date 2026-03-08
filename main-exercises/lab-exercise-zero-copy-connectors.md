@@ -46,7 +46,7 @@ graph TB
         subgraph "AI & Automation"
             Agent1[Agent: Over-Budget<br/>Case Creator<br/>Zero Copy Source]
             RAG[RAG - Retrieval<br/>Augmented Generation]
-            NASK[NASK - Now Assist<br/>Skill Kit]
+
             FlowAction[Flow Action]
         end
     end
@@ -66,7 +66,6 @@ graph TB
     ZCExp -->|Search Similar Cases| Agent1
     Agent1 -->|Create Case| FinCase
     Agent1 <-->|Trend Analysis| RAG
-    Agent1 <-->|Knowledge Retrieval| NASK
     Agent1 <-->|Flows/Subflows/Actions| FlowAction
 
     %% User Interaction Connections
