@@ -6,7 +6,7 @@ icon: folder-grid
 
 [Take me back to main page](../)
 
-<mark style="color:red;">**Note:**</mark> this is a controlled lab and is only accessible in ServiceNow internal demo instances. Please bear with us as we translate this into a widely available lab exercise.
+<mark style="color:$warning;">**Note:**</mark> This is a controlled lab and is only accessible in ServiceNow internal demo instances. Please bear with us as we translate this into a widely available lab exercise.
 
 This lab will walk you through the configuration and usage of External Content Connectors as a source of unstructured document data to supplement automations needed in Finance case creation.
 

@@ -78,7 +78,9 @@ graph TB
     class Employee,EC user
 ```
 
-## Steps
+## Lab Sections and Objectives
+
+## Preparation
 
 ### Preparation: Platform Configuration
 
@@ -175,32 +177,37 @@ Navigate to Connection & Credential Aliases. Open the pre-configured "Get Expens
 
     <figure><img src="../.gitbook/assets/sc_ihub_connection_url_submit.png" alt=""><figcaption></figcaption></figure>
 
+## AI Agent Configuration
+
 ### Walkthrough: Custom Forecast Variance AI Agent
 
 This is a walk through of how an AI agent equipped with both deterministic and probabilistic capabilities can automate research and validation of cost center history and expenses; as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not an OOTB agent.
 
 For this section: Open AI Agent Studio > Forecast Variance Integration Hub Trigger. Explore: Define the specialty (plain English instructions), Add tools (Search retrievals + Subflows), Define security controls (Dynamic user + admin role).
 
-3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
+1. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create and Manage**.
 
-    <figure><img src="../.gitbook/assets/sc_common_agent_studio_create_manage.png" alt=""><figcaption></figcaption></figure>
-4. This will go to the list of Agentic workflows and AI agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** **Integration Hub Trigger** and hit **Return/Enter ↵**.
+<figure><img src="../.gitbook/assets/sc_common_agent_studio_create_manage.png" alt=""><figcaption></figcaption></figure>
+
+2. This will go to the list of Agentic workflows and AI agents. Go to **AI agents** tab > <mark style="color:green;">**a.)**</mark> click **search (magnifying glass)** > <mark style="color:green;">**b.)**</mark> type **Forecast Variance** **Integration Hub Trigger** and hit **Return/Enter ↵**.
 
 <figure><img src="../.gitbook/assets/sc_ihub_agent_studio_manage.png" alt="" width="563"><figcaption></figcaption></figure>
 
-5. Click on **Forecast Variance Integration Hub Trigger** to make adjustments to the pre-configured AI Agent.
+3. Click on **Forecast Variance Integration Hub Trigger** to make adjustments to the pre-configured AI Agent.
 
 <figure><img src="../.gitbook/assets/sc_ihub_forecast_variance_agent.png" alt="" width="563"><figcaption></figcaption></figure>
 
-6.  Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
+4. Click on **Define the specialty**. This shows all the instructions for this AI Agent created in plain English. The **List of steps** describes the sequence, purpose, and nuances of the tools configured, which are shown in the next section. No further action is required in this section.
 
-    <figure><img src="../.gitbook/assets/sc_ihub_define_specialty.png" alt=""><figcaption></figcaption></figure>
-7.  Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**. No further action is required in this section but feel free to explore the configurations of each of the tools.
+<figure><img src="../.gitbook/assets/sc_ihub_define_specialty.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/sc_ihub_add_tools_info.png" alt=""><figcaption></figcaption></figure>
-8.  Under **Define security controls** > <mark style="color:green;">**a.)**</mark> click **Define data access** > <mark style="color:green;">**b.)**</mark> select **Dynamic user** from the drop down then > <mark style="color:green;">**c.)**</mark> add **admin** user as the **Approved role** if the field is not filled out yet. For this exercise we are using permissive authorisations but this is where you can tighten authorisations for your agents allowing mechanisms such as inheriting the authorisations of logged in user (Dynamic identity type) or a predefined set of access (AI User identity type).
+5. Next, click on **Add tools and information**. This is a collection of **Search retrievals** and **Subflows** that are used by the agent. The purpose and sequence of these tools are also described in the section **Define the specialty**. No further action is required in this section but feel free to explore the configurations of each of the tools.
 
-    <figure><img src="../.gitbook/assets/sc_ihub_define_security.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_ihub_add_tools_info.png" alt=""><figcaption></figcaption></figure>
+
+6. Under **Define security controls** > <mark style="color:green;">**a.)**</mark> click **Define data access** > <mark style="color:green;">**b.)**</mark> select **Dynamic user** from the drop down then > <mark style="color:green;">**c.)**</mark> add **admin** user as the **Approved role** if the field is not filled out yet. For this exercise we are using permissive authorisations but this is where you can tighten authorisations for your agents allowing mechanisms such as inheriting the authorisations of logged in user (Dynamic identity type) or a predefined set of access (AI User identity type).
+
+<figure><img src="../.gitbook/assets/sc_ihub_define_security.png" alt=""><figcaption></figcaption></figure>
 
 ### Hands-on: Configure AI Agent Trigger
 
@@ -247,6 +254,8 @@ Delete any existing trigger. Create new trigger: Table = Expense Transaction Eve
 6. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Make sure your configuration is set as below. Once done, <mark style="color:green;">**d.)**</mark> click **Save**. <mark style="color:green;">**Keep this browser window open! You will need again it later**</mark>.
 
 <figure><img src="../.gitbook/assets/sc_ihub_select_channels.png" alt=""><figcaption></figcaption></figure>
+
+## Action and Subflow
 
 ### Walkthrough: Action
 
@@ -301,6 +310,8 @@ In the same window of Flow Designer > Subflows > Get Expense Event. Click Test >
 7. If everything is working as expected, all the steps would be either <mark style="color:green;">**Completed**</mark> or <mark style="color:green;">**Evaluated - True**</mark>.
 
 <figure><img src="../.gitbook/assets/sc_ihub_test_results.png" alt=""><figcaption></figcaption></figure>
+
+## AI Agent and Finance Operations Workspace
 
 ### Walkthrough: Agent Runtime
 

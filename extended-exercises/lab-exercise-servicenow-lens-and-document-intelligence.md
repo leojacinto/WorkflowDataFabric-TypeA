@@ -78,9 +78,9 @@ graph TB
     class Employee,EC user
 ```
 
-## Steps
+## Document Intelligence
 
-### Document Intelligence Config
+### Walkthrough: Document Intelligence Setup
 
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
 
@@ -143,7 +143,7 @@ graph TB
 
     <figure><img src="../.gitbook/assets/sc_ldi_skills_screen.png" alt=""><figcaption></figcaption></figure>
 
-### Document Intelligence Parameters
+### Hands-on: Document Intelligence Parameters
 
 1. Steps 2 to 4 are applicable if you do **NOT** have [Document Intelligence Admin](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8700f4efc3a411101d9a3cadb140ddad/1.1.0) plugin installed which is the case for this lab. Succeeding versions of this lab will have the said plugin installed which will result in a more streamlined experience.
 2.  For this step, change the scope to Global by navigating to the <mark style="color:green;">**a.)**</mark> **globe icon** and clicking <mark style="color:green;">**b.)**</mark> **Global** application scope.
@@ -161,7 +161,7 @@ graph TB
 
 <figure><img src="../.gitbook/assets/sc_ldi_scope_forecast_variance.png" alt="" width="319"><figcaption></figcaption></figure>
 
-### Document Intelligence Runtime
+### Hands-on: Document Intelligence Runtime
 
 1.  Go to **All** > type **x\_snc\_forecast\_v\_0\_variance\_task.do** and hit **Return/Enter ↵**.
 
@@ -187,13 +187,17 @@ graph TB
 6.  You can _either_ <mark style="color:green;">**a.)**</mark> right-click on the header and click **Save** or > <mark style="color:green;">**b.)**</mark> simply click **Submit**.
 
     <figure><img src="../.gitbook/assets/sc_ldi_save_or_submit.png" alt=""><figcaption></figcaption></figure>
-7.  In the same browser window, you will notice that there is a new **Now Assist badge**. This is the AI Agent at work in the back end because the Document Intelligence integration flows have been triggered by changing the status of the task in which we have uploaded the Invoice to. This in turn triggered the same agent in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub). Click on the **Now Assist icon** with the updated badge count. If the **Now Assist badge** does not appear, simply reload your page.
 
-    <figure><img src="../.gitbook/assets/sc_ihub_now_assist_badge_notification.png" alt=""><figcaption></figcaption></figure>
-8.  This will open the **Now Assist** chat. Click on the two-headed diagonal arrow to Enter **Modal**.
+### Walkthrough: Custom Forecast Variance AI Agent
+
+1. In the same browser window, you will notice that there is a new **Now Assist badge**. This is the AI Agent at work in the back end because the Document Intelligence integration flows have been triggered by changing the status of the task in which we have uploaded the Invoice to. This in turn triggered the same agent in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub). Click on the **Now Assist icon** with the updated badge count. If the **Now Assist badge** does not appear, simply reload your page.
+
+<figure><img src="../.gitbook/assets/sc_ihub_now_assist_badge_notification.png" alt=""><figcaption></figcaption></figure>
+
+2.  This will open the **Now Assist** chat. Click on the two-headed diagonal arrow to Enter **Modal**.
 
     <figure><img src="../.gitbook/assets/sc_ihub_now_assist_chat_expand.png" alt=""><figcaption></figcaption></figure>
-9. This will expand the Now Assist window.
+3. This will expand the Now Assist window.
 
 <mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** show tools used.
 
@@ -209,37 +213,49 @@ graph TB
 
 <figure><img src="../.gitbook/assets/sc_ldi_agent_results_overview.png" alt=""><figcaption></figcaption></figure>
 
-10. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
+### Completion: Verify Finance Case
+
+1. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
 <figure><img src="../.gitbook/assets/sc_common_fow_nav.png" alt=""><figcaption></figcaption></figure>
 
-11. For this exercise, we are not impersonating a persona so you remain as the System user.
+2. For this exercise, we are not impersonating a persona so you remain as the System user.
 
 <figure><img src="../.gitbook/assets/sc_common_fow_system_user.png" alt=""><figcaption></figcaption></figure>
 
-12. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > <mark style="color:green;">**c.)**</mark> sort by **Number** descending/ascending > <mark style="color:green;">**d.)**</mark> or look for the Finance case created by the AI Agent, FINC0010017 in the example above.
+3. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > <mark style="color:green;">**c.)**</mark> sort by **Number** descending/ascending > <mark style="color:green;">**d.)**</mark> or look for the Finance case created by the AI Agent, FINC0010017 in the example above.
 
-    <figure><img src="../.gitbook/assets/sc_ldi_finance_case_list.png" alt=""><figcaption></figcaption></figure>
-13. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
+<figure><img src="../.gitbook/assets/sc_ldi_finance_case_list.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/sc_ldi_now_assist_skills_nav.png" alt=""><figcaption></figcaption></figure>
-14. Go to <mark style="color:green;">**a.)**</mark> **Platform** > <mark style="color:green;">**b.)**</mark>**&#x20;Other** > <mark style="color:green;">**c.)**</mark> type **Extract information from documents** > go to **Extract information from documents** > **vertical tree dot** > <mark style="color:green;">**d.)**</mark>**&#x20;Edit**.
+4. Congratulations! You have walked through the configuration and runtime of Document Intelligence, integrated with AI Agents that process the contents of the invoice for appropriate case handling for over-budget cost centers.
 
-    <figure><img src="../.gitbook/assets/sc_ldi_edit_extract_skill.png" alt=""><figcaption></figcaption></figure>
-15. Go to <mark style="color:green;">**a.)**</mark> **Create Usecase** > <mark style="color:green;">**b.)**</mark> click on **Expense Transaction Event.**
+### \[Optional] Completion: Verify Document Output
 
-    <figure><img src="../.gitbook/assets/sc_ldi_create_usecase.png" alt=""><figcaption></figcaption></figure>
-16. In the screen that follows, go to <mark style="color:green;">**a.)**</mark> **Test Outputs** > <mark style="color:green;">**b.)**</mark> note the **Task ID** automatically generated when you created an entry in **x\_snc\_forecast\_v\_0\_variance\_task**. Your task ID may differ from what is show here. Finally, > <mark style="color:green;">**c.)**</mark> > click on **Process**.
+1. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
 
-    <figure><img src="../.gitbook/assets/sc_ldi_test_outputs.png" alt=""><figcaption></figcaption></figure>
-17. You can do several things here. Notice the <mark style="color:green;">**a.)**</mark> **Invoice** you uploaded with the <mark style="color:green;">**b.)**</mark>**&#x20;information** now extracted. You can also see the <mark style="color:green;">**c.)**</mark>**&#x20;Status**. You also have the option to open the section into a new **Document Intelligence** window.
+<figure><img src="../.gitbook/assets/sc_ldi_now_assist_skills_nav.png" alt=""><figcaption></figcaption></figure>
+
+2. Go to <mark style="color:green;">**a.)**</mark> **Platform** > <mark style="color:green;">**b.)**</mark>**&#x20;Other** > <mark style="color:green;">**c.)**</mark> type **Extract information from documents** > go to **Extract information from documents** > **vertical tree dot** > <mark style="color:green;">**d.)**</mark>**&#x20;Edit**.
+
+<figure><img src="../.gitbook/assets/sc_ldi_edit_extract_skill.png" alt=""><figcaption></figcaption></figure>
+
+3. Go to <mark style="color:green;">**a.)**</mark> **Create Usecase** > <mark style="color:green;">**b.)**</mark> click on **Expense Transaction Event.**
+
+<figure><img src="../.gitbook/assets/sc_ldi_create_usecase.png" alt=""><figcaption></figcaption></figure>
+
+4. In the screen that follows, go to <mark style="color:green;">**a.)**</mark> **Test Outputs** > <mark style="color:green;">**b.)**</mark> note the **Task ID** automatically generated when you created an entry in **x\_snc\_forecast\_v\_0\_variance\_task**. Your task ID may differ from what is show here. Finally, > <mark style="color:green;">**c.)**</mark> > click on **Process**.
+
+<figure><img src="../.gitbook/assets/sc_ldi_test_outputs.png" alt=""><figcaption></figcaption></figure>
+
+12. You can do several things here. Notice the <mark style="color:green;">**a.)**</mark> **Invoice** you uploaded with the <mark style="color:green;">**b.)**</mark>**&#x20;information** now extracted. You can also see the <mark style="color:green;">**c.)**</mark>**&#x20;Status**. You also have the option to open the section into a new **Document Intelligence** window.
 
     <figure><img src="../.gitbook/assets/sc_ldi_extracted_info_view.png" alt=""><figcaption></figcaption></figure>
-18. Congratulations! You have walked through the configuration and runtime of Document Intelligence, integrated with AI Agents that process the contents of the invoice for appropriate case handling for over-budget cost centers.
 
-### AI Lens
+## AI Lens
 
 **ServiceNow AI Lens** is a capability that allows capturing of information from documents and images via UI (dialog) with the use of AI. Unlike Document Intelligence which can execute in the back-end (e.g. by picking information from documents attached in cases or tasks), Lens requires user interaction. Also unlike Document Intelligence, Lens requires less set-up upfront.
+
+### Walkthrough: AI Lens Setup
 
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
 
@@ -254,31 +270,41 @@ graph TB
 
     <figure><img src="../.gitbook/assets/sc_ldi_lens_back_to_skills.png" alt="" width="563"><figcaption></figcaption></figure>
 5. The **Lens** version in used in the lab is 3.01. If you have already obtained Lens for your own use, skip steps 6 and 7.
-6.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **ServiceNow AI Lens** > <mark style="color:green;">**b.)**</mark> click on **ServiceNow AI Lens > Downloads**.
+
+### Walkthrough: AI Lens Download
+
+1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **ServiceNow AI Lens** > <mark style="color:green;">**b.)**</mark> click on **ServiceNow AI Lens > Downloads**.
 
     <figure><img src="../.gitbook/assets/sc_ldi_lens_downloads_nav.png" alt=""><figcaption></figcaption></figure>
-7.  Download and install the appropriate Lens installation package for your device. As there are three possible device types, installation steps are not shown in this guide. It is generally safe to follow the default prompts in the installation package.
+2.  Download and install the appropriate Lens installation package for your device. As there are three possible device types, installation steps are not shown in this guide. It is generally safe to follow the default prompts in the installation package.
 
     <figure><img src="../.gitbook/assets/sc_ldi_lens_download_packages.png" alt=""><figcaption></figcaption></figure>
-8. Obtain the invoice file to attach which is a sample invoice for **PROD\_DE\_2** cost center. File here: [**Invoice\_Injection\_PROD\_DE\_2.pdf**](https://raw.githubusercontent.com/leojacinto/WorkflowDataFabric-TypeA/refs/heads/main/.gitbook/assets/Invoice_Injection_PROD_DE_2.pdf)**.** Open the file once you have downloaded it.
-9.  Go to **All** > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**.
+
+### Hands-on: AI Lens Runtime
+
+Obtain the invoice file to attach which is a sample invoice for **PROD\_DE\_2** cost center. File here: [**Invoice\_Injection\_PROD\_DE\_2.pdf**](https://raw.githubusercontent.com/leojacinto/WorkflowDataFabric-TypeA/refs/heads/main/.gitbook/assets/Invoice_Injection_PROD_DE_2.pdf)**.** Open the file once you have downloaded it.
+
+1.  Go to **All** > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**.
 
     <figure><img src="../.gitbook/assets/sc_common_expense_event_nav.png" alt=""><figcaption></figcaption></figure>
-10. Click **Create with Lens** which can be found at the top right portion of the navigation.
+2.  Click **Create with Lens** which can be found at the top right portion of the navigation.
 
     <figure><img src="../.gitbook/assets/sc_ldi_lens_create_with_lens.png" alt=""><figcaption></figcaption></figure>
-11. This will open a pop-up. <mark style="color:green;">**a.)**</mark> Decide whether you want to always allow your instance to open the app associated with the **Create with Lens button**, i.e. ServiceNow Lens. Having this box ticked or unticked will not affect the Lens app's execution. Then <mark style="color:green;">**b.)**</mark> click **Open ServiceNow AI Lens.app**.
+3.  This will open a pop-up. <mark style="color:green;">**a.)**</mark> Decide whether you want to always allow your instance to open the app associated with the **Create with Lens button**, i.e. ServiceNow Lens. Having this box ticked or unticked will not affect the Lens app's execution. Then <mark style="color:green;">**b.)**</mark> click **Open ServiceNow AI Lens.app**.
 
     <figure><img src="../.gitbook/assets/sc_ldi_lens_open_app.png" alt=""><figcaption></figcaption></figure>
-12. This will open the **Lens** app. <mark style="color:green;">**a.)**</mark> Drag the **Lens** app displayed as a frame with green and indigo gradient. You might instinctively drag the app by just clicking at the frame - you don't have to do this! You can also click on the <mark style="color:green;">**b.)**</mark> space inside the frame if you wish to drag it. You can also <mark style="color:green;">**c.)**</mark> resize the frame to capture the relevant area of the document. Click **Analyze** once you are done and wait for a few seconds for Lens to process the document.
+4.  This will open the **Lens** app. <mark style="color:green;">**a.)**</mark> Drag the **Lens** app displayed as a frame with green and indigo gradient. You might instinctively drag the app by just clicking at the frame - you don't have to do this! You can also click on the <mark style="color:green;">**b.)**</mark> space inside the frame if you wish to drag it. You can also <mark style="color:green;">**c.)**</mark> resize the frame to capture the relevant area of the document. Click **Analyze** once you are done and wait for a few seconds for Lens to process the document.
 
     <figure><img src="../.gitbook/assets/sc_ldi_lens_frame_analyze.png" alt=""><figcaption></figcaption></figure>
-13. Your **Expense Transaction Event** new record in your browser will be populated with the data from the invoice. As with any AI solution, processing time is required which makes important to weigh the benefit of a UI-based document scanner against a backend-friendly solution like Document Intelligence. Click **Submit**.
+5.  Your **Expense Transaction Event** new record in your browser will be populated with the data from the invoice. As with any AI solution, processing time is required which makes important to weigh the benefit of a UI-based document scanner against a backend-friendly solution like Document Intelligence. Click **Submit**.
 
     <figure><img src="../.gitbook/assets/sc_ldi_lens_record_populated.png" alt=""><figcaption></figcaption></figure>
-14. The new **Expense Transaction Event** is now saved.
+6.  The new **Expense Transaction Event** is now saved.
 
     <figure><img src="../.gitbook/assets/sc_ldi_lens_event_saved.png" alt=""><figcaption></figcaption></figure>
-15. Congratulations! You now have explored the capabilities of both Document Intelligence and AI Lens.
+
+## Conclusion
+
+Congratulations! You now have explored the capabilities of both Document Intelligence and AI Lens.
 
 [Take me back to main page](../)
