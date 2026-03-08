@@ -14,6 +14,10 @@ To keep this exercise self-contained and reuse the agent built in [Lab Exercise:
 
 A more detailed version of this exercise with significantly more configuration steps is available as standalone. Reach out to your Lab Administrator for more details.
 
+## Lab Sections and Objectives
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#data-flow">1</a></td><td>Facilitator</td><td><strong>Context Setting:</strong> Review the data flow diagram showing how ServiceNow captures information from documents via Lens and Document Intelligence.</td></tr><tr><td colspan="3"><strong>Document Intelligence</strong></td></tr><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#walkthrough-document-intelligence-setup">2</a></td><td>Student</td><td><strong>Document Intelligence Setup:</strong> Navigate to Now Assist Admin Skills. Activate the Extract information from documents skill. Review the Expense Transaction Event use case configuration and integrations.</td></tr><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#hands-on-document-intelligence-parameters">3</a></td><td>Student</td><td><strong>Document Intelligence Parameters:</strong> Set extraction thresholds to 0.01 in Global scope for lab purposes.</td></tr><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#hands-on-document-intelligence-runtime">4</a></td><td>Student</td><td><strong>Document Intelligence Runtime:</strong> Create a variance task record. Upload the Invoice_IT_Laptop_CC_IT_002.pdf document. Set state to Work in Progress and submit.</td></tr><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#walkthrough-custom-forecast-variance-ai-agent">5</a></td><td>Student</td><td><strong>Watch the AI Agent React:</strong> Look for the Now Assist badge. Open Now Assist chat. Expand to Modal view. Review planning steps, event ID extraction, RAG search results, and Finance Case link.</td></tr><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#completion-verify-finance-case">6</a></td><td>Student</td><td><strong>Verify the Finance Case:</strong> Navigate to Finance Operations Workspace. Find the case created by the agent.</td></tr><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#optional-completion-verify-document-output">7</a></td><td>Student</td><td><strong>[Optional] Verify Document Output:</strong> Navigate to Now Assist Admin Skills. Review the extracted document information in the Test Outputs tab.</td></tr><tr><td colspan="3"><strong>AI Lens</strong></td></tr><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#walkthrough-ai-lens-setup">8</a></td><td>Student</td><td><strong>AI Lens Setup:</strong> Navigate to Now Assist Admin Skills. Activate ServiceNow AI Lens.</td></tr><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#walkthrough-ai-lens-download">9</a></td><td>Student</td><td><strong>AI Lens Download:</strong> Download and install the Lens application for your device.</td></tr><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#hands-on-ai-lens-runtime">10</a></td><td>Student</td><td><strong>AI Lens Runtime:</strong> Open the Invoice_Injection_PROD_DE_2.pdf document. Navigate to the Expense Transaction Event table. Use Create with Lens to capture and submit expense data.</td></tr><tr><td><a href="lab-exercise-servicenow-lens-and-document-intelligence.md#conclusion">11</a></td><td>Facilitator</td><td><strong>Conclusion:</strong> Walk through the capabilities of both Document Intelligence and AI Lens for document-based data capture.</td></tr></tbody></table>
+
 ## Data flow
 
 The data flow below shows how ServiceNow will get information from documents from invoices and further process said information to evaluate whether a Finance case should be created.
@@ -81,6 +85,8 @@ graph TB
 ## Document Intelligence
 
 ### Walkthrough: Document Intelligence Setup
+
+Navigate to Now Assist Admin Skills. Activate the Extract information from documents skill. Review the Expense Transaction Event use case configuration and integrations.
 
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
 
@@ -163,6 +169,8 @@ graph TB
 
 ### Hands-on: Document Intelligence Runtime
 
+Create a variance task record. Upload the Invoice_IT_Laptop_CC_IT_002.pdf document. Set state to Work in Progress and submit.
+
 1.  Go to **All** > type **x\_snc\_forecast\_v\_0\_variance\_task.do** and hit **Return/Enter ↵**.
 
     <figure><img src="../.gitbook/assets/sc_ldi_variance_task_nav.png" alt=""><figcaption></figcaption></figure>
@@ -190,6 +198,8 @@ graph TB
 
 ### Walkthrough: Custom Forecast Variance AI Agent
 
+Look for the Now Assist badge. Open Now Assist chat. Expand to Modal view. Review planning steps, event ID extraction, RAG search results, and Finance Case link.
+
 1. In the same browser window, you will notice that there is a new **Now Assist badge**. This is the AI Agent at work in the back end because the Document Intelligence integration flows have been triggered by changing the status of the task in which we have uploaded the Invoice to. This in turn triggered the same agent in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub). Click on the **Now Assist icon** with the updated badge count. If the **Now Assist badge** does not appear, simply reload your page.
 
 <figure><img src="../.gitbook/assets/sc_ihub_now_assist_badge_notification.png" alt=""><figcaption></figcaption></figure>
@@ -215,6 +225,8 @@ graph TB
 
 ### Completion: Verify Finance Case
 
+Navigate to Finance Operations Workspace. Find the case created by the agent.
+
 1. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
 <figure><img src="../.gitbook/assets/sc_common_fow_nav.png" alt=""><figcaption></figcaption></figure>
@@ -229,7 +241,9 @@ graph TB
 
 4. Congratulations! You have walked through the configuration and runtime of Document Intelligence, integrated with AI Agents that process the contents of the invoice for appropriate case handling for over-budget cost centers.
 
-### \[Optional] Completion: Verify Document Output
+### [Optional] Completion: Verify Document Output
+
+Navigate to Now Assist Admin Skills. Review the extracted document information in the Test Outputs tab.
 
 1. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
 
@@ -257,6 +271,8 @@ graph TB
 
 ### Walkthrough: AI Lens Setup
 
+Navigate to Now Assist Admin Skills. Activate ServiceNow AI Lens.
+
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
 
     <figure><img src="../.gitbook/assets/sc_ldi_now_assist_skills_nav.png" alt=""><figcaption></figcaption></figure>
@@ -272,6 +288,8 @@ graph TB
 5. The **Lens** version in used in the lab is 3.01. If you have already obtained Lens for your own use, skip steps 6 and 7.
 
 ### Walkthrough: AI Lens Download
+
+Download and install the Lens application for your device.
 
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **ServiceNow AI Lens** > <mark style="color:green;">**b.)**</mark> click on **ServiceNow AI Lens > Downloads**.
 

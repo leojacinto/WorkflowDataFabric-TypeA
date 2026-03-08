@@ -12,6 +12,10 @@ Specifically, this provides the steps needed to connect ServiceNow to an MCP Ser
 
 This exercise does not cover the creation of the MCP Service from Neon as that requires administrator rights and CDW expertise which may not be widely available to various personas.
 
+## Lab Sections and Objectives
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-model-context-protocol-server-client.md#data-flow">1</a></td><td>Facilitator</td><td><strong>Context Setting:</strong> Review the data flow diagram showing how ServiceNow provides MCP client and server capabilities to interact with external systems.</td></tr><tr><td colspan="3"><strong>Steps</strong></td></tr><tr><td><a href="lab-exercise-model-context-protocol-server-client.md#hands-on-configure-mcp-client">2</a></td><td>Student</td><td><strong>Configure MCP Client:</strong> Navigate to AI Agent Studio Settings. Add a new MCP Server entry for Neon with API Key authentication.</td></tr><tr><td><a href="lab-exercise-model-context-protocol-server-client.md#hands-on-configure-new-ai-agent-for-mcp-scenario">3</a></td><td>Student</td><td><strong>Configure new AI Agent:</strong> Duplicate the Forecast Variance agent. Rename it to Forecast Variance Neon MCP Lab.</td></tr><tr><td><a href="lab-exercise-model-context-protocol-server-client.md#hands-on-configure-mcp-step-and-tool">4</a></td><td>Student</td><td><strong>Configure MCP Step and Tool:</strong> Add MCP instructions to the agent specialty. Add the variance-baseline-search MCP server tool from Neon. Configure tool name, description, and execution mode.</td></tr><tr><td><a href="lab-exercise-model-context-protocol-server-client.md#walkthrough-complete-ai-agent-configuration">5</a></td><td>Student</td><td><strong>Complete AI Agent Configuration:</strong> Accept default security controls. Configure channels and status. Save and test.</td></tr><tr><td><a href="lab-exercise-model-context-protocol-server-client.md#hands-on-test-and-review-custom-ai-agent">6</a></td><td>Student</td><td><strong>Test AI Agent:</strong> Enter test prompt to process an expense event. Verify the MCP tool returns matching cost center data from Neon.</td></tr><tr><td><a href="lab-exercise-model-context-protocol-server-client.md#conclusion">7</a></td><td>Facilitator</td><td><strong>Conclusion:</strong> Walk through how MCP allows ServiceNow to connect to external systems using LLM-powered integrations as an alternative to traditional APIs.</td></tr></tbody></table>
+
 ## Data flow
 
 The data flow below shows how ServiceNow provides MCP client and server capabilities.
@@ -73,6 +77,8 @@ graph LR
 
 ### Hands-on: Configure MCP Client
 
+Navigate to AI Agent Studio Settings. Add a new MCP Server entry for Neon with API Key authentication.
+
 1. Navigate to All > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Settings**.
 
 <figure><img src="../.gitbook/assets/sc_mcp_agent_studio_settings_nav (3).png" alt=""><figcaption></figcaption></figure>
@@ -127,6 +133,8 @@ This exercise does not cover the creation of the MCP Service from Neon as that r
 
 ### Hands-On: Configure MCP Step and Tool
 
+Add MCP instructions to the agent specialty. Add the variance-baseline-search MCP server tool from Neon. Configure tool name, description, and execution mode.
+
 1. In the same **Define the Specialty > Define the role and Required steps > List of steps** sub-section, go to step 2 after the paragraph which starts with **Get cost center obtained in...** then add **Also run the MCP tool "Get Details via Neon MCP" as a secondary check. Only return one entry (limit = 1). Columns should be \["COST\_CENTER", "ACTUAL\_AMOUNT\_USD", "BASELINE\_AMOUNT\_USD", "VARIANCE", "VARIANCE\_PCT"]**. It should look like the screenshot below.
 
 <figure><img src="../.gitbook/assets/sc_mcp_define_role_neon_step.png" alt=""><figcaption></figcaption></figure>
@@ -167,6 +175,8 @@ This exercise does not cover the creation of the MCP Service from Neon as that r
 
 ### Walkthrough: Complete AI Agent configuration
 
+Accept default security controls. Configure channels and status. Save and test.
+
 13. Since this is copied from an existing AI Agent configuration, simply accept the default values for **Define security controls** and its 2 sub-items. Also keep A**dd triggers value** blank.
 
     <figure><img src="../.gitbook/assets/sc_mcp_security_defaults.png" alt=""><figcaption></figcaption></figure>
@@ -178,6 +188,8 @@ This exercise does not cover the creation of the MCP Service from Neon as that r
     <figure><img src="../.gitbook/assets/sc_mcp_duplicate_warning.png" alt=""><figcaption></figcaption></figure>
 
 ### Hands-on: Test and review Custom AI Agent
+
+Enter test prompt to process an expense event. Verify the MCP tool returns matching cost center data from Neon.
 
 1. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
 

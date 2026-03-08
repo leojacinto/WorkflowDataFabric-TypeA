@@ -8,6 +8,10 @@ icon: arrows-to-circle
 
 This lab will walk you through integration of data coming from Cloud Data Warehouses and ERP using Zero Copy Connectors (ZCC) for SQL and ERP respectively.
 
+## Lab Sections and Objectives
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-zero-copy-connectors.md#data-flow">1</a></td><td>Facilitator</td><td><strong>Context Setting:</strong> Review the data flow diagram showing how ServiceNow consumes data from Cloud Data Warehouses and ERP systems via Zero Copy Connectors for SQL and ERP.</td></tr><tr><td colspan="3"><strong>Preparation</strong></td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#preparation-platform-configuration">2</a></td><td>Student</td><td><strong>Platform Configuration:</strong> Complete Integration Hub platform configuration if not done. Assign <code>sn_erp_integration.erp_admin</code> role to admin user.</td></tr><tr><td colspan="3"><strong>Zero Copy Connector for ERP</strong></td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#walkthrough-explore-zcc-for-erp-workspace">3</a></td><td>Student</td><td><strong>ZCC for ERP Workspace:</strong> Navigate to Zero Copy Connector for ERP Home. Explore the workspace layout.</td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#hands-on-clone-erp-data-product-for-cost-center">4</a></td><td>Student</td><td><strong>Clone ERP Data Product:</strong> Clone the OOTB DP: Cost Center model. Label it SAP Cost Center. Assign ERP system S4D.</td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#walkthrough-explore-zcc-for-erp-bapi-entity">5</a></td><td>Student</td><td><strong>ERP BAPI Entity:</strong> Review the BAPI_COSTCENTER_GETDETAIL1 entity. Explore Specify Inputs and Choose Outputs configurations.</td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#walkthrough-explore-zcc-for-erp-extraction-tables">6</a></td><td>Student</td><td><strong>ERP Extraction Tables:</strong> Filter and review SAP Cost Center extraction table. Navigate to the target table containing Cost Center Master Data from SAP.</td></tr><tr><td colspan="3"><strong>Zero Copy Connector for SQL</strong></td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#reference-cloud-data-warehouse-source">7</a></td><td>Student</td><td><strong>Cloud Data Warehouse Source:</strong> Review screenshot of the Snowflake source table used for Zero Copy for SQL (no backend access provided).</td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#walkthrough-navigation-and-review-of-zcc-connection">8</a></td><td>Student</td><td><strong>ZCC Connection Review:</strong> Navigate to Workflow Data Fabric Hub. Review the established Snowflake connection details.</td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#hands-on-configure-column-mappings">9</a></td><td>Student</td><td><strong>Configure Column Mappings:</strong> Create a data fabric table from the Snowflake data asset. Set Cost Center as a Reference field to the ERP extraction table. Set GL Account as primary key.</td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#walkthrough-open-data-fabric-table">10</a></td><td>Student</td><td><strong>Open Data Fabric Table:</strong> View the data assets created and open the data fabric table contents.</td></tr><tr><td colspan="3"><strong>AI Agent and Finance Operations Workspace</strong></td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#walkthrough-custom-forecast-variance-ai-agent">11</a></td><td>Student</td><td><strong>AI Agent Walkthrough:</strong> Open AI Agent Studio. Review the Forecast Variance agent: specialty, tools, security controls, trigger (blank), and channel settings. Save and test.</td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#hands-on-test-and-review-custom-ai-agent">12</a></td><td>Student</td><td><strong>Test AI Agent:</strong> Enter test prompt to process an expense event. Review planning steps, cost center and vendor extraction, RAG search results, and Finance Case creation.</td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#completion-verify-finance-case">13</a></td><td>Student</td><td><strong>Verify the Finance Case:</strong> Navigate to Finance Operations Workspace. Find the case created by the agent.</td></tr><tr><td><a href="lab-exercise-zero-copy-connectors.md#conclusion">14</a></td><td>Facilitator</td><td><strong>Conclusion:</strong> Walk through the complete data flow chain showing how Zero Copy Connectors bring external data into ServiceNow for AI Agent-driven case management.</td></tr></tbody></table>
+
 ## Data flow
 
 The data flow below shows how ServiceNow consumes data from the local Expense Transaction Event table populated by REST API events. The events processed can be near-real-time or historical (e.g. transaction events after over a period of time). Aside from local tables, ServiceNow will also consume external data from a Cloud Data Warehouse and an ERP system via ZCC for SQL and ERP respectively. The data taken from the external sources will be used by an agent which will also create Finance Cases for Cost Centers which are going over budget. While majority of the workflow is handled deterministically, AI Agents will provide additional context by searching and comparing expenses and cost center histories to enrich the workflow data that will be used by the personnel in charge of the cost centers.
@@ -92,6 +96,8 @@ graph TB
 
 ### Preparation: Platform Configuration
 
+Complete Integration Hub platform configuration if not done. Assign `sn_erp_integration.erp_admin` role to admin user.
+
 1. If you have not done [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub) yet, do the needed [Preparation: Platform Configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub#preparation-platform-configuration) steps.
 2. Make sure you are logged in as **admin** user.
 3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Users and Groups** > <mark style="color:green;">**b.)**</mark> click on **Users and Groups > Users**.
@@ -128,6 +134,8 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 
 ### Hands-on: Clone ERP Data Product for Cost Center
 
+Clone the OOTB DP: Cost Center model. Label it SAP Cost Center. Assign ERP system S4D.
+
 1.  Click on <mark style="color:green;">**a.)**</mark> **Models (database icon)** > <mark style="color:green;">**b.)**</mark> click **Model Name** > **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type **DP: Cost Center** > <mark style="color:green;">**d.)**</mark> click **Apply**. We will replicate the structure of a this OOTB data model.
 
     <figure><img src="../.gitbook/assets/sc_zcc_models_filter_cost_center.png" alt=""><figcaption></figcaption></figure>
@@ -146,6 +154,8 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 
 ### Walkthrough: Explore ZCC for ERP BAPI Entity
 
+Review the BAPI_COSTCENTER_GETDETAIL1 entity. Explore Specify Inputs and Choose Outputs configurations.
+
 1.  Click **Read** to use a read-only operation configured in the model. ZCC for ERP models can also perform **Update** and **Create** actions.
 
     <figure><img src="../.gitbook/assets/sc_zcc_click_read.png" alt=""><figcaption></figcaption></figure>
@@ -160,6 +170,8 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
     <figure><img src="../.gitbook/assets/sc_zcc_choose_outputs.png" alt=""><figcaption></figcaption></figure>
 
 ### Walkthrough: Explore ZCC for ERP Extraction Tables
+
+Filter and review SAP Cost Center extraction table. Navigate to the target table containing Cost Center Master Data from SAP.
 
 1.  Go to <mark style="color:green;">**a.)**</mark> **Extraction tables (Sankey diagram icon)** and click <mark style="color:green;">**b.)**</mark> **Name** > **more (vertical three dots)** > <mark style="color:green;">**c.**</mark> type **SAP Cost Center** and <mark style="color:green;">**d.)**</mark> click **Apply**. **Extraction tables** are used as persistence layer for **ERP models**, i.e. data is stored here from Extract Transform Load (ETL) processes as an alternative to reading ERP data via Zero Copy. This is useful especially if the ERP table you are connecting to has millions of rows OR are not frequently updated. In our use case, while cost center master data is relatively small in many customer environments, they do not change frequently.
 
@@ -192,6 +204,8 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 
 ### Walkthrough: Navigation and Review of ZCC Connection
 
+Navigate to Workflow Data Fabric Hub. Review the established Snowflake connection details.
+
 2.  In the ServiceNow navigation, go to All > <mark style="color:green;">**a.)**</mark> type **Workflow Data Fabric Hub** > <mark style="color:green;">**b.)**</mark> go to **Workflow Data Fabric Hub**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_wdf_hub_nav.png" alt=""><figcaption></figcaption></figure>
@@ -203,6 +217,8 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
     <figure><img src="../.gitbook/assets/sc_zcc_connection_details.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Hands-on: Configure Column Mappings
+
+Create a data fabric table from the Snowflake data asset. Set Cost Center as a Reference field to the ERP extraction table. Set GL Account as primary key.
 
 2.  Go to <mark style="color:green;">**a.)**</mark> Data assets > <mark style="color:green;">**b.)**</mark> beside **u\_lab\_cc\_summary** click **Create data fabric table**. This screen shots the data assets available for the **Database** and **Warehouse** you configured in the previous screen. In this example, only two tables exist in the database **WDF\_DEMOHUB**.
 
@@ -237,6 +253,8 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 <figure><img src="../.gitbook/assets/sc_zcc_confirm_pk.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Walkthrough: Open Data Fabric Table
+
+View the data assets created and open the data fabric table contents.
 
 1. This will lead you to a screen showing the data assets created. In the same screen, click on the <mark style="color:green;">**a.)**</mark> three vertical dots then <mark style="color:green;">**b.)**</mark> **Open list** to open see the contents of the table.
 
@@ -291,6 +309,8 @@ This is a walk through of how the an AI Agent equipped with both deterministic a
 
 ### Hands-on: Test and review Custom AI Agent
 
+Enter test prompt to process an expense event. Review planning steps, cost center and vendor extraction, RAG search results, and Finance Case creation.
+
 1. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
 
 <figure><img src="../.gitbook/assets/sc_zcc_test_input.png" alt="" width="375"><figcaption></figcaption></figure>
@@ -314,6 +334,8 @@ This is a walk through of how the an AI Agent equipped with both deterministic a
 <figure><img src="../.gitbook/assets/sc_zcc_decision_logs.png" alt=""><figcaption></figcaption></figure>
 
 ### Completion: Verify Finance Case
+
+Navigate to Finance Operations Workspace. Find the case created by the agent.
 
 1. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
