@@ -247,6 +247,8 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
     <figure><img src="../.gitbook/assets/sc_zcc_df_table_result.png" alt=""><figcaption></figcaption></figure>
 16. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for SQL.
 
+## AI Agent and Finance Operations Workspace
+
 ### Walkthrough: Custom Forecast Variance AI Agent
 
 This is a walk through of how the an AI Agent equipped with both deterministic and probabilistic can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
