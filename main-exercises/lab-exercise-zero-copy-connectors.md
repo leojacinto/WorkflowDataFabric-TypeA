@@ -90,7 +90,7 @@ graph LR
     class Employee,EC user
 ```
 
-## Steps
+## Preparation
 
 ### Preparation: Platform Configuration
 
@@ -114,6 +114,8 @@ graph LR
 8.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in.
 
     <figure><img src="../.gitbook/assets/sc_common_logout.png" alt="" width="254"><figcaption></figcaption></figure>
+
+## Zero Copy Connector for ERP
 
 ### Walkthrough: Explore ZCC for ERP Workspace
 
@@ -180,13 +182,17 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 
 1. Direct online read is also possible with more details found on the blog post [Zero Copy Connector for ERP guide by Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800).
 
-### Zero Copy for SQL
+## Zero Copy Connector for SQL
+
+### Reference: Cloud Data Warehouse Source
 
 This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse and get summary data needed for workflow context and logic.
 
 1. For reference purposes only, the table which will be used as source for Zero Copy for SQL coming from Snowflake is shown below. No action needs to be done for this step.
 
 <figure><img src="../.gitbook/assets/sc_zcc_snowflake.png" alt=""><figcaption></figcaption></figure>
+
+### Walkthrough: Navigation and Review of ZCC Connection
 
 2.  In the ServiceNow navigation, go to All > <mark style="color:green;">**a.)**</mark> type **Workflow Data Fabric Hub** > <mark style="color:green;">**b.)**</mark> go to **Workflow Data Fabric Hub**.
 
@@ -197,19 +203,22 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 4.  In the **Connection details** tab of the screen that immediately follows, the established connection is configured as shown in the screenshot below. No action needs to be done for this step. You might also get a notification stating **This connection is read-only in the 'Forecast Variance' application scope...** which can be ignored.
 
     <figure><img src="../.gitbook/assets/sc_zcc_connection_details.png" alt="" width="563"><figcaption></figcaption></figure>
-5.  Go to <mark style="color:green;">**a.)**</mark> Data assets > <mark style="color:green;">**b.)**</mark> beside **u\_lab\_cc\_summary** click **Create data fabric table**. This screen shots the data assets available for the **Database** and **Warehouse** you configured in the previous screen. In this example, only two tables exist in the database **WDF\_DEMOHUB**.
+
+### Hands-on: Configure Column Mappings
+
+2.  Go to <mark style="color:green;">**a.)**</mark> Data assets > <mark style="color:green;">**b.)**</mark> beside **u\_lab\_cc\_summary** click **Create data fabric table**. This screen shots the data assets available for the **Database** and **Warehouse** you configured in the previous screen. In this example, only two tables exist in the database **WDF\_DEMOHUB**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_data_assets_create.png" alt="" width="563"><figcaption></figcaption></figure>
-6.  Provide the information needed for <mark style="color:green;">**a.)**</mark> the **Label** e.g. **cc\_summ\_\<your initials>** and the <mark style="color:green;">**b.)**</mark> **Name** which will automatically provided. <mark style="color:red;">**Note:**</mark> keep the name length not more than 35 characters such as what is listed below, e.g. **x\_snc\_forecast\_v\_0\_df\_cc\_summ\_lfr**. Click <mark style="color:green;">**c.)**</mark> **Continue** once done. This will create the data fabric table (hence the df prefix) which will contain only the field and mapping information to the Snowflake table, it will not store the data from Snowflake into ServiceNow. While the intent of setting this up is mainly to show Zero Copy capability, this has multiple advantages such as ensuring cost center summary data from source is up to date as well as avoiding offline copies of the same information (e.g. via managed file transfer) which can result into data breaches.
+3.  Provide the information needed for <mark style="color:green;">**a.)**</mark> the **Label** e.g. **cc\_summ\_\<your initials>** and the <mark style="color:green;">**b.)**</mark> **Name** which will automatically provided. <mark style="color:red;">**Note:**</mark> keep the name length not more than 35 characters such as what is listed below, e.g. **x\_snc\_forecast\_v\_0\_df\_cc\_summ\_lfr**. Click <mark style="color:green;">**c.)**</mark> **Continue** once done. This will create the data fabric table (hence the df prefix) which will contain only the field and mapping information to the Snowflake table, it will not store the data from Snowflake into ServiceNow. While the intent of setting this up is mainly to show Zero Copy capability, this has multiple advantages such as ensuring cost center summary data from source is up to date as well as avoiding offline copies of the same information (e.g. via managed file transfer) which can result into data breaches.
 
     <figure><img src="../.gitbook/assets/sc_zcc_df_table_label.png" alt=""><figcaption></figcaption></figure>
-7.  In the screen that immediate follows, click on the tick box beside **Name** and this will include all the fields from the Snowflake data asset to the data fabric table being configured. Customers also have the option to select only the columns needed to speed up loading of data fabric tables.
+4.  In the screen that immediate follows, click on the tick box beside **Name** and this will include all the fields from the Snowflake data asset to the data fabric table being configured. Customers also have the option to select only the columns needed to speed up loading of data fabric tables.
 
     <figure><img src="../.gitbook/assets/sc_zcc_select_all_columns.png" alt=""><figcaption></figcaption></figure>
-8.  Look for **Cost center** column > change the data type from **String** to <mark style="color:green;">**a.)**</mark> **Reference** and click <mark style="color:green;">**b.)**</mark> **Reference** to set the table from which **Cost center** column will refer to. A **Reference** field points to a record in an existing table, so users select from a controlled set instead of typing freehand. This keeps your data consistent and traceable, which matters most when the field drives downstream process logic.
+5.  Look for **Cost center** column > change the data type from **String** to <mark style="color:green;">**a.)**</mark> **Reference** and click <mark style="color:green;">**b.)**</mark> **Reference** to set the table from which **Cost center** column will refer to. A **Reference** field points to a record in an existing table, so users select from a controlled set instead of typing freehand. This keeps your data consistent and traceable, which matters most when the field drives downstream process logic.
 
     <figure><img src="../.gitbook/assets/sc_zcc_cost_center_reference.png" alt=""><figcaption></figcaption></figure>
-9. In the modal pop-up that appears, select the table **sn\_erp\_integration\_cost\_center** which you have set-up in the ZCC for ERP lab exercise.
+6. In the modal pop-up that appears, select the table **sn\_erp\_integration\_cost\_center** which you have set-up in the ZCC for ERP lab exercise.
 
 <figure><img src="../.gitbook/assets/sc_zcc_reference_table.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -228,6 +237,8 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 
 <figure><img src="../.gitbook/assets/sc_zcc_confirm_pk.png" alt="" width="375"><figcaption></figcaption></figure>
 
+### Walkthrough: Open Data Fabric Table
+
 14. This will lead you to a screen showing the data assets created. In the same screen, click on the <mark style="color:green;">**a.)**</mark> three vertical dots then <mark style="color:green;">**b.)**</mark> **Open list** to open see the contents of the table.
 
     <figure><img src="../.gitbook/assets/sc_zcc_data_assets_open_list.png" alt=""><figcaption></figcaption></figure>
@@ -236,7 +247,7 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
     <figure><img src="../.gitbook/assets/sc_zcc_df_table_result.png" alt=""><figcaption></figcaption></figure>
 16. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for SQL.
 
-### Custom Forecast Variance AI Agent in action
+### Walkthrough: Custom Forecast Variance AI Agent
 
 This is a walk through of how the an AI Agent equipped with both deterministic and probabilistic can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
 
@@ -274,10 +285,13 @@ This is a walk through of how the an AI Agent equipped with both deterministic a
 10. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_select_channels_save.png" alt=""><figcaption></figcaption></figure>
-11. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
+
+### Hands-on: Test and review Custom AI Agent
+
+6.  You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_test_input.png" alt="" width="375"><figcaption></figcaption></figure>
-12. Wait for the test to complete which is indicated by an <mark style="color:green;">**End**</mark> with a check mark. Once that is completed, you can explore the following sections. These automations help assess and review cost centers which are exceeding budget proactively instead of waiting at the end of reporting cycles.
+7. Wait for the test to complete which is indicated by an <mark style="color:green;">**End**</mark> with a check mark. Once that is completed, you can explore the following sections. These automations help assess and review cost centers which are exceeding budget proactively instead of waiting at the end of reporting cycles.
 
 <mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** to see the tools used.
 
@@ -294,13 +308,16 @@ This is a walk through of how the an AI Agent equipped with both deterministic a
 13. The right panel of the same screen shows the **AI agent decision logs** for debugging purposes.
 
     <figure><img src="../.gitbook/assets/sc_zcc_decision_logs.png" alt=""><figcaption></figcaption></figure>
-14. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
+
+### Completion: Verify Finance Case
+
+13. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
     <figure><img src="../.gitbook/assets/sc_common_fow_nav.png" alt=""><figcaption></figcaption></figure>
-15. For this exercise, we are not impersonating a persona so you remain as the System user.
+14. For this exercise, we are not impersonating a persona so you remain as the System user.
 
     <figure><img src="../.gitbook/assets/sc_common_fow_system_user.png" alt=""><figcaption></figcaption></figure>
-16. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case created by the AI Agent, FINC0010003 in the example above.
+15. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case created by the AI Agent, FINC0010003 in the example above.
 
     <figure><img src="../.gitbook/assets/sc_zcc_finance_case_list.png" alt=""><figcaption></figcaption></figure>
 
