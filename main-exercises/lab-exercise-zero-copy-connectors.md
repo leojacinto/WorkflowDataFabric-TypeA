@@ -63,7 +63,6 @@ graph TB
     ZCCH -->|Historical Data| Agent1
     ZCExp -->|Expense Details| Agent1
     ExpenseTable -->|Search Similar Cases| Agent1
-    ZCExp -->|Search Similar Cases| Agent1
     Agent1 -->|Create Case| FinCase
     Agent1 <-->|Trend Analysis| RAG
     Agent1 <-->|Flows/Subflows/Actions| FlowAction
