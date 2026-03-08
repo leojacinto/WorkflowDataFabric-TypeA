@@ -174,7 +174,7 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 
 <figure><img src="../.gitbook/assets/sc_zcc_cc_target_table_list.png" alt=""><figcaption></figcaption></figure>
 
-17. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for ERP.
+5. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for ERP.
 
 ### Additional Reading: Direct online read for ZCC for ERP
 
@@ -220,30 +220,33 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 
 <figure><img src="../.gitbook/assets/sc_zcc_reference_table.png" alt="" width="375"><figcaption></figcaption></figure>
 
-10. In the same modal pop-up, select **Cost Center**.
+7. In the same modal pop-up, select **Cost Center**.
 
 <figure><img src="../.gitbook/assets/sc_zcc_reference_key.png" alt="" width="375"><figcaption></figcaption></figure>
 
-11. Once completed, click **Set Reference**. This will create the reference to the cost center details from SAP.
+8. Once completed, click **Set Reference**. This will create the reference to the cost center details from SAP.
 
 <figure><img src="../.gitbook/assets/sc_zcc_reference_label.png" alt="" width="375"><figcaption></figcaption></figure>
 
-12. Finally, set GL account as the **Primary** key as shown in the <mark style="color:green;">**a.)**</mark> toggle below. Click <mark style="color:green;">**b.)**</mark> **Finish** once done.
+9. Finally, set GL account as the **Primary** key as shown in the <mark style="color:green;">**a.)**</mark> toggle below. Click <mark style="color:green;">**b.)**</mark> **Finish** once done.
 
-    <figure><img src="../.gitbook/assets/sc_zcc_gl_primary_key_finish.png" alt=""><figcaption></figcaption></figure>
-13. A pop-up dialog indicating that a primary key has been defined. Click **Confirm**. A primary key lets you distinguish unique records from the source data warehouse, which becomes important in complex analysis.
+<figure><img src="../.gitbook/assets/sc_zcc_gl_primary_key_finish.png" alt=""><figcaption></figcaption></figure>
+
+10. A pop-up dialog indicating that a primary key has been defined. Click **Confirm**. A primary key lets you distinguish unique records from the source data warehouse, which becomes important in complex analysis.
 
 <figure><img src="../.gitbook/assets/sc_zcc_confirm_pk.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Walkthrough: Open Data Fabric Table
 
-14. This will lead you to a screen showing the data assets created. In the same screen, click on the <mark style="color:green;">**a.)**</mark> three vertical dots then <mark style="color:green;">**b.)**</mark> **Open list** to open see the contents of the table.
+1. This will lead you to a screen showing the data assets created. In the same screen, click on the <mark style="color:green;">**a.)**</mark> three vertical dots then <mark style="color:green;">**b.)**</mark> **Open list** to open see the contents of the table.
 
-    <figure><img src="../.gitbook/assets/sc_zcc_data_assets_open_list.png" alt=""><figcaption></figcaption></figure>
-15. This will lead you to the data fabric table.
+<figure><img src="../.gitbook/assets/sc_zcc_data_assets_open_list.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/sc_zcc_df_table_result.png" alt=""><figcaption></figcaption></figure>
-16. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for SQL.
+2. This will lead you to the data fabric table.
+
+<figure><img src="../.gitbook/assets/sc_zcc_df_table_result.png" alt=""><figcaption></figcaption></figure>
+
+3. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for SQL.
 
 ## AI Agent and Finance Operations Workspace
 
@@ -288,10 +291,11 @@ This is a walk through of how the an AI Agent equipped with both deterministic a
 
 ### Hands-on: Test and review Custom AI Agent
 
-6.  You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
+1. You will be directed to the Test AI reasoning tab. To proceed with testing, <mark style="color:green;">**a.)**</mark> type **Help me process EXP-2025-IT-002-1007-01** and <mark style="color:green;">**b.)**</mark> click **Continue to Test Chat Response**.
 
-    <figure><img src="../.gitbook/assets/sc_zcc_test_input.png" alt="" width="375"><figcaption></figcaption></figure>
-7. Wait for the test to complete which is indicated by an <mark style="color:green;">**End**</mark> with a check mark. Once that is completed, you can explore the following sections. These automations help assess and review cost centers which are exceeding budget proactively instead of waiting at the end of reporting cycles.
+<figure><img src="../.gitbook/assets/sc_zcc_test_input.png" alt="" width="375"><figcaption></figcaption></figure>
+
+2. Wait for the test to complete which is indicated by an <mark style="color:green;">**End**</mark> with a check mark. Once that is completed, you can explore the following sections. These automations help assess and review cost centers which are exceeding budget proactively instead of waiting at the end of reporting cycles.
 
 <mark style="color:green;">**a.)**</mark> Expand **Planning the next steps** to see the tools used.
 
@@ -305,21 +309,23 @@ This is a walk through of how the an AI Agent equipped with both deterministic a
 
 <figure><img src="../.gitbook/assets/sc_zcc_test_results_overview.png" alt=""><figcaption></figcaption></figure>
 
-13. The right panel of the same screen shows the **AI agent decision logs** for debugging purposes.
+3. The right panel of the same screen shows the **AI agent decision logs** for debugging purposes.
 
-    <figure><img src="../.gitbook/assets/sc_zcc_decision_logs.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_zcc_decision_logs.png" alt=""><figcaption></figcaption></figure>
 
 ### Completion: Verify Finance Case
 
-13. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
+1. Navigate to Workspaces > <mark style="color:green;">**a.)**</mark> type **Finance Operations Workspace** and click on the <mark style="color:green;">**b.)**</mark> workspace with the same name.
 
-    <figure><img src="../.gitbook/assets/sc_common_fow_nav.png" alt=""><figcaption></figcaption></figure>
-14. For this exercise, we are not impersonating a persona so you remain as the System user.
+<figure><img src="../.gitbook/assets/sc_common_fow_nav.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/sc_common_fow_system_user.png" alt=""><figcaption></figcaption></figure>
-15. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case created by the AI Agent, FINC0010003 in the example above.
+2. For this exercise, we are not impersonating a persona so you remain as the System user.
 
-    <figure><img src="../.gitbook/assets/sc_zcc_finance_case_list.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_common_fow_system_user.png" alt=""><figcaption></figcaption></figure>
+
+3. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case created by the AI Agent, FINC0010003 in the example above.
+
+<figure><img src="../.gitbook/assets/sc_zcc_finance_case_list.png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusion
 
