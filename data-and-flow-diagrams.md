@@ -80,7 +80,8 @@ The next diagram shows the various ServiceNow components that interact with the 
 
 ```mermaid
 graph LR
-    subgraph "ServiceNow Workflow Data Fabric and related components"
+    subgraph "ServiceNow Workflow Data Fabric"
+        spacer[ ]:::hidden
         subgraph "Data Integration Layer"
             ZeroCopySQL[Zero Copy SQL<br/>Connection]
             ZeroCopyERP[Zero Copy ERP<br/>Connection]
@@ -127,6 +128,7 @@ graph LR
     class ERP,ExpenseAPI,SharePoint,CDW external
     class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent integration
     class ZCCC,ZCCH,ZCCS,ZCExp zeroCopy
+    classDef hidden fill:none,stroke:none,color:transparent,font-size:0
     class ExpenseTable,FinCase,FinVar native
     class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
     class Employee,EC,ControlTower,ClaudeDesktop user
