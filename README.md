@@ -8,7 +8,7 @@ icon: magnifying-glass-chart
 
 ## Business motivation
 
-Finance teams discover budget overruns weeks too late. Expense analysis requires manually piecing together data from ERP systems, data warehouses, and SharePoint. By the time finance reacts, small variances become major problems. **ServiceNow Workflow Data Fabric transforms reactive financial management into proactive intelligence**. By unifying data across systems through Zero Copy for SQL and ERP, Spokes, External Content Connectors, MCP, and AI agents, organizations can:
+Finance teams discover budget overruns weeks too late. Expense analysis requires manually piecing together data from ERP systems, data warehouses, and SharePoint. By the time finance reacts, small variances become major problems. **ServiceNow Workflow Data Fabric transforms reactive financial management into proactive intelligence**. By unifying data across systems through Zero Copy for SQL and ERP, Integration Hub, External Content Connectors, MCP, and AI agents, organizations can:
 
 * **Detect budget issues in real-time** before they escalate
 * **Scale financial operations** with AI agents, not headcount
