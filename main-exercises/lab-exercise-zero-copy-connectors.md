@@ -92,11 +92,11 @@ graph LR
 
 ## Steps
 
-### Platform Configuration
+### Preparation: Platform Configuration
 
 1. If you have not done [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub) yet, do the needed [Preparation: Platform Configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub#preparation-platform-configuration) steps.
 2. Make sure you are logged in as **admin** user.
-3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Users**.
+3.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Users and Groups** > <mark style="color:green;">**b.)**</mark> click on **Users and Groups > Users**.
 
     <figure><img src="../.gitbook/assets/sc_common_agent_studio_users_nav.png" alt=""><figcaption></figcaption></figure>
 4.  Search for <mark style="color:green;">**a.)**</mark> **System Administrator** then hit **Return/Enter ↵** > <mark style="color:green;">**b.)**</mark> click on **admin**.
@@ -115,7 +115,7 @@ graph LR
 
     <figure><img src="../.gitbook/assets/sc_common_logout.png" alt="" width="254"><figcaption></figcaption></figure>
 
-### Zero Copy for ERP
+### Walkthrough: Explore ZCC for ERP Workspace
 
 This provides the steps needed to connect ServiceNow to the ERP system to obtain Cost Center Master data.
 
@@ -125,47 +125,60 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 2.  The **Zero Copy Connector for ERP Home** is a workspace which has the layout as below.
 
     <figure><img src="../.gitbook/assets/sc_zcc_erp_home_layout.png" alt=""><figcaption></figcaption></figure>
-3.  Click on <mark style="color:green;">**a.)**</mark> **Models (database icon)** > <mark style="color:green;">**b.)**</mark> click **Model Name** > **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type **DP: Cost Center** > <mark style="color:green;">**d.)**</mark> click **Apply**. We will replicate the structure of a this OOTB data model.
+
+### Hands-on: Clone ERP Data Product for Cost Center
+
+1.  Click on <mark style="color:green;">**a.)**</mark> **Models (database icon)** > <mark style="color:green;">**b.)**</mark> click **Model Name** > **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type **DP: Cost Center** > <mark style="color:green;">**d.)**</mark> click **Apply**. We will replicate the structure of a this OOTB data model.
 
     <figure><img src="../.gitbook/assets/sc_zcc_models_filter_cost_center.png" alt=""><figcaption></figcaption></figure>
-4.  Click on **DP: Cost Center**.
+2.  Click on **DP: Cost Center**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_dp_cost_center_click.png" alt=""><figcaption></figcaption></figure>
-5.  Note the <mark style="color:green;">**a.)**</mark> popup that indicates that you are opening an **ERP Data Product** which is delivered as OOTB templates that customers can use to ramp-up creation of ERP models, which means it cannot be edited. Click <mark style="color:green;">**b.)**</mark> **Clone** to create a copy of this model.
+3.  Note the <mark style="color:green;">**a.)**</mark> popup that indicates that you are opening an **ERP Data Product** which is delivered as OOTB templates that customers can use to ramp-up creation of ERP models, which means it cannot be edited. Click <mark style="color:green;">**b.)**</mark> **Clone** to create a copy of this model.
 
     <figure><img src="../.gitbook/assets/sc_zcc_clone_popup.png" alt=""><figcaption></figcaption></figure>
-6.  Provide the label for the cloned model as <mark style="color:green;">**a.)**</mark> **SAP Cost Center** and take not of the Target application which should be <mark style="color:green;">**b.)**</mark> **Forecast Variance**. Click <mark style="color:green;">**c.)**</mark> Clone this model once done.
+4.  Provide the label for the cloned model as <mark style="color:green;">**a.)**</mark> **SAP Cost Center** and take not of the Target application which should be <mark style="color:green;">**b.)**</mark> **Forecast Variance**. Click <mark style="color:green;">**c.)**</mark> Clone this model once done.
 
     <figure><img src="../.gitbook/assets/sc_zcc_clone_model_details.png" alt="" width="450"><figcaption></figcaption></figure>
-7.  After cloning the model you will be directed to its configuration screen. Assign the <mark style="color:green;">**a.)**</mark> ERP system name as S4D then <mark style="color:green;">**b.)**</mark> click Save. This will set up your model to use an ERP system that the ServiceNow instance is integrated to via Connections & Credentials. Then, <mark style="color:green;">**c.)**</mark> click **Manage model**.
+5.  After cloning the model you will be directed to its configuration screen. Assign the <mark style="color:green;">**a.)**</mark> ERP system name as S4D then <mark style="color:green;">**b.)**</mark> click Save. This will set up your model to use an ERP system that the ServiceNow instance is integrated to via Connections & Credentials. Then, <mark style="color:green;">**c.)**</mark> click **Manage model**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_model_config_save.png" alt=""><figcaption></figcaption></figure>
-8.  Click **Read** to use a read-only operation configured in the model. ZCC for ERP models can also perform **Update** and **Create** actions.
+
+### Walkthrough: Explore ZCC for ERP BAPI Entity
+
+1.  Click **Read** to use a read-only operation configured in the model. ZCC for ERP models can also perform **Update** and **Create** actions.
 
     <figure><img src="../.gitbook/assets/sc_zcc_click_read.png" alt=""><figcaption></figcaption></figure>
-9.  There is a BAPI already included in the **DP: Cost Center** model you have cloned earlier. The entity **BAPI\_COSTCENTER\_GETDETAIL1** is already configured here so you do not have to do anything. As mentioned earlier, there are other ways to obtain master data from SAP (whether it is Cost Center, Materials, etc.) such as RFC table reads or OData endpoints.
+2.  There is a BAPI already included in the **DP: Cost Center** model you have cloned earlier. The entity **BAPI\_COSTCENTER\_GETDETAIL1** is already configured here so you do not have to do anything. As mentioned earlier, there are other ways to obtain master data from SAP (whether it is Cost Center, Materials, etc.) such as RFC table reads or OData endpoints.
 
     <figure><img src="../.gitbook/assets/sc_zcc_bapi_configured.png" alt=""><figcaption></figcaption></figure>
-10. Click on **Specify Inputs**. You do not need to do anything in this screen. The intent is to provide an overview of what can be configured as fields for selections when extracting or displaying information from the ERP system. If the table, BAPI, or OData endpoint supports it, this screen can also be left blank which is an equivalent of selecting all rows/records when executing the **Read** action.
+3.  Click on **Specify Inputs**. You do not need to do anything in this screen. The intent is to provide an overview of what can be configured as fields for selections when extracting or displaying information from the ERP system. If the table, BAPI, or OData endpoint supports it, this screen can also be left blank which is an equivalent of selecting all rows/records when executing the **Read** action.
 
     <figure><img src="../.gitbook/assets/sc_zcc_specify_inputs.png" alt=""><figcaption></figcaption></figure>
-11. Click on **Choose outputs**. You do not need to do anything in this screen. The intent is to provide an overview of what can be configured as the output for your selection or extraction. Both **Specify inputs** and **Choose outputs** sections can be intimidating for non-SAP practitioners which led to the creation of the **Data Product** we cloned in **Step 5**. Find out more about [**ERP Data Products here**](https://store.servicenow.com/store/app/9a0ad9f41b19e650396216db234bcba9).
+4.  Click on **Choose outputs**. You do not need to do anything in this screen. The intent is to provide an overview of what can be configured as the output for your selection or extraction. Both **Specify inputs** and **Choose outputs** sections can be intimidating for non-SAP practitioners which led to the creation of the **Data Product** we cloned in **Step 5**. Find out more about [**ERP Data Products here**](https://store.servicenow.com/store/app/9a0ad9f41b19e650396216db234bcba9).
 
     <figure><img src="../.gitbook/assets/sc_zcc_choose_outputs.png" alt=""><figcaption></figcaption></figure>
-12. Go to <mark style="color:green;">**a.)**</mark> **Extraction tables (Sankey diagram icon)** and click <mark style="color:green;">**b.)**</mark> **Name** > **more (vertical three dots)** > <mark style="color:green;">**c.**</mark> type **SAP Cost Center** and <mark style="color:green;">**d.)**</mark> click **Apply**. **Extraction tables** are used as persistence layer for **ERP models**, i.e. data is stored here from Extract Transform Load (ETL) processes as an alternative to reading ERP data via Zero Copy. This is useful especially if the ERP table you are connecting to has millions of rows OR are not frequently updated. In our use case, while cost center master data is relatively small in many customer environments, they do not change frequently.
+
+### Walkthrough: Explore ZCC for ERP Extraction Tables
+
+1.  Go to <mark style="color:green;">**a.)**</mark> **Extraction tables (Sankey diagram icon)** and click <mark style="color:green;">**b.)**</mark> **Name** > **more (vertical three dots)** > <mark style="color:green;">**c.**</mark> type **SAP Cost Center** and <mark style="color:green;">**d.)**</mark> click **Apply**. **Extraction tables** are used as persistence layer for **ERP models**, i.e. data is stored here from Extract Transform Load (ETL) processes as an alternative to reading ERP data via Zero Copy. This is useful especially if the ERP table you are connecting to has millions of rows OR are not frequently updated. In our use case, while cost center master data is relatively small in many customer environments, they do not change frequently.
 
     <figure><img src="../.gitbook/assets/sc_zcc_extraction_tables_filter.png" alt=""><figcaption></figcaption></figure>
-13. Click on **SAP Cost Center**.
+2.  Click on **SAP Cost Center**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_sap_cost_center_click.png" alt=""><figcaption></figcaption></figure>
-14. There is a notification stating that <mark style="color:green;">**a.)**</mark> the object is in the **Zero Copy Connector for ERP application**, this is expected. Note that the <mark style="color:green;">**b.)**</mark> **ERP model** used here is different from what you have created earlier, this uses **SAP Material Transfer Cost Center**, this configuration is expected. This discrepancy is because we are not connected to a live SAP system for this exercise. The tools and configurations you have used are representative of a real SAP integration. Finally, <mark style="color:green;">**c.)**</mark> click on the **Target table link** which is **sn\_erp\_integration\_cost\_center\_list.do**.
+3.  There is a notification stating that <mark style="color:green;">**a.)**</mark> the object is in the **Zero Copy Connector for ERP application**, this is expected. Note that the <mark style="color:green;">**b.)**</mark> **ERP model** used here is different from what you have created earlier, this uses **SAP Material Transfer Cost Center**, this configuration is expected. This discrepancy is because we are not connected to a live SAP system for this exercise. The tools and configurations you have used are representative of a real SAP integration. Finally, <mark style="color:green;">**c.)**</mark> click on the **Target table link** which is **sn\_erp\_integration\_cost\_center\_list.do**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_target_table_link.png" alt=""><figcaption></figcaption></figure>
-15. This will lead to the extraction table which contains **Cost Center Master Data** from SAP. This exercise uses an extraction scenario where data from SAP is stored in ServiceNow. Direct online read is also possible with more details found on the blog post [Zero Copy Connector for ERP guide by Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800).
+4. This will lead to the extraction table which contains **Cost Center Master Data** from SAP. This exercise uses an extraction scenario where data from SAP is stored in ServiceNow.&#x20;
 
 <figure><img src="../.gitbook/assets/sc_zcc_cc_target_table_list.png" alt=""><figcaption></figcaption></figure>
 
 17. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for ERP.
+
+### Additional Reading: Direct online read for ZCC for ERP
+
+1. Direct online read is also possible with more details found on the blog post [Zero Copy Connector for ERP guide by Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800).
 
 ### Zero Copy for SQL
 
