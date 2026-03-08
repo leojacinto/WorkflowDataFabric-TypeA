@@ -10,6 +10,28 @@ This lab will walk you through the configuration and usage of **Actions** and **
 
 There are dedicated Integration Hub and Flow Designer labs; hence, the focus of this exercise is to walk through the configurations in AI Agent Studio and Flow Designer. There is an exercise at the end for you to configure an **Action**, which aims provide an understanding on how the AI Agents are triggered.
 
+## Lab Sections and Objectives
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#data-flow">1</a></td><td>Facilitator</td><td><strong>Context Setting:</strong> Review the data flow diagram. Understand how ServiceNow consumes REST API endpoints via Integration Hub, processes them through a Flow, triggers an AI Agent, and creates a Finance Case automatically.</td></tr></tbody></table>
+
+**Preparation**
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#preparation-platform-configuration">2</a></td><td>Student</td><td><strong>Platform Configuration:</strong> Set up scope, authorization (<code>sn_aia.admin</code> role), and Now Assist configurations including Assistant Designer and Now Assist Admin panel settings.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#preparation-initial-checks">3</a></td><td>Student</td><td><strong>Health Check:</strong> Verify Now Assist panel is accessible. Navigate to the expense event table and verify it's empty. Run the Reset Script if needed.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#hands-on-connection-setup">4</a></td><td>Student</td><td><strong>Connection Setup:</strong> Navigate to Connection &#x26; Credential Aliases. Open the pre-configured "Get Expense Event" alias. Create a new Connection pointing to the REST API endpoint.</td></tr></tbody></table>
+
+**AI Agent Configuration**
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#walkthrough-custom-forecast-variance-ai-agent">5</a></td><td>Student</td><td><strong>AI Agent Walkthrough:</strong> Open AI Agent Studio > Forecast Variance Integration Hub Trigger. Explore: Define the specialty (plain English instructions), Add tools (Search retrievals + Subflows), Define security controls (Dynamic user + admin role).</td></tr><tr><td><a href="lab-exercise-integration-hub.md#hands-on-configure-ai-agent-trigger">6</a></td><td>Student</td><td><strong>Configure the Trigger:</strong> Delete any existing trigger. Create new trigger: Table = Expense Transaction Event, Field = Vendor, Condition = is not empty. Toggle trigger ON. Verify Select channels and status. Verify Now Assist panel is toggled on and Now Assist in Virtual Agent is added. Save.</td></tr></tbody></table>
+
+**Action and Subflow**
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#walkthrough-action">7</a></td><td>Student</td><td><strong>Action Walkthrough:</strong> Open Flow Designer > Actions > Get Expense Event. Explore the Base URL, Imported Specifications, and Output mappings. Understand how REST response maps to table fields.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#hands-on-flow-execution">8</a></td><td>Student</td><td><strong>Run the Flow:</strong> Open Flow Designer > Subflows > Get Expense Event. Click Test > Run Test. Wait for completion. Click execution details link. Verify all steps show Completed or Evaluated - True.</td></tr></tbody></table>
+
+**AI Agent and Finance Operations Workspace**
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#walkthrough-agent-runtime">9</a></td><td>Student</td><td><strong>Watch the AI Agent React:</strong> Return to AI Agent Studio browser window. Look for the Now Assist badge. Open Now Assist chat. Expand to Modal view. Explore: planning steps, event ID extraction, RAG search results, budget analysis, Finance Case link.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#completion-verify-finance-case">10</a></td><td>Student</td><td><strong>Verify the Finance Case:</strong> Navigate to Finance Operations Workspace. Find the case created by the agent. Confirm it contains the cost center, vendor, and budget analysis.</td></tr></tbody></table>
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#conclusion">11</a></td><td>Facilitator</td><td><strong>Conclusion:</strong> Walk through the complete data flow chain. External event triggers proactive financial intelligence with zero human intervention.</td></tr></tbody></table>
+
 ## Data flow
 
 The data flow below shows how ServiceNow will consume REST API endpoints via Integration Hub Spokes then further processed by a Flow so the entries will be written in the scoped table.
@@ -77,28 +99,6 @@ graph TB
     class MockExpense external
     class Employee,EC user
 ```
-
-## Lab Sections and Objectives
-
-<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#data-flow">1</a></td><td>Facilitator</td><td><strong>Context Setting:</strong> Review the data flow diagram. Understand how ServiceNow consumes REST API endpoints via Integration Hub, processes them through a Flow, triggers an AI Agent, and creates a Finance Case automatically.</td></tr></tbody></table>
-
-**Preparation**
-
-<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#preparation-platform-configuration">2</a></td><td>Student</td><td><strong>Platform Configuration:</strong> Set up scope, authorization (<code>sn_aia.admin</code> role), and Now Assist configurations including Assistant Designer and Now Assist Admin panel settings.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#preparation-initial-checks">3</a></td><td>Student</td><td><strong>Health Check:</strong> Verify Now Assist panel is accessible. Navigate to the expense event table and verify it's empty. Run the Reset Script if needed.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#hands-on-connection-setup">4</a></td><td>Student</td><td><strong>Connection Setup:</strong> Navigate to Connection &#x26; Credential Aliases. Open the pre-configured "Get Expense Event" alias. Create a new Connection pointing to the REST API endpoint.</td></tr></tbody></table>
-
-**AI Agent Configuration**
-
-<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#walkthrough-custom-forecast-variance-ai-agent">5</a></td><td>Student</td><td><strong>AI Agent Walkthrough:</strong> Open AI Agent Studio > Forecast Variance Integration Hub Trigger. Explore: Define the specialty (plain English instructions), Add tools (Search retrievals + Subflows), Define security controls (Dynamic user + admin role).</td></tr><tr><td><a href="lab-exercise-integration-hub.md#hands-on-configure-ai-agent-trigger">6</a></td><td>Student</td><td><strong>Configure the Trigger:</strong> Delete any existing trigger. Create new trigger: Table = Expense Transaction Event, Field = Vendor, Condition = is not empty. Toggle trigger ON. Verify Select channels and status. Verify Now Assist panel is toggled on and Now Assist in Virtual Agent is added. Save.</td></tr></tbody></table>
-
-**Action and Subflow**
-
-<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#walkthrough-action">7</a></td><td>Student</td><td><strong>Action Walkthrough:</strong> Open Flow Designer > Actions > Get Expense Event. Explore the Base URL, Imported Specifications, and Output mappings. Understand how REST response maps to table fields.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#hands-on-flow-execution">8</a></td><td>Student</td><td><strong>Run the Flow:</strong> Open Flow Designer > Subflows > Get Expense Event. Click Test > Run Test. Wait for completion. Click execution details link. Verify all steps show Completed or Evaluated - True.</td></tr></tbody></table>
-
-**AI Agent and Finance Operations Workspace**
-
-<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#walkthrough-agent-runtime">9</a></td><td>Student</td><td><strong>Watch the AI Agent React:</strong> Return to AI Agent Studio browser window. Look for the Now Assist badge. Open Now Assist chat. Expand to Modal view. Explore: planning steps, event ID extraction, RAG search results, budget analysis, Finance Case link.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#completion-verify-finance-case">10</a></td><td>Student</td><td><strong>Verify the Finance Case:</strong> Navigate to Finance Operations Workspace. Find the case created by the agent. Confirm it contains the cost center, vendor, and budget analysis.</td></tr></tbody></table>
-
-<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#conclusion">11</a></td><td>Facilitator</td><td><strong>Conclusion:</strong> Walk through the complete data flow chain. External event triggers proactive financial intelligence with zero human intervention.</td></tr></tbody></table>
 
 ## Preparation
 
