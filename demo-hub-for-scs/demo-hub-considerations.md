@@ -2,5 +2,7 @@
 icon: people-group
 ---
 
-# Demo Hub for Solution Consultants
+# Demo Hub Considerations
+
+<mark style="color:$warning;">**Internal. In progress.**</mark>
 
