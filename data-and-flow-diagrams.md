@@ -80,7 +80,7 @@ The next diagram shows the various ServiceNow components that interact with the 
 
 ```mermaid
 graph LR
-    subgraph "ServiceNow Workflow Data Fabric"
+    subgraph "ServiceNow AI Platform"
         spacer[ ]:::hidden
         subgraph "Data Integration Layer"
             ZeroCopySQL[Zero Copy SQL<br/>Connection]
