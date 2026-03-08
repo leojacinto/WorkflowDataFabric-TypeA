@@ -80,13 +80,27 @@ graph TB
 
 ## Lab Sections and Objectives
 
+| Step | Who | Description |
+|------|-----|-------------|
+| [1](#data-flow) | Facilitator | **Context Setting:** Review the data flow diagram. Understand how ServiceNow consumes REST API endpoints via Integration Hub, processes them through a Flow, triggers an AI Agent, and creates a Finance Case automatically. |
+| [2](#preparation-platform-configuration) | Student | **Platform Configuration:** Set up scope, authorization (`sn_aia.admin` role), and Now Assist configurations including Assistant Designer and Now Assist Admin panel settings. |
+| [3](#preparation-initial-checks) | Student | **Health Check:** Verify Now Assist panel is accessible. Navigate to the expense event table and verify it's empty. Run the Reset Script if needed. |
+| [4](#hands-on-connection-setup) | Student | **Connection Setup:** Navigate to Connection & Credential Aliases. Open the pre-configured "Get Expense Event" alias. Create a new Connection pointing to the REST API endpoint. |
+| [5](#walkthrough-custom-forecast-variance-ai-agent) | Student | **AI Agent Walkthrough:** Open AI Agent Studio > Forecast Variance Integration Hub Trigger. Explore: Define the specialty (plain English instructions), Add tools (Search retrievals + Subflows), Define security controls (Dynamic user + admin role). |
+| [6](#hands-on-configure-ai-agent-trigger) | Student | **Configure the Trigger:** Delete any existing trigger. Create new trigger: Table = Expense Transaction Event, Field = Vendor, Condition = is not empty. Toggle trigger ON. Verify Select channels and status — Now Assist panel toggled on, Now Assist in Virtual Agent added. Save. |
+| [7](#walkthrough-action) | Student | **Action Walkthrough:** Open Flow Designer > Actions > Get Expense Event. Explore the Base URL, Imported Specifications, and Output mappings. Understand how REST response maps to table fields. |
+| [8](#hands-on-flow-execution) | Student | **Run the Flow:** Open Flow Designer > Subflows > Get Expense Event. Click Test > Run Test. Wait for completion. Click execution details link. Verify all steps show Completed or Evaluated - True. |
+| [9](#walkthrough-agent-runtime) | Student | **Watch the AI Agent React:** Return to AI Agent Studio browser window. Look for the Now Assist badge. Open Now Assist chat. Expand to Modal view. Explore: planning steps, event ID extraction, RAG search results, budget analysis, Finance Case link. |
+| [10](#completion-verify-finance-case) | Student | **Verify the Finance Case:** Navigate to Finance Operations Workspace. Find the case created by the agent. Confirm it contains the cost center, vendor, and budget analysis. |
+| [11](#conclusion) | Facilitator | **Conclusion:** Walk through the complete data flow chain. This is the demo story — external event triggers proactive financial intelligence with zero human intervention. |
+
 ## Preparation
 
 ### Preparation: Platform Configuration
 
 These are required preparation steps in platform level. These are cross configurations that affect instance behaviour (across applications).
 
-1. As **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations. You can skip this if you have done it for [Lab Exercise: Zero Copy Connectors](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy).
+1. As **admin** user, this preparation section includes setting up of the scope, authorisation and Now Assist configurations.
 2.  Ensure you are in the correct scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials.
 
     <figure><img src="../.gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
