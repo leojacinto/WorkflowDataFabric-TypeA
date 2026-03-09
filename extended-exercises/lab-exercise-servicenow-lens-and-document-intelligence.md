@@ -179,7 +179,7 @@ Navigate to Now Assist Admin Skills. Activate the Extract information from docum
 
 ### Hands-on: Document Intelligence Runtime
 
-Create a variance task record. Upload the Invoice_IT_Laptop_CC_IT_002.pdf document. Set state to Work in Progress and submit.
+Create a variance task record. Upload the Invoice\_IT\_Laptop\_CC\_IT\_002.pdf document. Set state to Work in Progress and submit.
 
 1.  Go to **All** > type **x\_snc\_forecast\_v\_0\_variance\_task.do** and hit **Return/Enter ↵**.
 
@@ -210,7 +210,7 @@ Create a variance task record. Upload the Invoice_IT_Laptop_CC_IT_002.pdf docume
 
 Look for the Now Assist badge. Open Now Assist chat. Expand to Modal view. Review planning steps, event ID extraction, RAG search results, and Finance Case link.
 
-1. In the same browser window, you will notice that there is a new **Now Assist badge**. This is the AI Agent at work in the back end because the Document Intelligence integration flows have been triggered by changing the status of the task in which we have uploaded the Invoice to. This in turn triggered the same agent in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub). Click on the **Now Assist icon** with the updated badge count. If the **Now Assist badge** does not appear, simply reload your page.
+1. In the same browser window, you will notice that there is a new **Now Assist badge**. This is the AI Agent at work in the back end because the Document Intelligence integration flows have been triggered by changing the status of the task in which we have uploaded the Invoice to. This in turn triggered the same agent in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub). Click on the **Now Assist icon** with the updated badge count. If the **Now Assist badge** does not appear, simply reload your page as it may run slow in demo or lab instances.
 
 <figure><img src="../.gitbook/assets/sc_ihub_now_assist_badge_notification.png" alt=""><figcaption></figcaption></figure>
 
@@ -251,7 +251,7 @@ Navigate to Finance Operations Workspace. Find the case created by the agent.
 
 4. Congratulations! You have walked through the configuration and runtime of Document Intelligence, integrated with AI Agents that process the contents of the invoice for appropriate case handling for over-budget cost centers.
 
-### [Optional] Completion: Verify Document Output
+### \[Optional] Completion: Verify Document Output
 
 Navigate to Now Assist Admin Skills. Review the extracted document information in the Test Outputs tab.
 
