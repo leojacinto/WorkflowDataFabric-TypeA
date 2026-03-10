@@ -1,5 +1,5 @@
-Skip Report — WDF Lab Consolidated
-Generated: 2026-03-10 01:59:28
+Skip Report — WDF Lab Consolidated - Batch Parent
+Generated: 2026-03-10 02:40:59
 ============================================================
 
 Skip patterns:
@@ -7,132 +7,378 @@ Skip patterns:
   - expense_stream
   - u_cmdb_qb_result_
   - forecast_variance_mapping_table
+  - forecast_variance_link_test
+  - x_snc_forecast_v_0_df_test
+  - u_imp_tmpl_
 
-Skipped records (124):
+Batch children:
+  - WDF Lab - Zero Copy for ERP (sn_erp_integration): 35 records
+  - WDF Lab - Alectri ZCC Simulator (x_snc_alectri_zc_0): 177 records
+  - WDF Lab - Forecast Variance (x_snc_forecast_v_0): 1297 records
+  - WDF Lab - Global (global): 1232 records
+
+Skipped records (361):
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_attribute_cc04ad033b1dba900ad1a021a3e45a97
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_gl_account_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_stream__en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_field_attribute_5121794f3bddba900ad1a021a3e45a0f
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_search_source_31c5e1cb3b1dba900ad1a021a3e45a9a
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_variance_id_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_baseline_amount_usd_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_actual_amount_usd_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_forecast_source_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_meta_graph_e16ea5e13bf8be5062f31831a3e45ac5
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_business_unit_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_period_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_0e4481d63b787e9062f31831a3e45a47
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_75d41b933bbc361462f31831a3e45ae5
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_2745cb393b3c769062f31831a3e45a0a
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_7dd41b933bbc361462f31831a3e45af0
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_403fb5d53b06be5062f31831a3e45a51
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_e4c60e153bc6be5062f31831a3e45a58
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_list_control_524d17d08783da10fad940c60cbb35f2
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_section_996f1e6a3b4632900ad1a021a3e45a54
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_5ff2be7a3bf6f61062f31831a3e45a56
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_2b45cb393b3c769062f31831a3e45a44
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_dcc6bd0b3b51fa900ad1a021a3e45a43
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_af45cb393b3c769062f31831a3e45a7c
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_009a63003bd6fe500ad1a021a3e45a7b
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_6f0066ae3b4632900ad1a021a3e45a1b
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_a30026ae3b4632900ad1a021a3e45afa
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_map_077f5aaa3b4632900ad1a021a3e45a27
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_list_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_null
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_964481d63b787e9062f31831a3e45ad7
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_f771f5653b3cbe5062f31831a3e45abd
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_4e4481d63b787e9062f31831a3e45a62
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_b771f5653b3cbe5062f31831a3e45ad5
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_049a63003bd6fe500ad1a021a3e45a90
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_083fb5d53b06be5062f31831a3e45a65
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_937f5aaa3b4632900ad1a021a3e45a98
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_c03fb5d53b06be5062f31831a3e45a87
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_map_d70026ae3b4632900ad1a021a3e45ad8
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_module_08c67d0b3b51fa900ad1a021a3e45a3d
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_5a4481d63b787e9062f31831a3e45aaa
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_9dd41b933bbc361462f31831a3e45a54
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_d4c6bd0b3b51fa900ad1a021a3e45a4f
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_130026ae3b4632900ad1a021a3e45add
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_a0c60e153bc6be5062f31831a3e45a2b
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_db7f5aaa3b4632900ad1a021a3e45a77
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_3a34942487039250f533cae60cbb3509
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_f73dd3d08783da10fad940c60cbb3506
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_96450b393b3c769062f31831a3e45af5
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_7711698f3b99ba900ad1a021a3e45afd
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_business_unit
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_7f1eb9113b06be5062f31831a3e45aa0
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_app_module_44c67d0b3b51fa900ad1a021a3e45a35
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_data_source_071a274c3b96fe500ad1a021a3e45a9b
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_gl_account
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_abf2be7a3bf6f61062f31831a3e45add
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_app_module_d82e3d113b06be5062f31831a3e45a37
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_data_source_d9a6ced13bc6be5062f31831a3e45a5a
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_d9340d963b787e9062f31831a3e45a03
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_variance_pct
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_business_unit
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_count
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_query
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_monthly_budget
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_sap_cost_center_reference
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_count_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_rel_business_application_1_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_u_rel_business_application_1_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_variance_pct_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_description_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_cost_center
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_gl_account
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_u_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_count
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_variance_percent
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_u_rel_business_application_1_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_u_information_object_1_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_cost_center_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_gl_account_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_business_unit
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_last_updated
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_variance_id
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_query
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_count
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_u_information_object_1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_cost_center
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_u_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_business_unit_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_owner_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_variance_pct
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_query
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_information_object_1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_cost_center
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_id
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_u_business_application_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_count_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_gl_account_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history__en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_4c04adcf3bd9ba900ad1a021a3e45a10
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_dictionary_a9d5e58b3b1dba900ad1a021a3e45a8d
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_cost_center_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_variance_id_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_semantic_component_field_d774a5073b1dba900ad1a021a3e45ada
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_last_updated_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_field_attribute_6b41358f3bddba900ad1a021a3e45a01
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_semantic_index_configuration_655465c33b1dba900ad1a021a3e45a7a
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_variance_pct_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_business_unit_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_gl_account_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_1f458b393b3c769062f31831a3e45a9d
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_137f5aaa3b4632900ad1a021a3e45ab9
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_a30026ae3b4632900ad1a021a3e45af6
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_db7f5aaa3b4632900ad1a021a3e45a7b
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_list_control_24f1602487cbda10fad940c60cbb3526
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_section_27a682153bc6be5062f31831a3e45a2f
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_section_fc0022ae3b4632900ad1a021a3e45afb
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_449a63003bd6fe500ad1a021a3e45a6c
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_ecc6ca153bc6be5062f31831a3e45ad8
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_list_control_a244982487039250f533cae60cbb354f
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_700336ba3bf6f61062f31831a3e45a45
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_script_4004ad033b1dba900ad1a021a3e45aa1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_84c67d0b3b51fa900ad1a021a3e45a8c
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_ef45cb393b3c769062f31831a3e45a64
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_b1d45b933bbc361462f31831a3e45a2a
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_009a63003bd6fe500ad1a021a3e45a7f
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_930026ae3b4632900ad1a021a3e45af2
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_a30026ae3b4632900ad1a021a3e45afe
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_map_089a63003bd6fe500ad1a021a3e45a65
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_list_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_null
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_98c6bd0b3b51fa900ad1a021a3e45a89
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_524481d63b787e9062f31831a3e45ab6
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_049a63003bd6fe500ad1a021a3e45a94
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_083fb5d53b06be5062f31831a3e45a69
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_937f5aaa3b4632900ad1a021a3e45a9c
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_cc3f75d53b06be5062f31831a3e45a40
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_application_40c67d0b3b51fa900ad1a021a3e45a3a
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_user_role_ab71b5653b3cbe5062f31831a3e45a24
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_0ee1ace087cbda10fad940c60cbb3595
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_efff9e6e3b4632900ad1a021a3e45a70
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_2efa67d087cb5250f533cae60cbb3570
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_null
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_app_application_c4c63d0b3b51fa900ad1a021a3e45ad9
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_7b5f5a6a3b4632900ad1a021a3e45abe
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_cost_center
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_data_source_b8ce39153b06be5062f31831a3e45aef
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_last_updated
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_eaa602153bc6be5062f31831a3e45aab
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_u_business_application_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_rel_business_application_1_information_object_1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_cost_center_description
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_gl_account
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_u_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_query_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_last_updated_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_amount_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_cost_center
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_u_business_application_1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_owner
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_expense_stream_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_query_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_count_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_count_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v__en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_category_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions__en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_null
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_fiscal_year
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_last_updated
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_u_rel_business_application_1_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_null
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_count_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_u_rel_business_application_1_information_object_1_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_fiscal_month_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_vendor_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_owner
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_variance_pct
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_u_business_application_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_u_rel_business_application_1_information_object_1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_description
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_u_rel_business_application_1_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_cost_center_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_status_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_semantic_component_field_0aace90b3b9dba900ad1a021a3e45ac1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_actual_amount_usd_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_last_updated_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_forecast_variance_link_test__en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_fiscal_year_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_variance_pct_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_variance_task_df_variance_baseline_v_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_owner_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_field_attribute_74d46d473b1dba900ad1a021a3e45a19
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_semantic_index_configuration_be9cadc33b9dba900ad1a021a3e45a7e
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test__en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_cost_center_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_5b458b393b3c769062f31831a3e45ac0
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_9a44c1d63b787e9062f31831a3e45a10
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_0c81f5653b3cbe5062f31831a3e45af5
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_c8c6bd0b3b51fa900ad1a021a3e45a08
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_0c3fb5d53b06be5062f31831a3e45a72
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_a0c60e153bc6be5062f31831a3e45a23
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_d77f5aaa3b4632900ad1a021a3e45a46
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_e644c1d63b787e9062f31831a3e45a41
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_137f5aaa3b4632900ad1a021a3e45abd
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_db7f5aaa3b4632900ad1a021a3e45a7f
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_list_control_3676c86487c7da10fad940c60cbb350d
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_2c8139653b3cbe5062f31831a3e45aef
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_21d41b933bbc361462f31831a3e45aac
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_7f71f5653b3cbe5062f31831a3e45a27
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_c081f5653b3cbe5062f31831a3e45afe
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_009a63003bd6fe500ad1a021a3e45a73
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_68c6ca153bc6be5062f31831a3e45aa5
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_ecc6ca153bc6be5062f31831a3e45adc
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_list_control_c8c877588747da10fad940c60cbb357e
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_448139653b3cbe5062f31831a3e45a54
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_009a63003bd6fe500ad1a021a3e45a83
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_937f5aaa3b4632900ad1a021a3e45a90
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_a70066ae3b4632900ad1a021a3e45a07
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_map_0c3f75d53b06be5062f31831a3e45a39
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_user_role_33b63d0b3b51fa900ad1a021a3e45ad0
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_app_module_856f1e6a3b4632900ad1a021a3e45a0d
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_data_source_c31e79113b06be5062f31831a3e45a0c
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_owner
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_fff232ba3bf6f61062f31831a3e45a9a
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_1476086487c7da10fad940c60cbb35f6
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_f1a6350b3b51fa900ad1a021a3e45aff
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_18d497933bbc361462f31831a3e45aaa
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_2f517d253b3cbe5062f31831a3e45ae5
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_65b8f3588747da10fad940c60cbb3565
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_actual_amount_usd
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_7244c1d63b787e9062f31831a3e45a92
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_fiscal_year
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_9403f2ba3bf6f61062f31831a3e45a99
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_period
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_count
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_u_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_query
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_null
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_category
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_variance_task_df_variance_baseline_v
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_count_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_fiscal_year_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_variance_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_actual_amount_usd
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_u_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_count
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_fiscal_month
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_vendor
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_u_rel_business_application_1_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_business_application_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_u_business_application_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_owner_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_approved_by_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_fiscal_year
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_query
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_u_information_object_1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_status
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_u_business_application_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_query_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_query_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_actual_spend_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_date_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_actual_amount_usd
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_forecast_source
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_owner
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_count
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_query
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_amount
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_forecast_variance_link_test_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_query_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_actual_amount_usd_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_fiscal_year_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_field_attribute_9fe0b90f3bddba900ad1a021a3e45aa9
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_sap_cost_center_reference_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_fiscal_year_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_semantic_component_field_5b84e5073b1dba900ad1a021a3e45ae4
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_baseline_amount_usd_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_owner_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_forecast_variance_mapping_table__en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_forecast_source_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v__en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_period_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_f1d45b933bbc361462f31831a3e45a12
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_b771f5653b3cbe5062f31831a3e45aa7
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_049a63003bd6fe500ad1a021a3e45a8c
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_083fb5d53b06be5062f31831a3e45a61
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_937f5aaa3b4632900ad1a021a3e45a94
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_a8c6ca153bc6be5062f31831a3e45aaf
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_map_18c64a153bc6be5062f31831a3e45aa2
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_list_x_snc_forecast_v_0_forecast_variance_link_test_null
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_user_role_4a44cd963b787e9062f31831a3e45ad0
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_9cc6bd0b3b51fa900ad1a021a3e45ac2
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_10c6bd0b3b51fa900ad1a021a3e45aae
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_69d41b933bbc361462f31831a3e45a95
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_d244c1d63b787e9062f31831a3e45a08
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_0c3fb5d53b06be5062f31831a3e45a76
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_a0c60e153bc6be5062f31831a3e45a27
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_db0026ae3b4632900ad1a021a3e45ae1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_24c6bd0b3b51fa900ad1a021a3e45ae7
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_7dd41b933bbc361462f31831a3e45adc
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_e745cb393b3c769062f31831a3e45a5c
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_403fb5d53b06be5062f31831a3e45a4d
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_e4c60e153bc6be5062f31831a3e45a54
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_list_control_3c0b2bd087cb5250f533cae60cbb352e
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_section_99337ebf3b05329862f31831a3e45a66
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_4403b2ba3bf6f61062f31831a3e45a71
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_7f71f5653b3cbe5062f31831a3e45add
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_d3458b393b3c769062f31831a3e45a76
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_009a63003bd6fe500ad1a021a3e45a77
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_6f0066ae3b4632900ad1a021a3e45a17
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_ecc6ca153bc6be5062f31831a3e45ae0
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_section_642e3d113b06be5062f31831a3e45a64
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_app_module_380022ae3b4632900ad1a021a3e45acf
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_8ea602153bc6be5062f31831a3e45a2a
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_forecast_source
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_app_module_97a642153bc6be5062f31831a3e45adb
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_d8d457933bbc361462f31831a3e45afc
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_period
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_164547393b3c769062f31831a3e45abf
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_f70381153b30f2d00ad1a021a3e45acf
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_5e450b393b3c769062f31831a3e45ace
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_db_object_671eb9113b06be5062f31831a3e45a16
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_u_df_variance_baseline_v_u_baseline_amount_usd
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ua_table_licensing_config_74c6fd0b3b51fa900ad1a021a3e45a7a
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_baseline_amount_usd
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_gl_account
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_period
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_u_business_application_1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_approved_by
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_forecast_variance_mapping_table_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_u_business_application_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_baseline_amount_usd_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_monthly_budget_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_test_u_variance_id
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_u_rel_business_application_1_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_business_application_1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_actual_spend
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_date
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_query_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_forecast_source_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_variance_percent_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_baseline_amount_usd
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_u_rel_business_application_1_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_null
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_fiscal_year
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_u_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_period_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_cost_center_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_df_data_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_u_forecast_source
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_u_business_application_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_u_rel_business_application_1_information_object_1
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_variance
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_u_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_u_business_application_1_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_cost_center_description_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_id_en
 
 Duplicates removed: 28
-Final record count: 2978
+Final record count: 2741
