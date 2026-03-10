@@ -19,6 +19,7 @@ import glob
 import threading
 import webbrowser
 import xml.etree.ElementTree as ET
+from datetime import datetime
 from queue import Queue
 
 import requests
@@ -44,6 +45,7 @@ def _find_dir(name):
 
 UPDATE_SET_DIR = _find_dir("update_sets")
 XML_UNLOAD_DIR = _find_dir("xml_unloads")
+LOG_DIR = os.path.join(BASE_DIR, "logs")
 
 # ---------------------------------------------------------------------------
 # Flask app
@@ -314,21 +316,31 @@ def accept_all_preview_errors(client, sys_id, is_batch=False):
     if is_batch:
         children = client.api_get('sys_remote_update_set', params={
             'sysparm_query': f'remote_base_update_set={sys_id}',
-            'sysparm_fields': 'sys_id',
+            'sysparm_fields': 'sys_id,name',
             'sysparm_limit': '50'
         })
         if children:
             for c in children:
                 ids_to_check.append(c['sys_id'])
     total_accepted, total_failed = 0, 0
+    all_problem_details = []
     for check_id in ids_to_check:
         problems = client.api_get('sys_update_preview_problem', params={
             'sysparm_query': f'remote_update_set={check_id}',
-            'sysparm_fields': 'sys_id',
+            'sysparm_fields': 'sys_id,type,description,remote_update_set,status',
             'sysparm_limit': '500'
         })
         if problems:
             for p in problems:
+                detail = {
+                    'problem_sys_id': p.get('sys_id', ''),
+                    'type': p.get('type', ''),
+                    'description': p.get('description', ''),
+                    'remote_update_set': p.get('remote_update_set', ''),
+                    'status': p.get('status', ''),
+                    'update_name': '',
+                }
+                all_problem_details.append(detail)
                 result = client.api_patch('sys_update_preview_problem', p['sys_id'],
                                           {'disposition': 'accept'})
                 if result:
@@ -337,6 +349,11 @@ def accept_all_preview_errors(client, sys_id, is_batch=False):
                     total_failed += 1
     if total_accepted or total_failed:
         client.log(f"  Accepted {total_accepted} preview problems (failed={total_failed})")
+        client.log(f"  PREVIEW_PROBLEM_DETAILS_START")
+        for i, d in enumerate(all_problem_details):
+            client.log(f"    [{i+1}] type={d['type']} | status={d['status']}")
+            client.log(f"        description={d['description']}")
+        client.log(f"  PREVIEW_PROBLEM_DETAILS_END")
     else:
         client.log("  No preview problems.")
 
@@ -411,6 +428,157 @@ def process_xml_unload(client, xml_file, target_table):
 
 
 # ===========================================================================
+# Reset / Backout Logic
+# ===========================================================================
+def discover_update_set_names():
+    """Return list of update set names from XML files, in import order."""
+    names = []
+    for xml_file in discover_update_sets():
+        meta = analyze_xml(xml_file)
+        if meta and meta['name']:
+            names.append(meta['name'])
+            # For batch parents, also discover child update set names
+            if meta['is_batch']:
+                tree = ET.parse(xml_file)
+                root = tree.getroot()
+                seen = set()
+                for r in root.findall('sys_remote_update_set'):
+                    n = r.find('name')
+                    if n is not None and n.text and n.text not in seen:
+                        seen.add(n.text)
+                        if n.text != meta['name']:
+                            names.append(n.text)
+    return names
+
+
+def backout_update_set(client, name):
+    """Back out a committed local update set by name via background script.
+    Returns (ok, found, tracker_id)."""
+    safe_name = name.replace("'", "\\'")
+    script = f"""
+var gr = new GlideRecord('sys_update_set');
+gr.addQuery('name', '{safe_name}');
+gr.addQuery('state', 'complete');
+gr.orderByDesc('sys_created_on');
+gr.setLimit(1);
+gr.query();
+if (gr.next()) {{
+    var worker = new GlideUpdateSetWorker();
+    worker.setUpdateSetSysId(gr.sys_id.toString());
+    worker.setType('backout');
+    worker.setBackground(true);
+    worker.start();
+    var trackerId = worker.getProgressID();
+    gs.print('BACKOUT_STARTED|' + gr.sys_id + '|TRACKER=' + trackerId);
+}} else {{
+    gs.print('NOT_FOUND|{safe_name}');
+}}
+"""
+    ok, output = client.run_bg_script(script)
+    client.log(f"  {output}")
+    tracker_id = ''
+    if 'TRACKER=' in output:
+        tracker_id = output.split('TRACKER=')[-1].strip().rstrip('.')
+    return ok, 'NOT_FOUND' not in output, tracker_id
+
+
+def wait_for_worker(client, tracker_id, timeout=300, label="Backout"):
+    """Poll sys_progress_worker until the worker completes or times out."""
+    if not tracker_id:
+        client.log(f"  No tracker ID — waiting 20s as fallback...")
+        time.sleep(20)
+        return True
+    start = time.time()
+    last_log = 0
+    while time.time() - start < timeout:
+        time.sleep(5)
+        info = client.api_get('sys_progress_worker', tracker_id,
+                              params={'sysparm_fields': 'state,percent_complete,message'})
+        if info and isinstance(info, dict):
+            state = info.get('state', '').lower()
+            pct = info.get('percent_complete', '')
+            elapsed = int(time.time() - start)
+            if state in ('complete', 'succeeded', 'done'):
+                client.log(f"  {label} complete ({elapsed}s)")
+                return True
+            if state in ('cancelled', 'error', 'failed'):
+                msg = info.get('message', '')
+                client.log(f"  {label} {state}: {msg} ({elapsed}s)")
+                return False
+            if elapsed - last_log >= 15:
+                client.log(f"    Waiting... state={state} pct={pct} ({elapsed}s)")
+                last_log = elapsed
+        else:
+            elapsed = int(time.time() - start)
+            if elapsed - last_log >= 15:
+                client.log(f"    Waiting... (no response) ({elapsed}s)")
+                last_log = elapsed
+    client.log(f"  {label} timed out after {timeout}s")
+    return False
+
+
+def cleanup_xml_unload_data(client):
+    """Delete data records that were imported via XML unloads."""
+    tasks = discover_xml_unloads()
+    if not tasks:
+        return
+    total_deleted = 0
+    for task in tasks:
+        table = task['table']
+        xml_file = task['file']
+        # Extract sys_ids from the XML unload file
+        try:
+            tree = ET.parse(xml_file)
+            root = tree.getroot()
+            sys_ids = []
+            for record in root:
+                sid = record.find('sys_id')
+                if sid is not None and sid.text:
+                    sys_ids.append(sid.text)
+            if not sys_ids:
+                client.log(f"  {table}: no records found in XML")
+                continue
+            client.log(f"  {table}: deleting {len(sys_ids)} records...")
+            deleted = 0
+            for sid in sys_ids:
+                resp = client.api.delete(
+                    f'{client.instance}/api/now/table/{table}/{sid}')
+                if resp.status_code in [200, 204]:
+                    deleted += 1
+                elif resp.status_code == 404:
+                    pass  # already gone
+                else:
+                    client.log(f"    Failed to delete {sid} (HTTP {resp.status_code})")
+            client.log(f"  {table}: {deleted}/{len(sys_ids)} deleted")
+            total_deleted += deleted
+        except Exception as e:
+            client.log(f"  {table}: ERROR - {type(e).__name__}: {e}")
+    client.log(f"  Total data records deleted: {total_deleted}")
+
+
+def delete_remote_update_sets(client, name):
+    """Delete remote update set records by name."""
+    results = client.api_get('sys_remote_update_set', params={
+        'sysparm_query': f'name={name}',
+        'sysparm_fields': 'sys_id,name,state',
+        'sysparm_limit': '10'
+    })
+    deleted = 0
+    if results and isinstance(results, list):
+        for r in results:
+            resp = client.api.delete(
+                f'{client.instance}/api/now/table/sys_remote_update_set/{r["sys_id"]}')
+            if resp.status_code in [200, 204]:
+                client.log(f"    Deleted remote: {r['sys_id']}")
+                deleted += 1
+            else:
+                client.log(f"    Failed to delete remote: {r['sys_id']} (HTTP {resp.status_code})")
+    if deleted == 0:
+        client.log(f"    No remote records found.")
+    return deleted
+
+
+# ===========================================================================
 # Discover XML files and unload mapping
 # ===========================================================================
 def _numeric_sort_key(filepath):
@@ -456,12 +624,24 @@ def discover_xml_unloads():
 # ===========================================================================
 # Job runner (background thread)
 # ===========================================================================
+def _open_log_file(instance_name):
+    """Create a timestamped log file and return the file handle."""
+    os.makedirs(LOG_DIR, exist_ok=True)
+    ts = datetime.now().strftime('%Y%m%d_%H%M%S')
+    safe_name = re.sub(r'[^a-zA-Z0-9_-]', '_', instance_name)
+    log_path = os.path.join(LOG_DIR, f"{ts}_{safe_name}.log")
+    return open(log_path, 'w', encoding='utf-8'), log_path
+
+
 def run_import_job(job_id, instance_name, username, password):
     """Run the full import pipeline in a background thread."""
     q = jobs[job_id]['queue']
+    log_fh, log_path = _open_log_file(instance_name)
 
     def log(msg):
         q.put(msg)
+        log_fh.write(msg + '\n')
+        log_fh.flush()
 
     instance_url = f"https://{instance_name}.service-now.com"
     log(f"Target: {instance_url}")
@@ -536,6 +716,8 @@ def run_import_job(job_id, instance_name, username, password):
         log(f"  [{sym}] {st:25s} {fn}")
     log(f"\nDone: {success_count} succeeded, {fail_count} failed out of {len(results)} total.")
 
+    log(f"\nLog saved to: {log_path}")
+    log_fh.close()
     jobs[job_id]['status'] = 'completed' if fail_count == 0 else 'completed_with_errors'
     q.put(None)  # sentinel
 
@@ -543,9 +725,12 @@ def run_import_job(job_id, instance_name, username, password):
 def run_multi_import_job(job_id, instances):
     """Run imports for multiple instances sequentially (multi-tab admin mode)."""
     q = jobs[job_id]['queue']
+    log_fh, log_path = _open_log_file('multi')
 
     def log(msg):
         q.put(msg)
+        log_fh.write(msg + '\n')
+        log_fh.flush()
 
     log(f"Multi-instance mode: {len(instances)} instances queued.\n")
 
@@ -615,7 +800,106 @@ def run_multi_import_job(job_id, instances):
     for inst, result in overall_results.items():
         log(f"  {inst}: {result}")
 
+    log(f"\nLog saved to: {log_path}")
+    log_fh.close()
     jobs[job_id]['status'] = 'completed'
+    q.put(None)
+
+
+def run_reset_job(job_id, instance_name, username, password):
+    """Back out all update sets in reverse order, then delete remote records."""
+    q = jobs[job_id]['queue']
+    log_fh, log_path = _open_log_file(f'reset_{instance_name}')
+
+    def log(msg):
+        q.put(msg)
+        log_fh.write(msg + '\n')
+        log_fh.flush()
+
+    instance_url = f"https://{instance_name}.service-now.com"
+    log(f"Target: {instance_url}")
+    log(f"User: {username}")
+    log(f"Mode: RESET INSTANCE\n")
+
+    try:
+        client = SNClient(instance_url, username, password, log_fn=log)
+        client.login()
+    except Exception as e:
+        log(f"\nERROR: Failed to connect to {instance_url}")
+        log(f"  {type(e).__name__}: {e}")
+        log(f"\nLog saved to: {log_path}")
+        log_fh.close()
+        jobs[job_id]['status'] = 'failed'
+        q.put(None)
+        return
+
+    names = discover_update_set_names()
+    if not names:
+        log("No update set names found in local XML files.")
+        log(f"\nLog saved to: {log_path}")
+        log_fh.close()
+        jobs[job_id]['status'] = 'completed'
+        q.put(None)
+        return
+
+    # Back out in reverse order (last committed first)
+    reversed_names = list(reversed(names))
+    total = len(reversed_names)
+    log(f"Found {total} update sets to process.\n")
+
+    log("=" * 50)
+    log("PHASE 1: Backout Local Update Sets (reverse order)")
+    log("=" * 50)
+    backout_results = {}
+    for i, name in enumerate(reversed_names):
+        log(f"\n[{i+1}/{total}] Backing out: {name}")
+        try:
+            ok, found, tracker_id = backout_update_set(client, name)
+            if not found:
+                backout_results[name] = 'NOT_FOUND'
+            elif ok:
+                completed = wait_for_worker(client, tracker_id, timeout=300, label=f"Backout '{name}'")
+                backout_results[name] = 'BACKED_OUT' if completed else 'TIMEOUT'
+            else:
+                backout_results[name] = 'FAILED'
+        except Exception as e:
+            log(f"  EXCEPTION: {type(e).__name__}: {e}")
+            backout_results[name] = 'ERROR'
+
+    log("\n" + "=" * 50)
+    log("PHASE 2: Delete Remote Update Sets")
+    log("=" * 50)
+    for i, name in enumerate(names):
+        log(f"\n[{i+1}/{len(names)}] Deleting remote: {name}")
+        try:
+            delete_remote_update_sets(client, name)
+        except Exception as e:
+            log(f"  EXCEPTION: {type(e).__name__}: {e}")
+
+    log("\n" + "=" * 50)
+    log("PHASE 3: Delete XML Unload Data Records")
+    log("=" * 50)
+    try:
+        cleanup_xml_unload_data(client)
+    except Exception as e:
+        log(f"  EXCEPTION: {type(e).__name__}: {e}")
+
+    # Summary
+    log("\n" + "=" * 50)
+    log("RESET SUMMARY")
+    log("=" * 50)
+    for name, status in backout_results.items():
+        sym = "OK" if status in ('BACKED_OUT', 'NOT_FOUND') else "FAIL"
+        log(f"  [{sym}] {status:15s} {name}")
+
+    backed_out = sum(1 for s in backout_results.values() if s == 'BACKED_OUT')
+    not_found = sum(1 for s in backout_results.values() if s == 'NOT_FOUND')
+    fail_count = sum(1 for s in backout_results.values() if s in ('FAILED', 'ERROR', 'TIMEOUT'))
+    log(f"\nDone: {backed_out} backed out, {not_found} not found, {fail_count} failed.")
+
+    log(f"\nLog saved to: {log_path}")
+    log_fh.close()
+    jobs[job_id]['status'] = 'completed' if fail_count == 0 else 'completed_with_errors'
     q.put(None)
 
 
@@ -728,6 +1012,7 @@ HTML_TEMPLATE = r"""
   <div class="tabs">
     <button class="tab active" onclick="switchTab('single')">Single Instance</button>
     <button class="tab" onclick="switchTab('multi')">Multi Instance (Admin)</button>
+    <button class="tab" onclick="switchTab('reset')">Reset Instance</button>
   </div>
 
   <!-- Single Instance Panel -->
@@ -769,6 +1054,30 @@ HTML_TEMPLATE = r"""
 
     <div id="status-multi" class="status-bar"></div>
     <div id="log-multi" class="log-container"></div>
+  </div>
+
+  <!-- Reset Instance Panel -->
+  <div id="panel-reset" class="panel">
+    <div style="background:#451a1a; border:1px solid #7f1d1d; border-radius:var(--radius); padding:0.75rem 1rem; margin-bottom:1rem; font-size:0.85rem; color:var(--red);">
+      <strong>Warning:</strong> This will back out all committed update sets (in reverse order) and
+      delete all remote update set records. Objects created by these update sets will be reverted to
+      their pre-import state. This cannot be undone.
+    </div>
+
+    <label for="reset-instance">Instance Name</label>
+    <input type="text" id="reset-instance" placeholder="e.g. demoalectriabcdefg123456" autocomplete="off">
+    <div class="input-hint">We'll connect to https://&lt;name&gt;.service-now.com</div>
+
+    <label for="reset-username">Username</label>
+    <input type="text" id="reset-username" placeholder="e.g. admin" autocomplete="off">
+
+    <label for="reset-password">Password</label>
+    <input type="password" id="reset-password" placeholder="Enter password" autocomplete="off">
+
+    <button class="btn" id="btn-reset" onclick="startReset()" style="background:var(--red);color:white;">Reset Instance</button>
+
+    <div id="status-reset" class="status-bar"></div>
+    <div id="log-reset" class="log-container"></div>
   </div>
 </div>
 
@@ -871,6 +1180,31 @@ function startMulti() {
   });
 }
 
+function startReset() {
+  const instance = document.getElementById('reset-instance').value.trim();
+  const username = document.getElementById('reset-username').value.trim();
+  const password = document.getElementById('reset-password').value;
+  if (!instance || !username || !password) {
+    alert('Please fill in all fields.'); return;
+  }
+  if (!confirm('Are you sure you want to reset this instance? This will back out all update sets and cannot be undone.')) return;
+  const btn = document.getElementById('btn-reset');
+  btn.disabled = true; btn.textContent = 'Resetting...';
+  const logEl = document.getElementById('log-reset');
+  const statusEl = document.getElementById('status-reset');
+  logEl.classList.add('visible'); logEl.textContent = '';
+  statusEl.className = 'status-bar visible running';
+  statusEl.textContent = 'Resetting — please wait...';
+
+  fetch('/api/start', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({mode: 'reset', instance, username, password})
+  }).then(r => r.json()).then(data => {
+    streamLog(data.job_id, logEl, statusEl, btn, 'Reset Instance');
+  });
+}
+
 function streamLog(jobId, logEl, statusEl, btn, btnLabel) {
   const evtSource = new EventSource('/api/stream/' + jobId);
   evtSource.onmessage = function(e) {
@@ -936,6 +1270,12 @@ def api_start():
     if data.get('mode') == 'multi':
         instances = data.get('instances', [])
         t = threading.Thread(target=run_multi_import_job, args=(job_id, instances), daemon=True)
+    elif data.get('mode') == 'reset':
+        instance_name = data['instance']
+        username = data['username']
+        password = data['password']
+        t = threading.Thread(target=run_reset_job,
+                             args=(job_id, instance_name, username, password), daemon=True)
     else:
         instance_name = data['instance']
         username = data['username']
