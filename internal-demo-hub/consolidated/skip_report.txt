@@ -1,5 +1,5 @@
 Skip Report — WDF Lab Consolidated - Batch Parent
-Generated: 2026-03-10 03:15:28
+Generated: 2026-03-10 12:39:21
 ============================================================
 
 Skip patterns:
@@ -14,10 +14,10 @@ Skip patterns:
 Batch children:
   - WDF Lab - Zero Copy for ERP (sn_erp_integration): 35 records
   - WDF Lab - Alectri ZCC Simulator (x_snc_alectri_zc_0): 177 records
-  - WDF Lab - Forecast Variance (x_snc_forecast_v_0): 1278 records
+  - WDF Lab - Forecast Variance (x_snc_forecast_v_0): 1276 records
   - WDF Lab - Global (global): 1232 records
 
-Skipped records (380):
+Skipped records (382):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_attribute_cc04ad033b1dba900ad1a021a3e45a97
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_gl_account_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_stream__en
@@ -217,6 +217,7 @@ Skipped records (380):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_last_updated_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_expense_category_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_forecast_variance_link_test__en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sn_aia_skill_metadata_d254b5ea3b7a3a5062f31831a3e45ab7
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_fiscal_year_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_variance_pct_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_vendor_en
@@ -318,6 +319,7 @@ Skipped records (380):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_forecast_variance_mapping_table__en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_forecast_source_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v__en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sn_aia_team_member_f064fdea3b7a3a5062f31831a3e45a9c
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_period_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_f1d45b933bbc361462f31831a3e45a12
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_b771f5653b3cbe5062f31831a3e45aa7
@@ -400,4 +402,4 @@ Skipped records (380):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_id_en
 
 Duplicates removed: 28
-Final record count: 2722
+Final record count: 2720

@@ -69,6 +69,12 @@ DELETE_SKIP_PATTERNS = [
     'x_snc_forecast_v_0_expense_transactions_null', # old ui_list for table
 ]
 
+# Specific sys_update_name values to always skip (platform records captured accidentally)
+EXACT_SKIP_NAMES = {
+    'sn_aia_skill_metadata_d254b5ea3b7a3a5062f31831a3e45ab7',  # AP GenAI "Invoice resolution provider" (platform)
+    'sn_aia_team_member_f064fdea3b7a3a5062f31831a3e45a9c',     # AP GenAI team member (platform)
+}
+
 # ---------------------------------------------------------------------------
 # Batch children definition (order matters — scopes created first)
 # ---------------------------------------------------------------------------
@@ -144,6 +150,8 @@ def should_skip(name, block=None):
     Checks the name field first, then optionally checks the full block
     content (including payload) to catch records like ais_datasource that
     reference stale tables in their payload but not in their name."""
+    if name in EXACT_SKIP_NAMES:
+        return True
     check_str = name.lower()
     for pattern in SKIP_PATTERNS:
         if pattern.lower() in check_str:
