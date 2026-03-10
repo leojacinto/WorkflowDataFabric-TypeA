@@ -1,5 +1,5 @@
 Skip Report — WDF Lab Consolidated - Batch Parent
-Generated: 2026-03-10 02:40:59
+Generated: 2026-03-10 03:15:28
 ============================================================
 
 Skip patterns:
@@ -14,10 +14,10 @@ Skip patterns:
 Batch children:
   - WDF Lab - Zero Copy for ERP (sn_erp_integration): 35 records
   - WDF Lab - Alectri ZCC Simulator (x_snc_alectri_zc_0): 177 records
-  - WDF Lab - Forecast Variance (x_snc_forecast_v_0): 1297 records
+  - WDF Lab - Forecast Variance (x_snc_forecast_v_0): 1278 records
   - WDF Lab - Global (global): 1232 records
 
-Skipped records (361):
+Skipped records (380):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_attribute_cc04ad033b1dba900ad1a021a3e45a97
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_gl_account_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_stream__en
@@ -27,9 +27,11 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_baseline_amount_usd_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_actual_amount_usd_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_forecast_source_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_cost_center_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_meta_graph_e16ea5e13bf8be5062f31831a3e45ac5
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_business_unit_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_period_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_expense_id_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_0e4481d63b787e9062f31831a3e45a47
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_75d41b933bbc361462f31831a3e45ae5
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_2745cb393b3c769062f31831a3e45a0a
@@ -82,6 +84,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_query
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_monthly_budget
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_df_variance_baseline_v_sap_cost_center_reference
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_expense_transactions_u_vendor
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_count_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_rel_business_application_1_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_u_rel_business_application_1_information_object_1_en
@@ -103,6 +106,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_count
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_u_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_cost_center
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_expense_transactions_u_amount
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_u_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_business_unit_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_owner_en
@@ -111,6 +115,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_cost_center
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_id
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_expense_transactions_u_expense_category
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_u_business_application_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_count_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_gl_account_en
@@ -119,6 +124,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_dictionary_a9d5e58b3b1dba900ad1a021a3e45a8d
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_cost_center_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_variance_id_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_gl_account_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_semantic_component_field_d774a5073b1dba900ad1a021a3e45ada
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_last_updated_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_field_attribute_6b41358f3bddba900ad1a021a3e45a01
@@ -126,6 +132,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_variance_pct_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_business_unit_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_gl_account_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_description_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_1f458b393b3c769062f31831a3e45a9d
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_137f5aaa3b4632900ad1a021a3e45ab9
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_a30026ae3b4632900ad1a021a3e45af6
@@ -169,6 +176,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_rel_business_application_1_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_cost_center_description
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_gl_account
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_expense_transactions_u_expense_date
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_u_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_query_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_last_updated_en
@@ -200,21 +208,25 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_d89fd836d011c5dbe4baff0f8377500fe3541e31_u_rel_business_application_1_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_description
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_expense_transactions_u_approved_by
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_59589fc9af82eb0b7398df5de2adc26dcac5a14a_u_rel_business_application_1_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_cost_center_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_status_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_semantic_component_field_0aace90b3b9dba900ad1a021a3e45ac1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_actual_amount_usd_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_last_updated_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_expense_category_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_forecast_variance_link_test__en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_fiscal_year_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_variance_pct_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_vendor_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_variance_task_df_variance_baseline_v_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_owner_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_field_attribute_74d46d473b1dba900ad1a021a3e45a19
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_semantic_index_configuration_be9cadc33b9dba900ad1a021a3e45a7e
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test__en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_cost_center_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_amount_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_5b458b393b3c769062f31831a3e45ac0
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_9a44c1d63b787e9062f31831a3e45a10
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_security_acl_role_0c81f5653b3cbe5062f31831a3e45af5
@@ -239,6 +251,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_937f5aaa3b4632900ad1a021a3e45a90
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_entry_a70066ae3b4632900ad1a021a3e45a07
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_transform_map_0c3f75d53b06be5062f31831a3e45a39
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_ui_list_x_snc_forecast_v_0_expense_transactions_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_user_role_33b63d0b3b51fa900ad1a021a3e45ad0
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_app_module_856f1e6a3b4632900ad1a021a3e45a0d
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_data_source_c31e79113b06be5062f31831a3e45a0c
@@ -259,6 +272,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_query
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_category
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_expense_transactions_u_cost_center
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_variance_task_df_variance_baseline_v
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_count_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_fiscal_year_en
@@ -268,6 +282,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_count
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_fiscal_month
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_vendor
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_expense_transactions_u_expense_id
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_u_rel_business_application_1_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_business_application_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_u_business_application_1_en
@@ -295,9 +310,11 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_datasource_field_attribute_9fe0b90f3bddba900ad1a021a3e45aa9
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_sap_cost_center_reference_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_fiscal_year_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_approved_by_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: ais_semantic_component_field_5b84e5073b1dba900ad1a021a3e45ae4
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_baseline_amount_usd_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v_u_owner_en
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_expense_transactions_u_expense_date_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_forecast_variance_mapping_table__en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_test_u_forecast_source_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_x_snc_forecast_v_0_df_variance_baseline_v__en
@@ -360,6 +377,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_business_application_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_actual_spend
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_date
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_expense_transactions_u_description
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_75948091d92743c7d5c52ac5320c25764ec79867_query_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_forecast_source_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_variance_percent_en
@@ -367,6 +385,7 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_584bf75109ab8c344f7417ebdbcd0b695a740da2_u_rel_business_application_1_information_object_1
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_null
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_u_imp_tmpl_x_snc_forecast_v_0_cost_center_budget_history_u_fiscal_year
+  [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_dictionary_x_snc_forecast_v_0_expense_transactions_u_gl_account
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_778db1e44960cb9c09799805c7b65a322b40dd11_u_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_cmdb_qb_result_9ac29c1db7624fc492ee56d6d22e972c23eaec02_u_information_object_1_en
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_df_variance_baseline_v_u_period_en
@@ -381,4 +400,4 @@ Skipped records (361):
   [skip_pattern] 13_Forecast_Variance_-_Batch_Parent.xml :: sys_documentation_u_imp_tmpl_x_snc_forecast_v_0_expense_transactions_u_expense_id_en
 
 Duplicates removed: 28
-Final record count: 2741
+Final record count: 2722

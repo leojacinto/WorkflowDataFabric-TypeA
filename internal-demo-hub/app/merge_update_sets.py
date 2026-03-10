@@ -62,6 +62,13 @@ SKIP_PATTERNS = [
     'u_imp_tmpl_',                      # import template tables (don't exist on fresh)
 ]
 
+# Records with DELETE action whose name contains these patterns -> strip
+# These are old column/table deletes that fail on fresh instances
+DELETE_SKIP_PATTERNS = [
+    'x_snc_forecast_v_0_expense_transactions_u_',  # old u_ custom columns
+    'x_snc_forecast_v_0_expense_transactions_null', # old ui_list for table
+]
+
 # ---------------------------------------------------------------------------
 # Batch children definition (order matters — scopes created first)
 # ---------------------------------------------------------------------------
@@ -129,6 +136,9 @@ def numeric_sort_key(filepath):
     return int(m.group(1)) if m else 999
 
 
+ACTION_RE = re.compile(r'<action>(.*?)</action>')
+
+
 def should_skip(name, block=None):
     """Check if a sys_update_xml record should be skipped.
     Checks the name field first, then optionally checks the full block
@@ -143,6 +153,12 @@ def should_skip(name, block=None):
         for pattern in SKIP_PATTERNS:
             if pattern.lower() in block_lower:
                 return True
+        # Skip DELETE actions on old custom columns
+        action_match = ACTION_RE.search(block)
+        if action_match and 'DELETE' in action_match.group(1):
+            for pattern in DELETE_SKIP_PATTERNS:
+                if pattern.lower() in check_str:
+                    return True
     return False
 
 
