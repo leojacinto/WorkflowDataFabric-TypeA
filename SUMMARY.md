@@ -26,3 +26,4 @@
 ***
 
 * [Troubleshooting](troubleshooting.md)
+* [For Lab Facilitators](for-lab-facilitators.md)
