@@ -63,7 +63,7 @@ This configuration section includes setting up of AI Search which is a critical 
 2.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Repair Machine Learning Settings** > <mark style="color:green;">**b.)**</mark> click on **Repair Machine Learning Settings**.
 
     <figure><img src="../.gitbook/assets/sc_fund_repair_ml_nav.png" alt=""><figcaption></figcaption></figure>
-3.  Click on Repair Machine Learning Settings.
+3.  Click on **Reset Machine Learning Settings**.
 
     <figure><img src="../.gitbook/assets/sc_fund_repair_ml_click.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  You will get a message that the machine learning settings are being reset.
@@ -76,7 +76,7 @@ This configuration section includes setting up of AI Search which is a critical 
 
 ### Hands on: Create a Scope
 
-Create a dummy scope. This will not be used in the lab. If you are familiar with scope creation, you can skip this exercise as this is not a dependency in the exercises.
+Create a dummy scope. This activity is meant to make you familiar with scope creation, the scope you will create here will not be used in the lab. If you are familiar with scope creation, you can skip this exercise as this is not a dependency in the exercises.
 
 1. Go to the top right portion of your navigation and click on the <mark style="color:green;">**a.)**</mark> **globe icon** then **arrow** **>** the <mark style="color:green;">**b.)**</mark> **list icon** to create new scope.
 
@@ -88,13 +88,13 @@ Create a dummy scope. This will not be used in the lab. If you are familiar with
 3.  Go to section **Start from Scratch** and click **Create**
 
     <figure><img src="../.gitbook/assets/sc_fund_create_scope.png" alt=""><figcaption></figcaption></figure>
-4.  Provide the scope details with <mark style="color:green;">**a.)**</mark> name **Forecast Variance \<YOUR INITIALS>** and the <mark style="color:green;">**b.)**</mark> scope. Click <mark style="color:green;">**c.)**</mark> Create. Note that the scope is a technical name and is automatically populated but you have the option to change it. In this example, the scope is **x\_snc\_forecast\_var**. Fell free to add your iniitials at the end of the scope. The scope here will not be used in the exercise and is only meant to serve as guide in demonstrating the fundamental steps. Click **Back to list** once done.
+4.  Provide the scope details with <mark style="color:green;">**a.)**</mark> name **Forecast Variance \<YOUR INITIALS>** and the <mark style="color:green;">**b.)**</mark> scope. Click <mark style="color:green;">**c.)**</mark> Create. Note that the scope is a technical name and is automatically populated but you have the option to change it. In this example, the scope is **x\_snc\_forecast\_var**. Feel free to add your iniitials at the end of the scope. The scope here will not be used in the exercise and is only meant to serve as guide in demonstrating the fundamental steps. Click **Back to list** once done.
 
     <figure><img src="../.gitbook/assets/sc_fund_scope_details_created.png" alt=""><figcaption></figcaption></figure>
 5.  Verify that you are in the correct scope after you have created it. Being in the correct scope as you proceed with the lab will avoid scope access and object management issues. Do this by a.) clicking on the <mark style="color:green;">**a.)**</mark> scope (globe icon) and ensuring that has the value of the <mark style="color:green;">**b.)**</mark> **Forecast Variance \<YOUR INITIALS>** label you created.
 
     <figure><img src="../.gitbook/assets/sc_fund_dummy_scope.png" alt=""><figcaption></figcaption></figure>
-6.  <mark style="color:red;">**THIS NEXT STEP IS CRITICAL**</mark>. You will need to change scope after you have created the simulation scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials. This will be the scope you will use throughout the lab.
+6.  <mark style="color:red;">**THIS NEXT STEP IS CRITICAL**</mark> to ensure you are working in the correct scope in which the objects for this lab are linked to. You will need to change scope after you have created the simulation scope. Click on the <mark style="color:green;">**a.)**</mark> **scope** (globe icon) and <mark style="color:green;">**b.)**</mark> **Forecast Variance**, this time <mark style="color:red;">**WITHOUT**</mark> your initials. This will be the scope you will use throughout the lab.
 
     <figure><img src="../.gitbook/assets/sc_fund_exercise_scope.png" alt=""><figcaption></figcaption></figure>
 7.  Now that you are in the right scope, you are ready to create the scoped table. Navigate to All > <mark style="color:green;">**a.)**</mark> type **System Definition** > <mark style="color:green;">**b.)**</mark> search for **Tables**
@@ -103,7 +103,7 @@ Create a dummy scope. This will not be used in the lab. If you are familiar with
 8.  Go to the top right section of the navigation and click **New**.
 
     <figure><img src="../.gitbook/assets/sc_fund_new_table.png" alt="" width="563"><figcaption></figcaption></figure>
-9.  Provide the <mark style="color:green;">**a.)**</mark> **Label** as **Expense Transaction Event \<your initials>**. The <mark style="color:green;">**b.)**</mark> **Name** which is a technical identifier will automatically be populated and can be modified to suit your requirement. Finally, untick <mark style="color:green;">**c.)**</mark> **Create module**.
+9.  Provide the <mark style="color:green;">**a.)**</mark> **Label** as **Expense Transaction Event \<your initials>**. The <mark style="color:green;">**b.)**</mark> **Name** which is a technical identifier will automatically be populated and can be modified to suit your requirement. Finally, <mark style="color:green;">**c.)**</mark> **untick Create module**.
 
     <figure><img src="../.gitbook/assets/sc_fund_new_table_details.png" alt=""><figcaption></figcaption></figure>
 10. Right click on the header and click **Save**.

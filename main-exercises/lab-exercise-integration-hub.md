@@ -16,7 +16,7 @@ There are dedicated Integration Hub and Flow Designer labs; hence, the focus of 
 
 **Preparation**
 
-<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#preparation-platform-configuration">2</a></td><td>Student</td><td><strong>Platform Configuration:</strong> Set up scope, authorization (<code>sn_aia.admin</code> role), and Now Assist configurations including Assistant Designer and Now Assist Admin panel settings.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#preparation-initial-checks">3</a></td><td>Student</td><td><strong>Health Check:</strong> Verify Now Assist panel is accessible. Navigate to the expense event table and verify it's empty. Run the Reset Script if needed.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#hands-on-connection-setup">4</a></td><td>Student</td><td><strong>Connection Setup:</strong> Navigate to Connection &#x26; Credential Aliases. Open the pre-configured "Get Expense Event" alias. Create a new Connection pointing to the REST API endpoint.</td></tr></tbody></table>
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#preparation-platform-configuration">2</a></td><td>Student</td><td><strong>Platform Configuration:</strong> Set up scope, authorization (<code>sn_aia.admin</code> role), and Now Assist configurations including Assistant Designer and Now Assist Admin panel settings.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#preparation-initial-checks">3</a></td><td>Student</td><td><strong>Initial Check:</strong> Verify Now Assist panel is accessible. Navigate to the Expense Transaction Event table and verify it's empty. Delete entry/entries if there are any. </td></tr><tr><td><a href="lab-exercise-integration-hub.md#hands-on-connection-setup">4</a></td><td>Student</td><td><strong>Connection Setup:</strong> Navigate to Connection &#x26; Credential Aliases. Open the pre-configured "Get Expense Event" alias. Create a new Connection pointing to the REST API endpoint.</td></tr></tbody></table>
 
 **AI Agent Configuration**
 
@@ -163,7 +163,7 @@ These are required preparation steps in platform level. These are cross configur
 
 ### Preparation: Initial Checks
 
-Verify Now Assist panel is accessible. Navigate to the expense event table and verify it's empty. Run the Reset Script if needed.
+Verify Now Assist panel is accessible. Navigate to the Expense Transaction Event table and verify it's empty. Delete entry/entries if there are any.&#x20;
 
 1.  If you have set up the Now Assist Panel correctly, you should see the Now Assist icon on the top right.
 
@@ -177,8 +177,6 @@ Verify Now Assist panel is accessible. Navigate to the expense event table and v
 4. This list **SHOULD** be **EMPTY** for the AI agent to work. If it is **NOT** empty, <mark style="color:green;">**a.)**</mark> click on all the items by clicking the **top-rightmost check box** > <mark style="color:green;">**b.)**</mark> click **Action on selected rows...** > <mark style="color:green;">**c.)**</mark> click **Delete** > <mark style="color:green;">**d.)**</mark> click **Delete** again. The flow does not have robust exception handling for this lab so this manual step is required to ensure that the scripts will run properly.
 
 <figure><img src="../.gitbook/assets/sc_ihub_expense_event_delete.png" alt=""><figcaption></figcaption></figure>
-
-3. Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **AI Agent Studio** > <mark style="color:green;">**b.)**</mark> click on **Create an**
 
 ### Hands-on: Connection Setup
 
