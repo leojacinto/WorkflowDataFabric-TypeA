@@ -186,7 +186,7 @@ title: Workflow Data Fabric Landscape
 ---
 graph TB
     subgraph USER["User Interaction"]
-        WC["Work Center"]
+        WC["Workspace"]
         EC["Employee Center"]
         MCP_C["MCP Client"]
     end
