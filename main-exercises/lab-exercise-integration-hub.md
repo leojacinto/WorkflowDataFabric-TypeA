@@ -279,7 +279,9 @@ Delete any existing trigger. Create new trigger: Table = Expense Transaction Eve
 
 The scoped **Action** is a key feature for the trigger that obtains expense data via REST API. If you wish to learn more on how Flows and AI Agents can get more granular and higher throughput of data through streaming, have a look at the bonus exercise on [Stream Connect for Apache Kafka](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-kafka_stream_connect).
 
-For this section: Open Flow Designer > Action > Get Expense Event to get an idea how Actions are configured and to understand their dependencies with [Connections](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#hands-on-connection-setup).
+For this section: Open Flow Designer > Action > Get Expense Event to get an idea how Actions are configured and to understand their dependencies with [Connections](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#hands-on-connection-setup).&#x20;
+
+This action will populate the expense events coming from the external API endpoint we just configured.
 
 1.  Navigate to All > <mark style="color:green;">**a.)**</mark> type **Flow Designer** and go to <mark style="color:green;">**b.)**</mark> **Process Automation** > **Flow Designer**. This will open the app in a new tab.
 
@@ -287,7 +289,7 @@ For this section: Open Flow Designer > Action > Get Expense Event to get an idea
 2.  In the new **Flow Designer** tab that just opened, <mark style="color:green;">**a.)**</mark> click **Actions** > <mark style="color:green;">**b.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type **Get Expense Event** then <mark style="color:green;">**d.)**</mark> click **Apply**.
 
     <figure><img src="../.gitbook/assets/sc_ihub_action_search.png" alt=""><figcaption></figcaption></figure>
-3.  Click on Get **Expense Event**.
+3.  Click on Get **Expense Event**. <mark style="color:$warning;">**Note:**</mark> this might take a while to load.
 
     <figure><img src="../.gitbook/assets/sc_ihub_action_list.png" alt=""><figcaption></figcaption></figure>
 4.  In this current version of the lab, we will walk you through the components. Click on <mark style="color:green;">**a.)**</mark> **Get Expense Event**. The <mark style="color:green;">**b.)**</mark> **Base URL** here is coming from a service that creates the expense event and the <mark style="color:green;">**c.)**</mark> **Imported Specifications** are also generated from the same service. No further action is needed in this section.
