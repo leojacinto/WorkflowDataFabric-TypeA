@@ -157,7 +157,7 @@ Clone the OOTB DP: Cost Center model. Label it SAP Cost Center. Assign ERP syste
 1.  Click on <mark style="color:green;">**a.)**</mark> **Models (database icon)** > <mark style="color:green;">**b.)**</mark> click **Model Name** > **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type **DP: Cost Center** > <mark style="color:green;">**d.)**</mark> click **Apply**. We will replicate the structure of a this OOTB data model.
 
     <figure><img src="../.gitbook/assets/sc_zcc_models_filter_cost_center.png" alt=""><figcaption></figcaption></figure>
-2.  Click on **DP: Cost Center**.
+2.  Click on **DP: Cost Center** with Short Description **Data Product: Cost Center ( Function Call )**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_dp_cost_center_click.png" alt=""><figcaption></figcaption></figure>
 3.  Note the <mark style="color:green;">**a.)**</mark> popup that indicates that you are opening an **ERP Data Product** which is delivered as OOTB templates that customers can use to ramp-up creation of ERP models, which means it cannot be edited. Click <mark style="color:green;">**b.)**</mark> **Clone** to create a copy of this model.
@@ -321,7 +321,7 @@ This is a walk through of how the an AI Agent equipped with both deterministic a
 9.  Next, click on **Define trigger**, which is kept blank. You can add the triggers for the AI Agent here but for the exercise, the AI Agent will be triggered manually to be able to show the detail chat responses and debugging. No further action is required in this section.
 
     <figure><img src="../.gitbook/assets/sc_zcc_define_trigger_blank.png" alt=""><figcaption></figcaption></figure>
-10. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**.
+10. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**. <mark style="color:$warning;">**Note:**</mark> if Chat Assistants (step <mark style="color:green;">**10.c.**</mark>) does not give you options, check and execute the steps in [Lab Exercise: Integration Hub > Platform Configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#preparation-platform-configuration) > Steps 9 to 18; esp. if you are doing this lab standalone or have skipped the [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub) portion.&#x20;
 
     <figure><img src="../.gitbook/assets/sc_zcc_select_channels_save.png" alt=""><figcaption></figcaption></figure>
 
