@@ -164,12 +164,12 @@ Add MCP instructions to the agent specialty. Add the variance-baseline-search MC
 6.  In the pop-up that appears, <mark style="color:green;">**a.)**</mark> click on the **dropdown** > <mark style="color:green;">**b.)**</mark> select **Neon MCP**.
 
     <figure><img src="../.gitbook/assets/sc_mcp_select_neon.png" alt=""><figcaption></figcaption></figure>
-7.  In the same pop-up screen, select the tool **variance-baseline-search**.
+7.  In the same pop-up screen, select the tool **run\_sql**.
 
     <figure><img src="../.gitbook/assets/sc_mcp_variance_baseline_neon.png" alt=""><figcaption></figcaption></figure>
 8. Still in the same pop-up screen provide the following details. Screenshot on how the settings should look like immediately follows. You only need to modify three settings and leave the rest as they are.
 
-<mark style="color:green;">**a.)**</mark> **Name**: Get Details via Neon MCP
+<mark style="color:green;">**a.)**</mark> **Name**: **Get Details via Neon MCP**
 
 <mark style="color:green;">**b.)**</mark> **Tool description**:
 
@@ -196,7 +196,7 @@ Accept default security controls. Configure channels and status. Save and test.
 13. Since this is copied from an existing AI Agent configuration, simply accept the default values for **Define security controls** and its 2 sub-items. Also keep A**dd triggers value** blank.
 
     <figure><img src="../.gitbook/assets/sc_mcp_security_defaults.png" alt=""><figcaption></figcaption></figure>
-14. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**.
+14. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**. <mark style="color:$warning;">**Note:**</mark> if Chat Assistants (step <mark style="color:green;">**14.c.**</mark>) does not give you options, check and execute the steps in [Lab Exercise: Integration Hub > Platform Configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#preparation-platform-configuration) > Steps 9 to 18; esp. if you are doing this lab standalone or have skipped the [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub) portion.&#x20;
 
     <figure><img src="../.gitbook/assets/sc_mcp_channels_status_neon.png" alt=""><figcaption></figcaption></figure>
 15. You **MIGHT** be alerted of potential duplicates but this is due to the multiple AI Agents created to test various integration scenarios. Click **Ignore and continue**.

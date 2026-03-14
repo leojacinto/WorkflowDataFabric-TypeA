@@ -101,7 +101,7 @@ Navigate to Now Assist Admin Skills. Activate the Extract information from docum
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Now Assist Admin** > <mark style="color:green;">**b.)**</mark> click on **Now Assist Admin > Skills**.
 
     <figure><img src="../.gitbook/assets/sc_ldi_now_assist_skills_nav.png" alt=""><figcaption></figcaption></figure>
-2.  Go to <mark style="color:green;">**a.)**</mark> **Platform** > <mark style="color:green;">**b.)**</mark>**&#x20;Other** > <mark style="color:green;">**c.)**</mark> type **Extract information from documents** > <mark style="color:green;">**d.)**</mark> click **Activate Skill**.
+2.  Go to <mark style="color:green;">**a.)**</mark> **Platform** > <mark style="color:green;">**b.)**</mark>**&#x20;Other** > <mark style="color:green;">**c.)**</mark> type **Extract information from documents** > <mark style="color:green;">**d.)**</mark> click **Activate Skill**. <mark style="color:$warning;">**Note:**</mark> If the skill is already activated, it should show a **three dot vertical icon**, click on that then click **Edit**.
 
     <figure><img src="../.gitbook/assets/sc_ldi_activate_extract_skill.png" alt=""><figcaption></figcaption></figure>
 3.  Go to <mark style="color:green;">**a.)**</mark> **Create Usecase** > <mark style="color:green;">**b.)**</mark> click on **Expense Transaction Event.**
@@ -149,10 +149,10 @@ Navigate to Now Assist Admin Skills. Activate the Extract information from docum
 
 <figure><img src="../.gitbook/assets/sc_ldi_save_and_continue.png" alt=""><figcaption></figcaption></figure>
 
-5.  Click **Activate**.
+5.  Click **Activate**. <mark style="color:$warning;">**Note:**</mark> If the skill is already activated, just click **Done**.
 
     <figure><img src="../.gitbook/assets/sc_ldi_activate.png" alt=""><figcaption></figcaption></figure>
-6.  Click **Return to Platform**.
+6.  Click **Return to Platform**. <mark style="color:$warning;">**Note:**</mark> If the skill is already activated, this modal pop-up will not appear.
 
     <figure><img src="../.gitbook/assets/sc_ldi_return_to_platform.png" alt="" width="563"><figcaption></figcaption></figure>
 7.  You will be redirected to the Skills screen and this concludes the walkthrough of the Skills needed for document extraction.
@@ -210,7 +210,7 @@ Create a variance task record. Upload the Invoice\_IT\_Laptop\_CC\_IT\_002.pdf d
 
 Look for the Now Assist badge. Open Now Assist chat. Expand to Modal view. Review planning steps, event ID extraction, RAG search results, and Finance Case link.
 
-1. In the same browser window, you will notice that there is a new **Now Assist badge**. This is the AI Agent at work in the back end because the Document Intelligence integration flows have been triggered by changing the status of the task in which we have uploaded the Invoice to. This in turn triggered the same agent in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub). Click on the **Now Assist icon** with the updated badge count. If the **Now Assist badge** does not appear, simply reload your page as it may run slow in demo or lab instances.
+1. In the same browser window, you will notice that there is a new **Now Assist badge**. This is the AI Agent at work in the back end because the Document Intelligence integration flows have been triggered by changing the status of the task in which we have uploaded the Invoice to. This in turn triggered the same agent in [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-integration-hub). Click on the **Now Assist icon** with the updated badge count. <mark style="color:$warning;">**Note:**</mark> If the **Now Assist badge** does not appear, simply reload your page as it may run slow in demo or lab instances or click on the **Now Assist icon** anyway and wait for a new **Active** chat to appear, indicated by a red dot beside it.
 
 <figure><img src="../.gitbook/assets/sc_ihub_now_assist_badge_notification.png" alt=""><figcaption></figcaption></figure>
 
