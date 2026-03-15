@@ -181,6 +181,7 @@ The diagram below will be further decomposed in the next sections to give you mo
 You can skip the review of the diagram below if you prefer, and head straight into the lab exercises, each of which having its individual (and much more detailed) data flow.
 
 ```mermaid fullWidth="true"
+%%{init: {'flowchart': {'nodeSpacing': 40, 'rankSpacing': 50, 'padding': 20}} }%%
 ---
 title: Workflow Data Fabric Landscape
 ---
@@ -197,7 +198,12 @@ graph TB
             AGENTS["AI Agents"]
             FLOWS["Flows & Actions"]
             RAG["RAG via AI Search"]
-            MCP_S["MCP Server"]
+        end
+        subgraph INT["Integration Layer"]
+            ZCC["Zero Copy<br/>Connectors"]
+            INTHUB["Integration<br/>Hub"]
+            XCC["External Content<br/>Connector"]
+            MCP_S["MCP"]
         end
         subgraph DATA["Data Layer"]
             ZCT["Zero Copy Tables"]
@@ -220,10 +226,13 @@ graph TB
     MCP_C --> MCP_S
     AI --> DATA
     AX --> DATA
-    DATA -->|"Zero Copy Connector"| ERP
-    DATA -->|"Zero Copy Connector"| CDW
-    AI -->|"Integration Hub"| API
-    AI -->|"XCC"| DOC
+    DATA --> ZCC
+    ZCC --> ERP
+    ZCC --> CDW
+    AI --> INTHUB
+    INTHUB --> API
+    AI --> XCC
+    XCC --> DOC
 
     %% Styling
     classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
@@ -234,9 +243,10 @@ graph TB
     classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
 
     class ERP,CDW,DOC,API external
+    class ZCC,INTHUB,XCC,MCP_S integration
     class ZCT zeroCopy
     class NT native
-    class AGENTS,FLOWS,RAG,MCP_S ai
+    class AGENTS,FLOWS,RAG ai
     class LENS,DOCINT ai
     class WC,EC,MCP_C user
 ```
