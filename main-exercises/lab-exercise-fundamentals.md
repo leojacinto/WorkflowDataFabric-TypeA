@@ -42,7 +42,7 @@ graph LR
     class ExpenseAPI external
 ```
 
-> **Color Legend:** Purple = Workflow Data Fabric | Green = Platform | Blue = External Systems
+> **Color Legend:** 🟣 Workflow Data Fabric | 🟢 Platform | 🔵 External Systems
 
 ## Lab story
 
