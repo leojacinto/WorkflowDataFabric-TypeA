@@ -55,6 +55,8 @@ graph LR
     class Employee,EC user
 ```
 
+> **Color Legend:** Green = Platform | Purple = Workflow Data Fabric | Blue = External Systems | Light Blue = User Interaction
+
 ## Steps
 
 ### Crawl and Usage of External Content Connectors

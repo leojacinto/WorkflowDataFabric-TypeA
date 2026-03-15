@@ -89,6 +89,8 @@ graph TB
     class Employee,EC user
 ```
 
+> **Color Legend:** Amber = Now Assist | Green = Platform | Light Blue = User Interaction
+
 ## Document Intelligence
 
 ### Walkthrough: Document Intelligence Setup

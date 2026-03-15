@@ -42,6 +42,8 @@ graph LR
     class ExpenseAPI external
 ```
 
+> **Color Legend:** Purple = Workflow Data Fabric | Green = Platform | Blue = External Systems
+
 ## Lab story
 
 While you have the power of CMDB at your fingertips, the process we are solving for here does not concern CI data. You will need to create a scoped table which will store information from an expense event API. This can come from cloud services such as AWS or Azure.
