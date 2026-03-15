@@ -49,7 +49,7 @@ graph LR
     end
 
     %% Styling
-    classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
+    classDef user fill:#F5F5F5,stroke:#616161,stroke-width:3px,color:#1a1a1a
 
     class Employee,EC,ClaudeDesktop user
 ```
@@ -99,7 +99,7 @@ graph LR
 
     %% Styling
     classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
+    classDef user fill:#F5F5F5,stroke:#616161,stroke-width:3px,color:#1a1a1a
     classDef nowassist fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
     classDef platform fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
     classDef wdf fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
@@ -217,7 +217,7 @@ graph TB
 
     %% Styling
     classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
+    classDef user fill:#F5F5F5,stroke:#616161,stroke-width:3px,color:#1a1a1a
     classDef nowassist fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
     classDef platform fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
     classDef wdf fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
@@ -232,6 +232,6 @@ graph TB
     class WC,EC,MCP_C user
 ```
 
-> **Color Legend:** 🟡 Now Assist | 🟢 Platform | 🟣 Workflow Data Fabric | 🔵 External Systems | 🔹 User Interaction
+> **Color Legend:** 🟡 Now Assist | 🟢 Platform | 🟣 Workflow Data Fabric | 🔵 External Systems | ⚪ User Interaction
 
 [Take me back to main page](./)

@@ -78,7 +78,7 @@ graph TB
 
 
     %% Styling
-    classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
+    classDef user fill:#F5F5F5,stroke:#616161,stroke-width:3px,color:#1a1a1a
     classDef nowassist fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
     classDef platform fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
 
@@ -89,7 +89,7 @@ graph TB
     class Employee,EC user
 ```
 
-> **Color Legend:** 🟡 Now Assist | 🟢 Platform | 🔹 User Interaction
+> **Color Legend:** 🟡 Now Assist | 🟢 Platform | ⚪ User Interaction
 
 ## Document Intelligence
 
