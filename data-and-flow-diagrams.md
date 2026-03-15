@@ -114,6 +114,8 @@ graph LR
     class Lens,DocIntel nowassist
 ```
 
+> **Color Legend:** Amber = Now Assist | Green = Platform | Purple = Workflow Data Fabric
+
 #### Data Integration Layer and Zero Copy Tables
 
 These data integrations match the external sources mentioned earlier.
@@ -229,5 +231,7 @@ graph TB
     class LENS,DOCINT nowassist
     class WC,EC,MCP_C user
 ```
+
+> **Color Legend:** Amber = Now Assist | Green = Platform | Purple = Workflow Data Fabric | Blue = External Systems | Light Blue = User Interaction
 
 [Take me back to main page](./)

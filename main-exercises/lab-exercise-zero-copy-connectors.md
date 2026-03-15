@@ -109,6 +109,8 @@ graph TB
     class Employee,EC user
 ```
 
+> **Color Legend:** Amber = Now Assist | Green = Platform | Purple = Workflow Data Fabric | Blue = External Systems | Light Blue = User Interaction
+
 ## Preparation
 
 ### Preparation: Platform Configuration

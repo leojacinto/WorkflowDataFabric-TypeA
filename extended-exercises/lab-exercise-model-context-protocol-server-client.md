@@ -85,6 +85,8 @@ graph LR
 
 ```
 
+> **Color Legend:** Amber = Now Assist | Green = Platform | Purple = Workflow Data Fabric | Blue = External Systems | Light Blue = User Interaction
+
 ## MCP Client Configuration
 
 ### Hands-on: Configure MCP Client
