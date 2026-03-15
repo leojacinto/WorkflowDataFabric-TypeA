@@ -55,7 +55,7 @@ graph LR
     class Employee,EC user
 ```
 
-> **Color Legend:** Green = Platform | Purple = Workflow Data Fabric | Blue = External Systems | Light Blue = User Interaction
+> **Color Legend:** 🟢 Platform | 🟣 Workflow Data Fabric | 🔵 External Systems | 🔹 User Interaction
 
 ## Steps
 

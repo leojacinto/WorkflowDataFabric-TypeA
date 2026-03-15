@@ -114,7 +114,7 @@ graph LR
     class Lens,DocIntel nowassist
 ```
 
-> **Color Legend:** Amber = Now Assist | Green = Platform | Purple = Workflow Data Fabric
+> **Color Legend:** 🟡 Now Assist | 🟢 Platform | 🟣 Workflow Data Fabric
 
 #### Data Integration Layer and Zero Copy Tables
 
@@ -232,6 +232,6 @@ graph TB
     class WC,EC,MCP_C user
 ```
 
-> **Color Legend:** Amber = Now Assist | Green = Platform | Purple = Workflow Data Fabric | Blue = External Systems | Light Blue = User Interaction
+> **Color Legend:** 🟡 Now Assist | 🟢 Platform | 🟣 Workflow Data Fabric | 🔵 External Systems | 🔹 User Interaction
 
 [Take me back to main page](./)
