@@ -181,7 +181,6 @@ The diagram below will be further decomposed in the next sections to give you mo
 You can skip the review of the diagram below if you prefer, and head straight into the lab exercises, each of which having its individual (and much more detailed) data flow.
 
 ```mermaid fullWidth="true"
-%%{init: {'flowchart': {'nodeSpacing': 40, 'rankSpacing': 50, 'padding': 20}} }%%
 ---
 title: Workflow Data Fabric Landscape
 ---
@@ -192,7 +191,7 @@ graph TB
         MCP_C["MCP Client"]
     end
 
-    subgraph SNOW["ServiceNow Platform"]
+    subgraph SNOW["ServiceNow AI Platform"]
         direction TB
         subgraph AI["AI & Automation"]
             AGENTS["AI Agents"]
