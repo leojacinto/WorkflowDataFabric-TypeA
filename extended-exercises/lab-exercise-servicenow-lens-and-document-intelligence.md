@@ -78,17 +78,14 @@ graph TB
 
 
     %% Styling
-    classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef integration fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    classDef zeroCopy fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
-    classDef native fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    classDef ai fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
     classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
+    classDef nowassist fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
+    classDef platform fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
 
-    class ERP,ExpenseAPI,SharePoint,CDW,MockERP,MockExpense external
-    class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent integration
-    class ExpenseTable,FinCase,FinVar native
-    class Agent1,Agent2,RAG,NASK,FlowAction,MCP,GGraph,NLQuery,Lens,DocIntel ai
+    class ExpenseTable,FinCase platform
+    class Agent1,Agent2,RAG nowassist
+    class FlowAction platform
+    class Lens,DocIntel nowassist
     class Employee,EC user
 ```
 

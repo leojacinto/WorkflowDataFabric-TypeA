@@ -72,18 +72,16 @@ graph LR
 
     %% Styling
     classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef integration fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    classDef zeroCopy fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
-    classDef native fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    classDef ai fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
     classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
+    classDef nowassist fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
+    classDef platform fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    classDef wdf fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
 
-    class ERP,ExpenseAPI,SharePoint,CDW,MockERP,MockExpense,MockCDW external
-    class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent integration
-    class ZCCC,ZCCH,ZCCO,ZCExp zeroCopy
-    class ExpenseTable,FinCase,FinVar native
-    class Agent1,Agent2,Agent3,RAG,NASK,FlowAction,MCPS,MCPC,Lens,DocIntel ai
-    class Employee,EC,ClaudeDesktop user
+    class CDW external
+    class FinCase,FinVar platform
+    class Agent1 nowassist
+    class MCPS,MCPC wdf
+    class Employee,ClaudeDesktop user
 
 ```
 

@@ -45,14 +45,13 @@ graph LR
 
     %% Styling
     classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef integration fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    classDef native fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    classDef ai fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
     classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
+    classDef platform fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    classDef wdf fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
 
     class SharePoint external
-    class ExtContent integration
-    class FinCase native
+    class ExtContent wdf
+    class FinCase platform
     class Employee,EC user
 ```
 
