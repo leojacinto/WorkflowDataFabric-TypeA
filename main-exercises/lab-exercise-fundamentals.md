@@ -34,12 +34,12 @@ graph LR
 
     %% Styling
     classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef integration fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    classDef native fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    classDef platform fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    classDef wdf fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
 
-    class IntHub integration
-    class ExpenseTable native
-    class MockExpense external
+    class IntHub wdf
+    class ExpenseTable platform
+    class ExpenseAPI external
 ```
 
 ## Lab story

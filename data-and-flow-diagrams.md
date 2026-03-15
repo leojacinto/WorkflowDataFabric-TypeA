@@ -25,18 +25,8 @@ graph LR
 
     %% Styling
     classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef integration fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    classDef zeroCopy fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
-    classDef native fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    classDef ai fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
-    classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
 
     class ERP,ExpenseAPI,SharePoint,CDW external
-    class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent integration
-    class ZCCC,ZCCH,ZCExp zeroCopy
-    class ExpenseTable,FinCase,FinVar native
-    class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
-    class Employee,EC,ClaudeDesktop user
 ```
 
 * **ERP**: This lab will use an SAP system with either BAPI/RFC or OData endpoints. The authentication and integration is already configured in this exercise and the objective is get the needed data by selecting the ERP data model and extraction table. If you wish to learn more on how to create the configuration in your own environment, check this [Zero Copy Connector for ERP guide by Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800). You can also take this ServiceNow University course on [Introduction to Zero Copy Connector for ERP Data Products and Process Extensions](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-zero-copy-connector-for-erp-data-products-and?id=learning_course_prev\&course_id=72e3387d937bea54fb94b4886cba1095).
@@ -59,18 +49,8 @@ graph LR
     end
 
     %% Styling
-    classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef integration fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    classDef zeroCopy fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
-    classDef native fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    classDef ai fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
     classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
 
-    class ERP,ExpenseAPI,SharePoint,CDW external
-    class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent integration
-    class ZCCC,ZCCH,ZCExp zeroCopy
-    class ExpenseTable,FinCase,FinVar native
-    class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
     class Employee,EC,ClaudeDesktop user
 ```
 
@@ -119,19 +99,19 @@ graph LR
 
     %% Styling
     classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef integration fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    classDef zeroCopy fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
-    classDef native fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    classDef ai fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
     classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
-
-    class ERP,ExpenseAPI,SharePoint,CDW external
-    class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent integration
-    class ZCCC,ZCCH,ZCCS,ZCExp zeroCopy
+    classDef nowassist fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
+    classDef platform fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    classDef wdf fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
     classDef hidden fill:none,stroke:none,color:transparent,font-size:0
-    class ExpenseTable,FinCase,FinVar native
-    class Agent1,Agent2,RAG,NASK,FlowAction,MCP,MCPC,GGraph,NLQuery,Lens,DocIntel ai
-    class Employee,EC,ControlTower,ClaudeDesktop user
+
+    class ZeroCopySQL,ZeroCopyERP,IntHub,ExtContent wdf
+    class ZCCC,ZCCH,ZCCS,ZCExp wdf
+    class ExpenseTable,FinCase platform
+    class FlowAction platform
+    class Agent1,Agent2,RAG nowassist
+    class MCP,MCPC wdf
+    class Lens,DocIntel nowassist
 ```
 
 #### Data Integration Layer and Zero Copy Tables
@@ -235,18 +215,18 @@ graph TB
 
     %% Styling
     classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef integration fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    classDef zeroCopy fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
-    classDef native fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    classDef ai fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
     classDef user fill:#42A5F5,stroke:#1565C0,stroke-width:3px,color:#fff
+    classDef nowassist fill:#FFB300,stroke:#F57F17,stroke-width:2px,color:#1a1a1a
+    classDef platform fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    classDef wdf fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
 
     class ERP,CDW,DOC,API external
-    class ZCC,INTHUB,XCC,MCP_S integration
-    class ZCT zeroCopy
-    class NT native
-    class AGENTS,FLOWS,RAG ai
-    class LENS,DOCINT ai
+    class ZCC,INTHUB,XCC,MCP_S wdf
+    class ZCT wdf
+    class NT platform
+    class AGENTS,RAG nowassist
+    class FLOWS platform
+    class LENS,DOCINT nowassist
     class WC,EC,MCP_C user
 ```
 
