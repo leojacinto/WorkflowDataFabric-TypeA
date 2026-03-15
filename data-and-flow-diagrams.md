@@ -59,7 +59,7 @@ graph LR
 The next diagram shows the various ServiceNow components that interact with the external systems while working in the back-end to provide the data and automation needed by users.
 
 ```mermaid
-graph LR
+graph TB
     subgraph "ServiceNow AI Platform"
         spacer[ ]:::hidden
         subgraph "Data Integration Layer"
@@ -201,6 +201,7 @@ graph TB
         CDW["Cloud Data Warehouse"]
         DOC["Document Storage"]
         API["Expense Event API"]
+        EXT_MCP["External MCP"]
     end
 
     USER --> AI
@@ -214,6 +215,7 @@ graph TB
     INTHUB --> API
     AI --> XCC
     XCC --> DOC
+    MCP_S --> EXT_MCP
 
     %% Styling
     classDef external fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
@@ -222,7 +224,7 @@ graph TB
     classDef platform fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
     classDef wdf fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
 
-    class ERP,CDW,DOC,API external
+    class ERP,CDW,DOC,API,EXT_MCP external
     class ZCC,INTHUB,XCC,MCP_S wdf
     class ZCT wdf
     class NT platform
