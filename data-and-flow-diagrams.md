@@ -59,7 +59,7 @@ graph LR
 The next diagram shows the various ServiceNow components that interact with the external systems while working in the back-end to provide the data and automation needed by users.
 
 ```mermaid
-graph TB
+graph 
     subgraph "ServiceNow AI Platform"
         spacer[ ]:::hidden
         subgraph "Data Integration Layer"
@@ -67,6 +67,7 @@ graph TB
             ZeroCopyERP[Zero Copy ERP<br/>Connection]
             IntHub[Integration Hub<br/>Spoke/Flow]
             ExtContent[External Content<br/>Connector]
+            MCP[MCP]
         end
 
         subgraph "Zero Copy Tables - Read Only"
@@ -87,8 +88,7 @@ graph TB
             Agent2[Agent: Proactive<br/>Budget Alert<br/>Integration Hub Source]
             RAG[RAG - Retrieval<br/>Augmented Generation]
             FlowAction[Flow and Action]
-            MCP[MCP Server]
-            MCPC[MCP Client]
+
         end
 
         subgraph "AI Experiences"
