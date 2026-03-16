@@ -305,7 +305,7 @@ This action will populate the expense events coming from the external API endpoi
 
 In the same window of Flow Designer > Subflows > Get Expense Event. Click Test > Run Test. Wait for completion. Click execution details link. Verify all steps show Completed or Evaluated - True.
 
-1.  In a **current browser window**, click Workflow Studio to go back to the applciation hime. to All > <mark style="color:green;">**a.)**</mark> type **Flow Designer** and go to <mark style="color:green;">**b.)**</mark> **Process Automation** > **Flow Designer**. This will open the app in a new tab.
+1.  In a **current browser window**, click Workflow Studio to go back to the application home, then to All > <mark style="color:green;">**a.)**</mark> type **Flow Designer** and go to <mark style="color:green;">**b.)**</mark> **Process Automation** > **Flow Designer**. This will open the app in a new tab.
 
     <figure><img src="../.gitbook/assets/sc_ihub_home.png" alt=""><figcaption></figcaption></figure>
 2. In the new **Flow Designer** tab that just opened, <mark style="color:green;">**a.)**</mark> click **Subflows** > <mark style="color:green;">**b.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type Get Expense Event then <mark style="color:green;">**d.)**</mark> click **Apply**.

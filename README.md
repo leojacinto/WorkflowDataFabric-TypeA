@@ -33,7 +33,7 @@ By completing this lab, you'll build an interconnected financial intelligence pl
 * **Integration Hub** for real-time expense event processing
 * **Zero Copy integration** with ERP and cloud warehouses (no data duplication)
 * **MCP Server** enabling integration with any application that supports the protocol
-* **AI agents** that autonomously searches via [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation), analyze trends, and create contextual cases
+* **AI agents** that autonomously search via [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation), analyze trends, and create contextual cases
 * **Lens and Document Intelligence** for invoice data capture individually or batch, respectively
 * <mark style="color:$warning;">**\[Controlled Lab]**</mark>**&#x20;External Content Connector** bringing executive memos into making decisions
 * **Finance Case Management** which receives the cases pre-processed by the AI Agents based on data taken from WDF
@@ -52,7 +52,7 @@ This is designed to be a full day workshop covering most of WDF's capabilities. 
 
 ## For Solution Consultants using internal Demo Hub
 
-<mark style="color:$warning;">**\[Internal Only]**</mark> There are steps in this lab which look different compared to the internal Demo Hub instances accessible only to ServiceNow Solution Consultants. A summary of these differences are can be accessed in [Demo Hub Considerations](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/demo-hub-for-scs/demo-hub-considerations).&#x20;
+<mark style="color:$warning;">**\[Internal Only]**</mark> There are steps in this lab which look different compared to the internal Demo Hub instances accessible only to ServiceNow Solution Consultants. A summary of these differences can be accessed in [Demo Hub Considerations](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/demo-hub-for-scs/demo-hub-considerations).&#x20;
 
 ## Post-lab recommended materials
 
@@ -62,7 +62,7 @@ Below is a list of recommended courses that you can read up on after the lab to 
 
 ## A note from the author and some disclaimers
 
-This lab involves integrating ServiceNow with external systems (e.g., databases, APIs, cloud services). Some steps require pre-configured environments and connectivity that may not be available in a standard PDI; this best run as a guided workshop.
+This lab involves integrating ServiceNow with external systems (e.g., databases, APIs, cloud services). Some steps require pre-configured environments and connectivity that may not be available in a standard PDI; this is best run as a guided workshop.
 
 ### ServiceNow dependencies
 

@@ -77,7 +77,7 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 
 <figure><img src="../.gitbook/assets/sc_xcc_crawl_content.png" alt=""><figcaption></figcaption></figure>
 
-4. Click on <mark style="color:$success;">**a.)**</mark> **Full document crawl** > <mark style="color:$success;">**b.)**</mark>**&#x20;Create one-time crawl**.
+4. Click on <mark style="color:green;">**a.)**</mark> **Full document crawl** > <mark style="color:green;">**b.)**</mark>**&#x20;Create one-time crawl**.
 
 <figure><img src="../.gitbook/assets/sc_xcc_one-time_crawl.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -93,7 +93,7 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 
 <figure><img src="../.gitbook/assets/sc_xcc_crawl_finished.png" alt="" width="563"><figcaption></figcaption></figure>
 
-8. Click on <mark style="color:$success;">**a.)**</mark> **User profile** on top right corner (e.g., SA) > <mark style="color:$success;">**b.)**</mark>**&#x20;Impersonate user**.
+8. Click on <mark style="color:green;">**a.)**</mark> **User profile** on top right corner (e.g., SA) > <mark style="color:green;">**b.)**</mark>**&#x20;Impersonate user**.
 
 <figure><img src="../.gitbook/assets/sc_xcc_impersonate.png" alt=""><figcaption></figcaption></figure>
 

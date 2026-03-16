@@ -137,7 +137,7 @@ This exercise does not cover the creation of the MCP Service from Neon as that r
 
 <figure><img src="../.gitbook/assets/sc_zcc_forecast_variance_agent.png" alt=""><figcaption></figcaption></figure>
 
-4.  Click on <mark style="color:$success;">**a.)**</mark> **more (vertical three dots)** > <mark style="color:$success;">**b.) Duplicate**</mark>
+4.  Click on <mark style="color:green;">**a.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**b.)**</mark> **Duplicate**
 
     <figure><img src="../.gitbook/assets/sc_mcp_duplicate_agent_menu.png" alt=""><figcaption></figcaption></figure>
 5.  You will get a prompt to confirm whether you want to duplicate the agent. Click **Duplicate**.

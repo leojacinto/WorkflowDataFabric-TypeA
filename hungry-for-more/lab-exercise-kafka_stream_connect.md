@@ -23,7 +23,7 @@ This capability empowers organizations to:
 
 ## Story so far and persona context
 
-You have already created an [Action](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub#action-configuration), a [Flow](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/2_integration_hub#runtime-of-flow-actions-and-ai-agents), [Zero Copy Integrations](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy), and [AI Agents](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/3_zero_copy#custom-forecast-variance-ai-agent-in-action) for your [Finance team's proactive budget handling](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom). The organization now wants you to get asset data from the various cost centers running in the organization and register them to your CMDB.
+You have already created an [Action](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#walkthrough-action), a [Flow](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#hands-on-flow-execution), [Zero Copy Integrations](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-zero-copy-connectors), and [AI Agents](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-zero-copy-connectors#walkthrough-custom-forecast-variance-ai-agent) for your [Finance team's proactive budget handling](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom). The organization now wants you to get asset data from the various cost centers running in the organization and register them to your CMDB.
 
 In this lab, you’ll step into the role of an Integration Architect or Integration Developer responsible for designing high-performance, event-driven integrations. Your task: configure Stream Connect for Apache Kafka in ServiceNow to ingest CMDB data from Kafka producers, bridging your organization’s ServiceNow environment with its broader data ecosystem.
 
@@ -357,7 +357,7 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 <figure><img src="../.gitbook/assets/sc_producer_generate_certificate.png" alt=""><figcaption></figcaption></figure>
 
-8. After a few seconds, the certificates are ready to download. Click on **Download Keystore** and **Download Trustore** to obtain the respective files
+8. After a few seconds, the certificates are ready to download. Click on **Download Keystore** and **Download Truststore** to obtain the respective files
 
 <figure><img src="../.gitbook/assets/sc_producer_download_certificate.png" alt="" width="492"><figcaption></figcaption></figure>
 

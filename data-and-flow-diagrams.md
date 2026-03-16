@@ -30,7 +30,7 @@ graph LR
 ```
 
 * **ERP**: This lab will use an SAP system with either BAPI/RFC or OData endpoints. The authentication and integration is already configured in this exercise and the objective is get the needed data by selecting the ERP data model and extraction table. If you wish to learn more on how to create the configuration in your own environment, check this [Zero Copy Connector for ERP guide by Leo Francia in the ServiceNow community](https://www.servicenow.com/community/app-engine-for-erp-blogs/part-1-of-4-intelligent-erp-workflows-get-sap-data-into/ba-p/3192800). You can also take this ServiceNow University course on [Introduction to Zero Copy Connector for ERP Data Products and Process Extensions](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-zero-copy-connector-for-erp-data-products-and?id=learning_course_prev\&course_id=72e3387d937bea54fb94b4886cba1095).
-* **Cloud Data Warehouse**: Snowflake will be the cloud data warehouse used in this lab. If you have a Databricks or Redshift environment, the principles and steps here will also apply. The Snowflake key-pair authentication and integration is already configured in this execrcise and the objective is get the needed data asset by selecting it from Workflow Data Fabric Hub. If you wish to learn more on how to create the configuration in your own environment, check this ServiceNow University course on [Zero Copy Connector Basics](https://learning.servicenow.com/lxp/en/automation-engine/zero-copy-connector-basics?id=learning_course_prev\&course_id=c505959493283e903cc0322d6cba1025).
+* **Cloud Data Warehouse**: Snowflake will be the cloud data warehouse used in this lab. If you have a Databricks or Redshift environment, the principles and steps here will also apply. The Snowflake key-pair authentication and integration is already configured in this exercise and the objective is get the needed data asset by selecting it from Workflow Data Fabric Hub. If you wish to learn more on how to create the configuration in your own environment, check this ServiceNow University course on [Zero Copy Connector Basics](https://learning.servicenow.com/lxp/en/automation-engine/zero-copy-connector-basics?id=learning_course_prev\&course_id=c505959493283e903cc0322d6cba1025).
 * **Document Storage**: SharePoint will be used as the document storage which will be the target of External Content Connectors or XCC. Unstructured data will be stored in SharePoint which will be indexed by ServiceNow as additional source of data for Flows and AI Agents in this lab exercise. If you wish to learn more on how to create the configuration in your own environment, check this ServiceNow University course on [Introduction to AI Search and External Content Connectors](https://learning.servicenow.com/lxp/en/now-platform/introduction-to-ai-search-and-external-content-connectors?id=learning_course_prev\&course_id=62283c7c93d46e50f2d9bc686cba107b).
 * **Expense Event API**: This component can be created as a mock endpoint using services such as [beeceptor.com](https://beeceptor.com/). The specification for the API will be provided in this lab so you can simulate it in your own environment.
 
@@ -110,7 +110,7 @@ graph
     class ExpenseTable,FinCase platform
     class FlowAction platform
     class Agent1,Agent2,RAG nowassist
-    class MCP,MCPC wdf
+    class MCP wdf
     class Lens,DocIntel nowassist
 ```
 
@@ -131,8 +131,8 @@ These are pointers to the respective tables coming from either the Cloud Data Wa
 
 * **Cost Center Master Data:** taken from the ERP system, known as CSKS from SAP, which can be obtained via BAPI, RFC Table Read, or OData endpoints. Master data does not change frequently in ERP systems so either persistence or zero copy approaches are viable for ServiceNow use cases.
 * **Cost Center Summary**: aggregated Cost Center History data for the year stored in the Cloud Data Warehouse for reporting purposes.
-* **Cost Center History**: monthly data taken from the Cloud Data Warehouse with information whether cost centers have historically gone over/under budget or on target. ERP systems normally do not store this type of history or aggregation and is hence stored in a business or data warehouse. **Note** that the purpose of this exercise, this has been created as a local ServiceNow table but is usually stored in a Cloud Data Warehouse or ERP system in customer environments.
-* **Expense History**: this can come from an expense management system, ERP system, or Cloud Data Warehouse. For this lab, we are obtaining this from the Cloud Data Warehouse. **Note** that the purpose of this exercise, this has been created as a local ServiceNow table but is usually stored in a Cloud Data Warehouse or ERP system in customer environments.
+* **Cost Center History**: monthly data taken from the Cloud Data Warehouse with information whether cost centers have historically gone over/under budget or on target. ERP systems normally do not store this type of history or aggregation and is hence stored in a business or data warehouse. **Note** that for the purpose of this exercise, this has been created as a local ServiceNow table but is usually stored in a Cloud Data Warehouse or ERP system in customer environments.
+* **Expense History**: this can come from an expense management system, ERP system, or Cloud Data Warehouse. For this lab, we are obtaining this from the Cloud Data Warehouse. **Note** that for the purpose of this exercise, this has been created as a local ServiceNow table but is usually stored in a Cloud Data Warehouse or ERP system in customer environments.
 
 #### ServiceNow Native Tables
 
@@ -158,7 +158,7 @@ While not part of Workflow Data Fabric, these provide additional data sources fo
 
 ## Overall data flow
 
-The diagram below will be further decomposed in the next sections to give you mode detail on the inner workings within ServiceNow while, as mentioned earlier, the end user interacts with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
+The diagram below will be further decomposed in the next sections to give you more detail on the inner workings within ServiceNow while, as mentioned earlier, the end user interacts with **Employee Center**, an **MCP Client** (e.g., Claude Code or Desktop), or in slightly more technical scenarios **AI Control Tower**.
 
 You can skip the review of the diagram below if you prefer, and head straight into the lab exercises, each of which having its individual (and much more detailed) data flow.
 

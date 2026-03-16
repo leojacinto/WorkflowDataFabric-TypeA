@@ -148,13 +148,13 @@ Navigate to Now Assist Admin Skills. Activate the Extract information from docum
 
 <figure><img src="../.gitbook/assets/sc_ldi_save_and_continue.png" alt=""><figcaption></figcaption></figure>
 
-5.  Click **Activate**. <mark style="color:$warning;">**Note:**</mark> If the skill is already activated, just click **Done**.
+7.  Click **Activate**. <mark style="color:$warning;">**Note:**</mark> If the skill is already activated, just click **Done**.
 
     <figure><img src="../.gitbook/assets/sc_ldi_activate.png" alt=""><figcaption></figcaption></figure>
-6.  Click **Return to Platform**. <mark style="color:$warning;">**Note:**</mark> If the skill is already activated, this modal pop-up will not appear.
+8.  Click **Return to Platform**. <mark style="color:$warning;">**Note:**</mark> If the skill is already activated, this modal pop-up will not appear.
 
     <figure><img src="../.gitbook/assets/sc_ldi_return_to_platform.png" alt="" width="563"><figcaption></figcaption></figure>
-7.  You will be redirected to the Skills screen and this concludes the walkthrough of the Skills needed for document extraction.
+9.  You will be redirected to the Skills screen and this concludes the walkthrough of the Skills needed for document extraction.
 
     <figure><img src="../.gitbook/assets/sc_ldi_skills_screen.png" alt=""><figcaption></figcaption></figure>
 
@@ -187,7 +187,7 @@ Create a variance task record. Upload the Invoice\_IT\_Laptop\_CC\_IT\_002.pdf d
 
 <figure><img src="../.gitbook/assets/sc_ldi_upload_document.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:green;">**a.)**</mark> Put **CC\_IT\_002** as the short description. You can make it as descriptive as you like, the intent is to idenfify this as a document upload for this cost center.
+<mark style="color:green;">**a.)**</mark> Put **CC\_IT\_002** as the short description. You can make it as descriptive as you like, the intent is to identify this as a document upload for this cost center.
 
 <mark style="color:green;">**b.)**</mark> Click the **Attach (**[**paper clip**](https://cepr.org/voxeu/columns/ai-and-paperclip-problem)**)** button.
 
@@ -270,7 +270,7 @@ Navigate to Now Assist Admin Skills. Review the extracted document information i
 
 <figure><img src="../.gitbook/assets/sc_ldi_test_outputs.png" alt=""><figcaption></figcaption></figure>
 
-12. You can do several things here. Notice the <mark style="color:green;">**a.)**</mark> **Invoice** you uploaded with the <mark style="color:green;">**b.)**</mark>**&#x20;information** now extracted. You can also see the <mark style="color:green;">**c.)**</mark>**&#x20;Status**. You also have the option to open the section into a new **Document Intelligence** window.
+5. You can do several things here. Notice the <mark style="color:green;">**a.)**</mark> **Invoice** you uploaded with the <mark style="color:green;">**b.)**</mark>**&#x20;information** now extracted. You can also see the <mark style="color:green;">**c.)**</mark>**&#x20;Status**. You also have the option to open the section into a new **Document Intelligence** window.
 
     <figure><img src="../.gitbook/assets/sc_ldi_extracted_info_view.png" alt=""><figcaption></figcaption></figure>
 

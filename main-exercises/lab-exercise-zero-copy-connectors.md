@@ -128,7 +128,7 @@ Complete Integration Hub platform configuration if not done. Assign `sn_erp_inte
 5.  In the **Roles** tab, click **Edit**.
 
     <figure><img src="../.gitbook/assets/sc_common_roles_tab_edit.png" alt=""><figcaption></figcaption></figure>
-6.  Search for <mark style="color:green;">**a.)**</mark> **sn\_erp\_integration.erp\_admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_erp\_integration.erp\_admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**.
+6.  Search for <mark style="color:green;">**a.)**</mark> **sn\_erp\_integration.erp\_admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_erp\_integration.erp\_admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**d.)**</mark> click **Save**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_roles_erp_admin_save.png" alt=""><figcaption></figcaption></figure>
 7.  You will get <mark style="color:green;">**a.)**</mark> messages such as **Adding Role decision\_table\_reader to admin**, there will be 4 of such messages > <mark style="color:green;">**b.)**</mark> right-click on the top panel and click **Save**.
@@ -164,7 +164,7 @@ Clone the OOTB DP: Cost Center model. Label it SAP Cost Center. Assign ERP syste
 3.  Note the <mark style="color:green;">**a.)**</mark> popup that indicates that you are opening an **ERP Data Product** which is delivered as OOTB templates that customers can use to ramp-up creation of ERP models, which means it cannot be edited. Click <mark style="color:green;">**b.)**</mark> **Clone** to create a copy of this model.
 
     <figure><img src="../.gitbook/assets/sc_zcc_clone_popup.png" alt=""><figcaption></figcaption></figure>
-4.  Provide the label for the cloned model as <mark style="color:green;">**a.)**</mark> **SAP Cost Center Lab** and take not of the Target application which should be <mark style="color:green;">**b.)**</mark> **Forecast Variance**. Click <mark style="color:green;">**c.)**</mark> Clone this model once done.
+4.  Provide the label for the cloned model as <mark style="color:green;">**a.)**</mark> **SAP Cost Center Lab** and take note of the Target application which should be <mark style="color:green;">**b.)**</mark> **Forecast Variance**. Click <mark style="color:green;">**c.)**</mark> Clone this model once done.
 
     <figure><img src="../.gitbook/assets/sc_zcc_clone_model_details.png" alt="" width="450"><figcaption></figcaption></figure>
 5.  After cloning the model you will be directed to its configuration screen. Assign the <mark style="color:green;">**a.)**</mark> ERP system name as S4D then <mark style="color:green;">**b.)**</mark> click Save. This will set up your model to use an ERP system that the ServiceNow instance is integrated to via Connections & Credentials. Then, <mark style="color:green;">**c.)**</mark> click **Manage model**.
@@ -205,7 +205,7 @@ Filter and review SAP Cost Center extraction table. Navigate to the target table
 
 <figure><img src="../.gitbook/assets/sc_zcc_cc_target_table_list.png" alt=""><figcaption></figcaption></figure>
 
-5. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for ERP.
+5. Congratulations! You have set-up the integration to a Cloud Data Warehouse using Zero Copy Connector for ERP.
 
 ### Additional Reading: Direct online read for ZCC for ERP
 
@@ -239,7 +239,7 @@ Navigate to Workflow Data Fabric Hub. Review the established Snowflake connectio
 
 Create a data fabric table from the Snowflake data asset. Set Cost Center as a Reference field to the ERP extraction table. Set GL Account as primary key.
 
-2.  Go to <mark style="color:green;">**a.)**</mark> Data assets > <mark style="color:green;">**b.)**</mark> beside **u\_lab\_cc\_summary** click **Create data fabric table**. This screen shots the data assets available for the **Database** and **Warehouse** you configured in the previous screen. In this example, only two tables exist in the database **WDF\_DEMOHUB**.
+2.  Go to <mark style="color:green;">**a.)**</mark> Data assets > <mark style="color:green;">**b.)**</mark> beside **u\_lab\_cc\_summary** click **Create data fabric table**. This screen shows the data assets available for the **Database** and **Warehouse** you configured in the previous screen. In this example, only two tables exist in the database **WDF\_DEMOHUB**.
 
     <figure><img src="../.gitbook/assets/sc_zcc_data_assets_create.png" alt="" width="563"><figcaption></figcaption></figure>
 3.  Provide the information needed for <mark style="color:green;">**a.)**</mark> the **Label** e.g. **cc\_summ\_\<your initials>** and the <mark style="color:green;">**b.)**</mark> **Name** which will automatically provided. <mark style="color:red;">**Note:**</mark> keep the name length not more than 35 characters such as what is listed below, e.g. **x\_snc\_forecast\_v\_0\_df\_cc\_summ\_lfr**. Click <mark style="color:green;">**c.)**</mark> **Continue** once done. This will create the data fabric table (hence the df prefix) which will contain only the field and mapping information to the Snowflake table, it will not store the data from Snowflake into ServiceNow. While the intent of setting this up is mainly to show Zero Copy capability, this has multiple advantages such as ensuring cost center summary data from source is up to date as well as avoiding offline copies of the same information (e.g. via managed file transfer) which can result into data breaches.
@@ -283,13 +283,13 @@ View the data assets created and open the data fabric table contents.
 
 <figure><img src="../.gitbook/assets/sc_zcc_df_table_result.png" alt=""><figcaption></figcaption></figure>
 
-3. Congratulations! You have set-up the integration a Cloud Data Warehouse using Zero Copy Connector for SQL.
+3. Congratulations! You have set-up the integration to a Cloud Data Warehouse using Zero Copy Connector for SQL.
 
 ## AI Agent and Finance Operations Workspace
 
 ### Walkthrough: Custom Forecast Variance AI Agent
 
-This is a walk through of how the an AI Agent equipped with both deterministic and probabilistic can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
+This is a walk through of how an AI Agent equipped with both deterministic and probabilistic capabilities can automate research and validation of cost center history and expenses as well as creation of Finance Cases should cost centers be above their budget allocations. <mark style="color:red;">**Note:**</mark> this is a custom AI agent pre-configured in the lab instance provided in ServiceNow-led lab sessions; this is not a pre-built agent.
 
 1. Go to All > type **x\_snc\_forecast\_v\_0\_expense\_transaction\_event.list** and hit **Return/Enter ↵**.
 
@@ -364,7 +364,7 @@ Navigate to Finance Operations Workspace. Find the case created by the agent.
 
 <figure><img src="../.gitbook/assets/sc_common_fow_system_user.png" alt=""><figcaption></figcaption></figure>
 
-3. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > c<mark style="color:green;">**.)**</mark> sort by **Number** descending/ascending > c<mark style="color:green;">**.)**</mark> or look for the Finance case created by the AI Agent, FINC0010003 in the example above.
+3. Go to <mark style="color:green;">**a.)**</mark> **list (list icon)** > <mark style="color:green;">**b.)**</mark> **Lists** > <mark style="color:green;">**c.)**</mark> sort by **Number** descending/ascending > <mark style="color:green;">**d.)**</mark> or look for the Finance case created by the AI Agent, FINC0010003 in the example above.
 
 <figure><img src="../.gitbook/assets/sc_zcc_finance_case_list.png" alt=""><figcaption></figcaption></figure>
 
