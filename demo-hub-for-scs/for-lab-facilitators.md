@@ -12,6 +12,11 @@ This contains considerations for Lab Facilitators.
 2. Familiarize yourself with the presentation guide and modify it as you see fit.
 3. Update the Lab URL, QR Codes, and Reservation codes accordingly; use services such as [bitly.com](https://bitly.com) to do this. It is encouraged to shorten URLs and use QR codes to make the experience as seamless for participants as possible.
 
+## Credentials
+
+1. Credentials for integrated systems are not shown in this lab guide.
+2. Access the credential sheet here, ServiceNow login required: [Credentials for WDF Lab](https://servicenow.sharepoint.com/:x:/s/iaapj/IQA9-mRIzGQYSaI0ab6a--VYAQv5ZKgUGg0RVyiTdEDezq4?e=Og5Zy3).
+
 ## Integration Hub Action Endpoint
 
 1. In [Lab Exercise: Integration Hub > Hands-on: Connection Set-up > Step 4](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#hands-on-connection-setup), feel free to use other services aside from the current free tier of [beeceptor.com](https://beeceptor.com), especially if you are managing a high number of attendees (e.g. more than 10) as the free endpoint may hit access limits during your lab.
@@ -76,10 +81,10 @@ A successful response will contain `"serverInfo":{"name":"mcp-server-neon"}`. If
 
 Provide the following to your lab participants. These are entered during [Lab Exercise: Model Context Protocol > Configure MCP Client > Step 3](../extended-exercises/lab-exercise-model-context-protocol-server-client.md#hands-on-configure-mcp-client):
 
-| Field | Value |
-| --- | --- |
-| **MCP Server URL** | `https://mcp.neon.tech/mcp` |
-| **API Key** | `Bearer <YOUR_NEON_API_KEY>` |
+| Field              | Value                        |
+| ------------------ | ---------------------------- |
+| **MCP Server URL** | `https://mcp.neon.tech/mcp`  |
+| **API Key**        | `Bearer <YOUR_NEON_API_KEY>` |
 
 > **Important:** The API Key field in ServiceNow must include the word **Bearer** as a prefix. For example: `Bearer napi_abc123...`. Without this prefix, the connection will fail with a 401 error.
 
@@ -94,7 +99,7 @@ sql: SELECT cost_center, actual_amount_usd, baseline_amount_usd, variance, varia
 
 ### Summary of Assets
 
-| File | Purpose |
-| --- | --- |
-| [neon\_setup.sql](neon_setup.sql) | Complete SQL script — creates the table and inserts all 24 rows. Copy-paste into Neon SQL Editor. |
-| [VARIANCE\_BASELINE\_V.csv](VARIANCE_BASELINE_V.csv) | Raw seed data in CSV format for reference or manual inspection. |
+| File                                                 | Purpose                                                                                           |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [neon\_setup.sql](neon_setup.sql)                    | Complete SQL script — creates the table and inserts all 24 rows. Copy-paste into Neon SQL Editor. |
+| [VARIANCE\_BASELINE\_V.csv](VARIANCE_BASELINE_V.csv) | Raw seed data in CSV format for reference or manual inspection.                                   |
