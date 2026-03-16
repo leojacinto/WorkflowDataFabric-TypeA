@@ -16,7 +16,7 @@ There are dedicated Integration Hub and Flow Designer labs; hence, the focus of 
 
 **Preparation**
 
-<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#preparation-platform-configuration">2</a></td><td>Student</td><td><strong>Platform Configuration:</strong> Set up scope, authorization (<code>sn_aia.admin</code> role), and Now Assist configurations including Assistant Designer and Now Assist Admin panel settings.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#preparation-initial-checks">3</a></td><td>Student</td><td><strong>Initial Check:</strong> Verify Now Assist panel is accessible. Navigate to the Expense Transaction Event table and verify it's empty. Delete entry/entries if there are any. </td></tr><tr><td><a href="lab-exercise-integration-hub.md#hands-on-connection-setup">4</a></td><td>Student</td><td><strong>Connection Setup:</strong> Navigate to Connection &#x26; Credential Aliases. Open the pre-configured "Get Expense Event" alias. Create a new Connection pointing to the REST API endpoint.</td></tr></tbody></table>
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-integration-hub.md#preparation-platform-configuration">2</a></td><td>Student</td><td><strong>Platform Configuration:</strong> Set up scope, authorization (<code>sn_aia.admin</code> role), and Now Assist configurations including Assistant Designer and Now Assist Admin panel settings.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#preparation-initial-checks">3</a></td><td>Student</td><td><strong>Initial Check:</strong> Verify Now Assist panel is accessible. Navigate to the Expense Transaction Event table and verify it's empty. Delete entry/entries if there are any.</td></tr><tr><td><a href="lab-exercise-integration-hub.md#hands-on-connection-setup">4</a></td><td>Student</td><td><strong>Connection Setup:</strong> Navigate to Connection &#x26; Credential Aliases. Open the pre-configured "Get Expense Event" alias. Create a new Connection pointing to the REST API endpoint.</td></tr></tbody></table>
 
 **AI Agent Configuration**
 
@@ -164,7 +164,7 @@ These are required preparation steps in platform level. These are cross configur
 
 ### Preparation: Initial Checks
 
-Verify Now Assist panel is accessible. Navigate to the Expense Transaction Event table and verify it's empty. Delete entry/entries if there are any.&#x20;
+Verify Now Assist panel is accessible. Navigate to the Expense Transaction Event table and verify it's empty. Delete entry/entries if there are any.
 
 1.  If you have set up the Now Assist Panel correctly, you should see the Now Assist icon on the top right.
 
@@ -280,7 +280,7 @@ Delete any existing trigger. Create new trigger: Table = Expense Transaction Eve
 
 The scoped **Action** is a key feature for the trigger that obtains expense data via REST API. If you wish to learn more on how Flows and AI Agents can get more granular and higher throughput of data through streaming, have a look at the bonus exercise on [Stream Connect for Apache Kafka](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/lab-exercise-kafka_stream_connect).
 
-For this section: Open Flow Designer > Action > Get Expense Event to get an idea how Actions are configured and to understand their dependencies with [Connections](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#hands-on-connection-setup).&#x20;
+For this section: Open Flow Designer > Action > Get Expense Event to get an idea how Actions are configured and to understand their dependencies with [Connections](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#hands-on-connection-setup).
 
 This action will populate the expense events coming from the external API endpoint we just configured.
 
@@ -305,7 +305,7 @@ This action will populate the expense events coming from the external API endpoi
 
 In the same window of Flow Designer > Subflows > Get Expense Event. Click Test > Run Test. Wait for completion. Click execution details link. Verify all steps show Completed or Evaluated - True.
 
-1.  In a **current browser window**, click Workflow Studio to go back to the application home, then to All > <mark style="color:green;">**a.)**</mark> type **Flow Designer** and go to <mark style="color:green;">**b.)**</mark> **Process Automation** > **Flow Designer**. This will open the app in a new tab.
+1.  In a **current browser window**, click Workflow Studio to go back to the application home.
 
     <figure><img src="../.gitbook/assets/sc_ihub_home.png" alt=""><figcaption></figcaption></figure>
 2. In the new **Flow Designer** tab that just opened, <mark style="color:green;">**a.)**</mark> click **Subflows** > <mark style="color:green;">**b.)**</mark> **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type Get Expense Event then <mark style="color:green;">**d.)**</mark> click **Apply**.
