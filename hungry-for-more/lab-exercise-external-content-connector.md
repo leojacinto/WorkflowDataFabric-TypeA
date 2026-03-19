@@ -69,14 +69,14 @@ graph LR
     <figure><img src="../.gitbook/assets/sc_common_search_admin_user.png" alt=""><figcaption></figcaption></figure>
 3.  Set the <mark style="color:green;">**a.)**</mark> **Email** to **demouser@wdfdemo.onmicrosoft.com**, <mark style="color:green;">**b.)**</mark> click **Save**. Then <mark style="color:green;">**c.)**</mark> click **Roles** then <mark style="color:green;">**d.)**</mark> click **Edit**.
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-4.  Search for <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** > <mark style="color:green;">**b.)**</mark> click on **ais\_high\_security\_admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**c.)**</mark> click **Save**.&#x20;
+    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+4.  Search for <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** > <mark style="color:green;">**b.)**</mark> click on **ais\_high\_security\_admin** > <mark style="color:green;">**c.)**</mark> click on > to move the role to the right panel > then <mark style="color:green;">**c.)**</mark> click **Save**.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 5.  Right-click on the top panel and click **Save**.
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-6.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in. Click on&#x20;
+    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+6.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in. Click on <mark style="color:green;">**a.)**</mark> your user **System Administrator** > then <mark style="color:green;">**b.)**</mark> click on **Log out**.
 
     <figure><img src="../.gitbook/assets/sc_common_logout.png" alt="" width="254"><figcaption></figcaption></figure>
 
@@ -89,10 +89,10 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 1.  For this step, change the scope to Global by navigating to the <mark style="color:green;">**a.)**</mark> **globe icon** and clicking <mark style="color:green;">**b.)**</mark> **Global** application scope.
 
     <figure><img src="../.gitbook/assets/sc_ldi_scope_global.png" alt="" width="321"><figcaption></figcaption></figure>
-2.  Elevate your role. Click on&#x20;
+2.  Elevate your role. Click on <mark style="color:green;">**a.)**</mark> your user System Administrator > then <mark style="color:green;">**b.)**</mark> click on **Elevate role**.
 
     <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-3.  Choose the role to elevate.
+3.  Select <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** then <mark style="color:green;">**b.)**</mark> click on **Update**.
 
     <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 4. Navigate to All > <mark style="color:green;">**a.)**</mark> type **External Content Connectors** > <mark style="color:green;">**b.)**</mark> click on **External Content Admin Home**.
@@ -105,7 +105,7 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 3.  You will be asked to select a source. Depending on your instance image, you may have multiple options. For this exercise, you only need **SharePoint**. <mark style="color:green;">**a.)**</mark> Select it and <mark style="color:green;">**b.)**</mark> click **Next**.
 
     <figure><img src="../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure>
-4. Input the following details in the next screen. As some of r
+4. Input the following details in the next screen. As some of the credentials here are sensitive, you will need to access them through additional logins via the corresponding links.
 
 <mark style="color:green;">**a.)**</mark> **Connector Name: SharePoint Online \<YOUR INITIALS>**
 
@@ -119,31 +119,33 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 
 <mark style="color:green;">**f.)**</mark> **JKS certificate thumbprint:** [obtain here](https://servicenow.sharepoint.com/:x:/s/iaapj/IQA9-mRIzGQYSaI0ab6a--VYAQv5ZKgUGg0RVyiTdEDezq4?e=1gXVAa), <mark style="color:$warning;">**ServiceNow internal login required**</mark>
 
+<mark style="color:green;">**g.)**</mark> Once everything is configured, you can click **Validate Connection**.
+
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-5. Click Next.
+5. If everything is correctly configured, you will a message indicating <mark style="color:green;">**a.)**</mark> the connection is **Successfully created.** After this, click <mark style="color:green;">**b.)**</mark> **Next**.
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-5. Click Next.
+5. The next screen shows the settings for the crawl, accept the default and click **Next**.
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-6.  Click Next.&#x20;
+6.  Since you are elevated as **ais\_high\_security\_admin**, you will be able to set this up. If you skipped adding the **ais\_high\_security\_admin** role and elevating to it, you will not be able to set this step up; i.e. even accepting defaults is not possible if you do not have elevated roles in this step. You can do a mapping <mark style="color:green;">**a.)**</mark> Test as an optional step. Otherwise, if you have the correct roles and have elevated your access, you can simply <mark style="color:green;">**b.)**</mark> click **Next**.&#x20;
 
     <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-7.  Click Next. <mark style="color:red;">**\[Update to include user permission crawl]**</mark>
+7.  In the next screen, <mark style="color:green;">**a.)**</mark> click **Full document crawl**, <mark style="color:green;">**b.)**</mark> tick **Crawl user permissions**, then finaly <mark style="color:green;">**c.)**</mark> click **Next**. If for whatever reason you miss the setting in crawling permissions, don't worry, it is possible to run it separately.
 
-    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-8.  Proceed.
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+8.  Click **Proceed**.
 
     <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-9.  Save.
+9.  Accept default settings and click **Save**.
 
     <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-10. Completed.
+10. It will take \~1 minute for the **User Mapping** and **Document** crawls to complete.
 
-    <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1).png" alt="" width="534"><figcaption></figcaption></figure>
 11. Click on <mark style="color:green;">**a.)**</mark> **User profile** on top right corner (e.g., SA) > <mark style="color:green;">**b.)**</mark>**&#x20;Impersonate user**.
 
 <figure><img src="../.gitbook/assets/sc_xcc_impersonate.png" alt=""><figcaption></figcaption></figure>
