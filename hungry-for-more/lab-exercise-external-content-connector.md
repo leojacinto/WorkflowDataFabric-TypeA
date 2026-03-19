@@ -69,13 +69,13 @@ graph LR
     <figure><img src="../.gitbook/assets/sc_common_search_admin_user.png" alt=""><figcaption></figcaption></figure>
 3.  Set the <mark style="color:green;">**a.)**</mark> **Email** to **demouser@wdfdemo.onmicrosoft.com**, <mark style="color:green;">**b.)**</mark> click **Save**. Then <mark style="color:green;">**c.)**</mark> click **Roles** then <mark style="color:green;">**d.)**</mark> click **Edit**.
 
-    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
-4.  Search for <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** > <mark style="color:green;">**b.)**</mark> click on **ais\_high\_security\_admin** > <mark style="color:green;">**c.)**</mark> click on > to move the role to the right panel > then <mark style="color:green;">**c.)**</mark> click **Save**.&#x20;
+    <figure><img src="../.gitbook/assets/sc_xcc_prep_email_roles_edit.png" alt=""><figcaption></figcaption></figure>
+4.  Search for <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** > <mark style="color:green;">**b.)**</mark> click on **ais\_high\_security\_admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**d.)**</mark> click **Save**.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_xcc_prep_add_ais_role.png" alt="" width="563"><figcaption></figcaption></figure>
 5.  Right-click on the top panel and click **Save**.
 
-    <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_xcc_prep_save.png" alt=""><figcaption></figcaption></figure>
 6.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in. Click on <mark style="color:green;">**a.)**</mark> your user **System Administrator** > then <mark style="color:green;">**b.)**</mark> click on **Log out**.
 
     <figure><img src="../.gitbook/assets/sc_common_logout.png" alt="" width="254"><figcaption></figcaption></figure>
@@ -91,21 +91,21 @@ This does not include steps in setting up XCC to connect to a SharePoint account
     <figure><img src="../.gitbook/assets/sc_ldi_scope_global.png" alt="" width="321"><figcaption></figcaption></figure>
 2.  Elevate your role. Click on <mark style="color:green;">**a.)**</mark> your user System Administrator > then <mark style="color:green;">**b.)**</mark> click on **Elevate role**.
 
-    <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_xcc_elevate_role_menu.png" alt=""><figcaption></figcaption></figure>
 3.  Select <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** then <mark style="color:green;">**b.)**</mark> click on **Update**.
 
-    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_xcc_elevate_select_ais.png" alt=""><figcaption></figcaption></figure>
 4. Navigate to All > <mark style="color:green;">**a.)**</mark> type **External Content Connectors** > <mark style="color:green;">**b.)**</mark> click on **External Content Admin Home**.
 
 <figure><img src="../.gitbook/assets/sc_xcc_xcc_home.png" alt=""><figcaption></figcaption></figure>
 
-2.  This will lead you the XCC home screen. Click on **Create** to create a new connection.
+5.  This will lead you the XCC home screen. Click on **Create** to create a new connection.
 
-    <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
-3.  You will be asked to select a source. Depending on your instance image, you may have multiple options. For this exercise, you only need **SharePoint**. <mark style="color:green;">**a.)**</mark> Select it and <mark style="color:green;">**b.)**</mark> click **Next**.
+    <figure><img src="../.gitbook/assets/sc_xcc_home_create.png" alt=""><figcaption></figcaption></figure>
+6.  You will be asked to select a source. Depending on your instance image, you may have multiple options. For this exercise, you only need **SharePoint**. <mark style="color:green;">**a.)**</mark> Select it and <mark style="color:green;">**b.)**</mark> click **Next**.
 
-    <figure><img src="../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure>
-4. Input the following details in the next screen. As some of the credentials here are sensitive, you will need to access them through additional logins via the corresponding links.
+    <figure><img src="../.gitbook/assets/sc_xcc_select_source_sharepoint.png" alt="" width="563"><figcaption></figcaption></figure>
+7. Input the following details in the next screen. As some of the credentials here are sensitive, you will need to access them through additional logins via the corresponding links.
 
 <mark style="color:green;">**a.)**</mark> **Connector Name: SharePoint Online \<YOUR INITIALS>**
 
@@ -121,58 +121,58 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 
 <mark style="color:green;">**g.)**</mark> Once everything is configured, you can click **Validate Connection**.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_xcc_connection_config.png" alt=""><figcaption></figcaption></figure>
 
-5. If everything is correctly configured, you will a message indicating <mark style="color:green;">**a.)**</mark> the connection is **Successfully created.** After this, click <mark style="color:green;">**b.)**</mark> **Next**.
+8. If everything is correctly configured, you will get a message indicating <mark style="color:green;">**a.)**</mark> the connection is **Successfully created.** After this, click <mark style="color:green;">**b.)**</mark> **Next**.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_xcc_connection_success.png" alt=""><figcaption></figcaption></figure>
 
-5. The next screen shows the settings for the crawl, accept the default and click **Next**.
+9. The next screen shows the settings for the crawl, accept the default and click **Next**.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_xcc_crawl_settings.png" alt=""><figcaption></figcaption></figure>
 
-6.  Since you are elevated as **ais\_high\_security\_admin**, you will be able to set this up. If you skipped adding the **ais\_high\_security\_admin** role and elevating to it, you will not be able to set this step up; i.e. even accepting defaults is not possible if you do not have elevated roles in this step. You can do a mapping <mark style="color:green;">**a.)**</mark> Test as an optional step. Otherwise, if you have the correct roles and have elevated your access, you can simply <mark style="color:green;">**b.)**</mark> click **Next**.&#x20;
+10. Since you are elevated as **ais\_high\_security\_admin**, you will be able to set this up. If you skipped adding the **ais\_high\_security\_admin** role and elevating to it, you will not be able to set this step up; i.e. even accepting defaults is not possible if you do not have elevated roles in this step. You can do a mapping <mark style="color:green;">**a.)**</mark> Test as an optional step. Otherwise, if you have the correct roles and have elevated your access, you can simply <mark style="color:green;">**b.)**</mark> click **Next**.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-7.  In the next screen, <mark style="color:green;">**a.)**</mark> click **Full document crawl**, <mark style="color:green;">**b.)**</mark> tick **Crawl user permissions**, then finaly <mark style="color:green;">**c.)**</mark> click **Next**. If for whatever reason you miss the setting in crawling permissions, don't worry, it is possible to run it separately.
+    <figure><img src="../.gitbook/assets/sc_xcc_mapping_test.png" alt=""><figcaption></figcaption></figure>
+11. In the next screen, <mark style="color:green;">**a.)**</mark> click **Full document crawl**, <mark style="color:green;">**b.)**</mark> tick **Crawl user permissions**, then finally <mark style="color:green;">**c.)**</mark> click **Next**. If for whatever reason you miss the setting in crawling permissions, don't worry, it is possible to run it separately.
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-8.  Click **Proceed**.
+    <figure><img src="../.gitbook/assets/sc_xcc_full_crawl_options.png" alt=""><figcaption></figcaption></figure>
+12. Click **Proceed**.
 
-    <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-9.  Accept default settings and click **Save**.
+    <figure><img src="../.gitbook/assets/sc_xcc_crawl_proceed.png" alt=""><figcaption></figcaption></figure>
+13. Accept default settings and click **Save**.
 
-    <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-10. It will take \~1 minute for the **User Mapping** and **Document** crawls to complete.
+    <figure><img src="../.gitbook/assets/sc_xcc_crawl_save.png" alt=""><figcaption></figcaption></figure>
+14. It will take \~1 minute for the **User Mapping** and **Document** crawls to complete.
 
-    <figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="534"><figcaption></figcaption></figure>
-11. Remove your role elevation, it is no longer needed at this point. Click on <mark style="color:green;">**a.)**</mark> your user **System Administrator** > then <mark style="color:green;">**b.)**</mark> click on **Elevate role**.
+    <figure><img src="../.gitbook/assets/sc_xcc_crawls_complete.png" alt="" width="534"><figcaption></figcaption></figure>
+15. Remove your role elevation, it is no longer needed at this point. Click on <mark style="color:green;">**a.)**</mark> your user **System Administrator** > then <mark style="color:green;">**b.)**</mark> click on **Elevate role**.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_xcc_elevate_role_menu.png" alt=""><figcaption></figcaption></figure>
 
-6.  Deselect <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** then <mark style="color:green;">**b.)**</mark> click on **Update**.
+16. Deselect <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** then <mark style="color:green;">**b.)**</mark> click on **Update**.
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-7.  Navigate to All > <mark style="color:green;">**a.)**</mark> type **Employee Center** > <mark style="color:green;">**b.)**</mark> click on **Employee Center**.
+    <figure><img src="../.gitbook/assets/sc_xcc_deselect_ais_role.png" alt=""><figcaption></figcaption></figure>
+17. Navigate to All > <mark style="color:green;">**a.)**</mark> type **Employee Center** > <mark style="color:green;">**b.)**</mark> click on **Employee Center**.
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-8.  This will lead to the **Employee Center** home page. Note the **Ask Now Assist for help or search**. This is where you will type the query.
+    <figure><img src="../.gitbook/assets/sc_xcc_employee_center_nav.png" alt=""><figcaption></figcaption></figure>
+18. This will lead to the **Employee Center** home page. Note the **Ask Now Assist for help or search**. This is where you will type the query.
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-9.  &#x20;In that dialog, type: **Marketing team cost centre in France seems to have gone over-budget. Can you look for any documents that can assist in checking if there are management directives which might have triggered this?** Then hit **Return/Enter ↵**.
+    <figure><img src="../.gitbook/assets/sc_xcc_employee_center_home.png" alt=""><figcaption></figcaption></figure>
+19. In that dialog, type: **Marketing team cost centre in France seems to have gone over-budget. Can you look for any documents that can assist in checking if there are management directives which might have triggered this?** Then hit **Return/Enter ↵**.
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-10. You will get a <mark style="color:green;">**a.)**</mark> detailed response based on the SharePoint documents that were crawled earlier, which is also aligned with the over-budget entries. Click on the <mark style="color:green;">**b.)**</mark> number **1** then <mark style="color:green;">**c.)**</mark> Take not of the PDF file **Strategic Memo - European Product Launch.pdf**. No need to click this file as this will require SharePoint login which is not provided for this activity. <mark style="color:$warning;">**Note:**</mark> as Now Assist, like any LLM-based service is probabilistic, you might get a different response or format to what you see in the screenshot below but the key ideas remain the same.
+    <figure><img src="../.gitbook/assets/sc_xcc_now_assist_query.png" alt=""><figcaption></figcaption></figure>
+20. You will get a <mark style="color:green;">**a.)**</mark> detailed response based on the SharePoint documents that were crawled earlier, which is also aligned with the over-budget entries. Click on the <mark style="color:green;">**b.)**</mark> number **1** then <mark style="color:green;">**c.)**</mark> take note of the PDF file **Strategic Memo - European Product Launch.pdf**. No need to click this file as this will require SharePoint login which is not provided for this activity. <mark style="color:$warning;">**Note:**</mark> as Now Assist, like any LLM-based service is probabilistic, you might get a different response or format to what you see in the screenshot below but the key ideas remain the same.
 
 <figure><img src="../.gitbook/assets/sc_xcc_response_detail.png" alt=""><figcaption></figcaption></figure>
 
-16. For reference, a screenshot of the PDF that was used as source on why cost center **MKTG-FR-PR** went over-budget is shown below.&#x20;
+21. For reference, a screenshot of the PDF that was used as source on why cost center **MKTG-FR-PR** went over-budget is shown below.&#x20;
 
 <figure><img src="../.gitbook/assets/sc_xcc_overbudget.png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusion
 
-Congratulations! You have completed configuration of the **External Content Connector** integration that allows ServiceNow read indexed unstructured documents to supplement unstructured data for both interactive and AI Agent-based workflows.
+Congratulations! You have completed configuration of the **External Content Connector** integration that allows ServiceNow to read indexed unstructured documents to supplement unstructured data for both interactive and AI Agent-based workflows.
 
 ## Next step
 

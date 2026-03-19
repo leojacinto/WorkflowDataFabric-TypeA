@@ -8,7 +8,7 @@ icon: link
 
 This lab will walk you through the configuration and usage of **Actions** and **Flows** to get expense data from an external source periodically or ad hoc and trigger an agent which will evaluate the expense data and create a Finance case if the involved cost center will be over budget.
 
-There are dedicated Integration Hub and Flow Designer labs; hence, the focus of this exercise is to walk through the configurations in AI Agent Studio and Flow Designer. There is an exercise at the end for you to configure an **Action**, which aims provide an understanding on how the AI Agents are triggered.
+There are dedicated Integration Hub and Flow Designer labs; hence, the focus of this exercise is to walk through the configurations in AI Agent Studio and Flow Designer. There is an exercise at the end for you to configure an **Action**, which aims to provide an understanding on how the AI Agents are triggered.
 
 ## Lab Sections and Objectives
 
@@ -120,7 +120,7 @@ These are required preparation steps in platform level. These are cross configur
 5.  In the **Roles** tab, click **Edit**.
 
     <figure><img src="../.gitbook/assets/sc_common_roles_tab_edit.png" alt=""><figcaption></figcaption></figure>
-6.  Search for <mark style="color:green;">**a.)**</mark> **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**b.)**</mark> click **Save**. You will notice that there are also roles for integration and viewer purposes which can be assigned for users who will need less privileges.
+6.  Search for <mark style="color:green;">**a.)**</mark> **sn\_aia.admin** > <mark style="color:green;">**b.)**</mark> click on **sn\_aia.admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**d.)**</mark> click **Save**. You will notice that there are also roles for integration and viewer purposes which can be assigned for users who will need less privileges.
 
     <figure><img src="../.gitbook/assets/sc_ihub_roles_sn_aia_save.png" alt=""><figcaption></figcaption></figure>
 7.  You will get <mark style="color:green;">**a.)**</mark> messages such as **Adding Role agent\_role\_config\_viewer to admin**, there will be 4 of such messages > <mark style="color:green;">**b.)**</mark> right-click on the top panel and click **Save**.
@@ -158,7 +158,7 @@ These are required preparation steps in platform level. These are cross configur
 
 <figure><img src="../.gitbook/assets/sc_common_now_assist_admin_nav.png" alt="" width="298"><figcaption></figcaption></figure>
 
-18. Go to> <mark style="color:green;">**a.)**</mark> **Now Assist panel** then <mark style="color:green;">**b.)**</mark> click **Turn on**. This is an aditional configuration to ensure **Now Assist panel** is accessible.
+18. Go to> <mark style="color:green;">**a.)**</mark> **Now Assist panel** then <mark style="color:green;">**b.)**</mark> click **Turn on**. This is an additional configuration to ensure **Now Assist panel** is accessible.
 
 <figure><img src="../.gitbook/assets/sc_common_now_assist_turn_on.png" alt="" width="563"><figcaption></figcaption></figure>
 

@@ -155,19 +155,19 @@ Add MCP instructions to the agent specialty. Add the variance-baseline-search MC
 
 <figure><img src="../.gitbook/assets/sc_mcp_define_role_neon_step.png" alt=""><figcaption></figcaption></figure>
 
-4.  Click **Save and Continue**.
+2.  Click **Save and Continue**.
 
     <figure><img src="../.gitbook/assets/sc_mcp_save_and_continue.png" alt=""><figcaption></figcaption></figure>
-5.  Navigate to <mark style="color:green;">**a.)**</mark> **Add tools and information** > <mark style="color:green;">**b.)**</mark> **Add tool** > <mark style="color:green;">**c.)**</mark> > **MCP server tool**.
+3.  Navigate to <mark style="color:green;">**a.)**</mark> **Add tools and information** > <mark style="color:green;">**b.)**</mark> **Add tool** > <mark style="color:green;">**c.)**</mark> > **MCP server tool**.
 
     <figure><img src="../.gitbook/assets/sc_mcp_add_tool_neon.png" alt=""><figcaption></figcaption></figure>
-6.  In the pop-up that appears, <mark style="color:green;">**a.)**</mark> click on the **dropdown** > <mark style="color:green;">**b.)**</mark> select **Neon MCP**.
+4.  In the pop-up that appears, <mark style="color:green;">**a.)**</mark> click on the **dropdown** > <mark style="color:green;">**b.)**</mark> select **Neon MCP**.
 
     <figure><img src="../.gitbook/assets/sc_mcp_select_neon.png" alt=""><figcaption></figcaption></figure>
-7.  In the same pop-up screen, select the tool **run\_sql**.
+5.  In the same pop-up screen, select the tool **run\_sql**.
 
     <figure><img src="../.gitbook/assets/sc_mcp_variance_baseline_neon.png" alt=""><figcaption></figcaption></figure>
-8. Still in the same pop-up screen provide the following details. Screenshot on how the settings should look like immediately follows. You only need to modify three settings and leave the rest as they are.
+6. Still in the same pop-up screen provide the following details. Screenshot on how the settings should look like immediately follows. You only need to modify three settings and leave the rest as they are.
 
 <mark style="color:green;">**a.)**</mark> **Name**: **Get Details via Neon MCP**
 
@@ -182,10 +182,10 @@ Add MCP instructions to the agent specialty. Add the variance-baseline-search MC
 
 <figure><img src="../.gitbook/assets/sc_mcp_tool_settings_neon.png" alt="" width="563"><figcaption></figcaption></figure>
 
-13. The pop-up will exit and you should get a section on **Model Context Protocol tools** which should look like below.
+7. The pop-up will exit and you should get a section on **Model Context Protocol tools** which should look like below.
 
     <figure><img src="../.gitbook/assets/sc_mcp_tools_section_neon.png" alt=""><figcaption></figcaption></figure>
-14. Click **Save and Continue**.
+8. Click **Save and Continue**.
 
     <figure><img src="../.gitbook/assets/sc_common_save_and_continue (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -193,13 +193,13 @@ Add MCP instructions to the agent specialty. Add the variance-baseline-search MC
 
 Accept default security controls. Configure channels and status. Save and test.
 
-13. Since this is copied from an existing AI Agent configuration, simply accept the default values for **Define security controls** and its 2 sub-items. Also keep A**dd triggers value** blank.
+1. Since this is copied from an existing AI Agent configuration, simply accept the default values for **Define security controls** and its 2 sub-items. Also keep A**dd triggers value** blank.
 
     <figure><img src="../.gitbook/assets/sc_mcp_security_defaults.png" alt=""><figcaption></figcaption></figure>
-14. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**. <mark style="color:$warning;">**Note:**</mark> if Chat Assistants (step <mark style="color:green;">**14.c.**</mark>) does not give you options, check and execute the steps in [Lab Exercise: Integration Hub > Platform Configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#preparation-platform-configuration) > Steps 9 to 18; esp. if you are doing this lab standalone or have skipped the [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub) portion.&#x20;
+2. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**. <mark style="color:$warning;">**Note:**</mark> if Chat Assistants (step <mark style="color:green;">**2.c.**</mark>) does not give you options, check and execute the steps in [Lab Exercise: Integration Hub > Platform Configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#preparation-platform-configuration) > Steps 9 to 18; esp. if you are doing this lab standalone or have skipped the [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub) portion.&#x20;
 
     <figure><img src="../.gitbook/assets/sc_mcp_channels_status_neon.png" alt=""><figcaption></figcaption></figure>
-15. You **MIGHT** be alerted of potential duplicates but this is due to the multiple AI Agents created to test various integration scenarios. Click **Ignore and continue**.
+3. You **MIGHT** be alerted of potential duplicates but this is due to the multiple AI Agents created to test various integration scenarios. Click **Ignore and continue**.
 
     <figure><img src="../.gitbook/assets/sc_mcp_duplicate_warning.png" alt=""><figcaption></figcaption></figure>
 
@@ -217,7 +217,7 @@ Enter test prompt to process an expense event. Verify the MCP tool returns match
 
 <figure><img src="../.gitbook/assets/sc_mcp_test_running_neon.png" alt=""><figcaption></figcaption></figure>
 
-3. Finally, you will notice that the **Get Details in Neon MCP** has obtained the closest matching the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.
+3. Finally, you will notice that the **Get Details in Neon MCP** has obtained the closest match for the value of cost center CC\_IT\_001. For this exercise, we only returned the raw JSON value to demonstrate the MCP capability where we did not use any SQL or API to return the matching row; instead we just provided a high-level instruction seen in step 12.
 
 <figure><img src="../.gitbook/assets/sc_mcp_test_results_neon.png" alt=""><figcaption></figcaption></figure>
 
@@ -225,7 +225,7 @@ Enter test prompt to process an expense event. Verify the MCP tool returns match
 
 ## Conclusion
 
-Congratulations! You have created the **MCP Server** integrations that allows ServiceNow to make use of MCP capabilities from other systems outside ServiceNow, allowing LLM-powered integrations alternative APIs ,that require less development.
+Congratulations! You have created the **MCP Server** integrations that allows ServiceNow to make use of MCP capabilities from other systems outside ServiceNow, allowing LLM-powered integrations alternative to APIs that require less development.
 
 ## Next step
 

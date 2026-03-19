@@ -363,7 +363,7 @@ Kafka can also be set up in your local machine using in this page https://kafka.
 
 9. Put the downloaded files into a folder called **servicenow\_certs**. Doing this will avoid permission issues in the next steps.
 10. The next steps can be done in docker desktop or in your own machine. Steps 11 to 17 shows how it can be done in docker and the docker-specific steps can be omitted if this is done in your local machine.
-11. Open docker desktop, go to Containers, ensure the the image created in part **Pre-requisites: Recommended** has been started indicated by a green dot beside it. If not, click on the **Start** button (play icon). In this example, the image name is awesome\_cerf. You will have a randomized image name
+11. Open docker desktop, go to Containers, ensure the image created in part **Pre-requisites: Recommended** has been started indicated by a green dot beside it. If not, click on the **Start** button (play icon). In this example, the image name is awesome\_cerf. You will have a randomized image name
 
 <figure><img src="../.gitbook/assets/sc_producer_start_container.png" alt=""><figcaption></figcaption></figure>
 

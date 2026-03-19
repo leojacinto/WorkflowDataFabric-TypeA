@@ -155,7 +155,7 @@ This provides the steps needed to connect ServiceNow to the ERP system to obtain
 
 Clone the OOTB DP: Cost Center model. Label it SAP Cost Center. Assign ERP system S4D.
 
-1.  Click on <mark style="color:green;">**a.)**</mark> **Models (database icon)** > <mark style="color:green;">**b.)**</mark> click **Model Name** > **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type **DP: Cost Center** > <mark style="color:green;">**d.)**</mark> click **Apply**. We will replicate the structure of a this OOTB data model.
+1.  Click on <mark style="color:green;">**a.)**</mark> **Models (database icon)** > <mark style="color:green;">**b.)**</mark> click **Model Name** > **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type **DP: Cost Center** > <mark style="color:green;">**d.)**</mark> click **Apply**. We will replicate the structure of this OOTB data model.
 
     <figure><img src="../.gitbook/assets/sc_zcc_models_filter_cost_center.png" alt=""><figcaption></figcaption></figure>
 2.  Click on **DP: Cost Center** with Short Description **Data Product: Cost Center ( Function Call )**.
@@ -192,7 +192,7 @@ Review the BAPI\_COSTCENTER\_GETDETAIL1 entity. Explore Specify Inputs and Choos
 
 Filter and review SAP Cost Center extraction table. Navigate to the target table containing Cost Center Master Data from SAP.
 
-1.  Go to <mark style="color:green;">**a.)**</mark> **Extraction tables (Sankey diagram icon)** and click <mark style="color:green;">**b.)**</mark> **Name** > **more (vertical three dots)** > <mark style="color:green;">**c.**</mark> type **SAP Cost Center** and <mark style="color:green;">**d.)**</mark> click **Apply**. **Extraction tables** are used as persistence layer for **ERP models**, i.e. data is stored here from Extract Transform Load (ETL) processes as an alternative to reading ERP data via Zero Copy. This is useful especially if the ERP table you are connecting to has millions of rows OR are not frequently updated. In our use case, while cost center master data is relatively small in many customer environments, they do not change frequently.
+1.  Go to <mark style="color:green;">**a.)**</mark> **Extraction tables (Sankey diagram icon)** and click <mark style="color:green;">**b.)**</mark> **Name** > **more (vertical three dots)** > <mark style="color:green;">**c.)**</mark> type **SAP Cost Center** and <mark style="color:green;">**d.)**</mark> click **Apply**. **Extraction tables** are used as persistence layer for **ERP models**, i.e. data is stored here from Extract Transform Load (ETL) processes as an alternative to reading ERP data via Zero Copy. This is useful especially if the ERP table you are connecting to has millions of rows OR are not frequently updated. In our use case, while cost center master data is relatively small in many customer environments, they do not change frequently.
 
     <figure><img src="../.gitbook/assets/sc_zcc_extraction_tables_filter.png" alt=""><figcaption></figcaption></figure>
 2.  Click on **SAP Cost Center**.
@@ -275,7 +275,7 @@ Create a data fabric table from the Snowflake data asset. Set Cost Center as a R
 
 View the data assets created and open the data fabric table contents.
 
-1. This will lead you to a screen showing the data assets created. In the same screen, click on the <mark style="color:green;">**a.)**</mark> three vertical dots then <mark style="color:green;">**b.)**</mark> **Open list** to open see the contents of the table.
+1. This will lead you to a screen showing the data assets created. In the same screen, click on the <mark style="color:green;">**a.)**</mark> three vertical dots then <mark style="color:green;">**b.)**</mark> **Open list** to see the contents of the table.
 
 <figure><img src="../.gitbook/assets/sc_zcc_data_assets_open_list.png" alt=""><figcaption></figcaption></figure>
 

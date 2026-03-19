@@ -172,7 +172,7 @@ Navigate to Now Assist Admin Skills. Activate the Extract information from docum
 
 <figure><img src="../.gitbook/assets/sc_ldi_threshold_search.png" alt=""><figcaption></figcaption></figure>
 
-3. Change the scope to Global by navigating to the <mark style="color:green;">**a.)**</mark> **globe icon** and <mark style="color:green;">**b.)**</mark> searching and/or clicking **Forecast Variance** application scope.
+5. Change the scope back by navigating to the <mark style="color:green;">**a.)**</mark> **globe icon** and <mark style="color:green;">**b.)**</mark> searching and/or clicking **Forecast Variance** application scope.
 
 <figure><img src="../.gitbook/assets/sc_ldi_scope_forecast_variance.png" alt="" width="319"><figcaption></figcaption></figure>
 
@@ -266,7 +266,7 @@ Navigate to Now Assist Admin Skills. Review the extracted document information i
 
 <figure><img src="../.gitbook/assets/sc_ldi_create_usecase.png" alt=""><figcaption></figcaption></figure>
 
-4. In the screen that follows, go to <mark style="color:green;">**a.)**</mark> **Test Outputs** > <mark style="color:green;">**b.)**</mark> note the **Task ID** automatically generated when you created an entry in **x\_snc\_forecast\_v\_0\_variance\_task**. Your task ID may differ from what is show here. Finally, > <mark style="color:green;">**c.)**</mark> > click on **Process**.
+4. In the screen that follows, go to <mark style="color:green;">**a.)**</mark> **Test Outputs** > <mark style="color:green;">**b.)**</mark> note the **Task ID** automatically generated when you created an entry in **x\_snc\_forecast\_v\_0\_variance\_task**. Your task ID may differ from what is shown here. Finally, > <mark style="color:green;">**c.)**</mark> > click on **Process**.
 
 <figure><img src="../.gitbook/assets/sc_ldi_test_outputs.png" alt=""><figcaption></figcaption></figure>
 

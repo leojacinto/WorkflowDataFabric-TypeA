@@ -88,7 +88,7 @@ Provide the following to your lab participants. These are entered during [Lab Ex
 
 > **Important:** The API Key field in ServiceNow must include the word **Bearer** as a prefix. For example: `Bearer napi_abc123...`. Without this prefix, the connection will fail with a 401 error.
 
-Additionally, provide the following for [Lab Exercise: Model Context Protocol > Configure MCP Step and Tool > Step 8](../extended-exercises/lab-exercise-model-context-protocol-server-client.md#hands-on-configure-mcp-step-and-tool), to be entered in the **Tool description** field:
+Additionally, provide the following for [Lab Exercise: Model Context Protocol > Configure MCP Step and Tool > Step 6](../extended-exercises/lab-exercise-model-context-protocol-server-client.md#hands-on-configure-mcp-step-and-tool), to be entered in the **Tool description** field:
 
 ```
 projectId: <YOUR_PROJECT_ID>
