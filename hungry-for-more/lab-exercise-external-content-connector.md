@@ -69,13 +69,13 @@ graph LR
     <figure><img src="../.gitbook/assets/sc_common_search_admin_user.png" alt=""><figcaption></figcaption></figure>
 3.  Set the <mark style="color:green;">**a.)**</mark> **Email** to **demouser@wdfdemo.onmicrosoft.com**, <mark style="color:green;">**b.)**</mark> click **Save**. Then <mark style="color:green;">**c.)**</mark> click **Roles** then <mark style="color:green;">**d.)**</mark> click **Edit**.
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 4.  Search for <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** > <mark style="color:green;">**b.)**</mark> click on **ais\_high\_security\_admin** > <mark style="color:green;">**c.)**</mark> click on > to move the role to the right panel > then <mark style="color:green;">**c.)**</mark> click **Save**.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 5.  Right-click on the top panel and click **Save**.
 
-    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 6.  <mark style="color:red;">**IMPORTANT**</mark>. Log out and log back in. Click on <mark style="color:green;">**a.)**</mark> your user **System Administrator** > then <mark style="color:green;">**b.)**</mark> click on **Log out**.
 
     <figure><img src="../.gitbook/assets/sc_common_logout.png" alt="" width="254"><figcaption></figcaption></figure>
@@ -91,10 +91,10 @@ This does not include steps in setting up XCC to connect to a SharePoint account
     <figure><img src="../.gitbook/assets/sc_ldi_scope_global.png" alt="" width="321"><figcaption></figcaption></figure>
 2.  Elevate your role. Click on <mark style="color:green;">**a.)**</mark> your user System Administrator > then <mark style="color:green;">**b.)**</mark> click on **Elevate role**.
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 3.  Select <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** then <mark style="color:green;">**b.)**</mark> click on **Update**.
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 4. Navigate to All > <mark style="color:green;">**a.)**</mark> type **External Content Connectors** > <mark style="color:green;">**b.)**</mark> click on **External Content Admin Home**.
 
 <figure><img src="../.gitbook/assets/sc_xcc_xcc_home.png" alt=""><figcaption></figcaption></figure>
@@ -136,7 +136,7 @@ This does not include steps in setting up XCC to connect to a SharePoint account
     <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 7.  In the next screen, <mark style="color:green;">**a.)**</mark> click **Full document crawl**, <mark style="color:green;">**b.)**</mark> tick **Crawl user permissions**, then finaly <mark style="color:green;">**c.)**</mark> click **Next**. If for whatever reason you miss the setting in crawling permissions, don't worry, it is possible to run it separately.
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 8.  Click **Proceed**.
 
     <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
@@ -145,40 +145,28 @@ This does not include steps in setting up XCC to connect to a SharePoint account
     <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 10. It will take \~1 minute for the **User Mapping** and **Document** crawls to complete.
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt="" width="534"><figcaption></figcaption></figure>
-11. Click on <mark style="color:green;">**a.)**</mark> **User profile** on top right corner (e.g., SA) > <mark style="color:green;">**b.)**</mark>**&#x20;Impersonate user**.
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="534"><figcaption></figcaption></figure>
+11. Remove your role elevation, it is no longer needed at this point. Click on <mark style="color:green;">**a.)**</mark> your user **System Administrator** > then <mark style="color:green;">**b.)**</mark> click on **Elevate role**.
 
-<figure><img src="../.gitbook/assets/sc_xcc_impersonate.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-9. In the pop-up that appears > <mark style="color:green;">**a.)**</mark> type the name of the XCC-mapped user **Chi Fen** > <mark style="color:green;">**b.)**</mark> click on **Chi Fen** in the drop down <mark style="color:green;">**c.)**</mark> then finally click on **Chi Fen** again to complete impersonation.
+6.  Deselect <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** then <mark style="color:green;">**b.)**</mark> click on **Update**.
 
-<figure><img src="../.gitbook/assets/sc_xcc_select_impersonation_chifen.png" alt="" width="446"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+7.  Navigate to All > <mark style="color:green;">**a.)**</mark> type **Employee Center** > <mark style="color:green;">**b.)**</mark> click on **Employee Center**.
 
-10. You will get an indication that the impersonation is successful if you see a red line on the top panel and if your user profile has changed and has a red line on the portrait image as well.
+    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+8.  This will lead to the **Employee Center** home page. Note the **Ask Now Assist for help or search**. This is where you will type the query.
 
-<figure><img src="../.gitbook/assets/sc_xcc_impersonation_successful.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+9.  &#x20;In that dialog, type: **Marketing team cost centre in France seems to have gone over-budget. Can you look for any documents that can assist in checking if there are management directives which might have triggered this?** Then hit **Return/Enter ↵**.
 
-11. Navigate to All > <mark style="color:green;">**a.)**</mark> type **Employee Center** > <mark style="color:green;">**b.)**</mark> click on **Employee Center**.
-
-<figure><img src="../.gitbook/assets/sc_xcc_employee_center.png" alt=""><figcaption></figcaption></figure>
-
-12. This will lead to the **Employee Center** home page. Click on **Now Assist** ("sparkle" icon) on the bottom right.
-
-<figure><img src="../.gitbook/assets/sc_xcc_employee_center_home_page.png" alt="" width="563"><figcaption></figcaption></figure>
-
-13. This will open a open a pop-up for **Now Assist**. Click on **Expand** (two-headed diagonal icon) on the top right so you can have a better typing workspace.
-
-<figure><img src="../.gitbook/assets/sc_xcc_now_assist.png" alt="" width="311"><figcaption></figcaption></figure>
-
-14. In the expanded pop-up, type: **Marketing team cost centre in France seems to have gone over-budget. Can you look for any documents that can assist in checking if there are management directives which might have triggered this?** Then hit **Return/Enter ↵**.
-
-<figure><img src="../.gitbook/assets/sc_xcc_question.png" alt=""><figcaption></figcaption></figure>
-
-15. You will get a <mark style="color:green;">**a.)**</mark> detailed response based on the SharePoint documents that were crawled earlier, which is also aligned with the over-budget entries. Click on the <mark style="color:green;">**b.)**</mark> number **1** then <mark style="color:green;">**c.)**</mark> click on the PDF file **Strategic Memo - European Product Launch.pdf**.
+    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+10. You will get a <mark style="color:green;">**a.)**</mark> detailed response based on the SharePoint documents that were crawled earlier, which is also aligned with the over-budget entries. Click on the <mark style="color:green;">**b.)**</mark> number **1** then <mark style="color:green;">**c.)**</mark> Take not of the PDF file **Strategic Memo - European Product Launch.pdf**. No need to click this file as this will require SharePoint login which is not provided for this activity. <mark style="color:$warning;">**Note:**</mark> as Now Assist, like any LLM-based service is probabilistic, you might get a different response or format to what you see in the screenshot below but the key ideas remain the same.
 
 <figure><img src="../.gitbook/assets/sc_xcc_response_detail.png" alt=""><figcaption></figcaption></figure>
 
-16. You will be directed to the file which has the content explaining why cost center **MKTG-FR-PR** went over-budget. You might be required to provide login/credentials, so if you are executing this lab in a ServiceNow managed environment, credentials to access this document will be provided separately in the lab session for security purposes.
+16. For reference, a screenshot of the PDF that was used as source on why cost center **MKTG-FR-PR** went over-budget is shown below.&#x20;
 
 <figure><img src="../.gitbook/assets/sc_xcc_overbudget.png" alt=""><figcaption></figcaption></figure>
 
