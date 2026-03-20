@@ -91,6 +91,8 @@ graph TB
 
 > **Color Legend:** 🟡 Now Assist | 🟢 Platform | ⚪ User Interaction
 
+> [📊 View High-Resolution Diagram](https://raw.githubusercontent.com/leojacinto/WorkflowDataFabric-TypeA/main/.gitbook/assets/dataflow_lens_document_intelligence.png)
+
 ## Document Intelligence
 
 ### Walkthrough: Document Intelligence Setup
