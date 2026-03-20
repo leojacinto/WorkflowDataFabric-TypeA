@@ -6,9 +6,25 @@ icon: folder-grid
 
 [Take me back to main page](../)
 
-<mark style="color:$warning;">**Note:**</mark> This is a controlled lab and is only accessible in ServiceNow internal demo instances. Please bear with us as we translate this into a widely available lab exercise.
-
 This lab will walk you through the configuration and usage of External Content Connectors as a source of unstructured document data to supplement automations needed in Finance case creation.
+
+## Lab Sections and Objectives
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-external-content-connector.md#data-flow">1</a></td><td>Facilitator</td><td><strong>Context Setting:</strong> Review the data flow diagram showing how ServiceNow uses External Content Connectors to index and search documents from SharePoint.</td></tr></tbody></table>
+
+**Platform Preparation**
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-external-content-connector.md#preparation-steps">2</a></td><td>Student</td><td><strong>Preparation Steps:</strong> Configure admin user email and assign ais_high_security_admin role. Log out and log back in.</td></tr></tbody></table>
+
+**External Content Connector Configuration**
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-external-content-connector.md#connection-and-crawl-config">3</a></td><td>Student</td><td><strong>Connection and Crawl Config:</strong> Create SharePoint connection with authentication credentials. Configure and execute full document crawl with user permissions.</td></tr></tbody></table>
+
+**Testing and Validation**
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-external-content-connector.md#usage-of-external-content-connector">4</a></td><td>Student</td><td><strong>Usage of External Content Connector:</strong> Test Now Assist queries in Employee Center. Verify document search returns relevant SharePoint content.</td></tr></tbody></table>
+
+<table><thead><tr><th width="83">Step</th><th width="106">Who</th><th>Description</th></tr></thead><tbody><tr><td><a href="lab-exercise-external-content-connector.md#conclusion">5</a></td><td>Facilitator</td><td><strong>Conclusion:</strong> Walk through how External Content Connectors enable ServiceNow to leverage unstructured document data for AI-powered workflows.</td></tr></tbody></table>
 
 ## Data flow
 
@@ -61,6 +77,8 @@ graph LR
 
 ### Preparation steps
 
+Configure admin user email and assign ais_high_security_admin role for elevated access to External Content Connector configuration.
+
 1.  Navigate to **All** > <mark style="color:green;">**a.)**</mark> type **Users and Groups** > <mark style="color:green;">**b.)**</mark> click on **Users and Groups > Users**.
 
     <figure><img src="../.gitbook/assets/sc_common_agent_studio_users_nav.png" alt=""><figcaption></figcaption></figure>
@@ -70,7 +88,7 @@ graph LR
 3.  Set the <mark style="color:green;">**a.)**</mark> **Email** to **demouser@wdfdemo.onmicrosoft.com**, <mark style="color:green;">**b.)**</mark> click **Save**. Then <mark style="color:green;">**c.)**</mark> click **Roles** then <mark style="color:green;">**d.)**</mark> click **Edit**.
 
     <figure><img src="../.gitbook/assets/sc_xcc_prep_email_roles_edit.png" alt=""><figcaption></figcaption></figure>
-4.  Search for <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** > <mark style="color:green;">**b.)**</mark> click on **ais\_high\_security\_admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**d.)**</mark> click **Save**.&#x20;
+4.  Search for <mark style="color:green;">**a.)**</mark> **ais\_high\_security\_admin** > <mark style="color:green;">**b.)**</mark> click on **ais\_high\_security\_admin** > <mark style="color:green;">**c.)**</mark> click on **>** to move the role to the right panel > then <mark style="color:green;">**d.)**</mark> click **Save**.
 
     <figure><img src="../.gitbook/assets/sc_xcc_prep_add_ais_role.png" alt="" width="563"><figcaption></figcaption></figure>
 5.  Right-click on the top panel and click **Save**.
@@ -80,11 +98,9 @@ graph LR
 
     <figure><img src="../.gitbook/assets/sc_common_logout.png" alt="" width="254"><figcaption></figcaption></figure>
 
-### Crawl and Usage of External Content Connectors
+### Connection and Crawl Config
 
-This provides the steps to execute a crawl of documents to file repositories XCC (External Content Connectors) are set up for. This also provides the steps in a real life scenario on how XCC can help end users with their daily tasks.
-
-This does not include steps in setting up XCC to connect to a SharePoint account as that requires SharePoint administrator rights which are not widely available to various personas.
+Create SharePoint connection with authentication credentials. Configure and execute full document crawl with user permissions to index documents for AI-powered search.
 
 1.  For this step, change the scope to Global by navigating to the <mark style="color:green;">**a.)**</mark> **globe icon** and clicking <mark style="color:green;">**b.)**</mark> **Global** application scope.
 
@@ -156,17 +172,24 @@ This does not include steps in setting up XCC to connect to a SharePoint account
 17. Navigate to All > <mark style="color:green;">**a.)**</mark> type **Employee Center** > <mark style="color:green;">**b.)**</mark> click on **Employee Center**.
 
     <figure><img src="../.gitbook/assets/sc_xcc_employee_center_nav.png" alt=""><figcaption></figcaption></figure>
-18. This will lead to the **Employee Center** home page. Note the **Ask Now Assist for help or search**. This is where you will type the query.
 
-    <figure><img src="../.gitbook/assets/sc_xcc_employee_center_home.png" alt=""><figcaption></figcaption></figure>
-19. In that dialog, type: **Marketing team cost centre in France seems to have gone over-budget. Can you look for any documents that can assist in checking if there are management directives which might have triggered this?** Then hit **Return/Enter ↵**.
+### Usage of External Content Connector
 
-    <figure><img src="../.gitbook/assets/sc_xcc_now_assist_query.png" alt=""><figcaption></figcaption></figure>
-20. You will get a <mark style="color:green;">**a.)**</mark> detailed response based on the SharePoint documents that were crawled earlier, which is also aligned with the over-budget entries. Click on the <mark style="color:green;">**b.)**</mark> number **1** then <mark style="color:green;">**c.)**</mark> take note of the PDF file **Strategic Memo - European Product Launch.pdf**. No need to click this file as this will require SharePoint login which is not provided for this activity. <mark style="color:$warning;">**Note:**</mark> as Now Assist, like any LLM-based service is probabilistic, you might get a different response or format to what you see in the screenshot below but the key ideas remain the same.
+Test Now Assist queries in Employee Center to verify that indexed SharePoint documents are searchable and provide relevant context for finance-related inquiries.
+
+1. This will lead to the **Employee Center** home page. Note the **Ask Now Assist for help or search**. This is where you will type the query.
+
+<figure><img src="../.gitbook/assets/sc_xcc_employee_center_home.png" alt=""><figcaption></figcaption></figure>
+
+2. In that dialog, type: **Marketing team cost centre in France seems to have gone over-budget. Can you look for any documents that can assist in checking if there are management directives which might have triggered this?** Then hit **Return/Enter ↵**.
+
+<figure><img src="../.gitbook/assets/sc_xcc_now_assist_query.png" alt=""><figcaption></figcaption></figure>
+
+3. You will get a <mark style="color:green;">**a.)**</mark> detailed response based on the SharePoint documents that were crawled earlier, which is also aligned with the over-budget entries. Click on the <mark style="color:green;">**b.)**</mark> number **1** then <mark style="color:green;">**c.)**</mark> take note of the PDF file **Strategic Memo - European Product Launch.pdf**. No need to click this file as this will require SharePoint login which is not provided for this activity. <mark style="color:$warning;">**Note:**</mark> as Now Assist, like any LLM-based service is probabilistic, you might get a different response or format to what you see in the screenshot below but the key ideas remain the same.
 
 <figure><img src="../.gitbook/assets/sc_xcc_response_detail.png" alt=""><figcaption></figcaption></figure>
 
-21. For reference, a screenshot of the PDF that was used as source on why cost center **MKTG-FR-PR** went over-budget is shown below.&#x20;
+21. For reference, a screenshot of the PDF that was used as source on why cost center **MKTG-FR-PR** went over-budget is shown below.
 
 <figure><img src="../.gitbook/assets/sc_xcc_overbudget.png" alt=""><figcaption></figcaption></figure>
 
