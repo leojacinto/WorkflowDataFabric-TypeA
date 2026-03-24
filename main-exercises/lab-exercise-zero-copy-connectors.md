@@ -233,7 +233,7 @@ Navigate to Workflow Data Fabric Hub. Review the established Snowflake connectio
 
 2.  <mark style="color:$warning;">**If you are on Australia:**</mark> In the ServiceNow navigation, go to All > <mark style="color:green;">**a.)**</mark> type **Workflow Data Fabric Hub** > <mark style="color:green;">**b.)**</mark> go to **Workflow Data Fabric > Connect Hub**.
 
-    <figure><img src="../.gitbook/assets/sc_zcc_wdf_hub_nav_au.png.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/sc_zcc_wdf_hub_nav_au.png" alt=""><figcaption></figcaption></figure>
 3.  In the landing page, go to **Established connections** > **Snowflake Connection (S)**. <mark style="color:red;">**Note:**</mark> this established connection is configured specifically for instances used in ServiceNow-led labs.
 
     <figure><img src="../.gitbook/assets/sc_zcc_snowflake_established.png" alt="" width="563"><figcaption></figcaption></figure>
