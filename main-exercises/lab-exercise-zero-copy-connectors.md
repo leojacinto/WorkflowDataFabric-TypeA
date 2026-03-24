@@ -227,9 +227,13 @@ This provides the steps needed to connect ServiceNow to the Cloud Data Warehouse
 
 Navigate to Workflow Data Fabric Hub. Review the established Snowflake connection details.
 
-2.  In the ServiceNow navigation, go to All > <mark style="color:green;">**a.)**</mark> type **Workflow Data Fabric Hub** > <mark style="color:green;">**b.)**</mark> go to **Workflow Data Fabric Hub**.
+1. <mark style="color:$warning;">**If you are on Zurich:**</mark> In the ServiceNow navigation, go to All > <mark style="color:green;">**a.)**</mark> type **Workflow Data Fabric Hub** > <mark style="color:green;">**b.)**</mark> go to **Workflow Data Fabric Hub**.
 
-    <figure><img src="../.gitbook/assets/sc_zcc_wdf_hub_nav.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc_zcc_wdf_hub_nav_zu.png" alt=""><figcaption></figcaption></figure>
+
+2.  <mark style="color:$warning;">**If you are on Australia:**</mark> In the ServiceNow navigation, go to All > <mark style="color:green;">**a.)**</mark> type **Workflow Data Fabric Hub** > <mark style="color:green;">**b.)**</mark> go to **Workflow Data Fabric > Connect Hub**.
+
+    <figure><img src="../.gitbook/assets/sc_zcc_wdf_hub_nav_au.png.png" alt=""><figcaption></figcaption></figure>
 3.  In the landing page, go to **Established connections** > **Snowflake Connection (S)**. <mark style="color:red;">**Note:**</mark> this established connection is configured specifically for instances used in ServiceNow-led labs.
 
     <figure><img src="../.gitbook/assets/sc_zcc_snowflake_established.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -241,35 +245,36 @@ Navigate to Workflow Data Fabric Hub. Review the established Snowflake connectio
 
 Create a data fabric table from the Snowflake data asset. Set Cost Center as a Reference field to the ERP extraction table. Set GL Account as primary key.
 
-2.  Go to <mark style="color:green;">**a.)**</mark> Data assets > <mark style="color:green;">**b.)**</mark> beside **u\_lab\_cc\_summary** click **Create data fabric table**. This screen shows the data assets available for the **Database** and **Warehouse** you configured in the previous screen. In this example, only two tables exist in the database **WDF\_DEMOHUB**.
+1. Go to <mark style="color:green;">**a.)**</mark> Data assets > <mark style="color:green;">**b.)**</mark> beside **u\_lab\_cc\_summary** click **Create data fabric table**. This screen shows the data assets available for the **Database** and **Warehouse** you configured in the previous screen. In this example, only two tables exist in the database **WDF\_DEMOHUB**.
 
-    <figure><img src="../.gitbook/assets/sc_zcc_data_assets_create.png" alt="" width="563"><figcaption></figcaption></figure>
-3.  Provide the information needed for <mark style="color:green;">**a.)**</mark> the **Label** e.g. **cc\_summ\_\<your initials>** and the <mark style="color:green;">**b.)**</mark> **Name** which will automatically provided. <mark style="color:red;">**Note:**</mark> keep the name length not more than 35 characters such as what is listed below, e.g. **x\_snc\_forecast\_v\_0\_df\_cc\_summ\_lfr**. Click <mark style="color:green;">**c.)**</mark> **Continue** once done. This will create the data fabric table (hence the df prefix) which will contain only the field and mapping information to the Snowflake table, it will not store the data from Snowflake into ServiceNow. While the intent of setting this up is mainly to show Zero Copy capability, this has multiple advantages such as ensuring cost center summary data from source is up to date as well as avoiding offline copies of the same information (e.g. via managed file transfer) which can result into data breaches.
+<figure><img src="../.gitbook/assets/sc_zcc_data_assets_create.png" alt="" width="563"><figcaption></figcaption></figure>
+
+2.  Provide the information needed for <mark style="color:green;">**a.)**</mark> the **Label** e.g. **cc\_summ\_\<your initials>** and the <mark style="color:green;">**b.)**</mark> **Name** which will automatically provided. <mark style="color:red;">**Note:**</mark> keep the name length not more than 35 characters such as what is listed below, e.g. **x\_snc\_forecast\_v\_0\_df\_cc\_summ\_lfr**. Click <mark style="color:green;">**c.)**</mark> **Continue** once done. This will create the data fabric table (hence the df prefix) which will contain only the field and mapping information to the Snowflake table, it will not store the data from Snowflake into ServiceNow. While the intent of setting this up is mainly to show Zero Copy capability, this has multiple advantages such as ensuring cost center summary data from source is up to date as well as avoiding offline copies of the same information (e.g. via managed file transfer) which can result into data breaches.
 
     <figure><img src="../.gitbook/assets/sc_zcc_df_table_label.png" alt=""><figcaption></figcaption></figure>
-4.  In the screen that immediate follows, click on the tick box beside **Name** and this will include all the fields from the Snowflake data asset to the data fabric table being configured. Customers also have the option to select only the columns needed to speed up loading of data fabric tables.
+3.  In the screen that immediate follows, click on the tick box beside **Name** and this will include all the fields from the Snowflake data asset to the data fabric table being configured. Customers also have the option to select only the columns needed to speed up loading of data fabric tables.
 
     <figure><img src="../.gitbook/assets/sc_zcc_select_all_columns.png" alt=""><figcaption></figcaption></figure>
-5.  Look for **Cost center** column > change the data type from **String** to <mark style="color:green;">**a.)**</mark> **Reference** and click <mark style="color:green;">**b.)**</mark> **Reference** to set the table from which **Cost center** column will refer to. A **Reference** field points to a record in an existing table, so users select from a controlled set instead of typing freehand. This keeps your data consistent and traceable, which matters most when the field drives downstream process logic.
+4.  Look for **Cost center** column > change the data type from **String** to <mark style="color:green;">**a.)**</mark> **Reference** and click <mark style="color:green;">**b.)**</mark> **Reference** to set the table from which **Cost center** column will refer to. A **Reference** field points to a record in an existing table, so users select from a controlled set instead of typing freehand. This keeps your data consistent and traceable, which matters most when the field drives downstream process logic.
 
     <figure><img src="../.gitbook/assets/sc_zcc_cost_center_reference.png" alt=""><figcaption></figcaption></figure>
-6. In the modal pop-up that appears, select the table **sn\_erp\_integration\_cost\_center** which you have set-up in the ZCC for ERP lab exercise.
+5. In the modal pop-up that appears, select the table **sn\_erp\_integration\_cost\_center** which you have set-up in the ZCC for ERP lab exercise.
 
 <figure><img src="../.gitbook/assets/sc_zcc_reference_table.png" alt="" width="375"><figcaption></figcaption></figure>
 
-7. In the same modal pop-up, select **Cost Center**.
+6. In the same modal pop-up, select **Cost Center**.
 
 <figure><img src="../.gitbook/assets/sc_zcc_reference_key.png" alt="" width="375"><figcaption></figcaption></figure>
 
-8. Once completed, click **Set Reference**. This will create the reference to the cost center details from SAP.
+7. Once completed, click **Set Reference**. This will create the reference to the cost center details from SAP.
 
 <figure><img src="../.gitbook/assets/sc_zcc_reference_label.png" alt="" width="375"><figcaption></figcaption></figure>
 
-9. Finally, set GL account as the **Primary** key as shown in the <mark style="color:green;">**a.)**</mark> toggle below. Click <mark style="color:green;">**b.)**</mark> **Finish** once done.
+8. Finally, set GL account as the **Primary** key as shown in the <mark style="color:green;">**a.)**</mark> toggle below. Click <mark style="color:green;">**b.)**</mark> **Finish** once done.
 
 <figure><img src="../.gitbook/assets/sc_zcc_gl_primary_key_finish.png" alt=""><figcaption></figcaption></figure>
 
-10. A pop-up dialog indicating that a primary key has been defined. Click **Confirm**. A primary key lets you distinguish unique records from the source data warehouse, which becomes important in complex analysis.
+9. A pop-up dialog indicating that a primary key has been defined. Click **Confirm**. A primary key lets you distinguish unique records from the source data warehouse, which becomes important in complex analysis.
 
 <figure><img src="../.gitbook/assets/sc_zcc_confirm_pk.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -324,7 +329,7 @@ This is a walk through of how an AI Agent equipped with both deterministic and p
 9.  Next, click on **Define trigger**, which is kept blank. You can add the triggers for the AI Agent here but for the exercise, the AI Agent will be triggered manually to be able to show the detail chat responses and debugging. No further action is required in this section.
 
     <figure><img src="../.gitbook/assets/sc_zcc_define_trigger_blank.png" alt=""><figcaption></figcaption></figure>
-10. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**. <mark style="color:$warning;">**Note:**</mark> if Chat Assistants (step <mark style="color:green;">**10.c.**</mark>) does not give you options, check and execute the steps in [Lab Exercise: Integration Hub > Platform Configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#preparation-platform-configuration) > Steps 9 to 18; esp. if you are doing this lab standalone or have skipped the [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub) portion.&#x20;
+10. Finally, click on <mark style="color:green;">**a.)**</mark> **Select channels and status**. This configures the availability of the AI Agent. In this case, it is enabled and can be accessed using <mark style="color:green;">**b.)**</mark>**&#x20;Now Assist panel** toggled on as well as via <mark style="color:green;">**c.)**</mark>**&#x20;Now Assist in Virtual Agent** added as chat assistant. Click <mark style="color:green;">**d.)**</mark>**&#x20;Save and test**. <mark style="color:$warning;">**Note:**</mark> if Chat Assistants (step <mark style="color:green;">**10.c.**</mark>) does not give you options, check and execute the steps in [Lab Exercise: Integration Hub > Platform Configuration](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub#preparation-platform-configuration) > Steps 9 to 18; esp. if you are doing this lab standalone or have skipped the [Lab Exercise: Integration Hub](https://servicenow-lf.gitbook.io/the-workflow-data-fabric-loom/main-exercises/lab-exercise-integration-hub) portion.
 
     <figure><img src="../.gitbook/assets/sc_zcc_select_channels_save.png" alt=""><figcaption></figcaption></figure>
 
